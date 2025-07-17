@@ -1,0 +1,78 @@
+# Block all bots from crawling the entire site
+User-agent: *
+Disallow: /
+
+# Block specific bots by their user-agent strings
+
+# Googlebot (Google search engine)
+User-agent: Googlebot
+Disallow: /
+
+# Bingbot (Microsoft Bing search engine)
+User-agent: Bingbot
+Disallow: /
+
+# Baidu Spider (Chinese search engine)
+User-agent: Baidu
+Disallow: /
+
+# Yandex Bot (Russian search engine)
+User-agent: Yandex
+Disallow: /
+
+# DuckDuckBot (DuckDuckGo search engine)
+User-agent: DuckDuckBot
+Disallow: /
+
+# Slurp (Yahoo search engine)
+User-agent: Slurp
+Disallow: /
+
+# Facebook External Hit (used for scraping by Facebook)
+User-agent: facebookexternalhit
+Disallow: /
+
+# Pinterest Bot
+User-agent: Pinterestbot
+Disallow: /
+
+# LinkedIn Bot
+User-agent: LinkedInBot
+Disallow: /
+
+# SemrushBot (SEO tool used by SEMrush)
+User-agent: SemrushBot
+Disallow: /
+
+# AhrefsBot (SEO tool used by Ahrefs)
+User-agent: AhrefsBot
+Disallow: /
+
+# Crawler for Alexa (Alexa Web Crawl)
+User-agent: AlexaBot
+Disallow: /
+
+# Sogou Spider (Chinese search engine)
+User-agent: Sogou
+Disallow: /
+
+# Applebot (Apple search engine)
+User-agent: Applebot
+Disallow: /
+
+# Exabot (search engine crawler)
+User-agent: Exabot
+Disallow: /
+
+# MJ12bot (Majestic SEO)
+User-agent: MJ12bot
+Disallow: /
+
+# BingPreview (Bing search preview tool)
+User-agent: BingPreview
+Disallow: /
+
+# Block all bots from crawling anything
+User-agent: *
+Disallow: /
+

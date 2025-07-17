@@ -1,0 +1,22 @@
+---
+layout: 'base.njk'
+---
+
+<!-- <h1>All blogposts</h1> -->
+
+<p>Filter them with: 
+<a href="/tags/">tags</a>
+</p>
+
+<ul class="blog-posts">
+    {% for post in collections.post | reverse %}
+            <li>
+                {% renderTemplate "liquid", post %}
+                <span>{{ date | date: "%b %d, %Y" }}</span>
+                {% endrenderTemplate %}
+                 —
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+            </li>
+    {% endfor %}
+</ul>
+

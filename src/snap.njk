@@ -1,0 +1,15 @@
+---
+    layout: 'base.njk'
+---
+
+<!-- <h1>{{ title }}</h1> -->
+
+<section>
+<div class="gallery">
+    {% for post in collections.snap | reverse %}
+                 <div>
+                    <a href="{{ post.url }}"><img src="{{ post.data.cover }}"></a>
+                </div>
+    {% endfor %}
+</div>
+</section>

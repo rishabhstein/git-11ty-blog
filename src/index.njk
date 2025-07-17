@@ -1,0 +1,80 @@
+---
+title: Welcome
+layout: 'base.njk'
+---
+
+
+
+<p>
+Hello web dweller, I am Rishabh and I welcome you at my online home. Here, I write about a variety of 
+topics ranging from philosophy to Physics.
+</p>
+
+
+<a href="/archives/"><h4>📝 Recent writings:➡️</h4></a>
+
+
+  <div class="h-feed">
+    {% for post in collections.post | reverse %}
+      {% if loop.index <= 2 %}
+      <section class="section">
+          <!-- {{ post.date | postDate }}-->
+          <a href="{{ post.url }}" class="u-url p-name">
+            <h2>{{ post.data.title }} 
+              <img src="/assets/icons/newpost.gif" class="icon-emoji">
+            </h2></a>
+          <br>{{ post.date | postDate }}
+          {{ post.content | wordLimit | safe }}
+          <a href="{{ post.url }}" class="u-url p-name">...more</a>
+      </section>
+        {% endif %}
+    {% endfor %}
+  </div>
+
+
+<hr>
+<a href="/snap/"><h4><img src="/assets/icons/fb-photos.png" class="icon-emoji"> Recent captures:➡️</h4></a>
+
+<section class="section">
+  <div class="container-narrow-gallery">
+    {% for post in collections.snap | reverse %}
+	    {% if loop.index <= 4  %}     
+			    	<a href="{{ post.url }}">
+			    	<img src="{{ post.data.cover }}" alt="{{ post.title }}">
+			    	</a>
+	    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+
+<hr>
+<a href="/books/"><h4>📖 Currently reading:➡️</h4></a>
+
+<section class="section">
+  <div class="book-section">
+    {% for book in collections.books | sort(attribute='date') | reverse %}
+	    {% if book.data.status == "Reading" %}
+
+          {% include 'book-snippet.njk' %}
+
+	    {% endif %}    
+    {% endfor %}
+  </div>
+</section>
+
+<hr>
+<a href="/movies/"><h4>🍿 Recently watched:➡️</h4></a>
+
+<section class="section">
+  <div class="book-section">
+    {% for book in collections.movies | sort(attribute='date') | reverse %}
+	    {% if loop.index <= 4 %}
+       
+      {% include 'book-snippet.njk' %}
+
+	    {% endif %}    
+    {% endfor %}
+  </div>
+</section>
+

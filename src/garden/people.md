@@ -1,0 +1,21 @@
+---
+title: "People I know/met in Physics"
+---
+
+- [Piotr Symczak](https://www.fuw.edu.pl/~piotrek/) (PhD Supervisor)
+- [Dani Or](https://www.unr.edu/cee/people/dani-or), met in Cargese. His work on physics of leaf transevaporation is super cool. [example](https://new.nsf.gov/science-matters/scientists-discover-mechanism-plants-use-control)
+- [Maciej Zwienicki](https://www.plantsciences.ucdavis.edu/people/maciej-zwieniecki), [fascinating plants]
+- [John Selkar](#) [we had a lot of great discussions. His research involves designing unique instruments to solve problems.]
+- [Stephane Douady](https://fr.wikipedia.org/wiki/St%C3%A9phane_Douady)
+- [Annemiek Cornelissen](https://scholar.google.com/citations?user=BksUeFAAAAAJ&hl=en)
+- [John Shaw](https://sandandmud.org/)
+- [Tony Ladd](https://che.ufl.edu/people/faculty/name/tony-ladd/) (collaborator)
+- [Matej Lipar](https://giam.zrc-sazu.si/en/lipar) (collaborator)
+- [Maciej Lisicki](http://softmatter.fuw.edu.pl/)
+- [Tomas Aquino](https://www.idaea.csic.es/person/tomas-aquino/), met in Cargese
+- [Ran Holtzman](http://www.ranholtzman.com/)
+- [Olivier Devauchelle](https://www.ipgp.fr/~devauchelle/), river networks
+- [Guilio Faccini](https://scholar.google.fr/citations?user=MiArm1YAAAAJ&hl=fr)
+- [Andrea Schnepf](https://www.fz-juelich.de/profile/schnepf_a)'s work on [simulations](https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox) of plant roots was fascinating
+- [Peter Kang](https://pkkang.com/home/) (collaborator)
+- [Saad Bamla](https://bhamla.gatech.edu/comics) [Never met him in-person but his work on bug-physics comics is fascinating]

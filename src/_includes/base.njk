@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="sigmarootpi">
+
+    <!-- Adding github for IndieAuth -->
+    <link rel="me" href="https://github.com/rishabhstein">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="/style.css?v=1.0">
+
+    <!-- Fav and touch icons -->
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+
+    <link rel="alternate" type="application/rss+xml" title="Rishabh's Blog Feed" href="/feed.xml" />
+    <script src="/assets/js/sidebar.js" defer></script>
+    <audio id="sidebar-music" src="/assets/sounds/blog_background.mp3" preload="auto" loop></audio>
+
+</head>
+<body>
+
+    {% include 'header.njk' %}
+    <main>
+    <button class="toggle-sidebar">🎶 Live Feed</button>
+    <div class="layout-wrapper">
+    <div class="main-content">
+
+      {{ content | safe }}
+
+    </div> <!--main content end-->
+
+    <div class="right-column"> 
+      <!-- Right Sidebar Column -->  
+      <h3><img src="/assets/icons/fb-announce.png" class="icon-emoji"> Status </h3>
+      <div class="section">
+      <section class="livestatus"> 
+          <div id="statuscafe">
+            <div id="statuscafe-username"></div>
+            <div id="statuscafe-content"></div>
+          </div>
+          <script src="https://status.cafe/current-status.js?name=sigmarootpi" defer></script>
+        </section>
+        </div>
+
+        <h3><img src="/assets/icons/fb-wall.png" class="icon-emoji"> Mini-Feed</h3>
+
+        {% for post in collections.microfeed | reverse %}
+          <section class="section">
+            <a href="{{ post.url }}" class="u-url p-name"><h3>{{ post.data.title }}</h3></a>
+            <br>{{ post.date | postDate }}
+            {{ post.content | wordLimit | safe }}
+            <a href="{{ post.url }}" class="u-url p-name">...more</a>
+          </section>
+        {% endfor %}
+    </div>
+
+    <div class="overlay"></div>
+
+    </div> <!-- layout-wrapper end -->
+    </main>
+    
+    {% include 'footer.njk' %}
+  
+</body>
+</html>

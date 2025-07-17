@@ -1,0 +1,16 @@
+---
+    title: Movie/Series Reviews
+    layout: 'base.njk'
+---
+
+<h4>{{ title }}</h4>
+
+<section class="book-section">
+    {% for movie in collections.movies %}
+	   <div class="book-entry">
+            <a href= "{{ movie.url }}">
+                <img src="{{ movie.data.cover }}" alt="{{ movie.title }}">
+            </a>
+        </div>
+    {% endfor %}
+</section>

@@ -1,0 +1,39 @@
+---
+layout: 'base.njk'
+---
+
+<section class="h-feed">
+  <header>
+    <h1 class="p-name">Cogito, ergo sum</h1>
+      <img src="/assets/logo.png" alt="Rishabh's Photo" class="profile-photo" />
+  </header>
+  <ul>
+    {% for post in collections.post | reverse %}
+    {% if loop.index <= 1 %}
+        <li class="h-entry">
+
+
+          <!-- Post Title and URL -->
+          <a href="{{ post.url }}" class="u-url p-name">{{ post.data.title }}</a>
+
+          <!-- Published Date -->
+           {% renderTemplate "liquid", post %}
+          <time class="dt-published" datetime="{{ date | date: "%b %d, %Y" }}">
+                <span>{{ date | date: "%b %d, %Y" }}</span>
+          </time>
+            {% endrenderTemplate %}
+
+          <!-- Full Content (Only on the Post Page) -->
+          <section class="e-content">
+            <blockquote><p>ATTENTION: The feed URL is updated. So please change it to https://sigmarootpi.com/feed.xml</p></blockquote>
+            <br>
+            <p>{{ post.content | safe }}</p>
+          </section>
+
+
+        </li>
+        <div style="width: 50%; height: 1px;"></div>
+        {% endif %}
+    {% endfor %}
+  </ul>
+</section>

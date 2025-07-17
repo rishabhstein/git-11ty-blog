@@ -1,0 +1,22 @@
+---
+    layout: 'base.njk'
+---
+
+
+<article class="main-article">
+
+<h1>{{ title }}</h1>
+<h3>{{ page.date | postDate }}</h3>
+
+
+<div class="container-narrow">
+        <main>            
+            {{ content | safe }}
+        </main>
+</div>
+
+<blockquote class = "post-footer">    
+    <span>Posted at: {{ page.date | postDate }}</span> <br/>
+    <a href='mailto:sigmarootpi@proton.me?subject=Blogentry: {{ title }}'>Reply via email</a><br />
+</blockquote>
+</article>
