@@ -1,7 +1,7 @@
 ---
 title: "गुरु की खोज"
 published: true
-tags: ["books", "hindi"]
+tags: ["book-post", "hindi"]
 ---
 
 
