@@ -1,6 +1,6 @@
 ---
 title: "A Search In Secret India"
-published: false
+published: true
 tags: ["book-review"]
 author: "Paul Brunton"
 status: "Reading"  # only include books with this status

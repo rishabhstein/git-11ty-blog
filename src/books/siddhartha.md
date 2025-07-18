@@ -1,6 +1,7 @@
 ---
 title: "Siddhartha"
 date: 2025-07-06
+published: true
 status: "Finished"
 cover: "https://covers.openlibrary.org/b/id/6456720-L.jpg"
 ---

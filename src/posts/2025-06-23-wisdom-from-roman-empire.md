@@ -1,7 +1,7 @@
 ---
 title: "Wisdom from Roman empire"
 date: 2025-06-23
-tags: ["books", "book-post"]
+tags: ["book-post"]
 ---
 
 I was reading *Letter of a stoic* by Seneca and in the latest chapter I was surprised by advance nature of Seneca's thoughts--truly ahead of his time. He mentioned how people used to treat their slaves in his forefathers time--the master was regarded as a father figure and even was addressed as such--whereas in his time slaves were treated mostly with disgust and inhumanity.

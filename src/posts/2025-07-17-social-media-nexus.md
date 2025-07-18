@@ -1,7 +1,7 @@
 ---
 title: "Is Social Media a real enemy?"
 date: 2025-07-17
-tags: ["books", "book-post", "social-media"]
+tags: ["book-post", "social-media"]
 ---
 
 I am currently reading **Nexus** by *Yuval Noah Harrari* and just finished the first part--out of three--of the book. This part is about information networks and how, throughout human history, political ideologies such as totalitarianism, authoritarianism and democracy controls the flow of information. For example totalitarian government forces the information to flow through one channel, i.e government, resulting in the centralization of the information, thus of the power. No one can ask any questions or spread the information. Free media is not a thing in this situation.

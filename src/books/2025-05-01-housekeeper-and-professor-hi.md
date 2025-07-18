@@ -1,6 +1,6 @@
 ---
 title: "Book review: The Housekeeper and the Professor (Hi)"
-published: false
+published: true
 tags: ["book-review", "hindi"]
 author: "Yoko Ogawa"
 status: "Finished"  # finished not published

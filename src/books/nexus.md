@@ -1,6 +1,7 @@
 ---
 title: "Nexus"
 date: 2025-06-15
+published: true
 status: "Reading"  # only include books with this status
 cover: "https://covers.openlibrary.org/b/id/14812834-L.jpg"
 ---

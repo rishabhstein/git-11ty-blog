@@ -1,6 +1,6 @@
 ---
 title: "Letter Of A Stoic"
-published: false
+published: true
 tags: ["book-review"]
 author: "Seneca"
 status: "Reading"  # only include books with this status

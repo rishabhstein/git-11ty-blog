@@ -1,7 +1,7 @@
 ---
 title: "Book review: The Guest Cat"
 published: true
-tags: ["book-review"]
+tags: ["book-review", "book-post"]
 author: "Takashi Hiraide"
 status: "Finished"  # only include books with this status
 cover: "/assets/images/book_covers/the-guest-cat.jpg"

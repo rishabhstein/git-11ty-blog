@@ -1,6 +1,6 @@
 ---
 title: "Book review: The Housekeeper and the Professor"
-published: true
+published: false
 tags: ["book-review"]
 author: "Yoko Ogawa"
 status: "Finished"  # only include books with this status
