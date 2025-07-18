@@ -7,12 +7,12 @@
 
 <section class="book-section">
     {% for book in collections.books %}
-	    <!-- {% if book.data.published == true %} -->
+	    {% if book.data.published == true %}
             <div class="book-entry">
                 <a href= "{{ book.url }}">
                 <img src="{{ book.data.cover }}" alt="{{ book.title }}">
                 </a>
             </div>
-	    <!-- {% endif %}     -->
+	    {% endif %}    
     {% endfor %}
 </section>
