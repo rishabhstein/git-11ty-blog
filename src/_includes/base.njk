@@ -49,7 +49,7 @@
         <h3><img src="/assets/icons/fb-wall.png" class="icon-emoji"> Mini-Feed</h3>
 
         {% for post in collections.microfeed | reverse %}
-          {% if loop.index <= 4 %}
+          {% if loop.index <= 3 %}
           <section class="section">
             <a href="{{ post.url }}" class="u-url p-name"><h3>{{ post.data.title }}</h3></a>
             <br>{{ post.date | postDate }}
