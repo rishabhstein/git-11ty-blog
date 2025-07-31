@@ -2,6 +2,7 @@
 title: "The Kite Runner"
 date: 2025-07-22
 status: "Finished"
+published: true
 cover: "https://covers.openlibrary.org/b/id/14846872-L.jpg"
 ---
 
