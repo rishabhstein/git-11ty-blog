@@ -1,5 +1,5 @@
 ---
-title: "Career troubles"
+title: "Anxiety and Voluntary silence"
 date: 2025-08-10
 tags: ["life", "career", "phd"]
 ---
@@ -18,4 +18,4 @@ At this point in my life, I feel strong enough to pursue a career in science, an
 
 I want to write a lot about it, to express as much as I can. But I also feel a limit in words. Just writing this short text made me feel burned out. The extent of it is such that I decided not to speak. From the morning, I am using sign language to communicate with my parents, pretending as if I were a mute. 
 
-Although it might sound extreme, it's a regular practice for me whenever I am overwhelmed. Throughout my PhD, I practiced this speak-fasting because it helped me to calm down in stressful moments. Not speaking removes the burden of being a failure, as I do not need to explain anything to anyone.
+Although it might sound extreme, it's a regular practice for me whenever I am overwhelmed. Throughout my PhD, I practiced this voluntary silence because it helped me to calm down in stressful moments. Not speaking removes the burden of being a failure, as I do not need to explain anything to anyone.
