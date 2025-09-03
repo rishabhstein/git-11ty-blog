@@ -17,3 +17,6 @@ Alas, a common man won't bother because to trust the data and do the fact check 
 I blame the people who are inventing new technology only for the sake of making money. At least *Physicist* takes blame for making the first nuke. But for the other technologies, no one is taking any responsibility. The motto, nowadays, is clear: **Invent and sell**. It does not matter who is buying, who is using, or who is going to be affected.
 
 What do you think? Do you have any ideas how to solve this problem of **climate change awareness**?
+
+--
+1. What I mean from entertainment here is indulging activities. *Social-media, youtube, netflix* all these platforms are manipulating (or may be training) us so that we use them all the time. What they expect from us is to ignore the surroundings, family reunions and in-person friendships just for the sake of using their services.
