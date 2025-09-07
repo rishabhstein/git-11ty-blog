@@ -75,7 +75,7 @@ module.exports = async function(eleventyConfig) {
     outputPath: "/feed.xml",
     collection: {
       name: "combinedFeed", // changed from "post" to "posts" to match collection name
-      limit: 10,     // 0 means no limit
+      limit: 30,     // 0 means no limit
     },
     metadata: {
       language: "en",
