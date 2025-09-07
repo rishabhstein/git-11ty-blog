@@ -65,6 +65,7 @@ module.exports = async function(eleventyConfig) {
       ...collectionApi.getFilteredByTag("snap"),
       ...collectionApi.getFilteredByTag("books"),
       ...collectionApi.getFilteredByTag("movies"),
+      ...collectionApi.getFilteredByTag("microfeed"),
     ].sort((a, b) => a.date - b.date); // Sort descending by date
   });
 
