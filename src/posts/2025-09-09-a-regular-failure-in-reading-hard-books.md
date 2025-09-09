@@ -1,5 +1,5 @@
 ---
-title: "A regular failure in reading hard books"
+title: "Failure in reading hard books"
 date: 2025-09-09
 tags: ["book-post", "explore", "life"]
 ---
