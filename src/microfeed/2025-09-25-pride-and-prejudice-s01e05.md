@@ -1,5 +1,5 @@
 ---
-title: "Pride and Prejudice S01E05"
+title: "Pride and Prejudice S01E04"
 date: 2025-09-25
 ---
 
