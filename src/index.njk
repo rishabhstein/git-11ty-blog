@@ -58,7 +58,7 @@ to Physics—but also my opinions about movies and books. Its also my Instagram 
 <section class="section">
   <div class="book-section">
     {% for book in collections.books | sort(attribute='date') | reverse %}
-	    {% if loop.index <= 4 and book.data.published %}
+	    {% if loop.index <= 4 %}
 
           {% include 'book-snippet.njk' %}
 
