@@ -8,6 +8,6 @@ It was a vivid dream. I saw my own baby in the womb as if I were watching him/he
 
 While I was watching this entire scene, I was constantly wondering, “How can a baby’s eyes be open in the womb?” It is not possible. But it was just me talking to myself, so there was no answer. Regardless, I felt a sense of peace during whole dream. 
 
-That was it. :)
+That was it.
 
 Now for the background, it has something to do with my wife’s appointment of *anomaly USG* as she is finishing her 5th month of pregnancy. Her appointment was just after I woke up. Although I was not thinking about it that much as I am far from her right now, I still saw the dream. It was surprising because I do not dream very often.
