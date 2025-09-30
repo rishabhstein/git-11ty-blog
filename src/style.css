@@ -504,8 +504,8 @@ tbody tr:nth-of-type(even) {
 }
 
 blockquote {
-  /* padding: 10px 15px;
-  margin: 0 0 20px; */
+  padding: 10px 15px;
+  /* margin: 0 0 20px; */
   margin: 1em 1.5em 1em 1.5em; /* top, right, bottom, left */
   padding-left: 1em;
   border-left: 8px solid var(--blockquote-border);
@@ -520,13 +520,13 @@ blockquote p {
 
 /* Plain blockquote (no formatting) */
 blockquote.post-footer {
-  margin: 1em 0 0 0;        /* spacing from elements above */
-  padding: 0.5em 0 0 0;     /* spacing between line and text */
-  border-top: 2px solid var(--blockquote-border);
-  width: 8em;               /* approx. 3-4 "tab" width */
+  all: unset;               /* removes default styles */
   display: block;
-}
+  border-top: 2px solid var(--blockquote-border);
+  padding-top: 1em;
+  width: 20em;               /* approx. 3-4 "tab" width */
 
+}
 
 hr {
   border: none;
