@@ -293,6 +293,24 @@ body {
   display: block;
 }
 
+/* book-page grid format */
+.book-section-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  max-width: 90vw;
+  margin: 0.5rem auto;
+}
+
+.book-entry-grid {
+  width: clamp(100px, 30vw, 150px);
+  aspect-ratio: 2 / 3;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
 
 @media (max-width: 600px) {
   .book-entry {

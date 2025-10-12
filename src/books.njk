@@ -6,10 +6,10 @@
 <h4>{{ title }}</h4>
 
 <h3>Reading:</h3>
-<section class="book-section">
+<section class="book-section-grid">
     {% for book in collections.books | reverse %}
         {% if book.data.status == "Reading" %}
-            <div class="book-entry">
+            <div class="book-entry-grid">
                 <a href= "{{ book.url }}">
                 <img src="{{ book.data.cover }}" alt="{{ book.title }}">
                 </a>
@@ -21,10 +21,10 @@
 <br>
 
 <h3>Finished:</h3>
-<section class="book-section">
+<section class="book-section-grid">
     {% for book in collections.books | reverse %}
         {% if book.data.status == "Finished" %}
-            <div class="book-entry">
+            <div class="book-entry-grid">
                 <a href= "{{ book.url }}">
                 <img src="{{ book.data.cover }}" alt="{{ book.title }}">
                 </a>

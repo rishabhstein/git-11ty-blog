@@ -5,9 +5,9 @@
 
 <h4>{{ title }}</h4>
 
-<section class="book-section">
+<section class="book-section-grid">
     {% for movie in collections.movies | reverse %}
-	   <div class="book-entry">
+	   <div class="book-entry-grid">
             <a href= "{{ movie.url }}">
                 <img src="{{ movie.data.cover }}" alt="{{ movie.title }}">
             </a>
