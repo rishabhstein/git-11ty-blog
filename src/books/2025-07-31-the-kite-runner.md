@@ -2,7 +2,7 @@
 title: "The Kite Runner"
 author: "Khaled Hosseini"
 tags: ["book-review"]
-sdate: 2025-07-22 #start date
+sdate: 2025-07-20 #start date
 fdate: 2025-07-31 #finishing date
 status: "Finished"
 published: true #unused flag
