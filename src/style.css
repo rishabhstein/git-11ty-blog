@@ -322,9 +322,8 @@ body {
   max-width: 300px;
   position: sticky;
   height: fit-content;
-  
-  /* max-height: 80vh; 
-  overflow-y: auto; */
+  max-height: 270vh; 
+  overflow-y: auto;
 }
 
 .toggle-sidebar {
