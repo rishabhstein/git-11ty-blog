@@ -5,9 +5,23 @@
 
 <h4>{{ title }}</h4>
 
+<h3>Reading:</h3>
 <section class="book-section">
     {% for book in collections.books | reverse %}
-        {% if book.data.published %}
+        {% if book.data.status == "Reading" %}
+            <div class="book-entry">
+                <a href= "{{ book.url }}">
+                <img src="{{ book.data.cover }}" alt="{{ book.title }}">
+                </a>
+            </div>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<h3>Finished:</h3>
+<section class="book-section">
+    {% for book in collections.books | reverse %}
+        {% if book.data.status == "Finished" %}
             <div class="book-entry">
                 <a href= "{{ book.url }}">
                 <img src="{{ book.data.cover }}" alt="{{ book.title }}">

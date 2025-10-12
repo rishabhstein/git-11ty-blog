@@ -22,7 +22,6 @@ to Physics—but also my opinions about movies and books. Its also my Instagram 
     {% for post in collections.post | reverse %}
       {% if loop.index <= 2 %}
       <section class="section">
-          <!-- {{ post.date | postDate }}-->
           <a href="{{ post.url }}" class="u-url p-name">
             <h2>{{ post.data.title }} 
               <img src="/assets/icons/newpost.gif" class="icon-emoji">
@@ -58,7 +57,7 @@ to Physics—but also my opinions about movies and books. Its also my Instagram 
 <section class="section">
   <div class="book-section">
     {% for book in collections.books | sort(attribute='date') | reverse %}
-	    {% if loop.index <= 4 %}
+	    {% if loop.index <= 4 and book.data.published %}
 
           {% include 'book-snippet.njk' %}
 

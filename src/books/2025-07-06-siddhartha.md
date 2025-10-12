@@ -1,9 +1,11 @@
 ---
 title: "Siddhartha"
-date: 2025-07-06
+author: "Herman Hesse"
+sdate: 2025-07-06 #start date
+fdate: 2025-10-12 #finishing date
 published: true
 status: "Finished"
-cover: "https://covers.openlibrary.org/b/id/6562532-L.jpg"
+cover: "https://covers.openlibrary.org/b/id/14854582-L.jpg"
 ---
 
 

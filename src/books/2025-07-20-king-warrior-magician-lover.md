@@ -1,8 +1,11 @@
 ---
 title: "King Warrior Magician Lover"
-date: 2025-07-20
+author: "Robert Moore & Douglas Gillete"
+sdate: 2025-07-20 #start date
+fdate: 2025-10-12 #finishing date
 status: "Reading"
-cover: "https://cdn.kobo.com/book-images/f014f259-66bc-4515-81fb-e36f558a0e26/353/569/90/False/king-warrior-magician-lover.jpg"
+published: false
+cover: "https://covers.openlibrary.org/b/id/8682221-L.jpg"
 ---
 
 

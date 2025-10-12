@@ -1,5 +1,7 @@
 ---
 title: "Letter Of A Stoic"
+sdate: 2025-06-13 #start date
+fdate: 2025-06-13 #finishing date
 published: true
 tags: ["book-review"]
 author: "Seneca"
