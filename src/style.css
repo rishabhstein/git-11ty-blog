@@ -267,14 +267,18 @@ body {
 /* Home page book gallery */
 .book-section {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;       /* Make items stay in one row */
+  overflow-x: auto;        /* Enable horizontal scrolling */
+  overflow-y: hidden;      /* Hide vertical scrollbar */
   gap: 0.5rem;
-  max-width: 90vw;
-  margin: 0.5rem auto;
+  padding: 0px;
+  scroll-behavior: smooth;
+  white-space: nowrap;     /* Prevent items from wrapping */
 }
 
+
 .book-entry {
+  flex: 0 0 auto;     
   width: clamp(100px, 30vw, 150px);
   aspect-ratio: 2 / 3;
   overflow: hidden;
