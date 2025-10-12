@@ -2,7 +2,7 @@
 title: "Letter Of A Stoic"
 sdate: 2025-06-13 #start date
 fdate: 2025-06-13 #finishing date
-published: true
+published: true #unused flag
 tags: ["book-review"]
 author: "Seneca"
 status: "Reading"  # only include books with this status

@@ -5,7 +5,7 @@ tags: ["book-review"]
 sdate: 2025-07-22 #start date
 fdate: 2025-07-31 #finishing date
 status: "Finished"
-published: true
+published: true #unused flag
 cover: "https://covers.openlibrary.org/b/id/14846872-L.jpg"
 ---
 

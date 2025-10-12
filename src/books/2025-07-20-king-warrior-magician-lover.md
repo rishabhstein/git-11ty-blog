@@ -4,7 +4,7 @@ author: "Robert Moore & Douglas Gillete"
 sdate: 2025-07-20 #start date
 fdate: 2025-10-12 #finishing date
 status: "Reading"
-published: false
+published: false #unused flag
 cover: "https://covers.openlibrary.org/b/id/8682221-L.jpg"
 ---
 
