@@ -14,7 +14,7 @@ cover: "/assets/images/book_covers/letters-of-a-stoic.jpg"
 
 ### Notes
 
-**Letter 88**
+**Letter 88 (23-10-2025)**
 1. The geometrician teaches me how I may avoid losing any fraction of my estates, but what  I really want to learn is how to lose the lot and still keep smiling.
 
 2. What is to be gained from this sort of knowledge: Am I supposed to feel anxious when Saturn and Mars are in opposition or Mercury sets in the evening in full view of Saturn, instead of coming to learn that bodies like these are equally propitious wherever they are, and incapable of change in any case.
