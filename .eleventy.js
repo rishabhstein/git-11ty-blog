@@ -79,7 +79,7 @@ module.exports = async function(eleventyConfig) {
     },
     metadata: {
       language: "en",
-      title: "SigmaRootPi (&#963;&#8730;&#960)",
+      title: "Sigmarootpi (&#963;&#8730;&#960)",
       subtitle: "An outdated habbit of spitting my thoughts.",
       base: "https://sigmarootpi.com/",
       author: {
