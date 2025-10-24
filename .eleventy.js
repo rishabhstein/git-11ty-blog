@@ -79,11 +79,11 @@ module.exports = async function(eleventyConfig) {
     },
     metadata: {
       language: "en",
-      title: "Cogito, ergo sum",
+      title: "SigmaRootPi (&#963;&#8730;&#960)",
       subtitle: "An outdated habbit of spitting my thoughts.",
       base: "https://sigmarootpi.com/",
       author: {
-        name: "Rishabh Sharma",
+        name: "Rishabh",
         email: "sigmarootpi@proton.me", // Optional
       }
     }
