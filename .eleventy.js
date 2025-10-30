@@ -77,7 +77,7 @@ eleventyConfig.addFilter("timeAgo", (dateObj) => {
   const diff = now.diff(then, ["days", "hours", "minutes"]).toObject();
 
   if (diff.days >= 1) return `${Math.floor(diff.days)} day(s) ago`;
-  if (diff.hours >= 1) return `${Math.floor(diff.hours)} hour(s) ago`;
+  if (diff.days < 1) return `${Math.floor(diff.hours)} hours ago`;
   return `${Math.floor(diff.minutes)} minute(s) ago`; // always show minutes if <1 hour
 });
 
