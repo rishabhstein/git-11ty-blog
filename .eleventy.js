@@ -71,10 +71,6 @@ module.exports = async function(eleventyConfig) {
 
  // Import and run your custom Last Online logic
   // Make it globally available to templates
-  const lastOnlineModule = await import("./assets/js/lastOnline.mjs");
-  const lastOnlineValue = await lastOnlineModule.default();
-  eleventyConfig.addGlobalData("lastOnline", lastOnlineValue);
-
 eleventyConfig.addFilter("timeAgo", (dateObj) => {
   const now = DateTime.utc();
   const then = DateTime.fromJSDate(dateObj, { zone: "utc" }); // force UTC

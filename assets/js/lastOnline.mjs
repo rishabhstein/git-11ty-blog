@@ -1,13 +1,10 @@
-export default function getLastOnline(collectionApi) {
-  // Get all posts (or all markdown files with date)
-  const posts = collectionApi.getFilteredByGlob("./src/posts/*.md"); // adjust path
+export default function getLastOnline({ collections }) {
+  const feed = collections.combinedFeed;
 
-  if (!posts.length) return new Date();
+  if (!feed || !feed.length) return new Date(); // fallback
 
-  // Find the latest post based on frontmatter `date`
-  const latestPost = posts.reduce((latest, post) => {
-    return post.date > latest.date ? post : latest;
-  }, posts[0]);
+  // Since your combinedFeed is sorted ascending (old → new), pick the last item
+  const latestPost = feed[feed.length - 1];
 
-  return latestPost.date;
+  return latestPost.date; // frontmatter date
 }
