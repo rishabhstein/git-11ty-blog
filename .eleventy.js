@@ -75,16 +75,14 @@ module.exports = async function(eleventyConfig) {
   const lastOnlineValue = await lastOnlineModule.default();
   eleventyConfig.addGlobalData("lastOnline", lastOnlineValue);
 
-  eleventyConfig.addFilter("timeAgo", (dateObj) => {
-    const now = DateTime.utc();
-    const then = DateTime.fromJSDate(dateObj);
-    const diff = now.diff(then, ["days", "hours", "minutes"]).toObject();
+eleventyConfig.addFilter("timeAgo", (dateObj) => {
+  const now = DateTime.utc();
+  const then = DateTime.fromJSDate(dateObj);
+  const diff = now.diff(then, ["days", "hours"]).toObject();
 
-    if (diff.days >= 1) return `${Math.floor(diff.days)} day(s) ago`;
-    if (diff.hours >= 1) return `${Math.floor(diff.hours)} hour(s) ago`;
-    if (diff.minutes >= 1) return `${Math.floor(diff.minutes)} minute(s) ago`;
-    return "just now";
-  });
+  if (diff.days >= 1) return `${Math.floor(diff.days)} day(s) ago`;
+  return `${Math.floor(diff.hours)} hour(s) ago`; // always show hours if <1 day
+});
 
   //================================================//
 
