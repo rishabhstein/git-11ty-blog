@@ -19,14 +19,15 @@
     <span><a href="/subscribe/"> <img src="/assets/icons/RSSIcon16x16.png" class="icon-emoji"> </a></span>
   </div>
 
-  {% if lastOnline %}
+  <!-- {% if lastOnline %} -->
+{% set lastPost = collections.combinedFeed | sort(attribute="date") | last %}
   <div style="display: flex; align-items: center; gap: 4px;">
     <svg width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
       <circle cx="4" cy="4" r="4" fill="#4caf50"/>
     </svg> 
-    <span> Active {{ lastOnline }}</span>
+    <span>Active {{ lastPost.date | timeAgo }}</span>
   </div>
-  {% endif %}
+  <!-- {% endif %} -->
 </div>
 <hr>
 </header>
