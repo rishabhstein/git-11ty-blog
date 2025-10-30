@@ -30,11 +30,14 @@ export default async function getLastOnline() {
       const latestEntry = entries[0];
       const timestamp = latestEntry.updated?.[0] || latestEntry.published?.[0];
 
-      // Use Luxon to safely parse ISO string with timezone
-      latestStatusTime = DateTime.fromISO(timestamp, { zone: "utc" }).toMillis();
+      // Safely parse with Luxon
+      const dt = DateTime.fromISO(timestamp, { zone: "utc" });
+      if (dt.isValid) latestStatusTime = dt.toMillis();
+      else console.warn("⚠️ Invalid Status.cafe timestamp:", timestamp);
     }
   } catch (err) {
-    console.warn("⚠️ Could not fetch or parse Status.cafe feed:", err.message);
+    console.warn("⚠️ Could not fetch Status.cafe feed, using last post only:", err.message);
+    latestStatusTime = 0; // fallback to last post
   }
 
   // 3️⃣ Determine the latest activity
