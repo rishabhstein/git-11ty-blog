@@ -2,6 +2,7 @@ import fs from "fs";
 import { globSync } from "glob";
 import EleventyFetch from "@11ty/eleventy-fetch";
 import { parseStringPromise } from "xml2js";
+import { DateTime } from "luxon";
 
 export default async function getLastOnline() {
   // 1️⃣ Scan all markdown files
@@ -28,11 +29,18 @@ export default async function getLastOnline() {
     if (entries?.length) {
       const latestEntry = entries[0];
       const timestamp = latestEntry.updated?.[0] || latestEntry.published?.[0];
-      latestStatusTime = new Date(timestamp).getTime();
+
+      // Use Luxon to safely parse ISO string with timezone
+      latestStatusTime = DateTime.fromISO(timestamp, { zone: "utc" }).toMillis();
     }
   } catch (err) {
     console.warn("⚠️ Could not fetch or parse Status.cafe feed:", err.message);
   }
 
-  return new Date(Math.max(latestFileTime, latestStatusTime));
+  // 3️⃣ Determine the latest activity
+  const latestFileDT = DateTime.fromMillis(latestFileTime, { zone: "utc" });
+  const latestStatusDT = DateTime.fromMillis(latestStatusTime || 0, { zone: "utc" });
+  const latestActivity = latestFileDT > latestStatusDT ? latestFileDT.toJSDate() : latestStatusDT.toJSDate();
+
+  return latestActivity;
 }
