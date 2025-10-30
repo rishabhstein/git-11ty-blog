@@ -76,9 +76,10 @@ eleventyConfig.addFilter("timeAgo", (dateObj) => {
   const then = DateTime.fromJSDate(dateObj, { zone: "utc" }); // force UTC
   const diff = now.diff(then, ["days", "hours", "minutes"]).toObject();
 
-  if (diff.days >= 1) return `${Math.floor(diff.days)} day(s) ago`;
+  if (diff.days == 1) return `${Math.floor(diff.days)} day ago`;
+  if (diff.days > 1) return `${Math.floor(diff.days)} days ago`;
   if (diff.days < 1) return `${Math.floor(diff.hours)} hours ago`;
-  return `${Math.floor(diff.minutes)} minute(s) ago`; // always show minutes if <1 hour
+  return `${Math.floor(diff.minutes)} minutes ago`; // always show minutes if <1 hour
 });
 
   //================================================//
