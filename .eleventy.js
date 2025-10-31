@@ -5,6 +5,7 @@ module.exports = async function(eleventyConfig) {
   const { DateTime } = await import("luxon");
   const markdownItModule = await import("markdown-it");
   const markdownIt = markdownItModule.default;
+  const markdownItMark = require("markdown-it-mark");
 
   //Just copy these files to _site
   eleventyConfig.addPassthroughCopy('./assets');
@@ -20,7 +21,12 @@ module.exports = async function(eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   // Creating a Markdown filter
-  const md = new markdownIt();
+  const md = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  }).use(markdownItMark); // 👈 enables ==highlight== syntax
+
   eleventyConfig.addFilter("markdownify", (value) => {
     return md.render(value || "");
   });
