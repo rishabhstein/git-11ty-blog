@@ -3,28 +3,24 @@ title: Welcome
 layout: 'base.njk'
 ---
 
+
+
 <p>
-Hello web dweller, I am Rishabh and I welcome you at my online home. Here, I write about a variety of 
-topics ranging from philosophy to Physics.
+Hello web dweller, I am Rishabh and I welcome you at my online home. Here, I write about a variety of topics ranging from philosophy to Physics.
 </p>
 
-<!-- <p>
-Hello web dweller, I am Rishabh and I welcome you at my online home. This is a beautiful and healing place, 
-a safe haven, where I take refuge in the time of despair. Here, I share not only written posts—from philosophy 
-to Physics—but also my opinions about movies and books. Its also my Instagram as well as my Facebook. Thanks for stopping by.
-</p> -->
 
-
-<a href="/archives/"><h4>📝 Recent writings:➡️</h4></a>
+<a href="/archives/"><h4><img src="/assets/icons/fb-post.png" class="icon-emoji"> Recent writings:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
 
 
   <div class="h-feed">
     {% for post in collections.post | reverse %}
       {% if loop.index <= 2 %}
       <section class="section">
+          <!-- {{ post.date | postDate }}-->
           <a href="{{ post.url }}" class="u-url p-name">
             <h2>{{ post.data.title }} 
-              <img src="/assets/icons/newpost.gif" class="icon-emoji">
+              <img src="/assets/icons/newpost.png" class="icon-emoji">
             </h2></a>
           <br>{{ post.date | postDate }}
           {{ post.content | wordLimit | safe }}
@@ -36,47 +32,47 @@ to Physics—but also my opinions about movies and books. Its also my Instagram 
 
 
 <hr>
-<a href="/snap/"><h4><img src="/assets/icons/fb-photos.png" class="icon-emoji"> Recent captures:➡️</h4></a>
+<a href="/snap/"><h4><img src="/assets/icons/fb-photos.png" class="icon-emoji"> Recent captures:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
 
 <section class="section">
   <div class="container-narrow-gallery">
     {% for post in collections.snap | reverse %}
-	    {% if loop.index <= 4  %}     
-			    	<a href="{{ post.url }}">
-			    	<img src="{{ post.data.cover }}" alt="{{ post.title }}">
-			    	</a>
-	    {% endif %}
+      {% if loop.index <= 4  %}     
+            <a href="{{ post.url }}">
+            <img src="{{ post.data.cover }}" alt="{{ post.title }}">
+            </a>
+      {% endif %}
     {% endfor %}
   </div>
 </section>
 
 
 <hr>
-<a href="/books/"><h4>📖 Currently reading:➡️</h4></a>
+<a href="/books/"><h4><img src="/assets/icons/books.png" class="icon-emoji"> Currently reading:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
 
 <section class="section">
   <div class="book-section">
     {% for book in collections.books | sort(attribute='date') | reverse %}
-	    {% if book.data.status == "Reading"%}
+      {% if loop.index <= 6 %}
 
           {% include 'book-snippet.njk' %}
 
-	    {% endif %}  
+      {% endif %}    
     {% endfor %}
   </div>
 </section>
 
 <hr>
-<a href="/movies/"><h4>🍿 Recently watched:➡️</h4></a>
+<a href="/movies/"><h4><img src="/assets/icons/movies.png" class="icon-emoji"> Recently watched:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
 
 <section class="section">
   <div class="book-section">
     {% for book in collections.movies | sort(attribute='date') | reverse %}
-	    {% if loop.index <= 6 %}
+      {% if loop.index <= 6 %}
        
       {% include 'book-snippet.njk' %}
 
-	    {% endif %}    
+      {% endif %}    
     {% endfor %}
   </div>
 </section>

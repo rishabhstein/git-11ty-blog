@@ -11,7 +11,7 @@
     <link rel="me" href="https://github.com/rishabhstein">
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="/style.css?v=5.0">
+    <link rel="stylesheet" href="/style.css?v=1.0">
 
     <!-- Fav and touch icons -->
     <link rel="icon" type="image/png" href="/assets/logo.png">
@@ -46,7 +46,8 @@
         </section>
         </div>
 
-        <h3><img src="/assets/icons/fb-wall.png" class="icon-emoji"> Mini-Feed<a href="/microfeed/"> ➡️</a></h3>
+  <h3><img src="/assets/icons/fb-wall.png" class="icon-emoji"> Mini-feed<a href="/src/microfeed.njk"><img src="/assets/icons/click.png" class="icon-emoji"></a></h3>
+
 
         {% for post in collections.microfeed | reverse %}
           {% if loop.index <= 3 %}

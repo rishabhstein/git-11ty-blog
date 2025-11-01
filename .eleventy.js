@@ -32,7 +32,6 @@ module.exports = async function(eleventyConfig) {
   });
 
 
-
   // Filtering only few words
   eleventyConfig.addFilter("wordLimit", function(content, limit = 50) {
     if (!content) return "";
@@ -74,19 +73,6 @@ module.exports = async function(eleventyConfig) {
       ...collectionApi.getFilteredByTag("microfeed"),
     ].sort((a, b) => a.date - b.date); // Sort descending by date
   });
-
- // Import and run your custom Last Online logic
-  // Make it globally available to templates
-eleventyConfig.addFilter("timeAgo", (dateObj) => {
-  const now = DateTime.utc();
-  const then = DateTime.fromJSDate(dateObj, { zone: "utc" }); // force UTC
-  const diff = now.diff(then, ["days", "hours", "minutes"]).toObject();
-
-  if (diff.days == 1) return `${Math.floor(diff.days)} day ago`;
-  if (diff.days > 1) return `${Math.floor(diff.days)} days ago`;
-  if (diff.days < 1) return `${Math.floor(diff.hours)} hours ago`;
-  return `${Math.floor(diff.minutes)} minutes ago`; // always show minutes if <1 hour
-});
 
   //================================================//
 
