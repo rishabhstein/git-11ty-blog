@@ -13,4 +13,4 @@ I went for a walk in 📍*Bois de la Cambre* forest in *Brussels* and while enjo
 
 Interesting thing is that it is placed in the middle of a huge forest, a surrounding with stark contrast to its nature.
 
-I wonder what the artist wants to convey.
+I wonder what the artist wanted to convey.
