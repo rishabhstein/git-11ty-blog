@@ -4,7 +4,7 @@ date: 2025-11-04
 tags: ["blog", "career", "philosophy"]
 ---
 
-For many days, I have been pondering on a quote from **Marcus Aurelius**.
+For many days, I have been reflecting on a quote from **Marcus Aurelius**.
 
 > If you seek tranquility, do less—or at least only what is essential
 
