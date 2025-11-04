@@ -6,7 +6,7 @@ tags: ["blog", "career", "philosophy"]
 
 For many days, I have been pondering on a quote from **Marcus Aurelius**.
 
-> If you want tranquility, do less or at least what is essential.
+> If you seek tranquility, do less—or at least only what is essential
 
 The reason to think about it is my inability to post a written blog post frequently, at least once a week or every two weeks. Last month, I mostly posted about the content I consumed, such as movies, photos, and book reviews. The content that was easiest to consume got more posts. So the order of the number of posts was exactly movies, photos, and books, in decreasing value. This also shows that writing a book review—a task I dare myself to do—is harder than writing a movie review.
 
