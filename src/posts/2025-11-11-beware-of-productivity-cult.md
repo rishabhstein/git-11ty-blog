@@ -1,6 +1,6 @@
 ---
 title: "Beware of productivity cult"
-date: 2025-11-10
+date: 2025-11-11
 tags: ["book-post", "life", "philosophy", "mental-health"]
 ---
 
