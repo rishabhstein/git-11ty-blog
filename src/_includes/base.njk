@@ -11,7 +11,8 @@
     <link rel="me" href="https://github.com/rishabhstein">
 
     <!-- Le styles -->
-    <link rel="stylesheet" href="/style.css?v=2.0">
+    <link rel="stylesheet" href="/assets/css/style.css?v=2.0">
+    <link rel="stylesheet" href="/assets/css/mastodon.css?v=2.0">
 
     <!-- Fav and touch icons -->
     <link rel="icon" type="image/png" href="/assets/logo.png">
@@ -47,18 +48,14 @@
         </div>
 
   <h3><img src="/assets/icons/fb-wall.png" class="icon-emoji"> Mini-feed<a href="/src/microfeed.njk"><img src="/assets/icons/click.png" class="icon-emoji"></a></h3>
+        <div class="section">
+            <div id="mt-container" class="mt-container">
+              <div class="mt-body" role="feed">
+                <div class="mt-loading-spinner"></div>
+              </div>
+            </div>
+        </div>
 
-
-        {% for post in collections.microfeed | reverse %}
-          {% if loop.index <= 3 %}
-          <section class="section">
-            <a href="{{ post.url }}" class="u-url p-name"><h3>{{ post.data.title }}</h3></a>
-            <br>{{ post.date | postDate }}
-            {{ post.content | wordLimit | safe }}
-            <a href="{{ post.url }}" class="u-url p-name">...more</a>
-          </section>
-          {% endif %}
-        {% endfor %}
     </div>
 
     <div class="overlay"></div>
@@ -67,6 +64,22 @@
     </main>
     
     {% include 'footer.njk' %}
+
+
+    <!-- For Mastodon Feed -->
+    <script src="/assets/js/mastodon.js"></script>
+    <script>
+        const myTimeline = new MastodonTimeline.Init({
+          instanceUrl: "https://mastodon.social",
+          timelineType: "profile",
+          userId: "115311770892730280",
+          profileName: "@sigmarootpi",
+          maxNbPostShow: "4",
+          txtMaxLines: "3",
+        });
+      </script>
+
+
   
 </body>
 </html>
