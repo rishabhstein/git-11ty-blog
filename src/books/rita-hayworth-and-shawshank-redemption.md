@@ -1,7 +1,11 @@
 ---
 title: "Rita Hayworth and Shawshank Redemption"
-date: 2025-11-13
-status: "Reading"
+author: "Stephen King"
+tags: ["book-review"]
+sdate: 2025-11-09 #start date
+fdate: 2025-11-13 #finishing date
+status: "Finished"
+published: true #unused flag
 cover: "https://covers.openlibrary.org/b/id/10550269-L.jpg"
 ---
 
