@@ -716,13 +716,7 @@ body:has(dialog.mt-dialog[open]) {
 }
 
 .mt-footer {
-    display: flex;
-    flex-flow: wrap;
-    margin: auto auto 2rem auto;
-    padding: 0 1rem;
-    gap: 1.5rem;
-    align-items: center;
-    justify-content: center;
+    display: none !important;
 }
 
 .visually-hidden {
