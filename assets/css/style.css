@@ -348,7 +348,7 @@ body {
   max-width: 300px;
   position: sticky;
   height: fit-content;
-  max-height: 270vh; 
+  max-height: 220vh; 
   overflow-y: auto;
 }
 
