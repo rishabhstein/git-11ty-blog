@@ -15,8 +15,7 @@ html {
   --line-height-base: 1.6;
 
   /* Light Mode Defaults */
-/*  --bg-color: #E8F4FC;*/
-  --bg-color: #e8fcf5;
+  /* --bg-color: #e8fcf5;
   --text-color: #020202;
   --link-color: #1287FD;
   --link-hover-bg: none;
@@ -32,7 +31,26 @@ html {
   --table-row-alt: #f3f3f3;
   --notebook-accent: #0f046b;
   --status-bg: #e8fcff;
-  --status-border: dashed;
+  --status-border: dashed; */
+
+/* temporary for snow animation */
+    --bg-color: #00001a;
+    --text-color: #E0E0E0;
+    --link-color: #FFA500;
+    --link-hover-bg: none;
+    --visited-color: #FFA500;
+    --heading-color: #BB86FC;
+    --highlight-color: #333;
+    --emphasis-color: #FF6F61;
+    --strong-color: #BB86FC;
+    --blockquote-border: #BB86FC;
+    --blockquote-bg: #222;
+    --table-header-bg: #333;
+    --table-header-text: #BB86FC;
+    --table-row-alt: #222;
+    --notebook-accent: white;
+    --status-bg: #222;
+
 }
 
 @media (prefers-color-scheme: dark) {
