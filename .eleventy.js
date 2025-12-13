@@ -76,7 +76,7 @@ module.exports = async function(eleventyConfig) {
 
   //================================================//
 
-  eleventyConfig.addPlugin(pluginRss, {
+  eleventyConfig.addPlugin(feedPlugin, {
   type: "rss",
   outputPath: "/feed.xml",
   collection: {
