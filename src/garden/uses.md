@@ -1,8 +1,10 @@
 ---
 title: "Uses"
+date: 2025-12-13
 ---
 
 ## List of Apps and Hardware
+Last updated at {{ date | postDate }}
 
 ### Hardware
 - MacBook M1 Pro 2021  
@@ -23,9 +25,11 @@ title: "Uses"
 - Eclipse  
 
 ### Email App
-- Gmail  
+- ~~Gmail~~  
 - Apple Mail  
-- Proton Mail  
+- Proton Mail
+- FastMail
+- Outlook 
 
 ### Browser
 - Google Chrome  
@@ -33,12 +37,13 @@ title: "Uses"
 
 ### Messaging
 - WhatsApp  
-- Telegram  
-- Messenger  
+- ~~Telegram~~  
+- ~~Messenger~~  
 
 ### PDF Reader
-- Zotero  
-- Adobe Reader  
+- Apple Preview
+- Zotero
+- ~~Adobe Reader~~  
 - reMarkable  
 - Foxit  
 
@@ -47,12 +52,18 @@ title: "Uses"
 - Splitwise  
 
 ### Calendar
-- Google  
-- Apple  
+- ~~Google~~  
+- Apple
+- FastMail
+- Microsoft
 
 ### Blogging Platform
-- Micro.blog  
-- PyBlosxom  
+- ~~Micro.blog~~  
+- ~~PyBlosxom~~  
+- ~~James~~
+- Bearblog
+- 11ty
+
 
 ### Photo Editing
 - Lightroom  
@@ -60,6 +71,8 @@ title: "Uses"
 
 ### VPN
 - WireGuard  
+- Tailscale
+- Mullvad
 
 ### Journaling / Writing
 - reMarkable  

@@ -2,15 +2,37 @@
 title: "Blogroll"
 ---
 
-I am just a beginner at blogging, so I can offer you only so much. However, I can recommend you some fantastic blogs that I read on a regular basis. These are people whom I've never met and yet they've inspired me. [#positiveWeb](#)
+I am just a beginner at blogging, so I can offer you only so much. However, I can recommend you some fantastic blogs that I read on a regular basis. These are the people whom I've never met and yet they've inspired me. [#positiveWeb](#)
 
 - [Indie.blog](https://indieblog.page/)
-- [Henrique Dias](https://hacdias.com/): Very inspiring design of blog  
-- [Lou Plummer](https://louplummer.lol/): A blog with life-insights  
-- [Garbage Collector](https://zedas.fr/): Into self-hosting  
-- [Bacardi55](https://bacardi55.io): A blog about tech  
-- [James](https://jamesg.blog): Very unique and heart-touching blog  
-- [Manu](https://manuelmoreale.com): The best guy on the internet  
-- [Ava](https://blog.avas.space): Many thought-provoking ideas  
-- [Annie](http://anniemueller.com): A blog full of emotions  
-- [Bearblog](https://bearblog.dev/discover/): Discover new blogposts  
+- [Bearblog](https://bearblog.dev/discover/)
+- [annie's blog](https://anniemueller.com/)
+- [ava's blog](https://blog.avas.space/)
+- [Manuel Moreale](https://manuelmoreale.com/)
+- [Living Out Loud](https://louplummer.lol/)
+- [AppAddict](https://appaddict.app/)
+- [Bacardi55's Web Cave](https://bacardi55.io/posts/)
+- [Blogroll.Club](https://blogroll.club/)
+- [Cory Dransfeldt](https://www.coryd.dev/feeds/posts.xml)
+- [Henrique Dias](https://hacdias.com/)
+- [ldstephens](https://ldstephens.net/)
+- [Meadow](https://meadow.cafe/)
+- [Notebooks](http://bactra.org/notebooks)
+- [The Jolly Teapot](https://thejollyteapot.com/)
+- [theAdhocracy ]( RSS)
+- [Three-Toed Sloth](http://bactra.org/weblog/)
+- [indieblog.page daily random posts](https://indieblog.page/)
+- [Andreas Contino](https://contino.com/)
+- [cliophate.wtf — Notes](https://cliophate.wtf/)
+- [Olivier Gilan](https://olivergilan.com/blog/)
+- [ParrortRachSmith](https://rachsmith.com/)
+- [Brent Simmons](https://inessential.com/)
+- [Benji.dog](https://benji.dog/)
+- [David Wertheimer](https://netwert.com/ideapad)
+- [Joy](https://jake009.blogspot.com/)
+- [Zachary Billman](https://www.zacharybillman.com/)
+- [Sigmarootpi](https://sigmarootpi.com/)
+- [Orion’s Blog](https://orionsvoid.com/)
+- [Fabio Teixeira](https://fabioteixeira.eu/)
+- [JeddAcp](https://notes.jeddacp.com/)
+- [Rishikesh Sreehari](https://rishikeshs.com/)

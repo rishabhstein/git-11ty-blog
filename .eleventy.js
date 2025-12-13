@@ -76,24 +76,36 @@ module.exports = async function(eleventyConfig) {
 
   //================================================//
 
-  eleventyConfig.addPlugin(feedPlugin, {
-    type: "rss", // "atom" or "rss", "json"
-    outputPath: "/feed.xml",
-    collection: {
-      name: "combinedFeed", // changed from "post" to "posts" to match collection name
-      limit: 30,     // 0 means no limit
+  eleventyConfig.addPlugin(pluginRss, {
+  type: "rss",
+  outputPath: "/feed.xml",
+  collection: {
+    name: "combinedFeed",
+    limit: 30,
+  },
+  metadata: {
+    language: "en",
+    title: "Sigmarootpi",
+    subtitle: "An outdated habbit of spitting my thoughts.",
+    base: "https://sigmarootpi.com/",
+    author: {
+      name: "Rishabh",
+      email: "hello@sigmarootpi.com",
     },
-    metadata: {
-      language: "en",
-      title: "Sigmarootpi",
-      subtitle: "An outdated habbit of spitting my thoughts.",
-      base: "https://sigmarootpi.com/",
-      author: {
-        name: "Rishabh",
-        email: "sigmarootpi@proton.me", // Optional
-      }
-    }
-  });
+  },
+  postRender: (item) => {
+    // Append "Reply via email" link after each post content
+        // Encode the title to be safe for URL
+    const subject = encodeURIComponent(item.data.title || "Your Post");
+
+    return (
+      item.templateContent +
+      `<p><a href="mailto:hello@sigmarootpi.com?subject=${subject}Reply to your post">Reply via email</a></p>`
+    );
+  },
+});
+
+
 
   return {
     dir: {
