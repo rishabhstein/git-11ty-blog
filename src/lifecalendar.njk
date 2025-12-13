@@ -1,0 +1,151 @@
+---
+title: Life Calendar
+layout: base.njk
+---
+
+{% set totalWeeks = lifeline.lifespan * lifeline.weeksInYear %}
+
+<h1>{{ title }}</h1>
+Each box represents a week with color indicating:
+<div class="legend">
+  <span class="week lived legend-box"></span> Lived weeks <br>
+  <span class="week legend-box"></span> Future weeks <br>
+  <span class="week lived milestone legend-box legend-milestone"></span> Milestones
+</div>
+
+<br>
+
+<div class="calendar-container">
+  <div class="weeks-label">Weeks →</div>
+  <div class="calendar">
+    {% set weeksPerDecade = 10 * lifeline.weeksInYear %}
+
+    {% for week in range(1, totalWeeks + 1) %}
+      {% set milestone = null %}
+      {% for m in lifeline.milestones %}
+        {% if m.week == week %}
+          {% set milestone = m %}
+        {% endif %}
+      {% endfor %}
+
+      {# Add a decade separator #}
+      {% if week > 1 and (week - 1) % weeksPerDecade == 0 %}
+        <div class="decade-separator"></div>
+      {% endif %}
+
+      <div 
+        class="week {% if week <= lifeline.weeksLived %}lived{% endif %} {% if milestone %}milestone{% endif %}" 
+        {% if milestone %}
+          title="{{ milestone.date }} - {{ milestone.label }}" 
+          data-label="{{ milestone.label }}" 
+          data-date="{{ milestone.date }}"
+        {% endif %}>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+<style>
+
+.legend span {
+  margin-right: 12px;
+}
+
+.legend-box {
+  display: inline-block;   /* THIS is the key */
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.legend-milestone {
+  background: #e53935 !important;
+  border: 2px solid #e53935;
+}
+
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 12px);
+  gap: 2px;
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+/* Default non-lived week */
+.week {
+  width: 12px; 
+  height: 12px;
+  background: transparent; /* transparent fill */
+  border: 1px solid #333; /* dark edge */
+  box-sizing: border-box;
+}
+
+/* Weeks already lived */
+.week.lived {
+  background: #4caf50; /* green */
+  border: 1px solid #4caf50;
+}
+
+/* Milestones */
+.week[title] {
+  border: 1px solid #e53935; /* red border for milestone */
+  position: relative;
+  cursor: pointer;
+}
+
+.week[title].lived {
+  background: #e53935; /* keep green fill for lived milestone */
+}
+
+/* Optional: scale effect on hover for milestones */
+.week[title]:hover {
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+
+.milestone-popup {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #e53935;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #333;
+  font-size: 18px;
+  z-index: 10;
+  display: none;
+  pointer-events: none;
+  white-space: pre; /* respects \n line breaks */
+}
+
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const calendar = document.querySelector(".calendar");
+  if (!calendar) return;
+
+  const popup = document.createElement("div");
+  popup.className = "milestone-popup";
+  document.body.appendChild(popup);
+
+  calendar.querySelectorAll(".week.milestone").forEach(week => {
+    week.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const label = week.getAttribute("data-label");
+      const date = week.getAttribute("data-date");
+      popup.textContent = `${date}\n${label}`;
+      const rect = week.getBoundingClientRect();
+      popup.style.top = rect.top + window.scrollY - popup.offsetHeight - 5 + "px";
+      popup.style.left = rect.left + window.scrollX + "px";
+      popup.style.display = "block";
+    });
+  });
+
+  document.addEventListener("click", () => {
+    popup.style.display = "none";
+  });
+});
+
+</script>
