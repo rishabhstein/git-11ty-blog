@@ -1,5 +1,5 @@
 ---
-title: "Grateful for Iovely blogging family"
+title: "Grateful for lovely blogging family"
 date: 2025-12-20
 tags: ["indieweb", "holidays"]
 ---
