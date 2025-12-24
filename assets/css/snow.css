@@ -2,10 +2,10 @@
 
 /* Default (night) */
 :root {
-  --snow-core: rgba(255,255,255,1);
-  --snow-inner: rgba(255,255,255,0.8);
-  --snow-mid: rgba(255,255,255,0.4);
-  --snow-outer: rgba(255,255,255,0.2);
+  --snow-core: rgb(247, 231, 231);
+  --snow-inner: rgba(247, 231, 231,0.8);
+  --snow-mid: rgba(247, 231, 231,0.4);
+  --snow-outer: rgba(247, 231, 231,0.2);
   --snow-opacity: 1;
 }
 

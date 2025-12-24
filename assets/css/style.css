@@ -15,7 +15,7 @@ html {
   --line-height-base: 1.6;
 
   /* Light Mode Defaults */
-  /* --bg-color: #e8fcf5;
+  --bg-color: #e8fcf5;
   --text-color: #020202;
   --link-color: #1287FD;
   --link-hover-bg: none;
@@ -31,26 +31,7 @@ html {
   --table-row-alt: #f3f3f3;
   --notebook-accent: #0f046b;
   --status-bg: #e8fcff;
-  --status-border: dashed; */
-
-/* temporary for snow animation */
-    --bg-color: #00001a;
-    --text-color: #E0E0E0;
-    --link-color: #FFA500;
-    --link-hover-bg: none;
-    --visited-color: #FFA500;
-    --heading-color: #BB86FC;
-    --highlight-color: #FFA500;
-    --emphasis-color: #FF6F61;
-    --strong-color: #BB86FC;
-    --blockquote-border: #BB86FC;
-    --blockquote-bg: #222;
-    --table-header-bg: #333;
-    --table-header-text: #BB86FC;
-    --table-row-alt: #222;
-    --notebook-accent: white;
-    --status-bg: #222;
-
+  --status-border: dashed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,7 +42,7 @@ html {
     --link-hover-bg: none;
     --visited-color: #FFA500;
     --heading-color: #BB86FC;
-    --highlight-color: #333;
+    --highlight-color: #ffd383;
     --emphasis-color: #FF6F61;
     --strong-color: #BB86FC;
     --blockquote-border: #BB86FC;
@@ -103,6 +84,15 @@ body {
 .section:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.section h2 {
+    display: inline-block;          /* or block if each link is on its own line */
+    max-width: 100%;                 /* prevents exceeding section width */
+    word-wrap: break-word;           /* legacy support */
+    overflow-wrap: break-word;       /* modern standard */
+    word-break: break-word;          /* forces breaks for very long strings */
+    white-space: normal;             /* allows wrapping */
 }
 
 .section h3 {
