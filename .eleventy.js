@@ -93,6 +93,15 @@ module.exports = async function(eleventyConfig) {
       email: "hello@sigmarootpi.com",
     },
   },
+
+  items: {
+    pubDate: item =>
+      DateTime
+        .fromJSDate(item.page.date, { zone: "EU/Brussels" })
+        .toRFC2822(),
+  },
+
+
   postRender: (item) => {
     // Append "Reply via email" link after each post content
         // Encode the title to be safe for URL
