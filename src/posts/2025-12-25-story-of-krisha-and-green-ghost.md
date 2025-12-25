@@ -1,10 +1,10 @@
 ---
-title: "Krisha और Green भूत की कहानी"
+title: "Krisha और Green भूत की कहानी: A Christmas tale"
 date: 2025-12-25
 tags: ["hindi"]
 ---
 
-> This is just a child story for my five year old niece. So you can just ignore it.
+> This is a Christmas child story for my five year old niece. So you can just ignore it.
 
 आज 2025 का क्रिसमस डे है। सुबह-सुबह बाहर सड़क पर कोहरा छाया हुआ है। ठंड के मारे लोगों की किड़किड़िया बंधी हुई हैं। पर सभी बच्चे बहुत खुश हैं, क्योंकि स्कूल की छुट्टी है। सुबह उठते ही बच्चों ने हंगामा मचाना शुरू कर दिया है। दूर से ही बच्चों के खेलने की आवाज़ सुनाई देने लग गई है। मम्मी और पापा बेचारे परेशान हैं कि कहीं इन्हें ठंड न लग जाए। पर बच्चों ने किसी की कब सुनी है।
 
