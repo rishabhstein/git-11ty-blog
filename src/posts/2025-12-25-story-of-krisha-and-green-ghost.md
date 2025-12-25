@@ -1,7 +1,7 @@
 ---
-title: "Krisha और Green भूत की कहानी: A Christmas tale"
+title: "Krisha और Green भूत: A Christmas tale"
 date: 2025-12-25
-tags: ["hindi"]
+tags: ["hindi", "story"]
 ---
 
 > This is a Christmas child story for my five year old niece. So you can just ignore it.
