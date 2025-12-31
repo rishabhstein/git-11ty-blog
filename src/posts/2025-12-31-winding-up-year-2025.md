@@ -1,6 +1,6 @@
 ---
 title: "Winding up year 2025"
-date: 2025-12-31
+date: 2025-12-31:23:55
 tags: ["windup"]
 ---
 
@@ -16,4 +16,4 @@ It's 11:30 PM on the last day of 2025. I went to bed twenty minutes ago, but aft
 
 It was a life-changing year for me with many important events in my life. This brought stress and a lot of happiness and feelings of pride as well. I hope the next one will be less intense.
 
-Now it's almost time to welcome 2026. Singing in 2025 and wishing you a very Happy New Year.
+Now it's almost time to welcome 2026. Signing of from 2025 and wishing you a very Happy New Year.
