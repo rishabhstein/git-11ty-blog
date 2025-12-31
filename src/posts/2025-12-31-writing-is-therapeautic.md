@@ -1,6 +1,6 @@
 ---
 title: "Writing is therapeautic"
-date: 2025-12-31:22:00
+date: 2025-12-31:T22:00:00
 tags: ["minimalism"]
 ---
 

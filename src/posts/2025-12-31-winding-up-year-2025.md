@@ -1,6 +1,6 @@
 ---
 title: "Winding up year 2025"
-date: 2025-12-31:23:55
+date: 2025-12-31:T23:55:00
 tags: ["windup"]
 ---
 
