@@ -4,7 +4,14 @@
 ---
 
 <h4>{{ title }}</h4>
-
+<p>The ratings are based on following criteria:</p>
+<div>
+  <span>5⭐️</span> Absolutely love it and will watch it many times<br>
+  <span>4⭐️</span> Entertaining movie can be watched agin<br>
+  <span>3⭐️</span> One time watch<br>
+  <span>2⭐️</span> I was bored but managed to finish it<br>
+  <span>1⭐️</span> I could not finish it<br>
+</div>
 <section class="book-section-grid">
     {% for movie in collections.movies | reverse %}
 	   <div class="book-entry-grid">
