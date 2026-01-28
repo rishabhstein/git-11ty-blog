@@ -5,6 +5,7 @@ tags: ["book-review"]
 author: "Matt Haig"
 status: "Finished"
 cover: "/assets/images/book_covers/the-midnight-library.jpg"
+rating: 3
 ---
 <div class="blog-posts-book" >
     <img src="{{ cover }}" >
@@ -20,6 +21,6 @@ This book partially belongs to the science fiction category where the author use
 
 I very much liked this book, especially due to its attempt to introduce philosophy--existential questions, to be specific--in such a simple manner to a wider audience. The story was an effective way to delve into such complex topics, which is very much needed in modern times where people are so much caught up in materialism that they take life for granted, leading to a hedonistic approach followed by an existential crisis, as *Soren Kierkegaard* once said[*](). The author successfully conveyed his message that through philosophy, we can discover the meaning of life. The key to this understanding is in the following quote:
 
-> Never underestimate the big importance of small things 
+> Never underestimate the big importance of small things
 
 On the other hand, using physics theories is always a matter of debate, especially among Physicists. So I recommend this book to those who do not mind the scientific accuracy but love fiction and philosophy. The book is short and a quick read. There are also a few thrilling moments, making it the perfect entertainment through which you can learn something about the implications of philosophy.

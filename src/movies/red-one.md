@@ -3,6 +3,7 @@ title: "Red One"
 published: true
 cover: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg"
 date: 2025-06-11
+rating: 3
 ---
 <div class="blog-posts">
     <img src="{{ cover }}" >

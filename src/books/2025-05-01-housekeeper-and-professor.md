@@ -1,10 +1,11 @@
 ---
-title: "Book review: The Housekeeper and the Professor (Hi)"
+title: "Book review: The Housekeeper and the Professor"
 published: true
 tags: ["book-review", "hindi"]
 author: "Yoko Ogawa"
 status: "Finished"  # finished not published
 cover: "/assets/images/book_covers/housekeer-and-professor.jpg"
+rating: 3
 ---
 <div class="blog-posts-book" >
     <img src="{{ cover }}" >

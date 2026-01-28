@@ -7,6 +7,7 @@ tags: ["book-review"]
 author: "Seneca"
 status: "Reading"  # only include books with this status
 cover: "/assets/images/book_covers/letters-of-a-stoic.jpg"
+rating: 3
 ---
 <div class="blog-posts-book" >
     <img src="{{ cover }}" >

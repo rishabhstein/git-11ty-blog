@@ -3,6 +3,7 @@ title: "How To Train Your Dragon"
 published: true
 cover: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/q5pXRYTycaeW6dEgsCrd4mYPmxM.jpg"
 date: 2025-06-13
+rating: 3
 ---
 <div class="blog-posts">
     <img src="{{ cover }}" >

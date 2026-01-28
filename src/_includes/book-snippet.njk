@@ -1,7 +1,10 @@
      
 		<div class="book-entry">
-		  	<a href="{{ book.url }}">
+		  	<a href="{{ book.url }}" class="book-cover">
 				<img src="{{ book.data.cover }}" alt="{{ book.title }}">
+				<div class="star-rating">
+          			{% for i in range(book.data.rating) %}⭐{% endfor %}
+        		</div>
 			</a>
 <!-- {% set progress = (book.data.current_page / book.data.total_pages * 100) | round(0, 'floor') %} -->
 		</div>

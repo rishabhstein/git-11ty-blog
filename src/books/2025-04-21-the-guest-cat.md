@@ -5,12 +5,13 @@ tags: ["book-review", "book-post"]
 author: "Takashi Hiraide"
 status: "Finished"  # only include books with this status
 cover: "/assets/images/book_covers/the-guest-cat.jpg"
+rating: 4
 ---
 <div class="blog-posts-book" >
     <img src="{{ cover }}" >
 </div>
 
-Finding a book that is written for a pet is a rare thing, at least for me. Accordingly, my expectation was not very high as I was unsure what to expect. However, after reading [James'](https://jamesg.blog) review, I was very intrigued and decided to give it a try. 
+Finding a book that is written for a pet is a rare thing, at least for me. Accordingly, my expectation was not very high as I was unsure what to expect. However, after reading [James'](https://jamesg.blog) review, I was very intrigued and decided to give it a try.
 
 This book is my second *Japanese book*--I've never published a review of the first one--which is written by *Takashi Hiraide*.
 

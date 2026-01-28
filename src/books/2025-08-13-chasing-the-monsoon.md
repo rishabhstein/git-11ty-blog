@@ -6,6 +6,7 @@ fdate: 2025-11-01 #finishing date
 published: false #unused flag
 status: "Finished"  # only include books with this status
 cover: "https://covers.openlibrary.org/b/id/197852-L.jpg"
+rating: 3
 ---
 <div class="blog-posts-book" >
     <img src="{{ cover }}" >

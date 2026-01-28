@@ -3,6 +3,7 @@ title: "Titan The OceanGate Submersible Disaster"
 published: true
 cover: "https://image.tmdb.org/t/p/w600_and_h900_bestv2/mSVJI9P5UmvOLZVTH8sAtlgxsgy.jpg"
 date: 2025-06-13
+rating: 3
 ---
 
 <div class="blog-posts">

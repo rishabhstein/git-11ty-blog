@@ -34,8 +34,11 @@
     {% for book in collections.books | reverse %}
         {% if book.data.status == "Finished" %}
             <div class="book-entry-grid">
-                <a href= "{{ book.url }}">
+                <a href= "{{ book.url }}" class="book-cover">
                 <img src="{{ book.data.cover }}" alt="{{ book.title }}">
+                <div class="star-rating">
+                    {% for i in range(book.data.rating) %}⭐{% endfor %}
+                </div>
                 </a>
             </div>
         {% endif %}

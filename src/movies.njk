@@ -6,7 +6,7 @@
 <h4>{{ title }}</h4>
 <p>The ratings are based on following criteria:</p>
 <div>
-  <span>5⭐️: </span> Absolutely love it and will watch it many times<br>
+  <span>5⭐️: </span> Absolutely loved it and will watch it many times<br>
   <span>4⭐️: </span> Entertaining movie can be watched again<br>
   <span>3⭐️: </span> One time watch<br>
   <span>2⭐️: </span> I was bored but managed to finish it<br>
@@ -17,8 +17,11 @@
 <section class="book-section-grid">
     {% for movie in collections.movies | reverse %}
 	   <div class="book-entry-grid">
-            <a href= "{{ movie.url }}">
+            <a href= "{{ movie.url }}" class="book-cover">
                 <img src="{{ movie.data.cover }}" alt="{{ movie.title }}">
+                <div class="star-rating">
+                    {% for i in range(movie.data.rating) %}⭐{% endfor %}
+                </div>
             </a>
         </div>
     {% endfor %}
