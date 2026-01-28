@@ -286,7 +286,7 @@ body {
 
 
 .book-entry {
-  flex: 0 0 auto;     
+  flex: 0 0 auto;
   width: clamp(100px, 30vw, 150px);
   aspect-ratio: 2 / 3;
   overflow: hidden;
@@ -352,6 +352,15 @@ body {
     align-items: center;
     text-align: center;
   }
+  .book-section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+  }
+
+  .book-entry-grid {
+    width: 100%; /* let grid control sizing */
+  }
 }
 /*---- */
 
@@ -375,7 +384,7 @@ body {
   max-width: 300px;
   position: sticky;
   height: fit-content;
-  max-height: 220vh; 
+  max-height: 220vh;
   overflow-y: auto;
 }
 
@@ -415,7 +424,7 @@ body {
   padding: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   z-index: 1000;
-  
+
   transition: right 0.4s ease; /* Smooth slide effect */
 }
 
