@@ -19,7 +19,7 @@ Hello web dweller, I am Rishabh and I welcome you at my online home. Here, I wri
       <section class="section">
           <!-- {{ post.date | postDate }}-->
           <a href="{{ post.url }}" class="u-url p-name">
-            <h2>{{ post.data.title }} 
+            <h2>{{ post.data.title }}
               <img src="/assets/icons/newpost.png" class="icon-emoji">
             </h2></a>
           <br>{{ post.date | postDate }}
@@ -37,7 +37,7 @@ Hello web dweller, I am Rishabh and I welcome you at my online home. Here, I wri
 <section class="section">
   <div class="container-narrow-gallery">
     {% for post in collections.snap | reverse %}
-      {% if loop.index <= 4  %}     
+      {% if loop.index <= 4  %}
             <a href="{{ post.url }}">
             <img src="{{ post.data.cover }}" alt="{{ post.title }}">
             </a>
@@ -48,7 +48,7 @@ Hello web dweller, I am Rishabh and I welcome you at my online home. Here, I wri
 
 
 <hr>
-<a href="/books/"><h4><img src="/assets/icons/books.png" class="icon-emoji"> Currently reading:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
+<a href="/books/"><h4><img src="/assets/icons/books.png" class="icon-emoji"> Recent Books:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
 
 <section class="section">
   <div class="book-section">
@@ -57,7 +57,7 @@ Hello web dweller, I am Rishabh and I welcome you at my online home. Here, I wri
 
           {% include 'book-snippet.njk' %}
 
-      {% endif %}    
+      {% endif %}
     {% endfor %}
   </div>
 </section>
@@ -69,10 +69,10 @@ Hello web dweller, I am Rishabh and I welcome you at my online home. Here, I wri
   <div class="book-section">
     {% for book in collections.movies | sort(attribute='date') | reverse %}
       {% if loop.index <= 6 %}
-       
+
       {% include 'book-snippet.njk' %}
 
-      {% endif %}    
+      {% endif %}
     {% endfor %}
   </div>
 </section>
