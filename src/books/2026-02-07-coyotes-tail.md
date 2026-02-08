@@ -1,5 +1,5 @@
 ---
-title: "Coyote's Tail"
+title: "Book review: Coyote's Tail"
 cover: "/assets/images/book_covers/coyotes-tail.png"
 author: "Stephane Douady"
 tags: ["book-review"]
