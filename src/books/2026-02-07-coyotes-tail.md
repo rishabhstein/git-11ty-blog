@@ -17,9 +17,8 @@ This review is special as it is about an unpublished book written by my friend a
 
 The main theme of the book is spiritual philosophy, where the author tries to find a common ground between science, religion, and spirituality. The arguments used in the book are based on the author's personal life experiences and observations. These arguments are supported by quoting spiritual masters of the East, such as *Zhuang Zou, Nisargdatta Maharaj, and Swami Pragjnanpad*, as well as religious books such as *Bible and Bhagwad Geeta*.
 
-> The world exists in its intrinsic, fundamental unity. It is as it is. It is neutral and merely expresses itself. Only the mind seeks to make it conform to its fantasy.
-> It appears good or bad... that's up to you, but in its intrinsic glory and majesty
-> Swami Prajnanpad
+> The world exists in its intrinsic, fundamental unity. It is as it is. It is neutral and merely expresses itself. Only the mind seeks to make it conform to its fantasy. It appears good or bad... that's up to you, but in its intrinsic glory and majesty
+> **(..Swami Prajnanpad)**
 
 Occasionally, the author uses daily life incidents or pictures of mundane objects, such as a spoon or a tree, in the discussion to indicate how ignorant we are, as we do not see anything special in them. A kid might see it differently from an adult. For instance, a *Red leather boot* is an object made up of abstract ideas: red color, leather material, and boot shape. The adult takes this knowledge as granted, while a kid needs to learn it first by identifying these abstract ideas.
 
