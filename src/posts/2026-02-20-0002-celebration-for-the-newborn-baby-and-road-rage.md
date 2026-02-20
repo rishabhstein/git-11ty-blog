@@ -4,7 +4,7 @@ date: 2026-02-20
 tags: ["word-vomit"]
 ---
 
-This is the second vomit post, and the proper first one. The [previous one was more about setting up the rules and laying out the plans for the series.](./2026-02-18-0001-beginning-of-word-vomit/) 
+This is the second vomit post, and the proper first one. The [previous one was more about setting up the rules and laying out the plans for the series.](/2026-02-18-0001-beginning-of-word-vomit/) 
 
 However, it is supposed to be the third post since it's the third day of the series, but due to some unavoidable circumstances, I could not find time to sit in front of the screen (not even my phone). I am unfortunately sick with a cold and fever for the past couple of days, and despite my poor health, I was driving 5-6 hours yesterday to pick up my sister and cousin sister. It was necessary to go and pick them up as it is a Hindu custom, especially when you invite married (cousin) sisters to join you for a celebration.
 
