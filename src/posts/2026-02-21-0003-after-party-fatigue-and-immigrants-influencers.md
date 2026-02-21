@@ -1,15 +1,14 @@
 ---
 title: 0003-after party fatigue and immigrants influencers
 date: 2026-02-21
-tags:
-  - word-vomit
+tags: ["word-vomit"]
 ---
 
 It's the third vomit post. I am partly excited about my ability to keep the momentum—it may be beginner's luck—and partly in doubt whether I can sustain this. After all, it is not a small commitment because writing is an art, and to learn it, one needs to push oneself with regular practice.
 
 I still have guilt for skipping a post immediately after the first day. I feel like such a loser for that. But here I am, again pushing myself.
 
-After finishing yesterday's vomit, I was thinking about the topic to write. Unfortunately, I didn't have much time due to yesterday's celebration, where I needed to make arrangements for lunch for twenty people; it was a tiring job. A few topics appeared in my conscience in the meantime, which were related to *fear of failure, immigrants who criticise their parent culture, and social fabric*. 
+After finishing yesterday's vomit, I was thinking about the topic to write. Unfortunately, I didn't have much time due to yesterday's celebration, where I needed to make arrangements for lunch for twenty people; it was a tiring job. A few topics appeared in my conscience in the meantime, which were related to *fear of failure, immigrants who criticise their parent culture, and social fabric*.
 
 I [mentioned yesterday](/posts/2026-02-20-0002-celebration-for-the-newborn-baby-and-road-rage.md) a bit about *Hindu rituals*, so I don't want to put my head in social fabric. Let's ignore my *fear of failure* :p, and talk about *immigrants who criticise their parent culture*.
 
