@@ -1,0 +1,8 @@
+{
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "_data",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "posts"
+}
