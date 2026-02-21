@@ -11,10 +11,14 @@
             "id": "66ef7b34c8258b42",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "posts/2026-02-21-0003-after-party-fatigue-and-immigrants-influencers.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-02-21-0003-after-party-fatigue-and-immigrants-influencers"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "98c893046b988f8a",
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "posts/2026-02-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2026-02-21"
             }
           },
           {
@@ -190,6 +196,9 @@
   },
   "active": "66ef7b34c8258b42",
   "lastOpenFiles": [
+    "posts/2026-02-20-0002-celebration-for-the-newborn-baby-and-road-rage.md",
+    "posts/2026-02-21-0003-after-party-fatigue-and-immigrants-influencers.md",
+    "posts/Untitled.md",
     "posts/2026-02-20.md",
     "posts/vomit-0002.md",
     "posts/2026-02-20-0002.md",
