@@ -21,7 +21,7 @@
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
   "refreshSourceControl": true,
-  "basePath": "/Users/rishabhstein/MyWebsite/11ty_notes",
+  "basePath": "/Users/rishabhstein/MyWebsite/git-11ty_blog/",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
   "showedMobileNotice": true,
