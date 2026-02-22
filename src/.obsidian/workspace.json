@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d32b46bb80a7da02",
+        "id": "59d011b70d3285c2",
         "type": "tabs",
         "children": [
           {
-            "id": "66ef7b34c8258b42",
+            "id": "66fc6cea34a0c0b0",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "src/posts/2026-02-21-0003-after-party-fatigue-and-immigrants-influencers.md",
-                "bFile": "src/posts/2026-02-21-0003-after-party-fatigue-and-immigrants-influencers.md",
-                "aRef": ""
+                "file": "posts/2026-02-22-0004-work-pressure-and-bad-effect-of-doom-scrolling.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2026-02-21-0003-after-party-fatigue-and-immigrants-influencers"
+              "icon": "lucide-file",
+              "title": "2026-02-22-0004-work-pressure-and-bad-effect-of-doom-scrolling"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 231.5
   },
   "right": {
     "id": "98c893046b988f8a",
@@ -194,8 +193,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "66ef7b34c8258b42",
+  "active": "66fc6cea34a0c0b0",
   "lastOpenFiles": [
+    "posts/2026-02-22-0004-work-pressure-and-bad-effect-of-doom-scrolling.md",
     "posts/2026-02-21-0003-after-party-fatigue-and-immigrants-influencers.md",
     "posts/2026-02-20-0002-celebration-for-the-newborn-baby-and-road-rage.md",
     "posts/Untitled.md",
