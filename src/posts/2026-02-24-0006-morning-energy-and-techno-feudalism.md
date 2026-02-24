@@ -36,4 +36,7 @@ Third point, social illiteracy and ethics add to the previous point. In my view,
 
 Ofcourse a college degree does not guarantee ethical behavior. But, in my view, those who do not earn the success do not know its importance. Therefore, it is easy to fall into unethical practices, which we see are growing in the world.
 
+--
+Footnotes:
+
 [^1]: Good or bad needs to be defined here. I have a few way sto check it. First, a good leader does not want to be a leader. Second, he thinks about other people, and not about his personal success and failure.
