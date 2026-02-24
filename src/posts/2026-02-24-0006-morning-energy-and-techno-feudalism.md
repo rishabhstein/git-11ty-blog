@@ -4,7 +4,7 @@ date: 2026-02-24
 tags:
   - word-vomit
 ---
-The last two word-vomits were hard to finish because I wrote them before going to bed, when I was exhausted. But today I decided to do it among the first few things in the morning. I feel refreshed and energetic to write this word-vomit, despite having pressure to start working soon.
+The last two word-vomits were hard to finish because I wrote them before going to bed, when I was exhausted. But today I decided to do it among the first few things in the morning. I feel refreshed and energetic to write this word-vomit, despite having a pressure to start working soon.
 
 This morning's energy is not random, as I have experienced it multiple times in my life. Whenever I needed to do something hard, such as building a habit of flossing regularly, going for a workout, or correcting my PhD thesis, I cultivated this morning energy and channeled it to fight against my negative-self. The results were never disappointing. They brought confidence and belief in myself that I can do anything. So, to stick to the word-vomit series, I will make a routine of doing it in the morning.
 
