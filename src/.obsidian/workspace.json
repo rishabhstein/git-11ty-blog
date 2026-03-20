@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "movies/1774036159308.md",
+                "file": "movies/1774037742097.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1774036159308"
+              "title": "1774037742097"
             }
           }
         ]
@@ -195,10 +195,11 @@
   },
   "active": "2ac4ae377c181c0f",
   "lastOpenFiles": [
+    "movies/1774036159308.md",
+    "movies/1774037742097.md",
     "movies/1774036883208.md",
     "movies/1774036900422.md",
     "books/2026-03-10-i-have-lived-before.md",
-    "movies/1774036159308.md",
     "movies/1771318634063.md",
     "books/2026-02-07-coyotes-tail.md",
     "posts/2026-02-27-0009-ADHD-researcher-and-reading-problem.md",
@@ -220,7 +221,6 @@
     "_templates/word-vomit.md",
     "_templates/post copy.md",
     "_templates/post.md",
-    "_templates/notes.md",
     "_templates"
   ]
 }
