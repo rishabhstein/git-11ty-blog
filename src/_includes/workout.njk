@@ -1,0 +1,36 @@
+---
+layout: 'base.njk'
+---
+
+<article class="main-article">
+  <h1>{{ title }}</h1>
+  <p>{{ page.date | postDate }}</p>
+
+  {% set details = [] %}
+  {% if workout_type %}{% set details = (details.push(["Type", workout_type]), details) %}{% endif %}
+  {% if distance %}{% set details = (details.push(["Distance", distance + " km"]), details) %}{% endif %}
+  {% if duration %}{% set details = (details.push(["Duration", duration | formatWorkoutDuration]), details) %}{% endif %}
+  {% if calories %}{% set details = (details.push(["Calories", calories]), details) %}{% endif %}
+  {% if average_heart_rate %}{% set details = (details.push(["Average heart rate", average_heart_rate + " bpm"]), details) %}{% endif %}
+  {% if source %}{% set details = (details.push(["Source", source]), details) %}{% endif %}
+
+  {% if details.length %}
+    <ul class="workout-detail-list">
+      {% for item in details %}
+        <li><strong>{{ item[0] }}:</strong> {{ item[1] }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <div class="container-narrow">
+    <main>
+      {% if content | trim %}
+        <div class="workout-summary-block">
+          <h4>Summary</h4>
+          {{ content | safe }}
+        </div>
+      {% endif %}
+    </main>
+  </div>
+
+</article>

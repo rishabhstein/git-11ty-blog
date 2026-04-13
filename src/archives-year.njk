@@ -1,13 +1,12 @@
 ---
 layout: 'base.njk'
-title: Archives
+pagination:
+  data: collections.postArchiveYears
+  size: 1
+  alias: archiveYear
+permalink: "/archives/{{ archiveYear }}/"
+eleventyExcludeFromCollections: true
 ---
-
-<p>Filter them with:
-<a href="/tags/">tags</a>
-</p>
-
-{% set currentYear = collections.postArchiveYears | first %}
 
 <p>
   Years:
@@ -16,9 +15,9 @@ title: Archives
   {% endfor %}
 </p>
 
-<h4>{{ currentYear }}</h4>
+<h4>{{ archiveYear }}</h4>
 <ul class="blog-posts">
-  {% for post in collections.postArchive | itemsForYear(currentYear) %}
+  {% for post in collections.postArchive | itemsForYear(archiveYear) %}
     <li>
       <span>{{ post.date | postDate }}</span>
        —

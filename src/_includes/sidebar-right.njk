@@ -1,0 +1,50 @@
+<div class="right-column">
+      <!-- Right Sidebar Column -->
+      <h3><img src="/assets/icons/fb-announce.png" class="icon-emoji"> Status </h3>
+      <div class="section">
+      <section class="livestatus">
+          <div id="statuscafe">
+            <div id="statuscafe-username"></div>
+            <div id="statuscafe-content"></div>
+          </div>
+          <script src="https://status.cafe/current-status.js?name=sigmarootpi" defer></script>
+        </section>
+        </div>
+
+      <h3 class="workout-calendar-title">
+        <a href="/workout/">🏃 Activity Calendar</a>
+      </h3>
+      <div class="section workout-calendar-section">
+        {% set activityHeatmapItems = collections.workoutArchive %}
+        {% set activityHeatmapTitle = "Activity Calendar" %}
+        {% set activityHeatmapLabelSingular = "workout" %}
+        {% set activityHeatmapLabelPlural = "workouts" %}
+        {% set activityHeatmapTitleUrl = "/workout/" %}
+        {% set activityHeatmapShowTitle = false %}
+        {% set activityHeatmapStyle = "calendar" %}
+        {% if collections.workoutArchive.length %}
+          {% set activityHeatmapInitialMonth = collections.workoutArchive[0].date | isoDate %}
+        {% endif %}
+        {% include "activity-heatmap.njk" %}
+
+      <h3><a href="/workout/">Recent Activities</a></h3>
+        <ul class="portal-list workout-recent-list">
+          {% for workout in collections.workoutArchive %}
+            {% if loop.index <= 4 %}
+              <li>
+                <a href="/workout/{{ workout.date.getFullYear() }}/#month-{{ workout.date | monthKey }}">{{ workout.data.title }}</a>
+                <span class="sidebar-activity-meta">{{ workout.date | postDate }}{% if workout.data.distance %} · {{ workout.data.distance }} km{% endif %}</span>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <h3><img src="/assets/icons/fb-wall.png" class="icon-emoji">
+        <a href="/garden/blogroll/">Blogroll</a>
+        <img src="/assets/icons/click.png" class="icon-emoji"></a></h3>
+        <div class="section">
+          {% include "blogroll-snippet.njk" %}
+        </div>
+
+    </div>

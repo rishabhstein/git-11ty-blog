@@ -1,0 +1,54 @@
+---
+title: Workout Log
+layout: 'base.njk'
+---
+
+{% set currentYear = collections.workoutArchiveYears | first %}
+{% set allWorkouts = collections.workoutArchive %}
+{% set currentYearWorkouts = allWorkouts | itemsForYear(currentYear) %}
+{% set summary = allWorkouts | workoutSummary %}
+{% set activityTypes = allWorkouts | workoutTypeSummary %}
+{% set workoutChartItems = allWorkouts %}
+
+<article class="main-article workout-log-page">
+  <h1>Workout Log</h1>
+
+  {% if currentYear %}
+    <section class="workout-log-section">
+      <h2 class="telegraph-section-title">Years</h2>
+      <ul class="workout-year-links">
+        {% for year in collections.workoutArchiveYears %}
+          <li><a href="/workout/{{ year }}/">{{ year }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    {% include "workout-activity-charts.njk" %}
+
+    <section class="workout-log-section">
+      <h2 class="telegraph-section-title">Totals</h2>
+      <p>I have logged a total of {{ summary.totalActivities | formatNumber }} workouts.</p>
+      <p>Since I began tracking, I have recorded activity on {{ summary.activeDays | formatNumber }} out of {{ summary.totalDays | formatNumber }} days, which is {{ summary.percentActiveDays }}% of all days.</p>
+      <p>Total active time is {{ summary.totalDurationLabel }}{% if summary.totalDistanceKm %} and I have covered {{ summary.totalDistanceKm }} km{% endif %}.</p>
+      <p>My current streak is {{ summary.currentStreak }} days, while my longest streak so far is {{ summary.longestStreak }} days. The longest break I have taken is {{ summary.longestBreak }} days.</p>
+    </section>
+
+    <section class="workout-log-section">
+      <h2 class="telegraph-section-title">Activity Types</h2>
+      <div class="workout-type-grid">
+        {% for item in activityTypes %}
+          <article class="workout-type-card">
+            <h3>{{ item.type }}</h3>
+            <ul>
+              <li>{{ item.activities | formatNumber }} activities</li>
+              {% if item.durationLabel %}<li>{{ item.durationLabel }}</li>{% endif %}
+              {% if item.distanceKm %}<li>{{ item.distanceKm }} km</li>{% endif %}
+            </ul>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% else %}
+    <p>No workouts logged yet.</p>
+  {% endif %}
+</article>

@@ -1,6 +1,12 @@
 ---
-title: Movie/Series Reviews
 layout: 'base.njk'
+title: Movie/Series Reviews
+pagination:
+  data: collections.movieArchiveYears
+  size: 1
+  alias: archiveYear
+permalink: "/movies/{{ archiveYear }}/"
+eleventyExcludeFromCollections: true
 ---
 
 <p>
@@ -10,11 +16,9 @@ layout: 'base.njk'
   {% endfor %}
 </p>
 
-{% set currentYear = collections.movieArchiveYears | first %}
-
-<h4>{{ title }}: {{ currentYear }}</h4>
+<h4>{{ title }}: {{ archiveYear }}</h4>
 <section class="book-section-grid">
-  {% for movie in collections.movieArchive | itemsForYear(currentYear) %}
+  {% for movie in collections.movieArchive | itemsForYear(archiveYear) %}
     <div class="book-entry-grid">
       <a href="{{ movie.url }}" class="book-cover">
         <img src="{{ movie.data.cover }}" alt="{{ movie.title }}">

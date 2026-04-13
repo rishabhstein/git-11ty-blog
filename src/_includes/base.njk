@@ -28,82 +28,24 @@
     <!-- Le styles -->
     <link rel="stylesheet" href="/assets/css/style.css?v=2.1">
     <link rel="stylesheet" href="/assets/css/mastodon.css?v=2.0">
-    <!-- <link rel="stylesheet" href="/assets/css/snow.css?v=2.0"> -->
-    <!-- <link rel="stylesheet" href="/assets/css/christmas-light.css"> -->
 
     <!-- Fav and touch icons -->
     <link rel="icon" type="image/png" href="/assets/logo.png">
 
     <link rel="alternate" type="application/rss+xml" title="Rishabh's Blog Feed" href="/feed.xml" />
     <script src="/assets/js/sidebar.js" defer></script>
+    <script src="/assets/js/activity-heatmap.js" defer></script>
     <audio id="sidebar-music" src="/assets/sounds/blog_background.mp3" preload="auto" loop></audio>
 
 </head>
 <body>
 
-<!-- Adding Christmas Theme  -->
-<!--<div>
-  <ul class="strand">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
-</div> -->
-
-    <!-- Its Christmas time -->
-<!-- <div id="snow-zone">
-  <span class="snow-particle" style="--x:5vw; --size:6px; --duration:6s; --delay:0s;"></span>
-  <span class="snow-particle" style="--x:15vw; --size:8px; --duration:7s; --delay:0.5s;"></span>
-  <span class="snow-particle" style="--x:25vw; --size:7px; --duration:5.5s; --delay:5s;"></span>
-  <span class="snow-particle" style="--x:35vw; --size:9px; --duration:6.5s; --delay:3s;"></span>
-  <span class="snow-particle" style="--x:45vw; --size:8px; --duration:7.5s; --delay:0.8s;"></span>
-  <span class="snow-particle" style="--x:55vw; --size:6px; --duration:6s; --delay:2s;"></span>
-  <span class="snow-particle" style="--x:65vw; --size:9px; --duration:7s; --delay:3s;"></span>
-  <span class="snow-particle" style="--x:75vw; --size:7px; --duration:5.8s; --delay:10s;"></span>
-  <span class="snow-particle" style="--x:85vw; --size:8px; --duration:6.5s; --delay:7s;"></span>
-  <span class="snow-particle" style="--x:95vw; --size:9px; --duration:7.2s; --delay:0.9s;"></span>
-</div> -->
-<!-- ## End of Christmas Theme# -->
-
+  <!-- Its njk format comment here -->
+  {#
+    <link rel="stylesheet" href="/assets/css/snow.css?v=2.0">
+    <link rel="stylesheet" href="/assets/css/christmas-light.css">
+    {% include 'christmas-theme.njk' %}
+  #}
 
 
     {% include 'header.njk' %}
@@ -116,29 +58,7 @@
 
     </div> <!--main content end-->
 
-    <div class="right-column">
-      <!-- Right Sidebar Column -->
-      <h3><img src="/assets/icons/fb-announce.png" class="icon-emoji"> Status </h3>
-      <div class="section">
-      <section class="livestatus">
-          <div id="statuscafe">
-            <div id="statuscafe-username"></div>
-            <div id="statuscafe-content"></div>
-          </div>
-          <script src="https://status.cafe/current-status.js?name=sigmarootpi" defer></script>
-        </section>
-        </div>
-
-  <h3><img src="/assets/icons/fb-wall.png" class="icon-emoji"> Mini-feed<a href="https://mastodon.social/@sigmarootpi"><img src="/assets/icons/click.png" class="icon-emoji"></a></h3>
-        <div class="section">
-            <div id="mt-container" class="mt-container">
-              <div class="mt-body" role="feed">
-                <div class="mt-loading-spinner"></div>
-              </div>
-            </div>
-        </div>
-
-    </div>
+    {% include 'sidebar-right.njk'%}
 
     <div class="overlay"></div>
 

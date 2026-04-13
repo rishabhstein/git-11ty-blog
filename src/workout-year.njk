@@ -1,0 +1,67 @@
+---
+layout: 'base.njk'
+title: Workout Log
+pagination:
+  data: collections.workoutArchiveYears
+  size: 1
+  alias: archiveYear
+permalink: "/workout/{{ archiveYear }}/"
+eleventyExcludeFromCollections: true
+---
+
+{% set yearWorkouts = collections.workoutArchive | itemsForYear(archiveYear) %}
+{% set yearSummary = yearWorkouts | workoutSummary %}
+{% set workoutChartItems = yearWorkouts %}
+{% set workoutChartMonthSeriesYear = archiveYear %}
+{% set activityHeatmapItems = yearWorkouts %}
+{% set activityHeatmapTitle = "Monthly Activity" %}
+{% set activityHeatmapLabelSingular = "workout" %}
+{% set activityHeatmapLabelPlural = "workouts" %}
+{% set activityHeatmapStyle = "strip" %}
+{% set activityHeatmapMonthLinkPrefix = "#month-" %}
+{% set activityHeatmapSyncTarget = "#workout-months-" ~ archiveYear %}
+{% if yearWorkouts.length %}
+  {% set activityHeatmapInitialMonth = yearWorkouts[0].date | isoDate %}
+{% endif %}
+{% set activityHeatmapMinMonth = archiveYear ~ "-01-01" %}
+{% set activityHeatmapMaxMonth = archiveYear ~ "-12-01" %}
+
+<article class="main-article workout-log-page">
+  <h1>{{ title }}: {{ archiveYear }}</h1>
+
+  <section class="workout-log-section">
+    <h2 class="telegraph-section-title">Years</h2>
+    <ul class="workout-year-links">
+      {% for year in collections.workoutArchiveYears %}
+        <li><a href="/workout/{{ year }}/">{{ year }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <p>
+    {{ yearSummary.totalActivities | formatNumber }} workouts
+    {% if yearSummary.totalDistanceKm %} · {{ yearSummary.totalDistanceKm }} km{% endif %}
+    {% if yearSummary.totalDurationLabel %} · {{ yearSummary.totalDurationLabel }}{% endif %}
+  </p>
+
+  {% include "workout-activity-charts.njk" %}
+  {% include "activity-heatmap.njk" %}
+
+  <div id="workout-months-{{ archiveYear }}">
+    {% for month in yearWorkouts | groupWorkoutsByMonth %}
+      <section class="workout-log-section workout-month-panel" data-workout-month="{{ month.key }}">
+        <h2 id="month-{{ month.key }}" class="telegraph-section-title">{{ month.label }}</h2>
+        <ul class="blog-posts workout-year-list">
+          {% for workout in month.items %}
+            <li>
+              {% set workoutLogItem = workout %}
+              {% include "workout-log-item.njk" %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+  </div>
+</article>
+
+<script src="/assets/js/activity-heatmap.js" defer></script>

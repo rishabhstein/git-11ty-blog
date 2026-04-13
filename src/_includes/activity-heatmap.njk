@@ -1,0 +1,33 @@
+{% set heatmapTitle = activityHeatmapTitle or "Monthly Activity" %}
+{% set heatmapItems = activityHeatmapItems or collections.siteActivity %}
+{% set heatmapLabelSingular = activityHeatmapLabelSingular or "post" %}
+{% set heatmapLabelPlural = activityHeatmapLabelPlural or "posts" %}
+{% set heatmapStyle = activityHeatmapStyle or "calendar" %}
+{% set heatmapMonthLinkPrefix = activityHeatmapMonthLinkPrefix or "" %}
+{% set heatmapTitleUrl = activityHeatmapTitleUrl or "" %}
+
+{% if activityHeatmapShowTitle is not defined or activityHeatmapShowTitle %}
+  <h3>{% if heatmapTitleUrl %}<a href="{{ heatmapTitleUrl }}">{{ heatmapTitle }}</a>{% else %}{{ heatmapTitle }}{% endif %}</h3>
+{% endif %}
+<div
+  class="activity-heatmap{% if heatmapStyle == 'strip' %} activity-heatmap-strip{% endif %}"
+  {# Pass all activity dates once; the client-side widget groups them by month. #}
+  data-activity-dates="{% for item in heatmapItems %}{{ item.date | isoDate }}{% if not loop.last %},{% endif %}{% endfor %}"
+  data-activity-label-singular="{{ heatmapLabelSingular }}"
+  data-activity-label-plural="{{ heatmapLabelPlural }}"
+  data-activity-style="{{ heatmapStyle }}"
+  {% if heatmapMonthLinkPrefix %}data-activity-month-link-prefix="{{ heatmapMonthLinkPrefix }}"{% endif %}
+  {% if activityHeatmapSyncTarget %}data-activity-sync-target="{{ activityHeatmapSyncTarget }}"{% endif %}
+  {% if activityHeatmapInitialMonth %}data-activity-initial-month="{{ activityHeatmapInitialMonth }}"{% endif %}
+  {% if activityHeatmapMinMonth %}data-activity-min-month="{{ activityHeatmapMinMonth }}"{% endif %}
+  {% if activityHeatmapMaxMonth %}data-activity-max-month="{{ activityHeatmapMaxMonth }}"{% endif %}>
+  <div class="activity-heatmap-header">
+    <button class="activity-nav activity-prev" type="button" aria-label="Previous month">&larr;</button>
+    <a class="activity-month-label">Loading...</a>
+    <button class="activity-nav activity-next" type="button" aria-label="Next month">&rarr;</button>
+  </div>
+  <div class="activity-weekdays" aria-hidden="true">
+    <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+  </div>
+  <div class="activity-grid"></div>
+</div>

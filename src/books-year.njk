@@ -1,6 +1,12 @@
 ---
-title: Book Reviews
 layout: 'base.njk'
+title: Book Reviews
+pagination:
+  data: collections.bookArchiveYears
+  size: 1
+  alias: archiveYear
+permalink: "/books/{{ archiveYear }}/"
+eleventyExcludeFromCollections: true
 ---
 
 <p>
@@ -10,11 +16,9 @@ layout: 'base.njk'
   {% endfor %}
 </p>
 
-{% set currentYear = collections.bookArchiveYears | first %}
-
-<h4>{{ title }}: {{ currentYear }}</h4>
+<h4>{{ title }}: {{ archiveYear }}</h4>
 <section class="book-section-grid">
-  {% for book in collections.bookArchive | itemsForYear(currentYear) %}
+  {% for book in collections.bookArchive | itemsForYear(archiveYear) %}
     <div class="book-entry-grid">
       <a href="{{ book.url }}" class="book-cover">
         <img src="{{ book.data.cover }}" alt="{{ book.title }}">

@@ -4,9 +4,11 @@ layout: base.njk
 ---
 
 {% set totalWeeks = lifeline.lifespan * lifeline.weeksInYear %}
+{% set weeksPerDecade = 10 * lifeline.weeksInYear %}
+{% set totalDecades = (totalWeeks / weeksPerDecade) | round(0, 'ceil') %}
 
 <h1>{{ title }}</h1>
-This page is still in progress. Each box represents a week of my life with color indicating:
+Each box represents a week with color indicating:
 <div class="legend">
   <span class="week lived legend-box"></span> Lived weeks <br>
   <span class="week legend-box"></span> Future weeks <br>
@@ -18,28 +20,34 @@ This page is still in progress. Each box represents a week of my life with color
 <div class="calendar-container">
   <div class="weeks-label">Weeks →</div>
   <div class="calendar">
-    {% set weeksPerDecade = 10 * lifeline.weeksInYear %}
-
-    {% for week in range(1, totalWeeks + 1) %}
-      {% set milestone = null %}
-      {% for m in lifeline.milestones %}
-        {% if m.week == week %}
-          {% set milestone = m %}
-        {% endif %}
-      {% endfor %}
-
-      {# Add a decade separator #}
-      {% if week > 1 and (week - 1) % weeksPerDecade == 0 %}
-        <div class="decade-separator"></div>
+    {% for decadeIndex in range(0, totalDecades - 1) %}
+      {% set decadeStart = decadeIndex * weeksPerDecade + 1 %}
+      {% set decadeEnd = decadeStart + weeksPerDecade - 1 %}
+      {% if decadeEnd > totalWeeks %}
+        {% set decadeEnd = totalWeeks %}
       {% endif %}
 
-      <div 
-        class="week {% if week <= lifeline.weeksLived %}lived{% endif %} {% if milestone %}milestone{% endif %}" 
-        {% if milestone %}
-          title="{{ milestone.date }} - {{ milestone.label }}" 
-          data-label="{{ milestone.label }}" 
-          data-date="{{ milestone.date }}"
-        {% endif %}>
+      <div class="decade-row">
+        <div class="decade-label">{{ decadeIndex * 10 }}s</div>
+        <div class="decade-grid">
+          {% for week in range(decadeStart, decadeEnd) %}
+            {% set milestone = null %}
+            {% for m in lifeline.milestones %}
+              {% if m.week == week %}
+                {% set milestone = m %}
+              {% endif %}
+            {% endfor %}
+
+            <div
+              class="week {% if week <= lifeline.weeksLived %}lived{% endif %} {% if milestone %}milestone{% endif %}"
+              {% if milestone %}
+                title="{{ milestone.date }} - {{ milestone.label }}"
+                data-label="{{ milestone.label }}"
+                data-date="{{ milestone.date }}"
+              {% endif %}>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     {% endfor %}
   </div>
@@ -66,42 +74,65 @@ This page is still in progress. Each box represents a week of my life with color
   border: 2px solid #e53935;
 }
 
-
 .calendar {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 12px);
-  gap: 2px;
-  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   margin: 20px 0;
 }
 
-/* Default non-lived week */
+.decade-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.decade-label {
+  width: 40px;
+  flex: 0 0 40px;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #555;
+}
+
+.decade-grid {
+  display: grid;
+  grid-template-columns: repeat(52, minmax(0, 1fr));
+  gap: 1px;
+  flex: 1 1 auto;
+  max-width: 100%;
+}
+
+.decade-grid .week {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  min-width: 0;
+}
+
 .week {
-  width: 12px; 
+  width: 12px;
   height: 12px;
-  background: transparent; /* transparent fill */
-  border: 1px solid #333; /* dark edge */
+  background: transparent;
+  border: 1px solid #333;
   box-sizing: border-box;
 }
 
-/* Weeks already lived */
 .week.lived {
-  background: #4caf50; /* green */
+  background: #4caf50;
   border: 1px solid #4caf50;
 }
 
-/* Milestones */
 .week[title] {
-  border: 1px solid #e53935; /* red border for milestone */
+  border: 1px solid #e53935;
   position: relative;
   cursor: pointer;
 }
 
 .week[title].lived {
-  background: #e53935; /* keep green fill for lived milestone */
+  background: #e53935;
 }
 
-/* Optional: scale effect on hover for milestones */
 .week[title]:hover {
   transform: scale(1.3);
   transition: transform 0.2s;
@@ -118,7 +149,7 @@ This page is still in progress. Each box represents a week of my life with color
   z-index: 10;
   display: none;
   pointer-events: none;
-  white-space: pre; /* respects \n line breaks */
+  white-space: pre;
 }
 
 </style>
