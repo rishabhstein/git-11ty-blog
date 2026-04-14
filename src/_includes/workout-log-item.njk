@@ -38,6 +38,7 @@
       <div class="workout-summary-block">
         <h5>Summary</h5>
         {{ workoutItem.templateContent | safe }}
+        {% workoutPlots workoutItem.inputPath, workoutItem.data.plot_svgs %}
       </div>
     {% endif %}
   </div>

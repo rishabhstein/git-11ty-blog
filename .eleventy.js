@@ -1,3 +1,6 @@
+const fs = require("fs");
+const path = require("path");
+
 module.exports = async function(eleventyConfig) {
   const sortNewestFirst = (items) => [...(Array.isArray(items) ? items : [])].sort((a, b) => b.date - a.date);
   const uniqueYearsDescending = (items) =>
@@ -35,6 +38,185 @@ module.exports = async function(eleventyConfig) {
   function normalizeWorkoutDay(dateValue) {
     const date = new Date(dateValue);
     return new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  }
+
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function humanizeWorkoutPlotName(fileName, fallback = "Workout plot") {
+    const baseName = path.basename(String(fileName || ""), ".svg");
+    const cleaned = baseName.replace(/^\d{4}-\d{2}-\d{2}-(?:[^-]+-)?/, "");
+    if (!cleaned) return fallback;
+
+    return cleaned
+      .replace(/[-_]+/g, " ")
+      .replace(/\b\w/g, (letter) => letter.toUpperCase());
+  }
+
+  function workoutPlotSortWeight(fileName) {
+    const baseName = path.basename(String(fileName || ""), ".svg").toLowerCase();
+    if (baseName.includes("heart-rate")) return 0;
+    if (baseName.includes("power")) return 1;
+    if (baseName.includes("cadence")) return 2;
+    return 10;
+  }
+
+  function normalizeWorkoutSvgPaths(inputPath, explicitPaths = []) {
+    const requestedPaths = Array.isArray(explicitPaths)
+      ? explicitPaths
+      : explicitPaths
+        ? [explicitPaths]
+        : [];
+    if (!inputPath && !requestedPaths.length) return [];
+
+    const workoutBaseName = inputPath ? path.basename(inputPath, path.extname(inputPath)) : "";
+    const workoutDir = inputPath ? path.dirname(inputPath) : path.join(process.cwd(), "src", "workout");
+    const assetWorkoutDir = workoutBaseName
+      ? path.join(process.cwd(), "assets", "workout", workoutBaseName)
+      : "";
+    const filePaths = [];
+
+    const addPathsFromDirectory = (directoryPath, fileFilter = () => true) => {
+      if (!directoryPath || !fs.existsSync(directoryPath)) return;
+
+      fs.readdirSync(directoryPath)
+        .filter((fileName) => fileName.endsWith(".svg") && fileFilter(fileName))
+        .sort()
+        .forEach((fileName) => addPath(path.join(directoryPath, fileName)));
+    };
+
+    const addPath = (candidatePath) => {
+      if (!candidatePath) return;
+
+      const resolvedPath = path.isAbsolute(candidatePath)
+        ? candidatePath
+        : path.resolve(workoutDir, candidatePath);
+
+      if (!fs.existsSync(resolvedPath)) return;
+
+      if (fs.statSync(resolvedPath).isDirectory()) {
+        addPathsFromDirectory(resolvedPath);
+        return;
+      }
+
+      if (!resolvedPath.endsWith(".svg")) return;
+      if (!filePaths.includes(resolvedPath)) filePaths.push(resolvedPath);
+    };
+
+    if (assetWorkoutDir) {
+      const preferredNames = ["heart-rate.svg", "power.svg", "cadence.svg"];
+      for (const fileName of preferredNames) {
+        const candidatePath = path.join(assetWorkoutDir, fileName);
+        if (fs.existsSync(candidatePath)) addPath(candidatePath);
+      }
+      if (filePaths.length) return filePaths.sort();
+    }
+
+    if (requestedPaths.length) {
+      requestedPaths.forEach(addPath);
+      return filePaths.sort();
+    }
+
+    if (!inputPath) return [];
+    if (!fs.existsSync(workoutDir)) return [];
+
+    addPathsFromDirectory(workoutDir, (fileName) => fileName.startsWith(path.basename(inputPath, path.extname(inputPath))));
+    return filePaths;
+  }
+
+  function toWorkoutPublicUrl(resolvedPath) {
+    const normalizedPath = path.resolve(resolvedPath);
+    const relativePath = path.relative(process.cwd(), normalizedPath).replace(/\\/g, "/");
+
+    if (relativePath.startsWith("src/workout/")) {
+      return `/workout/${path.basename(normalizedPath)}`;
+    }
+
+    return `/${relativePath}`;
+  }
+
+  function renderWorkoutPlotFigures(inputPath, explicitPaths = []) {
+    const svgFiles = normalizeWorkoutSvgPaths(inputPath, explicitPaths);
+    if (!svgFiles.length) return "";
+
+    const workoutBaseName = inputPath ? path.basename(inputPath, path.extname(inputPath)) : "";
+    const sortedSvgFiles = [...svgFiles].sort((left, right) => {
+      const weightDelta = workoutPlotSortWeight(left) - workoutPlotSortWeight(right);
+      if (weightDelta !== 0) return weightDelta;
+      return path.basename(left).localeCompare(path.basename(right));
+    });
+
+    const plots = sortedSvgFiles.map((svgFile, index) => {
+      const fileName = path.basename(svgFile);
+      const title = humanizeWorkoutPlotName(fileName);
+      const altLabel = `${title} plot`;
+      const publicUrl = toWorkoutPublicUrl(svgFile);
+      const tabId = `${workoutBaseName || "workout"}-${index}`;
+
+      return `
+      <div
+        class="workout-plot-panel${index === 0 ? " is-active" : ""}"
+        role="tabpanel"
+        id="${escapeHtml(`${tabId}-panel`)}"
+        aria-labelledby="${escapeHtml(`${tabId}-tab`)}"
+        ${index === 0 ? "" : "hidden"}
+        data-workout-tab-panel
+        data-workout-tab-target="${escapeHtml(tabId)}"
+      >
+        <figure class="workout-plot-card">
+          <figcaption class="workout-plot-caption">
+            <strong class="workout-plot-title">${escapeHtml(title)}</strong>
+            <a class="workout-plot-link" href="${escapeHtml(publicUrl)}">SVG</a>
+          </figcaption>
+          <img
+            class="workout-plot-image"
+            src="${escapeHtml(publicUrl)}"
+            alt="${escapeHtml(altLabel)}${workoutBaseName ? ` for ${escapeHtml(workoutBaseName)}` : ""}"
+            loading="lazy"
+          >
+        </figure>
+      </div>`.trim();
+    }).join("\n");
+
+    const tabCount = sortedSvgFiles.length;
+    const tabsMarkup = tabCount > 1
+      ? `
+<div class="workout-plot-tabs" role="tablist" aria-label="Workout plots">
+${sortedSvgFiles.map((svgFile, index) => {
+        const title = humanizeWorkoutPlotName(path.basename(svgFile));
+        const tabId = `${workoutBaseName || "workout"}-${index}`;
+        return `
+  <button
+    class="workout-plot-tab${index === 0 ? " is-active" : ""}"
+    type="button"
+    role="tab"
+    id="${escapeHtml(`${tabId}-tab`)}"
+    aria-selected="${index === 0 ? "true" : "false"}"
+    aria-controls="${escapeHtml(`${tabId}-panel`)}"
+    tabindex="${index === 0 ? "0" : "-1"}"
+    data-workout-tab
+    data-workout-tab-target="${escapeHtml(tabId)}"
+  >${escapeHtml(title)}</button>`.trim();
+      }).join("\n")}
+</div>
+<div class="workout-plot-panels">
+${plots}
+</div>`
+      : plots;
+
+    return `
+<section class="workout-metric-plots workout-svg-plots">
+  <h2 class="telegraph-section-title">Workout Plots</h2>
+  <div class="workout-plot-grid"${tabCount > 1 ? ' data-workout-tabs' : ''}>
+${tabsMarkup}
+  </div>
+</section>`.trim();
   }
 
   function summarizeWorkouts(items) {
@@ -288,6 +470,10 @@ module.exports = async function(eleventyConfig) {
   eleventyConfig.addFilter("formatNumber", function(value) {
     const number = Number(value);
     return Number.isFinite(number) ? number.toLocaleString() : value;
+  });
+
+  eleventyConfig.addNunjucksAsyncShortcode("workoutPlots", async function(inputPath, explicitPaths = []) {
+    return renderWorkoutPlotFigures(inputPath, explicitPaths);
   });
 
   eleventyConfig.addFilter("workoutSummary", function(items) {

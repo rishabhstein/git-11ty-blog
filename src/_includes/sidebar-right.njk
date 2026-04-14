@@ -16,6 +16,11 @@
       </h3>
       <div class="section workout-calendar-section">
         {% set activityHeatmapItems = collections.workoutArchive %}
+        {% set activityHeatmapItemUrls = [] %}
+        {% for workout in collections.workoutArchive %}
+          {% set activityHeatmapItemUrls = (activityHeatmapItemUrls.push(workout.url), activityHeatmapItemUrls) %}
+        {% endfor %}
+        {% set currentWorkoutYear = collections.workoutArchiveYears | first %}
         {% set activityHeatmapTitle = "Activity Calendar" %}
         {% set activityHeatmapLabelSingular = "workout" %}
         {% set activityHeatmapLabelPlural = "workouts" %}
@@ -32,7 +37,7 @@
           {% for workout in collections.workoutArchive %}
             {% if loop.index <= 4 %}
               <li>
-                <a href="/workout/{{ workout.date.getFullYear() }}/#month-{{ workout.date | monthKey }}">{{ workout.data.title }}</a>
+                <a href="/workout/{{ currentWorkoutYear }}/">{{ workout.data.title }}</a>
                 <span class="sidebar-activity-meta">{{ workout.date | postDate }}{% if workout.data.distance %} · {{ workout.data.distance }} km{% endif %}</span>
               </li>
             {% endif %}

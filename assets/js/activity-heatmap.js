@@ -15,6 +15,26 @@
     return counts;
   }
 
+  function buildDailyLinks(rawDates, rawUrls) {
+    const links = new Map();
+    const dates = rawDates
+      .split(",")
+      .map((item) => item.trim())
+      .filter(Boolean);
+    const urls = rawUrls
+      .split(",")
+      .map((item) => item.trim())
+      .filter(Boolean);
+
+    dates.forEach((date, index) => {
+      if (!links.has(date) && urls[index]) {
+        links.set(date, urls[index]);
+      }
+    });
+
+    return links;
+  }
+
   function startOfMonth(date) {
     return new Date(date.getFullYear(), date.getMonth(), 1);
   }
@@ -46,6 +66,14 @@
     });
   }
 
+  function formatMonthLabel(date, mode, suffix) {
+    const baseLabel = mode === "month-only"
+      ? date.toLocaleDateString(undefined, { month: "long" })
+      : formatMonth(date);
+
+    return suffix ? `${baseLabel}${suffix}` : baseLabel;
+  }
+
   function monthKey(date) {
     return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}`;
   }
@@ -63,26 +91,25 @@
     return cell;
   }
 
-  function createDayCell(date, count, singularLabel, pluralLabel, displayText = true, monthLinkPrefix = "") {
-    const cell = monthLinkPrefix ? document.createElement("a") : document.createElement("span");
+  function createDayCell(date, count, singularLabel, pluralLabel, displayText = true, linkHref = "") {
+    const cell = linkHref ? document.createElement("a") : document.createElement("span");
     const activityLevel = Math.min(count, MAX_ACTIVITY_LEVEL);
     const label = isoDate(date);
     const activityLabel = count === 1 ? singularLabel : pluralLabel;
-    const key = monthKey(date);
 
     cell.className = `activity-cell activity-level-${activityLevel}`;
     cell.textContent = displayText ? date.getDate() : "";
     cell.title = count
       ? `${label}: ${count} ${activityLabel}`
       : `${label}: no ${pluralLabel}`;
-    if (monthLinkPrefix) {
-      cell.setAttribute("href", `${monthLinkPrefix}${key}`);
+    if (linkHref) {
+      cell.setAttribute("href", linkHref);
     }
 
     return cell;
   }
 
-  function renderMonth(grid, monthDate, dailyCounts, singularLabel, pluralLabel, displayStyle, monthLinkPrefix) {
+  function renderMonth(grid, monthDate, dailyCounts, dailyLinks, singularLabel, pluralLabel, displayStyle, monthLinkPrefix) {
     const year = monthDate.getFullYear();
     const month = monthDate.getMonth();
     const numberOfDays = new Date(year, month + 1, 0).getDate();
@@ -101,15 +128,18 @@
 
     for (let day = 1; day <= numberOfDays; day += 1) {
       const dayDate = new Date(year, month, day);
-      const count = dailyCounts.get(isoDate(dayDate)) || 0;
+      const dateKey = isoDate(dayDate);
+      const count = dailyCounts.get(dateKey) || 0;
+      const linkHref = monthLinkPrefix ? `${monthLinkPrefix}${monthKey(dayDate)}` : (dailyLinks.get(dateKey) || "");
       grid.appendChild(
-        createDayCell(dayDate, count, singularLabel, pluralLabel, true, monthLinkPrefix)
+        createDayCell(dayDate, count, singularLabel, pluralLabel, true, linkHref)
       );
     }
   }
 
   function renderHeatmap(root) {
     const dailyCounts = buildDailyCounts(root.dataset.activityDates || "");
+    const dailyLinks = buildDailyLinks(root.dataset.activityDates || "", root.dataset.activityItemUrls || "");
     const grid = root.querySelector(".activity-grid");
     const monthLabel = root.querySelector(".activity-month-label");
     const previousButton = root.querySelector(".activity-prev");
@@ -117,6 +147,8 @@
     const singularLabel = root.dataset.activityLabelSingular || "post";
     const pluralLabel = root.dataset.activityLabelPlural || "posts";
     const displayStyle = root.dataset.activityStyle || "calendar";
+    const monthLabelMode = root.dataset.activityMonthLabelMode || "month-year";
+    const monthLabelSuffix = root.dataset.activityMonthLabelSuffix || "";
     const monthLinkPrefix = root.dataset.activityMonthLinkPrefix || "";
     const syncTargetSelector = root.dataset.activitySyncTarget;
     const minimumMonth = parseMonthValue(root.dataset.activityMinMonth);
@@ -136,16 +168,36 @@
       syncRoot.querySelectorAll("[data-workout-month]").forEach((panel) => {
         panel.hidden = panel.dataset.workoutMonth !== targetMonthKey;
       });
+
+      const overviewTitle = document.querySelector("[data-workout-month-overview-title]");
+      if (overviewTitle) {
+        overviewTitle.textContent = formatMonth(visibleMonth);
+      }
+    }
+
+    function syncFromHash() {
+      if (!syncTargetSelector) return;
+
+      const hashMatch = window.location.hash.match(/^#month-(\d{4}-\d{2})$/);
+      if (!hashMatch) return;
+
+      const nextMonth = parseMonthKey(hashMatch[1]);
+      if (!nextMonth) return;
+
+      visibleMonth = nextMonth;
+      if (minimumMonth && visibleMonth < minimumMonth) visibleMonth = minimumMonth;
+      if (maximumMonth && visibleMonth > maximumMonth) visibleMonth = maximumMonth;
+      update();
     }
 
     function update() {
-      monthLabel.textContent = formatMonth(visibleMonth);
+      monthLabel.textContent = formatMonthLabel(visibleMonth, monthLabelMode, monthLabelSuffix);
       if (monthLinkPrefix) {
         monthLabel.setAttribute("href", `${monthLinkPrefix}${monthKey(visibleMonth)}`);
       } else {
         monthLabel.removeAttribute("href");
       }
-      renderMonth(grid, visibleMonth, dailyCounts, singularLabel, pluralLabel, displayStyle, monthLinkPrefix);
+      renderMonth(grid, visibleMonth, dailyCounts, dailyLinks, singularLabel, pluralLabel, displayStyle, monthLinkPrefix);
       previousButton.disabled = Boolean(minimumMonth && sameMonth(visibleMonth, minimumMonth));
       nextButton.disabled = Boolean(maximumMonth && sameMonth(visibleMonth, maximumMonth));
       syncVisibleMonth();
@@ -175,7 +227,10 @@
       update();
     });
 
+    window.addEventListener("hashchange", syncFromHash);
+
     update();
+    syncFromHash();
   }
 
   window.addEventListener("DOMContentLoaded", () => {

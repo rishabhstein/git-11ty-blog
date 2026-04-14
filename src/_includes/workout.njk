@@ -28,6 +28,7 @@ layout: 'base.njk'
         <div class="workout-summary-block">
           <h4>Summary</h4>
           {{ content | safe }}
+          {% workoutPlots page.inputPath, plot_svgs %}
         </div>
       {% endif %}
     </main>

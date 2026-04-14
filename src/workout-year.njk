@@ -10,14 +10,19 @@ eleventyExcludeFromCollections: true
 ---
 
 {% set yearWorkouts = collections.workoutArchive | itemsForYear(archiveYear) %}
+{% set yearMonths = yearWorkouts | groupWorkoutsByMonth %}
+{% set activeMonth = yearMonths | first %}
+{% set latestWorkout = yearWorkouts | first %}
 {% set yearSummary = yearWorkouts | workoutSummary %}
 {% set workoutChartItems = yearWorkouts %}
 {% set workoutChartMonthSeriesYear = archiveYear %}
 {% set activityHeatmapItems = yearWorkouts %}
-{% set activityHeatmapTitle = "Monthly Activity" %}
+{% set activityHeatmapShowTitle = false %}
 {% set activityHeatmapLabelSingular = "workout" %}
 {% set activityHeatmapLabelPlural = "workouts" %}
 {% set activityHeatmapStyle = "strip" %}
+{% set activityHeatmapMonthLabelMode = "month-only" %}
+{% set activityHeatmapMonthLabelSuffix = " Activities" %}
 {% set activityHeatmapMonthLinkPrefix = "#month-" %}
 {% set activityHeatmapSyncTarget = "#workout-months-" ~ archiveYear %}
 {% if yearWorkouts.length %}
@@ -45,17 +50,71 @@ eleventyExcludeFromCollections: true
   </p>
 
   {% include "workout-activity-charts.njk" %}
-  {% include "activity-heatmap.njk" %}
+
+  <section class="workout-log-section workout-month-overview">
+    <h2 class="telegraph-section-title" data-workout-month-overview-title>
+      {% if activeMonth %}{{ activeMonth.label }}{% else %}Monthly Activity{% endif %}
+    </h2>
+    {% include "activity-heatmap.njk" %}
+  </section>
 
   <div id="workout-months-{{ archiveYear }}">
-    {% for month in yearWorkouts | groupWorkoutsByMonth %}
+    {% for month in yearMonths %}
+      {% set monthSummary = month.items | workoutSummary %}
       <section class="workout-log-section workout-month-panel" data-workout-month="{{ month.key }}">
         <h2 id="month-{{ month.key }}" class="telegraph-section-title">{{ month.label }}</h2>
+        <p class="workout-month-summary">
+          {{ monthSummary.totalActivities | formatNumber }} workouts
+          {% if monthSummary.totalDistanceKm %} · {{ monthSummary.totalDistanceKm }} km{% endif %}
+          {% if monthSummary.totalDurationLabel %} · {{ monthSummary.totalDurationLabel }}{% endif %}
+        </p>
         <ul class="blog-posts workout-year-list">
           {% for workout in month.items %}
             <li>
-              {% set workoutLogItem = workout %}
-              {% include "workout-log-item.njk" %}
+              {% set workoutMeta = [] %}
+              {% if workout.data.distance %}{% set workoutMeta = (workoutMeta.push(workout.data.distance + " km"), workoutMeta) %}{% endif %}
+              {% if workout.data.duration %}{% set workoutMeta = (workoutMeta.push(workout.data.duration | formatWorkoutDuration), workoutMeta) %}{% endif %}
+              {% if workout.data.calories %}{% set workoutMeta = (workoutMeta.push(workout.data.calories + " cal"), workoutMeta) %}{% endif %}
+              {% if workout.data.average_heart_rate %}{% set workoutMeta = (workoutMeta.push(workout.data.average_heart_rate + " bpm"), workoutMeta) %}{% endif %}
+              {% set workoutDetails = [] %}
+              {% if workout.data.workout_type %}{% set workoutDetails = (workoutDetails.push(["Type", workout.data.workout_type]), workoutDetails) %}{% endif %}
+              {% if workout.data.distance %}{% set workoutDetails = (workoutDetails.push(["Distance", workout.data.distance + " km"]), workoutDetails) %}{% endif %}
+              {% if workout.data.duration %}{% set workoutDetails = (workoutDetails.push(["Duration", workout.data.duration | formatWorkoutDuration]), workoutDetails) %}{% endif %}
+              {% if workout.data.calories %}{% set workoutDetails = (workoutDetails.push(["Calories", workout.data.calories]), workoutDetails) %}{% endif %}
+              {% if workout.data.average_heart_rate %}{% set workoutDetails = (workoutDetails.push(["Average heart rate", workout.data.average_heart_rate + " bpm"]), workoutDetails) %}{% endif %}
+              {% if workout.data.source %}{% set workoutDetails = (workoutDetails.push(["Source", workout.data.source]), workoutDetails) %}{% endif %}
+
+              <details class="workout-log-item">
+                <summary class="workout-log-summary">
+                  <span class="workout-log-date">{{ workout.date | postDate }}</span>
+                  <span class="workout-log-title">{{ workout.data.title }}</span>
+                  {% if workoutMeta.length %}
+                    <span class="workout-log-meta">
+                      {% for item in workoutMeta %}
+                        <span>{{ item }}</span>{% if not loop.last %}<span> · </span>{% endif %}
+                      {% endfor %}
+                    </span>
+                  {% endif %}
+                </summary>
+
+                <div class="workout-log-body">
+                  {% if workoutDetails.length %}
+                    <ul class="workout-detail-list">
+                      {% for item in workoutDetails %}
+                        <li><strong>{{ item[0] }}:</strong> {{ item[1] }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+
+                  {% if workout.templateContent | trim %}
+                    <div class="workout-summary-block">
+                      <h5>Summary</h5>
+                      {{ workout.templateContent | safe }}
+                      {% workoutPlots workout.inputPath, workout.data.plot_svgs %}
+                    </div>
+                  {% endif %}
+                </div>
+              </details>
             </li>
           {% endfor %}
         </ul>
@@ -65,3 +124,4 @@ eleventyExcludeFromCollections: true
 </article>
 
 <script src="/assets/js/activity-heatmap.js" defer></script>
+<script src="/assets/js/workout-accordion.js" defer></script>
