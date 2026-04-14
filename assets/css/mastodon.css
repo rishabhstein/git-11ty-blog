@@ -15,6 +15,11 @@
     --mt-color-btn-txt: var(--text-color);
     --mt-color-backdrop: rgba(0,0,0,0.5);
     --mt-color-placeholder: #60698425;
+    font-size: 14px;
+    line-height: 1.0;
+    letter-spacing: 0.01em;
+    word-spacing: 0.01em;
+
 }
 
 .mt-container[data-theme=dark],
@@ -195,6 +200,7 @@
 
 .mt-post-header-user-name {
     font-weight: 600;
+    font-size: 0.85rem;
 }
 
 .mt-container .mt-post-header-user:hover .mt-post-header-user-name {
@@ -202,16 +208,17 @@
 }
 
 .mt-post-header-user-account {
-    display: block;
+    display: none;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     color: var(--mt-color-contrast-gray);
+    font-size: 0.8rem;
 }
 
 .mt-post-header-date {
     display: flex;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     text-align: right;
     margin-left: auto;
 }
@@ -227,9 +234,13 @@
     color: var(--mt-color-contrast-gray) !important;
 }
 
-.mt-post-txt {
-    margin-bottom: 1rem;
+.mt-post-txt * {
+    margin-bottom: 1.0rem;
     color: var(--mt-color-content-txt);
+    font-size: 0.9rem !important;
+    line-height: 1.0;
+    letter-spacing: 0.01em;
+    word-spacing: 0.05em;
 }
 
 .mt-post-txt .spoiler-txt-hidden {
@@ -254,7 +265,7 @@
 }
 
 .mt-post-txt .mt-custom-emoji {
-    height: 1.5rem;
+    height: 1.4rem;
     min-width: 1.5rem;
     margin-bottom: -0.25rem;
     width: auto;

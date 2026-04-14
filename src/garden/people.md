@@ -19,4 +19,3 @@ title: "People I know/met in Physics"
 - [Andrea Schnepf](https://www.fz-juelich.de/profile/schnepf_a)'s work on [simulations](https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox) of plant roots was fascinating
 - [Peter Kang](https://pkkang.com/home/) (collaborator)
 - [Saad Bamla](https://bhamla.gatech.edu/comics) [Never met him in-person but his work on bug-physics comics is fascinating]
-- [Tangui Le Borgne]():  

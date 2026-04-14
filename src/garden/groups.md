@@ -10,5 +10,4 @@ title: "Research groups"
 - [Eleni Katifori:](https://web.sas.upenn.edu/katifori/) Biological transport networks  
 - [Benjamin Friedrich:](https://physics-of-life.tu-dresden.de/team/pol-groups/friedrich) Spatio-Temporal Dynamics of Cells and Tissues (Morphogenesis)  
 - [Douglas Jerolmack:](https://physics-of-life.tu-dresden.de/team/pol-groups/friedrich) Penn Soft Earth Dynamics Lab (Geomorphology, Planetary cracks)
-- [MitFluidLab:](https://www.mitfluidslab.com/) Pattern formation in fluid and soft materials
 

@@ -1,9 +1,0 @@
-{
-  "citationExportFormat": "csl-json",
-  "literatureNoteTitleTemplate": "{{citekey}}",
-  "literatureNoteFolder": "_references",
-  "literatureNoteContentTemplate": "---\ntitle: \"{{title}}\"\nauthors: {{authorString}}\nyear: {{year}}\n---\n\n",
-  "markdownCitationTemplate": "*{{title}}*, {{authorString}}, {{year}}, [Link]({{citekey}}), [DOI]({{DOI}})",
-  "alternativeMarkdownCitationTemplate": "{{citekey}}",
-  "citationExportPath": "/Users/rishabhstein/Library/CloudStorage/OneDrive-UniversitéLibredeBruxelles/ZoteroJson/BibtoObsidian.json"
-}

@@ -3,12 +3,13 @@ layout: 'base.njk'
 title: Archives
 ---
 
+<!-- <h1>All blogposts</h1> -->
+
 <p>Filter them with:
 <a href="/tags/">tags</a>
 </p>
 
 {% set currentYear = collections.postArchiveYears | first %}
-
 <p>
   Years:
   {% for year in collections.postArchiveYears %}
