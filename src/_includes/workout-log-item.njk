@@ -11,6 +11,7 @@
 {% if workoutItem.data.calories %}{% set workoutDetails = (workoutDetails.push(["Calories", workoutItem.data.calories]), workoutDetails) %}{% endif %}
 {% if workoutItem.data.average_heart_rate %}{% set workoutDetails = (workoutDetails.push(["Average heart rate", workoutItem.data.average_heart_rate + " bpm"]), workoutDetails) %}{% endif %}
 {% if workoutItem.data.source %}{% set workoutDetails = (workoutDetails.push(["Source", workoutItem.data.source]), workoutDetails) %}{% endif %}
+{% set workoutBody = workoutItem.inputPath | workoutBody %}
 
 <details class="workout-log-item">
   <summary class="workout-log-summary">
@@ -34,10 +35,10 @@
       </ul>
     {% endif %}
 
-    {% if workoutItem.templateContent | trim %}
+    {% if workoutBody | trim %}
       <div class="workout-summary-block">
         <h5>Summary</h5>
-        {{ workoutItem.templateContent | safe }}
+        {{ workoutBody | safe }}
         {% workoutPlots workoutItem.inputPath, workoutItem.data.plot_svgs %}
       </div>
     {% endif %}

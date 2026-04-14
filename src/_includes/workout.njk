@@ -24,11 +24,12 @@ layout: 'base.njk'
 
   <div class="container-narrow">
     <main>
-      {% if content | trim %}
+      {% workoutPlots page.inputPath, plot_svgs %}
+      {% set workoutBody = page.inputPath | workoutBody %}
+      {% if workoutBody | trim %}
         <div class="workout-summary-block">
           <h4>Summary</h4>
-          {{ content | safe }}
-          {% workoutPlots page.inputPath, plot_svgs %}
+          {{ workoutBody | safe }}
         </div>
       {% endif %}
     </main>

@@ -1,88 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
     <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="sigmarootpi">
-
-
-    <!-- Open Graph -->
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:image" content="{{ cover | url }}">
-    <meta property="og:url" content="{{ page.url | url }}">
-
-    <!-- Twitter -->
-    <meta name="twitter:title" content="{{ title }}">
-    <meta name="twitter:image" content="{{ cover | url }}">
-
-    <!-- Mastodon -->
-    <a rel="me" href="https://mastodon.social/@sigmarootpi" style="display:none;">Mastodon</a>
+    <script>
+      document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js");
+    </script>
 
     <!-- Adding github for IndieAuth -->
     <link rel="me" href="https://github.com/rishabhstein">
 
-    <!-- Mochi webmention  -->
-    <link rel="webmention" href="https://mochi-webmentions.meadow.cafe/webmention/sigmarootpi/1/receive" />
     <!-- Le styles -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=2.1">
-    <link rel="stylesheet" href="/assets/css/mastodon.css?v=2.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/assets/css/style.css?v=1.2">
+    <link rel="stylesheet" href="/assets/css/mastodon.css?v=1.0">
+    <!-- <link rel="stylesheet" href="/assets/css/snow.css?v=1.0">
+    <link rel="stylesheet" href="/assets/css/christmas-light.css"> -->
+
 
     <!-- Fav and touch icons -->
     <link rel="icon" type="image/png" href="/assets/logo.png">
 
     <link rel="alternate" type="application/rss+xml" title="Rishabh's Blog Feed" href="/feed.xml" />
+
     <script src="/assets/js/sidebar.js" defer></script>
+    <script src="/assets/js/mobile-sidebar-sections.js" defer></script>
     <script src="/assets/js/activity-heatmap.js" defer></script>
     <script src="/assets/js/workout-tabs.js" defer></script>
+    <script src="/assets/js/geocities-loader.js" defer></script>
+    <script src="/assets/js/status-ticker.js" defer></script>
+    <script src="/assets/js/image-reveal.js?v=2.5" defer></script>
     <audio id="sidebar-music" src="/assets/sounds/blog_background.mp3" preload="auto" loop></audio>
 
 </head>
-<body>
+<body class="{{ pageClass or '' }}">
+<!--
+<ul class="strand">
+	<li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul> -->
+<!-- <div id="snow-zone">
+  <span class="snow-particle" style="--x:5vw; --size:6px; --duration:6s; --delay:0s;"></span>
+  <span class="snow-particle" style="--x:15vw; --size:8px; --duration:7s; --delay:0.5s;"></span>
+  <span class="snow-particle" style="--x:25vw; --size:7px; --duration:5.5s; --delay:5s;"></span>
+  <span class="snow-particle" style="--x:35vw; --size:9px; --duration:6.5s; --delay:3s;"></span>
+  <span class="snow-particle" style="--x:45vw; --size:8px; --duration:7.5s; --delay:0.8s;"></span>
+  <span class="snow-particle" style="--x:55vw; --size:6px; --duration:6s; --delay:2s;"></span>
+  <span class="snow-particle" style="--x:65vw; --size:9px; --duration:7s; --delay:3s;"></span>
+  <span class="snow-particle" style="--x:75vw; --size:7px; --duration:5.8s; --delay:10s;"></span>
+  <span class="snow-particle" style="--x:85vw; --size:8px; --duration:6.5s; --delay:7s;"></span>
+  <span class="snow-particle" style="--x:95vw; --size:9px; --duration:7.2s; --delay:0.9s;"></span>
+</div> -->
 
-  <!-- Its njk format comment here -->
-  {#
-    <link rel="stylesheet" href="/assets/css/snow.css?v=2.0">
-    <link rel="stylesheet" href="/assets/css/christmas-light.css">
-    {% include 'christmas-theme.njk' %}
-  #}
 
+  <!-- rest of your layout here -->
 
     {% include 'header.njk' %}
     <main>
     <button class="toggle-sidebar">🎶 Music</button>
     <div class="layout-wrapper">
+    {% if page.url == "/" %}
     <div class="main-content">
-
       {{ content | safe }}
-
     </div> <!--main content end-->
+    {% else %}
+    <div class="portal-layout">
+      <aside class="portal-left">
+        <h3>Blogroll</h3>
+        {% include "blogroll-snippet.njk" %}
+        <p>
+          <a href="/guestbook/">
+            <img src="https://www.gifs.cc/guestbook/sign-guestbook-animation.gif" alt="Sign my guestbook" data-no-image-reveal>
+          </a>
+        </p>
 
-    {% include 'sidebar-right.njk'%}
+        {% postrollItems %}
+        {% bearblogDiscoveryItems %}
+        {% include "fantastic-web-snippet.njk" %}
+      </aside>
+      <div class="main-content portal-center">
+        {{ content | safe }}
+      </div> <!--main content end-->
+      <aside class="portal-right">
+        <a href="/feed.xml" class="rss-panel-gif" title="Subscribe to RSS feed">
+          <span class="rss-panel-left">RSS</span>
+          <span class="rss-panel-mid">
+            <span class="rss-panel-mid-line rss-line-1">There is more to the story</span>
+            <span class="rss-panel-mid-line rss-line-2">Subscribe</span>
+            <span class="rss-panel-mid-line rss-line-3">CLICK HERE</span>
+          </span>
+          <span class="rss-panel-right">CLICK HERE</span>
+        </a>
+
+        {% set activityHeatmapItems = collections.workoutArchive %}
+        {% set activityHeatmapTitle = "Sport Activity" %}
+        {% set activityHeatmapLabelSingular = "workout" %}
+        {% set activityHeatmapLabelPlural = "workouts" %}
+        {% set activityHeatmapTitleUrl = "/workout/" %}
+        {% if collections.workoutArchive.length %}
+          {% set activityHeatmapInitialMonth = collections.workoutArchive[0].date | isoDate %}
+        {% endif %}
+        {% set currentWorkoutYear = collections.workoutArchiveYears | first %}
+        {% if currentWorkoutYear %}
+          {% set activityHeatmapMonthLinkPrefix = "/workout/" ~ currentWorkoutYear ~ "/#month-" %}
+        {% endif %}
+        {% include "activity-heatmap.njk" %}
+
+        <h3><a href="/workout/">Recent Activity</a></h3>
+        <ul class="portal-list sidebar-activity-list">
+          {% for workout in collections.workoutArchive %}
+            {% if loop.index <= 4 %}
+              <li>
+                <a href="/workout/{{ workout.date.getFullYear() }}/#month-{{ workout.date | monthKey }}">{{ workout.data.title }}</a>
+                <span class="sidebar-activity-meta">{{ workout.date | postDate }}{% if workout.data.distance %} · {{ workout.data.distance }} km{% endif %}</span>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+        <h3><a href="/tags/">Tags</a></h3>
+        <ul class="portal-list">
+          {% for tag in collections.tagList %}
+            {% if loop.index <= 14 %}
+              <li><a href="/tags/{{ tag | slug }}/">{{ tag }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+        <h3>Word-vomit series</h3>
+        <ul class="portal-list">
+          {% for post in collections["word-vomit"] | reverse %}
+            {% if loop.index <= 5 %}
+              <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+          <li><a href="/tags/word-vomit/"><strong>More..</strong></a></li>
+        </ul>
+      </aside>
+    </div>
+    {% endif %}
+
+    <div class="right-column">
+      <!-- Right Sidebar Column -->
+      <h3><img src="/assets/icons/fb-announce.png" class="icon-emoji" data-no-image-reveal> Status </h3>
+      <div class="section">
+        <section class="livestatus">
+          <div
+            id="statuscafe"
+            style="background: var(--panel-bg); color: var(--text-color); border: 1px solid var(--panel-border); border-radius: 12px; padding: 10px; box-shadow: var(--panel-shadow);"
+          >
+            <div id="statuscafe-username"></div>
+            <div id="statuscafe-content"></div>
+          </div>
+          <script src="https://status.cafe/current-status.js?name=sigmarootpi" defer></script>
+        </section>
+      </div>
+    </div>
 
     <div class="overlay"></div>
 
     </div> <!-- layout-wrapper end -->
     </main>
 
-    {% include 'footer.njk' %}
-
-
-    <!-- For Mastodon Feed -->
-    <script src="/assets/js/mastodon.js"></script>
-    <script>
-        const myTimeline = new MastodonTimeline.Init({
-          instanceUrl: "https://mastodon.social",
-          timelineType: "profile",
-          userId: "115311770892730280",
-          profileName: "@sigmarootpi",
-          maxNbPostShow: "5",
-          txtMaxLines: "3",
-        });
-      </script>
-
-
+    <div class="layout-wrapper layout-wrapper-footer">
+      {% include 'footer.njk' %}
+    </div>
 
 </body>
 </html>

@@ -5,74 +5,152 @@ layout: 'base.njk'
 
 
 
-<p>
-Hello web dweller, I am Rishabh and I welcome you at my online home. Here, I write about a variety of topics ranging from philosophy to Physics.
-</p>
+<div class="portal-layout home-index">
+  <aside class="portal-left">
+    {% include "sidebar-left.njk" %}
+  </aside>
 
+  <div class="home-status-strip">
+    <div class="geocities-strip" aria-label="Retro animated badges">
+      <span class="geo-badge blink">STATUS:</span>
+      <marquee class="geo-marquee" behavior="scroll" direction="left" scrollamount="5">
+        <span id="geo-status-marquee-text">Loading latest Status Cafe update...</span>
+      </marquee>
+    </div>
+  </div>
 
-<a href="/archives/"><h4><img src="/assets/icons/fb-post.png" class="icon-emoji"> Recent writings:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
+  <div class="portal-center">
+    <a href="/archives/"><h4 class="telegraph-section-title">Latest Articles:</h4></a>
 
-
-  <div class="h-feed">
-    {% for post in collections.post | reverse %}
-      {% if loop.index <= 2 %}
-      <section class="section">
-          <!-- {{ post.date | postDate }}-->
-          <a href="{{ post.url }}" class="u-url p-name">
-            <h2>{{ post.data.title }}
-              <img src="/assets/icons/newpost.png" class="icon-emoji">
-            </h2></a>
-          <br>{{ post.date | postDate }}
-          {{ post.content | wordLimit | safe }}
-          <a href="{{ post.url }}" class="u-url p-name">...more</a>
-      </section>
+    {% set recentPosts = collections.post | reverse %}
+    <section class="section writing-layout">
+      <div class="writing-row-one">
+        {% if recentPosts[0] %}
+        <article class="writing-lead">
+          {% set leadTag = recentPosts[0].data.tags[1] or recentPosts[0].data.tags[0] %}
+          <div class="tagline"><a href="/tags/{{ leadTag | slug }}/">{{ leadTag }}</a></div>
+          <a href="{{ recentPosts[0].url }}" class="u-url p-name"><strong>{{ recentPosts[0].data.title }}</strong></a>
+          <p>{{ recentPosts[0].content | plainExcerpt(32) }}</p>
+        </article>
         {% endif %}
-    {% endfor %}
+
+        <article class="writing-piclog">
+          <a href="{{ piclog.link or 'https://piclog.blue/' }}" target="_blank" rel="noopener noreferrer">
+            {% if piclog and piclog.image %}
+            <span class="piclog-overlay">Picture of the Day</span>
+            <img
+              src="{{ piclog.image }}"
+              alt="Picture of the Day"
+              class="piclog-image"
+            >
+            {% endif %}
+          </a>
+        </article>
+      </div>
+
+      <div class="writing-row-two">
+        {% for post in recentPosts | offset(1) | shuffle %}
+          {% if loop.index <= 3 %}
+          <article class="writing-card">
+            {% set postTag = post.data.tags[1] or post.data.tags[0] %}
+            <div class="tagline"><a href="/tags/{{ postTag | slug }}/">{{ postTag }}</a></div>
+            <a href="{{ post.url }}" class="u-url p-name"><strong>{{ post.data.title }}</strong></a>
+            <p>{{ post.content | plainExcerpt(18) }}</p>
+          </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <a href="/books/"><h4 class="telegraph-section-title">Readers Section</h4></a>
+
+    <section class="section telegraph-feature-list">
+      <div class="media-list">
+        {% for book in collections.books | sort(attribute='date') | reverse %}
+          {% if loop.index <= 4 %}
+            <article class="media-item">
+              <a href="{{ book.url }}" class="media-thumb">
+                <img src="{{ book.data.cover }}" alt="{{ book.title }}">
+              </a>
+              <div class="media-text">
+                <a href="{{ book.url }}">
+                  <strong>{{ book.data.title }}</strong>
+                  {% if book.data.rating %}
+                  <span class="inline-rating">
+                    {% for i in range(5) %}{% if i < book.data.rating %}★{% else %}☆{% endif %}{% endfor %}
+                  </span>
+                  {% endif %}
+                </a>
+                <p>{{ book.content | plainExcerpt(18) }}</p>
+              </div>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <a href="/movies/"><h4 class="telegraph-section-title">Cinema Lovers</h4></a>
+
+    <section class="section telegraph-feature-list">
+      {% set recentMovies = collections.movies | sort(attribute='date') | reverse %}
+      <div class="movie-showcase">
+        <div class="movie-feature-list">
+          {% for movie in recentMovies %}
+            {% if loop.index <= 1 %}
+              <article class="movie-feature-item">
+                <a href="{{ movie.url }}" class="movie-feature-thumb">
+                  <img src="{{ movie.data.cover }}" alt="{{ movie.title }}">
+                </a>
+                <div class="movie-feature-text">
+                  <a href="{{ movie.url }}">
+                    <strong>{{ movie.data.title }}</strong>
+                  </a>
+                  {% if movie.data.rating %}
+                  <div class="inline-rating">
+                    {% for i in range(5) %}{% if i < movie.data.rating %}★{% else %}☆{% endif %}{% endfor %}
+                  </div>
+                  {% endif %}
+                  <p>{{ movie.content | plainExcerpt(16) }}</p>
+                </div>
+              </article>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <div class="movie-side-list">
+          {% for movie in recentMovies | offset(1) %}
+            {% if loop.index <= 3 %}
+              <article class="movie-side-item">
+                <a href="{{ movie.url }}" class="movie-side-thumb">
+                  <img src="{{ movie.data.cover }}" alt="{{ movie.title }}">
+                </a>
+                <div class="movie-side-text">
+                  <a href="{{ movie.url }}">
+                    <strong>{{ movie.data.title }}</strong>
+                  </a>
+                  {% if movie.data.rating %}
+                  <div class="inline-rating">
+                    {% for i in range(5) %}{% if i < movie.data.rating %}★{% else %}☆{% endif %}{% endfor %}
+                  </div>
+                  {% endif %}
+                  <p>{{ movie.content | plainExcerpt(6) }}</p>
+                </div>
+              </article>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="section you-might-like">
+      <h4 class="telegraph-section-title">You might also like:</h4>
+      <div class="external-feed-grid">
+        {% externalFeedCards %}
+      </div>
+    </section>
   </div>
 
-
-<hr>
-<a href="/snap/"><h4><img src="/assets/icons/fb-photos.png" class="icon-emoji"> Recent captures:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
-
-<section class="section">
-  <div class="container-narrow-gallery">
-    {% for post in collections.snap | reverse %}
-      {% if loop.index <= 4  %}
-            <a href="{{ post.url }}">
-            <img src="{{ post.data.cover }}" alt="{{ post.title }}">
-            </a>
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
-
-
-<hr>
-<a href="/books/"><h4><img src="/assets/icons/books.png" class="icon-emoji"> Recent Books:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
-
-<section class="section">
-  <div class="book-section">
-    {% for book in collections.books | sort(attribute='date') | reverse %}
-      {% if loop.index <= 6 %}
-
-          {% include 'book-snippet.njk' %}
-
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
-
-<hr>
-<a href="/movies/"><h4><img src="/assets/icons/movies.png" class="icon-emoji"> Recently watched:<img src="/assets/icons/click.png" class="icon-emoji"></h4></a>
-
-<section class="section">
-  <div class="book-section">
-    {% for book in collections.movies | sort(attribute='date') | reverse %}
-      {% if loop.index <= 6 %}
-
-      {% include 'book-snippet.njk' %}
-
-      {% endif %}
-    {% endfor %}
-  </div>
-</section>
+  <aside class="portal-right">
+    {% include "sidebar-right.njk" %}
+  </aside>
+</div>

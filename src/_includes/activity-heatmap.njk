@@ -13,12 +13,9 @@
   class="activity-heatmap{% if heatmapStyle == 'strip' %} activity-heatmap-strip{% endif %}"
   {# Pass all activity dates once; the client-side widget groups them by month. #}
   data-activity-dates="{% for item in heatmapItems %}{{ item.date | isoDate }}{% if not loop.last %},{% endif %}{% endfor %}"
-  {% if activityHeatmapItemUrls is defined %}data-activity-item-urls="{% for itemUrl in activityHeatmapItemUrls %}{{ itemUrl }}{% if not loop.last %},{% endif %}{% endfor %}"{% endif %}
   data-activity-label-singular="{{ heatmapLabelSingular }}"
   data-activity-label-plural="{{ heatmapLabelPlural }}"
   data-activity-style="{{ heatmapStyle }}"
-  {% if activityHeatmapMonthLabelMode is defined %}data-activity-month-label-mode="{{ activityHeatmapMonthLabelMode }}"{% endif %}
-  {% if activityHeatmapMonthLabelSuffix is defined %}data-activity-month-label-suffix="{{ activityHeatmapMonthLabelSuffix }}"{% endif %}
   {% if heatmapMonthLinkPrefix %}data-activity-month-link-prefix="{{ heatmapMonthLinkPrefix }}"{% endif %}
   {% if activityHeatmapSyncTarget %}data-activity-sync-target="{{ activityHeatmapSyncTarget }}"{% endif %}
   {% if activityHeatmapInitialMonth %}data-activity-initial-month="{{ activityHeatmapInitialMonth }}"{% endif %}

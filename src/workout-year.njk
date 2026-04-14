@@ -21,8 +21,6 @@ eleventyExcludeFromCollections: true
 {% set activityHeatmapLabelSingular = "workout" %}
 {% set activityHeatmapLabelPlural = "workouts" %}
 {% set activityHeatmapStyle = "strip" %}
-{% set activityHeatmapMonthLabelMode = "month-only" %}
-{% set activityHeatmapMonthLabelSuffix = " Activities" %}
 {% set activityHeatmapMonthLinkPrefix = "#month-" %}
 {% set activityHeatmapSyncTarget = "#workout-months-" ~ archiveYear %}
 {% if yearWorkouts.length %}
@@ -84,7 +82,7 @@ eleventyExcludeFromCollections: true
               {% if workout.data.average_heart_rate %}{% set workoutDetails = (workoutDetails.push(["Average heart rate", workout.data.average_heart_rate + " bpm"]), workoutDetails) %}{% endif %}
               {% if workout.data.source %}{% set workoutDetails = (workoutDetails.push(["Source", workout.data.source]), workoutDetails) %}{% endif %}
 
-              <details class="workout-log-item">
+              <details class="workout-log-item"{% if workout.url == latestWorkout.url %} open{% endif %}>
                 <summary class="workout-log-summary">
                   <span class="workout-log-date">{{ workout.date | postDate }}</span>
                   <span class="workout-log-title">{{ workout.data.title }}</span>

@@ -2,9 +2,10 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports = async function(eleventyConfig) {
-  const sortNewestFirst = (items) => [...(Array.isArray(items) ? items : [])].sort((a, b) => b.date - a.date);
+  const sortNewestFirst = (items) => [...items].sort((a, b) => b.date - a.date);
   const uniqueYearsDescending = (items) =>
-    [...new Set((Array.isArray(items) ? items : []).map((item) => item.date.getFullYear()))].sort((a, b) => b - a);
+    [...new Set(items.map((item) => item.date.getFullYear()))].sort((a, b) => b - a);
+  const takeItems = (items, count) => (Array.isArray(items) ? items.slice(0, count) : []);
   const secondsInDay = 24 * 60 * 60 * 1000;
 
   function parseWorkoutDurationSeconds(value) {
@@ -33,11 +34,6 @@ module.exports = async function(eleventyConfig) {
     if (hours && minutes) return `${hours.toLocaleString()} hours ${minutes} minutes`;
     if (hours) return `${hours.toLocaleString()} hours`;
     return `${minutes} minutes`;
-  }
-
-  function normalizeWorkoutDay(dateValue) {
-    const date = new Date(dateValue);
-    return new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
   }
 
   function escapeHtml(value) {
@@ -82,15 +78,6 @@ module.exports = async function(eleventyConfig) {
       : "";
     const filePaths = [];
 
-    const addPathsFromDirectory = (directoryPath, fileFilter = () => true) => {
-      if (!directoryPath || !fs.existsSync(directoryPath)) return;
-
-      fs.readdirSync(directoryPath)
-        .filter((fileName) => fileName.endsWith(".svg") && fileFilter(fileName))
-        .sort()
-        .forEach((fileName) => addPath(path.join(directoryPath, fileName)));
-    };
-
     const addPath = (candidatePath) => {
       if (!candidatePath) return;
 
@@ -109,11 +96,22 @@ module.exports = async function(eleventyConfig) {
       if (!filePaths.includes(resolvedPath)) filePaths.push(resolvedPath);
     };
 
+    const addPathsFromDirectory = (directoryPath, fileFilter = () => true) => {
+      if (!directoryPath || !fs.existsSync(directoryPath)) return;
+
+      fs.readdirSync(directoryPath)
+        .filter((fileName) => fileName.endsWith(".svg") && fileFilter(fileName))
+        .sort()
+        .forEach((fileName) => addPath(path.join(directoryPath, fileName)));
+    };
+
     if (assetWorkoutDir) {
       const preferredNames = ["heart-rate.svg", "power.svg", "cadence.svg"];
       for (const fileName of preferredNames) {
         const candidatePath = path.join(assetWorkoutDir, fileName);
-        if (fs.existsSync(candidatePath)) addPath(candidatePath);
+        if (fs.existsSync(candidatePath)) {
+          addPath(candidatePath);
+        }
       }
       if (filePaths.length) return filePaths.sort();
     }
@@ -124,9 +122,11 @@ module.exports = async function(eleventyConfig) {
     }
 
     if (!inputPath) return [];
+
     if (!fs.existsSync(workoutDir)) return [];
 
     addPathsFromDirectory(workoutDir, (fileName) => fileName.startsWith(path.basename(inputPath, path.extname(inputPath))));
+
     return filePaths;
   }
 
@@ -139,6 +139,14 @@ module.exports = async function(eleventyConfig) {
     }
 
     return `/${relativePath}`;
+  }
+
+  function readWorkoutMarkdownBody(inputPath) {
+    if (!inputPath || !fs.existsSync(inputPath)) return "";
+
+    const raw = fs.readFileSync(inputPath, "utf8");
+    const match = raw.match(/^---\n[\s\S]*?\n---\n?([\s\S]*)$/);
+    return (match ? match[1] : raw).replace(/^\s+/, "");
   }
 
   function renderWorkoutPlotFigures(inputPath, explicitPaths = []) {
@@ -217,6 +225,11 @@ ${plots}
 ${tabsMarkup}
   </div>
 </section>`.trim();
+  }
+
+  function normalizeWorkoutDay(dateValue) {
+    const date = new Date(dateValue);
+    return new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
   }
 
   function summarizeWorkouts(items) {
@@ -407,12 +420,19 @@ ${tabsMarkup}
   const { DateTime } = await import("luxon");
   const markdownItModule = await import("markdown-it");
   const markdownIt = markdownItModule.default;
-  const markdownItMark = require("markdown-it-mark");
+  const externalFeeds = require("./src/_lib/externalFeeds");
+  const getPiclog = require("./src/_data/piclog");
+  const getExternalFeeds = externalFeeds.getExternalFeeds || externalFeeds;
+  const { readFeedPosts } = externalFeeds;
 
   //Just copy these files to _site
   eleventyConfig.addPassthroughCopy('./assets');
   eleventyConfig.addPassthroughCopy('./src/style.css');
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
+  eleventyConfig.addPassthroughCopy({"./src/workout/*.svg": "workout/"});
+
+  // Register Piclog explicitly so homepage templates can depend on one clear global source.
+  eleventyConfig.addGlobalData("piclog", async () => getPiclog());
 
   // Creating a datetime format filter
   eleventyConfig.addFilter("postDate", (dateObj) => {
@@ -423,12 +443,7 @@ ${tabsMarkup}
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   // Creating a Markdown filter
-  const md = markdownIt({
-    html: true,
-    breaks: true,
-    linkify: true
-  }).use(markdownItMark); // 👈 enables ==highlight== syntax
-
+  const md = new markdownIt();
   eleventyConfig.addFilter("markdownify", (value) => {
     return md.render(value || "");
   });
@@ -439,6 +454,50 @@ ${tabsMarkup}
     if (!content) return "";
     const words = content.split(/\s+/).slice(0, limit);
     return words.join(" ") + "...";
+  });
+
+  // Create plain-text excerpts so embedded images/HTML are not rendered.
+  eleventyConfig.addFilter("plainExcerpt", function(content, limit = 40) {
+    if (!content) return "";
+    const withoutTags = content
+      .replace(/<img[^>]*>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+    const words = withoutTags.split(" ").slice(0, limit);
+    return words.join(" ") + (withoutTags.split(" ").length > limit ? "..." : "");
+  });
+
+  eleventyConfig.addFilter("offset", function(items, count = 0) {
+    if (!Array.isArray(items)) return [];
+    return items.slice(count);
+  });
+
+  eleventyConfig.addFilter("shuffle", function(items) {
+    if (!Array.isArray(items)) return [];
+    const shuffled = [...items];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  });
+
+  eleventyConfig.addFilter("groupByYear", function(items) {
+    if (!Array.isArray(items)) return [];
+
+    // Keep years grouped in the same order the items were passed in.
+    const groups = [];
+    for (const item of items) {
+      const year = new Date(item.date).getFullYear();
+      const currentGroup = groups[groups.length - 1];
+      if (!currentGroup || currentGroup.year !== year) {
+        groups.push({ year, items: [item] });
+      } else {
+        currentGroup.items.push(item);
+      }
+    }
+    return groups;
   });
 
   eleventyConfig.addFilter("itemsForYear", function(items, year) {
@@ -467,15 +526,24 @@ ${tabsMarkup}
     return segments.join(" ") || String(value);
   });
 
+  eleventyConfig.addFilter("take", function(items, count = 5) {
+    return takeItems(items, Number(count) || 0);
+  });
+
   eleventyConfig.addFilter("formatNumber", function(value) {
     const number = Number(value);
     return Number.isFinite(number) ? number.toLocaleString() : value;
+  });
+
+  eleventyConfig.addFilter("workoutBody", function(inputPath) {
+    return readWorkoutMarkdownBody(inputPath);
   });
 
   eleventyConfig.addNunjucksAsyncShortcode("workoutPlots", async function(inputPath, explicitPaths = []) {
     return renderWorkoutPlotFigures(inputPath, explicitPaths);
   });
 
+  // Workout pages use a few pre-shaped summary objects to keep the templates readable.
   eleventyConfig.addFilter("workoutSummary", function(items) {
     return summarizeWorkouts(items);
   });
@@ -494,6 +562,88 @@ ${tabsMarkup}
 
   eleventyConfig.addFilter("workoutMonthSeriesRolling", function(items, count = 12) {
     return buildWorkoutMonthSeries(items, count);
+  });
+
+  eleventyConfig.addNunjucksAsyncShortcode("externalFeedCards", async function() {
+    const feeds = await getExternalFeeds();
+
+    return feeds.map((feed) => `
+<article class="external-feed-card">
+  <div class="tagline"><strong>${feed.tag || ""}</strong></div>
+  ${feed.imageUrl ? `
+  <a href="${feed.postUrl}" target="_blank" rel="noopener noreferrer" class="external-feed-thumb-link">
+    <img src="${feed.imageUrl}" alt="${feed.postTitle}" class="external-feed-thumb">
+  </a>` : ""}
+  <div class="external-feed-source">
+    <a href="${feed.sourceUrl}" target="_blank" rel="noopener noreferrer">${feed.label}</a>
+  </div>
+  <a href="${feed.postUrl}" target="_blank" rel="noopener noreferrer"><strong>${feed.postTitle}</strong></a>
+  <p>${feed.excerpt}</p>
+</article>`.trim()).join("\n");
+  });
+
+  eleventyConfig.addNunjucksAsyncShortcode("postrollItems", async function() {
+    const formatInterviewName = (title = "") =>
+      String(title)
+        .replace(/^people\s*(and|&)\s*blogs\s*[:\-]\s*/i, "")
+        .replace(/^pb\s*[:\-]\s*/i, "")
+        .trim() || title;
+
+    try {
+      const posts = await readFeedPosts({
+        label: "People & Blogs",
+        tag: "Interview",
+        feedUrl: "https://manuelmoreale.com/feed/peopleandblogs",
+        siteUrl: "https://manuelmoreale.com/",
+        limit: 5,
+      });
+
+      return `
+<h3><a href="https://manuelmoreale.com/people-and-blogs">People and Blogs</a></h3>
+<ul class="portal-list">
+  ${posts.map((post) => `
+  <li>
+    <a href="${post.postUrl}">${formatInterviewName(post.postTitle)}</a>
+  </li>`).join("\n  ")}
+</ul>`.trim();
+    } catch {
+      return `
+<h3><a href="https://manuelmoreale.com/people-and-blogs">People and Blogs</a></h3>
+<ul class="portal-list">
+  <li>
+    <a href="https://manuelmoreale.com/feed/peopleandblogs">Latest interview</a>
+  </li>
+</ul>`.trim();
+    }
+  });
+
+  eleventyConfig.addNunjucksAsyncShortcode("bearblogDiscoveryItems", async function() {
+    try {
+      const posts = await readFeedPosts({
+        label: "Bearblog Discovery",
+        tag: "Discovery",
+        feedUrl: "https://bearblog.dev/discover/feed/",
+        siteUrl: "https://bearblog.dev/discover/",
+        limit: 5,
+      });
+
+      return `
+<h3><a href="https://bearblog.dev/discover/">Bearblog Discovery</a></h3>
+<ul class="portal-list">
+  ${posts.map((post) => `
+  <li>
+    <a href="${post.postUrl}">${post.postTitle}</a>
+  </li>`).join("\n  ")}
+</ul>`.trim();
+    } catch {
+      return `
+<h3><a href="https://bearblog.dev/discover/">Bearblog Discovery</a></h3>
+<ul class="portal-list">
+  <li>
+    <a href="https://bearblog.dev/discover/">Latest discovery posts</a>
+  </li>
+</ul>`.trim();
+    }
   });
 
   // Collection for all unique tags
@@ -524,32 +674,77 @@ ${tabsMarkup}
     return sortNewestFirst(collectionApi.getFilteredByTag("post"));
   });
 
-  eleventyConfig.addCollection("postArchiveYears", function(collectionApi) {
-    return uniqueYearsDescending(collectionApi.getFilteredByTag("post"));
+  eleventyConfig.addCollection("writingFeed", function(collectionApi) {
+    return collectionApi.getFilteredByTag("post")
+      .slice()
+      .sort((a, b) => a.date - b.date);
   });
 
   eleventyConfig.addCollection("bookArchive", function(collectionApi) {
-    return sortNewestFirst(collectionApi.getFilteredByTag("books"));
+    return sortNewestFirst(
+      collectionApi
+        .getFilteredByTag("books")
+        .filter((item) => item.data.published)
+    );
   });
 
-  eleventyConfig.addCollection("bookArchiveYears", function(collectionApi) {
-    return uniqueYearsDescending(collectionApi.getFilteredByTag("books"));
+  eleventyConfig.addCollection("bookFeed", function(collectionApi) {
+    return collectionApi
+      .getFilteredByTag("books")
+      .filter((item) => item.data.published)
+      .slice()
+      .sort((a, b) => a.date - b.date);
   });
 
   eleventyConfig.addCollection("movieArchive", function(collectionApi) {
     return sortNewestFirst(collectionApi.getFilteredByTag("movies"));
   });
 
-  eleventyConfig.addCollection("movieArchiveYears", function(collectionApi) {
-    return uniqueYearsDescending(collectionApi.getFilteredByTag("movies"));
+  eleventyConfig.addCollection("movieFeed", function(collectionApi) {
+    return collectionApi.getFilteredByTag("movies")
+      .slice()
+      .sort((a, b) => a.date - b.date);
   });
 
   eleventyConfig.addCollection("workoutArchive", function(collectionApi) {
     return sortNewestFirst(collectionApi.getFilteredByTag("workout"));
   });
 
+  eleventyConfig.addCollection("snapFeed", function(collectionApi) {
+    return collectionApi.getFilteredByTag("snap")
+      .slice()
+      .sort((a, b) => a.date - b.date);
+  });
+
+  eleventyConfig.addCollection("postArchiveYears", function(collectionApi) {
+    return uniqueYearsDescending(collectionApi.getFilteredByTag("post"));
+  });
+
+  eleventyConfig.addCollection("bookArchiveYears", function(collectionApi) {
+    return uniqueYearsDescending(
+      collectionApi
+        .getFilteredByTag("books")
+        .filter((item) => item.data.published)
+    );
+  });
+
+  eleventyConfig.addCollection("movieArchiveYears", function(collectionApi) {
+    return uniqueYearsDescending(collectionApi.getFilteredByTag("movies"));
+  });
+
   eleventyConfig.addCollection("workoutArchiveYears", function(collectionApi) {
     return uniqueYearsDescending(collectionApi.getFilteredByTag("workout"));
+  });
+
+  eleventyConfig.addCollection("siteActivity", function(collectionApi) {
+    // The sidebar heatmap combines activity from all the main content types.
+    return sortNewestFirst([
+      ...collectionApi.getFilteredByTag("post"),
+      ...collectionApi.getFilteredByTag("books").filter((item) => item.data.published),
+      ...collectionApi.getFilteredByTag("movies"),
+      ...collectionApi.getFilteredByTag("snap"),
+      ...collectionApi.getFilteredByTag("microfeed"),
+    ]);
   });
 
   // // Adding RSS feed and Combined feed collection
@@ -559,51 +754,78 @@ ${tabsMarkup}
       ...collectionApi.getFilteredByTag("snap"),
       ...collectionApi.getFilteredByTag("books"),
       ...collectionApi.getFilteredByTag("movies"),
-      ...collectionApi.getFilteredByTag("microfeed"),
     ].sort((a, b) => a.date - b.date); // Sort descending by date
   });
 
-  //================================================//
 
   eleventyConfig.addPlugin(feedPlugin, {
-  type: "rss",
-  outputPath: "/feed.xml",
-  collection: {
-    name: "combinedFeed",
-    limit: 30,
-  },
-  metadata: {
+    type: "rss", // "atom" or "rss", "json"
+    outputPath: "/feed.xml",
+    collection: {
+      name: "combinedFeed", // changed from "post" to "posts" to match collection name
+      limit: 10,     // 0 means no limit
+    },
+    metadata: {
+      language: "en",
+      title: "Sigmarootpi",
+      subtitle: "An outdated habbit of spitting my thoughts.",
+      base: "https://sigmarootpi.com/",
+      author: {
+        name: "Rishabh",
+        email: "sigmarootpi@proton.me", // Optional
+      }
+    }
+  });
+
+  const feedMetadata = {
     language: "en",
-    title: "Sigmarootpi",
     subtitle: "An outdated habbit of spitting my thoughts.",
     base: "https://sigmarootpi.com/",
     author: {
       name: "Rishabh",
-      email: "hello@sigmarootpi.com",
+      email: "sigmarootpi@proton.me",
     },
-  },
+  };
 
-  items: {
-    pubDate: item =>
-      DateTime
-        .fromJSDate(item.page.date, { zone: "EU/Brussels" })
-        .toRFC2822(),
-  },
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/feed/writing.xml",
+    collection: { name: "writingFeed", limit: 10 },
+    metadata: {
+      ...feedMetadata,
+      title: "Sigmarootpi Writing Feed",
+    },
+  });
 
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/feed/movies.xml",
+    collection: { name: "movieFeed", limit: 10 },
+    metadata: {
+      ...feedMetadata,
+      title: "Sigmarootpi Movies Feed",
+    },
+  });
 
-  postRender: (item) => {
-    // Append "Reply via email" link after each post content
-        // Encode the title to be safe for URL
-    const subject = encodeURIComponent(item.data.title || "Your Post");
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/feed/books.xml",
+    collection: { name: "bookFeed", limit: 10 },
+    metadata: {
+      ...feedMetadata,
+      title: "Sigmarootpi Books Feed",
+    },
+  });
 
-    return (
-      item.templateContent +
-      `<p><a href="mailto:hello@sigmarootpi.com?subject=${subject}Reply to your post">Reply via email</a></p>`
-    );
-  },
-});
-
-
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/feed/snap.xml",
+    collection: { name: "snapFeed", limit: 10 },
+    metadata: {
+      ...feedMetadata,
+      title: "Sigmarootpi Snap Feed",
+    },
+  });
 
   return {
     dir: {

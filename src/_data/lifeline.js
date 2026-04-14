@@ -1,5 +1,5 @@
 const birthDate = "1991-12-22";
-const lifespan = 75;
+const lifespan = 100;
 const weeksInYear = 52;
 
 const today = new Date();
@@ -9,7 +9,7 @@ const weeksLived = Math.floor((today - birth) / (1000 * 60 * 60 * 24 * 7));
 // Define milestones using actual dates
 const milestonesRaw = [
   { date: "1991-12-22", label: "I came to this world" },
-  { date: "1993-09-01", label: "Started School" },
+  { date: "1992-09-01", label: "Started School" },
   { date: "2009-06-15", label: "Graduated High School" },
   { date: "2010-06-15", label: "Started Bachelor of Technology" },
   { date: "2014-06-15", label: "Finished Bachelor degree" },
@@ -21,8 +21,7 @@ const milestonesRaw = [
   { date: "2025-04-01", label: "Submitted PhD thesis" },
   { date: "2025-06-16", label: "Awarded PhD" },
   { date: "2025-08-11", label: "💔 My younger cousin died" },
-  { date: "2025-10-07", label: "Moved to Belgium and started first postdoc" },
-  { date: "2026-01-10", label: "My son is born" }
+  { date: "2025-10-07", label: "Started first Postdoc" }
 ];
 
 // Calculate week numbers
