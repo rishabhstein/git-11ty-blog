@@ -16,7 +16,7 @@ Interestingly, the former method (old design) is perfect for a distraction‑lik
 
 A key question here is: “What caused these changes?” Information overload? I do not think so, as I still like those ugly 90s overloaded webpages. Or was it overstimulation? Maybe.
 
-Perhaps developers sensed the decline in users' attention spans and manipulated human psychology. I am not sure about it, but what I can confirm is that my last design of this blog followed the norms of today, i.e., lots of immersive graphics and an organized structure of posts with minimal distraction.
+Perhaps developers sensed the decline in users' attention spans and manipulated human psychology. I am not sure about it, but what I can confirm is that my [last design of this blog](https://web.archive.org/web/20260414185443/https://sigmarootpi.com/) followed the norms of today, i.e., lots of immersive graphics and an organized structure of posts with minimal distraction.
 
 However, the irony is that whenever I visited a newspaper website (with an ad blocker, of course), such as [this Indian one](https://www.amarujala.com), I always felt, contrary to expectations, that I wanted to read more news. Why?
 
