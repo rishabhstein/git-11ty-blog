@@ -1,16 +1,15 @@
 ---
 layout: 'tags.njk'
 pagination:
-  data: collections
+  data: collections.tagList
   size: 1
   alias: tag
-  filter: tagList
-permalink: /tags/{{ tag | slug }}/
+permalink: /tags/{{ tag }}/
 ---
 
 <h4>Filter: /tags/{{ tag }}</h4>
 <ul>
-  {% for post in collections[tag] %}
+  {% for post in collections.all | postsByTagInsensitive(tag) %}
     <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
   {% endfor %}
 </ul>

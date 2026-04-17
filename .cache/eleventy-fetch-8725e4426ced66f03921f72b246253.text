@@ -1,0 +1,1952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:appaddict.app,2005:/feed</id>
+  <link rel="alternate" type="text/html" href="https://appaddict.app"/>
+  <link rel="self" type="application/atom+xml" href="https://appaddict.app/feed.atom"/>
+  <title>AppAddict</title>
+  <subtitle>I'm an incurable software collector and enjoy few things more than downloading and exploring new apps. If you've got the same bug, check here for suggestions. If you're a developer and have an app you'd like me to check out, let me know.</subtitle>
+  <updated>2026-04-16T15:39:15Z</updated>
+  <logo>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWl3QmFRSXNBVG9LYzJGMlpYSjdCem9LYzNSeWFYQlVPZ3h4ZFdGc2FYUjVhV1E9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--d5470907b5b5a357fec32990d4bdb78c827f9472/1024px-App_Store_(iOS).svg.png</logo>
+  <icon>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwUldsRk9ncHpZWFpsY25zSE9ncHpkSEpwY0ZRNkRIRjFZV3hwZEhscFpBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--d0a377349dc1eed29878fcae6bec2204e230fc00/1024px-App_Store_(iOS).svg.png</icon>
+  <author>
+    <name>AppAddict</name>
+    <uri>https://appaddict.app</uri>
+  </author>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/16158</id>
+    <published>2026-04-16T15:39:15Z</published>
+    <updated>2026-04-16T15:39:17Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/seeking-feedback-from-mac-power-users"/>
+    <title>Seeking Feedback from Mac Power Users</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Mac Apps" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL2FSQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ae14ba59cae8a4ea4e75269c3ce974d8a063fe17/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-16%20at%2011.36.42.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Mac Apps
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I’m looking for feedback on a few apps.&lt;/p&gt;
+
+&lt;p&gt;I’m looking for the answers to the following questions:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Did this app solve a problem you had? If so, what was the issue and the solution.&lt;/li&gt;
+&lt;li&gt;Who do you think is the target audience for the app&lt;/li&gt;
+&lt;li&gt;What’s your favorite feature or biggest aggravation with the app?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href="https://getbookshelves.app/"&gt;BookShelves eBook Reader -&lt;/a&gt; BookShelves is a modern ebook reader and library manager for macOS and iOS. It supports EPUB, PDF, MOBI, PRC, and Kindle formats with iCloud sync, a customizable reading experience, and thousands of free classic books built in.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://sidebarapp.net/"&gt;Sidebar -&lt;/a&gt; Sidebar is a MacOS application that replaces the standard MacOS Dock. It feels more like the taskbar of other operating systems (e.g. Windows, Linux).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.vaultsort.com/"&gt;VaultSort - Organize, Secure, and Optimize Your Mac Files -&lt;/a&gt; File automation, cleanup, and security&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://pacificcoast.dev/#procman"&gt;Procman -&lt;/a&gt; Procman is a native process explorer for Mac that combines the hierarchy of pstree with the clarity of Activity Monitor. Instead of a flat list of processes, it shows a live parent-child tree so you can actually understand what spawned what, what’s consuming resources, and how everything fits together.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.liqoria.com/"&gt;Liqoria - Mac Music Player • Apple Music • Spotify • YouTube and more -&lt;/a&gt; An Apple Music alternative, improving your Spotify for Mac workflow, or comparing tools like Cider for Mac.&lt;/p&gt;
+
+&lt;p&gt;If you have feedback, you can use the comment for here, send me an email or hit me up on Reddit, Mastodon or BlueSky.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Seeking%20Feedback%20from%20Mac%20Power%20Users" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>I’m looking for feedback on a few apps.
+
+I’m looking for the answers to the following questions:
+
+1. Did this app solve a problem you had? If so, what was the issue and the solution.
+2. Who do you think is the target audience for the app
+3. What’s your...</summary>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/16115</id>
+    <published>2026-04-14T01:06:50Z</published>
+    <updated>2026-04-14T01:29:10Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/learning-and-using-github-as-a-non-developer-with-tower"/>
+    <title>Learning and Using GitHub As a Non-Developer with Tower</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Tower" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBKzJRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a1f50152e6731aaff8f371c23c43bdbb8fccfeb3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-13%20at%2021.02.32.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Tower
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For years I assumed GitHub was only useful if you were a developer.&lt;/p&gt;
+
+&lt;p&gt;Turns out it's actually one of the best tools I've found for managing &lt;b&gt;&lt;strong&gt;text-heavy Mac workflows&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;I now use Git repositories to version and back up things like:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;my 13K-file Obsidian vault (private)&lt;/li&gt;
+&lt;li&gt;~700 Keyboard Maestro macros (public)&lt;/li&gt;
+&lt;li&gt;Hazel and BetterTouchTool configs (public)&lt;/li&gt;
+&lt;li&gt;writing projects and scripts (private)&lt;/li&gt;
+&lt;li&gt;~500 Markdown documents with my quotes collection (public)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No coding required.&lt;/p&gt;
+
+&lt;p&gt;I recently switched from GitHub Desktop to &lt;a href="https://www.git-tower.com"&gt;Tower&lt;/a&gt;, which exposes a lot more of Git's capabilities without forcing you into the command line.&lt;/p&gt;
+
+&lt;p&gt;If you're a Mac power user managing large folders of Markdown, scripts, or automation configs, Git is basically &lt;b&gt;&lt;strong&gt;Time Machine for specific folders&lt;/strong&gt;&lt;/b&gt; — and Tower makes it easy to use.&lt;/p&gt;
+
+&lt;h2&gt;Why This Matters for Mac Power Users&lt;/h2&gt;
+
+&lt;p&gt;If you work with text-heavy workflows on macOS — Markdown notes, scripts, automation configs, or documentation — Git gives you something Time Machine doesn’t:&lt;/p&gt;
+
+&lt;p&gt;• version history for individual files&lt;br&gt;• the ability to roll back one specific edit&lt;br&gt;• an off-site backup of critical working folders&lt;br&gt;• synchronization between multiple Macs&lt;/p&gt;
+
+&lt;p&gt;For people managing large Obsidian vaults, automation libraries, or documentation projects, that combination becomes extremely useful.&lt;/p&gt;
+
+&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Let's Speak the Same Language&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;Here's a quick translation of common Git terminology:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Repository&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;A folder tracked by Git that contains files and their complete change history.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Commit&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;A saved snapshot of the repository at a specific moment, along with a message describing the change.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;History&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;The chronological record of all commits.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Branch&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;A parallel line of development that lets you experiment without affecting the main version.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Merge&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Combining changes from one branch into another.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Remote&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;A copy of the repository stored somewhere else; typically GitHub.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Push&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Send your local commits to the remote repository.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Pull&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Fetch changes from the remote repository and integrate them into your local copy.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Clone&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Download a complete copy of a repository, including its history.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Diff&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;A comparison showing exactly what changed between two versions of a file.&lt;/p&gt;
+
+&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Why I Use Tower&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;Tower provides a graphical interface for Git repositories and remote services such as GitHub. Instead of memorizing commands, you interact with commits, branches, and history visually.&lt;/p&gt;
+
+&lt;p&gt;For developers this manages source code. For everyone else it manages &lt;b&gt;&lt;strong&gt;collections of important files&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;Git tracks the complete history of a folder. Every time you make a commit, Git records a snapshot of the repository. Tower simply exposes that system visually. Instead of typing commands like:&lt;/p&gt;
+
+&lt;pre data-language="plain"&gt;git add &lt;br&gt;git commit &lt;br&gt;git push&lt;/pre&gt;
+
+&lt;p&gt;Tower gives you:&lt;/p&gt;
+
+&lt;p&gt;• checkboxes to stage files&lt;/p&gt;
+
+&lt;p&gt;• a commit message box&lt;/p&gt;
+
+&lt;p&gt;• push / pull buttons&lt;/p&gt;
+
+&lt;p&gt;• a visual timeline of changes&lt;/p&gt;
+
+&lt;p&gt;The idea is so simple it's easy to miss how powerful it is.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Every commit becomes a permanent historical snapshot.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;For writers, note-takers, and automation nerds, Git effectively becomes &lt;b&gt;&lt;strong&gt;Time Machine for specific folders&lt;/strong&gt;&lt;/b&gt;; but with far more precision. Instead of restoring an entire folder, you can restore a &lt;b&gt;&lt;strong&gt;single edit inside a single file&lt;/strong&gt;&lt;/b&gt;. That capability becomes extremely valuable once your knowledge base grows large.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;I regularly use Tower to manage:&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Markdown notes&lt;/li&gt;
+&lt;li&gt;scripts&lt;/li&gt;
+&lt;li&gt;documentation&lt;/li&gt;
+&lt;li&gt;configuration files&lt;/li&gt;
+&lt;li&gt;knowledge bases&lt;/li&gt;
+&lt;li&gt;writing projects
+
+&lt;br&gt;&lt;b&gt;&lt;strong&gt;Using Tower with GitHub adds a few major benefits:&lt;/strong&gt;&lt;/b&gt;
+&lt;/li&gt;
+&lt;li&gt;complete version history&lt;/li&gt;
+&lt;li&gt;off-site backup&lt;/li&gt;
+&lt;li&gt;synchronization between machines&lt;/li&gt;
+&lt;li&gt;detailed change tracking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Tower Features Worth Highlighting&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
+
+&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Rebase&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;Tower includes a visual interface for &lt;b&gt;&lt;strong&gt;rebasing&lt;/strong&gt;&lt;/b&gt;, which allows you to reorganize commit history. The GUI makes operations that are intimidating on the command line much easier:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;reordering commits&lt;/li&gt;
+&lt;li&gt;editing commit messages&lt;/li&gt;
+&lt;li&gt;combining commits&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Stashing&lt;/h3&gt;
+
+&lt;p&gt;Suppose you're halfway through editing files but need to switch branches. You don't want to commit unfinished work. &lt;b&gt;&lt;strong&gt;Stashing&lt;/strong&gt;&lt;/b&gt; temporarily saves those changes so you can switch contexts and return later.&lt;/p&gt;
+
+&lt;h3&gt;Conflict Resolution&lt;/h3&gt;
+
+&lt;p&gt;I'll admit I tend to use more computers than I should. That occasionally creates conflicts. When multiple versions of a file diverge, Git produces a &lt;b&gt;&lt;strong&gt;merge conflict&lt;/strong&gt;&lt;/b&gt;. Tower provides a visual interface for resolving these conflicts instead of forcing you to edit raw conflict markers. For non-developers, this feature alone removes a lot of confusion.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Getting Started in Five Minutes&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;You can realistically start using Tower on macOS in about five minutes.&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Create a repository&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;Pick a folder; your Obsidian vault is a good candidate. Initialize it as a Git repository in Tower.&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;**Make the first commit&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;Tower will show all files in the folder. Select them and create the first commit.&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Connect to GitHub&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;Create a repository on GitHub and link it to your local repository. Push the files.&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Adopt a simple daily workflow&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;Open Tower; review the files that changed; write a short commit message; push to GitHub.&lt;/p&gt;
+
+&lt;p&gt;That's really all most non-developers need.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Tower Website&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.git-tower.com"&gt;https://www.git-tower.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.git-tower.com/legal/privacy-policy"&gt;https://www.git-tower.com/legal/privacy-policy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Price&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;$5.75/month billed annually&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Learning%20and%20Using%20GitHub%20As%20a%20Non-Developer%20with%20Tower" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>For years I assumed GitHub was only useful if you were a developer.
+
+Turns out it's actually one of the best tools I've found for managing text-heavy Mac workflows.
+
+I now use Git repositories to version and back up things like:
+
+• my 13K-file Obsidian vault (private)
+• ~700 Keyboard...</summary>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/16047</id>
+    <published>2026-04-11T01:25:20Z</published>
+    <updated>2026-04-11T01:25:21Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/three-creative-and-original-new-apps"/>
+    <title>Three Creative and Original New Apps</title>
+    <content type="html">&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;
+
+&lt;p&gt;Developers keep finding interesting ways to make our existing tech more useful. Sometimes that means refining how we interact with tools we already rely on. Other times it means applying software to problems that don’t obviously look like “tech problems.”&lt;/p&gt;
+
+&lt;p&gt;Here are three apps that take a slightly unconventional approach.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://xspeak.app/"&gt;Xspeak&lt;/a&gt; — a meeting companion for people who sometimes struggle to articulate their thoughts in fast-moving conversations. It transcribes discussion in real time and helps you decide how and when to respond.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://apps.apple.com/us/app/drooid-news-from-all-sides/id6593684010"&gt;Drooid&lt;/a&gt; — a news reader that focuses on surfacing bias and showing how different outlets frame the same story.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://parall.app/"&gt;Parall&lt;/a&gt; — a utility that lets you run multiple configurations of the same app simultaneously on a single Mac.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--webp"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd21RQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f7b010e7da2acdff95257cd9de1e4871d7281c20/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2h3Ym1jNkZISmxjMmw2WlY5MGIxOXNhVzFwZEZzSGFRSUFDR2tDQUFZNkNuTmhkbVZ5ZXdjNkNuTjBjbWx3VkRvTWNYVmhiR2wwZVdsayIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--63d820beee6b8696af3b0f76fc64159e37e92615/10.webp" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;XSpeak&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;What problem this solves&lt;/strong&gt;&lt;/b&gt; - Contributing effectively in meetings when conversations move faster than your ability to respond.&lt;/p&gt;
+
+&lt;p&gt;Xspeak is not a generic Whisper front end. It supports multiple on-device speech recognition models, and the entire design emphasizes privacy. If you prefer, you can also connect it to OpenAI-compatible cloud models.&lt;/p&gt;
+
+&lt;p&gt;The interesting part is what happens after transcription. XSpeak produces diarized transcripts and identifies questions that may require a response. With some setup and training, its on-device AI can suggest responses and strategies in real time during a meeting.&lt;/p&gt;
+
+&lt;p&gt;The system improves over time. Once you identify a speaker, XSpeak can recognize that voice in future meetings and remember their role in the conversation.&lt;/p&gt;
+
+&lt;p&gt;By default, it stores past meetings locally so you can reference them later. The app can generate summaries, insights, and suggested follow-ups. During a live meeting it also allows custom queries to the AI for additional context or analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Highlights&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Diarized transcription&lt;/li&gt;
+&lt;li&gt;Multiple local speech models&lt;/li&gt;
+&lt;li&gt;Optional OpenAI-compatible cloud models&lt;/li&gt;
+&lt;li&gt;Real-time suggestions during meetings&lt;/li&gt;
+&lt;li&gt;Meeting summaries and follow-up analysis&lt;/li&gt;
+&lt;li&gt;Local storage of past meetings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Developer Website&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;a href="https://xspeak.app/"&gt;https://xspeak.app&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;No data collection; processing and storage can remain fully on-device.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Pricing&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;$3.99/mo · $19.99/year · $49 lifetime&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Drooid&lt;/h2&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3FRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1677857cf8cc83ecf6e884017878edcf746f5854/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-10%20at%2021.23.14.jpg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;What problem this solves:&lt;/strong&gt;&lt;/b&gt; Quickly comparing how different news outlets frame the same story.&lt;/p&gt;
+
+&lt;p&gt;I’ve followed news closely since I was a kid. Over the last decade, the media landscape has shifted in ways that make it harder to quickly evaluate what’s reliable and what’s not.&lt;/p&gt;
+
+&lt;p&gt;Drooid tries to address that problem by presenting the same story through multiple outlets and highlighting differences in framing and bias.&lt;/p&gt;
+
+&lt;p&gt;I initially assumed it would take a simplistic “both sides are the same” approach. That’s not what it does. Instead, it analyzes historical editorial patterns and presents coverage alongside contextual explanations of each source’s tendencies.&lt;/p&gt;
+
+&lt;p&gt;It’s also a capable news reader. You can follow topics, read summaries, jump to original reporting, and save stories for later.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;How Drooid Works&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Aggregates articles from established publishers&lt;/li&gt;
+&lt;li&gt;Uses AI to generate structured summaries from multiple sources&lt;/li&gt;
+&lt;li&gt;Identifies differences in perspective and framing&lt;/li&gt;
+&lt;li&gt;Adds historical context and citations when relevant&lt;/li&gt;
+&lt;li&gt;Provides deeper analysis for major stories&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;What You Can Do&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read concise multi-source summaries&lt;/li&gt;
+&lt;li&gt;Compare coverage across outlets&lt;/li&gt;
+&lt;li&gt;Open original articles&lt;/li&gt;
+&lt;li&gt;Explore deeper AI analysis&lt;/li&gt;
+&lt;li&gt;Follow topics and people&lt;/li&gt;
+&lt;li&gt;Search stories and events&lt;/li&gt;
+&lt;li&gt;Participate in community discussion&lt;/li&gt;
+&lt;li&gt;Save stories for later&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Drooid runs on Mac, iPhone, and iPad.&lt;/p&gt;
+
+&lt;p&gt;Instead of relying on a social media algorithm to decide what you see, Drooid gives you a structured way to compare coverage directly.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Developer Website&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;a href="https://drooid.social/"&gt;https://drooid.social&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Collects some data but does not link it to your identity.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Pricing&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;$3.99/mo · $29.99/year&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Parall&lt;/h2&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3VRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a205abf88347b7992acf1eaa6040149e3abf5789/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-10%20at%2021.24.39.jpg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;What problem this solves:&lt;/strong&gt;&lt;/b&gt; Running multiple independent instances of the same app without separate macOS accounts.&lt;/p&gt;
+
+&lt;p&gt;For years I used separate macOS accounts when I needed to run the same app with different configurations. Parall removes that requirement.&lt;/p&gt;
+
+&lt;p&gt;It creates configurable shortcuts that launch separate instances of supported apps, each with its own configuration and data environment.&lt;/p&gt;
+
+&lt;p&gt;Parall already supports many common third-party apps and can download compatibility profiles for apps it hasn’t explicitly tested yet. That approach lets the ecosystem expand without waiting for a full app update.&lt;/p&gt;
+
+&lt;p&gt;The original application isn’t modified. Parall simply launches isolated instances with different parameters. If you stop using the shortcuts, the original app behaves exactly as it always did.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Configurable launch shortcuts&lt;/li&gt;
+&lt;li&gt;Separate configuration and data environments&lt;/li&gt;
+&lt;li&gt;Custom launch arguments&lt;/li&gt;
+&lt;li&gt;Visual indicators to distinguish instances&lt;/li&gt;
+&lt;li&gt;Logging and debugging tools&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are limits. Some apps cannot be isolated this way. Also, macOS security prompts appear frequently during setup, so expect to click through quite a few dialogs.&lt;/p&gt;
+
+&lt;p&gt;This is not a beginner utility. If you are comfortable with launch arguments and environment variables, it makes immediate sense. If not, you can still use it; the learning curve is just a bit steeper.&lt;/p&gt;
+
+&lt;p&gt;Parall is one of those niche utilities that becomes surprisingly useful once you start using it. Separate Dock icons for different contexts; clean separation between work and personal accounts; isolated project environments; all without duplicate installs or brittle automation.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Developer Website&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;a href="https://parall.app/"&gt;https://parall.app&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Fully sandboxed macOS app. Operates locally by default and does not send network requests or collect personal data.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Price&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;$9.99 on the Mac App Store&lt;br&gt;&lt;a href="https://apps.apple.com/us/app/parall/id6754065114?mt=12"&gt;https://apps.apple.com/us/app/parall/id6754065114?mt=12&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Who These Apps Are For&lt;/h2&gt;
+
+&lt;p&gt;These are not generic productivity apps. Each one targets a specific workflow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Xspeak&lt;/strong&gt;&lt;/b&gt; — people who participate in a lot of meetings and want real-time assistance organizing their thoughts.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Drooid&lt;/strong&gt;&lt;/b&gt; — readers who want structured comparisons of how news outlets frame the same story.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Parall&lt;/strong&gt;&lt;/b&gt; — power users who need multiple app environments without juggling macOS accounts or duplicate installs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;None of these tools will appeal to everyone. But if the specific problem they solve matches your workflow, they are unusually thoughtful implementations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Three%20Creative%20and%20Original%20New%20Apps" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>
+
+Developers keep finding interesting ways to make our existing tech more useful. Sometimes that means refining how we interact with tools we already rely on. Other times it means applying software to problems that don’t obviously look like “tech problems.”
+
+Here are three apps that take a slightly unconventional...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15998</id>
+    <published>2026-04-09T01:32:06Z</published>
+    <updated>2026-04-09T01:32:08Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/organizing-a-660-app-applications-folder-with-apptela"/>
+    <title>Organizing a 660-App /Applications Folder with AppTela</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="AppTela" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXlQQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--74c8df767b0059a8cbc0320b2b049a44d6784a1c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-08%20at%2021.28.30.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      AppTela
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I recently organized my &lt;b&gt;&lt;strong&gt;/Applications&lt;/strong&gt;&lt;/b&gt; folder; it contains more than &lt;b&gt;&lt;strong&gt;660 apps&lt;/strong&gt;&lt;/b&gt;. The tool that finally made it manageable is &lt;a href="https://apps.apple.com/us/app/apptela-app-launcher/id6752568197?mt=12"&gt;&lt;b&gt;&lt;strong&gt;AppTela&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;, a layered, categorized launcher available for &lt;b&gt;&lt;strong&gt;$4.99 on the Mac App Store&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;I tend to keep an app for every contingency. The problem isn’t disk space; it’s remembering the name of the utility you installed last year to solve a problem that only shows up every few months.&lt;/p&gt;
+
+&lt;p&gt;If you’ve ever had the experience of knowing you &lt;i&gt;&lt;em&gt;have&lt;/em&gt;&lt;/i&gt; an app for something but not remembering what it’s called, AppTela is designed to solve exactly that problem. I still launch the majority of my apps from Raycast. My use case for AppTela is using it's organizational structure, but if you're primarily a mouse or trackpad (nothing wrong with that), then this app will server you well on that front.&lt;/p&gt;
+
+&lt;p&gt;Not many days go by without me downloading at least one app. I’ve been doing that for years. Some people golf; some people play video games. My hobby is testing software.&lt;/p&gt;
+
+&lt;p&gt;Over time, of course, some maintenance and culling becomes necessary. But I’ve never worried about having too many apps; if that’s even a thing. As long as I stay away from the big bundles from companies like Adobe and Microsoft and keep Electron apps to a minimum, disk space isn’t an issue. Even on a &lt;b&gt;&lt;strong&gt;Mac mini with a 256 GB SSD&lt;/strong&gt;&lt;/b&gt;, my very full Applications folder uses &lt;b&gt;&lt;strong&gt;less than 20% of the drive&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;AppTela is &lt;b&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/b&gt; a Launchpad clone. It’s completely &lt;b&gt;&lt;strong&gt;non-destructive&lt;/strong&gt;&lt;/b&gt;. No matter how you organize things inside AppTela, your underlying file system never changes.&lt;/p&gt;
+
+&lt;p&gt;The structure takes a little time to understand, but it clicks pretty quickly. And importantly, none of the organizational layers are mandatory. You can ignore the ones that don’t fit your workflow.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Pages&lt;/h2&gt;
+
+&lt;p&gt;The highest organizational level is the &lt;b&gt;&lt;strong&gt;Page&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you first open AppTela, it places all your apps on a single page. You can create as many pages as you like.&lt;/p&gt;
+
+&lt;p&gt;An app can appear on multiple pages. For example, you might create:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a &lt;b&gt;&lt;strong&gt;Side Hustle&lt;/strong&gt;&lt;/b&gt; page&lt;/li&gt;
+&lt;li&gt;a &lt;b&gt;&lt;strong&gt;YouTube setup&lt;/strong&gt;&lt;/b&gt; page&lt;/li&gt;
+&lt;li&gt;a &lt;b&gt;&lt;strong&gt;Daily Work&lt;/strong&gt;&lt;/b&gt; page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Safari could appear on all of them.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Categories&lt;/h2&gt;
+
+&lt;p&gt;Within each page, apps are arranged into &lt;b&gt;&lt;strong&gt;Categories&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;On the default page, categories appear as headers with apps displayed in a grid beneath them. You can rename, delete, or create categories from the context menu.&lt;/p&gt;
+
+&lt;p&gt;The default categories include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Design and Photography&lt;/li&gt;
+&lt;li&gt;Notes&lt;/li&gt;
+&lt;li&gt;Entertainment and Media&lt;/li&gt;
+&lt;li&gt;Developer Tools&lt;/li&gt;
+&lt;li&gt;Education and Reference&lt;/li&gt;
+&lt;li&gt;Internet&lt;/li&gt;
+&lt;li&gt;Social and Lifestyle&lt;/li&gt;
+&lt;li&gt;Utilities&lt;/li&gt;
+&lt;li&gt;Video&lt;/li&gt;
+&lt;li&gt;General Applications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can keep these, modify them, or replace them entirely.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Groups&lt;/h2&gt;
+
+&lt;p&gt;If you have a lot of apps in a category, &lt;b&gt;&lt;strong&gt;Groups&lt;/strong&gt;&lt;/b&gt; become useful.&lt;/p&gt;
+
+&lt;p&gt;For example, instead of having a giant Utilities grid containing 100 apps, you can break that category into smaller groups.&lt;/p&gt;
+
+&lt;p&gt;Here are the &lt;b&gt;&lt;strong&gt;Utility groups&lt;/strong&gt;&lt;/b&gt; I created:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Automation&lt;/li&gt;
+&lt;li&gt;Backup&lt;/li&gt;
+&lt;li&gt;Clipboard&lt;/li&gt;
+&lt;li&gt;Disk Tools&lt;/li&gt;
+&lt;li&gt;Dock Utilities&lt;/li&gt;
+&lt;li&gt;File Maintenance&lt;/li&gt;
+&lt;li&gt;File Transfer&lt;/li&gt;
+&lt;li&gt;File Search&lt;/li&gt;
+&lt;li&gt;Hardware&lt;/li&gt;
+&lt;li&gt;Maintenance&lt;/li&gt;
+&lt;li&gt;Menu Bar&lt;/li&gt;
+&lt;li&gt;Network&lt;/li&gt;
+&lt;li&gt;Shelf&lt;/li&gt;
+&lt;li&gt;Shell&lt;/li&gt;
+&lt;li&gt;Shortcuts&lt;/li&gt;
+&lt;li&gt;Speech&lt;/li&gt;
+&lt;li&gt;System&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Groups can also be &lt;b&gt;&lt;strong&gt;nested up to five levels deep&lt;/strong&gt;&lt;/b&gt;, which gives you a surprising amount of flexibility if you want a very structured layout.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Stacks&lt;/h2&gt;
+
+&lt;p&gt;The lowest organizational level is the &lt;b&gt;&lt;strong&gt;Stack&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are two kinds.&lt;/p&gt;
+
+&lt;h3&gt;Regular Stacks&lt;/h3&gt;
+
+&lt;p&gt;A regular stack is simply a way to group &lt;b&gt;&lt;strong&gt;up to 10 apps&lt;/strong&gt;&lt;/b&gt; inside the space normally occupied by a single icon.&lt;/p&gt;
+
+&lt;p&gt;This is useful when you have clusters of related tools you only use occasionally.&lt;/p&gt;
+
+&lt;h3&gt;Launch Stacks&lt;/h3&gt;
+
+&lt;p&gt;Launch Stacks look similar, but behave differently.&lt;/p&gt;
+
+&lt;p&gt;Clicking one launches &lt;b&gt;&lt;strong&gt;every app inside the stack simultaneously&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is perfect for starting a workflow where several tools always open together; for example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a writing environment&lt;/li&gt;
+&lt;li&gt;a development setup&lt;/li&gt;
+&lt;li&gt;a media editing session&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Stacks can be placed directly inside a &lt;b&gt;&lt;strong&gt;category&lt;/strong&gt;&lt;/b&gt; or inside a &lt;b&gt;&lt;strong&gt;group&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Aesthetics and Customization&lt;/h2&gt;
+
+&lt;p&gt;AppTela is extremely customizable.&lt;/p&gt;
+
+&lt;p&gt;Almost every visual element can be adjusted; borders, colors, fonts, and backgrounds.&lt;/p&gt;
+
+&lt;p&gt;It includes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;26 display themes&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;29 color schemes&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;7 animated backgrounds&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can run it:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;full screen&lt;/li&gt;
+&lt;li&gt;as a sidebar above the Dock&lt;/li&gt;
+&lt;li&gt;on any display&lt;/li&gt;
+&lt;li&gt;on any Space&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you spend time dialing in a layout you really like, you can &lt;b&gt;&lt;strong&gt;lock, save, and back up the configuration&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Wish List&lt;/h2&gt;
+
+&lt;p&gt;There are a few things I’d still like to see added.&lt;/p&gt;
+
+&lt;p&gt;The biggest one is the ability to launch things other than applications, such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Shortcuts&lt;/li&gt;
+&lt;li&gt;Folders&lt;/li&gt;
+&lt;li&gt;URLs&lt;/li&gt;
+&lt;li&gt;Files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I would also like something similar to the &lt;b&gt;&lt;strong&gt;notes feature in Start (by Innovative Bytes)&lt;/strong&gt;&lt;/b&gt;. Being able to attach a short reference note to an app would be genuinely useful.&lt;/p&gt;
+
+&lt;p&gt;Not every app name is descriptive. And if you happen to have &lt;b&gt;&lt;strong&gt;six clipboard managers installed&lt;/strong&gt;&lt;/b&gt; (hypothetically speaking), it would be helpful to leave yourself a reminder about which one supports cumulative copying.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;App Details&lt;/h2&gt;
+
+&lt;h3&gt;Developer Website&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://apptela.com/en/"&gt;AppTela for Mac – Customizable App Launcher &amp;amp; Launchpad Alternative&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Privacy Policy&lt;/h3&gt;
+
+&lt;p&gt;AppTela collects &lt;b&gt;&lt;strong&gt;no personal data&lt;/strong&gt;&lt;/b&gt;.&lt;br&gt;The app runs entirely on your device and requires &lt;b&gt;&lt;strong&gt;no network connectivity&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Price&lt;/h3&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;$4.99&lt;/strong&gt;&lt;/b&gt; on the &lt;a href="https://apps.apple.com/us/app/apptela-app-launcher/id6752568197?mt=12"&gt;Mac App Store&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Organizing%20a%20660-App%20/Applications%20Folder%20with%20AppTela" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>I recently organized my /Applications folder; it contains more than 660 apps. The tool that finally made it manageable is AppTela, a layered, categorized launcher available for $4.99 on the Mac App Store.
+
+I tend to keep an app for every contingency. The problem isn’t disk space; it’s remembering the name of the utility you...</summary>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15943</id>
+    <published>2026-04-06T16:26:30Z</published>
+    <updated>2026-04-06T16:26:32Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/i-replaced-apple-music-with-yate-swinsian-navidrome-and-an-ipod-classic-surprisingly-better"/>
+    <title>I replaced Apple Music with Yate, Swinsian, Navidrome, and an iPod Classic. Surprisingly better.</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Navidrome" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNGlOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8be0a070ddcf99c2cafc0fc1df9e97b0cc206ff6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/dylan.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Navidrome
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;My ten-year experiment with Apple Music is over.&lt;/p&gt;
+
+&lt;p&gt;Over the past month I rebuilt my workflow for managing a large local music collection; roughly &lt;b&gt;&lt;strong&gt;36,000 tracks&lt;/strong&gt;&lt;/b&gt;. After a lot of experimentation, these are the tools that finally clicked.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Migration&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://support.apple.com/en-us/108935"&gt;Apple Music with iTunes Match&lt;/a&gt; ($25/year; you only need it once)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Repair&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://2manyrobots.com/yate/"&gt;Yate&lt;/a&gt; (free)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Management&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://swinsian.com/"&gt;Swinsian&lt;/a&gt; ($34.95)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Maintenance&lt;/strong&gt;&lt;/b&gt; – Yate + Swinsian&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Consumption (hardware)&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://www.ebay.com/sch/i.html?_nkw=used+ipod+classic&amp;amp;_sop=12"&gt;iPod Classic&lt;/a&gt; ($40–$400)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Consumption (streaming)&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://www.navidrome.org/"&gt;Navidrome&lt;/a&gt; (free)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is the story of moving from Apple Music back to &lt;b&gt;&lt;strong&gt;files I actually own&lt;/strong&gt;&lt;/b&gt;, and the workflow that makes that practical in 2026.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Why Leave?&lt;/h2&gt;
+
+&lt;p&gt;Streaming trained us to tolerate a mess we never should have accepted.&lt;/p&gt;
+
+&lt;p&gt;Tracks, albums, and playlists quietly disappear. You’re never quite sure what counts as “your library.” Metadata changes underneath you. And if you cancel the subscription, it’s not always clear what remains.&lt;/p&gt;
+
+&lt;p&gt;For casual listening that trade-off may be fine. For anyone who has spent years curating a library, it’s frustrating.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;iPod Enforced Clarity&lt;/h2&gt;
+
+&lt;p&gt;Using a big old &lt;b&gt;&lt;strong&gt;iPod Classic&lt;/strong&gt;&lt;/b&gt; forces a certain discipline.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Everything must be local.&lt;/strong&gt;&lt;/b&gt; No cloud placeholders. Availability becomes certain instead of the streamer’s gamble of “is this still licensed?”&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Metadata has to be correct.&lt;/strong&gt;&lt;/b&gt; Artist, Album, Genre, Composer, and Year matter because that’s how the device navigates.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Portability means independence.&lt;/strong&gt;&lt;/b&gt; The device doesn’t call home to verify a subscription.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It’s a surprisingly healthy constraint.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;DRM Isn’t What It Used to Be&lt;/h2&gt;
+
+&lt;p&gt;My library comes from a mix of sources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ripped CDs&lt;/li&gt;
+&lt;li&gt;iTunes purchases&lt;/li&gt;
+&lt;li&gt;Other digital stores (Amazon, eMusic, etc.)&lt;/li&gt;
+&lt;li&gt;Napster downloads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the early years, iTunes purchases were &lt;b&gt;&lt;strong&gt;DRM-protected AAC files&lt;/strong&gt;&lt;/b&gt;. Later Apple switched to DRM-free downloads and eventually provided ways to convert older purchases.&lt;/p&gt;
+
+&lt;p&gt;That history leaves many long-time iTunes libraries in a messy transitional state.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;iTunes Match Worked for Me&lt;/h2&gt;
+
+&lt;p&gt;For &lt;b&gt;&lt;strong&gt;$25&lt;/strong&gt;&lt;/b&gt;, iTunes Match will upload up to &lt;b&gt;&lt;strong&gt;100,000 songs&lt;/strong&gt;&lt;/b&gt; in almost any format.&lt;/p&gt;
+
+&lt;p&gt;The useful trick is what happens next: once the songs are matched or uploaded, you can &lt;b&gt;&lt;strong&gt;re-download them as 256 kbps AAC files&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s not lossless audiophile territory, but it’s a big improvement over the &lt;b&gt;&lt;strong&gt;128 kbps MP3s&lt;/strong&gt;&lt;/b&gt; many of us ripped twenty years ago.&lt;/p&gt;
+
+&lt;p&gt;In my case it did two useful things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Upgraded thousands of low-bitrate files&lt;/li&gt;
+&lt;li&gt;Removed DRM from every track I had ever purchased from Apple&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s not magic, though.&lt;/p&gt;
+
+&lt;p&gt;A “matched” track can sometimes be:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a different mastering&lt;/li&gt;
+&lt;li&gt;a radio or clean edit&lt;/li&gt;
+&lt;li&gt;a compilation version&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those substitutions can break album coherence. Keeping a &lt;b&gt;&lt;strong&gt;backup of your original files&lt;/strong&gt;&lt;/b&gt; is essential so you can restore anything that gets replaced incorrectly.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Yate" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNG1OQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ac70cdb23c56355b9b96f07593a9a2b1dd78e923/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/yate.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Yate
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Using Yate to Modernize the Library&lt;/h2&gt;
+
+&lt;p&gt;Old iTunes libraries accumulate a lot of structural problems.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Artist vs Album Artist inconsistencies&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Compilations explode into dozens of fake albums because Album Artist wasn’t standardized.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Multiple versions of the same artist&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;code&gt;AC/DC&lt;/code&gt; vs &lt;code&gt;ACDC&lt;/code&gt;, smart quotes, stray spaces, or hidden characters create duplicate artist entries.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Broken multi-disc structure&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Missing disc numbers, merged discs, or tracks numbered 1–12 twice.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Genre chaos&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;i&gt;&lt;em&gt;Alternative, Alt Rock, Alt. Rock, Indie Rock&lt;/em&gt;&lt;/i&gt; multiplied across 36,000 tracks.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Legacy sorting fields&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Old iTunes “Sort Artist” conventions vary wildly and sometimes actively break browsing.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Artwork inconsistencies&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Some tracks embed artwork, others rely on external caches, and some albums contain multiple covers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can fix these issues manually for a small collection. Mine required automation.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Yate&lt;/strong&gt;&lt;/b&gt; turned out to be the right tool. Its strengths include:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Batch tag repair&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Album Artist normalization, compilation handling, capitalization rules.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Multi-disc metadata fixes&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Correct disc numbers, track numbering, and album naming.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Genre standardization&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Apply a consistent genre system across the library.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Artwork workflows&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Embed artwork consistently and clean up mismatched covers.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Duplicate and anomaly detection&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Surface metadata problems that older iTunes libraries accumulate silently.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Swinsian" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHFOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fc4be1e8c6ba7b3a7fa9363832e6820ad83cd056/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-06%20at%2011.53.10.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Swinsian
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Swinsian as the Management Layer&lt;/h2&gt;
+
+&lt;p&gt;Swinsian is the perfect &lt;b&gt;&lt;strong&gt;ongoing management layer&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;Yes, it’s a player. But more importantly, it’s a tool for keeping a large collection curated over time.&lt;/p&gt;
+
+&lt;h3&gt;What Swinsian Does Well&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;It stays fast.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Even with large libraries. It behaves like a library manager rather than a storefront.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Smart playlists act like real queries.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;You can build them around almost any metadata combination.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Examples from my library:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tracks added in the last 30 days that are under 256 kbps&lt;/li&gt;
+&lt;li&gt;Albums missing artwork&lt;/li&gt;
+&lt;li&gt;Tracks with blank Album Artist or “Unknown Album”&lt;/li&gt;
+&lt;li&gt;Plays = 0 but rating ≥ 4 stars (a “rediscover” list)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Metadata triage is straightforward.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Sorting by Bit Rate, Kind, Date Added, Album Artist, or Disc Number quickly surfaces problems.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Bulk editing is practical.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Yate handles large automation jobs; Swinsian is perfect for smaller fixes like missing years or Album Artist corrections.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;It’s local-first.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;No cloud substitutions. No licensing surprises. Your library remains exactly what’s on disk.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Files. Tags. Structure.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;The Drawbacks&lt;/h2&gt;
+
+&lt;p&gt;Local libraries come with responsibilities.&lt;/p&gt;
+
+&lt;p&gt;Discovery becomes a separate task. There’s no instant “add to playlist” from a streaming catalog.&lt;/p&gt;
+
+&lt;p&gt;You also have to care about the plumbing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;tagging discipline&lt;/li&gt;
+&lt;li&gt;folder structure&lt;/li&gt;
+&lt;li&gt;backups&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My library uses a simple &lt;b&gt;&lt;strong&gt;Artist/Album/Track&lt;/strong&gt;&lt;/b&gt; folder structure so both Swinsian and streaming remain predictable.&lt;/p&gt;
+
+&lt;p&gt;I’m also paranoid about losing data, so I keep backups on external drives and in the cloud. If you follow a &lt;b&gt;&lt;strong&gt;3–2–1 backup strategy&lt;/strong&gt;&lt;/b&gt;, you’re golden. At minimum, use Time Machine.&lt;/p&gt;
+
+&lt;p&gt;The upside is control. The downside is maintenance.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;What About Streaming?&lt;/h2&gt;
+
+&lt;p&gt;This turned out to be the easiest part.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Navidrome&lt;/strong&gt;&lt;/b&gt; is the layer that makes your local library available everywhere.&lt;/p&gt;
+
+&lt;p&gt;Point it at your curated music folder, let it scan the files, and your collection becomes streamable from:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;phones&lt;/li&gt;
+&lt;li&gt;tablets&lt;/li&gt;
+&lt;li&gt;browsers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The key advantage is that &lt;b&gt;&lt;strong&gt;Navidrome reflects your existing organization&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;Yate handles tag cleanup and upgrades.&lt;br&gt;Swinsian handles library management and playlists.&lt;br&gt;Navidrome simply serves whatever you’ve already organized.&lt;/p&gt;
+
+&lt;p&gt;Once it’s set up, it mostly disappears into the background.&lt;/p&gt;
+
+&lt;p&gt;Exactly the way infrastructure should.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;My Current Workflow&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Acquire music (CD rip, digital purchase, download).&lt;/li&gt;
+&lt;li&gt;Run Yate actions to normalize tags and artwork.&lt;/li&gt;
+&lt;li&gt;Import into Swinsian for library management.&lt;/li&gt;
+&lt;li&gt;Sync to an iPod Classic for offline listening.&lt;/li&gt;
+&lt;li&gt;Let Navidrome stream the same library remotely.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Closing: The Point Isn’t Nostalgia&lt;/h2&gt;
+
+&lt;p&gt;This isn’t a retro flex. It’s an engineering decision.&lt;/p&gt;
+
+&lt;p&gt;A locally managed library quietly removes an entire category of annoyances: licensing uncertainty, cloud weirdness, metadata drift, and app strategy whiplash.&lt;/p&gt;
+
+&lt;p&gt;And with the right combination of tools — iTunes Match for upgrades, Yate for tagging, Swinsian for management — a &lt;b&gt;&lt;strong&gt;36,000-song library becomes not just manageable, but pleasant again.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=I%20replaced%20Apple%20Music%20with%20Yate,%20Swinsian,%20Navidrome,%20and%20an%20iPod%20Classic.%20Surprisingly%20better." style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>My ten-year experiment with Apple Music is over.
+
+Over the past month I rebuilt my workflow for managing a large local music collection; roughly 36,000 tracks. After a lot of experimentation, these are the tools that finally clicked.
+
+• Migration – Apple Music with iTunes Match ($25/year; you only need it once)
+• Repair – Yate (free)...</summary>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15889</id>
+    <published>2026-04-02T22:32:17Z</published>
+    <updated>2026-04-03T06:27:59Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/radial-4-works-best-as-an-automation-hub"/>
+    <title>Radial 4 Works Best as an Automation Hub</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Radial" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--475905546719757d36f756dc8270e7e8bc8301bc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/UIUpdate.png" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Radial
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I spent the afternoon experimenting with &lt;a href="https://radial.appverge.net/"&gt;Radial 4&lt;/a&gt;, a rapidly evolving pie-menu app from independent developer Gustav Lubker of AppVerge. If you’re not familiar with pie menu apps, they present a circular menu divided into sections (or slices), each representing an action or command. When configured well, they map naturally to muscle memory and can be extremely fast to use.&lt;/p&gt;
+
+&lt;p&gt;Other pie-menu apps I've used include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/pieoneer-multi-use-pie-menu"&gt;Pieoneer&lt;/a&gt; (good)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://apps.apple.com/us/app/cirmenu/id6450661015?mt=12"&gt;CirMenu&lt;/a&gt; (good)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/pie-menu"&gt;PieMenu&lt;/a&gt; (limited)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://kando.menu/"&gt;Kando&lt;/a&gt; (FOSS)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Interface&lt;/h2&gt;
+
+&lt;p&gt;In Radial, pie menus can include the following types of actions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;Input&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
+&lt;li&gt;Keyboard Shortcut&lt;/li&gt;
+&lt;li&gt;Text&lt;/li&gt;
+&lt;li&gt;Clipboard&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;Open&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
+&lt;li&gt;Open App&lt;/li&gt;
+&lt;li&gt;Open File&lt;/li&gt;
+&lt;li&gt;Open URL&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;Scripting&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
+&lt;li&gt;Apple Shortcut&lt;/li&gt;
+&lt;li&gt;AppleScript&lt;/li&gt;
+&lt;li&gt;Shell Script&lt;/li&gt;
+&lt;li&gt;Keyboard Maestro&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;System&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
+&lt;li&gt;Window Management&lt;/li&gt;
+&lt;li&gt;System Control&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The only obvious thing missing right now is deep-link support for tools like &lt;a href="https://appaddict.app/post/how-to-get-the-most-from-raycast"&gt;Raycast&lt;/a&gt; and similar command launchers.&lt;/p&gt;
+
+&lt;h2&gt;Some Use Case Ideas&lt;/h2&gt;
+
+&lt;h3&gt;Categorized Launchers&lt;/h3&gt;
+
+&lt;p&gt;Radial is much more than an &lt;b&gt;&lt;strong&gt;app launcher&lt;/strong&gt;&lt;/b&gt;, but it works well for that role. You can create multiple menus and switch between them once a Radial menu is invoked with a keyboard shortcut or mouse gesture. One practical approach is to build menus around categories of apps you use regularly.&lt;/p&gt;
+
+&lt;p&gt;Examples:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Browsers&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://appaddict.app/post/safari-extensions-worth-paying-for-and-a-couple-of-worthy-freebies"&gt;Safari&lt;/a&gt;, Chrome, Firefox, Dia, &lt;a href="https://appaddict.app/post/vivaldi-my-favorite-browser-just-got-some-updates"&gt;Vivaldi&lt;/a&gt;, Orion&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Utilities&lt;/strong&gt;&lt;/b&gt; – Emoji Picker, &lt;a href="https://appaddict.app/post/why-haven-t-you-installed-keka-yet"&gt;Keka&lt;/a&gt;, PastePal, Updatest&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Writing&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://appaddict.app/post/drafts-wins-app-of-the-year-at-mac-stories"&gt;Drafts&lt;/a&gt;, &lt;a href="https://obsidian.amerpie.lol/"&gt;Obsidian,&lt;/a&gt; LibreOffice, Dictionary&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Graphics&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://appaddict.app/post/imageoptim-free-and-open-source-utility-to-reduce-file-sizes"&gt;ImageOptim&lt;/a&gt;, &lt;a href="https://appaddict.app/post/consul-is-supremely-useful"&gt;Consul&lt;/a&gt;, Immich&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This kind of grouping works well because the direction of the slice becomes the memory trigger rather than the app name.&lt;/p&gt;
+
+&lt;h3&gt;Consistent Application Menus&lt;/h3&gt;
+
+&lt;p&gt;Radial calls menus that are available everywhere &lt;b&gt;&lt;strong&gt;global menus&lt;/strong&gt;&lt;/b&gt;. It also supports &lt;b&gt;&lt;strong&gt;context-aware menus&lt;/strong&gt;&lt;/b&gt; that appear only in specific apps or groups of apps.&lt;/p&gt;
+
+&lt;p&gt;Because Radial includes a template feature, you can create menus that behave consistently across your main working apps. Anything that can be triggered with a keyboard shortcut can live in the menu.&lt;/p&gt;
+
+&lt;p&gt;If you place common commands in the same slice position across multiple apps, muscle memory kicks in quickly.&lt;/p&gt;
+
+&lt;p&gt;Examples of commands that translate well across apps:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;New&lt;/strong&gt;&lt;/b&gt; – note, document, macro, shortcut, etc. (⌘N)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Settings&lt;/strong&gt;&lt;/b&gt; – quick access to preferences (⌘,)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Search / Search and Replace&lt;/strong&gt;&lt;/b&gt; (⌘F and ⌥⌘F)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can still add app-specific commands; just keep their placement consistent so your muscle memory stays intact. I created Radial menus for Safari, &lt;a href="https://appaddict.app/post/things-3-maybe-the-pinnacle-in-app-design"&gt;Things&lt;/a&gt;, Obsidian, and Drafts using this approach.&lt;/p&gt;
+
+&lt;h3&gt;Automation Hub&lt;/h3&gt;
+
+&lt;p&gt;Where Radial really shines is as an &lt;b&gt;&lt;strong&gt;automation hub&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;Instead of launching apps individually, you can trigger an &lt;a href="https://appaddict.app/post/enhance-apple-shortcuts-with-these-apps"&gt;Apple Shortcut&lt;/a&gt; or a &lt;a href="https://appaddict.app/post/keyboard-maestro-the-app-that-makes-everything-better-tips-for-the-for-the-automation-curious"&gt;Keyboard Maestro&lt;/a&gt; macro that launches an entire workspace with a single click. A second action can close the same apps when you’re done.&lt;/p&gt;
+
+&lt;p&gt;If you combine this with a window manager like &lt;a href="https://appaddict.app/post/developer-spotlight-ryan-hanson"&gt;Rectangle&lt;/a&gt; or &lt;a href="https://appaddict.app/post/snapsofapps-has-new-powerful-features"&gt;Snaps of Apps&lt;/a&gt;, you can go even further and &lt;b&gt;&lt;strong&gt;launch apps on specific displays and in specific Spaces with windows already arranged&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another useful trick is reducing menu-bar clutter. Many utilities can have their core actions exposed through a Radial menu instead of living permanently in the menu bar.&lt;/p&gt;
+
+&lt;p&gt;Examples of apps that work well this way:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://appaddict.app/post/cleanshot-x"&gt;CleanShot X&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Shortcuts&lt;/li&gt;
+&lt;li&gt;Rectangle&lt;/li&gt;
+&lt;li&gt;Keyboard Maestro&lt;/li&gt;
+&lt;li&gt;Side Notes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also adapted my morning checklist into a Radial menu using a mix of actions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Opening several daily websites in specific browsers&lt;/li&gt;
+&lt;li&gt;Checking new email across three mailboxes&lt;/li&gt;
+&lt;li&gt;Launching social media through the apps I actually use&lt;/li&gt;
+&lt;li&gt;Opening &lt;a href="https://appaddict.app/post/two-recommendations-for-syncing-utilities"&gt;Sync Folders Pro&lt;/a&gt; and &lt;a href="https://appaddict.app/post/smartbackup-free-fast-and-foolproof"&gt;Smart Backup&lt;/a&gt; to verify my auto-archiving workflows for photos, music, ebooks, and video&lt;/li&gt;
+&lt;li&gt;Sending a predefined prompt to ChatGPT that generates my daily report&lt;/li&gt;
+&lt;li&gt;Logging into my self-hosted server for routine health checks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once it’s set up, everything can be accessed from a single menu instead of hunting through menus, booksmarks and other launchers.&lt;/p&gt;
+
+&lt;h2&gt;Details&lt;/h2&gt;
+
+&lt;h3&gt;Privacy Policy&lt;/h3&gt;
+
+&lt;p&gt;Radial has a good privacy policy and you can read it at &lt;a href="https://radial.appverge.net/privacy"&gt;https://radial.appverge.net/privacy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Radial includes a&lt;mark style="color:rgb(51, 61, 66);background-color:rgb(248, 248, 248);"&gt; built-in AI assistant using Meta's llama-3.1-8b-instant hosted on Groq (with a Q, not K).&lt;/mark&gt; Ideally, future versions will support additional providers.&lt;/p&gt;
+
+&lt;p&gt;Radial is developed in Denmark, which means it falls under EU privacy regulations.&lt;/p&gt;
+
+&lt;h3&gt;Price&lt;/h3&gt;
+
+&lt;p&gt;Radial offers a seven-day free trial. The full license costs &lt;b&gt;&lt;strong&gt;€14.99&lt;/strong&gt;&lt;/b&gt; and covers &lt;b&gt;&lt;strong&gt;five seats&lt;/strong&gt;&lt;/b&gt;, which is fairly generous for a utility in this category.&lt;/p&gt;
+
+&lt;h3&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Radial’s website includes solid documentation and clear explanations of how the system works.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://radial.appverge.net/"&gt;Radial – Everything at Your Cursor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Radial%204%20Works%20Best%20as%20an%20Automation%20Hub" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>I spent the afternoon experimenting with Radial 4, a rapidly evolving pie-menu app from independent developer Gustav Lubker of AppVerge. If you’re not familiar with pie menu apps, they present a circular menu divided into sections (or slices), each representing an action or command. When configured well, they map naturally to...</summary>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15873</id>
+    <published>2026-04-02T00:08:50Z</published>
+    <updated>2026-04-02T07:29:10Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/backigo-is-a-dependable-full-featured-icloud-backup-solution"/>
+    <title>BackiGo is a Dependable &amp; Full Featured iCloud Backup Solution</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="BackiGo" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWFNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--af2b5827c6f07fefea10231ba29f044b8b03abc9/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/SCR-20260401-rlxn.png" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      BackiGo
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you rely on iCloud but don’t have a true backup of that data, BackiGo is one of the simplest ways to create one.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://backigo.app/"&gt;BackiGo&lt;/a&gt; is an iCloud backup app I can recommend for anyone looking for an alternative to Parachute. Parachute is a well-known iCloud backup utility that was recently acquired by a company with a solid reputation, but also a history of price increases and subscription transitions.&lt;/p&gt;
+
+&lt;h2&gt;Who This Is For&lt;/h2&gt;
+
+&lt;p&gt;BackiGo is particularly useful if you:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Store large amounts of data in &lt;b&gt;&lt;strong&gt;iCloud Drive or iCloud Photos&lt;/strong&gt;&lt;/b&gt;
+&lt;/li&gt;
+&lt;li&gt;Use &lt;b&gt;&lt;strong&gt;Optimize Mac Storage&lt;/strong&gt;&lt;/b&gt;, meaning your Mac does not hold full local copies&lt;/li&gt;
+&lt;li&gt;Want an &lt;b&gt;&lt;strong&gt;off-Apple backup copy&lt;/strong&gt;&lt;/b&gt; of your iCloud data&lt;/li&gt;
+&lt;li&gt;Need to back up iCloud data to a &lt;b&gt;&lt;strong&gt;NAS, external drive, or another cloud provider&lt;/strong&gt;&lt;/b&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Why You Need an iCloud Backup&lt;/h2&gt;
+
+&lt;p&gt;Sometimes Apple’s logic escapes me. Nowhere is that more obvious than in the opaque world of iCloud.&lt;/p&gt;
+
+&lt;p&gt;If you don’t have a method for keeping a &lt;b&gt;&lt;strong&gt;versioned backup of your iCloud documents and photos&lt;/strong&gt;&lt;/b&gt;, you should set one up sooner rather than later.&lt;/p&gt;
+
+&lt;p&gt;The simplest approach looks like this:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Use a Mac signed into iCloud.&lt;/li&gt;
+&lt;li&gt;Turn &lt;b&gt;&lt;strong&gt;off&lt;/strong&gt;&lt;/b&gt; “Optimize Mac Storage” for both &lt;b&gt;&lt;strong&gt;iCloud Drive&lt;/strong&gt;&lt;/b&gt; and &lt;b&gt;&lt;strong&gt;Photos&lt;/strong&gt;&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt;Allow all files to download locally.&lt;/li&gt;
+&lt;li&gt;Let &lt;b&gt;&lt;strong&gt;Time Machine&lt;/strong&gt;&lt;/b&gt; back up that Mac.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This works because Time Machine will keep historical versions of those files.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, that approach isn’t practical for everyone. If, like me, you pay for &lt;b&gt;&lt;strong&gt;2TB of iCloud storage&lt;/strong&gt;&lt;/b&gt; but your Mac has a much smaller internal drive that can’t be upgraded, downloading everything locally simply isn’t feasible.&lt;/p&gt;
+
+&lt;p&gt;Experienced Mac users already understand the core issue: &lt;b&gt;&lt;strong&gt;iCloud is a syncing service, not a backup.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;If you overwrite a file, the new version replaces the old one everywhere. If you delete a file, it disappears everywhere. If a file becomes corrupted, that corruption syncs too.&lt;/p&gt;
+
+&lt;p&gt;Even with Time Machine running, you still won’t have copies of many files if &lt;b&gt;&lt;strong&gt;Optimize Mac Storage&lt;/strong&gt;&lt;/b&gt; is enabled, because those files never existed locally on your Mac.&lt;/p&gt;
+
+&lt;p&gt;The core idea is simple: &lt;b&gt;&lt;strong&gt;get a second copy of your iCloud data somewhere Apple’s sync engine can’t touch it.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;One more thing - you can find multiple stories of people permanently losing access to their iCloud accounts through ID theft, malware and Apple’s own policies.&lt;/p&gt;
+
+&lt;h2&gt;BackiGo Features&lt;/h2&gt;
+
+&lt;p&gt;This is where BackiGo comes in. The app lets you create a copy of your iCloud data and store it in a variety of locations:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;External drives (USB or Thunderbolt)&lt;/li&gt;
+&lt;li&gt;Other cloud providers with versioned storage, such as &lt;b&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;&lt;/b&gt; or &lt;b&gt;&lt;strong&gt;Google Drive&lt;/strong&gt;&lt;/b&gt;
+&lt;/li&gt;
+&lt;li&gt;A NAS on your home network&lt;/li&gt;
+&lt;li&gt;A shared folder on another computer (including Windows machines)&lt;/li&gt;
+&lt;li&gt;An FTP server&lt;/li&gt;
+&lt;li&gt;WebDAV support is planned&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some of the features I’ve found useful:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Universal app&lt;/strong&gt;&lt;/b&gt; that runs on Mac, iPhone, and iPad&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Flexible photo organization&lt;/strong&gt;&lt;/b&gt;; mirror your Apple Photos structure or export into folders by device/year/month (for example &lt;code&gt;AmerpieMBA/2026/04&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Selective backups&lt;/strong&gt;&lt;/b&gt;; back up documents but skip photos, or back up only specific albums&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Multiple cloud destinations&lt;/strong&gt;&lt;/b&gt;, including Dropbox, Google Drive, OneDrive, pCloud, and Backblaze&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;Incremental and full backups&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Scheduled backups&lt;/strong&gt;&lt;/b&gt; based on time, frequency, and backup type&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Local Photos library support&lt;/strong&gt;&lt;/b&gt; for people who use Photos without iCloud&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;Live Photo and shared album support&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Built-in photo viewer&lt;/strong&gt;&lt;/b&gt; to visually confirm what’s included in a backup&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Detailed reports&lt;/strong&gt;&lt;/b&gt; of backup and restore history, exportable as HTML or CSV&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Recent Updates&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Added backup encryption(optional).&lt;/strong&gt;&lt;/b&gt; While iCloud’s Advanced Data Protection (ADP) already encrypts data on Apple’s side, the app now adds client-side encryption, meaning your data is encrypted before it’s written to the backup destination. This helps protect your data even if the storage drive is lost, a cloud service is compromised, or an account gets leaked.&lt;/p&gt;
+
+&lt;h4&gt;
+&lt;b&gt;&lt;strong&gt;Also added iCloud archive restore support&lt;/strong&gt;&lt;/b&gt;: Restore iCloud Contacts and iCloud Drive documents Search your iCloud documents and restore specific files&lt;br&gt;
+&lt;/h4&gt;
+
+&lt;h3&gt;Privacy Policy&lt;/h3&gt;
+
+&lt;p&gt;No data collected.&lt;/p&gt;
+
+&lt;h3&gt;Developer Website&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://backigo.app/"&gt;BackiGo – Complete iCloud Photo backup and restore solution for iOS and Mac&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Price&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Free trial (limited to 500 images)&lt;/li&gt;
+&lt;li&gt;$14.99 lifetime purchase&lt;/li&gt;
+&lt;li&gt;$6.99 annual subscription&lt;/li&gt;
+&lt;li&gt;$0.99 monthly subscription&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Available on the &lt;a href="https://apps.apple.com/us/app/backigo/id6746894565"&gt;Mac App Store&lt;/a&gt; with &lt;b&gt;&lt;strong&gt;Family Sharing&lt;/strong&gt;&lt;/b&gt; enabled.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=BackiGo%20is%20a%20Dependable%20&amp;amp;%20Full%20Featured%20iCloud%20Backup%20Solution" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>
+
+
+
+If you rely on iCloud but don’t have a true backup of that data, BackiGo is one of the simplest ways to create one.
+
+BackiGo is an iCloud backup app I can recommend for anyone looking for an alternative to Parachute. Parachute is a well-known iCloud backup utility that was...</summary>
+    <category term="universal-apps" label="Universal Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15845</id>
+    <published>2026-03-30T19:06:39Z</published>
+    <updated>2026-03-30T19:07:59Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/doublememory-doing-great-after-a-year"/>
+    <title>DoubleMemory Doing Great After a Year</title>
+    <content type="html">&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="DoubleMemory" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOHlMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0fc05eaf09c15fe51b61f77821e44b4e6e6fdd9c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-30%20at%2015.01.18.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      DoubleMemory
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I’m always impressed when an out-of-the-box thinker builds an app unlike anything I’ve seen before. Iterating on proven concepts is fine, but after testing enough clipboard managers and voice-to-text apps, they all start to blur together. Give me something new, clever, &lt;b&gt;&lt;strong&gt;and&lt;/strong&gt;&lt;/b&gt; useful, and I’ll happily change my workflow to make room for it. a year ago, DoubleMemory caught my attention with its interesting feature set and it's done nothing but improve since then.&lt;/p&gt;
+
+&lt;h2&gt;&lt;a href="https://doublememory.com"&gt;DoubleMemory&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;I sometimes worry that one day my brain will run out of capacity for new hotkey combinations. When that happens, any app that relies on them will be off the table. DoubleMemory neatly sidesteps that problem by baking the instruction directly into its name.&lt;/p&gt;
+
+&lt;p&gt;Press &lt;b&gt;&lt;strong&gt;⌘C twice quickly&lt;/strong&gt;&lt;/b&gt;, and the app captures either the webpage you’re on or the text you’ve highlighted. It then drops that content into an aesthetically well-designed, searchable, Pinterest-like interface with some surprisingly useful capabilities.&lt;/p&gt;
+
+&lt;p&gt;There’s a setting that allows DoubleMemory to save &lt;i&gt;&lt;em&gt;everything&lt;/em&gt;&lt;/i&gt; you copy, but I’d advise against leaving that on all the time. It’s not a clipboard manager in the sense that &lt;b&gt;&lt;strong&gt;Raycast&lt;/strong&gt;&lt;/b&gt; or &lt;b&gt;&lt;strong&gt;PastePal&lt;/strong&gt;&lt;/b&gt; are. For example, it doesn’t capture images.&lt;/p&gt;
+
+&lt;p&gt;Where it shines is with URLs. Highlight the URL of any webpage you’re on and press &lt;b&gt;&lt;strong&gt;⌘C twice&lt;/strong&gt;&lt;/b&gt;. DoubleMemory downloads the page content and stores it locally, making it as much a &lt;b&gt;&lt;strong&gt;read-it-later tool&lt;/strong&gt;&lt;/b&gt; as a bookmark manager. In practice, it works well as either.&lt;/p&gt;
+
+&lt;p&gt;Saved content can sync via &lt;b&gt;&lt;strong&gt;iCloud&lt;/strong&gt;&lt;/b&gt;, which means your collection is accessible on your iPhone, iPad, and other Macs.&lt;/p&gt;
+
+&lt;p&gt;DoubleMemory also doubles as a lightweight notes tool. Highlight a passage of text anywhere, press &lt;b&gt;&lt;strong&gt;⌘C twice&lt;/strong&gt;&lt;/b&gt;, and it’s saved to your board. From there you can add your own commentary and organize the entry with tags. There’s even optional &lt;b&gt;&lt;strong&gt;AI-powered auto-tagging&lt;/strong&gt;&lt;/b&gt; if you want help categorizing things.&lt;/p&gt;
+
+&lt;p&gt;One detail I appreciate: &lt;b&gt;&lt;strong&gt;DoubleMemory doesn’t require an account&lt;/strong&gt;&lt;/b&gt;, and you don’t need to install a browser extension. If you routinely save URLs from different sources on a specific topic, you quickly end up with a clean, searchable database that works offline.&lt;/p&gt;
+
+&lt;p&gt;It’s also refreshingly lightweight. The app uses roughly &lt;b&gt;&lt;strong&gt;10 MB of RAM&lt;/strong&gt;&lt;/b&gt; during normal use. For automation fans, it supports &lt;b&gt;&lt;strong&gt;Apple Shortcuts&lt;/strong&gt;&lt;/b&gt;, the &lt;b&gt;&lt;strong&gt;macOS share sheet&lt;/strong&gt;&lt;/b&gt;, and &lt;b&gt;&lt;strong&gt;drag-and-drop to the Dock&lt;/strong&gt;&lt;/b&gt; (if you enable the Dock icon).&lt;/p&gt;
+
+&lt;h3&gt;Interesting Features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Bookmark Imports&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;If you want to migrate an existing read-it-later list or bookmarks from another service (for example &lt;b&gt;&lt;strong&gt;Raindrop&lt;/strong&gt;&lt;/b&gt;), DoubleMemory includes solid import tools.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Active Roadmap&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;I’ve been following the project for about a year, and development has been steady. Planned features include &lt;b&gt;&lt;strong&gt;image and screenshot support&lt;/strong&gt;&lt;/b&gt; and &lt;b&gt;&lt;strong&gt;automated imports of saved searches&lt;/strong&gt;&lt;/b&gt;. Personally, I’d love to see it pull in my saved Reddit posts.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Approachable Developer&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The developer is easy to reach and actively engages with users. There’s a &lt;a href="https://discord.gg/6REDWJuRy4"&gt;Discord&lt;/a&gt;, a &lt;a href="https://doublememory.substack.com/"&gt;Substack&lt;/a&gt; newsletter, an active Reddit presence, and a well-maintained website with an up-to-date changelog.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Freemium Model&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The free tier already allows unlimited saves, notes, bookmarks, and tags. The Pro plan mainly adds more than three saved searches and supports the developer. Future premium features are expected to focus on &lt;b&gt;&lt;strong&gt;advanced retrieval, AI-powered organization, and richer content consumption tools&lt;/strong&gt;&lt;/b&gt;. I have some 50% off subscription codes. Use the comment tool below if you want one.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;DoubleMemory has a lot going for it. It’s easy to understand, genuinely useful in daily workflows, and feature-rich without feeling bloated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=DoubleMemory%20Doing%20Great%20After%20a%20Year" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>
+
+I’m always impressed when an out-of-the-box thinker builds an app unlike anything I’ve seen before. Iterating on proven concepts is fine, but after testing enough clipboard managers and voice-to-text apps, they all start to blur together. Give me something new, clever, and useful, and I’ll happily change my workflow...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15815</id>
+    <published>2026-03-29T10:30:00Z</published>
+    <updated>2026-03-29T10:30:02Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/500-app-reviews-published"/>
+    <title>500 App Reviews Published!</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Number 500!!!" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXVMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4d2220436baeb2b7e6562eda2909b792c74afd9c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/appaddict500.png" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Number 500!!!
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I posted my 500th app review this week. If you keep typing long enough, this is what happens. It makes me super happy and I hope I have helped some of you find apps that you've grown to use and love. If I have, please leave a comment, it will be motivating and appreciated. I want to give a shout out to &lt;a href="https://reddit.com/r/macapps"&gt; r/MacApps&lt;/a&gt; for all the support and feedback I've gotten there. I also want to thank &lt;a href="https://scribbles.page"&gt;Scribbles&lt;/a&gt;, the blogging platform I've used the entire time.&lt;/p&gt;
+
+&lt;p&gt;I recently added a way for developers to alert me to their apps. If you know anyone who has an app that could use some exposure, please let them know they can request a review &lt;a href="https://www.cognitoforms.com/AppAddictapp/AppReviewSubmission"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;AppAddict is just me, one old guy with a laptop and a decades old predilection for clicking the download button on just about every app I see. This is my hobby, not a side job. I do it because I enjoy it. I can't tell you how thrilling it's been to interact with developers of some of my favorite apps. I still have a big streak of fanboy.&lt;/p&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Analytics" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMTZMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cbf948cf1311d42e52ab8c64406de369b1052ea3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-29%20at%2006.28.16.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Analytics
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=500%20App%20Reviews%20Published!" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>I posted my 500th app review this week. If you keep typing long enough, this is what happens. It makes me super happy and I hope I have helped some of you find apps that you've grown to use and love. If I have, please leave a comment, it will...</summary>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15789</id>
+    <published>2026-03-27T01:46:14Z</published>
+    <updated>2026-03-27T01:46:16Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/automation-fans-are-going-to-love-picmal-for-conversions"/>
+    <title>Automation Fans Are Going to Love PicMal for Conversions</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="PicMal" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUNLQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bb58781cc3899738a2935f6036e470520ff9197b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-26%20at%2021.42.00.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      PicMal
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Every Mac user eventually ends up with a pile of files that need converting. Screenshots that are too large for the web. HEIC photos from iPhones that need to become JPEGs. Audio recordings saved at ridiculous bitrates. Video files that need to be optimized for sharing.&lt;/p&gt;
+
+&lt;p&gt;You can solve all of that with command-line tools like &lt;code&gt;ffmpeg&lt;/code&gt; or with a handful of separate utilities.&lt;/p&gt;
+
+&lt;p&gt;Or you can just use &lt;a href="https://picmal.app/"&gt;Picmal&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Picmal is a single macOS utility that handles image, audio, and video conversion and compression. Once installed, it integrates directly into the &lt;b&gt;&lt;strong&gt;Dock, Finder, menu bar, Services, and Shortcuts,&lt;/strong&gt;&lt;/b&gt; so it behaves more like a built-in system tool than a typical standalone app.&lt;/p&gt;
+
+&lt;p&gt;It works immediately with sensible defaults, but if you want to tweak codecs, formats, or compression levels, the controls are there.&lt;/p&gt;
+
+&lt;h2&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;I’ve set up one of my screenshot apps specifically for images I plan to post on the web. It saves those screenshots into a folder that Picmal watches.&lt;/p&gt;
+
+&lt;p&gt;When a file lands there, Picmal automatically:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;converts it to my preferred format&lt;/li&gt;
+&lt;li&gt;applies a compression level that keeps good clarity while shrinking the file size&lt;/li&gt;
+&lt;li&gt;renames the file so I know it’s already been processed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That automation alone has been useful for blogging and documentation.&lt;/p&gt;
+
+&lt;p&gt;If you regularly deal with HEIC photos from iPhones or iPads, Picmal can also watch a folder and convert them automatically.&lt;/p&gt;
+
+&lt;p&gt;Picmal also handles image resizing and color space conversion (sRGB, ProPhoto RGB, Display P3, and others). If you’re preparing files for printing, you can adjust DPI as well.&lt;/p&gt;
+
+&lt;h2&gt;Audio&lt;/h2&gt;
+
+&lt;p&gt;Batch processing works well. I had a collection of spoken-word recordings from events I’d attended, and many of them had been saved at extremely high bitrates that made sense for music but not for speech.&lt;/p&gt;
+
+&lt;p&gt;Picmal converted and compressed the entire batch without complaint. The resulting files sounded the same for spoken content while taking up far less disk space.&lt;/p&gt;
+
+&lt;h2&gt;Video&lt;/h2&gt;
+
+&lt;p&gt;Video conversion uses simple presets:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Maximum Quality&lt;/li&gt;
+&lt;li&gt;Balanced (Size &amp;amp; Quality)&lt;/li&gt;
+&lt;li&gt;Web Optimized&lt;/li&gt;
+&lt;li&gt;Social Media&lt;/li&gt;
+&lt;li&gt;Maximum Compression&lt;/li&gt;
+&lt;li&gt;Custom&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pick the preset that matches the destination and you’re done. If you need more control, the Custom option exposes additional settings.&lt;/p&gt;
+
+&lt;h2&gt;Clipboard Optimization&lt;/h2&gt;
+
+&lt;p&gt;Clipboard optimization lets Picmal compress images you copy to the clipboard. Copy a screenshot, a web image, or a file in Finder and Picmal quietly optimizes it in the background.&lt;/p&gt;
+
+&lt;p&gt;A small overlay appears so you can immediately replace the original clipboard contents with the compressed version.&lt;/p&gt;
+
+&lt;p&gt;If you enable the option, Picmal can automatically copy the optimized image back to your clipboard. One practical advantage: images processed this way can be pasted into Finder as files, which isn’t something macOS normally allows with clipboard images.&lt;/p&gt;
+
+&lt;p&gt;A nice touch: if the image is already efficiently compressed, Picmal detects that and skips the process instead of recompressing it.&lt;/p&gt;
+
+&lt;h2&gt;How It Fits Into a Typical Mac Workflow&lt;/h2&gt;
+
+&lt;p&gt;If you already use media tools on macOS, you might be wondering where Picmal fits.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://appaddict.app/post/imageoptim-free-and-open-source-utility-to-reduce-file-sizes"&gt;&lt;b&gt;&lt;strong&gt;ImageOptim&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Great for compressing images, especially for web publishing. Picmal overlaps here but adds format conversion, automation via watched folders, and clipboard workflows.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://appaddict.app/post/permute-powerful-easy-to-use-media-converter-for-images-video-and-audio"&gt;&lt;b&gt;&lt;strong&gt;Permute &lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Permute focuses mostly on media conversion with a clean UI. Picmal covers similar ground but adds automation features and deeper Finder integration.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/FFmpeg"&gt;&lt;b&gt;&lt;strong&gt;ffmpeg / command-line tools&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Still the most flexible option for scripting and complex workflows. Picmal obviously can’t match that level of control, but for everyday tasks it removes a lot of friction.&lt;/p&gt;
+
+&lt;p&gt;In practice, Picmal feels less like a replacement for those tools and more like a convenient layer on top of common conversion tasks.&lt;/p&gt;
+
+&lt;h2&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;At $15.99 per seat with lifetime updates, Picmal is reasonably priced for what it does. There’s also a 15-day no-questions-asked refund.&lt;/p&gt;
+
+&lt;p&gt;All processing happens locally on your Mac (macOS 14 or newer), and the developer states that no data is collected. If you want to dig deeper, the developer provides &lt;a href="https://picmal.app/docs"&gt;comprehensive documentation&lt;/a&gt; on the website.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Automation%20Fans%20Are%20Going%20to%20Love%20PicMal%20for%20Conversions" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Every Mac user eventually ends up with a pile of files that need converting. Screenshots that are too large for the web. HEIC photos from iPhones that need to become JPEGs. Audio recordings saved at ridiculous bitrates. Video files that need to be optimized for sharing.
+
+You can solve all...</summary>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15762</id>
+    <published>2026-03-25T20:22:29Z</published>
+    <updated>2026-03-25T20:22:31Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/10-tiny-mac-workflow-tweaks-that-save-me-time-every-day"/>
+    <title>10 Tiny Mac Workflow Tweaks that Save Me Time Every Day</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Power User Apps" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWFLQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ce4121c53d071566c797687a8531c3d4747b1daa/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/a_3x4_grid_of_application_icons_is_displayed_on_a.jpeg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Power User Apps
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I spend a lot of time trying to remove small bits of friction from my Mac workflow. macOS is a great system, but out of the box it still leaves a lot of obvious automation opportunities on the table.&lt;/p&gt;
+
+&lt;p&gt;I spend a lot of time trying to remove small bits of friction from my Mac workflow. macOS is a great system, but out of the box it still leaves a lot of obvious automation opportunities on the table.&lt;/p&gt;
+
+&lt;p&gt;Most of the improvements I rely on come from stitching together tools like AppleScript, Keyboard Maestro, Shortcuts, and a few power-user utilities I discovered at &lt;a href="https://reddit.com/r/macapps"&gt;r/MacApps&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;None of this is complicated once it’s set up. The goal is just to eliminate little interruptions that happen dozens of times a day.&lt;/p&gt;
+
+&lt;h2&gt;Here are a few small automations and workflow tweaks that currently make my Mac feel a lot more like &lt;i&gt;&lt;em&gt;my&lt;/em&gt;&lt;/i&gt; machine.&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I like Safari, but I don’t like how easily it spawns extra windows. I now use an &lt;a href="https://dropover.cloud/42839b"&gt;AppleScript&lt;/a&gt; tied to &lt;a href="https://appaddict.app/post/keyboard-maestro-the-app-that-makes-everything-better-tips-for-the-for-the-automation-curious"&gt;Keyboard Maestro&lt;/a&gt;. With a mouse click or hotkey, it closes every Safari window except the frontmost one.&lt;/li&gt;
+&lt;li&gt;Safari has good AppleScript and Shortcuts support, but it still doesn’t provide a keyboard-friendly way to jump directly to a specific Tab Group. My workaround is &lt;a href="https://www.icloud.com/shortcuts/424633ecabef49bba903e3f03b68bc62"&gt;an Apple Shortcut that batch-opens groups of URLs&lt;/a&gt; that mirror my tab groups: Server, Social, Blogging, Software, etc.&lt;/li&gt;
+&lt;li&gt;I set up &lt;a href="https://folivora.ai/"&gt;BetterTouchTool&lt;/a&gt; so that &lt;b&gt;&lt;strong&gt;fn + Button 3&lt;/strong&gt;&lt;/b&gt; on my Logitech mouse triggers the &lt;b&gt;&lt;strong&gt;New&lt;/strong&gt;&lt;/b&gt; command across roughly two dozen apps. Depending on the app, that can mean a new tab, new note, new document, new Shortcut, new Keyboard Maestro macro, new email, or new message.&lt;/li&gt;
+&lt;li&gt;I’m currently using &lt;a href="https://www.apptorium.com/sidenotes"&gt;SideNotes&lt;/a&gt; as my scratchpad. It stays hidden on the right edge of my primary display until I toggle it with a hotkey or an &lt;a href="https://appaddict.app/post/extra-bar-gets-extra-features"&gt;ExtraBar&lt;/a&gt; menu item.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Most of these are tiny things, but they add up surprisingly fast&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I use &lt;a href="https://github.com/rxhanson/RectanglePro-Community/discussions/111"&gt;Rectangle Pro’s layout manager&lt;/a&gt; to launch and arrange &lt;b&gt;&lt;strong&gt;10 apps across two displays and eight virtual desktops&lt;/strong&gt;&lt;/b&gt;. Each desktop has a keyboard shortcut, and I tie them together with a single Keyboard Maestro macro. &lt;a href="https://dropover.cloud/bda645"&gt;(download link)&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;I wrote a small shell script &lt;a href="https://dropover.cloud/85439b"&gt;(download link)&lt;/a&gt; that reconnects me to &lt;a href="https://appaddict.app/post/ailscale-the-best-free-app-most-mac-power-users-aren-t-using"&gt;Tailscale&lt;/a&gt; if the connection drops or fails to start. It runs via &lt;b&gt;&lt;strong&gt;launchd&lt;/strong&gt;&lt;/b&gt;, configured through &lt;a href="https://appaddict.app/post/stop-making-cron-jobs"&gt;Lingon Pro&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I use macOS 26’s automation features in Apple Shortcuts to create my daily Obsidian note from a template. The automation also inserts a weather report and the day’s calendar events, so the note is ready when I sit down at my desk each morning. (Requires &lt;a href="https://apps.apple.com/us/app/actions-for-obsidian/id1659667937"&gt;Actions for Obsidian&lt;/a&gt;.)&lt;/li&gt;
+&lt;li&gt;When I need a dual-pane file manager instead of Finder, a Keyboard Maestro trigger runs an AppleScript that closes all Finder windows and replaces them with a ForkLift window. (&lt;a href="https://a.dropoverapp.com/cloud/download/c4376cdb-9bd3-4a1e-be1e-e8b79d139155/2b0a6331-f55c-406d-ab56-18d0d82cbf11"&gt;download macro&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;I removed the menu bar icons for &lt;a href="https://appaddict.app/post/better-touch-tool-favoriteso"&gt;BetterTouchTool&lt;/a&gt;, &lt;a href="https://appaddict.app/post/default-folder-x-an-og-app-for-mac-power-users"&gt;Default Folder X&lt;/a&gt;, &lt;a href="https://appaddict.app/post/using-supercharge"&gt;Supercharge&lt;/a&gt;, and Rectangle Pro. Their functions are now exposed through ExtraBar instead.&lt;/li&gt;
+&lt;li&gt;If a developer doesn’t expose a URL scheme, you can’t deep-link into specific menu items. Finder is a good example; there’s no direct link for &lt;b&gt;&lt;strong&gt;Go to Folder&lt;/strong&gt;&lt;/b&gt;. ExtraBar can run scripts, though, so a small AppleScript can send keystrokes to trigger the command. If the feature exists in a menu but has no keyboard shortcut, you can also create your own under &lt;b&gt;&lt;strong&gt;System Settings → Keyboard → Keyboard Shortcuts&lt;/strong&gt;&lt;/b&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Sample Script&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;tell application "Finder"&lt;/code&gt;&lt;br&gt;&lt;code&gt;activate&lt;/code&gt;&lt;br&gt;&lt;code&gt;end tell&lt;/code&gt;&lt;br&gt;&lt;code&gt;tell application "System Events"&lt;/code&gt;&lt;br&gt;&lt;code&gt;keystroke "g" using {command down, shift down}&lt;/code&gt;&lt;br&gt;&lt;code&gt;end tell&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;None of these are huge changes individually, but together they remove a lot of small interruptions during the day.&lt;/p&gt;
+
+&lt;p&gt;Curious what small automations or workflow tricks other people here are using.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=10%20Tiny%20Mac%20Workflow%20Tweaks%20that%20Save%20Me%20Time%20Every%20Day" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>I spend a lot of time trying to remove small bits of friction from my Mac workflow. macOS is a great system, but out of the box it still leaves a lot of obvious automation opportunities on the table.
+
+I spend a lot of time trying to remove small bits...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15736</id>
+    <published>2026-03-24T15:40:46Z</published>
+    <updated>2026-03-24T15:40:48Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/consul-is-supremely-useful"/>
+    <title>Consul is Supremely Useful</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Automation" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK21KQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--46c431fc5cc6baa73f13cc6be141c3b47829cc8d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-24%20at%2011.40.00.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Automation
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I’ve become quite fond of &lt;a href="https://getconsul.app/"&gt;Consul&lt;/a&gt;, a relatively new file conversion utility that’s both simple to use and easy to automate. The concept is almost absurdly straightforward: change the file extension to the format you want and the conversion just happens.&lt;/p&gt;
+
+&lt;p&gt;You might think you’ll never really need to convert files from one format to another. In practice, that assumption tends to collapse sooner or later. A few situations I’ve run into over the years:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Switching from one e-reader (for example, Sony) to another (Kindle) and suddenly needing to convert an entire library of books.&lt;/li&gt;
+&lt;li&gt;My photography workflow revolves around Canon’s RAW format (CR2). When a relative passed away and I inherited his photo archive, the files were a mix of several other RAW formats.&lt;/li&gt;
+&lt;li&gt;After living through the minor apocalypse when Microsoft killed Works, you’d think I would have learned something about proprietary formats. Instead, I spent another twenty years writing in Word before finally switching to Markdown.&lt;/li&gt;
+&lt;li&gt;Occasionally grabbing an iPhone photo and realizing it exported as HEIC, which remains incompatible with far more things than it should be.&lt;/li&gt;
+&lt;li&gt;Optimizing photos and video for my blog or social media.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are plenty of ways to convert files. Most of them involve some level of friction:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Opening an app (Word, for example) and using &lt;b&gt;&lt;strong&gt;File → Save As&lt;/strong&gt;&lt;/b&gt; to create another copy in a different format.&lt;/li&gt;
+&lt;li&gt;Uploading files to random conversion websites with unclear privacy policies.&lt;/li&gt;
+&lt;li&gt;Using powerful utilities like &lt;a href="https://software.charliemonroe.net/permute/"&gt;Permute&lt;/a&gt;, which are excellent but come with a bit of a learning curve.&lt;/li&gt;
+&lt;li&gt;Building your own workflow with Apple Shortcuts if you enjoy assembling that kind of plumbing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What makes Consul such a pleasure is the complete absence of friction. It runs quietly in the background, and when you need to convert something, it just happens the moment you rename the file. For most conversions, the default settings are fine, but in the settings, you can control exactly how each conversion is handled including the output quality and codec, or whether to strip metadata.&lt;/p&gt;
+
+&lt;p&gt;For Mac automation nerds, Consul can be set to watch folders and perform conversions when a certain file type lands there. You can use Consul with &lt;a href="https://amerpie.lol/2024/05/10/my-favorite-actions.html"&gt;Hazel&lt;/a&gt; or another automation tool like &lt;a href="https://appaddict.app/post/developer-spotlight-low-tech-guys-maker-of-clop-lunar-rcmd-pipiri-and-crank"&gt;Crank&lt;/a&gt; to route the converted file elsewhere, import it into Photos or upload it to an FTP server.&lt;/p&gt;
+
+&lt;p&gt;Consul currently supports &lt;b&gt;&lt;strong&gt;1,391 conversions across 76 file formats&lt;/strong&gt;&lt;/b&gt;, covering images, audio, video, documents, e-books, email, configuration files, spreadsheets, and archives.&lt;/p&gt;
+
+&lt;p&gt;The developer’s site suggests more formats are planned. I’d particularly like to see support for Apple iWork files and OpenOffice spreadsheets and presentations. My pie-in-the-sky request would be a &lt;b&gt;&lt;strong&gt;PDF → EPUB conversion&lt;/strong&gt;&lt;/b&gt; that performs better than what Calibre currently produces.&lt;/p&gt;
+
+&lt;p&gt;Pricing is refreshingly simple. A single license is &lt;b&gt;&lt;strong&gt;$14&lt;/strong&gt;&lt;/b&gt;, and a three-seat license is &lt;b&gt;&lt;strong&gt;$19&lt;/strong&gt;&lt;/b&gt;, both including a year of updates.&lt;/p&gt;
+
+&lt;p&gt;The privacy policy is exactly what you want to see: &lt;b&gt;&lt;strong&gt;no data collection&lt;/strong&gt;&lt;/b&gt;. Email support is available, and the developer is &lt;a href="https://www.reddit.com/user/Spaaze/"&gt;active on Reddit&lt;/a&gt; and notably friendly when people have questions.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Consul%20is%20Supremely%20Useful" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>I’ve become quite fond of Consul, a relatively new file conversion utility that’s both simple to use and easy to automate. The concept is almost absurdly straightforward: change the file extension to the format you want and the conversion just happens.
+
+You might think you’ll never really need to convert files...</summary>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15705</id>
+    <published>2026-03-22T14:17:16Z</published>
+    <updated>2026-03-22T14:17:17Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/if-these-apps-are-missing-my-mac-feels-broken"/>
+    <title>If These Apps Are Missing My Mac Feels Broken</title>
+    <content type="html">&lt;p&gt;Some small utilities become so embedded in my workflow that they start to feel like part of macOS itself. When I sit down at someone else’s Mac or a freshly set-up machine and they aren’t there, it genuinely throws me off.&lt;/p&gt;
+
+&lt;p&gt;I’m curious what apps fall into that category for you.&lt;/p&gt;
+
+&lt;h2&gt;Shareful&lt;/h2&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMU9KQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2f7290055972ec9ef48a13962080bc65a34f6b1f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/screenshot1.Cu-zFadA.jpg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;One of those apps for me is &lt;a href="https://appaddict.app/post/shareful-a-free-app-i-use-every-day"&gt;Shareful&lt;/a&gt; by &lt;a href="https://appaddict.app/post/the-many-apps-of-sindre-sorhus"&gt;Sindre Sorhus&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Mac share menu has always felt like an afterthought compared to iOS. Many developers don’t bother implementing it, and Apple keeps it oddly limited. Shareful fixes that by adding a few practical actions that save me a surprising number of clicks every day:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Copy&lt;/li&gt;
+&lt;li&gt;Open In&lt;/li&gt;
+&lt;li&gt;Save As…&lt;/li&gt;
+&lt;li&gt;Save to Downloads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s simple, but once you have it, the default share sheet feels incomplete without it.&lt;/p&gt;
+
+&lt;h2&gt;Start by Innovative Bytes&lt;/h2&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNKQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--31cbb665d0bc6bf98debaacfdad43d3f1b554887/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/start.jpg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Even though I’m very much a keyboard-launcher person (Team &lt;a href="https://appaddict.app/post/how-to-get-the-most-from-raycast"&gt;Raycast&lt;/a&gt;), there are situations where that approach breaks down.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I need a small, obscure utility whose name I can’t remember. When your &lt;code&gt;/Applications&lt;/code&gt; folder is as crowded as mine, scrolling through it isn’t realistic.&lt;/p&gt;
+
+&lt;p&gt;That’s where &lt;a href="https://appaddict.app/post/start-from-innovative-bytes"&gt;Start from Innovative Bytes&lt;/a&gt; comes in. Two features make it especially useful.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Tagging&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Tagging lets you create categories for apps without any friction. You can even nest them, like &lt;code&gt;Utilities/Screenshots&lt;/code&gt; or &lt;code&gt;Utilities/Clipboard&lt;/code&gt;, which makes browsing a large app library much more manageable.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;You can attach a short description to an app so you remember what it actually does.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A good example is the file-conversion utility &lt;a href="https://getconsul.app/"&gt;Consul&lt;/a&gt;, which lets you change an image’s format just by renaming it. Seeing a note like “file rename / conversion” when browsing makes it much easier to find again later.&lt;/p&gt;
+
+&lt;h2&gt;Honorable Mentions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/apparency-the-app-that-open-apps"&gt;Apparency – The App That Opens Apps&lt;/a&gt; — a Quick Look extension and inspection utility for applications&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/cleanshot-x"&gt;CleanShot X&lt;/a&gt; — the screenshot tool whose keyboard shortcuts are permanently burned into my muscle memory; although &lt;a href="https://appaddict.app/post/screenfloat-is-a-different-kind-of-screenshot-app"&gt;ScreenFloat&lt;/a&gt; is starting to make a case for itself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=If%20These%20Apps%20Are%20Missing%20My%20Mac%20Feels%20Broken" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Some small utilities become so embedded in my workflow that they start to feel like part of macOS itself. When I sit down at someone else’s Mac or a freshly set-up machine and they aren’t there, it genuinely throws me off.
+
+I’m curious what apps fall into that category for...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15684</id>
+    <published>2026-03-21T23:37:46Z</published>
+    <updated>2026-03-22T14:17:27Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/resurf-a-well-designed-almost-everything-box"/>
+    <title>Resurf – A Well-Designed (Almost) Everything Box</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Resurf" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeHlKQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--75339141bdbcdcd848f6948a2e73872cd80732b1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-21%20at%2018.36.17.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Resurf
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href="https://resurf.so/"&gt;Resurf&lt;/a&gt; is a clever new app, currently in beta, with a lot of potential. This is one of those “I needed an app to do X, so I built one” projects; the difference is that it was built by a design engineer who clearly understands macOS conventions. The result feels native and thoughtfully put together.&lt;/p&gt;
+
+&lt;p&gt;Using it brought back a few workflow habits I haven’t used since the days when Evernote was king.&lt;/p&gt;
+
+&lt;p&gt;The entry point into Resurf is a floating capture widget that you trigger with a shortcut. From there you can use either the mouse or the keyboard to capture five types of content, with some overlap:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Notes&lt;/li&gt;
+&lt;li&gt;Links&lt;/li&gt;
+&lt;li&gt;Screenshots (using a built-in capture tool)&lt;/li&gt;
+&lt;li&gt;Media&lt;/li&gt;
+&lt;li&gt;Voice memos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The same widget also provides a Spotlight-style search across your Resurf vault, which is essentially the folder where everything you capture is stored.&lt;/p&gt;
+
+&lt;h2&gt;Practical Use Cases&lt;/h2&gt;
+
+&lt;p&gt;There are several ways Resurf can fit into a real workflow.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Screenshot organizer&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;A quick way to capture, store, and resurface reference screenshots without littering your desktop with files named &lt;code&gt;Screenshot 2026-03-21 at 10.43.11.png&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Bookmarks and lightweight browser&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Links can open directly inside Resurf so you can skim content without switching to a browser. Eligible pages default to Reader View with adjustable font sizes, but you can switch to a standard page view or send the link to your default browser.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Scratchpad&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;If you need a fast place to dump temporary information, Resurf works well as a searchable scratchpad. You can open straight into the notes interface and start typing.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Quick notes staging area&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Once the shortcut becomes muscle memory, it’s easy to use Resurf for quick capture even if you keep your long-term notes somewhere else. When something turns out to be worth keeping, the macOS share sheet makes it simple to move it into another app.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Organizing Your Data&lt;/h2&gt;
+
+&lt;p&gt;A Resurf &lt;b&gt;&lt;strong&gt;vault&lt;/strong&gt;&lt;/b&gt; can live in iCloud, in another synced folder like Dropbox, or locally on your Mac. If you use iCloud, you’ll be able to pair the Mac version with the upcoming iOS app.&lt;/p&gt;
+
+&lt;p&gt;You can also maintain multiple vaults, each located anywhere in your file system.&lt;/p&gt;
+
+&lt;p&gt;Within a vault, Resurf provides several ways to organize what you capture:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Inbox / Later&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;If you don’t want to categorize items during capture, everything can go into an Inbox for later triage. There’s also a &lt;i&gt;&lt;em&gt;Later&lt;/em&gt;&lt;/i&gt; folder for items you want to defer organizing.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Areas&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Areas function much like folders and can hold any content type.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Tags&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Tags can be created during capture. The sidebar includes both a tag browser and a dedicated tag view.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Pins&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Any item can be pinned to the top of its area.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Voice memo export for transcription&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Voice memos can be exported to the file system, making it easy to run them through a transcription tool and turn them into text documents.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Nice Touches&lt;/h2&gt;
+
+&lt;p&gt;A few small details show that the developer thought about real usage rather than just features.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Share Sheet support&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Resurf stores notes internally as JSON rather than plain files, but exporting content to other apps is straightforward through the macOS share sheet.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Open In&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Similar to the share sheet; lets you send items directly to another app.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Instant Markdown rendering&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Markdown renders automatically without switching between edit and preview modes.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Slash commands&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Formatting can be applied quickly using slash commands.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Notes about notes&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Every captured item can include an attached note, which is handy for adding context to screenshots, links, or media.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Chrome extension&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Lets you save links directly from the browser.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Feature Requests&lt;/h2&gt;
+
+&lt;p&gt;Resurf is still early in development, and there are a few capabilities that would make it significantly more powerful.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Support for clickable internal links to things like Mail messages or Obsidian notes&lt;/li&gt;
+&lt;li&gt;The ability to attach arbitrary documents to notes&lt;/li&gt;
+&lt;li&gt;Inline images inside notes (currently you can only add notes about images)&lt;/li&gt;
+&lt;li&gt;Shortcuts and AppleScript support&lt;/li&gt;
+&lt;li&gt;A Safari extension&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Privacy&lt;/h2&gt;
+
+&lt;p&gt;You can read the full policy here:&lt;br&gt;&lt;a href="https://resurf.so/privacy"&gt;https://resurf.so/privacy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Regardless of where your vault lives, your data remains private. The app only contacts Resurf’s servers to validate your license. According to the developer, no identifying information or user content is transmitted during that process or afterward.&lt;/p&gt;
+
+&lt;p&gt;The company is based in Canada. Because they never see your data, GDPR provisions around data access, portability, and deletion are largely irrelevant in this case.&lt;/p&gt;
+
+&lt;h2&gt;Price&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;$39&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;One-time purchase at the early supporter price. Unlimited captures. Any updates we release are free for 2 years after stable release.&lt;/li&gt;
+&lt;li&gt;Unlimited captures&lt;/li&gt;
+&lt;li&gt;Mac app license (up to 2 Macs)&lt;/li&gt;
+&lt;li&gt;All beta updates included&lt;/li&gt;
+&lt;li&gt;Any updates released are free for 2 years after stable release&lt;/li&gt;
+&lt;li&gt;Priority email support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Resurf%20%E2%80%93%20A%20Well-Designed%20(Almost)%20Everything%20Box" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Resurf is a clever new app, currently in beta, with a lot of potential. This is one of those “I needed an app to do X, so I built one” projects; the difference is that it was built by a design engineer who clearly understands macOS conventions. The result feels native...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/15674</id>
+    <published>2026-03-19T21:34:08Z</published>
+    <updated>2026-04-01T10:17:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/octarine-powerful-sophisticated-and-easy-to-use"/>
+    <title>Octarine: Powerful, Sophisticated and Easy to Use</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Octarine" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK3lJQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c57cfb50f1f71e406809ab8385db1769f50a5695/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/CleanShot%202026-03-19%20at%2017.33.21.png" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Octarine
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I’ve been hearing about &lt;b&gt;&lt;strong&gt;Octarine&lt;/strong&gt;&lt;/b&gt; for a while. It’s one of those apps that people whose opinions I respect talk about with a certain level of admiration. After testing it as thoroughly as I’ve tested any app in a long time, I understand why.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://octarine.app/"&gt;Octarine&lt;/a&gt; is a tool for creating, editing, and organizing text-based information using connected but independent documents: &lt;b&gt;&lt;strong&gt;Markdown files&lt;/strong&gt;&lt;/b&gt;. Without relying on plugins, it supports images, video, PDFs, and files created by other productivity apps. Those files can be linked inside Octarine but still open in their native applications.&lt;/p&gt;
+
+&lt;p&gt;Octarine isn’t designed for a single purpose. It’s more like a flexible Markdown workspace you can adapt to several overlapping uses:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Journaling&lt;/li&gt;
+&lt;li&gt;Task management&lt;/li&gt;
+&lt;li&gt;Writing and long-form drafting&lt;/li&gt;
+&lt;li&gt;Math or science reference notes&lt;/li&gt;
+&lt;li&gt;Documentation&lt;/li&gt;
+&lt;li&gt;Personal knowledge management (PKM)&lt;/li&gt;
+&lt;li&gt;Project planning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Setup&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;Octarine is available for &lt;b&gt;&lt;strong&gt;Windows, Linux, and macOS&lt;/strong&gt;&lt;/b&gt;, but it’s not a heavy Electron app. The download is just over &lt;b&gt;&lt;strong&gt;30 MB&lt;/strong&gt;&lt;/b&gt;, and it launches as fast as TextEdit; effectively instant.&lt;/p&gt;
+
+&lt;p&gt;The interface is &lt;b&gt;&lt;strong&gt;tab-based&lt;/strong&gt;&lt;/b&gt;, similar to a web browser. It isn’t strictly native macOS UI, but it’s clean, responsive, and supports customizable themes.&lt;/p&gt;
+
+&lt;p&gt;Installation on the Mac is simple:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open the downloaded DMG&lt;/li&gt;
+&lt;li&gt;Drag &lt;b&gt;&lt;strong&gt;Octarine.app&lt;/strong&gt;&lt;/b&gt; into /Applications&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s it.&lt;/p&gt;
+
+&lt;p&gt;When you launch it for the first time, Octarine asks you to &lt;b&gt;&lt;strong&gt;open or create a Workspace&lt;/strong&gt;&lt;/b&gt;. A workspace is simply a folder of Markdown files; either ones you create or notes that already exist somewhere on your Mac.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Structure&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;You can download, install, and configure Octarine in well under a minute and immediately start creating documents.&lt;/p&gt;
+
+&lt;p&gt;A key design choice is that &lt;b&gt;&lt;strong&gt;Octarine uses the filesystem directly&lt;/strong&gt;&lt;/b&gt;. Your workspace is just a folder containing Markdown files with human-readable filenames.&lt;/p&gt;
+
+&lt;p&gt;That means:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can manage files directly in &lt;b&gt;&lt;strong&gt;Finder&lt;/strong&gt;&lt;/b&gt;
+&lt;/li&gt;
+&lt;li&gt;You can open them in &lt;b&gt;&lt;strong&gt;any text editor&lt;/strong&gt;&lt;/b&gt;
+&lt;/li&gt;
+&lt;li&gt;Octarine will immediately reflect changes made elsewhere&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I verified this by opening a note in &lt;b&gt;&lt;strong&gt;Typora&lt;/strong&gt;&lt;/b&gt;, adding a table, and watching it render instantly inside Octarine.&lt;/p&gt;
+
+&lt;p&gt;Because everything lives in normal folders and Markdown files, syncing is straightforward. You can use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iCloud Drive&lt;/li&gt;
+&lt;li&gt;Google Drive&lt;/li&gt;
+&lt;li&gt;Syncthing&lt;/li&gt;
+&lt;li&gt;GitHub repositories (built-in integration)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Git support also provides versioning for people who want a real audit trail for their notes.&lt;/p&gt;
+
+&lt;p&gt;Like most PKM-oriented tools, Octarine supports &lt;b&gt;&lt;strong&gt;wikilinks&lt;/strong&gt;&lt;/b&gt;. Typing [[ opens a searchable list of notes in the workspace. If you bracket a title that doesn’t exist yet, Octarine offers to create the note.&lt;/p&gt;
+
+&lt;p&gt;There’s also a &lt;b&gt;&lt;strong&gt;knowledge graph&lt;/strong&gt;&lt;/b&gt; showing connections between notes. Just remember: posting screenshots of your graph online costs you several internet credibility points.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Formatting&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;Most formatting tools are accessible through a &lt;b&gt;&lt;strong&gt;slash command menu (/)&lt;/strong&gt;&lt;/b&gt;, which exposes a wide range of Markdown and extended elements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Headers&lt;/li&gt;
+&lt;li&gt;Text styles (bold, italic, strikethrough)&lt;/li&gt;
+&lt;li&gt;Callouts&lt;/li&gt;
+&lt;li&gt;Code blocks&lt;/li&gt;
+&lt;li&gt;Mermaid diagrams&lt;/li&gt;
+&lt;li&gt;LaTeX&lt;/li&gt;
+&lt;li&gt;Dividers&lt;/li&gt;
+&lt;li&gt;Tables&lt;/li&gt;
+&lt;li&gt;Colored text&lt;/li&gt;
+&lt;li&gt;Dates&lt;/li&gt;
+&lt;li&gt;Links&lt;/li&gt;
+&lt;li&gt;Templates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You could easily use Octarine purely as a &lt;b&gt;&lt;strong&gt;writing tool&lt;/strong&gt;&lt;/b&gt;. It’s a full Markdown editor with live rendering similar to apps like Typora.&lt;/p&gt;
+
+&lt;p&gt;Under the hood, however, the file remains a plain text Markdown document. You can open it in &lt;b&gt;&lt;strong&gt;BBEdit&lt;/strong&gt;&lt;/b&gt;, import it into &lt;b&gt;&lt;strong&gt;Obsidian&lt;/strong&gt;&lt;/b&gt;, or process it with any other Markdown tool.&lt;/p&gt;
+
+&lt;p&gt;Octarine also converts &lt;b&gt;&lt;strong&gt;pasted HTML into Markdown&lt;/strong&gt;&lt;/b&gt;, preserving elements such as headers, links, bullet lists, and text styles.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Organization&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;The &lt;b&gt;&lt;strong&gt;left sidebar&lt;/strong&gt;&lt;/b&gt; provides a file tree for navigating your workspace. Nested folders work exactly as you’d expect.&lt;/p&gt;
+
+&lt;p&gt;When you attach files such as images or PDFs to a note, Octarine automatically creates folders to store them.&lt;/p&gt;
+
+&lt;p&gt;Octarine also supports &lt;b&gt;&lt;strong&gt;seven types of metadata&lt;/strong&gt;&lt;/b&gt;, which can be used to organize and filter notes.&lt;/p&gt;
+
+&lt;p&gt;The most powerful organizational feature is something called &lt;b&gt;&lt;strong&gt;Views&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Views are dynamic, database-style tables that display notes based on filters, sorting rules, and custom columns.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Think of them as &lt;b&gt;&lt;strong&gt;smart saved searches&lt;/strong&gt;&lt;/b&gt; that update automatically as your notes change.&lt;/p&gt;
+
+&lt;p&gt;Tagging is also well implemented. Tags are clickable throughout the interface, and a &lt;b&gt;&lt;strong&gt;Tag Manager&lt;/strong&gt;&lt;/b&gt; provides a centralized list of every tag in your workspace.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;&lt;b&gt;&lt;strong&gt;AI Integration (Pro Version)&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;Octarine includes optional AI integration.&lt;/p&gt;
+
+&lt;p&gt;It works with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Local models&lt;/strong&gt;&lt;/b&gt; via Ollama and LM Studio&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;Apple Intelligence&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Cloud APIs&lt;/strong&gt;&lt;/b&gt; such as OpenAI, Anthropic, and Google Gemini&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;AI operates within the context of the &lt;b&gt;&lt;strong&gt;current note&lt;/strong&gt;&lt;/b&gt;, allowing it to generate, rewrite, summarize, or refine content.&lt;/p&gt;
+
+&lt;p&gt;Like most AI writing workflows, the real learning curve comes from &lt;b&gt;&lt;strong&gt;developing reusable prompts&lt;/strong&gt;&lt;/b&gt; that produce consistent results.&lt;/p&gt;
+
+&lt;p&gt;Pro users can also download a &lt;b&gt;&lt;strong&gt;90 MB local model&lt;/strong&gt;&lt;/b&gt; that can index an entire workspace to provide additional context-aware features:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Context indicators&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Each message shows the sources used (folders, notes, or date filters). Icons and hover cards reveal the details.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;A list shows which notes were consulted to answer your query.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Export options&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Responses can be copied as Markdown or plain text.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Chat titles&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Titles are generated automatically after the first response and can be edited using the Sparkles icon.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Save the chat&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;Clicking the &lt;b&gt;&lt;strong&gt;Create Note&lt;/strong&gt;&lt;/b&gt; icon in the chat breadcrumb saves the conversation as a note. Your questions become blockquotes, with each Q&amp;amp;A pair separated by a divider.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h1&gt;&lt;b&gt;&lt;strong&gt;An Opinion on an Opinionated App&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
+
+&lt;p&gt;There’s no question that Octarine is powerful.&lt;/p&gt;
+
+&lt;p&gt;As someone who has spent years building PKM systems, I can appreciate how much functionality is available &lt;b&gt;&lt;strong&gt;without needing plugins or complex setup&lt;/strong&gt;&lt;/b&gt;. Many of the features Octarine includes by default require significant configuration in something like Obsidian.&lt;/p&gt;
+
+&lt;p&gt;That simplicity removes a lot of early decisions that intimidate people exploring tools like this.&lt;/p&gt;
+
+&lt;p&gt;Octarine is developed by a &lt;b&gt;&lt;strong&gt;single developer&lt;/strong&gt;&lt;/b&gt;, which might give some users pause. Personally, it doesn’t worry me much. Some of the most respected Mac utilities come from solo developers, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Keyboard Maestro&lt;/li&gt;
+&lt;li&gt;Hazel&lt;/li&gt;
+&lt;li&gt;BetterTouchTool&lt;/li&gt;
+&lt;li&gt;Rectangle Pro&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Looking at Octarine’s update history, development is clearly active and responsive to feedback.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href="https://octarine.app/changelog"&gt;&lt;b&gt;&lt;strong&gt;changelog&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; shows frequent updates, and the &lt;a href="https://octarine.app/roadmap"&gt;&lt;b&gt;&lt;strong&gt;roadmap&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; includes plans for:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;iOS and Android versions&lt;/li&gt;
+&lt;li&gt;One-click publishing&lt;/li&gt;
+&lt;li&gt;Quick capture tools&lt;/li&gt;
+&lt;li&gt;Task-management improvements&lt;/li&gt;
+&lt;li&gt;Browser extensions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;…and quite a bit more.&lt;/p&gt;
+
+&lt;p&gt;With the exception of AI features, most of Octarine’s functionality is available in the &lt;b&gt;&lt;strong&gt;free version&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;b&gt;&lt;strong&gt;Pro license&lt;/strong&gt;&lt;/b&gt; currently costs &lt;b&gt;&lt;strong&gt;$70 (early-bird supporter pricing)&lt;/strong&gt;&lt;/b&gt; and unlocks all current and future features. That isn’t cheap, but it’s roughly in line with other established writing tools like &lt;b&gt;&lt;strong&gt;iA Writer ($69)&lt;/strong&gt;&lt;/b&gt; or utilities such as &lt;b&gt;&lt;strong&gt;TextSoap ($45)&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;For users who want a &lt;b&gt;&lt;strong&gt;structured Markdown workspace without the plugin rabbit hole&lt;/strong&gt;&lt;/b&gt;, Octarine is definitely worth a serious look.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;2026-04-01 - Recent Changes&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bullet lists and task lists with nested children now show a collapse chevron on hover — click it to fold the nested items out of sight, keeping long outlines manageable.&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;&lt;li&gt;Collapse state (headings, codeblocks, lists &amp;amp; tasks) are persisted automatically, so collapsed sections stay collapsed when you restart the app.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;mark style="color:var(--tw-prose-bold);"&gt;&lt;strong&gt;Performance&lt;/strong&gt;&lt;/mark&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Significantly reduced CPU and memory usage across the app — typing, idle, and workspace switching are all lighter.&lt;/li&gt;
+&lt;li&gt;Improved workspace watching functions to be more performant and less power consuming.&lt;/li&gt;
+&lt;li&gt;Reduced CPU spikes during workspace indexing.&lt;/li&gt;
+&lt;li&gt;Embedding pruning for large workspaces is now much faster.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;mark style="color:var(--tw-prose-bold);"&gt;&lt;strong&gt;Improvements&lt;/strong&gt;&lt;/mark&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Date cells in Views now respect your preferred date format.&lt;/li&gt;
+&lt;li&gt;Ask Octarine &amp;amp; Writing Assistant now shows error messages as toasts when something goes wrong, instead of failing silently.&lt;/li&gt;
+&lt;li&gt;The task migration flow uses fewer file operations, making it faster and more reliable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Octarine:%20Powerful,%20Sophisticated%20and%20Easy%20to%20Use" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>I’ve been hearing about Octarine for a while. It’s one of those apps that people whose opinions I respect talk about with a certain level of admiration. After testing it as thoroughly as I’ve tested any app in a long time, I understand why.
+
+Octarine is a tool for creating, editing, and organizing...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>AppAddict</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+</feed>

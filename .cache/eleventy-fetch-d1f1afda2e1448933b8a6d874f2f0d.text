@@ -1,0 +1,674 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>bearblog</id>
+  <title>Bear Blog Trending Posts</title>
+  <updated>2026-04-17T17:04:42.696896+00:00</updated>
+  <author>
+    <name>Bear Blog</name>
+    <email>feed@bearblog.dev</email>
+  </author>
+  <link href="https://bearblog.dev/discover/" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
+  <subtitle>Trending posts on Bear Blog</subtitle>
+  <entry>
+    <id>https://blog.lauramichet.com/gen-z-water/</id>
+    <title>Gen Z water</title>
+    <updated>2026-04-16T06:29:00+00:00</updated>
+    <author>
+      <name>lauram</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;For the last year or so I've been tracking this bizarre product, a "Gen Z" water, which appears in a specific grocery store on the west side of LA. I have seen it nowhere else.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/lauram/img_7290.webp" alt="IMG_7290" /&gt;&lt;/p&gt;
+&lt;p&gt;One of the funniest things about Gen Z Water is that its website is doing that "Gen z/a nostalgia for millennial youth" thing... by looking like an &lt;a href='https://drinkgenz.com'&gt;old web page.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I assume that these kinds of things happen here because I'm in LA and LA is full of bizarre and unpleasant rich person products and hobbies. Rich people in LA are always launching preposterous products which appeal to nobody. Every once in a while, one of them becomes a sort of Goop, but that almost never happens.&lt;/p&gt;
+&lt;p&gt;However, this water's been at the grocery store for a surprisingly long time. Either these six bottles have been here for nearly two years, or someone's actually buying it. I can't imagine who. Maybe a parent for their child? I don't think that I've often seen anyone under the age of 40 at this particular grocery store.&lt;/p&gt;
+&lt;p&gt;I have never bought the water because I'm certain it just tastes like water and because I do not want to support whatever deranged rich person hobby this turns out to be. I do check up on it every time I see it, though!&lt;/p&gt;
+</content>
+    <link href="https://blog.lauramichet.com/gen-z-water/" rel="alternate"/>
+    <published>2026-04-16T06:29:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://cherrysroom.bearblog.dev/why-does-the-algorithm-think-so-a-guessing-game/</id>
+    <title>why does the algorithm think so? a guessing game</title>
+    <updated>2026-04-16T05:02:04.948706+00:00</updated>
+    <author>
+      <name>cherrysroom</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;strong&gt;weather:&lt;/strong&gt; ☀️ no complaints &lt;br /&gt;
+&lt;strong&gt;critters:&lt;/strong&gt; monarchs; mourning cloaks&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;during COVID, S told me he blocked all instagram ads and sponsored posts on sight. the more he blocked, the weirder the ads became, until he got ads for things like sex toys and &lt;a href='https://en.wikipedia.org/wiki/Mini-Estrella'&gt;mexican dwarf wrestling&lt;/a&gt;. "that one almost got me," he said.&lt;/p&gt;
+&lt;p&gt;my baseline for determining whether the algorithm knows anything at all about me is cat content. if the thing doesn't know i'm a cat person, we're not on speaking terms. i think sometimes we're encouraged to personify the algorithm as a semi-friendly wizard's daemon (or some of us get &lt;a href='https://www.jphilll.com/theres-a-wave-of-attacks-on-the-ruling-class/'&gt;notions&lt;/a&gt;). i have made a game of guessing what the algorithm is "thinking" when it does something weird. i've never gotten ads or content as weird as what S gets from his carpet-bombing campaigns, but some of the daemon's thoughts give me a little pause.&lt;/p&gt;
+&lt;p&gt;strange algorithm decisions ranked in order from most to least explainable:&lt;/p&gt;
+&lt;h2 id=ads-for-turbotax&gt;ads for turbotax&lt;/h2&gt;&lt;p&gt;not so strange--'tis the season. &lt;a href='https://www.propublica.org/article/inside-turbotax-20-year-fight-to-stop-americans-from-filing-their-taxes-for-free'&gt;turbotax delenda est.&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=ads-for-cleaning-products&gt;ads for cleaning products&lt;/h2&gt;&lt;p&gt;i hate cleaning, but this one might just be about being in my thirties. a &lt;a href='https://i.ibb.co/nfBGPDj/don018.jpg'&gt;certain gerard donelan comic&lt;/a&gt; may also apply if i think the algorithm is being rude.&lt;/p&gt;
+&lt;h2 id=harbor-freighttractor-supply&gt;harbor freight/tractor supply&lt;/h2&gt;&lt;p&gt;the robot wants me to buy tools every day of my life. and at the rate i lose line levels, maybe i should.&lt;/p&gt;
+&lt;h2 id=travel-content-and-vacation-package-ads&gt;travel content and vacation package ads&lt;/h2&gt;&lt;p&gt;the machine knows vaguely that i enjoy this stuff, but it also seems to know my clicks almost never lead to a transaction.&lt;/p&gt;
+&lt;p&gt;i choose to characterize its ongoing push of such content as hope. it waits for me to have mediterranean cruise money, and it hopes.&lt;/p&gt;
+&lt;h2 id=content-about-ghost-hunting-true-crime-and-conspiracy-theories&gt;content about ghost hunting, true crime, and conspiracy theories&lt;/h2&gt;&lt;p&gt;i wouldn't say i'm interested in ghosts or crime or conspiracies on their faces, but on a meta level, i absolutely am--i like to think about the meaning-making in which they're all engaged. why do people want to believe in things that scare and disgust them? what are the sociological reasons some ideas stick in the public mind for decades? what is the role of paranoia, or the role of insider feelings? do these things inevitably lead to witch hunts?&lt;/p&gt;
+&lt;p&gt;certainly the audiences for these things have overlap with gossip, which is what i'm actually interested in. anything about the latest fifteen-minute celebrity or bizarre scandal that requires three explainer videos and one google doc to fully elucidate. but it needs to have a gloss of intellectualism and CuLtUrAl cOmMeNtArY or i feel icky and close the tab. the algorithm must never make me confront my voyeurism, nor my snobbery...never!&lt;/p&gt;
+&lt;h2 id=personal-care-gender-ping-pong&gt;personal care gender ping-pong&lt;/h2&gt;&lt;p&gt;algorithm has detected a male. beep boop, now serving a silly old spice ad. wait. female. beep boop, now serving a makeup tutorial. wait. a queer? beep boop, now ✨SERVING💅 a makeup tutorial, drag edition, sandwiched between trixie and katya clips. wait. johnny depp dior sauvage ad? wait. glossier ad? wait. low-cost PrEP? ED pills? tampons? wait. algorithm almost has it. please give algorithm a minute.&lt;/p&gt;
+&lt;h2 id=ai-glazing-content&gt;AI glazing content&lt;/h2&gt;&lt;p&gt;the daemon mistakes my play for affection.&lt;/p&gt;
+&lt;h2 id=alcohol-ads-but-only-en-espanol&gt;alcohol ads, but only en español&lt;/h2&gt;&lt;p&gt;despite being in southern california, just about every ad i get is in english. the only spanish-language ads i get are for booze.&lt;/p&gt;
+&lt;p&gt;the vibe is a little like adults trying to be circumspect around dogs by spelling out W-A-L-K. "watch out," says the machine. "he can't know about cerveza."&lt;/p&gt;
+&lt;h2 id=emhomestuckem-fan-videos&gt;&lt;em&gt;homestuck&lt;/em&gt; fan videos&lt;/h2&gt;&lt;p&gt;me and &lt;em&gt;homestuck&lt;/em&gt; fans are gay on the internet. other than this, we seem to live in completely different worlds.&lt;/p&gt;
+&lt;p&gt;i've played &lt;em&gt;deltarune.&lt;/em&gt; those guys play &lt;em&gt;deltarune,&lt;/em&gt; right?&lt;/p&gt;
+&lt;h2 id=british-royal-family-content&gt;british royal family content&lt;/h2&gt;&lt;p&gt;is this because i'm american? i'm gonna throw the algorithm into boston harbor.&lt;/p&gt;
+</content>
+    <link href="https://cherrysroom.bearblog.dev/why-does-the-algorithm-think-so-a-guessing-game/" rel="alternate"/>
+    <published>2026-04-16T05:02:04.948706+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.spu.io/why-choose-bearblog/</id>
+    <title>Why choose Bearblog?</title>
+    <updated>2026-04-15T21:58:00+00:00</updated>
+    <author>
+      <name>spu</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;It probably shouldn’t be a surprise given the growing number of viral and semi-viral videos on the indie &amp; small web revival on YouTube over the past four years or so, but I have been getting a surprising amount of questions about starting a blog.&lt;br /&gt;
+And not even:
+"Uh, why would you?"&lt;/p&gt;
+&lt;p&gt;Or:&lt;br /&gt;
+"A blog? In 2026?"&lt;/p&gt;
+&lt;p&gt;But:&lt;br /&gt;
+"Oh, what’s that Bearblog thing? Why’d you choose that one? Tell me more about it!"&lt;/p&gt;
+&lt;p&gt;So here we go:
+Over the past, I don’t even know how many years, but like a decade plus, I’ve been going through this cycle: about once or twice a year I’d think “I finally want to do something with my website” that has been an underdeveloped, “temporary” splash page since about 2015.&lt;/p&gt;
+&lt;p&gt;That wasn’t my first personal website, I made one about ten years prior, back in film school, under a different url, that was a little less barebones but the design was also always “temporary”. That one died around 2010 or 11 though. And I’ve made some project based websites, typically using Wordpress, but don’t even get me started on Wordpress.&lt;/p&gt;
+&lt;p&gt;In most recent years, basically since I started using &lt;a href='https://obsidian.md/' target='_blank'&gt;Obsidian&lt;/a&gt;, whenever that urge hit me to do something with my website “but this time for real”, I got more interested in the various options of markdown to static website generators. The proposal sounds very promising, you just create the folder structure for your website inside Obsidian, you write there, in the markdown you're used to, which is what I am doing right now, and converting that and pushing it to your website is all automated. Sounds easy enough, Microsoft's database management system &lt;a href='https://en.wikipedia.org/wiki/Microsoft_Access' target='_blank'&gt;Access&lt;/a&gt; had a publish to web button back in 1997 that would turn your database into HTML &amp; CSS. (Just a little titbit I picked up watching a &lt;a href='https://bsky.app/profile/dylanbeatt.ie' target='_blank'&gt;Dylan Beattie&lt;/a&gt; talk on YouTube today, though I don't remember which one.)&lt;/p&gt;
+&lt;p&gt;The initial setup, though, was always a bit less straightforward than I had hoped for. Not that hard, not that complicated, but that hump was always just high enough that my momentum wasn't enough to make it over it. So back on the shelf until six months later, or 12, and who would care about my site existing or not anyway, right? Don't get me wrong, from all I can tell these are great tools, they just, repeatedly, haven't worked FOR ME. This is very much a me thing. Just not for me.&lt;/p&gt;
+&lt;h4 id=enter-bear-blog&gt;Enter Bear Blog&lt;/h4&gt;&lt;p&gt;Now with &lt;a href='https://bearblog.dev/' target='_blank'&gt;Bear&lt;/a&gt; it was different. I wasn't actively looking to revive my website when I came across Bear Blog last month, I just randomly ran into someone's blog (don't even remember which, how or where) and clicked on through to check out the platform.&lt;/p&gt;
+&lt;p&gt;"A privacy-first, no-nonsense, super-fast blogging platform"&lt;/p&gt;
+&lt;p&gt;Yeah, that sounds interesting...&lt;/p&gt;
+&lt;p&gt;"No trackers, no javascript, no stylesheets. Just your words."&lt;/p&gt;
+&lt;p&gt;Okay, you got my attention, speak on...&lt;/p&gt;
+&lt;p&gt;"Shun the bloat of the current web, embrace the bear necessities.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Looks great on any device&lt;/li&gt;
+&lt;li&gt;Tiny (~2.7kb), optimized, and awesome pages&lt;/li&gt;
+&lt;li&gt;No trackers, ads, or scripts&lt;/li&gt;
+&lt;li&gt;Seconds to sign up&lt;/li&gt;
+&lt;li&gt;Connect your custom domain&lt;/li&gt;
+&lt;li&gt;Free themes&lt;/li&gt;
+&lt;li&gt;RSS &amp; Atom feeds&lt;/li&gt;
+&lt;li&gt;Built to last forever*"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bear necessities, okay, yeah, whatever. Most of the rest sounds nice, forever is a long time though, that certainly needs an asterisk...&lt;/p&gt;
+&lt;p&gt;I don't want to go quoting and commenting on the &lt;a href='https://herman.bearblog.dev/manifesto/' target='_blank'&gt;Bear Manifesto&lt;/a&gt; point by point, best go read it yourself, just the main "promises" here:&lt;/p&gt;
+&lt;p&gt;"Bear won't shut down. Bear won't sell. Bear won't show ads. Built to last."&lt;/p&gt;
+&lt;p&gt;In another blog post &lt;a href='https://herman.bearblog.dev/' target='_blank'&gt;Herman&lt;/a&gt; also wrote about &lt;a href='https://herman.bearblog.dev/grow-slowly-stay-small/' target='_blank'&gt;growing slowly and staying small&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;That all sounds nice 'n all, and I very much agree with the philosophy... it also sounds a bit naive. If someone showed me that as their "manifesto" for their upcoming platform I'd say: "okay, let's talk again in a year or two." But this was written in 2025, and Bear's been around since 2020. It's not someone going into something all starry-eyed before being confronted with reality.&lt;/p&gt;
+&lt;p&gt;Bear is built on &lt;a href='https://herman.bearblog.dev/building-software-to-last-forever/' target='_blank'&gt;Python &amp; Django&lt;/a&gt; - old and boring tech. Old and boring is exactly what you want for longevity. There's apparently a succession plan in place, because, you know, &lt;a href='https://en.wikipedia.org/wiki/Bus_factor' target='_blank'&gt;bus factor&lt;/a&gt;, which is more than you can say about most one-person businesses. Or big ones.&lt;/p&gt;
+&lt;p&gt;Forever is still a long time and anyone who thinks the internet is forever has never tried to follow a link on a two year old blog post. But I'd rather put my money on someone who at least tries to accomplish this and seems to have put the right amount of thought and preparation into it.&lt;/p&gt;
+&lt;p&gt;I like the philosophy behind all this and the limitations and capabilities hit just the right sweet spot for me where limitation breeds creativity. You can do a lot with modern vanilla CSS, and "no JavaScript" actually means "some JavaScript", at least on the paid plan, which is also nice for some edge cases. (Though I like the challenge of viewing it as a last resort).&lt;/p&gt;
+&lt;p&gt;Speaking of upgrading to the paid plan: Bear takes &lt;a href='https://en.wikipedia.org/wiki/Purchasing_power_parity' target='_blank'&gt;purchasing power parity&lt;/a&gt; into account, which doesn't do a lot for me, but is great for people in lower income countries. But on a personal note there:&lt;/p&gt;
+&lt;p&gt;A day or two after stumbling on Bear blog I got the yearly electricity bill and my return was about 2 bucks off of the cost of the lifetime upgrade...&lt;/p&gt;
+&lt;p&gt;Now, I don't believe in signs, but as a, once, in another life, storyteller I do believe in narratives, and that does make for a good one.&lt;/p&gt;
+&lt;p&gt;So, I dunno, did I choose Bear, or did the Bear choose me?&lt;/p&gt;
+&lt;p&gt;BTW: does anyone know if it's possible to edit your 404 page? I've always wanted to put "anyone who thinks the internet is forever has never tried to follow a link on a two year old blog post" on a 404 page. If you do hit me up on &lt;a href='https://bsky.app/profile/spu.io' target='_blank'&gt;Bluesky&lt;/a&gt; or &lt;a href='https://mastodon.gamedev.place/@SpuCodes' target='_blank'&gt;Mastodon&lt;/a&gt; or something.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/the-daily-question" title="The Daily Question"&gt;Previous&lt;/a&gt; &lt;a class="next-post" href="/ode-to-the-sound-of-distant-cars-like-susurrous-ocean-waves" title="Ode to the Sound of Distant Cars like Susurrous Ocean Waves"&gt;Next&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+</content>
+    <link href="https://blog.spu.io/why-choose-bearblog/" rel="alternate"/>
+    <published>2026-04-15T21:58:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://aleksei.dev/code-is-not-even-close-to-half-the-battle/</id>
+    <title>Code is not even close to half the battle</title>
+    <updated>2026-04-15T20:25:00+00:00</updated>
+    <author>
+      <name>aleksei</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;"You just describe what you want built. It literally writes the code and builds it for you."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"It's like having a junior developer on call 24/7. You give the brief, they build it. Simple."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Whew. Now, that's a great way to sell somebody a course on vibe-coding in a week. Who wouldn't want to create another clumsy, bug-ridden tool for themselves, right?&lt;/p&gt;
+&lt;p&gt;Except, none of these courses—or people parroting about how cool vibe-coding is—are tell the whole picture: &lt;strong&gt;that they won't teach you thinking&lt;/strong&gt;, the most important piece of the puzzle.&lt;/p&gt;
+&lt;p&gt;Learning to "code" was never a problem, not even before LLMs. It's the same issue over again as with those JavaScript &amp; web-development bootcamps that promise to get you going faster than the speed of light.&lt;/p&gt;
+&lt;p&gt;The hardest thing about doing development is not using the tools. &lt;strong&gt;It is to think.&lt;/strong&gt; And so far, I have not seen a single course on thinking.&lt;/p&gt;
+</content>
+    <link href="https://aleksei.dev/code-is-not-even-close-to-half-the-battle/" rel="alternate"/>
+    <published>2026-04-15T20:25:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ato.yt/bringing-back-youtubes-video-responses/</id>
+    <title>Bringing back YouTube's Video Responses to build communities</title>
+    <updated>2026-04-15T19:10:00+00:00</updated>
+    <author>
+      <name>atoyato</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I recently noticed that I miss what YouTube communities used to look like. I miss the &lt;strong&gt;authenticity&lt;/strong&gt; of barely edited videos and people sharing their views on things they truly care about. I know it still exists, but I guess it's not as natural to the platform as it used to be. I miss people caring about sharing things &lt;strong&gt;just to share them&lt;/strong&gt; and not to grow an audience, build a brand or earn money. &lt;strong&gt;I honestly miss it the most about me.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I used to upload videos to YouTube all the time to share my thoughts, opinions and music even if I didn't have a lot of followers and/or knowledge about video editing. Quality didn't matter that much. Passion did. Sharing did. But now… making content on YouTube became in my eyes a thing professionals do, not average people like me.&lt;/p&gt;
+&lt;p&gt;If I want to share something, &lt;strong&gt;I DON'T NEED TO&lt;/strong&gt; think about my brand, the audience, what would bring me views and money…
+I also &lt;strong&gt;DON'T NEED TO&lt;/strong&gt; worry about the quality of my camera and my editing skills (or lack of thereof).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;But I do.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I do think that and worry about that.&lt;/p&gt;
+&lt;p&gt;And I hate it.&lt;/p&gt;
+&lt;hr class="separator angry"/&gt;
+&lt;p&gt;I feel like YouTube is no longer about sharing and building communities mainly because I'm not participating myself.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I made friends on YouTube.&lt;/strong&gt; I even made friends with people that had tens of thousands of followers. There were no boundaries back then. We were all just &lt;em&gt;normal people&lt;/em&gt; building a community.&lt;/p&gt;
+&lt;p&gt;I learned a lot from watching videos, but I also taught others myself.
+Me talking about challenging experiences let people know that &lt;strong&gt;they weren't alone&lt;/strong&gt;.
+Me talking about how I tackled a problem &lt;strong&gt;inspired others&lt;/strong&gt; to do the same and to share their knowledge.
+Me sharing my process of making music allowed others to &lt;strong&gt;learn from it&lt;/strong&gt; and make their own music&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;I miss this more than I can say.&lt;/p&gt;
+&lt;hr class="separator sad"/&gt;
+&lt;p&gt;And so… to encourage and simplify this type of community building and communication on YouTube, I just launched an old Video Response feature&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; in the form of a new browser extension – &lt;a href='https://github.com/deszczak/ReTube'&gt;&lt;strong&gt;ReTube&lt;/strong&gt;&lt;/a&gt;&lt;sup class="footnote-ref" id="fnref-3"&gt;&lt;a href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt;. With it you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reply to somebody's video with your own and potentially start a conversation&lt;/li&gt;
+&lt;li&gt;Reply to your own video with a correction or additional content&lt;/li&gt;
+&lt;li&gt;Link to the previous or the first video in a series&lt;/li&gt;
+&lt;li&gt;Whatever else you can think of…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You just put a &lt;code&gt;re:ORIGINAL_VIDEO_ID&lt;/code&gt; in your video's title and a reference link appears above it for your viewers to see what you're responding to. Then just comment the original video with &lt;code&gt;re:YOUR_RESPONSE_VIDEO_ID&lt;/code&gt; and a video card with its thumbnail, title and channel info appears for others to see and click.&lt;/p&gt;
+&lt;div style="margin: 1.5rem auto 1.25rem; max-width: 380px"&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/atoyato/34.webp" alt="Video Response title example" /&gt;
+&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/atoyato/55.webp" alt="Video Response comment example" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;It's intentionally very simple so even if people don't have the extension installed, they can still understand what you're doing.&lt;/p&gt;
+&lt;hr class="separator happy"/&gt;
+&lt;p&gt;I know I am a 30 years old boomer and this extension may build no communities at all and bring back nothing. I might have wasted the $5 I paid Google to upload this extension to their Web Store. Maybe this changes nothing for others. Maybe no one uses it. But I don't have to worry about it. &lt;strong&gt;I shared it just to share it&lt;/strong&gt; because I &lt;strong&gt;authentically&lt;/strong&gt; care about it. And that was the point.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Happy community building!&lt;/strong&gt;&lt;/p&gt;
+&lt;hr class="separator love"/&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/progressive-web-apps-i-moje-progresywne-myslenie" title="Progressive Web Apps i moje progresywne myślenie"&gt;Previous&lt;/a&gt; &lt;a class="next-post" href="/wielopoziomowa-dyskopatia-cwiczenia" title="Plecy mnie potężnie bolą, bo mam wielopoziomową dyskopatię. Co mi pomaga?"&gt;Next&lt;/a&gt;&lt;/p&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;Xiya recently talked about it in her vlog too. I highly recommend you watch it – &lt;a href='https://www.youtube.com/watch?v=_jvmjHE_jv8'&gt;&lt;em&gt;why you need to vlog your boring life&lt;/em&gt;&lt;/a&gt; by xiya chang&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-2"&gt;&lt;p&gt;It's been &lt;strong&gt;20 years&lt;/strong&gt; since the feature was released. You can read what YouTube had to say about it themselves back then &lt;a href='https://blog.youtube/news-and-events/video-responses/'&gt;&lt;em&gt;Video Responses&lt;/em&gt; @ YouTube Official Blog&lt;/a&gt;&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-3"&gt;&lt;p&gt;Safari version will probably never be easily installable as I don't want to pay Apple the $99 for a Developer Account. I'm &lt;em&gt;(not really)&lt;/em&gt; sorry.&lt;a href="#fnref-3" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://ato.yt/bringing-back-youtubes-video-responses/" rel="alternate"/>
+    <published>2026-04-15T19:10:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://combatdavey.net/this-is-stupid-neo-financial-email/</id>
+    <title>this is stupid</title>
+    <updated>2026-04-15T18:11:06.898282+00:00</updated>
+    <author>
+      <name>combatdavey</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/combatdavey/email_neo_affordability_the_fuck_you_think.webp" alt="email_neo_affordability_the_fuck_you_think" /&gt;&lt;/p&gt;
+&lt;p&gt;This kind of thing is infuriating because it's so stupid and facile. Hey guys, we know that everything is too expensive and no one has enough money to live the lives they want, especially people at the bottom who are just scratching and clawing to survive. Do you think this impacts their happiness?&lt;/p&gt;
+&lt;p&gt;Like, what the fuck do you think? Who reads this and has a lightbulb moment other than the dumbest people alive?&lt;/p&gt;
+&lt;p&gt;We were promised jetpacks. Instead we got this.&lt;/p&gt;
+&lt;p&gt;🌲 gonna &lt;br&gt;
+🌼 go &lt;br&gt;
+🌱 touch &lt;br&gt;
+🌳 grass &lt;br&gt;
+🌷 now&lt;/p&gt;
+&lt;p&gt;Be good to yourself.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;If you enjoyed this post, click the little up arrow chevron thinger below the tags to help it rank in Bear's &lt;a href='https://bearblog.dev/discover/' target='_blank'&gt;Discovery feed&lt;/a&gt; and maybe consider sharing it with a friend or on your socials.&lt;/mark&gt;&lt;/p&gt;
+</content>
+    <link href="https://combatdavey.net/this-is-stupid-neo-financial-email/" rel="alternate"/>
+    <published>2026-04-15T18:11:06.898282+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.absurdpirate.com/you-should-date-yourself/</id>
+    <title>You Should Date Yourself</title>
+    <updated>2026-04-15T17:52:00+00:00</updated>
+    <author>
+      <name>absurdpirate</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;People always talk about themselves generally in a negative way, saying they're their own worst enemy. I say it doesn't have to be that way.&lt;/p&gt;
+&lt;p&gt;I think we are so accustomed to being mean to ourselves that it starts to become this self-fulfilling prophecy. You start to see yourself as worthless, lazy, incompetent, whatever. We tend to not be very nice to ourselves, and it deteriorates our own mental state.&lt;/p&gt;
+&lt;p&gt;When we don't value ourselves, we tend to also devalue others. When we speak negatively about ourselves, we are essentially calling people who are about us liars. And we start to put ourselves in worse relationships because we don't also value ourselves. We stay in bad spots because we feel it's what we deserve. But I think you deserve better than that.&lt;/p&gt;
+&lt;p&gt;I'm an only child. I got pretty accustomed to being by myself for long stretches of time. I tended to be on the outskirts of most social groups for a long time, and often found myself with only me and my internal monologue. So, I would just go do stuff by myself.&lt;/p&gt;
+&lt;p&gt;I take myself out to lunch, to dinner. I go out and see movies by myself. I go out and do things and enjoy my own solitude. I make jokes at my own expense. I think we can see a lot of benefit in romanticizing a relationship with ourselves.&lt;/p&gt;
+&lt;p&gt;When we see ourselves as someone we care about, we hold ourselves to a higher standard. We begin to value our worth more. We refuse to settle for people who try and diminish that.&lt;/p&gt;
+&lt;p&gt;I feel like if you have a good relationship with yourself, you tend to stop and wonder. You want better for yourself, like you would for your close friends. If you're in a relationship with someone who doesn't value you or isn't good for you, it becomes easier to recognize that. It's no different than if your friend was in a toxic relationship and tried to help them see that they deserve better.&lt;/p&gt;
+&lt;p&gt;I'm not saying be an egoist and think you're hot shit. I'm not advising you to be like Narcissus after discovering himself. You don't put your friends on a pedestal, so you shouldn't do the same with yourself. Just be real with yourself.&lt;/p&gt;
+&lt;p&gt;I also want to make the point that it's helpful to be outside of yourself too, generally to avoid having your mental state do one of those horny eagle death spirals. It's no different than any other relationship really. You go to your mom for certain things, your partner for others, and your best friend for other things. Variety is the spice of life. Balance. Yin and Yang. All that good stuff.&lt;/p&gt;
+&lt;p&gt;What I'm trying to say is, just be nice to yourself. Learn to enjoy your own company. Be happy to see yourself in the mirror like you would a friend. If you are struggling, see it like watching a friend struggling and help them get out of the pit.&lt;/p&gt;
+&lt;p&gt;Take yourself out on dates. Go for walks. Watch movies. Take yourself out to lunch/dinner. Learn how to enjoy your own company, get to know the real you.&lt;/p&gt;
+&lt;p&gt;Why be your own worst enemy when you could be your own best friend?&lt;/p&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/retro-is-the-future" title="Retro is the Future"&gt;Previous&lt;/a&gt; | &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reply via email: &lt;a href='mailto:me@absurdpirate.com'&gt;me@absurdpirate.com&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h3 id=as-of-writing-this&gt;as of writing this...&lt;/h3&gt;&lt;p&gt;I decided to take work off today. I didn't sleep super well last night, so when my alarm rang, I said "fuck it" and took the day off. Might go to Olive Garden later, might bring my daughter with me if she wakes up from her nap with enough time before she leaves with Grammy.&lt;/p&gt;
+&lt;p&gt;I beat the MW2 Remastered campaign last night. I procrastinated on beating "Loose Ends", that mission still fucks me up. Now I'm moving onto the CoD 4 remaster. Going for getting all the intel.&lt;/p&gt;
+</content>
+    <link href="https://blog.absurdpirate.com/you-should-date-yourself/" rel="alternate"/>
+    <published>2026-04-15T17:52:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://mikkolaksola.com/pay-the-subscription-fee/</id>
+    <title>pay the subscription fee</title>
+    <updated>2026-04-15T08:51:00+00:00</updated>
+    <author>
+      <name>mikkolaksola</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Who doesn't want to be brave and honest?&lt;/p&gt;
+&lt;p&gt;If you want to live a life according to these values, there is always a price you have to pay — and keep paying.&lt;/p&gt;
+&lt;p&gt;A subscription fee, if you will.&lt;/p&gt;
+&lt;p&gt;The currency? Pain, and the high probability, if not inevitability, of getting hurt or hurting others.&lt;/p&gt;
+&lt;p&gt;And when it's time to pay, it's not fun. It hurts. It sucks.&lt;/p&gt;
+&lt;p&gt;It's what makes living this way so hard. It's why many fail and even more struggle to stay on this path.&lt;/p&gt;
+&lt;p&gt;It makes you question the whole thing.&lt;/p&gt;
+&lt;p&gt;"I didn't mean this to happen."&lt;/p&gt;
+&lt;p&gt;I know.&lt;/p&gt;
+&lt;p&gt;It may not feel like it in the moment, but remember: It's not a sign that you did something wrong. It's the opposite. You are on the hard &lt;em&gt;but&lt;/em&gt; right path. You can't have it any other way.&lt;/p&gt;
+&lt;p&gt;At least, you &lt;em&gt;shouldn't&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Because the alternative is much worse.&lt;/p&gt;
+&lt;p&gt;It's the easy path. Where you never hurt anyone or allow yourself to get hurt. There are no subscription fees and no commitments, or so it seems.&lt;/p&gt;
+&lt;p&gt;But it's &lt;em&gt;not&lt;/em&gt; a free version, either.&lt;/p&gt;
+&lt;p&gt;Oh no.&lt;/p&gt;
+&lt;p&gt;Make no mistake, there &lt;em&gt;is&lt;/em&gt; a cost. But instead of a visible subscription fee, it's like having an open tab; it grows and accumulates in the background. Out of sight, out of mind.&lt;/p&gt;
+&lt;p&gt;But you &lt;em&gt;will&lt;/em&gt; get the check. And it &lt;em&gt;will&lt;/em&gt; come at the worst time: when you're about to leave. When it's too late to do anything about it.&lt;/p&gt;
+&lt;p&gt;So you must pay with regret.&lt;/p&gt;
+&lt;p&gt;You &lt;em&gt;don't&lt;/em&gt; want that.&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;Pay the subscription fee for courage and honesty. It's worth it.&lt;/u&gt;&lt;/p&gt;
+</content>
+    <link href="https://mikkolaksola.com/pay-the-subscription-fee/" rel="alternate"/>
+    <published>2026-04-15T08:51:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tuesdaynight.blog/jon/</id>
+    <title>Jon the Bunny</title>
+    <updated>2026-04-14T22:34:11.131223+00:00</updated>
+    <author>
+      <name>spice</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;h4&gt;If you used &lt;a href="https://en.wikipedia.org/wiki/SpaceHey"&gt;Spacehey&lt;/a&gt; from 2022-late 2025, then you might have known Jon, the bunny guy:&lt;/h4&gt;
+&lt;img class="light" style="max-width:80%;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/spice/screenshot-2026-04-07-205426.webp"&gt;
+&lt;p&gt;He called himself &lt;strong&gt;"Spachey's Unofficial Grandpa"&lt;/strong&gt;. But to everyone, &lt;mark&gt;he was the Official grandpa.&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;Jon was a retired chef in his 60s.&lt;/mark&gt; And a self-proclaimed "pothead", trying new cannabis flavors and products then reporting on them. He spoke in detail about his arthritis and hip problems, so I'm sure there was a correlation. Jon also had a new bunny tattoo that we all got to see! His fascination with bunnies came from a childhood nickname; &lt;em&gt;bunny rabbit&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In his bulletins, Jon talked extensively about his mother, who's in her 90's. It was obvious that he loved her and took care of her along with his siblings.&lt;/p&gt;
+&lt;p&gt;Jon also made it a point to wish people a happy birthday when he could. Sometimes it was a "Happy Birthday" sometimes it was a  "Joyous Natal Anniversary."&lt;/p&gt;
+&lt;img class="light" style="max-width:75%;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/spice/image-18.webp"&gt;
+&lt;h4&gt;Jon passed away in January 2026.&lt;/h4&gt;
+&lt;p&gt;It's been confirmed and I looked it up and confirmed it myself.&lt;/p&gt;
+&lt;p&gt;I was on the site on and off this year and felt that it was weird that his daily bulletins weren't showing up as usual. I was in denial for a while, and even messaged him telling him that he should come back and give an update if he can. He was active daily for &lt;strong&gt;four years&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;One time in a bulletin I talked about potentially being a sugar baby for a cheap man (my posts were all crass like this, long story), and he said that I'm being "undervalued" and to "milk the guy for everything he's got". It was so funny coming from a wholesome guy with a bunny profile picture.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;"What do &lt;em&gt;you&lt;/em&gt; know about sugar babies, Jon!?" I replied sarcastically.&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;Then he revealed that he is not innocent and is indeed a grown man with grown man experiences.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;It's weird. I didn't &lt;em&gt;know&lt;/em&gt; him. But I knew his presence. Everyone did. If you go to his wall, you can see that so many people were worried when he went quiet.&lt;/p&gt;
+&lt;p&gt;I thought it odd that people would cry over a grandpa that wasn't theirs, but once I got over the initial denial phase, I had my moment as well.&lt;/p&gt;
+&lt;p&gt;I'm aware that we don't know who he was in real life, but from our point of view, he was good. I miss him. This internet stranger. He influenced people to keep going all the time. The only influencer I liked.&lt;/p&gt;
+&lt;p&gt;I was very stressed in November. I made a very emotional blog post about it, and despite me turning off the blog comments to avoid unsolicited advice, he still commented on my profile:&lt;/p&gt;
+&lt;img class="light" style="max-width:75%;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/spice/image-17.webp"&gt;
+&lt;p&gt;This was his last interaction with me. I feel like I missed an opportunity to say thank you to him.&lt;/p&gt;
+&lt;p&gt;I can't go back on that site. I have this involuntary wave of sadness when i see the interface. If you can't tell, I have been lucky enough to not experience much loss up till now. Greif gives me a pit in my stomach.&lt;/p&gt;
+&lt;p&gt;This just goes to show that &lt;mark&gt;just being there for people will cause a community to gather around you&lt;/mark&gt;. Some people might forget him, and that's okay. But I will never forget him.&lt;/p&gt;
+&lt;h2 id=thanks-grandpa-jon&gt;Thanks Grandpa Jon.&lt;/h2&gt;&lt;section&gt;
+I don't usually see the point of memorializing people on platforms that their families won't ever see, but he was important to everyone, including me. He was, i suppose, &lt;mark&gt;my first re-occurring blog reader&lt;/mark&gt;, so he deserves a space on my site. I always imagine someone like him reading my blogs. &lt;mark&gt;An old man, high out of his mind, with nothing but positive words to say.&lt;/mark&gt; I really adore folks like that.
+&lt;/section&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;div class="back-to-top"&gt;
+  &lt;button onclick="window.scrollTo({top: 0, behavior: 'smooth'})"&gt;
+    ↑ top
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+</content>
+    <link href="https://tuesdaynight.blog/jon/" rel="alternate"/>
+    <published>2026-04-14T22:34:11.131223+00:00</published>
+  </entry>
+  <entry>
+    <id>https://thereabouts.bearblog.dev/why-you-should-write-stuff-down-and-document-things/</id>
+    <title>why you should write stuff down and document things</title>
+    <updated>2026-04-14T17:08:00+00:00</updated>
+    <author>
+      <name>thereabouts</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;You’re right, your life and ideas probably aren't that interesting.&lt;/p&gt;
+&lt;p&gt;The number of people who care to know what you’re doing, thinking, and feeling? Very few.&lt;/p&gt;
+&lt;p&gt;But consider this: historians and scholars today nerd out over old written artifacts. It’s a clean window into the past. Official historical accounts are often produced with a particular point of view, the heavy hand of the state or the victor looking over the author’s shoulder.&lt;/p&gt;
+&lt;p&gt;But you? You are free to look and describe things as you see and understand them.&lt;/p&gt;
+&lt;p&gt;It’s not clear how much that’s on the Internet will persist, or for how long. But there’s a decent chance that your individual perspective could survive centuries even though you're “just a common person.”&lt;/p&gt;
+&lt;p&gt;What you wore, where you went, how you spent your time, what you worried about, how you lived—all straight from the source, as a gift for posterity.&lt;/p&gt;
+&lt;p&gt;If nothing else, the people of the far future will be thrilled to hear from you.&lt;/p&gt;
+</content>
+    <link href="https://thereabouts.bearblog.dev/why-you-should-write-stuff-down-and-document-things/" rel="alternate"/>
+    <published>2026-04-14T17:08:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://magmacranes.bearblog.dev/please-wishlist-divinuet-on-steam/</id>
+    <title>Please wishlist Divinuet on Steam!</title>
+    <updated>2026-04-14T16:31:00+00:00</updated>
+    <author>
+      <name>magmacranes</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href='https://youtu.be/0Stcwb0oa-M'&gt;Wishlist here!&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/0Stcwb0oa-M?si=0g1e1ofxsux6r_3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Divinuet is a project I've been working on since 2019. It's an interactive experience where tarot readings are accompanied by music. I've really poured my heart into it, and I really hope people like it!&lt;/p&gt;
+&lt;p&gt;Even if you're not sure whether you want to buy it, wishlists help so much with Steam store algorithm visibility. And shares are of course appreciated as well.&lt;/p&gt;
+&lt;p&gt;Thank you so much!&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://youtu.be/0Stcwb0oa-M'&gt;Wishlist here!&lt;/a&gt;&lt;/p&gt;
+</content>
+    <link href="https://magmacranes.bearblog.dev/please-wishlist-divinuet-on-steam/" rel="alternate"/>
+    <published>2026-04-14T16:31:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://robertbirming.com/fear-upvote-button/</id>
+    <title>Don't fear the upvote button</title>
+    <updated>2026-04-14T14:44:00+00:00</updated>
+    <author>
+      <name>robert</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;The company I work for uses, like many other companies, NPS (net promoter score) to measure customer satisfaction.&lt;/p&gt;
+&lt;p&gt;The results are to be taken with a grain of salt, to say the least. On top of that, many customers don't take the survey or just reply: "I never recommend companies."&lt;/p&gt;
+&lt;p&gt;Every now and then, my boss forwards me lovely replies from happy clients. It's a nice little confirmation, but it doesn't change the way I do my work. I keep doing what I do no matter the score.&lt;/p&gt;
+&lt;p&gt;I feel the same way about the upvote button. It's nice if a post gets some extra attention, but it's not important. It won't change the way I blog.&lt;/p&gt;
+&lt;p&gt;Another thing when it comes to upvotes is that they don't say much, really. It's just a small piece of a big pie. You may have 500 readers who love your writing, but never even see the toast button in their feed reader.&lt;/p&gt;
+&lt;p&gt;I understand that some people choose to hide the upvote button for various reasons. Blogging should feel fun and free. If that toast thingy interferes with that in any way, by all means hide it if it makes you feel better.&lt;/p&gt;
+&lt;p&gt;But if you hide it just because you feel that the posts don't get enough upvotes, it's probably not the button that's the problem. That mindset will just shift to the next thing: not enough guestbook comments, not good enough stats, not enough reader mail...&lt;/p&gt;
+&lt;p&gt;Don't focus on collecting numbers, focus on delivering words.&lt;/p&gt;
+&lt;p&gt;Don't fear the upvote button, but don't praise it either.&lt;/p&gt;
+</content>
+    <link href="https://robertbirming.com/fear-upvote-button/" rel="alternate"/>
+    <published>2026-04-14T14:44:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.absurdpirate.com/retro-is-the-future/</id>
+    <title>Retro is the Future</title>
+    <updated>2026-04-14T14:07:32.743764+00:00</updated>
+    <author>
+      <name>absurdpirate</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;New technology sucks shit through a crazy straw. This isn't me just being a luddite, technology has only gone downhill over the years. We've by and large innovated minimally (if at all). Don't get me wrong, there are some solid indie projects out there, but for the most part it's garbage out there.&lt;/p&gt;
+&lt;p&gt;Tech is built to be defunct within a couple years of usage. Repairing anything is a goddamn nightmare because it was either built by an engineer who must live in fear he'll have to answer to god for what he's done, or it's some proprietary bullshit that makes aftermarket parts turn your $1,000+ device into a paperweight. Everything has some shitfuck AI crammed into it like an ugly stepsister with a glass slipper or it makes you pay a subscription just to have the damn thing work. More often than not, it has an app that you have to download just so you can do rudimentary things like changing the time. Hell, even when we DO improve, it's barely anything worth mentioning.&lt;/p&gt;
+&lt;p&gt;All these tech specs that nobody gives two shits about. Technology is built to be more efficient by minimal degrees so the average user can send an email .00001 seconds faster. Cool, a better camera that still takes indistinguishably different photos from the phone 2-3 generations prior. What the fuck does an M4 chip do differently than an M3 chip? This PRO console is $200 more than the base model, and look at all the things it does better:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;???&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I think it shouldn't be a surprise that a lot of people are turning to old tech. iPods, old game consoles, retrofitting old computers, appliances, vehicles, tools, etc.&lt;/p&gt;
+&lt;p&gt;I think tech/hardware literacy is going to play a huge roll for a lot of people who find themselves tired of being bent over by tech companies. They'll find older technology from eras where companies at least gave the illusion that they gave a shit, and then repair it to make it feasible for today.&lt;/p&gt;
+&lt;p&gt;I have a 2008 macbook. It's slow as shit, but it works. The most interesting thing? You can replace the battery with an aftermarket part and the only tool you'd need is a quarter. You can also upgrade the RAM and the storage with a Phillips head screwdriver.&lt;/p&gt;
+&lt;p&gt;You could make an early 2010s laptop run like a dream with a new operating system. You can throw every song you've ever listened to on an iPod (or hell even your smartphone) and not hear a single ad or pay a dime.&lt;/p&gt;
+&lt;p&gt;Why spend $600 on a console that only has like 5 games (at $70 each) on it, when you can spend $150 and have a massive library of classics that's anywhere from $5-$20? Hell, if you mod the console you can take it even further, emulate, adding SSD storage, more RAM, or just adding more functionality to that console.&lt;/p&gt;
+&lt;p&gt;Why buy a fancy new samsung washer and dryer that plays a catchy jiggle when it's done throwing your cat around in a spin cycle when you could just buy one that's 10 years older, doesn't need to be connected to your local internet, and just works! And if it doesn't, you can fix it yourself for a fraction of what it would cost to try and repair/replace the older model.&lt;/p&gt;
+&lt;p&gt;Why buy this fancy new gas-guzzling car that staples an ipad to your dashboard that controls everything from navigation to your heated seats that can fucking freeze and crash, when you can buy a model that's 10 years older? The 10 year old model will last you an additional 100k miles if it's a good make/model/year, is far easier to do maintenance on, the A/C doesn't require a system update, and you don't have to pay a subscription for heated seats. Hell, even if you don't wanna be a car mechanic (I don't blame you), if you take it to a shop you're still saving money just on cost of parts and labor alone.&lt;/p&gt;
+&lt;p&gt;Functionality aside, some older technology is just more fun from a design aspect. More colors, different shapes, etc.&lt;/p&gt;
+&lt;p&gt;Just about every piece of tech out there is like a whale that got washed up on the beach. Bloated and will probably explode. Hyperbole aside, I feel like a lot more people are waking up to not wanting to be put through the consumerist meat grinder. It's starting with the people who think to themselves "why do I need this new phone when my current phone works just fine?"&lt;/p&gt;
+&lt;p&gt;I think the Macbook Neo (which to me seems like it's Apple's answer to the Chromebook) may be a step in the right direction. It's a lowered pricepoint, and doesn't seem to have all the fluff to try and artificially inflate itself to justify a $1000+ price tag. It's far from ideal in terms of being pro-consumer/right-to-repair, but it's certainly something.&lt;/p&gt;
+&lt;p&gt;All I'm saying is I think looking at what older tech did right, and even adopting it into your lifestyle can have huge benefits on both the frontend (your overall happiness) and the backend (financial/skill development). Give retro a try, or at least just try and take full advantage of what you currently have.&lt;/p&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/the-two-moments-that-changed-me-forever" title="The Two Moments That Changed Me Forever"&gt;Previous&lt;/a&gt; | &lt;a class="next-post" href="/you-should-date-yourself" title="You Should Date Yourself"&gt;Next&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reply via email: &lt;a href='mailto:me@absurdpirate.com'&gt;me@absurdpirate.com&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h3 id=as-of-writing-this&gt;as of writing this...&lt;/h3&gt;&lt;p&gt;I took a bit of a break from the internet over the weekend. Felt like I needed to get my head on straight. It was also my daughter's birthday weekend, and so I wanted to just be able to spend more time with family. It's also Taco Tuesday and this restaurant by my work is holding a special. Guess where I'm going for lunch today.&lt;/p&gt;
+</content>
+    <link href="https://blog.absurdpirate.com/retro-is-the-future/" rel="alternate"/>
+    <published>2026-04-14T14:07:32.743764+00:00</published>
+  </entry>
+  <entry>
+    <id>https://prasatt.me/make-vices-social/</id>
+    <title>Make “vices” social</title>
+    <updated>2026-04-14T12:53:18.029515+00:00</updated>
+    <author>
+      <name>prasatt</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;No, I’m not advocating drug use. Or am I proposing a gathering of people engaging in illicit activities.&lt;/p&gt;
+&lt;p&gt;What I am talking about are the small “vices” like TV and gaming. Done alone, it can be easy to go down a rabbit hole with hours blurring together.&lt;/p&gt;
+&lt;p&gt;But take that same thing and make it a point to watch TV, play a console game, or any consumption-focused activity, and do it with someone or a group of people. And there you have a social gathering.&lt;/p&gt;
+&lt;p&gt;Not isolated. Not alone. Not drained.&lt;/p&gt;
+&lt;p&gt;But connected and energised.&lt;/p&gt;
+</content>
+    <link href="https://prasatt.me/make-vices-social/" rel="alternate"/>
+    <published>2026-04-14T12:53:18.029515+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.wmprkr.xyz/the-kindness-of-digital-strangers/</id>
+    <title>The Kindness of Digital Strangers</title>
+    <updated>2026-04-14T12:19:00+00:00</updated>
+    <author>
+      <name>wmprkr</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I'm posting this text directly from BearBlog, which is different cos I typically type into Obsidian first, but this is not one of those times.&lt;/p&gt;
+&lt;p&gt;I wanted to come on here and say was genuinely smiling after reading this post: &lt;strong&gt;&lt;a href='https://moodywarlock.net/bear-blog-and-the-kindness-of-digital-strangers/'&gt;Bear Blog and the kindness of digital strangers&lt;/a&gt;&lt;/strong&gt; by &lt;a href='https://moodywarlock.net/'&gt;The Moody Warlock&lt;/a&gt; and wanted to share it with anyone who read this blog.  This is the exact kind of Small Web culture we need to embrace and strengthen. ■&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div class="afterword"&gt;  
+&lt;p&gt;🎧 &lt;em&gt;&lt;strong&gt;Traffic outside my window&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;  
+  &lt;p class="qt-line"&gt;
+    &lt;span class="qt-icon"&gt;&lt;a href="https://www.wmprkr.xyz/contact"&gt;✉️&lt;/a&gt;&lt;/span&gt;
+    &lt;span class="qt-text"&gt;
+      &lt;em&gt;&lt;a href="mailto:reply@wmprkr.xyz?subject=re: The Kindness of Digital Strangers"&gt;Reply by Email&lt;/a&gt;&lt;/em&gt;
+    &lt;/span&gt;
+  &lt;/p&gt;
+  &lt;p class="qt-line qt-line--bubbles"&gt;
+    &lt;span class="qt-icon"&gt;&lt;a href="https://bubbles.town/random?lang=en"&gt;🫧&lt;/a&gt;&lt;/span&gt;
+    &lt;span class="qt-text"&gt;
+      &lt;span class="bubbles-vote" data-format="minimal"&gt;&lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;script src="https://bubbles.town/vote.js" defer&gt;&lt;/script&gt;
+</content>
+    <link href="https://www.wmprkr.xyz/the-kindness-of-digital-strangers/" rel="alternate"/>
+    <published>2026-04-14T12:19:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://electronicink.xyz/my-personal-archive-system/</id>
+    <title>My Personal Archive System</title>
+    <updated>2026-04-14T10:48:00+00:00</updated>
+    <author>
+      <name>electronicink</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I shared a &lt;a href='https://electronicink.xyz/personal-archive/'&gt;post&lt;/a&gt; on here previously about &lt;a href='https://jamierubin.net/2024/12/21/my-personal-archive-system/'&gt;Jamie Todd Rubin's personal archive system (PAS)&lt;/a&gt;. I have now started to implement my own. Doing this is something that's always interested me. I feel it's important to preserve details from your own life to look back on. It gives you good and bad memories to reflect on and you can build on these and live a more intentional life. My PAS differs from Jamie's in a few ways.&lt;/p&gt;
+&lt;p&gt;My PAS is centred on Obsidian. This is the central hub for everything. I use Dropbox for storage and link into Obsidian for things like PDFs, saved email etc. Dropbox provides a unique URL for each file. I then link it in Obsidian like so [descriptive filename](dropbox link).&lt;/p&gt;
+&lt;p&gt;I use Google Photos for photos and videos. I can then link into Obsidian using links again, using the same markdown URL method I mentioned above.&lt;/p&gt;
+&lt;p&gt;A key to linking in Obsidian is using descriptive filenames. This is essential for searching, as the actual document is not stored in Obsidian itself.&lt;/p&gt;
+&lt;p&gt;The choice to store documents externally for the most part is one based on speed. I want Obsidian to remain lightning fast even years down the line. If I bloat it with 100s of GB of documents this will slow it down and ruin the experience.&lt;/p&gt;
+&lt;p&gt;I want my archive to be available for me on all devices. For this I use &lt;a href='https://obsidian.md/sync'&gt;Obsidian Sync&lt;/a&gt;. This is another reason for the external storage. Obsidian only provides 100GB of storage for their sync, so I don't ever want to run out.&lt;/p&gt;
+&lt;p&gt;My Obsidian setup is based around the daily note. I use a template for these.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/electronicink/img_3830.webp"&gt;
+  &lt;figcaption&gt;My Daily Notes template.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;The daily note starts with a weather section. My grandad used to write in his diary the weather each day, just a line, and he said it helped him remember the day. So I have tried to do the same here. This causes me a few problems though. I'm based in Scotland, and we can have all the seasons in a day, which one to put - the snowstorm in the morning, the bright sunshine in the afternoon or the deluge in the evening? I did try and automate this but it was a bit much. I'm looking for other ways to automate this.&lt;/p&gt;
+&lt;p&gt;Next section is the log. This is where I log my day. What happened, who I spoke to, what I did - anything like that. This section can be fairly detailed or just a few lines depending on the day. This is the most important section for me. I also have a subheading in this section for reflections on the day. This part focuses less on what happened, and more about my thoughts on what happened.&lt;/p&gt;
+&lt;p&gt;After that comes the links section. Anything linked from Obsidian goes here. I also link other notes made on this day in this section.&lt;/p&gt;
+&lt;p&gt;Media Consumption is next. This is where I record what I've read for that day. I also use it to record any YouTube videos or podcasts that I've consumed that day. I might jot down a few notes here, or I might make a separate note and put the notes down there if I have more thoughts. I try and link to the article/video from this section too.&lt;/p&gt;
+&lt;p&gt;And the final section is Completed Tasks. I use &lt;a href='https://www.todoist.com/'&gt;Todoist&lt;/a&gt; to manage my tasks. I would really like a system where I could have all tasks added, completed and deleted appear in the Daily Note. Unfortunately, I can't find an easy, neat way of doing this. Therefore I settle for completed tasks. I use the plugin Todoist Completed Tasks to manage this. I do import all tasks created, deleted and completed in plain text into my weekly note.&lt;/p&gt;
+</content>
+    <link href="https://electronicink.xyz/my-personal-archive-system/" rel="alternate"/>
+    <published>2026-04-14T10:48:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ulik.bearblog.dev/malicious-anti-adblocking/</id>
+    <title>Malicious anti-adblocking</title>
+    <updated>2026-04-14T10:39:13.870003+00:00</updated>
+    <author>
+      <name>ulik</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Some days ago, browsing my RSS feed as usual I got some very weird error in a blog I (now used) to read. A few days later the the same happened, but then after the crash appeared a message to disable my adblock.&lt;/p&gt;
+&lt;p&gt;If they make the webpage crash because I don't allow ads, I'm better not accessing the site anymore.&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; I guess the most I lose is access to comments. The most interesting part which was the link collection they posted once in a while can still be read via my RSS reader.&lt;/p&gt;
+&lt;p&gt;To make things worse, the post-crash page says the ads are reasonable. They are not, they're the same as every other site with ads.&lt;/p&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;I also got the same error with another site I found while browsing. I guess I don't need to access that one too.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://ulik.bearblog.dev/malicious-anti-adblocking/" rel="alternate"/>
+    <published>2026-04-14T10:39:13.870003+00:00</published>
+  </entry>
+  <entry>
+    <id>https://myjourneywithdepression.com/watching-a-transgender-woman-on-the-internet-crying-5-times/</id>
+    <title>Watching "A Transgender Woman on the Internet, Crying" 5 Times</title>
+    <updated>2026-04-14T07:55:00+00:00</updated>
+    <author>
+      <name>spam</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Spoiler note:&lt;/strong&gt; This post discusses specific themes, character dynamics, and a few scenes from &lt;em&gt;A Transgender Woman on the Internet, Crying&lt;/em&gt;. It is more interested in the show’s ideas but may affect your enjoyment of the show compared to going in blind.&lt;/p&gt;
+&lt;p&gt;I watched &lt;em&gt;A Transgender Woman on the Internet, Crying&lt;/em&gt; five times.&lt;/p&gt;
+&lt;p&gt;That is probably the clearest review I can give it, but it is also not quite enough. After the first night I left thinking almost immediately "fuck it, I’m buying four more tickets so I can make every remaining show I’m able to make".&lt;/p&gt;
+&lt;p&gt;At first that was easy to explain. I loved the music, the humour and the staging. The hyperpop energy, the internet language and the speed of it all landed for me immediately. It was sharp, funny, and musically strong.&lt;/p&gt;
+&lt;p&gt;The deeper answer is that each time I went back the show opened into something else. The first time it felt exciting and validating. The second time it felt sadder. The third time it got bigger. The fourth time it got tangled up with my own anxiety. The fifth time it stopped feeling like just a show I admired and started feeling like proof that some other version of life might still be possible.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=as-a-production&gt;As a production&lt;/h1&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/spam/atwotic.webp" alt="ATWOTIC" /&gt;&lt;/p&gt;
+&lt;p&gt;Before the show had even properly started it already had me. The graffiti-covered set and the hyperpop playing as people filed in set the tone immediately.&lt;/p&gt;
+&lt;p&gt;The production is also just smart. The lighting does a huge amount of work. The same set can read as one whole environment and then with one part isolated suddenly become somewhere else entirely. The phone and online communication are staged well too. Streams, calls and digital interaction all feel built into the show rather than awkwardly explained.&lt;/p&gt;
+&lt;p&gt;And the songs are excellent. That was one of the simplest reasons I kept going back. Even once I started having more complicated thoughts about the show the basic fact remained that I really liked listening to it.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=the-room&gt;The room&lt;/h1&gt;&lt;p&gt;Part of what I was going back for was the room itself.&lt;/p&gt;
+&lt;p&gt;The lighting was dim enough that I was not hyper-aware of how I looked. The expectations on me as an audience member felt clear. The whole atmosphere felt welcoming to trans people in a way that made me relax almost immediately.&lt;/p&gt;
+&lt;p&gt;That is not always how queer spaces have felt to me. I had been to a drag show before and spent a lot of it feeling on edge, like simply being there was some kind of personal risk. This did not feel like that. It felt safer, smaller, more intimate. More obviously built for trans people rather than merely open to them.&lt;/p&gt;
+&lt;p&gt;That matters because part of what I kept returning to was the feeling of sitting somewhere I did not have to justify my existence as much.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=first-viewing-recognition&gt;First viewing: recognition&lt;/h1&gt;&lt;p&gt;The first time was the cleanest. I loved it immediately.&lt;/p&gt;
+&lt;p&gt;A lot of what I normally only think or half-say suddenly existed in front of me without apology. Not passing, being non-binary and transfemme, different transition goals, the pressure to be seen as valid. Even the Grindr material hit something very recognisable for me especially the ugly overlap between sexualisation and affirmation where part of you can still feel seen by something that is also creepy, flattening, or wrong.&lt;/p&gt;
+&lt;p&gt;The idea of the “perfect trans girl” landed immediately too. On that first viewing I understood it mainly as a critique of passing politics, of palatability, of becoming the kind of trans woman cis people can tolerate because she is polished, legible and easy to explain.&lt;/p&gt;
+&lt;p&gt;The non-binary transfemme representation mattered more to me than I expected. Often I feel like the only person on earth who identifies that way, still wants to take significant steps in transition and also likes girls. When you do not see that combination reflected back at you it becomes easy to think maybe you are doing something wrong. Maybe you are just embarrassing.&lt;/p&gt;
+&lt;p&gt;Most of my friends are cis, mostly straight, mostly men. When transness comes up in my actual life it often feels like I have to carve out just enough room for it. Enough to say something real, not enough to make the atmosphere strange. This show did not feel like that. It felt like it was naming things completely.&lt;/p&gt;
+&lt;p&gt;That alone would have been enough to make me love it.&lt;/p&gt;
+&lt;p&gt;And when I left that first show, I did what people do when they know they have found something rare. I bought more time with it.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=second-viewing-the-perfect-trans-girl&gt;Second viewing: the “perfect trans girl”&lt;/h1&gt;&lt;p&gt;The second time, my reading of the show started shifting.&lt;/p&gt;
+&lt;p&gt;By then the “perfect trans girl” material already felt less simple. I started seeing more of the shame sitting underneath that character. More fear, more of the desperate logic of trying to become safe by becoming understandable. It stopped feeling like a clean divide between the right trans politics and the wrong ones. It started feeling more like a story about what different people do when they are forced to survive under the same hostile standard.&lt;/p&gt;
+&lt;p&gt;Some people get moulded by cis expectations and try to become the perfect trans girl because that seems like the safest path. Some people do not fit those expectations neatly and end up having to fight harder for their experience to be treated as valid. One of the ugliest things the show understands is that the people most shaped by those expectations can end up reinforcing them against other trans people.&lt;/p&gt;
+&lt;p&gt;That is part of what made the scene where trans people cancel another trans character online as transphobic so important to me. It complicates any easy reading where cis society is the only source of pressure and trans people are simply united on the other side. The show knows that trans people can police each other too. It also knows that this policing does not come from nowhere. People can think they are defending trans people and still become cruel, punitive and flattening in the way they do it.&lt;/p&gt;
+&lt;p&gt;What I took from that was not that one side was correct. It was that the standard itself was doing the damage.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=third-viewing-being-read&gt;Third viewing: being read&lt;/h1&gt;&lt;p&gt;By the third viewing, one phrase had started sticking in my head:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;being read versus being understood.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That is the clearest way I can explain what the internet side of the show was doing for me.&lt;/p&gt;
+&lt;p&gt;Online you can present yourself more deliberately. You can choose your words, your photos, your communities and the parts of yourself you highlight. You are not always dealing as directly with people who knew you before transition or with the immediate weight of the cis gaze in a physical room. That can make understanding feel more possible online than offline.&lt;/p&gt;
+&lt;p&gt;But online also makes misreading scale.&lt;/p&gt;
+&lt;p&gt;You can present yourself more honestly and still get flattened into a trope. You can be sexualised and get a gross little flicker of affirmation from it. You can try to explain yourself and find that people prefer the easier version of you.&lt;/p&gt;
+&lt;p&gt;One of the sharpest examples of that in the show is the way one character gets categorised as a “heteroflexible boy toy.” That label does a huge amount of flattening in very little space. It turns a person into a role in someone else’s story. It rewrites desire, gender, and subjectivity all at once into something legible, jokey, and consumable.&lt;/p&gt;
+&lt;p&gt;That stayed with me because it felt very close to a logic I recognise in myself.&lt;/p&gt;
+&lt;p&gt;Not the exact label obviously, but the compromise underneath it.&lt;/p&gt;
+&lt;p&gt;Maybe it is fine if people call me a femboy. Maybe that is close enough. Maybe that gives me enough room to wear what I want, to be softer, to be prettier, to move through the world in a way that feels less suffocating. Maybe it does not matter if they do not acknowledge that I actually want to be a woman. Maybe I can keep that part private and still take what I can get.&lt;/p&gt;
+&lt;p&gt;That is not the same as being understood. It is being read in a way that hurts less than some of the alternatives.&lt;/p&gt;
+&lt;p&gt;And that is part of what the show got right for me: compromise can feel survivable while still being a loss.&lt;/p&gt;
+&lt;p&gt;This was also the viewing where the followers started to feel bigger than literal followers. I had started reading them as a representation of society at large speaking through followers. Mostly cis people rewarding a whole package rather than one trait: passing, palatability, straight-coded femininity, respectability, and being easy to understand from the outside.&lt;/p&gt;
+&lt;p&gt;At the same time the show leaves room for another version of online life too: smaller forms of trans connection that feel less like audience and more like actual understanding. Friendship where you do not have to justify your existence as much. Friendship where you are not immediately being converted into a role.&lt;/p&gt;
+&lt;p&gt;That distinction mattered to me a lot.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=fourth-viewing-anxiety&gt;Fourth viewing: anxiety&lt;/h1&gt;&lt;p&gt;Not every viewing deepened the show in a satisfying way.&lt;/p&gt;
+&lt;p&gt;By the fourth show, I was so aware of myself being there that I could barely enjoy it properly. I was sitting at the back and every time an actor looked off into the distance it felt like they were somehow looking at me. I know that sounds irrational, it was irrational but it changed the experience completely. I stopped watching the show and started watching myself watch it.&lt;/p&gt;
+&lt;p&gt;Part of what made that so uncomfortable was the fear of how I might be seen for coming back so many times. I started worrying that the cast might think I had some kind of parasocial attachment to the show or that I was being greedy by taking up space at something other people wanted to see. Rationally I knew I was just behaving like an audience member but emotionally it felt much harder to believe that.&lt;/p&gt;
+&lt;p&gt;That ended up mattering too.&lt;/p&gt;
+&lt;p&gt;It stopped being just about a brilliant production I loved. It became tangled up with embarrassment, scarcity, anxiety and the fear of wanting something too much. Even something good can get distorted once you become too conscious of yourself in relation to it.&lt;/p&gt;
+&lt;p&gt;That is part of the honest version of this story. I did not simply love it five times in a row, at one point I got too in my own head to digest it properly at all.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=fifth-viewing-what-it-opened-up&gt;Fifth viewing: what it opened up&lt;/h1&gt;&lt;p&gt;The fifth viewing was different. I took Valium before going and actually enjoyed it again.&lt;/p&gt;
+&lt;p&gt;That was also the viewing where some of the family material hit me hardest. One character talking about conservative parents and constant misgendering and the way the other characters supported her was incredibly moving. It made me want that kind of community more than anything else.&lt;/p&gt;
+&lt;p&gt;It also left me with a simpler thought than I usually allow myself: who gives a shit how I look in a skirt if it makes me happy?&lt;/p&gt;
+&lt;p&gt;That sounds small. It did not feel small.&lt;/p&gt;
+&lt;p&gt;A lot of what the show stirred up was already there. It did not invent it. It just made it harder to ignore.&lt;/p&gt;
+&lt;p&gt;It also made my longing for trans friendship more obvious. Not vague community in the abstract but friendship with people who understand certain things without me having to soften or translate them. Friendship where my existence is not always slightly up for debate. Friendship where I do not have to wonder which box someone has silently put me in.&lt;/p&gt;
+&lt;p&gt;That part hit even harder because all of my close friends are cis-het. I care about them but it often feels like I have to delicately carve out room for conversations about transness. Sometimes it was nice to go with different friends and point out the little in-jokes or references. Sometimes it was nice to let the show explain something by proxy that I would otherwise have had to explain myself. While waiting for one show, a friend misgendered me while we were in line, and later the show touched on the way non-binary transfemme people can get assumed to be trans women in ways that miss something important. It was a relief not to have to carry all of that explanation alone.&lt;/p&gt;
+&lt;p&gt;The family material got to me too. One character having non-accepting family and another seeming to have something more accepting or at least more workable made me think harder about my own family secrecy. I know it would go badly but it has become clearer to me that keeping everything in the dark is not neutral. It is one of the biggest things limiting what more visible steps in my transition can even feel possible.&lt;/p&gt;
+&lt;p&gt;After the final show I thanked one of the actors. I was awkward (as I usually am in social situations) but it still gave me some relief. It reminded me that a lot of the anxiety had been mine, not something actually coming from outside.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=conclusion&gt;Conclusion&lt;/h1&gt;&lt;p&gt;The simple answer is that I watched &lt;em&gt;A Transgender Woman on the Internet, Crying&lt;/em&gt; five times because I thought it was excellent.&lt;/p&gt;
+&lt;p&gt;That answer is true, but incomplete.&lt;/p&gt;
+&lt;p&gt;I watched it because after the first viewing I wanted every remaining chance I could get to experience it again. I watched it because the music and performances were good enough to justify that impulse. I watched it because each return made the show feel deeper, sadder, more complicated and more important. I watched it because for a few hours at a time I could sit in a room where my version of transness still counted.&lt;/p&gt;
+&lt;p&gt;That feeling did not survive intact once I went back to normal life. It lasted a few hours, sometimes into the next day and then ordinary life closed back over it again.&lt;/p&gt;
+&lt;p&gt;But it was real while it lasted.&lt;/p&gt;
+&lt;p&gt;And that has made some things harder to ignore. The desire for trans friendship. The desire to dress more freely. The frustration of family secrecy. The possibility that I might be happier if I stopped treating every step toward being myself like something I need to defend in advance.&lt;/p&gt;
+&lt;p&gt;So yes, I watched it five times because I thought it was excellent.&lt;/p&gt;
+&lt;p&gt;I also watched it five times because for a little while it made a different life feel close enough to touch.&lt;/p&gt;
+</content>
+    <link href="https://myjourneywithdepression.com/watching-a-transgender-woman-on-the-internet-crying-5-times/" rel="alternate"/>
+    <published>2026-04-14T07:55:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://woolgathering.bearblog.dev/one-ticket-for-two-movies-please/</id>
+    <title>one ticket for two movies, please!</title>
+    <updated>2026-04-14T05:39:00+00:00</updated>
+    <author>
+      <name>woolgathering</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;i love the idea of double features and constantly wish they were not a thing of the past. more than just a two-for-one deal to save a couple of bucks, the appeal of the double feature to me is seeing two different movies and — in scorsese's words — &lt;strong&gt;putting them in conversation with one another.&lt;/strong&gt; it's a great way to see the same themes through different lenses. sometimes the beauty is in one picture being inspired by another; a sort of love letter or homage. sometimes it's in how two vastly different films will arrive at the same point. other times it's an inexplicable "just vibes" kind of thing.&lt;/p&gt;
+&lt;p&gt;in the spirit of bringing them back (albeit at home instead of the cinema), i have compiled a short list of movies that i personally think would make pretty neat double features and included a blurb about why i think so down below!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=being-annoying-as-a-love-language&gt;being annoying as a love language&lt;/h2&gt;&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/c1aezOQySwAu7KIcLygtYKoBbs9.jpg" alt="bringing up baby" /&gt;&lt;/p&gt;
+&lt;h4 id=embringing-up-babyem-1938-dir-howard-hawks-emwhats-up-docem-1972-dir-peter-bogdanovich&gt;&lt;em&gt;bringing up baby&lt;/em&gt; (1938) dir. howard hawks &amp; &lt;em&gt;what's up, doc?&lt;/em&gt; (1972) dir. peter bogdanovich&lt;/h4&gt;&lt;p&gt;i'm a huge fan of screwball comedies so i figured i'd start off the list with two that i find quite delightful. both movies have the same plot: a dopey, nerdy male lead is in an unhappy relationship with an overbearing woman and is relentlessly pursued by the also overbearing, but far more whimsical female lead who has fallen in love with him. as you can imagine by the theme i've used to tie these two into a double feature, this goal of mutual love is achieved by inconveniencing the male party. &lt;em&gt;bringing up baby&lt;/em&gt; was a direct influence for &lt;em&gt;what's up, doc?&lt;/em&gt; and bogdanovich was kind of a nostalgiapilled director during his working years, so his film was paying respects to hawks. despite having the same initial set-up, both films make the farcical situation it thrusts both its leads into their very own.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/vSjeXDni0xQWF983UKRRAh8Akbk.jpg" alt="what's up, doc?" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=the-long-silent-heist&gt;the long, silent heist&lt;/h2&gt;&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/AlxVOcAA6SK02TbKS2qbxThmwgb.jpg" alt="rififi" /&gt;&lt;/p&gt;
+&lt;h4 id=emrififiem-1955-dir-jules-dassin-emle-cercle-rougeem-1970-dir-jean-pierre-melville&gt;&lt;em&gt;rififi&lt;/em&gt; (1955) dir. jules dassin &amp; &lt;em&gt;le cercle rouge&lt;/em&gt; (1970) dir. jean-pierre melville&lt;/h4&gt;&lt;p&gt;as a lover of noirs &lt;strong&gt;and&lt;/strong&gt; procedurals, both &lt;em&gt;rififi&lt;/em&gt; and &lt;em&gt;le cercle rouge&lt;/em&gt; couldn't be more up my alley. the two films tackle the nitty-gritty of heist planning and french criminal underworlds with an aesthetically subdued but incredibly tense atmosphere that never lets up, amplified by half hour long heist sequences done in total silence. interestingly, &lt;em&gt;rififi&lt;/em&gt; was originally meant to be directed by melville who instead gave the directorial role to dassin, blacklisted by hollywood at the time and in desperate need of a gig after having relocated to europe. &lt;em&gt;le cercle rouge&lt;/em&gt;, i think, is a great follow-up to see how &lt;em&gt;rififi&lt;/em&gt; would have been handled had the project been in melville's hands.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/1HQZa6JZTUmiPO0nXHtnrhLi9Jd.jpg" alt="le cercle rouge" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=satirizing-the-press-with-a-screenplay-that-bites&gt;satirizing the press with a screenplay that bites&lt;/h2&gt;&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/hWJ5tkNLRSqWeVzQ3tsGlNgonj8.jpg" alt="his girl friday" /&gt;&lt;/p&gt;
+&lt;h4 id=emhis-girl-fridayem-1940-dir-howard-hawks-emsweet-smell-of-successem-1957-dir-alexander-mackendrick&gt;&lt;em&gt;his girl friday&lt;/em&gt; (1940) dir. howard hawks &amp; &lt;em&gt;sweet smell of success&lt;/em&gt; (1957) dir. alexander mackendrick&lt;/h4&gt;&lt;p&gt;i mentioned earlier that one of the fun ways to tackle double features is through two movies with identical messaging but a dissimilar approach. i think a more standard companion for &lt;em&gt;his girl friday&lt;/em&gt; would be &lt;em&gt;the front page&lt;/em&gt; (1931) while &lt;em&gt;sweet smell of success'&lt;/em&gt; would be &lt;em&gt;ace in the hole&lt;/em&gt; (1951) — but the truth is that the compliments i have for &lt;em&gt;sweet smell of success&lt;/em&gt; can be said just the same for &lt;em&gt;his girl friday&lt;/em&gt;, making me think they might work as a jarring, tonally opposite pairing. together, the two movies dissect the immorality and corruption of the press and how reporters will do just about anything to spin a story the way &lt;strong&gt;they&lt;/strong&gt; want it told; with both films being known mostly for their immaculate screenwriting. &lt;em&gt;his girl friday&lt;/em&gt; features rapid-fire&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;, witty banter between grant and russell that often overlaps (you may want to watch this one with subtitles) while &lt;em&gt;sweet smell of success&lt;/em&gt; has some of the sharpest and tightest dialogue work i've seen — seriously, not a single line is wasted. the key difference is in that the former is a screwball comedy, and the latter is a noir and thriller.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/3AC7fSTWMPcoeBcHywZmSCVhLKp.jpg" alt="sweet smell of success" /&gt;&lt;/p&gt;
+&lt;div class="note"&gt;
+	&lt;span class="note-label"&gt;content warning&lt;/span&gt;
+	there's a couple of outdated racist terms used in his girl friday, as well as a brief scene of one of the characters throwing herself out the window
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=henry-fonda-is-morally-troubled&gt;henry fonda is morally troubled&lt;/h2&gt;&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/A1aJIo66DkwjWCZOPdRdShzDW2O.jpg" alt="the ox-bow incident" /&gt;&lt;/p&gt;
+&lt;h4 id=emthe-ox-bow-incidentem-1943-dir-william-a-wellman-em12-angry-menem-1957-dir-sidney-lumet&gt;&lt;em&gt;the ox-bow incident&lt;/em&gt; (1943) dir. william a.  wellman &amp; &lt;em&gt;12 angry men&lt;/em&gt; (1957) dir. sidney lumet&lt;/h4&gt;&lt;p&gt;if there's a role that involves a man in the throes of a difficult situation that imposes on his desire to be a good person, henry fonda's going to have it. although &lt;em&gt;12 angry men&lt;/em&gt; has certainly received its flowers, &lt;em&gt;the ox-bow incident&lt;/em&gt; remains largely unknown despite their similar themes. this pair of films feature fonda as a protagonist struggling to reason with a mob over an accused party's potential innocence. while both movies share a similar premise, it's in how they tackle the influence of fonda's character over the group that differs. &lt;em&gt;the ox-bow incident&lt;/em&gt; is far more bleak in displaying the hopelessness of a single voice getting lost in a crowd, while &lt;em&gt;12 angry men&lt;/em&gt; shows how that single voice — if heard — might lead others to rationality. they're both great movies steeped in rich dialogue.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/qqHQsStV6exghCM7zbObuYBiYxw.jpg" alt="12 angry men" /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=dudes-setting-awful-examples&gt;dudes setting awful examples&lt;/h2&gt;&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/kXMiytZZeEUf60V0xiGSO36Gawn.jpg" alt="il sorpasso" /&gt;&lt;/p&gt;
+&lt;h4 id=emil-sorpassoem-1962-dir-dino-risi-emhudem-1963-dir-martin-ritt&gt;&lt;em&gt;il sorpasso&lt;/em&gt; (1962) dir. dino risi &amp; &lt;em&gt;hud&lt;/em&gt; (1963) dir. martin ritt&lt;/h4&gt;&lt;p&gt;although &lt;em&gt;il sorpasso&lt;/em&gt; and &lt;em&gt;hud&lt;/em&gt; share overall themes of societal critique, the sort of sameness i'm banking on is that of an upright, earnest, young man being corrupted by an older man with a passion for being a hedonistic asshole. just like one of the previous examples, they're tonally different in that &lt;em&gt;il sorpasso&lt;/em&gt; is a comedy and &lt;em&gt;hud&lt;/em&gt; is a drama. it's also interesting to me that both of our young protagonists recognize the inherent shittiness of the older ones, but find themselves charmed anyway. it makes the growth of these protégés all the more engaging as they're caught in between giving in to and resisting such influences.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://image.tmdb.org/t/p/original/nEVoFQPFpYrZh6cKw4XzhpOm8is.jpg" alt="hud" /&gt;&lt;/p&gt;
+&lt;div class="note"&gt;
+	&lt;span class="note-label"&gt;content warning&lt;/span&gt;
+	there's a scene of a rape attempt in hud roughly halfway through the film &amp; lots of animal death towards the finale (no animals were harmed during filming!)
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;that concludes my short list! if you give any of these a shot, let me know how they turn out. tell me if you liked them or not, if you think another film might have been a better pick for a double feature, or if you have any other suggestions for a double feature for &lt;em&gt;me&lt;/em&gt; to try out. i'd love to hear from you!&lt;/p&gt;
+&lt;div class="meta"&gt;also throwing this in as an extra for readers who've made it to the end, but &lt;i&gt;swing girls&lt;/i&gt; (2004) dir. shinobu yaguchi and &lt;i&gt;linda linda linda&lt;/i&gt; (2005) dir. nobuhito yamashita would probably make a great girls being girls while pursuing music double feature.&lt;/div&gt;
+&lt;div class="reply-email"&gt;
+  &lt;a href="mailto:hellowoolgathering@proton.me?subject=Re:%20one ticket for two movies, please!"&gt;reply to this post&lt;/a&gt;
+&lt;/div&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;typically, one page of a screenplay lasts about 1 minute. at 92 minutes, &lt;em&gt;his girl friday's&lt;/em&gt; screenplay should have roughly 90 pages. instead, it has a whopping 191 pages meaning that its dialogue goes by twice as fast as the standard movie!&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://woolgathering.bearblog.dev/one-ticket-for-two-movies-please/" rel="alternate"/>
+    <published>2026-04-14T05:39:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.spu.io/di-day-2026-04/</id>
+    <title>Digital Independence Day ✊ April 2026</title>
+    <updated>2026-04-13T21:59:00+00:00</updated>
+    <author>
+      <name>spu</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I gotta be real, the list of Bad Places™ I'd like to leave behind has been growing for years and seems to only be expanding. To the point where it feels too overwhelming to even get started. Which is why I haven't as much progress in that area as I'd like to. Enter: &lt;a href='https://di.day/' target='_blank'&gt;DI.DAY&lt;/a&gt; (website currently only available in German, other languages "coming soon")&lt;/p&gt;
+&lt;p&gt;DI DAY, or Digital Independence Day happens every first Sunday of the month and is a call to leave some of the billionaire owned, quasi-monopoly tech-platforms controlling our lives in favor of smaller, more open alternatives.&lt;/p&gt;
+&lt;p&gt;A perfect opportunity to get started crossing some points off of that to-leave list, so I've decided to dedicate that first Sunday each month to one of those oh-man-I'd-like-to-I-just-never-get-around-to-s. And when that is too much, when it's a bad day, when an entire day is overwhelming, at least do a little something, or get started on it. Some transitions need a little time, aren't done in just a day, but can be easy to get started with.&lt;/p&gt;
+&lt;p&gt;This month I've installed &lt;a href='https://vscodium.com' target='_blank'&gt;VSCodium&lt;/a&gt; - an alternative to VSCode. Though "alternative" is kind of underselling it. It IS VSCode, minus Microsoft's tracking and "AI"-pushing. The code of VSCode is open source, but the app itself is not. You could just head on over to GitHub and build VSCode from source, VSCodium exists so you don't have to.&lt;/p&gt;
+&lt;p&gt;How this is going to go we'll have to see. I'm going to need some day-to-day time with it, check if I'll run into any deal-breakers. One of the benefits of VSCode is the vast ecosystem of extensions and plugins, which should work with VSCodium, but some are only licensed to be distributed through Microsoft's store. I can't really think of anything where I'm expecting this to be a problem, I have no plans to install Copilot, in fact, it's one of the things I want to get away from, but you'll never know what else this may apply to.&lt;/p&gt;
+&lt;p&gt;This has been my first DI-Day, and it's certainly one of those small steps ones, but you gotta get started somewhere.&lt;/p&gt;
+&lt;p&gt;Oh, and I also moved my website from a big name, overpriced, under-featured, upselling, AI-pushing, traditional webhost to Bear, that should count too, right?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/weekly-creative-code-challenge-pattern" title="Weekly Creative Code Challenge &amp;quot;Pattern&amp;quot; 🍥"&gt;Previous&lt;/a&gt; | &lt;a class="next-post" href="/the-daily-question" title="The Daily Question"&gt;Next&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+</content>
+    <link href="https://blog.spu.io/di-day-2026-04/" rel="alternate"/>
+    <published>2026-04-13T21:59:00+00:00</published>
+  </entry>
+</feed>

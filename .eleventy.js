@@ -646,13 +646,22 @@ ${tabsMarkup}
     }
   });
 
-  // Collection for all unique tags
+  // Collection for all unique tags, normalized to lowercase so tag
+  // archives stay case-insensitive.
   eleventyConfig.addCollection("tagList", function(collection) {
     const tagsSet = new Set();
     collection.getAll().forEach(item => {
-      (item.data.tags || []).forEach(tag => tagsSet.add(tag));
+      (item.data.tags || []).forEach(tag => tagsSet.add(String(tag).toLowerCase()));
     });
     return [...tagsSet];
+  });
+
+  eleventyConfig.addFilter("postsByTagInsensitive", function(collection, tag) {
+    const needle = String(tag).toLowerCase();
+    return collection.filter(item => {
+      const tags = item.data.tags || [];
+      return tags.some(itemTag => String(itemTag).toLowerCase() === needle);
+    });
   });
 
   // Group posts by year
