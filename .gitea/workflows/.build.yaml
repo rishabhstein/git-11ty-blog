@@ -1,0 +1,33 @@
+name: Build 11ty notes
+run-name: ${{ gitea.actor }} is testing out Gitea Actions 🚀
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: raspberrypi
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Optional but clean — ensure correct Node version
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # 🚨 IMPORTANT CHANGE HERE
+      # Use npm ci so the lockfile is enforced 100%
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Eleventy
+        run: npx @11ty/eleventy
+
+      - name: Deploy to blog path
+        run: |
+          rm -rf /deploy/*
+          cp -rp _site/* /deploy/
