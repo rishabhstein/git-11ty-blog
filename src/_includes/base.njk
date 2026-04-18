@@ -17,8 +17,7 @@
     <!-- Le styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/assets/css/style.css?v=1.2">
-    <link rel="stylesheet" href="/assets/css/mastodon.css?v=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1.3">
     <!-- <link rel="stylesheet" href="/assets/css/snow.css?v=1.0">
     <link rel="stylesheet" href="/assets/css/christmas-light.css"> -->
 
@@ -36,9 +35,19 @@
     <script src="/assets/js/status-ticker.js" defer></script>
     <script src="/assets/js/image-reveal.js?v=2.5" defer></script>
     <audio id="sidebar-music" src="/assets/sounds/blog_background.mp3" preload="auto" loop></audio>
+    <audio id="focus-mode-sound" src="/assets/sounds/angel-harp.mp3" preload="auto"></audio>
 
 </head>
 <body class="{{ pageClass or '' }}">
+<script>
+  try {
+    if (localStorage.getItem("focus-mode-enabled") === "1") {
+      document.body.classList.add("focus-mode");
+    }
+  } catch (error) {
+    // Ignore storage failures and let the deferred script restore state later.
+  }
+</script>
 <!--
 <ul class="strand">
 	<li></li>
@@ -105,7 +114,7 @@
     <button class="toggle-sidebar">🎶 Music</button>
     <div class="layout-wrapper">
     {% if page.url == "/" %}
-    <div class="main-content">
+    <div class="main-content home-shell">
       {{ content | safe }}
     </div> <!--main content end-->
     {% else %}

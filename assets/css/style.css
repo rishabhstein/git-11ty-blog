@@ -190,6 +190,7 @@ body {
 .telegraph-topline {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 8px;
   font-size: 13px;
   margin: 0;
@@ -209,6 +210,150 @@ body {
 .telegraph-topline a:hover,
 .telegraph-topline a:focus {
   text-decoration: underline;
+}
+
+.focus-mode-toggle {
+  margin-left: auto;
+  flex: 0 0 auto;
+  padding: 4px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #f5f8ff;
+  font: inherit;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.focus-mode-toggle:hover,
+.focus-mode-toggle:focus-visible {
+  background: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+}
+
+.focus-mode-toggle[aria-pressed="true"] {
+  background: #f5f8ff;
+  border-color: #f5f8ff;
+  color: #173a66;
+}
+
+body.focus-mode-transition::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1400;
+  background:
+    radial-gradient(circle at 50% 20%, rgba(255, 255, 255, 0.34), transparent 45%),
+    linear-gradient(180deg, rgba(255, 248, 230, 0.26), rgba(255, 248, 230, 0));
+  animation: focus-sheen-fade 2.6s ease forwards;
+}
+
+body.focus-mode-transition .page-header,
+body.focus-mode-transition .layout-wrapper {
+  transition: transform 0.85s ease, opacity 0.85s ease, filter 0.85s ease;
+  opacity: 0.92;
+  transform: translateY(8px) scale(0.995);
+  filter: blur(0.45px) saturate(1.05);
+}
+
+body.focus-mode-transition .page-header {
+  box-shadow: 0 18px 42px rgba(107, 75, 47, 0.16);
+}
+
+.focus-mode-particles {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1450;
+  overflow: hidden;
+}
+
+.focus-mode-petal {
+  position: absolute;
+  left: var(--x);
+  top: var(--start-y);
+  transform: translateX(0) translateY(0) scale(var(--scale)) rotate(0deg);
+  font-size: 19px;
+  line-height: 1;
+  color: var(--petal-color);
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.22);
+  opacity: 0;
+  animation-duration: var(--duration);
+  animation-timing-function: ease-in-out;
+  animation-delay: var(--delay);
+  animation-fill-mode: forwards;
+}
+
+.focus-mode-petal:nth-child(odd) {
+  filter: saturate(1.18);
+}
+
+.focus-mode-petal:nth-child(3n) {
+  filter: saturate(1.12) brightness(1.04);
+}
+
+.focus-mode-petal-left {
+  animation-name: focus-petal-drift-left;
+}
+
+.focus-mode-petal-right {
+  animation-name: focus-petal-drift-right;
+}
+
+@keyframes focus-sheen-fade {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes focus-petal-drift-left {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(var(--scale)) rotate(0deg);
+  }
+  12% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--drift-x), var(--drift-y), 0) scale(var(--scale)) rotate(var(--spin));
+  }
+}
+
+@keyframes focus-petal-drift-right {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(var(--scale)) rotate(0deg);
+  }
+  12% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--drift-x), var(--drift-y), 0) scale(var(--scale)) rotate(var(--spin));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.focus-mode-transition::before,
+  .focus-mode-particles,
+  .focus-mode-petal {
+    animation: none !important;
+    display: none !important;
+  }
+
+  body.focus-mode-transition .page-header,
+  body.focus-mode-transition .layout-wrapper {
+    transform: none;
+    filter: none;
+    opacity: 1;
+  }
 }
 
 .telegraph-masthead {
@@ -287,6 +432,11 @@ body {
   .telegraph-primary-nav a,
   .telegraph-secondary-nav a {
     font-size: 12px;
+  }
+
+  .focus-mode-toggle {
+    margin-left: 0;
+    font-size: 11px;
   }
 }
 
@@ -457,6 +607,198 @@ body {
   margin: 0;
   font-size: 14px;
   line-height: 1.55;
+}
+
+body.focus-mode:not(.focus-mode-transition) .portal-layout,
+body.focus-mode .layout-wrapper {
+  display: block;
+  width: min(1200px, 94vw);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.focus-mode:not(.focus-mode-transition) .portal-left,
+body.focus-mode:not(.focus-mode-transition) .portal-right,
+body.focus-mode:not(.focus-mode-transition) .right-column,
+body.focus-mode:not(.focus-mode-transition) .overlay,
+body.focus-mode:not(.focus-mode-transition) .toggle-sidebar {
+  display: none !important;
+}
+
+body.focus-mode-transition .portal-left,
+body.focus-mode-transition .portal-right,
+body.focus-mode-transition .right-column {
+  position: absolute;
+  top: 0;
+  width: 220px;
+  transition: transform 0.95s ease, opacity 0.95s ease, filter 0.95s ease;
+  will-change: transform, opacity, filter;
+  opacity: 0;
+  filter: blur(0.15px) saturate(1.05);
+  pointer-events: none;
+  z-index: 0;
+}
+
+body.focus-mode-transition .layout-wrapper {
+  width: min(1200px, 94vw);
+  max-width: 1200px;
+}
+
+body.focus-mode-transition .portal-left {
+  left: 0;
+  transform: translateX(-72px) scale(0.98);
+}
+
+body.focus-mode-transition .portal-right,
+body.focus-mode-transition .right-column {
+  right: 0;
+  transform: translateX(72px) scale(0.98);
+}
+
+body.focus-mode-transition .portal-layout {
+  display: block;
+  position: relative;
+  width: min(1200px, 94vw);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.focus-mode .portal-center,
+body.focus-mode .main-content {
+  width: min(900px, 100%);
+  max-width: 900px;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+body.focus-mode .main-content.home-shell,
+body.focus-mode-transition .main-content.home-shell {
+  width: min(1200px, 94vw);
+  max-width: 1200px;
+}
+
+body.focus-mode .main-content.home-shell .portal-layout.home-index,
+body.focus-mode-transition .main-content.home-shell .portal-layout.home-index {
+  width: 100%;
+  max-width: none;
+}
+
+body.focus-mode:not(.focus-mode-transition) .portal-layout.home-index {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 900px) 1fr;
+  align-items: start;
+  width: min(1200px, 100%);
+  max-width: 1200px;
+}
+
+body.focus-mode-transition .portal-layout.home-index,
+body.focus-mode-transition .portal-center,
+body.focus-mode-transition .main-content {
+  width: min(1200px, 94vw);
+  max-width: 1200px;
+}
+
+body.focus-mode-transition .portal-layout.home-index {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 900px) 1fr;
+  align-items: start;
+}
+
+body.focus-mode-transition .portal-center,
+body.focus-mode-transition .main-content {
+  width: min(900px, 100%);
+  max-width: 900px;
+}
+
+body.focus-mode:not(.focus-mode-transition) .portal-layout.home-index .home-status-strip,
+body.focus-mode:not(.focus-mode-transition) .portal-layout.home-index .portal-center {
+  grid-column: 2;
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.focus-mode:not(.focus-mode-transition) .portal-layout.home-index .home-status-strip,
+body.focus-mode-transition .portal-layout.home-index .home-status-strip,
+body.focus-mode:not(.focus-mode-transition) .portal-layout.home-index .portal-center,
+body.focus-mode-transition .portal-layout.home-index .portal-center {
+  grid-column: 2;
+}
+
+body.focus-mode .portal-center img,
+body.focus-mode .main-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+body.focus-mode .portal-center figure,
+body.focus-mode .main-content figure,
+body.focus-mode .portal-center iframe,
+body.focus-mode .main-content iframe,
+body.focus-mode .portal-center video,
+body.focus-mode .main-content video,
+body.focus-mode .portal-center pre,
+body.focus-mode .main-content pre {
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+
+body.focus-mode .home-index .media-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 14px;
+}
+
+body.focus-mode .home-index .media-item,
+body.focus-mode .home-index .media-text {
+  min-width: 0;
+}
+
+body.focus-mode .home-index .media-item {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+}
+
+body.focus-mode .home-index .media-thumb {
+  width: 90px;
+  aspect-ratio: 3 / 4;
+  height: auto;
+  background: #f4f8fc;
+  border: 1px solid var(--panel-border);
+  overflow: hidden;
+}
+
+body.focus-mode .home-index .media-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center top;
+  background: #f4f8fc;
+  display: block;
+}
+
+body.focus-mode .home-index .media-text a,
+body.focus-mode .home-index .media-text p {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+body.focus-mode .portal-center {
+  border-top: none;
+  padding-top: 0;
+}
+
+body.focus-mode .home-index .home-status-strip {
+  grid-column: auto;
+  grid-row: auto;
+  margin: 0 0 12px;
 }
 
 .portal-list li {
@@ -1474,21 +1816,33 @@ footer {
 /*This is for the gallery of photos*/
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-/*  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));*/
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   justify-content: center;
-  gap: 1%;
-  padding: 0px 0 0px;
+  gap: 12px;
+  padding: 0;
   width: 100%;
-  max-width: 90vw;
+  max-width: 100%;
   margin: 0 auto 10px auto;
-  display: grid;
+}
+
+.gallery > div {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.gallery a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .gallery img {
-  border-radius: 5%;
   width: 100%;
-  height: auto;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 
@@ -1653,6 +2007,57 @@ footer {
   .overlay.show {
     opacity: 1;
     visibility: visible;
+  }
+}
+
+@media (max-width: 800px) {
+  body.focus-mode .layout-wrapper,
+  body.focus-mode-transition .layout-wrapper {
+    width: 100%;
+    max-width: none;
+  }
+
+  body.focus-mode .main-content,
+  body.focus-mode-transition .main-content,
+  body.focus-mode .main-content.home-shell,
+  body.focus-mode-transition .main-content.home-shell {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  body.focus-mode .portal-layout,
+  body.focus-mode-transition .portal-layout,
+  body.focus-mode .portal-layout.home-index,
+  body.focus-mode-transition .portal-layout.home-index {
+    display: block;
+    width: 100%;
+    max-width: none;
+  }
+
+  body.focus-mode .portal-center,
+  body.focus-mode-transition .portal-center {
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  body.focus-mode-transition::before,
+  body.focus-mode-transition .page-header,
+  body.focus-mode-transition .layout-wrapper,
+  .focus-mode-particles,
+  .focus-mode-petal {
+    animation: none !important;
+    display: none !important;
+  }
+
+  body.focus-mode .home-index .media-list,
+  body.focus-mode-transition .home-index .media-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 }
 
