@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     try {
-      localStorage.setItem(storageKey, enabled ? '1' : '0');
+      window.sessionStorage.setItem(storageKey, enabled ? '1' : '0');
     } catch (error) {
       // Ignore storage failures and keep the mode purely in-memory.
     }
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let savedFocusMode = false;
 
   try {
-    savedFocusMode = localStorage.getItem(storageKey) === '1';
+    savedFocusMode = window.sessionStorage.getItem(storageKey) === '1';
   } catch (error) {
     savedFocusMode = false;
   }

@@ -41,7 +41,7 @@
 <body class="{{ pageClass or '' }}">
 <script>
   try {
-    if (localStorage.getItem("focus-mode-enabled") === "1") {
+    if (sessionStorage.getItem("focus-mode-enabled") === "1") {
       document.body.classList.add("focus-mode");
     }
   } catch (error) {
