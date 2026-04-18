@@ -2047,10 +2047,8 @@ footer {
   body.focus-mode-transition::before,
   body.focus-mode-transition .page-header,
   body.focus-mode-transition .layout-wrapper,
-  .focus-mode-particles,
-  .focus-mode-petal {
+  .focus-mode-particles {
     animation: none !important;
-    display: none !important;
   }
 
   body.focus-mode .home-index .media-list,

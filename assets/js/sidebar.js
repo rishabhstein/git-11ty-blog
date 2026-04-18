@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 5200);
   }
 
-  function setFocusMode(enabled, animate = false) {
+  function setFocusMode(enabled, animate = false, showParticles = animate) {
     clearFocusTransitionEffects();
 
     body.classList.toggle('focus-mode', enabled);
@@ -130,7 +130,9 @@ document.addEventListener('DOMContentLoaded', function() {
         body.classList.remove('focus-mode-transition');
         focusTransitionTimer = null;
       }, 2600);
+    }
 
+    if (enabled && showParticles) {
       spawnFocusPetals();
     }
 
@@ -177,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (focusModeButton) {
     focusModeButton.addEventListener('click', function() {
       const nextState = !body.classList.contains('focus-mode');
-      setFocusMode(nextState, nextState && !mobileFocusModeQuery.matches);
+      setFocusMode(nextState, nextState && !mobileFocusModeQuery.matches, true);
       if (nextState) {
         playAngelHarpTone();
       }
