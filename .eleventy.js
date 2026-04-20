@@ -7,9 +7,32 @@ module.exports = async function(eleventyConfig) {
     [...new Set(items.map((item) => item.date.getFullYear()))].sort((a, b) => b - a);
   const takeItems = (items, count) => (Array.isArray(items) ? items.slice(0, count) : []);
   const secondsInDay = 24 * 60 * 60 * 1000;
-  const siteUrl = "https://sigmarootpi.com";
-  const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "https://webmention.io/sigmarootpi.com/webmention";
-  const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g";
+  const defaultSiteUrl = "https://sigmarootpi.com";
+  const siteUrl = process.env.SITE_URL || defaultSiteUrl;
+  const sitePathPrefix = (() => {
+    const rawPrefix = process.env.SITE_PATH_PREFIX || process.env.PATH_PREFIX || "/";
+    if (!rawPrefix || rawPrefix === "/") return "/";
+    const normalized = String(rawPrefix).trim().replace(/^\/+/, "/").replace(/\/+$/, "");
+    return normalized ? `${normalized}/` : "/";
+  })();
+  const siteHostname = (() => {
+    try {
+      return new URL(siteUrl).hostname;
+    } catch {
+      return "sigmarootpi.com";
+    }
+  })();
+  const webmentionEndpoint =
+    process.env.WEBMENTION_ENDPOINT || `https://webmention.io/${siteHostname}/webmention`;
+  const webmentionDashboardUrl =
+    process.env.WEBMENTION_DASHBOARD_URL || "https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g";
+
+  function rewriteSiteUrls(content) {
+    const escapedDefaultUrl = defaultSiteUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return String(content || "")
+      .replace(new RegExp(escapedDefaultUrl, "g"), siteUrl)
+      .replace(/(href|src|action)=("|\')\/(?![\/#])/g, (match, attr, quote) => `${attr}=${quote}${sitePathPrefix}`);
+  }
 
   function parseWorkoutDurationSeconds(value) {
     if (!value) return 0;
@@ -601,16 +624,25 @@ ${tabsMarkup}
   eleventyConfig.addPassthroughCopy('./assets');
   eleventyConfig.addPassthroughCopy('./src/style.css');
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
-  eleventyConfig.addPassthroughCopy({ './src/CNAME': 'CNAME' });
   eleventyConfig.addPassthroughCopy({"./src/workout/*.svg": "workout/"});
 
   // Register Piclog explicitly so homepage templates can depend on one clear global source.
   eleventyConfig.addGlobalData("piclog", async () => getPiclog());
   eleventyConfig.addGlobalData("site", {
     url: siteUrl,
+    pathPrefix: sitePathPrefix,
+    cname: process.env.SITE_CNAME || "",
     webmentionEndpoint,
     webmentionDashboardUrl,
   });
+
+  if (process.env.SITE_CNAME) {
+    eleventyConfig.addTemplate("CNAME", `${process.env.SITE_CNAME}\n`, {
+      layout: false,
+      permalink: "CNAME",
+      eleventyExcludeFromCollections: true,
+    });
+  }
 
   // Creating a datetime format filter
   eleventyConfig.addFilter("postDate", (dateObj) => {
@@ -715,6 +747,14 @@ ${tabsMarkup}
 
   eleventyConfig.addFilter("urlEncode", function(value) {
     return encodeURIComponent(String(value ?? ""));
+  });
+
+  eleventyConfig.addTransform("rewriteSiteUrls", function(content, outputPath) {
+    if (!outputPath || !outputPath.endsWith(".html")) {
+      return content;
+    }
+
+    return rewriteSiteUrls(content);
   });
 
   eleventyConfig.addFilter("workoutBody", function(inputPath) {
