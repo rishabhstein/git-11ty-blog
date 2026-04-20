@@ -39,6 +39,14 @@ module.exports = async function(eleventyConfig) {
     return `${minutes} minutes`;
   }
 
+  function buildFeedCollection(collectionApi, tag, predicate = () => true) {
+    return collectionApi
+      .getFilteredByTag(tag)
+      .filter(predicate)
+      .slice()
+      .sort((a, b) => a.date - b.date);
+  }
+
   function escapeHtml(value) {
     return String(value)
       .replace(/&/g, "&amp;")
@@ -46,6 +54,15 @@ module.exports = async function(eleventyConfig) {
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#39;");
+  }
+
+  function firstMatch(text, patterns) {
+    const source = String(text || "");
+    for (const pattern of patterns) {
+      const match = source.match(pattern);
+      if (match) return match[1];
+    }
+    return "";
   }
 
   async function fetchText(url) {
@@ -70,24 +87,23 @@ module.exports = async function(eleventyConfig) {
 
     return mentionBlocks
       .map((block) => {
-        const targetMatch = block.match(/<a[^>]*class="[^"]*\bu-mention-of\b[^"]*"[^>]*href="([^"]+)"/i)
-          || block.match(/<a[^>]*href="([^"]+)"[^>]*class="[^"]*\bu-mention-of\b[^"]*"/i);
-        const sourceLinkMatch = block.match(/<time class="dt-published" datetime="([^"]+)">[\s\S]*?<a href="([^"]+)" class="u-url">/i);
-        const authorMatch = block.match(/<a href="([^"]+)" class="name u-url p-name">([\s\S]*?)<\/a>/i);
-        const publishedMatch = block.match(/<time class="dt-published" datetime="([^"]+)">/i);
-
-        const url = sourceLinkMatch ? sourceLinkMatch[2] : "";
-        const published = publishedMatch ? publishedMatch[1] : "";
-        const target = targetMatch ? targetMatch[1].trim() : "";
-        const authorUrl = authorMatch ? authorMatch[1] : "";
-        const authorName = authorMatch ? authorMatch[2].replace(/\s+/g, " ").trim() : "";
-        const hostFromUrl = (() => {
-          try {
-            return url ? new URL(url).hostname.replace(/^www\./, "") : "";
-          } catch {
-            return "";
-          }
-        })();
+        const target = firstMatch(block, [
+          /<a[^>]*class="[^"]*\bu-mention-of\b[^"]*"[^>]*href="([^"]+)"/i,
+          /<a[^>]*href="([^"]+)"[^>]*class="[^"]*\bu-mention-of\b[^"]*"/i,
+        ]).trim();
+        const url = firstMatch(block, [
+          /<time class="dt-published" datetime="[^"]+">[\s\S]*?<a href="([^"]+)" class="u-url">/i,
+        ]);
+        const published = firstMatch(block, [
+          /<time class="dt-published" datetime="([^"]+)">/i,
+        ]);
+        const authorUrl = firstMatch(block, [
+          /<a href="([^"]+)" class="name u-url p-name">/i,
+        ]);
+        const authorName = firstMatch(block, [
+          /<a href="[^"]+" class="name u-url p-name">([\s\S]*?)<\/a>/i,
+        ]).replace(/\s+/g, " ").trim();
+        const hostFromUrl = getHostname(url);
 
         return {
           authorName: authorName || hostFromUrl || "Webmention",
@@ -106,6 +122,14 @@ module.exports = async function(eleventyConfig) {
       });
   }
 
+  function getHostname(url) {
+    try {
+      return url ? new URL(url).hostname.replace(/^www\./, "") : "";
+    } catch {
+      return "";
+    }
+  }
+
   function normalizePathname(value) {
     try {
       return new URL(value).pathname.replace(/\/$/, "") || "/";
@@ -116,11 +140,11 @@ module.exports = async function(eleventyConfig) {
 
   function extractWebmentionSourcePreview(html) {
     const text = String(html || "");
-    const titleMatch = text.match(/<meta[^>]*property="og:title"[^>]*content="([^"]+)"/i)
-      || text.match(/<meta[^>]*name="twitter:title"[^>]*content="([^"]+)"/i)
-      || text.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
-
-    const title = titleMatch ? titleMatch[1].replace(/\s+/g, " ").trim() : "";
+    const title = firstMatch(text, [
+      /<meta[^>]*property="og:title"[^>]*content="([^"]+)"/i,
+      /<meta[^>]*name="twitter:title"[^>]*content="([^"]+)"/i,
+      /<title[^>]*>([\s\S]*?)<\/title>/i,
+    ]).replace(/\s+/g, " ").trim();
 
     return {
       title,
@@ -149,6 +173,48 @@ module.exports = async function(eleventyConfig) {
     const dateTime = DateTime.fromISO(value);
     if (!dateTime.isValid) return "";
     return dateTime.toLocaleString(DateTime.DATE_MED);
+  }
+
+  function buildWebmentionItemHtml(mention) {
+    const avatar = mention.authorPhoto
+      ? `<img class="webmention-avatar" src="${escapeHtml(mention.authorPhoto)}" alt="" loading="lazy">`
+      : `<span class="webmention-avatar webmention-avatar-fallback" aria-hidden="true">↳</span>`;
+    const sourceLink = mention.url
+      ? `<a href="${escapeHtml(mention.url)}" target="_blank" rel="noopener noreferrer">View source</a>`
+      : "";
+    const publishedLabel = formatWebmentionDate(mention.published);
+    const published = publishedLabel
+      ? `<p class="webmention-meta"><time datetime="${escapeHtml(mention.published)}">${escapeHtml(publishedLabel)}</time></p>`
+      : "";
+    const title = mention.title
+      ? `<p class="webmention-title">${escapeHtml(mention.title)}</p>`
+      : "";
+
+    return `
+        <li class="webmention-item">
+          ${avatar}
+          <div class="webmention-body">
+            ${published}
+            ${title}
+            ${sourceLink ? `<p class="webmention-source">${sourceLink}</p>` : ""}
+          </div>
+        </li>
+      `.trim();
+  }
+
+  function buildWebmentionsSectionHtml(mentions) {
+    if (!mentions.length) return "";
+
+    const itemsHtml = mentions.map(buildWebmentionItemHtml).join("\n");
+
+    return `
+      <section class="webmentions" aria-labelledby="webmentions-title">
+        <h3 id="webmentions-title">Mentioned in</h3>
+        <ul class="webmentions-list">
+          ${itemsHtml}
+        </ul>
+      </section>
+    `.trim();
   }
 
   function humanizeWorkoutPlotName(fileName, fallback = "Workout plot") {
@@ -657,67 +723,27 @@ ${tabsMarkup}
   eleventyConfig.addNunjucksAsyncShortcode("webmentionsFor", async function(targetUrl) {
     if (!targetUrl) return "";
 
-    let html;
-
     try {
-      html = await fetchText(webmentionDashboardUrl);
-    } catch (error) {
+      const html = await fetchText(webmentionDashboardUrl);
+      const mentions = normalizeWebmentions(html).filter((mention) => {
+        try {
+          return mention.target
+            ? normalizePathname(mention.target) === normalizePathname(targetUrl)
+            : true;
+        } catch {
+          return true;
+        }
+      });
+
+      const mentionsWithPreview = await Promise.all(mentions.map(async (mention) => ({
+        ...mention,
+        ...(await fetchWebmentionPreview(mention.url)),
+      })));
+
+      return buildWebmentionsSectionHtml(mentionsWithPreview);
+    } catch {
       return "";
     }
-
-    const mentions = normalizeWebmentions(html).filter((mention) => {
-      try {
-        return mention.target
-          ? normalizePathname(mention.target) === normalizePathname(targetUrl)
-          : true;
-      } catch {
-        return true;
-      }
-    });
-
-    const mentionsWithPreview = await Promise.all(mentions.map(async (mention) => ({
-      ...mention,
-      ...(await fetchWebmentionPreview(mention.url)),
-    })));
-    if (!mentionsWithPreview.length) {
-      return "";
-    }
-
-    const itemsHtml = mentionsWithPreview.map((mention) => {
-      const avatar = mention.authorPhoto
-        ? `<img class="webmention-avatar" src="${escapeHtml(mention.authorPhoto)}" alt="" loading="lazy">`
-        : `<span class="webmention-avatar webmention-avatar-fallback" aria-hidden="true">↳</span>`;
-      const sourceLink = mention.url
-        ? `<a href="${escapeHtml(mention.url)}" target="_blank" rel="noopener noreferrer">View source</a>`
-        : "";
-      const publishedLabel = formatWebmentionDate(mention.published);
-      const published = publishedLabel
-        ? `<time datetime="${escapeHtml(mention.published)}">${escapeHtml(publishedLabel)}</time>`
-        : "";
-      const title = mention.title
-        ? `<p class="webmention-title">${escapeHtml(mention.title)}</p>`
-        : "";
-
-      return `
-        <li class="webmention-item">
-          ${avatar}
-          <div class="webmention-body">
-            ${published ? `<p class="webmention-meta">${published}</p>` : ""}
-            ${title}
-            ${sourceLink ? `<p class="webmention-source">${sourceLink}</p>` : ""}
-          </div>
-        </li>
-      `.trim();
-    }).join("\n");
-
-    return `
-      <section class="webmentions" aria-labelledby="webmentions-title">
-        <h3 id="webmentions-title">Mentioned in</h3>
-        <ul class="webmentions-list">
-          ${itemsHtml}
-        </ul>
-      </section>
-    `.trim();
   });
 
   // Workout pages use a few pre-shaped summary objects to keep the templates readable.
@@ -861,9 +887,7 @@ ${tabsMarkup}
   });
 
   eleventyConfig.addCollection("writingFeed", function(collectionApi) {
-    return collectionApi.getFilteredByTag("post")
-      .slice()
-      .sort((a, b) => a.date - b.date);
+    return buildFeedCollection(collectionApi, "post");
   });
 
   eleventyConfig.addCollection("bookArchive", function(collectionApi) {
@@ -875,11 +899,7 @@ ${tabsMarkup}
   });
 
   eleventyConfig.addCollection("bookFeed", function(collectionApi) {
-    return collectionApi
-      .getFilteredByTag("books")
-      .filter((item) => item.data.published)
-      .slice()
-      .sort((a, b) => a.date - b.date);
+    return buildFeedCollection(collectionApi, "books", (item) => item.data.published);
   });
 
   eleventyConfig.addCollection("movieArchive", function(collectionApi) {
@@ -887,9 +907,7 @@ ${tabsMarkup}
   });
 
   eleventyConfig.addCollection("movieFeed", function(collectionApi) {
-    return collectionApi.getFilteredByTag("movies")
-      .slice()
-      .sort((a, b) => a.date - b.date);
+    return buildFeedCollection(collectionApi, "movies");
   });
 
   eleventyConfig.addCollection("workoutArchive", function(collectionApi) {
@@ -897,9 +915,11 @@ ${tabsMarkup}
   });
 
   eleventyConfig.addCollection("snapFeed", function(collectionApi) {
-    return collectionApi.getFilteredByTag("snap")
-      .slice()
-      .sort((a, b) => a.date - b.date);
+    return buildFeedCollection(collectionApi, "snap");
+  });
+
+  eleventyConfig.addCollection("workoutFeed", function(collectionApi) {
+    return buildFeedCollection(collectionApi, "workout");
   });
 
   eleventyConfig.addCollection("postArchiveYears", function(collectionApi) {
@@ -929,7 +949,6 @@ ${tabsMarkup}
       ...collectionApi.getFilteredByTag("books").filter((item) => item.data.published),
       ...collectionApi.getFilteredByTag("movies"),
       ...collectionApi.getFilteredByTag("snap"),
-      ...collectionApi.getFilteredByTag("microfeed"),
     ]);
   });
 
@@ -1010,6 +1029,16 @@ ${tabsMarkup}
     metadata: {
       ...feedMetadata,
       title: "Sigmarootpi Snap Feed",
+    },
+  });
+
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss",
+    outputPath: "/feed/workout.xml",
+    collection: { name: "workoutFeed", limit: 10 },
+    metadata: {
+      ...feedMetadata,
+      title: "Sigmarootpi Workout Feed",
     },
   });
 

@@ -16,11 +16,23 @@
     {% if site.webmentionEndpoint %}
     <link rel="webmention" href="{{ site.webmentionEndpoint }}">
     {% endif %}
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <style>
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --pagefind-ui-primary: #eeeeee;
+          --pagefind-ui-text: #eeeeee;
+          --pagefind-ui-background: #152028;
+          --pagefind-ui-border: #152028;
+          --pagefind-ui-tag: #152028;
+        }
+      }
+    </style>
 
     <!-- Le styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/assets/css/style.css?v=1.3">
+    <link rel="stylesheet" href="/assets/css/style.css?v=1.0">
     <!-- <link rel="stylesheet" href="/assets/css/snow.css?v=1.0">
     <link rel="stylesheet" href="/assets/css/christmas-light.css"> -->
 
@@ -37,6 +49,8 @@
     <script src="/assets/js/geocities-loader.js" defer></script>
     <script src="/assets/js/status-ticker.js" defer></script>
     <script src="/assets/js/image-reveal.js?v=2.5" defer></script>
+    <script src="/pagefind/pagefind-ui.js" defer></script>
+    <script src="/assets/js/pagefind-init.js" defer></script>
     <audio id="sidebar-music" src="/assets/sounds/blog_background.mp3" preload="auto" loop></audio>
     <audio id="focus-mode-sound" src="/assets/sounds/angel-harp.mp3" preload="auto"></audio>
 
@@ -117,7 +131,7 @@
     <button class="toggle-sidebar">🎶 Music</button>
     <div class="layout-wrapper">
     {% if page.url == "/" %}
-    <div class="main-content home-shell">
+    <div class="main-content home-shell" data-pagefind-body>
       {{ content | safe }}
     </div> <!--main content end-->
     {% else %}
@@ -135,7 +149,7 @@
         {% bearblogDiscoveryItems %}
         {% include "fantastic-web-snippet.njk" %}
       </aside>
-      <div class="main-content portal-center">
+      <div class="main-content portal-center" data-pagefind-body>
         {{ content | safe }}
       </div> <!--main content end-->
       <aside class="portal-right">

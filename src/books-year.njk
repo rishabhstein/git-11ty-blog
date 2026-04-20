@@ -9,23 +9,25 @@ permalink: "/books/{{ archiveYear }}/"
 eleventyExcludeFromCollections: true
 ---
 
-<p>
-  Years:
-  {% for year in collections.bookArchiveYears %}
-    <a href="/books/{{ year }}/">{{ year }}</a>{% if not loop.last %} | {% endif %}
-  {% endfor %}
-</p>
+<div data-pagefind-ignore>
+  <p>
+    Years:
+    {% for year in collections.bookArchiveYears %}
+      <a href="/books/{{ year }}/">{{ year }}</a>{% if not loop.last %} | {% endif %}
+    {% endfor %}
+  </p>
 
-<h4>{{ title }}: {{ archiveYear }}</h4>
-<section class="book-section-grid">
-  {% for book in collections.bookArchive | itemsForYear(archiveYear) %}
-    <div class="book-entry-grid">
-      <a href="{{ book.url }}" class="book-cover">
-        <img src="{{ book.data.cover }}" alt="{{ book.title }}">
-        <div class="star-rating">
-          {% for i in range(book.data.rating) %}⭐{% endfor %}
-        </div>
-      </a>
-    </div>
-  {% endfor %}
-</section>
+  <h4>{{ title }}: {{ archiveYear }}</h4>
+  <section class="book-section-grid">
+    {% for book in collections.bookArchive | itemsForYear(archiveYear) %}
+      <div class="book-entry-grid">
+        <a href="{{ book.url }}" class="book-cover">
+          <img src="{{ book.data.cover }}" alt="{{ book.title }}">
+          <div class="star-rating">
+            {% for i in range(book.data.rating) %}⭐{% endfor %}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </section>
+</div>

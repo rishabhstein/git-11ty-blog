@@ -5,24 +5,26 @@ layout: 'base.njk'
 
 <h4>{{ title }}</h4>
 
-{% set currentYear = collections.bookArchiveYears | first %}
-<p>
-  Years:
-  {% for year in collections.bookArchiveYears %}
-    <a href="/books/{{ year }}/">{{ year }}</a>{% if not loop.last %} | {% endif %}
-  {% endfor %}
-</p>
+<div data-pagefind-ignore>
+  {% set currentYear = collections.bookArchiveYears | first %}
+  <p>
+    Years:
+    {% for year in collections.bookArchiveYears %}
+      <a href="/books/{{ year }}/">{{ year }}</a>{% if not loop.last %} | {% endif %}
+    {% endfor %}
+  </p>
 
-<h4>{{ currentYear }}</h4>
-<section class="book-section-grid">
-  {% for book in collections.bookArchive | itemsForYear(currentYear) %}
-    <div class="book-entry-grid">
-      <a href="{{ book.url }}" class="book-cover">
-        <img src="{{ book.data.cover }}" alt="{{ book.title }}">
-        <div class="star-rating">
-          {% for i in range(book.data.rating) %}⭐{% endfor %}
-        </div>
-      </a>
-    </div>
-  {% endfor %}
-</section>
+  <h4>{{ currentYear }}</h4>
+  <section class="book-section-grid">
+    {% for book in collections.bookArchive | itemsForYear(currentYear) %}
+      <div class="book-entry-grid">
+        <a href="{{ book.url }}" class="book-cover">
+          <img src="{{ book.data.cover }}" alt="{{ book.title }}">
+          <div class="star-rating">
+            {% for i in range(book.data.rating) %}⭐{% endfor %}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </section>
+</div>

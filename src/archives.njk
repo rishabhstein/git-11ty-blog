@@ -3,27 +3,29 @@ layout: 'base.njk'
 title: Archives
 ---
 
-<!-- <h1>All blogposts</h1> -->
+<div data-pagefind-ignore>
+  <!-- <h1>All blogposts</h1> -->
 
-<p>Filter them with:
-<a href="/tags/">tags</a>
-</p>
+  <p>Filter them with:
+  <a href="/tags/">tags</a>
+  </p>
 
-{% set currentYear = collections.postArchiveYears | first %}
-<p>
-  Years:
-  {% for year in collections.postArchiveYears %}
-    <a href="/archives/{{ year }}/">{{ year }}</a>{% if not loop.last %} | {% endif %}
-  {% endfor %}
-</p>
+  {% set currentYear = collections.postArchiveYears | first %}
+  <p>
+    Years:
+    {% for year in collections.postArchiveYears %}
+      <a href="/archives/{{ year }}/">{{ year }}</a>{% if not loop.last %} | {% endif %}
+    {% endfor %}
+  </p>
 
-<h4>{{ currentYear }}</h4>
-<ul class="blog-posts">
-  {% for post in collections.postArchive | itemsForYear(currentYear) %}
-    <li>
-      <span>{{ post.date | postDate }}</span>
-       —
-      <a href="{{ post.url }}">{{ post.data.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+  <h4>{{ currentYear }}</h4>
+  <ul class="blog-posts">
+    {% for post in collections.postArchive | itemsForYear(currentYear) %}
+      <li>
+        <span>{{ post.date | postDate }}</span>
+         —
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
