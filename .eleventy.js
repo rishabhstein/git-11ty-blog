@@ -8,6 +8,7 @@ module.exports = async function(eleventyConfig) {
   const takeItems = (items, count) => (Array.isArray(items) ? items.slice(0, count) : []);
   const secondsInDay = 24 * 60 * 60 * 1000;
   const defaultSiteUrl = "https://sigmarootpi.com";
+  const siteName = process.env.SITE_NAME || "Sigmarootpi.com";
   const siteUrl = process.env.SITE_URL || defaultSiteUrl;
   const sitePathPrefix = (() => {
     const rawPrefix = process.env.SITE_PATH_PREFIX || process.env.PATH_PREFIX || "/";
@@ -629,6 +630,7 @@ ${tabsMarkup}
   // Register Piclog explicitly so homepage templates can depend on one clear global source.
   eleventyConfig.addGlobalData("piclog", async () => getPiclog());
   eleventyConfig.addGlobalData("site", {
+    name: siteName,
     url: siteUrl,
     pathPrefix: sitePathPrefix,
     cname: process.env.SITE_CNAME || "",
@@ -1024,7 +1026,7 @@ ${tabsMarkup}
     collection: { name: "writingFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: "Sigmarootpi Writing Feed",
+      title: `${siteName} Writing Feed`,
     },
   });
 
@@ -1034,7 +1036,7 @@ ${tabsMarkup}
     collection: { name: "movieFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: "Sigmarootpi Movies Feed",
+      title: `${siteName} Movies Feed`,
     },
   });
 
@@ -1044,7 +1046,7 @@ ${tabsMarkup}
     collection: { name: "bookFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: "Sigmarootpi Books Feed",
+      title: `${siteName} Books Feed`,
     },
   });
 
@@ -1054,7 +1056,7 @@ ${tabsMarkup}
     collection: { name: "snapFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: "Sigmarootpi Snap Feed",
+      title: `${siteName} Snap Feed`,
     },
   });
 
@@ -1064,7 +1066,7 @@ ${tabsMarkup}
     collection: { name: "workoutFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: "Sigmarootpi Workout Feed",
+      title: `${siteName} Workout Feed`,
     },
   });
 
