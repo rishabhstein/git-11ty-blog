@@ -12,15 +12,15 @@ Now, lets not beat around the bush.
 
 --
 
-I have a very few things that occupy my mental space, besides work and my son. One of them is a book I am reading nowadays, *Careless People* by Sarah Wynn-Williams. It is about the internal policies of *Facebook* (Meta now), and how its leaders changed the world. 
+I have a very few things that occupy my mental space, besides work and my son. One of them is a book I am reading nowadays, *Careless People* by Sarah Wynn-Williams. It is about the internal policies of *Facebook* (Meta now), and how its leaders changed the world.
 
 I do not want to write a review of the book as I am still halfway through. But I want to share my thoughts on these allegedly successful websites and their founders.
 
 Flashback to the 90s, when the mass media used to be flooded with news of successful young IT guys, and we were so optimistic about a utopian future. New tech was launching almost every day. Government were trying to incorporate these new tech in our lives to improve society, and not for surveillance purposes.
 
-Fast forward 30 years, and the situation is completely reversed. Few companies dominated the market, resulting in ==techno feudalism==. The Internet became a dark and shady place, full of advertisements. The governments made a U-turn in their policies and decided to do full-scale surveillance of their population. 
+Fast forward 30 years, and the situation is completely reversed. Few companies dominated the market, resulting in ==techno feudalism==. The Internet became a dark and shady place, full of advertisements. The governments made a U-turn in their policies and decided to do full-scale surveillance of their population.
 
-I wondered from long time what actually happened there. How did we fuck this up? 
+I wondered from long time what actually happened there. How did we fuck this up?
 
 I think I knew the answer the whole time. But reading this book about Facebook cleared some of my doubts and validated my observations. Interestingly, there are three main things that explain the reasons behind the technological mess:
 
@@ -32,7 +32,7 @@ Decentralization of power is one of the biggest lessons we have learnt from huma
 
 Now, history also taught us that leaders can be good or bad[^1]. A good leader can bring a lot of good to society, regardless of the form of power. However, a bad leader will not miss a single chance to wield all the power in a pure decentralised system, no matter what extent he needs to go. Based on the above mentioned book, *Mark* is incompetent in leading any global phenomenon. He has no understanding of global politics. Neither does he have respect for others' cultures. His social skills are limited. So what can we expect from his company?
 
-Third point, social illiteracy and ethics add to the previous point. In my view, incompetent leaders are often socially illiterate and therefore exhibit unethical behaviour. They might have a technological education, but how much ethics they learn in the university is unclear. You can check that most of the CEOs of these successful corporations have not finished a college degree. They outshone others with pure luck by achieving overnight success. 
+Third point, social illiteracy and ethics add to the previous point. In my view, incompetent leaders are often socially illiterate and therefore exhibit unethical behaviour. They might have a technological education, but how much ethics they learn in the university is unclear. You can check that most of the CEOs of these successful corporations have not finished a college degree. They outshone others with pure luck by achieving overnight success.
 
 Ofcourse a college degree does not guarantee ethical behavior. But, in my view, those who do not earn the success do not know its importance. Therefore, it is easy to fall into unethical practices, which we see are growing in the world.
 
