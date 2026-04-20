@@ -7,33 +7,9 @@ module.exports = async function(eleventyConfig) {
     [...new Set(items.map((item) => item.date.getFullYear()))].sort((a, b) => b - a);
   const takeItems = (items, count) => (Array.isArray(items) ? items.slice(0, count) : []);
   const secondsInDay = 24 * 60 * 60 * 1000;
-  const defaultSiteUrl = "https://sigmarootpi.com";
-  const siteName = process.env.SITE_NAME || "Sigmarootpi.com";
-  const siteUrl = process.env.SITE_URL || defaultSiteUrl;
-  const sitePathPrefix = (() => {
-    const rawPrefix = process.env.SITE_PATH_PREFIX || process.env.PATH_PREFIX || "/";
-    if (!rawPrefix || rawPrefix === "/") return "/";
-    const normalized = String(rawPrefix).trim().replace(/^\/+/, "/").replace(/\/+$/, "");
-    return normalized ? `${normalized}/` : "/";
-  })();
-  const siteHostname = (() => {
-    try {
-      return new URL(siteUrl).hostname;
-    } catch {
-      return "sigmarootpi.com";
-    }
-  })();
-  const webmentionEndpoint =
-    process.env.WEBMENTION_ENDPOINT || `https://webmention.io/${siteHostname}/webmention`;
-  const webmentionDashboardUrl =
-    process.env.WEBMENTION_DASHBOARD_URL || "https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g";
-
-  function rewriteSiteUrls(content) {
-    const escapedDefaultUrl = defaultSiteUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    return String(content || "")
-      .replace(new RegExp(escapedDefaultUrl, "g"), siteUrl)
-      .replace(/(href|src|action)=("|\')\/(?![\/#])/g, (match, attr, quote) => `${attr}=${quote}${sitePathPrefix}`);
-  }
+  const siteUrl = "https://sigmarootpi.com";
+  const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "https://webmention.io/sigmarootpi.com/webmention";
+  const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g";
 
   function parseWorkoutDurationSeconds(value) {
     if (!value) return 0;
@@ -103,11 +79,28 @@ module.exports = async function(eleventyConfig) {
     return response.text();
   }
 
+  async function fetchTextNoCache(url) {
+    const response = await fetch(url, {
+      cache: "no-store",
+      headers: {
+        "cache-control": "no-cache, no-store, max-age=0",
+        "pragma": "no-cache",
+        "user-agent": "sigmarootpi-webmentions/1.0",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${url}: ${response.status}`);
+    }
+
+    return response.text();
+  }
+
   function normalizeWebmentions(html) {
     const mentionBlocks = String(html || "")
-      .split('<div class="h-entry mention">')
+      .split(/<(?:article|div|li)[^>]*class="[^"]*\bh-entry\b[^"]*"[^>]*>/i)
       .slice(1)
-      .map((block) => block.split('<div class="h-entry mention">')[0]);
+      .map((block) => block.split(/<(?:article|div|li)[^>]*class="[^"]*\bh-entry\b[^"]*"[^>]*>/i)[0]);
 
     return mentionBlocks
       .map((block) => {
@@ -156,10 +149,17 @@ module.exports = async function(eleventyConfig) {
 
   function normalizePathname(value) {
     try {
-      return new URL(value).pathname.replace(/\/$/, "") || "/";
+      return normalizePathnameString(new URL(value).pathname);
     } catch {
-      return String(value || "").replace(/\/$/, "") || "/";
+      return normalizePathnameString(String(value || ""));
     }
+  }
+
+  function normalizePathnameString(value) {
+    const pathValue = String(value || "").trim() || "/";
+    const withoutIndexHtml = pathValue.replace(/\/index\.html?$/i, "");
+    const withoutTrailingSlash = withoutIndexHtml.replace(/\/+$/, "");
+    return withoutTrailingSlash || "/";
   }
 
   function extractWebmentionSourcePreview(html) {
@@ -630,21 +630,10 @@ ${tabsMarkup}
   // Register Piclog explicitly so homepage templates can depend on one clear global source.
   eleventyConfig.addGlobalData("piclog", async () => getPiclog());
   eleventyConfig.addGlobalData("site", {
-    name: siteName,
     url: siteUrl,
-    pathPrefix: sitePathPrefix,
-    cname: process.env.SITE_CNAME || "",
     webmentionEndpoint,
     webmentionDashboardUrl,
   });
-
-  if (process.env.SITE_CNAME) {
-    eleventyConfig.addTemplate("CNAME", `${process.env.SITE_CNAME}\n`, {
-      layout: false,
-      permalink: "CNAME",
-      eleventyExcludeFromCollections: true,
-    });
-  }
 
   // Creating a datetime format filter
   eleventyConfig.addFilter("postDate", (dateObj) => {
@@ -717,6 +706,10 @@ ${tabsMarkup}
     return items.filter((item) => new Date(item.date).getFullYear() === Number(year));
   });
 
+  eleventyConfig.addFilter("urlEncode", function(value) {
+    return encodeURIComponent(String(value ?? ""));
+  });
+
   eleventyConfig.addFilter("isoDate", function(dateObj) {
     return DateTime.fromJSDate(new Date(dateObj)).toISODate();
   });
@@ -747,18 +740,6 @@ ${tabsMarkup}
     return Number.isFinite(number) ? number.toLocaleString() : value;
   });
 
-  eleventyConfig.addFilter("urlEncode", function(value) {
-    return encodeURIComponent(String(value ?? ""));
-  });
-
-  eleventyConfig.addTransform("rewriteSiteUrls", function(content, outputPath) {
-    if (!outputPath || !outputPath.endsWith(".html")) {
-      return content;
-    }
-
-    return rewriteSiteUrls(content);
-  });
-
   eleventyConfig.addFilter("workoutBody", function(inputPath) {
     return readWorkoutMarkdownBody(inputPath);
   });
@@ -771,16 +752,34 @@ ${tabsMarkup}
     if (!targetUrl) return "";
 
     try {
-      const html = await fetchText(webmentionDashboardUrl);
-      const mentions = normalizeWebmentions(html).filter((mention) => {
+      const target = new URL(targetUrl, siteUrl).toString();
+      const matchesTarget = (mention) => {
         try {
           return mention.target
-            ? normalizePathname(mention.target) === normalizePathname(targetUrl)
+            ? normalizePathname(mention.target) === normalizePathname(target)
             : true;
         } catch {
           return true;
         }
-      });
+      };
+
+      let mentions = normalizeWebmentions(await fetchTextNoCache(webmentionDashboardUrl)).filter(matchesTarget);
+
+      if (!mentions.length) {
+        const feed = await fetchTextNoCache(`https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(target)}`);
+        const parsed = JSON.parse(feed);
+        mentions = (Array.isArray(parsed?.children) ? parsed.children : [])
+          .map((entry) => ({
+            authorName: String(entry?.author?.name || "").trim(),
+            authorUrl: String(entry?.author?.url || "").trim(),
+            authorPhoto: String(entry?.author?.photo || "").trim(),
+            url: String(entry?.url || "").trim(),
+            target: String(entry?.["mention-of"] || entry?.["in-reply-to"] || "").trim(),
+            published: String(entry?.published || entry?.["wm-received"] || "").trim(),
+            title: String(entry?.content?.text || entry?.content?.html || "").trim(),
+          }))
+          .filter(matchesTarget);
+      }
 
       const mentionsWithPreview = await Promise.all(mentions.map(async (mention) => ({
         ...mention,
@@ -1010,6 +1009,25 @@ ${tabsMarkup}
   });
 
 
+  eleventyConfig.addPlugin(feedPlugin, {
+    type: "rss", // "atom" or "rss", "json"
+    outputPath: "/feed.xml",
+    collection: {
+      name: "combinedFeed", // changed from "post" to "posts" to match collection name
+      limit: 10,     // 0 means no limit
+    },
+    metadata: {
+      language: "en",
+      title: "Sigmarootpi",
+      subtitle: "An outdated habbit of spitting my thoughts.",
+      base: "https://sigmarootpi.com/",
+      author: {
+        name: "Rishabh",
+        email: "sigmarootpi@proton.me", // Optional
+      }
+    }
+  });
+
   const feedMetadata = {
     language: "en",
     subtitle: "An outdated habbit of spitting my thoughts.",
@@ -1026,7 +1044,7 @@ ${tabsMarkup}
     collection: { name: "writingFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: `${siteName} Writing Feed`,
+      title: "Sigmarootpi Writing Feed",
     },
   });
 
@@ -1036,7 +1054,7 @@ ${tabsMarkup}
     collection: { name: "movieFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: `${siteName} Movies Feed`,
+      title: "Sigmarootpi Movies Feed",
     },
   });
 
@@ -1046,7 +1064,7 @@ ${tabsMarkup}
     collection: { name: "bookFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: `${siteName} Books Feed`,
+      title: "Sigmarootpi Books Feed",
     },
   });
 
@@ -1056,7 +1074,7 @@ ${tabsMarkup}
     collection: { name: "snapFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: `${siteName} Snap Feed`,
+      title: "Sigmarootpi Snap Feed",
     },
   });
 
@@ -1066,7 +1084,7 @@ ${tabsMarkup}
     collection: { name: "workoutFeed", limit: 10 },
     metadata: {
       ...feedMetadata,
-      title: `${siteName} Workout Feed`,
+      title: "Sigmarootpi Workout Feed",
     },
   });
 
