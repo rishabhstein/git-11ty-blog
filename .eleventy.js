@@ -601,6 +601,7 @@ ${tabsMarkup}
   eleventyConfig.addPassthroughCopy('./assets');
   eleventyConfig.addPassthroughCopy('./src/style.css');
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
+  eleventyConfig.addPassthroughCopy({ './src/CNAME': 'CNAME' });
   eleventyConfig.addPassthroughCopy({"./src/workout/*.svg": "workout/"});
 
   // Register Piclog explicitly so homepage templates can depend on one clear global source.
@@ -710,6 +711,10 @@ ${tabsMarkup}
   eleventyConfig.addFilter("formatNumber", function(value) {
     const number = Number(value);
     return Number.isFinite(number) ? number.toLocaleString() : value;
+  });
+
+  eleventyConfig.addFilter("urlEncode", function(value) {
+    return encodeURIComponent(String(value ?? ""));
   });
 
   eleventyConfig.addFilter("workoutBody", function(inputPath) {
@@ -962,25 +967,6 @@ ${tabsMarkup}
     ].sort((a, b) => a.date - b.date); // Sort descending by date
   });
 
-
-  eleventyConfig.addPlugin(feedPlugin, {
-    type: "rss", // "atom" or "rss", "json"
-    outputPath: "/feed.xml",
-    collection: {
-      name: "combinedFeed", // changed from "post" to "posts" to match collection name
-      limit: 10,     // 0 means no limit
-    },
-    metadata: {
-      language: "en",
-      title: "Sigmarootpi",
-      subtitle: "An outdated habbit of spitting my thoughts.",
-      base: "https://sigmarootpi.com/",
-      author: {
-        name: "Rishabh",
-        email: "sigmarootpi@proton.me", // Optional
-      }
-    }
-  });
 
   const feedMetadata = {
     language: "en",

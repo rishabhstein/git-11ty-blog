@@ -1,0 +1,25 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sigmarootpi</title>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <description>An outdated habbit of spitting my thoughts.</description>
+    <language>en</language>
+    {%- for post in collections.combinedFeed | reverse | take(10) %}
+    {%- set absolutePostUrl = post.url | htmlBaseUrl(site.url) %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <description>{{ post.content | renderTransforms(post.data.page, site.url) }}<p class="post-footer">Reply via <a href="mailto:hello@rishabhps.com?subject={{ ('Blogentry: ' ~ post.data.title) | urlEncode }}">email</a> or <a href="{{ absolutePostUrl }}#webmentions">webmention</a>.</p></description>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>{{ absolutePostUrl }}</guid>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

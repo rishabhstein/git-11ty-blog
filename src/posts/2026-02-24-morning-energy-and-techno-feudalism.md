@@ -8,9 +8,8 @@ The last two word-vomits were hard to finish because I wrote them before going t
 
 This morning's energy is not random, as I have experienced it multiple times in my life. Whenever I needed to do something hard, such as building a habit of flossing regularly, going for a workout, or correcting my PhD thesis, I cultivated this morning energy and channeled it to fight against my negative-self. The results were never disappointing. They brought confidence and belief in myself that I can do anything. So, to stick to the word-vomit series, I will make a routine of doing it in the morning.
 
-Now, lets not beat around the bush.
+> Now, lets not beat around the bush.
 
---
 
 I have a very few things that occupy my mental space, besides work and my son. One of them is a book I am reading nowadays, *Careless People* by Sarah Wynn-Williams. It is about the internal policies of *Facebook* (Meta now), and how its leaders changed the world.
 
