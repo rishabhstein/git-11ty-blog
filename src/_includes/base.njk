@@ -171,10 +171,7 @@
         {% if collections.workoutArchive.length %}
           {% set activityHeatmapInitialMonth = collections.workoutArchive[0].date | isoDate %}
         {% endif %}
-        {% set currentWorkoutYear = collections.workoutArchiveYears | first %}
-        {% if currentWorkoutYear %}
-          {% set activityHeatmapMonthLinkPrefix = site.pathPrefix ~ "workout/" ~ currentWorkoutYear ~ "/#month-" %}
-        {% endif %}
+        {% set activityHeatmapMonthLinkPrefix = (site.pathPrefix or "/") ~ "workout/" %}
         {% include "activity-heatmap.njk" %}
 
         <h3><a href="/workout/">Recent Activity</a></h3>

@@ -8,6 +8,12 @@ module.exports = async function(eleventyConfig) {
   const takeItems = (items, count) => (Array.isArray(items) ? items.slice(0, count) : []);
   const secondsInDay = 24 * 60 * 60 * 1000;
   const siteUrl = "https://sigmarootpi.com";
+  const sitePathPrefix = (() => {
+    const rawPrefix = process.env.SITE_PATH_PREFIX || process.env.PATH_PREFIX || "/";
+    if (!rawPrefix || rawPrefix === "/") return "/";
+    const normalized = String(rawPrefix).trim().replace(/^\/+/, "/").replace(/\/+$/, "");
+    return normalized ? `${normalized}/` : "/";
+  })();
   const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "https://webmention.io/sigmarootpi.com/webmention";
   const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g";
 
@@ -630,7 +636,9 @@ ${tabsMarkup}
   // Register Piclog explicitly so homepage templates can depend on one clear global source.
   eleventyConfig.addGlobalData("piclog", async () => getPiclog());
   eleventyConfig.addGlobalData("site", {
+    name: "Sigmarootpi.com",
     url: siteUrl,
+    pathPrefix: sitePathPrefix,
     webmentionEndpoint,
     webmentionDashboardUrl,
   });
@@ -1007,27 +1015,6 @@ ${tabsMarkup}
       ...collectionApi.getFilteredByTag("movies"),
     ].sort((a, b) => a.date - b.date); // Sort descending by date
   });
-
-
-  eleventyConfig.addPlugin(feedPlugin, {
-    type: "rss", // "atom" or "rss", "json"
-    outputPath: "/feed.xml",
-    collection: {
-      name: "combinedFeed", // changed from "post" to "posts" to match collection name
-      limit: 10,     // 0 means no limit
-    },
-    metadata: {
-      language: "en",
-      title: "Sigmarootpi",
-      subtitle: "An outdated habbit of spitting my thoughts.",
-      base: "https://sigmarootpi.com/",
-      author: {
-        name: "Rishabh",
-        email: "sigmarootpi@proton.me", // Optional
-      }
-    }
-  });
-
   const feedMetadata = {
     language: "en",
     subtitle: "An outdated habbit of spitting my thoughts.",

@@ -50,6 +50,17 @@
     return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}`;
   }
 
+  function buildMonthUrl(monthLinkPrefix, date) {
+    if (!monthLinkPrefix) return "";
+
+    const key = monthKey(date);
+    if (monthLinkPrefix.startsWith("#")) {
+      return `${monthLinkPrefix}${key}`;
+    }
+
+    return `${monthLinkPrefix}${date.getFullYear()}/#month-${key}`;
+  }
+
   function isoDate(date) {
     const year = date.getFullYear();
     const month = String(date.getMonth() + 1).padStart(2, "0");
@@ -68,7 +79,6 @@
     const activityLevel = Math.min(count, MAX_ACTIVITY_LEVEL);
     const label = isoDate(date);
     const activityLabel = count === 1 ? singularLabel : pluralLabel;
-    const key = monthKey(date);
 
     cell.className = `activity-cell activity-level-${activityLevel}`;
     cell.textContent = displayText ? date.getDate() : "";
@@ -76,7 +86,7 @@
       ? `${label}: ${count} ${activityLabel}`
       : `${label}: no ${pluralLabel}`;
     if (monthLinkPrefix) {
-      cell.setAttribute("href", `${monthLinkPrefix}${key}`);
+      cell.setAttribute("href", buildMonthUrl(monthLinkPrefix, date));
     }
 
     return cell;
@@ -160,7 +170,7 @@
     function update() {
       monthLabel.textContent = formatMonth(visibleMonth);
       if (monthLinkPrefix) {
-        monthLabel.setAttribute("href", `${monthLinkPrefix}${monthKey(visibleMonth)}`);
+        monthLabel.setAttribute("href", buildMonthUrl(monthLinkPrefix, visibleMonth));
       } else {
         monthLabel.removeAttribute("href");
       }
