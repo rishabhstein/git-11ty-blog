@@ -18,7 +18,7 @@
 {% endif %}
 {% set currentWorkoutYear = collections.workoutArchiveYears | first %}
 {% if currentWorkoutYear %}
-  {% set activityHeatmapMonthLinkPrefix = "/workout/" ~ currentWorkoutYear ~ "/#month-" %}
+  {% set activityHeatmapMonthLinkPrefix = site.pathPrefix ~ "workout/" ~ currentWorkoutYear ~ "/#month-" %}
 {% endif %}
 {% include "activity-heatmap.njk" %}
 
