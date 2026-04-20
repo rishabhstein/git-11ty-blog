@@ -16,6 +16,12 @@
 </p>
 {% endif %}
 
+{% if tags and tags[1] == "word-vomit" %}
+<blockquote>
+  <p>This post is a part of my word-vomit series. Feel free to skip it.</p>
+</blockquote>
+{% endif %}
+
 <div class="container-narrow">
           <main>
             {{ content | safe }}
@@ -23,7 +29,6 @@
 </div>
 
 <blockquote class = "post-footer">
-
     <span>Posted at: {{ page.date | postDate }}</span> <br/>
     <a href='mailto:hello@rishabhps.com?subject=Blogentry: {{ title }}'>Reply via email</a><br />
 

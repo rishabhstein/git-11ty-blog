@@ -4,7 +4,7 @@ date: 2026-04-17
 tags: ["Indieweb", "blog"]
 ---
 
-It's been a long time—more than a month, I think—since I posted a long post. The reason was the guilt of breaking my own [promise](/posts/2026-02-18-0001-beginning-of-word-vomit/) to myself. Almost every day I thought about writing, but the guilt was so intense that most of the time I ignored that thought. On a few occasions I succeeded in overcoming it and wrote a couple of word‑vomit posts. But I was never able to be consistent in restarting the series. That is why I had not posted anything for a month, and that is how guilt had affected me.
+It's been a long time—more than a month, I think—since I posted a long post. The reason was the guilt of breaking my own [promise](/posts/2026-02-18-beginning-of-word-vomit/) to myself. Almost every day I thought about writing, but the guilt was so intense that most of the time I ignored that thought. On a few occasions I succeeded in overcoming it and wrote a couple of word‑vomit posts. But I was never able to be consistent in restarting the series. That is why I had not posted anything for a month, and that is how guilt had affected me.
 
 I do not want to give excuses for my failure, except to mention poor time management. In the early morning I prefer to exercise, so writing is not possible, and after a whole day of laborious work in the lab I come home exhausted, so in the evening it's the same issue. Overall, I could not find a solution, and therefore I failed. I want to restart, but I can’t post every day. So I need to update the rules. I will discuss that in another post.
 
