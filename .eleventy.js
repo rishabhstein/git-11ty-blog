@@ -7,6 +7,9 @@ module.exports = async function(eleventyConfig) {
     [...new Set(items.map((item) => item.date.getFullYear()))].sort((a, b) => b - a);
   const takeItems = (items, count) => (Array.isArray(items) ? items.slice(0, count) : []);
   const secondsInDay = 24 * 60 * 60 * 1000;
+  const siteUrl = "https://sigmarootpi.com";
+  const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "https://webmention.io/sigmarootpi.com/webmention";
+  const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g";
 
   function parseWorkoutDurationSeconds(value) {
     if (!value) return 0;
@@ -43,6 +46,109 @@ module.exports = async function(eleventyConfig) {
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;")
       .replace(/'/g, "&#39;");
+  }
+
+  async function fetchText(url) {
+    const response = await fetch(url, {
+      headers: {
+        "user-agent": "sigmarootpi-webmentions/1.0",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${url}: ${response.status}`);
+    }
+
+    return response.text();
+  }
+
+  function normalizeWebmentions(html) {
+    const mentionBlocks = String(html || "")
+      .split('<div class="h-entry mention">')
+      .slice(1)
+      .map((block) => block.split('<div class="h-entry mention">')[0]);
+
+    return mentionBlocks
+      .map((block) => {
+        const targetMatch = block.match(/<a[^>]*class="[^"]*\bu-mention-of\b[^"]*"[^>]*href="([^"]+)"/i)
+          || block.match(/<a[^>]*href="([^"]+)"[^>]*class="[^"]*\bu-mention-of\b[^"]*"/i);
+        const sourceLinkMatch = block.match(/<time class="dt-published" datetime="([^"]+)">[\s\S]*?<a href="([^"]+)" class="u-url">/i);
+        const authorMatch = block.match(/<a href="([^"]+)" class="name u-url p-name">([\s\S]*?)<\/a>/i);
+        const publishedMatch = block.match(/<time class="dt-published" datetime="([^"]+)">/i);
+
+        const url = sourceLinkMatch ? sourceLinkMatch[2] : "";
+        const published = publishedMatch ? publishedMatch[1] : "";
+        const target = targetMatch ? targetMatch[1].trim() : "";
+        const authorUrl = authorMatch ? authorMatch[1] : "";
+        const authorName = authorMatch ? authorMatch[2].replace(/\s+/g, " ").trim() : "";
+        const hostFromUrl = (() => {
+          try {
+            return url ? new URL(url).hostname.replace(/^www\./, "") : "";
+          } catch {
+            return "";
+          }
+        })();
+
+        return {
+          authorName: authorName || hostFromUrl || "Webmention",
+          authorUrl: authorUrl || url,
+          authorPhoto: "",
+          url,
+          target,
+          published,
+          typeLabel: target ? "Reply" : "Webmention",
+        };
+      })
+      .sort((left, right) => {
+        const leftTime = new Date(left.published || 0).getTime();
+        const rightTime = new Date(right.published || 0).getTime();
+        return rightTime - leftTime;
+      });
+  }
+
+  function normalizePathname(value) {
+    try {
+      return new URL(value).pathname.replace(/\/$/, "") || "/";
+    } catch {
+      return String(value || "").replace(/\/$/, "") || "/";
+    }
+  }
+
+  function extractWebmentionSourcePreview(html) {
+    const text = String(html || "");
+    const titleMatch = text.match(/<meta[^>]*property="og:title"[^>]*content="([^"]+)"/i)
+      || text.match(/<meta[^>]*name="twitter:title"[^>]*content="([^"]+)"/i)
+      || text.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+
+    const title = titleMatch ? titleMatch[1].replace(/\s+/g, " ").trim() : "";
+
+    return {
+      title,
+    };
+  }
+
+  async function fetchWebmentionPreview(sourceUrl) {
+    if (!sourceUrl) {
+      return {
+        title: "",
+      };
+    }
+
+    try {
+      const html = await fetchText(sourceUrl);
+      return extractWebmentionSourcePreview(html);
+    } catch {
+      return {
+        title: "",
+      };
+    }
+  }
+
+  function formatWebmentionDate(value) {
+    if (!value) return "";
+    const dateTime = DateTime.fromISO(value);
+    if (!dateTime.isValid) return "";
+    return dateTime.toLocaleString(DateTime.DATE_MED);
   }
 
   function humanizeWorkoutPlotName(fileName, fallback = "Workout plot") {
@@ -433,6 +539,11 @@ ${tabsMarkup}
 
   // Register Piclog explicitly so homepage templates can depend on one clear global source.
   eleventyConfig.addGlobalData("piclog", async () => getPiclog());
+  eleventyConfig.addGlobalData("site", {
+    url: siteUrl,
+    webmentionEndpoint,
+    webmentionDashboardUrl,
+  });
 
   // Creating a datetime format filter
   eleventyConfig.addFilter("postDate", (dateObj) => {
@@ -541,6 +652,72 @@ ${tabsMarkup}
 
   eleventyConfig.addNunjucksAsyncShortcode("workoutPlots", async function(inputPath, explicitPaths = []) {
     return renderWorkoutPlotFigures(inputPath, explicitPaths);
+  });
+
+  eleventyConfig.addNunjucksAsyncShortcode("webmentionsFor", async function(targetUrl) {
+    if (!targetUrl) return "";
+
+    let html;
+
+    try {
+      html = await fetchText(webmentionDashboardUrl);
+    } catch (error) {
+      return "";
+    }
+
+    const mentions = normalizeWebmentions(html).filter((mention) => {
+      try {
+        return mention.target
+          ? normalizePathname(mention.target) === normalizePathname(targetUrl)
+          : true;
+      } catch {
+        return true;
+      }
+    });
+
+    const mentionsWithPreview = await Promise.all(mentions.map(async (mention) => ({
+      ...mention,
+      ...(await fetchWebmentionPreview(mention.url)),
+    })));
+    if (!mentionsWithPreview.length) {
+      return "";
+    }
+
+    const itemsHtml = mentionsWithPreview.map((mention) => {
+      const avatar = mention.authorPhoto
+        ? `<img class="webmention-avatar" src="${escapeHtml(mention.authorPhoto)}" alt="" loading="lazy">`
+        : `<span class="webmention-avatar webmention-avatar-fallback" aria-hidden="true">↳</span>`;
+      const sourceLink = mention.url
+        ? `<a href="${escapeHtml(mention.url)}" target="_blank" rel="noopener noreferrer">View source</a>`
+        : "";
+      const publishedLabel = formatWebmentionDate(mention.published);
+      const published = publishedLabel
+        ? `<time datetime="${escapeHtml(mention.published)}">${escapeHtml(publishedLabel)}</time>`
+        : "";
+      const title = mention.title
+        ? `<p class="webmention-title">${escapeHtml(mention.title)}</p>`
+        : "";
+
+      return `
+        <li class="webmention-item">
+          ${avatar}
+          <div class="webmention-body">
+            ${published ? `<p class="webmention-meta">${published}</p>` : ""}
+            ${title}
+            ${sourceLink ? `<p class="webmention-source">${sourceLink}</p>` : ""}
+          </div>
+        </li>
+      `.trim();
+    }).join("\n");
+
+    return `
+      <section class="webmentions" aria-labelledby="webmentions-title">
+        <h3 id="webmentions-title">Mentioned in</h3>
+        <ul class="webmentions-list">
+          ${itemsHtml}
+        </ul>
+      </section>
+    `.trim();
   });
 
   // Workout pages use a few pre-shaped summary objects to keep the templates readable.

@@ -19,4 +19,6 @@
     <span>Posted at: {{ page.date | postDate }}</span> <br/>
     <a href='mailto:hello@sigmarootpi.com?subject=Blogentry: {{ title }}'>Reply via email</a><br />
 </blockquote>
+
+{% include "webmentions.njk" %}
 </article>
