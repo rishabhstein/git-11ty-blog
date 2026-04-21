@@ -16,6 +16,7 @@ module.exports = async function(eleventyConfig) {
   })();
   const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "https://webmention.io/sigmarootpi.com/webmention";
   const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g";
+  const webmentionCachePath = path.join(process.cwd(), ".cache", "webmentions-cache.json");
 
   function parseWorkoutDurationSeconds(value) {
     if (!value) return 0;
@@ -100,6 +101,36 @@ module.exports = async function(eleventyConfig) {
     }
 
     return response.text();
+  }
+
+  function readWebmentionCache() {
+    try {
+      if (!fs.existsSync(webmentionCachePath)) return {};
+      const cached = JSON.parse(fs.readFileSync(webmentionCachePath, "utf8"));
+      return cached && typeof cached === "object" ? cached : {};
+    } catch {
+      return {};
+    }
+  }
+
+  function writeWebmentionCache(cache) {
+    try {
+      fs.mkdirSync(path.dirname(webmentionCachePath), { recursive: true });
+      fs.writeFileSync(webmentionCachePath, JSON.stringify(cache, null, 2), "utf8");
+    } catch {
+      // Ignore cache write failures; webmentions should still render when fetches succeed.
+    }
+  }
+
+  function getCachedWebmentions(targetUrl) {
+    const cache = readWebmentionCache();
+    return Array.isArray(cache[targetUrl]) ? cache[targetUrl] : [];
+  }
+
+  function setCachedWebmentions(targetUrl, mentions) {
+    const cache = readWebmentionCache();
+    cache[targetUrl] = Array.isArray(mentions) ? mentions : [];
+    writeWebmentionCache(cache);
   }
 
   function markSyntaxPlugin(md) {
@@ -239,6 +270,26 @@ module.exports = async function(eleventyConfig) {
         title: "",
       };
     }
+  }
+
+  async function fetchAllWebmentionEntries(target) {
+    const perPage = 100;
+    const entries = [];
+
+    for (let page = 0; page < 50; page += 1) {
+      const feed = await fetchTextNoCache(
+        `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(target)}&page=${page}&per-page=${perPage}&sort-dir=up`
+      );
+      const parsed = JSON.parse(feed);
+      const children = Array.isArray(parsed?.children) ? parsed.children : [];
+      entries.push(...children);
+
+      if (children.length < perPage) {
+        break;
+      }
+    }
+
+    return entries;
   }
 
   function formatWebmentionDate(value) {
@@ -846,32 +897,31 @@ ${tabsMarkup}
         }
       };
 
-      let mentions = normalizeWebmentions(await fetchTextNoCache(webmentionDashboardUrl)).filter(matchesTarget);
-
-      if (!mentions.length) {
-        const feed = await fetchTextNoCache(`https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(target)}`);
-        const parsed = JSON.parse(feed);
-        mentions = (Array.isArray(parsed?.children) ? parsed.children : [])
-          .map((entry) => ({
-            authorName: String(entry?.author?.name || "").trim(),
-            authorUrl: String(entry?.author?.url || "").trim(),
-            authorPhoto: String(entry?.author?.photo || "").trim(),
-            url: String(entry?.url || "").trim(),
-            target: String(entry?.["mention-of"] || entry?.["in-reply-to"] || "").trim(),
-            published: String(entry?.published || entry?.["wm-received"] || "").trim(),
-            title: String(entry?.content?.text || entry?.content?.html || "").trim(),
-          }))
-          .filter(matchesTarget);
-      }
+      const mentions = (await fetchAllWebmentionEntries(target))
+        .map((entry) => ({
+          authorName: String(entry?.author?.name || "").trim(),
+          authorUrl: String(entry?.author?.url || "").trim(),
+          authorPhoto: String(entry?.author?.photo || "").trim(),
+          url: String(entry?.url || "").trim(),
+          target: String(entry?.["mention-of"] || entry?.["in-reply-to"] || "").trim(),
+          published: String(entry?.published || entry?.["wm-received"] || "").trim(),
+          title: String(entry?.content?.text || entry?.content?.html || "").trim(),
+        }))
+        .filter(matchesTarget);
 
       const mentionsWithPreview = await Promise.all(mentions.map(async (mention) => ({
         ...mention,
         ...(await fetchWebmentionPreview(mention.url)),
       })));
 
+      setCachedWebmentions(normalizePathname(target), mentionsWithPreview);
+
       return buildWebmentionsSectionHtml(mentionsWithPreview);
     } catch {
-      return "";
+      const cachedMentions = getCachedWebmentions(normalizePathname(new URL(targetUrl, siteUrl).toString()));
+      if (!cachedMentions.length) return "";
+
+      return buildWebmentionsSectionHtml(cachedMentions);
     }
   });
 
