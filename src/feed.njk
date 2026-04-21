@@ -14,7 +14,12 @@ eleventyExcludeFromCollections: true
     {%- set absolutePostUrl = post.url | htmlBaseUrl(site.url) %}
     {%- set feedBody = post.content | renderTransforms(post.data.page, site.url) | rssBlockquoteStyle %}
     {%- set feedFooter = '<p class="post-footer">Reply via <a href="mailto:hello@rishabhps.com?subject=' ~ (('Blogentry: ' ~ post.data.title) | urlEncode) ~ '">email</a> or <a href="' ~ absolutePostUrl ~ '#webmentions">webmention</a>.</p>' %}
-    {%- set feedContent = feedBody ~ feedFooter %}
+    {%- set wordVomitNote = '<blockquote style="margin:1rem 0;padding:0.9rem 1rem;border-left:5px solid #ffd84d;background:#fff8d6;color:#1b1b1b;font-style:italic"><p>This post is a part of my word-vomit series. Feel free to skip it.</p></blockquote>' %}
+    {%- set feedIntro = "" %}
+    {%- if post.data.tags and "word-vomit" in post.data.tags %}
+    {%- set feedIntro = wordVomitNote %}
+    {%- endif %}
+    {%- set feedContent = feedIntro ~ feedBody ~ feedFooter %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>
