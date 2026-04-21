@@ -24,6 +24,6 @@ I neither binge-watch nor doom-scroll (social-media-free), yet I feel the dilemm
 
 My dilemma can be further broken down into reading vs writing. And in reading, the competition is between blog reading vs book reading. Which one should I do?
 
-==I think I can set some rules based on available time. If I have more energy and around an hour, I can write. If I have less energy and around an hour, I can read books. Moreover, if I am short on time—let's say half an hour—and I am tired, then I should prefer blog posts.==
+==I think I can set some rules based on available time. If I have more energy and around an hour, I can write. If I have less energy and around an hour, I can read books. Moreover, if I am short on time, say half an hour, and I am tired, then I should prefer blog posts.==
 
 Oh boy, I should print these rules. It seems a legit solution to my dilemma, at least in theory. I will update the practicality of these rules later.

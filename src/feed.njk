@@ -18,8 +18,8 @@ eleventyExcludeFromCollections: true
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>
-      <description>{{ feedContent | rssCdata }}</description>
-      <content:encoded>{{ feedContent | rssCdata }}</content:encoded>
+      <description>{{ feedContent | rssCdata | safe }}</description>
+      <content:encoded>{{ feedContent | rssCdata | safe }}</content:encoded>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
       <dc:creator>Rishabh</dc:creator>
       <guid>{{ absolutePostUrl }}</guid>

@@ -102,6 +102,49 @@ module.exports = async function(eleventyConfig) {
     return response.text();
   }
 
+  function markSyntaxPlugin(md) {
+    function tokenizeMark(state, silent) {
+      const start = state.pos;
+      const max = state.posMax;
+
+      if (start + 3 >= max) return false;
+      if (state.src.charCodeAt(start) !== 0x3D || state.src.charCodeAt(start + 1) !== 0x3D) return false;
+
+      const contentStart = start + 2;
+      let end = contentStart;
+
+      while ((end = state.src.indexOf("==", end)) !== -1) {
+        if (end > contentStart) {
+          if (silent) return false;
+
+          const openToken = state.push("mark_open", "mark", 1);
+          openToken.markup = "==";
+
+          const oldPos = state.pos;
+          const oldPosMax = state.posMax;
+          state.pos = contentStart;
+          state.posMax = end;
+          state.md.inline.tokenize(state);
+          state.pos = oldPos;
+          state.posMax = oldPosMax;
+
+          const closeToken = state.push("mark_close", "mark", -1);
+          closeToken.markup = "==";
+          state.pos = end + 2;
+          return true;
+        }
+
+        end += 2;
+      }
+
+      return false;
+    }
+
+    md.inline.ruler.after("emphasis", "mark", tokenizeMark);
+    md.renderer.rules.mark_open = () => "<mark>";
+    md.renderer.rules.mark_close = () => "</mark>";
+  }
+
   function normalizeWebmentions(html) {
     const mentionBlocks = String(html || "")
       .split(/<(?:article|div|li)[^>]*class="[^"]*\bh-entry\b[^"]*"[^>]*>/i)
@@ -627,6 +670,11 @@ ${tabsMarkup}
   const getExternalFeeds = externalFeeds.getExternalFeeds || externalFeeds;
   const { readFeedPosts } = externalFeeds;
 
+  eleventyConfig.amendLibrary("md", (mdLib) => {
+    mdLib.use(markSyntaxPlugin);
+    return mdLib;
+  });
+
   //Just copy these files to _site
   eleventyConfig.addPassthroughCopy('./assets');
   eleventyConfig.addPassthroughCopy('./src/style.css');
@@ -653,6 +701,7 @@ ${tabsMarkup}
 
   // Creating a Markdown filter
   const md = new markdownIt();
+  md.use(markSyntaxPlugin);
   eleventyConfig.addFilter("markdownify", (value) => {
     return md.render(value || "");
   });
