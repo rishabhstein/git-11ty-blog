@@ -23,7 +23,7 @@ html {
   --visited-color: #7a4c82;
   --tag-link-color: #7b4f2a;
   --link-hover-bg: transparent;
-  --highlight-color: #e8d2b8;
+  --highlight-color: #ffd84d;
 
   --panel-bg: rgba(255, 248, 238, 0.94);
   --panel-text: #2d241c;
@@ -52,7 +52,7 @@ html {
     --visited-color: #c19cff;
     --tag-link-color: #7fb8ff;
     --link-hover-bg: transparent;
-    --highlight-color: #27456e;
+    --highlight-color: #ffd84d;
 
     --panel-bg: rgba(16, 26, 46, 0.94);
     --panel-text: #dbe7f5;
@@ -76,8 +76,8 @@ html {
   }
 
   ::selection {
-    background: #36547d;
-    color: #f8fbff;
+    background: #ffd84d;
+    color: #1b1b1b;
   }
 
   .workout-chart-toggle-button {
@@ -2252,7 +2252,7 @@ a:visited {
 
 ::selection {
   background: var(--highlight-color);
-  color: var(--heading-color);
+  color: #1b1b1b;
 }
 
 p {

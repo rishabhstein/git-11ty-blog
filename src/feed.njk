@@ -3,7 +3,7 @@ permalink: /feed.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ site.name }}</title>
     <link>{{ site.url }}</link>
@@ -12,10 +12,14 @@ eleventyExcludeFromCollections: true
     <language>en</language>
     {%- for post in collections.combinedFeed | reverse | take(10) %}
     {%- set absolutePostUrl = post.url | htmlBaseUrl(site.url) %}
+    {%- set feedBody = post.content | renderTransforms(post.data.page, site.url) | rssBlockquoteStyle %}
+    {%- set feedFooter = '<p class="post-footer">Reply via <a href="mailto:hello@rishabhps.com?subject=' ~ (('Blogentry: ' ~ post.data.title) | urlEncode) ~ '">email</a> or <a href="' ~ absolutePostUrl ~ '#webmentions">webmention</a>.</p>' %}
+    {%- set feedContent = feedBody ~ feedFooter %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>
-      <description>{{ post.content | renderTransforms(post.data.page, site.url) }}<p class="post-footer">Reply via <a href="mailto:hello@rishabhps.com?subject={{ ('Blogentry: ' ~ post.data.title) | urlEncode }}">email</a> or <a href="{{ absolutePostUrl }}#webmentions">webmention</a>.</p></description>
+      <description>{{ feedContent | rssCdata }}</description>
+      <content:encoded>{{ feedContent | rssCdata }}</content:encoded>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
       <dc:creator>Rishabh</dc:creator>
       <guid>{{ absolutePostUrl }}</guid>

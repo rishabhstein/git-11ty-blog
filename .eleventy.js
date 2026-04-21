@@ -743,6 +743,32 @@ ${tabsMarkup}
     return takeItems(items, Number(count) || 0);
   });
 
+  eleventyConfig.addFilter("rssBlockquoteStyle", function(content) {
+    if (!content) return "";
+
+    const blockquoteStyle = [
+      "margin:1rem 0",
+      "padding:0.9rem 1rem",
+      "border-left:5px solid #ffd84d",
+      "background:#fff8d6",
+      "color:#1b1b1b",
+      "font-style:italic",
+    ].join(";");
+
+    return String(content).replace(/<blockquote\b([^>]*)>/gi, (match, attrs = "") => {
+      if (/style\s*=/.test(attrs)) {
+        return match;
+      }
+
+      return `<blockquote${attrs} style="${blockquoteStyle}">`;
+    });
+  });
+
+  eleventyConfig.addFilter("rssCdata", function(content) {
+    if (!content) return "<![CDATA[]]>";
+    return `<![CDATA[${String(content).replace(/]]>/g, "]]]]><![CDATA[>")}]]>`;
+  });
+
   eleventyConfig.addFilter("formatNumber", function(value) {
     const number = Number(value);
     return Number.isFinite(number) ? number.toLocaleString() : value;
