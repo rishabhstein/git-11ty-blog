@@ -4,13 +4,13 @@ date: 2026-04-22
 tags: ["word-vomit"]
 ---
 
-I am tired from a constant struggle to write a report about the results I have obtained in the past few months of my postdoc. The main issue is that my mind does not want to do it; it's simply boring or not stimulating enough for my ADHD mind.
+I am tired from a constant struggle to write a report about results I have obtained in the past few months of my postdoc. The main issue is that my mind does not want to do it; it's simply boring or not stimulating enough for my ADHD mind.
 
-This problem is not the only one I face because of a lack of stimulation in an activity. Another example is doing household work. Of course I am aware it's boring for most people, but for an ADHD mind it is even harder. You can imagine the intensity when I can stay hungry the whole day to avoid deciding what to cook. It is a very boring task.
+This problem is not the only one I face because of less stimulation. Another example is doing the household work. Of course I am aware it's boring for most people, but for an ADHD mind it is even worse. I can stay hungry the whole day to avoid deciding what to cook. It is a very boring task.
 
-Yet another example of boring tasks is booking an appointment offline. I can ignore an important doctor's visit for six months simply because I need to first book an appointment. It is also a boring task.
+Similarly, I can ignore an important doctor's visit for six months simply because I need to first book an appointment. It is also a boring task.
 
-This problem of lack of stimulation in the ADHD mind is [well known](https://www.nature.com/articles/d41586-026-00094-x) nowadays. But it took me almost 30 years (I am in my mid-thirties) to understand why I cannot do the same things as most people. Thanks to that, I do not blame myself for unknown reasons.
+This problem of lack of stimulation in the ADHD mind is [well known](https://www.nature.com/articles/d41586-026-00094-x) in scientific world. But it took me almost 30 years (I am in my mid-thirties) to understand why I failed do the same things as most people. And thanks to that, I do not blame myself if I am failing in some activty temporarily.
 
 --
 
