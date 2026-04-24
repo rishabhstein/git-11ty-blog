@@ -12,7 +12,7 @@
 	<atom:link href="https://fyfluiddynamics.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://fyfluiddynamics.com</link>
 	<description>Celebrating the physics of all that flows</description>
-	<lastBuildDate>Sun, 29 Mar 2026 20:51:57 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 06 Apr 2026 17:05:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,190 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">169405895</site>	<item>
+		<title>&#8220;Frozen Waves&#8221;</title>
+		<link>https://fyfluiddynamics.com/2026/04/frozen-waves/</link>
+					<comments>https://fyfluiddynamics.com/2026/04/frozen-waves/#comments</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Fri, 24 Apr 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Art]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[fluids as art]]></category>
+		<category><![CDATA[freezing]]></category>
+		<category><![CDATA[ice]]></category>
+		<category><![CDATA[ocean waves]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[sea ice]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29769</guid>
+
+					<description><![CDATA[Photographer Jan Erik Waider is a master of capturing incredible landscape imagery. In these videos, he uses a drone to film waves in the Baltic Sea gently undulating polygonal slabs of ice on the ocean surface. The interplay of light, color, and motion looks almost surreal, but nature is better than we credit at making [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/frozen_waves1-1024x576.png" title="Waves undulate until polygon ice." alt="Waves undulate until polygon ice." /></div></div>
+
+
+
+<p>Photographer Jan Erik Waider is a master of capturing incredible landscape imagery. In these videos, he uses a drone to film waves in the Baltic Sea gently undulating polygonal slabs of ice on the ocean surface. The interplay of light, color, and motion looks almost surreal, but nature is better than we credit at making imagery too good to look away from. (Video and image credit: <a href="https://www.northlandscapes.com">J. Waider/NorthLandscapes</a>; via <a href="https://www.thisiscolossal.com/2026/03/jan-erik-waider-baltic-sea-ice-video/?__readwiseLocation=">Colossal</a>)</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="FROZEN WAVES: Sunset Edition – Polygon Ice Formations Along the Baltic Sea Coast (4K Drone)" width="500" height="281" src="https://www.youtube.com/embed/-JQaZaUSS0E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/frozen-waves/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">29769</post-id>	</item>
+		<item>
+		<title>Viscoelastic Vortex Street</title>
+		<link>https://fyfluiddynamics.com/2026/04/viscoelastic-vortex-street/</link>
+					<comments>https://fyfluiddynamics.com/2026/04/viscoelastic-vortex-street/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Thu, 23 Apr 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[fluids as art]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[viscoelasticity]]></category>
+		<category><![CDATA[von Karman vortex street]]></category>
+		<category><![CDATA[vortex shedding]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=28357</guid>
+
+					<description><![CDATA[When flow moves past a cylinder, vortices get shed in its wake. Known as a von Karman vortex street, this distinctive pattern is seen behind flags, islands, and even behind starships. Here, researchers are simulating flow of a viscoelastic fluid, where&#8211;unlike water or other Newtonian fluids&#8211;elastic stresses can build up. As the flow hits the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>When flow moves past a cylinder, vortices get shed in its wake. Known as a <a href="/tagged/von-Karman-vortex-street/">von Karman vortex street</a>, this distinctive pattern is seen behind <a href="/2012/08/the-flapping-of-flexible-objects-like-flags-have/">flags</a>, <a href="/2022/01/swirls-in-the-wake/">islands</a>, and even <a href="https://fyfluiddynamics.com/2016/09/fuckyeahfluiddynamics-todays-post-is-largely/">behind starships</a>. Here, researchers are simulating flow of a <a href="/tagged/viscoelasticity/">viscoelastic fluid</a>, where&#8211;unlike water or other Newtonian fluids&#8211;elastic stresses can build up. </p>
+
+
+
+<p>As the flow hits the leading edge of the cylinder, the polymers in the fluid compress and then get stretched as the flow moves around the cylinder. The left image shows vorticity in the flow; the right shows elastic stresses. The large swirls are primary vortices&#8211;those shed off the cylinder. But look closely and you&#8217;ll see smaller secondary vortices curled up beside the primaries. These form when the elastic stresses in the fluid pull some of the shear layer into the wake. (Image and research credit: <a href="https://doi.org/10.1103/dsx8-n7mr">U. Patel et al.</a>)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img fetchpriority="high" decoding="async" width="1000" height="919" src="https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main.png" alt="Simulation of a flow around a cylinder in a viscoelastic flow. Left, vorticity; right, elastic stresses." class="wp-image-28359" srcset="https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main.png 1000w, https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main-300x276.png 300w, https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main-768x706.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/viscoelastic-vortex-street/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">28357</post-id>	</item>
+		<item>
+		<title>Understanding Fish and Turbines</title>
+		<link>https://fyfluiddynamics.com/2026/04/understanding-fish-and-turbines/</link>
+					<comments>https://fyfluiddynamics.com/2026/04/understanding-fish-and-turbines/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Wed, 22 Apr 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[2025gofm]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[computational fluid dynamics]]></category>
+		<category><![CDATA[fish]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[large eddy simulation]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[turbulence]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=28569</guid>
+
+					<description><![CDATA[Fish detect turbulence in the water around them; among other things, this helps them avoid colliding with objects. Here, researchers are looking to understand how fish interact with underwater turbines. Experiments give them a set of trajectories that actual fish follow when dealing with the experimental turbine. But to understand what the fish is detecting, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/fish_turb1-1024x576.png" title="Illustration of a fish encountering an underwater turbine. Text reads, &quot;Fish detect turbulence signals using the lateral line system. Turbulence as viscous hydrodynamic disturbances.&quot;" alt="Illustration of a fish encountering an underwater turbine. Text reads, &quot;Fish detect turbulence signals using the lateral line system. Turbulence as viscous hydrodynamic disturbances.&quot;" /></div></div>
+
+
+
+<p><a href="/tagged/fish/">Fish</a> detect <a href="/tagged/turbulence/">turbulence</a> in the water around them; among other things, this helps them avoid colliding with objects. Here, researchers are looking to understand how fish interact with underwater turbines. Experiments give them a set of trajectories that actual fish follow when dealing with the experimental turbine. But to understand what the fish is detecting, the researchers build a digital facsimile of the turbine and use <a href="/tagged/large-eddy-simulation/">Large Eddy Simulation</a> (LES) to calculate the turbine&#8217;s wake. </p>
+
+
+
+<p>By overlaying the fish trajectories onto the simulated flow structures, they can better understand what flows the fish is and is not comfortable with. That knowledge helps engineers design turbines with smaller ecological impact. (Video and image credit: <a href="https://gfm.aps.org/meetings/dfd-2025/692e39eba7f805227b16ff4c">H. Seyedzadeh et al.</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/understanding-fish-and-turbines/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">28569</post-id>	</item>
+		<item>
+		<title>A Fungus That Freezes Water</title>
+		<link>https://fyfluiddynamics.com/2026/04/a-fungus-that-freezes-water/</link>
+					<comments>https://fyfluiddynamics.com/2026/04/a-fungus-that-freezes-water/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[freezing]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[supercooling]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29746</guid>
+
+					<description><![CDATA[Although water can freeze below 0 degrees Celsius, it requires a little help&#8211;in the form of a nucleation site&#8211;to do so. Often temperatures must dip well below 0 degrees Celsius for droplets to become ice. But a new study shows that at least one fungus forms proteins that help the process along. The proteins come [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Although water can freeze below 0 degrees Celsius, it requires a little help&#8211;in the form of a nucleation site&#8211;to do so. Often temperatures must dip well below 0 degrees Celsius for droplets to become ice. But a <a href="https://doi.org/10.1126/sciadv.aed9652">new study shows</a> that at least one fungus forms proteins that help the process along.</p>
+
+
+
+<p>The proteins come from the <em>Mortierellaceae</em>  fungal family, by way of a bacterial species some hundreds of thousands of years ago or more. In experiments, adding the fungal protein helped water freeze 10 or more degrees Celsius sooner than it otherwise would. </p>
+
+
+
+<p>The authors note that there are many possible applications for this freezing additive; it could help preserve food or cells without requiring lower freezing temperatures that could damage delicate tissues. It could also serve as a cloud seeding chemical in place of toxic silver iodide particles. (Image and research credit: <a href="https://doi.org/10.1126/sciadv.aed9652">R. Eufemio et al.</a>; via <a href="https://gizmodo.com/this-fungus-can-make-water-freeze-2000733992?__readwiseLocation=">Gizmodo</a>; see also <a href="https://news.vt.edu/articles/2026/03/ice-nucleation-fungi-boris-vinatzer-xiaofeng-wang.html">V. Tech</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/a-fungus-that-freezes-water/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">29746</post-id>	</item>
+		<item>
+		<title>Shocking Fizzy Jets</title>
+		<link>https://fyfluiddynamics.com/2026/04/shocking-fizzy-jets/</link>
+					<comments>https://fyfluiddynamics.com/2026/04/shocking-fizzy-jets/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Mon, 20 Apr 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[2025gofm]]></category>
+		<category><![CDATA[atomization]]></category>
+		<category><![CDATA[bag]]></category>
+		<category><![CDATA[droplet breakup]]></category>
+		<category><![CDATA[droplets]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[jets]]></category>
+		<category><![CDATA[ligaments]]></category>
+		<category><![CDATA[liquid sheet]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[sprays]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=27799</guid>
+
+					<description><![CDATA[Many industrial processes break a fluid jet into droplets, like spray painting and ink-jet printing. Here, researchers examine an effervescent fluid jet made up of both liquid and gas. Like a fluid-only jet, this fizzy jet forms sheets, bags, ligaments, and droplets. As it breaks down, it creates a range of droplet sizes&#8211;both large and [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/fizzy_jet1-1024x576.png" title="An effervescent jet made up of many droplets and ligaments of fluid." alt="An effervescent jet made up of many droplets and ligaments of fluid." /></div></div>
+
+
+
+<p>Many industrial processes break a fluid jet into droplets, like spray painting and ink-jet printing. Here, researchers examine an effervescent fluid jet made up of both liquid and gas. Like a fluid-only jet, this fizzy jet forms sheets, bags, ligaments, and droplets. As it breaks down, it creates a range of droplet sizes&#8211;both large and small. But when a <a href="/tagged/shockwave">shock wave</a> passes, the jet and its droplets get atomized into even tinier droplets. (Video and image credit: <a href="https://gfm.aps.org/meetings/dfd-2025/692e39eba7f805227b16ff3d">S. Rao et al.</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/shocking-fizzy-jets/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">27799</post-id>	</item>
+		<item>
 		<title>Insect Wings in Extreme Macro</title>
 		<link>https://fyfluiddynamics.com/2026/04/insect-wings-in-extreme-macro/</link>
 					<comments>https://fyfluiddynamics.com/2026/04/insect-wings-in-extreme-macro/#respond</comments>
@@ -87,7 +271,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img fetchpriority="high" decoding="async" width="720" height="436" src="https://fyfluiddynamics.com/wp-content/uploads/melt_propel_main.gif" alt="Cold meltwater sinking off an asymmetric ice block is enough to propel the melting iceberg." class="wp-image-29533"/></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="720" height="436" src="https://fyfluiddynamics.com/wp-content/uploads/melt_propel_main.gif" alt="Cold meltwater sinking off an asymmetric ice block is enough to propel the melting iceberg." class="wp-image-29533"/></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/melting-can-propel-icebergs/feed/</wfw:commentRss>
@@ -158,7 +342,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="720" height="405" src="https://fyfluiddynamics.com/wp-content/uploads/stop_go_bubble_main.gif" alt="Stop-and-go. A bubble slides along an inclined surface in a pronounced stop-and-go motion when vibrated near its frequency for translational resonance." class="wp-image-29759"/><figcaption class="wp-element-caption">Stop-and-go. A bubble slides along an inclined surface in a pronounced stop-and-go motion when vibrated near its frequency for translational resonance.</figcaption></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="720" height="405" src="https://fyfluiddynamics.com/wp-content/uploads/stop_go_bubble_main.gif" alt="Stop-and-go. A bubble slides along an inclined surface in a pronounced stop-and-go motion when vibrated near its frequency for translational resonance." class="wp-image-29759"/><figcaption class="wp-element-caption">Stop-and-go. A bubble slides along an inclined surface in a pronounced stop-and-go motion when vibrated near its frequency for translational resonance.</figcaption></figure>
 
 
 
@@ -200,185 +384,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">28655</post-id>	</item>
-		<item>
-		<title>Frog Kick</title>
-		<link>https://fyfluiddynamics.com/2026/04/frog-kick/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/frog-kick/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Fri, 10 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Art]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[capillary waves]]></category>
-		<category><![CDATA[flow visualization]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[fluids as art]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[vortices]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=28964</guid>
-
-					<description><![CDATA[A toad swims across a pond in this award-winning image from photographer Paul Hobson. The shot was actually captured from below the water, with the camera kept dry in a glass housing. Although the frog appears to be mid-leap, the light-distorting ripples around its feet hint at the flow its kick generated. It&#8217;s reminiscent of [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>A toad swims across a pond in this award-winning image from photographer Paul Hobson. The shot was actually captured from below the water, with the camera kept dry in a glass housing. Although the frog appears to be mid-leap, the light-distorting ripples around its feet hint at the flow its kick generated. It&#8217;s reminiscent of <a href="https://thales.mit.edu/bush/index.php/2003/04/14/water-strider-locomotion-paradox-lost/">the vortices left by water striders</a> as they move. (Image credit: <a href="https://www.bwpawards.org/2026-winners">P. Hobson/BWPA</a>; via <a href="https://www.thisiscolossal.com/2026/03/british-wildlife-photography-awards-contest-winners/?__readwiseLocation=">Colossal</a>)</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="716" src="https://fyfluiddynamics.com/wp-content/uploads/toad_swim_main-1024x716.png" alt="“A Toad Swims Across Its Woodland Pond” by Paul Hobson" class="wp-image-28968" srcset="https://fyfluiddynamics.com/wp-content/uploads/toad_swim_main-1024x716.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/toad_swim_main-300x210.png 300w, https://fyfluiddynamics.com/wp-content/uploads/toad_swim_main-768x537.png 768w, https://fyfluiddynamics.com/wp-content/uploads/toad_swim_main-1536x1073.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/toad_swim_main-2048x1431.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/frog-kick/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">28964</post-id>	</item>
-		<item>
-		<title>Fluid Flows Break Up Microswimmer Clumps</title>
-		<link>https://fyfluiddynamics.com/2026/04/fluid-flows-break-up-microswimmer-clumps/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/fluid-flows-break-up-microswimmer-clumps/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Thu, 09 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[active matter]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[collective motion]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[hydrodynamics]]></category>
-		<category><![CDATA[microswimmers]]></category>
-		<category><![CDATA[phase separation]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=28625</guid>
-
-					<description><![CDATA[The field of active matter looks at the collective motion of particles and organisms&#8211;how birds flock and fish school. In systems of &#8220;dry&#8221; squirmers&#8211;those that have no hydrodynamic interactions with one another&#8211;clumps of squirmers can form with empty spaces in between them. This is known as motility-induced phase separation, or MIPS. Researchers wondered whether microswimmers [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>The field of <a href="/tagged/active-matter/">active matter</a> looks at the collective motion of particles and organisms&#8211;how <a href="/tagged/flocking/">birds flock</a> and <a href="/tagged/schooling/">fish school</a>. In systems of &#8220;dry&#8221; squirmers&#8211;those that have no hydrodynamic interactions with one another&#8211;clumps of squirmers can form with empty spaces in between them. This is known as motility-induced phase separation, or MIPS. Researchers wondered whether <a href="/tagged/microswimmers/">microswimmers</a> in a fluid&#8211;which do produce hydrodynamic forces that can affect one another&#8211;would also show MIPS.</p>
-
-
-
-<p>In a <a href="https://doi.org/10.1103/jhhk-j5g9">new study</a>, researchers show, instead, that hydrodynamic interactions between swimmers will prevent (or destroy) these clumps. Through a combination of theoretical work and simulation, the authors found that translational flows between swimmers swept the swimmers out of clumps as they formed. Rotational flows between swimmers made them able to change direction faster, which also kept stable clumps from forming. (Image and research credit: <a href="https://doi.org/10.1103/jhhk-j5g9">T. Zhou and J. Brady</a>; via <a href="https://physics.aps.org/articles/v19/s25?__readwiseLocation=">APS</a>)</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="720" height="731" src="https://fyfluiddynamics.com/wp-content/uploads/active_swimmers_sim.gif" alt="Hydrodynamic interactions destroy clumps of microswimmers. This simulation shows microswimmers that are initially in a clumped formation before hydrodynamic interactions are &quot;turned on&quot;. Once the swimmers can affect one another through the flows their motion creates, the clumps quickly break apart." class="wp-image-28629"/><figcaption class="wp-element-caption">Hydrodynamic interactions destroy clumps of microswimmers. This simulation shows microswimmers that are initially in a clumped formation before hydrodynamic interactions are &#8220;turned on&#8221;. Once the swimmers can affect one another through the flows their motion creates, the clumps quickly break apart.</figcaption></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/fluid-flows-break-up-microswimmer-clumps/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">28625</post-id>	</item>
-		<item>
-		<title>Bursting Bubbles</title>
-		<link>https://fyfluiddynamics.com/2026/04/bursting-bubbles/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/bursting-bubbles/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Wed, 08 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[2025gofm]]></category>
-		<category><![CDATA[bubbles]]></category>
-		<category><![CDATA[bursting]]></category>
-		<category><![CDATA[droplets]]></category>
-		<category><![CDATA[flow visualization]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=28988</guid>
-
-					<description><![CDATA[When air bubbles rise through a liquid, they scavenge dust, viruses, microplastics, and other impurities as they go. Once at the surface, these contaminant-covered bubbles thin and burst, generating many tiny droplets that arc through the air above. You&#8217;re likely familiar with the sight and sensation from a glass of champagne or soda. Here, researchers [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>When air bubbles rise through a liquid, they scavenge dust, viruses, microplastics, and other impurities as they go. Once at the surface, these <a href="/2023/03/how-large-particles-get-in-sea-spray/">contaminant-covered bubbles thin and burst</a>, generating many tiny droplets that arc through the air above. You&#8217;re likely familiar with the sight and sensation from a glass of <a href="/tagged/champagne/">champagne</a> or soda. </p>
-
-
-
-<p>Here, researchers have stacked two sets of sequential images to illustrate this complicated flowscape. Under the surface, a trio of photos are stacked to show bubbles rising and gathering at the surface. In the air, the researchers have stacked thirty sequential images, which together trace out the parabolic arcs of droplets sprayed by the bursting bubbles. (Image credit: <a href="https://gfm.aps.org/meetings/dfd-2025/692e39e5a7f805227b16fea4">J. Do and B. Wang</a>)</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="683" height="1024" src="https://fyfluiddynamics.com/wp-content/uploads/bubble_burst_comp_main-683x1024.png" alt="A research poster showing composite images of bubbles rising to a water-air interface and bursting, sending up a spray of microdroplets." class="wp-image-28990" srcset="https://fyfluiddynamics.com/wp-content/uploads/bubble_burst_comp_main-683x1024.png 683w, https://fyfluiddynamics.com/wp-content/uploads/bubble_burst_comp_main-200x300.png 200w, https://fyfluiddynamics.com/wp-content/uploads/bubble_burst_comp_main-768x1152.png 768w, https://fyfluiddynamics.com/wp-content/uploads/bubble_burst_comp_main-1024x1536.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/bubble_burst_comp_main-1365x2048.png 1365w, https://fyfluiddynamics.com/wp-content/uploads/bubble_burst_comp_main.png 1600w" sizes="auto, (max-width: 683px) 100vw, 683px" /></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/bursting-bubbles/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">28988</post-id>	</item>
-		<item>
-		<title>Building Triboelectric Charge</title>
-		<link>https://fyfluiddynamics.com/2026/04/building-triboelectric-charge/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/building-triboelectric-charge/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Tue, 07 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[acoustic levitation]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[triboelectrification]]></category>
-		<category><![CDATA[volcano]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29514</guid>
-
-					<description><![CDATA[In volcanic eruptions, collisions between ash particles can sometimes build up enough electric charge for lightning to arc through the plume. Scientists have long debated how this happens&#8211;it&#8217;s not obvious that insulating materials like oxides would build up electric charges through contact, especially when dealing with substances of the same material. It&#8217;s not like rubbing [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>In <a href="/tagged/volcano/">volcanic eruptions</a>, collisions between ash particles can sometimes build up enough electric charge for lightning to arc through the plume. Scientists have long debated how this happens&#8211;it&#8217;s not obvious that insulating materials like oxides would build up electric charges through contact, especially when dealing with substances of the same material. It&#8217;s not like rubbing a balloon against your hair, where each material&#8211;and its tendency to hold a charge&#8211;differs.</p>
-
-
-
-<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="230" src="https://fyfluiddynamics.com/wp-content/uploads/triboelectric_setup-1024x230.png" alt="A 500-micron silica sphere acoustically levitated above a silica plate in the experiment." class="wp-image-29515" srcset="https://fyfluiddynamics.com/wp-content/uploads/triboelectric_setup-1024x230.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/triboelectric_setup-300x67.png 300w, https://fyfluiddynamics.com/wp-content/uploads/triboelectric_setup-768x172.png 768w, https://fyfluiddynamics.com/wp-content/uploads/triboelectric_setup-1536x345.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/triboelectric_setup.png 2046w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">A 500-micron silica sphere acoustically levitated above a silica plate in the experiment.</figcaption></figure>
-
-
-
-<p>To test how charges build on identical materials, a team of scientists used <a href="/tagged/acoustic-levitation/">acoustic levitation</a> to repeatedly bounce a silica bead against an identically treated silica plate, observing their charge build-up. Then they would take one of the pieces&#8211;either the sphere or the plate&#8211;and treat it to strip away the film of molecules that naturally adsorb onto the surface over time. Then they bounced the treated and untreated surfaces off one another again.</p>
-
-
-
-<p>The result was&#8211;pardon the pun&#8211;striking. Whichever surface had been treated to remove adsorbates charged more negatively the second time around. Looking more closely at what they were removing, the team found their surfaces were mostly adsorbing carbon molecules. And if they iteratively removed the carbon from <em>both</em> the sphere and plate, they could no longer charge the two through collision. It seems that the key to charging two oxides off one another is actually the difference between the incidental amounts of carbon on their surfaces! (Image credit: volcano &#8211; <a href="https://unsplash.com/photos/eruption-of-volcano-VbP9v1rh-sc">M. Szeglat</a>, experiment &#8211; <a href="https://doi.org/10.1038/s41586-025-10088-w">G. Grosjean et al.</a>; research credit: <a href="https://doi.org/10.1038/s41586-025-10088-w">G. Grosjean et al.</a>; via <a href="https://gizmodo.com/physicists-say-theyve-cracked-the-mystery-of-volcanic-lightning-2000736209?__readwiseLocation=">Gizmodo</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/building-triboelectric-charge/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">29514</post-id>	</item>
-		<item>
-		<title>Fire From Below</title>
-		<link>https://fyfluiddynamics.com/2026/04/fire-from-below/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/fire-from-below/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Mon, 06 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[buoyancy]]></category>
-		<category><![CDATA[combustion]]></category>
-		<category><![CDATA[fire]]></category>
-		<category><![CDATA[flame]]></category>
-		<category><![CDATA[flow visualization]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[fluids as art]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29508</guid>
-
-					<description><![CDATA[A slight change in perspective can do wonders. In this video, the Slow Mo Guys look at a burning flame from below. They accomplish this by mounting a gas grill upside-down. This small change means that buoyancy can&#8217;t simply lift heat and exhaust gases away from the flame source. Instead, the flow pushes out and [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/fire_below1.gif" title="A burning fire viewed from below in high-speed footage." alt="A burning fire viewed from below in high-speed footage." /></div></div>
-
-
-
-<p>A slight change in perspective can do wonders. In this video, the Slow Mo Guys look at a <a href="/tagged/combustion/">burning flame</a> from below. They accomplish this by mounting a gas grill upside-down. This small change means that <a href="/tagged/buoyancy/">buoyancy</a> can&#8217;t simply lift heat and exhaust gases away from the flame source. Instead, the flow pushes out and around the edges of the grill.</p>
-
-
-
-<p>The views are, as always, amazing. The billowing flames are mesmerizing&#8211;often closer to laminar than turbulent. And the added spectacle of cinnamon combusting in the later segments really does make for the kind of visuals you&#8217;d expect in a sci-fi movie. (Video and image credit: The Slow Mo Guys)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/fire-from-below/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">29508</post-id>	</item>
 	</channel>
 </rss>

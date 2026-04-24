@@ -3676,6 +3676,48 @@ img.geo-image-loaded {
 }
 
 @media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #0b1220;
+    --text-color: #d8e1ec;
+    --heading-color: #b9d7ff;
+
+    --link-color: #f0b45f;
+    --visited-color: #d7a7ff;
+    --tag-link-color: #f0b45f;
+    --link-hover-bg: transparent;
+    --highlight-color: #2b3d5c;
+
+    --panel-bg: rgba(14, 24, 41, 0.98);
+    --panel-text: #d8e1ec;
+    --panel-border: rgba(148, 178, 214, 0.18);
+    --panel-border-dark: rgba(185, 215, 255, 0.28);
+    --panel-border-light: rgba(255, 255, 255, 0.08);
+    --panel-shadow: 0 14px 40px rgba(0, 0, 0, 0.26);
+    --panel-shadow-hover: 0 18px 48px rgba(0, 0, 0, 0.34);
+    --header-strip-bg: linear-gradient(180deg, #1a2740 0%, #10192a 100%);
+    --header-strip-text: #d8e1ec;
+    --header-strip-border: rgba(148, 178, 214, 0.2);
+    --nav-bg: linear-gradient(180deg, #172338 0%, #10192a 100%);
+    --nav-text: #d8e1ec;
+    --nav-border: rgba(148, 178, 214, 0.18);
+
+    --blockquote-border: #5f83b7;
+    --blockquote-bg: #111d33;
+    --table-header-bg: #172338;
+    --table-header-text: #d8e1ec;
+    --table-row-alt: #10192a;
+    --notebook-accent: #b9d7ff;
+    --status-bg: #111d33;
+    --status-border: solid;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    background-image:
+      radial-gradient(circle at top, rgba(63, 91, 133, 0.28), transparent 58%),
+      linear-gradient(180deg, #0b1220 0%, #111827 100%);
+  }
+
   .workout-log-page .workout-log-item,
   .workout-log-page .workout-type-card,
   .workout-log-page .workout-bar-chart,

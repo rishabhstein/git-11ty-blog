@@ -5,7 +5,7 @@
   <link rel="self" type="application/atom+xml" href="https://appaddict.app/feed.atom"/>
   <title>AppAddict</title>
   <subtitle>I'm an incurable software collector and enjoy few things more than downloading and exploring new apps. If you've got the same bug, check here for suggestions. If you're a developer and have an app you'd like me to check out, let me know.</subtitle>
-  <updated>2026-04-16T15:39:15Z</updated>
+  <updated>2026-04-21T17:06:17Z</updated>
   <logo>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWl3QmFRSXNBVG9LYzJGMlpYSjdCem9LYzNSeWFYQlVPZ3h4ZFdGc2FYUjVhV1E9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--d5470907b5b5a357fec32990d4bdb78c827f9472/1024px-App_Store_(iOS).svg.png</logo>
   <icon>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwUldsRk9ncHpZWFpsY25zSE9ncHpkSEpwY0ZRNkRIRjFZV3hwZEhscFpBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--d0a377349dc1eed29878fcae6bec2204e230fc00/1024px-App_Store_(iOS).svg.png</icon>
   <author>
@@ -13,13 +13,175 @@
     <uri>https://appaddict.app</uri>
   </author>
   <entry>
+    <id>tag:appaddict.app,2005:Post/16235</id>
+    <published>2026-04-21T17:06:17Z</published>
+    <updated>2026-04-21T17:06:19Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/dockside-turns-drag-and-drop-into-a-real-workflow"/>
+    <title>Dockside Turns Drag-And-Drop Into a Real Workflow</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Dockside" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBenlUQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c477ea28ee5cd6418e099737d9ba46f38cb5c80c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-21%20at%2013.04.19.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Dockside
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Most Mac users already rely on drag-and-drop constantly, but macOS never really gave us a good place to &lt;i&gt;&lt;em&gt;stage&lt;/em&gt;&lt;/i&gt; things temporarily. Finder windows work, but they’re clumsy for quick hand-offs between apps.&lt;/p&gt;
+
+&lt;p&gt;Dockside turns that gap into a system. It acts like a permanent drop zone beside your Dock where you can park files, preview them, batch them, trigger actions, and move them between apps without juggling Finder windows.&lt;/p&gt;
+
+&lt;h3&gt;Turning Drag and Drop Into a System&lt;/h3&gt;
+
+&lt;p&gt;Just because you want to use a file shelf utility doesn’t mean you should have to manage yet another window cluttering your workspace.&lt;/p&gt;
+
+&lt;p&gt;Shelf location is a feature; an important one. With Dockside, the shelf lives beside your Dock or on any edge of your display you choose. It’s always where your muscle memory expects it. It’s definitely not another window you have to manage.&lt;/p&gt;
+
+&lt;p&gt;Dockside’s strength isn’t just acting as a landing strip for files. It includes multiple purpose-built shelf areas, a secondary space for screenshots, downloads, recents, and clipboard history, plus stacks, Quick Look, utilities, and; this is where the real power lives; drop zones that can trigger Shortcuts, scripts, or file actions based on what you drop.&lt;/p&gt;
+
+&lt;h3&gt;What Dockside Is and Isn’t&lt;/h3&gt;
+
+&lt;p&gt;Dockside is a native-feeling macOS file shelf and Dock companion. You drag in files, folders, apps, images, video, links, or text; park them temporarily; preview or batch-select them; then drag them out to Finder or into apps.&lt;/p&gt;
+
+&lt;p&gt;It’s &lt;b&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/b&gt; a “Dock replacement.” It’s more like a workflow lane; close enough to the Dock to feel like it belongs to the OS, but customizable enough to act like a small command center.&lt;/p&gt;
+
+&lt;h3&gt;Multi-Shelf Layout&lt;/h3&gt;
+
+&lt;p&gt;Dockside gives each side of your Dock a different purpose.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Files shelf&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The primary area where you drag files, folders, apps, images, video, links, or text.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Secondary shelf&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;By default this displays screenshots and downloads, but it can be configured to show several other categories:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Recent files&lt;/strong&gt;&lt;/b&gt; (with exclusions and limits)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Clipboard history&lt;/strong&gt;&lt;/b&gt; (with capture toggles, exclusions, and regex rules)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Media controls&lt;/strong&gt;&lt;/b&gt; (Spotify or Apple Music)&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;System info&lt;/strong&gt;&lt;/b&gt; (CPU, memory, disk, network, battery, uptime, temperatures)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Dragging; Opinionated in a Good Way&lt;/h3&gt;
+
+&lt;p&gt;Dragging items out of Dockside is sophisticated in a way that shows how much thought went into its design.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Smart drag activation:&lt;/strong&gt;&lt;/b&gt; open when dragging starts, when the cursor nears the shelf, or when it approaches the cursor; user choice.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Adjustable sensitivity:&lt;/strong&gt;&lt;/b&gt; tune the delay and drop-zone height so it feels fast without triggering accidentally.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Store by alias or copy:&lt;/strong&gt;&lt;/b&gt; keep lightweight aliases or store real copies inside Dockside.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Remove items after drag-out:&lt;/strong&gt;&lt;/b&gt; great for true hand-off workflows.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The attention to detail is clear in the modifier-key behavior while dragging. You can remove items on drag-out with &lt;b&gt;&lt;strong&gt;Option&lt;/strong&gt;&lt;/b&gt;, use Finder-style move vs copy behavior, ignore activation with &lt;b&gt;&lt;strong&gt;Fn&lt;/strong&gt;&lt;/b&gt;, and more.&lt;/p&gt;
+
+&lt;p&gt;It’s the kind of app that gets noticeably better once your muscle memory kicks in.&lt;/p&gt;
+
+&lt;h3&gt;So Many Features&lt;/h3&gt;
+
+&lt;p&gt;I’ve been using Dockside for over a year. During that time the feature set has grown quite a bit without drifting into feature bloat.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Project Scratchpad&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;You can create and manage up to three separately configurable work zones in Dockside (for example: working copies, archive, future projects), each with its own automation rules based on tag filters or watched folders.&lt;/p&gt;
+
+&lt;p&gt;Clutter isn’t much of a problem because Dockside includes a &lt;b&gt;&lt;strong&gt;stack interface&lt;/strong&gt;&lt;/b&gt; and lets you create folders directly from selected files.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Drop Zones&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;You can configure multiple drop zones that appear when you drag items. Each zone has a user-definable primary action (Shortcut, Email, Copy or Move, AppleScript, shell script, CLI command, utilities, or none) and a post-drop action (keep in shelf, move or copy elsewhere, trash, or permanently delete).&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Utility Suite&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Dockside includes a set of file utilities available from menus, hover actions, or assignable drop zones:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Compression and extraction&lt;/li&gt;
+&lt;li&gt;Image to PDF&lt;/li&gt;
+&lt;li&gt;Image metadata removal&lt;/li&gt;
+&lt;li&gt;Rename&lt;/li&gt;
+&lt;li&gt;Move or copy to predefined folders&lt;/li&gt;
+&lt;li&gt;ShareSheet&lt;/li&gt;
+&lt;li&gt;Cloud uploads&lt;/li&gt;
+&lt;li&gt;Clop integration for file size optimization&lt;/li&gt;
+&lt;li&gt;Finder integration via a Finder Sync extension&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;What Makes Dockside Stand Out&lt;/h3&gt;
+
+&lt;p&gt;The problem with many apps in this category is inconsistent behavior. Elements move around unexpectedly, or panels hide and unhide randomly.&lt;/p&gt;
+
+&lt;p&gt;Dockside has been rock solid in my experience.&lt;/p&gt;
+
+&lt;p&gt;You can configure which display it appears on and which edge it attaches to. You choose how it hides or shows itself, either through settings or a global shortcut. Once configured, it behaves predictably. It just works.&lt;/p&gt;
+
+&lt;p&gt;It’s 100% a &lt;b&gt;&lt;strong&gt;Mac-ass Mac app&lt;/strong&gt;&lt;/b&gt;. Standard keyboard shortcuts work as expected: ⌘C, ⌘V, ⌘A, ⌘⌫, and ⌘Z to restore. Multi-item selection is built in. There are trackpad and mouse gestures for expanding shelves and paginating items. The right-click context menu is practical and thoughtfully designed.&lt;/p&gt;
+
+&lt;p&gt;Dockside is also Terminal friendly. It supports Apple Shortcuts and custom URLs. Not only does it work with Clop, it also includes a PopClip extension and sharing via Dropshare.&lt;/p&gt;
+
+&lt;p&gt;This is a power user’s kind of utility. The developer is friendly and responsive, and the app fits into your workflow without forcing you to change how you work. It’s particularly well suited to juggling multiple projects at once. There’s also a two-week free trial, which is plenty of time to see whether it fits your workflow.&lt;/p&gt;
+
+&lt;h3&gt;Real-World Uses&lt;/h3&gt;
+
+&lt;p&gt;After a few weeks of using Dockside, certain workflows start to feel natural.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Temporary file staging&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Drag files from Finder, Mail, or Safari into Dockside while collecting materials for something. Once everything is there, drag them out together into the destination app.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Screenshot triage&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Screenshots land in the secondary shelf automatically. From there you can preview them with Quick Look, drop them into an image tool, or send them directly to a drop zone action.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Automation trigger pad&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Drop a file onto a zone that runs a Shortcut or shell script; resize images, move files to project folders, or trigger upload workflows.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Multi-project juggling&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Use separate scratchpad zones for active work, reference material, and future tasks without scattering Finder windows everywhere.&lt;/p&gt;
+
+&lt;h3&gt;The Details&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Activation on up to three Macs&lt;/li&gt;
+&lt;li&gt;Apple notarized&lt;/li&gt;
+&lt;li&gt;Privacy policy: no data collection; internet used mainly for license activation and checks&lt;/li&gt;
+&lt;li&gt;Homebrew install supported (&lt;code&gt;brew install --cask dockside&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Cost: $5.99 lifetime; no subscription. I could easily see paying five times that for something this useful.&lt;/li&gt;
+&lt;li&gt;Developer website:&lt;br&gt;&lt;a href="https://hachipoo.com/dockside-app"&gt;Dockside for Mac — native file shelf &amp;amp; Dock companion (drag, drop, done)&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;The Verdict&lt;/h3&gt;
+
+&lt;p&gt;Dockside is one of those tools that feels small at first and then quietly becomes part of your daily workflow.&lt;/p&gt;
+
+&lt;p&gt;If you move files between apps constantly, collect materials for projects, or run file-based automations, it’s an easy recommendation. It behaves like a natural extension of macOS rather than another utility window competing for your attention.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Dockside%20Turns%20Drag-And-Drop%20Into%20a%20Real%20Workflow" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Most Mac users already rely on drag-and-drop constantly, but macOS never really gave us a good place to stage things temporarily. Finder windows work, but they’re clumsy for quick hand-offs between apps.
+
+Dockside turns that gap into a system. It acts like a permanent drop zone beside your Dock where...</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
     <id>tag:appaddict.app,2005:Post/16158</id>
     <published>2026-04-16T15:39:15Z</published>
     <updated>2026-04-16T15:39:17Z</updated>
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/seeking-feedback-from-mac-power-users"/>
     <title>Seeking Feedback from Mac Power Users</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Mac Apps" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL2FSQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ae14ba59cae8a4ea4e75269c3ce974d8a063fe17/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-16%20at%2011.36.42.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Mac Apps" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL2FSQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ae14ba59cae8a4ea4e75269c3ce974d8a063fe17/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-16%20at%2011.36.42.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Mac Apps
     &lt;/figcaption&gt;
@@ -55,7 +217,7 @@ I’m looking for the answers to the following questions:
 2. Who do you think is the target audience for the app
 3. What’s your...</summary>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -66,7 +228,7 @@ I’m looking for the answers to the following questions:
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/learning-and-using-github-as-a-non-developer-with-tower"/>
     <title>Learning and Using GitHub As a Non-Developer with Tower</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Tower" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBKzJRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a1f50152e6731aaff8f371c23c43bdbb8fccfeb3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-13%20at%2021.02.32.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Tower" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBKzJRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a1f50152e6731aaff8f371c23c43bdbb8fccfeb3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-13%20at%2021.02.32.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Tower
     &lt;/figcaption&gt;
@@ -257,7 +419,7 @@ I now use Git repositories to version and back up things like:
 • my 13K-file Obsidian vault (private)
 • ~700 Keyboard...</summary>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -285,7 +447,7 @@ I now use Git repositories to version and back up things like:
 &lt;hr&gt;
 
 &lt;figure class="attachment attachment--preview flex-col justify-center attachment--webp"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd21RQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f7b010e7da2acdff95257cd9de1e4871d7281c20/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2h3Ym1jNkZISmxjMmw2WlY5MGIxOXNhVzFwZEZzSGFRSUFDR2tDQUFZNkNuTmhkbVZ5ZXdjNkNuTjBjbWx3VkRvTWNYVmhiR2wwZVdsayIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--63d820beee6b8696af3b0f76fc64159e37e92615/10.webp" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd21RQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f7b010e7da2acdff95257cd9de1e4871d7281c20/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2h3Ym1jNkZISmxjMmw2WlY5MGIxOXNhVzFwZEZzSGFRSUFDR2tDQUFZNkNuTmhkbVZ5ZXdjNkNuTjBjbWx3VkRvTWNYVmhiR2wwZVdsayIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--63d820beee6b8696af3b0f76fc64159e37e92615/10.webp" loading="lazy" decoding="async"&gt;
 &lt;/figure&gt;
 
 &lt;h2&gt;XSpeak&lt;/h2&gt;
@@ -322,7 +484,7 @@ I now use Git repositories to version and back up things like:
 &lt;h2&gt;Drooid&lt;/h2&gt;
 
 &lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3FRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1677857cf8cc83ecf6e884017878edcf746f5854/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-10%20at%2021.23.14.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3FRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1677857cf8cc83ecf6e884017878edcf746f5854/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-10%20at%2021.23.14.jpg" loading="lazy" decoding="async"&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;b&gt;&lt;strong&gt;What problem this solves:&lt;/strong&gt;&lt;/b&gt; Quickly comparing how different news outlets frame the same story.&lt;/p&gt;
@@ -373,7 +535,7 @@ I now use Git repositories to version and back up things like:
 &lt;h2&gt;Parall&lt;/h2&gt;
 
 &lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3VRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a205abf88347b7992acf1eaa6040149e3abf5789/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-10%20at%2021.24.39.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3VRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a205abf88347b7992acf1eaa6040149e3abf5789/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-10%20at%2021.24.39.jpg" loading="lazy" decoding="async"&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;b&gt;&lt;strong&gt;What problem this solves:&lt;/strong&gt;&lt;/b&gt; Running multiple independent instances of the same app without separate macOS accounts.&lt;/p&gt;
@@ -430,7 +592,7 @@ Developers keep finding interesting ways to make our existing tech more useful. 
 Here are three apps that take a slightly unconventional...</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -441,7 +603,7 @@ Here are three apps that take a slightly unconventional...</summary>
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/organizing-a-660-app-applications-folder-with-apptela"/>
     <title>Organizing a 660-App /Applications Folder with AppTela</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="AppTela" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXlQQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--74c8df767b0059a8cbc0320b2b049a44d6784a1c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-08%20at%2021.28.30.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="AppTela" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXlQQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--74c8df767b0059a8cbc0320b2b049a44d6784a1c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-08%20at%2021.28.30.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       AppTela
     &lt;/figcaption&gt;
@@ -632,7 +794,7 @@ Here are three apps that take a slightly unconventional...</summary>
 
 I tend to keep an app for every contingency. The problem isn’t disk space; it’s remembering the name of the utility you...</summary>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -643,7 +805,7 @@ I tend to keep an app for every contingency. The problem isn’t disk space; it�
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/i-replaced-apple-music-with-yate-swinsian-navidrome-and-an-ipod-classic-surprisingly-better"/>
     <title>I replaced Apple Music with Yate, Swinsian, Navidrome, and an iPod Classic. Surprisingly better.</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Navidrome" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNGlOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8be0a070ddcf99c2cafc0fc1df9e97b0cc206ff6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/dylan.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Navidrome" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNGlOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8be0a070ddcf99c2cafc0fc1df9e97b0cc206ff6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/dylan.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Navidrome
     &lt;/figcaption&gt;
@@ -746,7 +908,7 @@ I tend to keep an app for every contingency. The problem isn’t disk space; it�
 &lt;hr&gt;
 
 &lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Yate" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNG1OQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ac70cdb23c56355b9b96f07593a9a2b1dd78e923/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/yate.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Yate" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNG1OQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ac70cdb23c56355b9b96f07593a9a2b1dd78e923/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/yate.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Yate
     &lt;/figcaption&gt;
@@ -791,7 +953,7 @@ I tend to keep an app for every contingency. The problem isn’t disk space; it�
 &lt;hr&gt;
 
 &lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Swinsian" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHFOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fc4be1e8c6ba7b3a7fa9363832e6820ad83cd056/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-06%20at%2011.53.10.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Swinsian" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHFOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fc4be1e8c6ba7b3a7fa9363832e6820ad83cd056/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-06%20at%2011.53.10.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Swinsian
     &lt;/figcaption&gt;
@@ -907,7 +1069,7 @@ Over the past month I rebuilt my workflow for managing a large local music colle
 • Migration – Apple Music with iTunes Match ($25/year; you only need it once)
 • Repair – Yate (free)...</summary>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -918,7 +1080,7 @@ Over the past month I rebuilt my workflow for managing a large local music colle
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/radial-4-works-best-as-an-automation-hub"/>
     <title>Radial 4 Works Best as an Automation Hub</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Radial" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--475905546719757d36f756dc8270e7e8bc8301bc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/UIUpdate.png" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Radial" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--475905546719757d36f756dc8270e7e8bc8301bc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/UIUpdate.png" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Radial
     &lt;/figcaption&gt;
@@ -1069,7 +1231,7 @@ Over the past month I rebuilt my workflow for managing a large local music colle
 &lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Radial%204%20Works%20Best%20as%20an%20Automation%20Hub" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
     <summary>I spent the afternoon experimenting with Radial 4, a rapidly evolving pie-menu app from independent developer Gustav Lubker of AppVerge. If you’re not familiar with pie menu apps, they present a circular menu divided into sections (or slices), each representing an action or command. When configured well, they map naturally to...</summary>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -1080,7 +1242,7 @@ Over the past month I rebuilt my workflow for managing a large local music colle
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/backigo-is-a-dependable-full-featured-icloud-backup-solution"/>
     <title>BackiGo is a Dependable &amp; Full Featured iCloud Backup Solution</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="BackiGo" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWFNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--af2b5827c6f07fefea10231ba29f044b8b03abc9/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/SCR-20260401-rlxn.png" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="BackiGo" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWFNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--af2b5827c6f07fefea10231ba29f044b8b03abc9/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/SCR-20260401-rlxn.png" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       BackiGo
     &lt;/figcaption&gt;
@@ -1205,7 +1367,7 @@ If you rely on iCloud but don’t have a true backup of that data, BackiGo is on
 BackiGo is an iCloud backup app I can recommend for anyone looking for an alternative to Parachute. Parachute is a well-known iCloud backup utility that was...</summary>
     <category term="universal-apps" label="Universal Apps" scheme="https://appaddict.app/categories"/>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -1218,7 +1380,7 @@ BackiGo is an iCloud backup app I can recommend for anyone looking for an alter
     <content type="html">&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;
 
 &lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="DoubleMemory" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOHlMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0fc05eaf09c15fe51b61f77821e44b4e6e6fdd9c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-30%20at%2015.01.18.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="DoubleMemory" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOHlMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0fc05eaf09c15fe51b61f77821e44b4e6e6fdd9c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-30%20at%2015.01.18.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       DoubleMemory
     &lt;/figcaption&gt;
@@ -1264,7 +1426,7 @@ BackiGo is an iCloud backup app I can recommend for anyone looking for an alter
 I’m always impressed when an out-of-the-box thinker builds an app unlike anything I’ve seen before. Iterating on proven concepts is fine, but after testing enough clipboard managers and voice-to-text apps, they all start to blur together. Give me something new, clever, and useful, and I’ll happily change my workflow...</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -1275,7 +1437,7 @@ I’m always impressed when an out-of-the-box thinker builds an app unlike anyth
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/500-app-reviews-published"/>
     <title>500 App Reviews Published!</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Number 500!!!" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXVMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4d2220436baeb2b7e6562eda2909b792c74afd9c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/appaddict500.png" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Number 500!!!" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXVMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4d2220436baeb2b7e6562eda2909b792c74afd9c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/appaddict500.png" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Number 500!!!
     &lt;/figcaption&gt;
@@ -1288,7 +1450,7 @@ I’m always impressed when an out-of-the-box thinker builds an app unlike anyth
 &lt;p&gt;AppAddict is just me, one old guy with a laptop and a decades old predilection for clicking the download button on just about every app I see. This is my hobby, not a side job. I do it because I enjoy it. I can't tell you how thrilling it's been to interact with developers of some of my favorite apps. I still have a big streak of fanboy.&lt;/p&gt;
 
 &lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Analytics" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMTZMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cbf948cf1311d42e52ab8c64406de369b1052ea3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-29%20at%2006.28.16.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Analytics" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMTZMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cbf948cf1311d42e52ab8c64406de369b1052ea3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-29%20at%2006.28.16.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Analytics
     &lt;/figcaption&gt;
@@ -1296,7 +1458,7 @@ I’m always impressed when an out-of-the-box thinker builds an app unlike anyth
 &lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=500%20App%20Reviews%20Published!" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
     <summary>I posted my 500th app review this week. If you keep typing long enough, this is what happens. It makes me super happy and I hope I have helped some of you find apps that you've grown to use and love. If I have, please leave a comment, it will...</summary>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -1307,7 +1469,7 @@ I’m always impressed when an out-of-the-box thinker builds an app unlike anyth
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/automation-fans-are-going-to-love-picmal-for-conversions"/>
     <title>Automation Fans Are Going to Love PicMal for Conversions</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="PicMal" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUNLQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bb58781cc3899738a2935f6036e470520ff9197b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-26%20at%2021.42.00.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="PicMal" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUNLQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bb58781cc3899738a2935f6036e470520ff9197b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-26%20at%2021.42.00.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       PicMal
     &lt;/figcaption&gt;
@@ -1394,7 +1556,7 @@ I’m always impressed when an out-of-the-box thinker builds an app unlike anyth
 
 You can solve all...</summary>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -1405,7 +1567,7 @@ You can solve all...</summary>
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/10-tiny-mac-workflow-tweaks-that-save-me-time-every-day"/>
     <title>10 Tiny Mac Workflow Tweaks that Save Me Time Every Day</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Power User Apps" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWFLQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ce4121c53d071566c797687a8531c3d4747b1daa/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/a_3x4_grid_of_application_icons_is_displayed_on_a.jpeg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Power User Apps" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWFLQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ce4121c53d071566c797687a8531c3d4747b1daa/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/a_3x4_grid_of_application_icons_is_displayed_on_a.jpeg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Power User Apps
     &lt;/figcaption&gt;
@@ -1455,7 +1617,7 @@ You can solve all...</summary>
 I spend a lot of time trying to remove small bits...</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -1466,7 +1628,7 @@ I spend a lot of time trying to remove small bits...</summary>
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/consul-is-supremely-useful"/>
     <title>Consul is Supremely Useful</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Automation" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK21KQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--46c431fc5cc6baa73f13cc6be141c3b47829cc8d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-24%20at%2011.40.00.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Automation" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK21KQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--46c431fc5cc6baa73f13cc6be141c3b47829cc8d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-24%20at%2011.40.00.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Automation
     &lt;/figcaption&gt;
@@ -1509,7 +1671,7 @@ I spend a lot of time trying to remove small bits...</summary>
 
 You might think you’ll never really need to convert files...</summary>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -1526,7 +1688,7 @@ You might think you’ll never really need to convert files...</summary>
 &lt;h2&gt;Shareful&lt;/h2&gt;
 
 &lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMU9KQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2f7290055972ec9ef48a13962080bc65a34f6b1f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/screenshot1.Cu-zFadA.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMU9KQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2f7290055972ec9ef48a13962080bc65a34f6b1f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/screenshot1.Cu-zFadA.jpg" loading="lazy" decoding="async"&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;One of those apps for me is &lt;a href="https://appaddict.app/post/shareful-a-free-app-i-use-every-day"&gt;Shareful&lt;/a&gt; by &lt;a href="https://appaddict.app/post/the-many-apps-of-sindre-sorhus"&gt;Sindre Sorhus&lt;/a&gt;.&lt;/p&gt;
@@ -1545,7 +1707,7 @@ You might think you’ll never really need to convert files...</summary>
 &lt;h2&gt;Start by Innovative Bytes&lt;/h2&gt;
 
 &lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNKQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--31cbb665d0bc6bf98debaacfdad43d3f1b554887/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/start.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNKQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--31cbb665d0bc6bf98debaacfdad43d3f1b554887/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/start.jpg" loading="lazy" decoding="async"&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Even though I’m very much a keyboard-launcher person (Team &lt;a href="https://appaddict.app/post/how-to-get-the-most-from-raycast"&gt;Raycast&lt;/a&gt;), there are situations where that approach breaks down.&lt;/p&gt;
@@ -1577,7 +1739,7 @@ You might think you’ll never really need to convert files...</summary>
 I’m curious what apps fall into that category for...</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
     <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>
@@ -1588,7 +1750,7 @@ I’m curious what apps fall into that category for...</summary>
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/resurf-a-well-designed-almost-everything-box"/>
     <title>Resurf – A Well-Designed (Almost) Everything Box</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Resurf" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeHlKQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--75339141bdbcdcd848f6948a2e73872cd80732b1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-21%20at%2018.36.17.jpg" loading="lazy" decoding="async"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Resurf" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeHlKQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--75339141bdbcdcd848f6948a2e73872cd80732b1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-21%20at%2018.36.17.jpg" loading="lazy" decoding="async"&gt;
     &lt;figcaption class="attachment__caption text-center"&gt;
       Resurf
     &lt;/figcaption&gt;
@@ -1702,250 +1864,7 @@ I’m curious what apps fall into that category for...</summary>
     <summary>Resurf is a clever new app, currently in beta, with a lot of potential. This is one of those “I needed an app to do X, so I built one” projects; the difference is that it was built by a design engineer who clearly understands macOS conventions. The result feels native...</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
     <author>
-      <name>AppAddict</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15674</id>
-    <published>2026-03-19T21:34:08Z</published>
-    <updated>2026-04-01T10:17:56Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/octarine-powerful-sophisticated-and-easy-to-use"/>
-    <title>Octarine: Powerful, Sophisticated and Easy to Use</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
-      &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Octarine" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK3lJQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c57cfb50f1f71e406809ab8385db1769f50a5695/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/CleanShot%202026-03-19%20at%2017.33.21.png" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Octarine
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I’ve been hearing about &lt;b&gt;&lt;strong&gt;Octarine&lt;/strong&gt;&lt;/b&gt; for a while. It’s one of those apps that people whose opinions I respect talk about with a certain level of admiration. After testing it as thoroughly as I’ve tested any app in a long time, I understand why.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://octarine.app/"&gt;Octarine&lt;/a&gt; is a tool for creating, editing, and organizing text-based information using connected but independent documents: &lt;b&gt;&lt;strong&gt;Markdown files&lt;/strong&gt;&lt;/b&gt;. Without relying on plugins, it supports images, video, PDFs, and files created by other productivity apps. Those files can be linked inside Octarine but still open in their native applications.&lt;/p&gt;
-
-&lt;p&gt;Octarine isn’t designed for a single purpose. It’s more like a flexible Markdown workspace you can adapt to several overlapping uses:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Journaling&lt;/li&gt;
-&lt;li&gt;Task management&lt;/li&gt;
-&lt;li&gt;Writing and long-form drafting&lt;/li&gt;
-&lt;li&gt;Math or science reference notes&lt;/li&gt;
-&lt;li&gt;Documentation&lt;/li&gt;
-&lt;li&gt;Personal knowledge management (PKM)&lt;/li&gt;
-&lt;li&gt;Project planning&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Setup&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-
-&lt;p&gt;Octarine is available for &lt;b&gt;&lt;strong&gt;Windows, Linux, and macOS&lt;/strong&gt;&lt;/b&gt;, but it’s not a heavy Electron app. The download is just over &lt;b&gt;&lt;strong&gt;30 MB&lt;/strong&gt;&lt;/b&gt;, and it launches as fast as TextEdit; effectively instant.&lt;/p&gt;
-
-&lt;p&gt;The interface is &lt;b&gt;&lt;strong&gt;tab-based&lt;/strong&gt;&lt;/b&gt;, similar to a web browser. It isn’t strictly native macOS UI, but it’s clean, responsive, and supports customizable themes.&lt;/p&gt;
-
-&lt;p&gt;Installation on the Mac is simple:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Open the downloaded DMG&lt;/li&gt;
-&lt;li&gt;Drag &lt;b&gt;&lt;strong&gt;Octarine.app&lt;/strong&gt;&lt;/b&gt; into /Applications&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;That’s it.&lt;/p&gt;
-
-&lt;p&gt;When you launch it for the first time, Octarine asks you to &lt;b&gt;&lt;strong&gt;open or create a Workspace&lt;/strong&gt;&lt;/b&gt;. A workspace is simply a folder of Markdown files; either ones you create or notes that already exist somewhere on your Mac.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Structure&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-
-&lt;p&gt;You can download, install, and configure Octarine in well under a minute and immediately start creating documents.&lt;/p&gt;
-
-&lt;p&gt;A key design choice is that &lt;b&gt;&lt;strong&gt;Octarine uses the filesystem directly&lt;/strong&gt;&lt;/b&gt;. Your workspace is just a folder containing Markdown files with human-readable filenames.&lt;/p&gt;
-
-&lt;p&gt;That means:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;You can manage files directly in &lt;b&gt;&lt;strong&gt;Finder&lt;/strong&gt;&lt;/b&gt;
-&lt;/li&gt;
-&lt;li&gt;You can open them in &lt;b&gt;&lt;strong&gt;any text editor&lt;/strong&gt;&lt;/b&gt;
-&lt;/li&gt;
-&lt;li&gt;Octarine will immediately reflect changes made elsewhere&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I verified this by opening a note in &lt;b&gt;&lt;strong&gt;Typora&lt;/strong&gt;&lt;/b&gt;, adding a table, and watching it render instantly inside Octarine.&lt;/p&gt;
-
-&lt;p&gt;Because everything lives in normal folders and Markdown files, syncing is straightforward. You can use:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;iCloud Drive&lt;/li&gt;
-&lt;li&gt;Google Drive&lt;/li&gt;
-&lt;li&gt;Syncthing&lt;/li&gt;
-&lt;li&gt;GitHub repositories (built-in integration)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The Git support also provides versioning for people who want a real audit trail for their notes.&lt;/p&gt;
-
-&lt;p&gt;Like most PKM-oriented tools, Octarine supports &lt;b&gt;&lt;strong&gt;wikilinks&lt;/strong&gt;&lt;/b&gt;. Typing [[ opens a searchable list of notes in the workspace. If you bracket a title that doesn’t exist yet, Octarine offers to create the note.&lt;/p&gt;
-
-&lt;p&gt;There’s also a &lt;b&gt;&lt;strong&gt;knowledge graph&lt;/strong&gt;&lt;/b&gt; showing connections between notes. Just remember: posting screenshots of your graph online costs you several internet credibility points.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Formatting&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-
-&lt;p&gt;Most formatting tools are accessible through a &lt;b&gt;&lt;strong&gt;slash command menu (/)&lt;/strong&gt;&lt;/b&gt;, which exposes a wide range of Markdown and extended elements:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Headers&lt;/li&gt;
-&lt;li&gt;Text styles (bold, italic, strikethrough)&lt;/li&gt;
-&lt;li&gt;Callouts&lt;/li&gt;
-&lt;li&gt;Code blocks&lt;/li&gt;
-&lt;li&gt;Mermaid diagrams&lt;/li&gt;
-&lt;li&gt;LaTeX&lt;/li&gt;
-&lt;li&gt;Dividers&lt;/li&gt;
-&lt;li&gt;Tables&lt;/li&gt;
-&lt;li&gt;Colored text&lt;/li&gt;
-&lt;li&gt;Dates&lt;/li&gt;
-&lt;li&gt;Links&lt;/li&gt;
-&lt;li&gt;Templates&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You could easily use Octarine purely as a &lt;b&gt;&lt;strong&gt;writing tool&lt;/strong&gt;&lt;/b&gt;. It’s a full Markdown editor with live rendering similar to apps like Typora.&lt;/p&gt;
-
-&lt;p&gt;Under the hood, however, the file remains a plain text Markdown document. You can open it in &lt;b&gt;&lt;strong&gt;BBEdit&lt;/strong&gt;&lt;/b&gt;, import it into &lt;b&gt;&lt;strong&gt;Obsidian&lt;/strong&gt;&lt;/b&gt;, or process it with any other Markdown tool.&lt;/p&gt;
-
-&lt;p&gt;Octarine also converts &lt;b&gt;&lt;strong&gt;pasted HTML into Markdown&lt;/strong&gt;&lt;/b&gt;, preserving elements such as headers, links, bullet lists, and text styles.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Organization&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-
-&lt;p&gt;The &lt;b&gt;&lt;strong&gt;left sidebar&lt;/strong&gt;&lt;/b&gt; provides a file tree for navigating your workspace. Nested folders work exactly as you’d expect.&lt;/p&gt;
-
-&lt;p&gt;When you attach files such as images or PDFs to a note, Octarine automatically creates folders to store them.&lt;/p&gt;
-
-&lt;p&gt;Octarine also supports &lt;b&gt;&lt;strong&gt;seven types of metadata&lt;/strong&gt;&lt;/b&gt;, which can be used to organize and filter notes.&lt;/p&gt;
-
-&lt;p&gt;The most powerful organizational feature is something called &lt;b&gt;&lt;strong&gt;Views&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;Views are dynamic, database-style tables that display notes based on filters, sorting rules, and custom columns.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Think of them as &lt;b&gt;&lt;strong&gt;smart saved searches&lt;/strong&gt;&lt;/b&gt; that update automatically as your notes change.&lt;/p&gt;
-
-&lt;p&gt;Tagging is also well implemented. Tags are clickable throughout the interface, and a &lt;b&gt;&lt;strong&gt;Tag Manager&lt;/strong&gt;&lt;/b&gt; provides a centralized list of every tag in your workspace.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;AI Integration (Pro Version)&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-
-&lt;p&gt;Octarine includes optional AI integration.&lt;/p&gt;
-
-&lt;p&gt;It works with:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Local models&lt;/strong&gt;&lt;/b&gt; via Ollama and LM Studio&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;Apple Intelligence&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Cloud APIs&lt;/strong&gt;&lt;/b&gt; such as OpenAI, Anthropic, and Google Gemini&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;AI operates within the context of the &lt;b&gt;&lt;strong&gt;current note&lt;/strong&gt;&lt;/b&gt;, allowing it to generate, rewrite, summarize, or refine content.&lt;/p&gt;
-
-&lt;p&gt;Like most AI writing workflows, the real learning curve comes from &lt;b&gt;&lt;strong&gt;developing reusable prompts&lt;/strong&gt;&lt;/b&gt; that produce consistent results.&lt;/p&gt;
-
-&lt;p&gt;Pro users can also download a &lt;b&gt;&lt;strong&gt;90 MB local model&lt;/strong&gt;&lt;/b&gt; that can index an entire workspace to provide additional context-aware features:&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Context indicators&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;Each message shows the sources used (folders, notes, or date filters). Icons and hover cards reveal the details.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;A list shows which notes were consulted to answer your query.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Export options&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;Responses can be copied as Markdown or plain text.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Chat titles&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;Titles are generated automatically after the first response and can be edited using the Sparkles icon.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Save the chat&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;Clicking the &lt;b&gt;&lt;strong&gt;Create Note&lt;/strong&gt;&lt;/b&gt; icon in the chat breadcrumb saves the conversation as a note. Your questions become blockquotes, with each Q&amp;amp;A pair separated by a divider.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;An Opinion on an Opinionated App&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-
-&lt;p&gt;There’s no question that Octarine is powerful.&lt;/p&gt;
-
-&lt;p&gt;As someone who has spent years building PKM systems, I can appreciate how much functionality is available &lt;b&gt;&lt;strong&gt;without needing plugins or complex setup&lt;/strong&gt;&lt;/b&gt;. Many of the features Octarine includes by default require significant configuration in something like Obsidian.&lt;/p&gt;
-
-&lt;p&gt;That simplicity removes a lot of early decisions that intimidate people exploring tools like this.&lt;/p&gt;
-
-&lt;p&gt;Octarine is developed by a &lt;b&gt;&lt;strong&gt;single developer&lt;/strong&gt;&lt;/b&gt;, which might give some users pause. Personally, it doesn’t worry me much. Some of the most respected Mac utilities come from solo developers, including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Keyboard Maestro&lt;/li&gt;
-&lt;li&gt;Hazel&lt;/li&gt;
-&lt;li&gt;BetterTouchTool&lt;/li&gt;
-&lt;li&gt;Rectangle Pro&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Looking at Octarine’s update history, development is clearly active and responsive to feedback.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href="https://octarine.app/changelog"&gt;&lt;b&gt;&lt;strong&gt;changelog&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; shows frequent updates, and the &lt;a href="https://octarine.app/roadmap"&gt;&lt;b&gt;&lt;strong&gt;roadmap&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; includes plans for:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;iOS and Android versions&lt;/li&gt;
-&lt;li&gt;One-click publishing&lt;/li&gt;
-&lt;li&gt;Quick capture tools&lt;/li&gt;
-&lt;li&gt;Task-management improvements&lt;/li&gt;
-&lt;li&gt;Browser extensions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;…and quite a bit more.&lt;/p&gt;
-
-&lt;p&gt;With the exception of AI features, most of Octarine’s functionality is available in the &lt;b&gt;&lt;strong&gt;free version&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;The &lt;b&gt;&lt;strong&gt;Pro license&lt;/strong&gt;&lt;/b&gt; currently costs &lt;b&gt;&lt;strong&gt;$70 (early-bird supporter pricing)&lt;/strong&gt;&lt;/b&gt; and unlocks all current and future features. That isn’t cheap, but it’s roughly in line with other established writing tools like &lt;b&gt;&lt;strong&gt;iA Writer ($69)&lt;/strong&gt;&lt;/b&gt; or utilities such as &lt;b&gt;&lt;strong&gt;TextSoap ($45)&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;For users who want a &lt;b&gt;&lt;strong&gt;structured Markdown workspace without the plugin rabbit hole&lt;/strong&gt;&lt;/b&gt;, Octarine is definitely worth a serious look.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;2026-04-01 - Recent Changes&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Bullet lists and task lists with nested children now show a collapse chevron on hover — click it to fold the nested items out of sight, keeping long outlines manageable.&lt;/li&gt;
-&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;&lt;li&gt;Collapse state (headings, codeblocks, lists &amp;amp; tasks) are persisted automatically, so collapsed sections stay collapsed when you restart the app.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;mark style="color:var(--tw-prose-bold);"&gt;&lt;strong&gt;Performance&lt;/strong&gt;&lt;/mark&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Significantly reduced CPU and memory usage across the app — typing, idle, and workspace switching are all lighter.&lt;/li&gt;
-&lt;li&gt;Improved workspace watching functions to be more performant and less power consuming.&lt;/li&gt;
-&lt;li&gt;Reduced CPU spikes during workspace indexing.&lt;/li&gt;
-&lt;li&gt;Embedding pruning for large workspaces is now much faster.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;mark style="color:var(--tw-prose-bold);"&gt;&lt;strong&gt;Improvements&lt;/strong&gt;&lt;/mark&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Date cells in Views now respect your preferred date format.&lt;/li&gt;
-&lt;li&gt;Ask Octarine &amp;amp; Writing Assistant now shows error messages as toasts when something goes wrong, instead of failing silently.&lt;/li&gt;
-&lt;li&gt;The task migration flow uses fewer file operations, making it faster and more reliable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Octarine:%20Powerful,%20Sophisticated%20and%20Easy%20to%20Use" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>I’ve been hearing about Octarine for a while. It’s one of those apps that people whose opinions I respect talk about with a certain level of admiration. After testing it as thoroughly as I’ve tested any app in a long time, I understand why.
-
-Octarine is a tool for creating, editing, and organizing...</summary>
-    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
-    <author>
-      <name>AppAddict</name>
+      <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>
     </author>
   </entry>

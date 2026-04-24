@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf _site",
-    "start": "npm run build && eleventy --serve",
-    "build": "npm run clean && eleventy && pagefind --site _site"
+    "start": "npm run dev",
+    "dev": "eleventy --serve",
+    "build": "npm run clean && npm run build:site && npm run build:search",
+    "build:site": "eleventy",
+    "build:search": "pagefind --site _site",
+    "start:search": "npm run build && eleventy --serve"
   },
   "repository": {
     "type": "git",
