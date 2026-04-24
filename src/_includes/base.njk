@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="sigmarootpi">
+    {% set siteRoot = site.pathPrefix or "/" %}
     <script>
       document.documentElement.classList.remove("no-js");
       document.documentElement.classList.add("js");
+      window.__SITE_PATH_PREFIX__ = "{{ siteRoot }}";
     </script>
 
     <!-- Adding github for IndieAuth -->
@@ -16,7 +18,7 @@
     {% if site.webmentionEndpoint %}
     <link rel="webmention" href="{{ site.webmentionEndpoint }}">
     {% endif %}
-    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <link href="{{ siteRoot }}pagefind/pagefind-ui.css" rel="stylesheet">
     <style>
       @media (prefers-color-scheme: dark) {
         :root {
@@ -32,7 +34,7 @@
     <!-- Le styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="/assets/css/style.css?v=1.0">
+    <link rel="stylesheet" href="{{ siteRoot }}assets/css/style.css?v=1.1">
     <!-- <link rel="stylesheet" href="/assets/css/snow.css?v=1.0">
     <link rel="stylesheet" href="/assets/css/christmas-light.css"> -->
 
@@ -42,15 +44,15 @@
 
     <link rel="alternate" type="application/rss+xml" title="Rishabh's Blog Feed" href="/feed.xml" />
 
-    <script src="/assets/js/sidebar.js" defer></script>
-    <script src="/assets/js/mobile-sidebar-sections.js" defer></script>
-    <script src="/assets/js/activity-heatmap.js" defer></script>
-    <script src="/assets/js/workout-tabs.js" defer></script>
-    <script src="/assets/js/geocities-loader.js" defer></script>
-    <script src="/assets/js/status-ticker.js" defer></script>
-    <script src="/assets/js/image-reveal.js?v=2.5" defer></script>
-    <script src="/pagefind/pagefind-ui.js" defer></script>
-    <script src="/assets/js/pagefind-init.js" defer></script>
+    <script src="{{ siteRoot }}assets/js/sidebar.js" defer></script>
+    <script src="{{ siteRoot }}assets/js/mobile-sidebar-sections.js" defer></script>
+    <script src="{{ siteRoot }}assets/js/activity-heatmap.js" defer></script>
+    <script src="{{ siteRoot }}assets/js/workout-tabs.js" defer></script>
+    <script src="{{ siteRoot }}assets/js/geocities-loader.js" defer></script>
+    <script src="{{ siteRoot }}assets/js/status-ticker.js" defer></script>
+    <script src="{{ siteRoot }}assets/js/image-reveal.js?v=2.5" defer></script>
+    <script src="{{ siteRoot }}pagefind/pagefind-ui.js" defer></script>
+    <script src="{{ siteRoot }}assets/js/pagefind-init.js" defer></script>
     <audio id="sidebar-music" src="/assets/sounds/blog_background.mp3" preload="auto" loop></audio>
     <audio id="focus-mode-sound" src="/assets/sounds/angel-harp.mp3" preload="auto"></audio>
 

@@ -2,7 +2,7 @@ const { execFileSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
-const profileId = "1195";
+const profileId = "571";
 const feedUrl = `https://piclog.blue/user-feed.php?id=${profileId}`;
 const cachePath = path.join(process.cwd(), ".cache", "piclog-cache.json");
 const localDir = path.join(process.cwd(), "assets", "images");

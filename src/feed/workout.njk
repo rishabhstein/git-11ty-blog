@@ -1,0 +1,53 @@
+---
+permalink: /feed/workout.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sigmarootpi Workout Feed</title>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed/workout.xml" rel="self" type="application/rss+xml" />
+    <description>Workout logs with the same details shown on the workout page.</description>
+    <language>en</language>
+    {%- for post in collections.workoutFeed | reverse | take(10) %}
+    {%- set absolutePostUrl = post.url | htmlBaseUrl(site.url) %}
+    {%- set workoutBody = post.content | renderTransforms(post.data.page, site.url) | rssBlockquoteStyle %}
+    {%- set details = [] %}
+    {%- if post.data.workout_type %}{%- set details = (details.push(["Type", post.data.workout_type]), details) %}{%- endif %}
+    {%- if post.data.distance %}{%- set details = (details.push(["Distance", post.data.distance ~ " km"]), details) %}{%- endif %}
+    {%- if post.data.duration %}{%- set details = (details.push(["Duration", post.data.duration | formatWorkoutDuration]), details) %}{%- endif %}
+    {%- if post.data.average_pace %}{%- set details = (details.push(["Pace", post.data.average_pace]), details) %}{%- endif %}
+    {%- if post.data.calories %}{%- set details = (details.push(["Calories", post.data.calories]), details) %}{%- endif %}
+    {%- if post.data.average_heart_rate %}{%- set details = (details.push(["Average heart rate", post.data.average_heart_rate ~ " bpm"]), details) %}{%- endif %}
+    {%- if post.data.source %}{%- set details = (details.push(["Source", post.data.source]), details) %}{%- endif %}
+    {%- set feedContent %}
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">{{ post.date | postDate }}</p>
+  {% if details.length %}
+  <ul class="workout-detail-list">
+    {% for item in details %}
+    <li><strong>{{ item[0] }}:</strong> {{ item[1] }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  {% if workoutBody | trim %}
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    {{ workoutBody | safe }}
+  </div>
+  {% endif %}
+</article>
+    {%- endset %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <description>{{ feedContent | rssCdata | safe }}</description>
+      <content:encoded>{{ feedContent | rssCdata | safe }}</content:encoded>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>{{ absolutePostUrl }}</guid>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

@@ -1190,16 +1190,6 @@ ${tabsMarkup}
     },
   });
 
-  eleventyConfig.addPlugin(feedPlugin, {
-    type: "rss",
-    outputPath: "/feed/workout.xml",
-    collection: { name: "workoutFeed", limit: 10 },
-    metadata: {
-      ...feedMetadata,
-      title: "Sigmarootpi Workout Feed",
-    },
-  });
-
   return {
     dir: {
       input: "src",
