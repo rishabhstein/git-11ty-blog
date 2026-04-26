@@ -3,6 +3,7 @@ title: "Book review: Careless People"
 date: 2026-04-26
 status: "Reading"
 cover: "https://covers.openlibrary.org/b/id/15100034-L.jpg"
+rating: "4"
 ---
 
 I finished this book a couple of weeks ago, but I found time only now to post my thoughts on it.
