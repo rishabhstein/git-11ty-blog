@@ -6,6 +6,10 @@ cover: "https://covers.openlibrary.org/b/id/15100034-L.jpg"
 rating: "4"
 ---
 
+<div class="blog-posts-book">
+	<img src="{{ cover }}">
+</div>
+
 I finished this book a couple of weeks ago, but I found time only now to post my thoughts on it.
 
 This book is a memoir of Facebook's ex-policy maker who describes her experience at Facebook and how it turned from a project focused on connecting people into a project blamed for spying on people, selling their data, manipulating elections, and destroying democracy.
