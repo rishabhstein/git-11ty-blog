@@ -1,9 +1,15 @@
 ---
 title: "Book review: Careless People"
 date: 2026-04-26
-status: "Reading"
+status: "Finished"
 cover: "https://covers.openlibrary.org/b/id/15100034-L.jpg"
 rating: "4"
+published: "true"
+author: "Sarah Wynn-Williams"
+tags:
+  - book-review
+sdate: 2026-02-27
+fdate: 2026-03-28
 ---
 
 <div class="blog-posts-book">

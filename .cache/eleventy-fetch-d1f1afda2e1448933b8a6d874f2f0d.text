@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-04-25T17:59:02.196180+00:00</updated>
+  <updated>2026-04-26T21:30:07.224754+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -10,6 +10,233 @@
   <link href="https://bearblog.dev/discover/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle>Trending posts on Bear Blog</subtitle>
+  <entry>
+    <id>https://technically-good.ca/newsletter/007-2026-04-26/</id>
+    <title>💌 Newsletter #007 - Of Age-Gating, Belonging, and AI Being Blazing Fast 🚀 (at Enshittifying)</title>
+    <updated>2026-04-26T14:58:00+00:00</updated>
+    <author>
+      <name>technically-good</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;h1 id=in-this-edition&gt;✨ In This Edition ✨&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;📟 &lt;strong&gt;Short-Form Content:&lt;/strong&gt; Of eyeballs for "human verification;" yes can I please get a venti &lt;em&gt;oh shoot I didn't prompt it right&lt;/em&gt;; and age gating 🤝 Android getting locked down 🤝 anti-3D printing bills.&lt;/li&gt;
+&lt;li&gt;📰 &lt;strong&gt;Long-Form Content:&lt;/strong&gt;  &lt;a href='https://technically-good.ca/blog/2026-04-age-gating-isnt-it/' target='_blank'&gt;Age Gating isn't It, Fam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🌞 &lt;strong&gt;Good News!&lt;/strong&gt;: Open printers and repairable e-readers; the people are pushing back on slop factories and mandatory ID apps; the EU bans their staff from using AI-generated visuals in official comms; disentangling yourself from "Sign in with Google."&lt;/li&gt;
+&lt;li&gt;📯 &lt;strong&gt;The Post-Script:&lt;/strong&gt; &lt;em&gt;Do I belong in tech anymore?&lt;/em&gt;; Sam Altman and eyeballs; and how our digital devices put our privacy at risk.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/technically-good/egor-vikhrev-z-5i0rvukdu-unsplash1.webp" alt="&amp;quot;Closeup of a human eye, with a very blue iris.&amp;quot;" /&gt;
+&lt;small&gt;&lt;em&gt;Image by Egor Vikhrev on &lt;a href='https://unsplash.com/photos/persons-blue-eyes-in-close-up-photography-Z-5i0RVukdU'&gt;Unsplash&lt;/a&gt;. Glitched.&lt;/em&gt; &lt;/small&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=short-form-content&gt;📟 Short-Form Content&lt;/h1&gt;&lt;h2 id=chatbots-ai&gt;Chatbots ("AI")&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;So, uh, there is now a &lt;strong&gt;human verification&lt;/strong&gt; company that has partnered with &lt;strong&gt;Zoom&lt;/strong&gt; to &lt;a href='https://flipboard.social/@TechDesk/116422218529871485' target='_blank'&gt;verify that who's on the call is actually... humans&lt;/a&gt;, and not robots. That's 2026 enough alright, but &lt;em&gt;get this&lt;/em&gt;: This company is owned by Sam Altman. Yep, that Sam Altman. Of Open AI fame. Which builds LLMs and agents and such. So basically, robot on the call, human on the call, it's a win either way.&lt;ul&gt;
+&lt;li&gt;PS, this "World" app... thing... &lt;a href='https://www.privacyguides.org/articles/2025/05/10/sam-altman-wants-your-eyeball/#the-normalization-of-surveillance' target='_blank'&gt;is a descendant of the "Worldcoin." &lt;/a&gt;Yep.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Apparently you can now &lt;a href='https://tapbots.social/@paul/116420996035000707' target='_blank'&gt;"discover drink ideas with ChatGPT" on the Starbucks app&lt;/a&gt;. I personally think the baristas are going to &lt;em&gt;looooooove&lt;/em&gt; having to prepare whatever wild concoctions get dreamt up by their LLM-addled clientele.&lt;/li&gt;
+&lt;li&gt;Allbirds, a shoe company (?), now &lt;em&gt;also&lt;/em&gt; &lt;a href='https://techhub.social/@Daojoan@mastodon.social/116410473413937603' target='_blank'&gt;does AI&lt;/a&gt;. Because that makes sense.&lt;/li&gt;
+&lt;li&gt;As always, AI is, like, super fast at everything. 🚀 And so it is &lt;em&gt;also&lt;/em&gt; super fast in terms of how quickly it is &lt;strong&gt;enshittifying&lt;/strong&gt;: &lt;a href='https://pivot-to-ai.com/2026/04/23/claude-code-rate-limits-anthropic-ai-squeezes-the-customers/' target='_blank'&gt;The squeeze has begun&lt;/a&gt;, and &lt;a href='https://techhub.social/@technically_good/116460191965983517' target='_blank'&gt;the bill is about to become due&lt;/a&gt;. A loooot of companies are probably about to regret shovelling &lt;a href='https://www.theguardian.com/us-news/ng-interactive/2026/jan/18/tech-ai-bubble-burst-reverse-centaur' target='_blank'&gt;this particular kind of asbestos into their walls&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you're using &lt;strong&gt;Copilot&lt;/strong&gt;, and you're in the &lt;strong&gt;EU&lt;/strong&gt;, it seems &lt;a href='https://mastodon.social/@Tutanota/116435961554358957' target='_blank'&gt;Microsoft is helpfully automatically opting you in to allow "flex routing"&lt;/a&gt;, which may make your data be processed outside of the EU. You should probably opt out of that. Or, uh, of the Copilot chatbot entirely. Or Windows entirely.&lt;/li&gt;
+&lt;li&gt;About two weeks or so after &lt;a href='https://technically-good.ca/newsletter/006-2026-04-12/#:~:text=Short%2DForm%20Content,-So' target='_blank'&gt;the entire source code of Claude Code "leaked,"&lt;/a&gt; Anthropic's new it's-so-good-we-can't-even-let-people-use-it model &lt;a href='https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/' target='_blank'&gt;has been &lt;strong&gt;accessed by unauthorized parties.&lt;/strong&gt;&lt;/a&gt; Why yes, I would &lt;em&gt;absolutely&lt;/em&gt; give this type of software all sorts of permissions and let it run free on prod!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=non-chatbots&gt;Non-Chatbots&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;If you run a &lt;strong&gt;bar&lt;/strong&gt;, and you skip straight past the "scan this QR code to see our menu" to &lt;a href='https://mstdn.social/@NudelnAlDente/116431531736278255' target='_blank'&gt;"you will have to &lt;em&gt;check us out on Instagram for our cocktail list,&lt;/em&gt;"&lt;/a&gt; you should probably take a lil timeout and spend some time thinking about what you have done. (And as a customer, rest assured that my shadow will not darken your doorstep ever again.)&lt;/li&gt;
+&lt;li&gt;&lt;a href='https://mastodon.social/@Tutanota/116442799159272154' target='_blank'&gt;Age verification proposals&lt;/a&gt; &lt;a href='https://mastodon.gamedev.place/@eniko/116432100952261553' target='_blank'&gt;are truly everywhere&lt;/a&gt; right now.&lt;ul&gt;
+&lt;li&gt;It may or may not be a coincidence that this is happening at the same time as &lt;a href='https://technically-good.ca/blog/2026-02-we-cant-have-nice-things/' target='_blank'&gt;Google planning on locking down Android&lt;/a&gt; (as well as a&lt;a href='https://urusai.social/@matt5sean3/116428872154076703' target='_blank'&gt; bunch of anti-3d printing bills being brought forward&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Meme of the week, maybe even the month, by Jonah Aragon: &lt;a href='https://mastodon.neat.computer/@jonah/116387359884541632' target='_blank'&gt;Do big tech companies understand consent?&lt;/a&gt; &lt;em&gt;Yes / Remind me in 5 days.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;On that note - can we circle back to age verification? I like &lt;a href='https://ak.kawen.space/objects/cff1f520-a354-4749-bb11-513837c3c5ab' target='_blank'&gt;this proposal&lt;/a&gt; by Tlapka - Give the corporations a taste of their own medicine:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;age verification but it's just a dialog box that asks "are you old" and the answers are "yes" and "maybe later"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h1 id=long-form-content&gt;📰 Long-Form Content&lt;/h1&gt;&lt;h2 id=a-hrefhttpstechnically-goodcablog2026-04-age-gating-isnt-it-target_blankage-gating-isnt-it-fama&gt;&lt;a href='https://technically-good.ca/blog/2026-04-age-gating-isnt-it/' target='_blank'&gt;Age-Gating Isn't It, Fam&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;So. The Liberal party here in Canada - the party that now has a majority in the federal government - &lt;a href='https://globalnews.ca/news/11797286/liberal-party-adopts-motion-social-media-ban-kids/' target='_blank'&gt;has adopted a motion to ban children under 16 from social media&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://technically-good.ca/blog/2026-04-age-gating-isnt-it/' target='_blank'&gt;Age Gating isn't It&lt;/a&gt; though, because:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;it is a thinly-veiled &lt;strong&gt;surveillance information grab&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;it's a &lt;strong&gt;digital sovereignty issue&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;online communities can be &lt;strong&gt;Good&lt;/strong&gt;, Actually&lt;/li&gt;
+&lt;li&gt;... it's probably &lt;strong&gt;not going to work&lt;/strong&gt; (we've gotten &lt;a href='https://www.yahoo.com/news/articles/most-australian-teens-admit-social-111400429.html' target='_blank'&gt;more data on this&lt;/a&gt; since I published the article)&lt;/li&gt;
+&lt;li&gt;age gating means &lt;strong&gt;dancing around the real issue&lt;/strong&gt; of &lt;strong&gt;holding Big Tech accountable.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Read the full article &lt;a href='https://technically-good.ca/blog/2026-04-age-gating-isnt-it/' target='_blank'&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And lastly - especially if age gating is being suggested, proposed, or otherwise discussed in your area - &lt;em&gt;The time to speak up is now.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=good-news&gt;🌞 Good News!&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;The &lt;a href='https://www.crowdsupply.com/open-tools/open-printer' target='_blank'&gt;Open Printer&lt;/a&gt; is a project that is about to go live. It'll be a printer &lt;strong&gt;you can repair yourself&lt;/strong&gt;, and that you can fill with &lt;em&gt;whatever ink you like,&lt;/em&gt; instead of the DRM'ed &lt;a href='https://theoatmeal.com/comics/printers' target='_blank'&gt;unicorn blood&lt;/a&gt; we all know and do not love. The fact that that sounds wild tells you how far we have strayed from the light. As &lt;a href='https://mastodon.social/@cr00ky/116374261115217470' target='_blank'&gt;cr00ky said on Mastodon&lt;/a&gt;, someone has apparently read &lt;em&gt;Enshittification.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;In further good hardware news, Rakuten has partnered with iFixit &lt;a href='https://techhub.social/@dadbod@pdx.social/116437799530379597' target='_blank'&gt;to make their e-reader devices Kobo Libra Colour and Kobo Clara &lt;strong&gt;be repairable&lt;/strong&gt;&lt;/a&gt;, and to provide repair kits and guides.&lt;ul&gt;
+&lt;li&gt;Bonus: Kobos, unlike Kindles, &lt;a href='https://techhub.social/@technically_good/116438363129552306' target='_blank'&gt;can even hook into public library borrowing systems&lt;/a&gt; (if they use Overdrive/Libby - some conditions apply, YMMV, yadda yadda yadda)!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;People &lt;strong&gt;take time out of their days to show up at council meetings and protest planned slop factories.&lt;/strong&gt; Such as, for example, &lt;a href='https://mastodon.social/@benroyce/116389416128065655' target='_blank'&gt;Will Hollingsworth &lt;/a&gt;protesting a data center proposal in Ohio with an eloquent, passionate, and smart speech addressed to his local council.&lt;/li&gt;
+&lt;li&gt;Sort of related to this, India is &lt;a href='https://www.reuters.com/world/china/india-drops-proposal-mandate-national-id-app-aadhaar-smartphones-after-pushback-2026-04-17/' target='_blank'&gt;&lt;strong&gt;dropping their proposal to mandate the national ID app&lt;/strong&gt; on smartphones&lt;/a&gt; after a lot of pushback.&lt;/li&gt;
+&lt;li&gt;Staff at the European Union are &lt;a href='https://www.politico.eu/article/brussels-eu-ban-deepfakes-ai-generation-official-messages/' target='_blank'&gt;&lt;strong&gt;not allowed to use any AI-generated imagery&lt;/strong&gt; in official communications.&lt;/a&gt; This includes the European Commission, the European Parliament and the Council of the EU.&lt;/li&gt;
+&lt;li&gt;If you're the kind of person that used to click "Sign in with Google" a lot, but now you don't like that anymore and you'd like to get rid of it: &lt;a href='https://hachyderm.io/@cyberlyra/116400791266173681' target='_blank'&gt;There's a way to see all the services you've used Google SSO with&lt;/a&gt;, which can be a great starting point to disentangle yourself from it.&lt;ul&gt;
+&lt;li&gt;Hot tip: While you're changing your logins, consider switching to &lt;a href='https://technically-good.ca/alternatives-pt-i-messaging-browsing-and-email/#:~:text=%E2%9C%89%EF%B8%8F%20E%2DMail' target='_blank'&gt;a more privacy-friendly email service&lt;/a&gt;, and explore aliases!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1 id=the-post-script&gt;📯 The Post-Script&lt;/h1&gt;&lt;h2 id=following-reading&gt;Following &amp; Reading&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;This beautiful, haunting, and hitting-a-lil-close-to-home &lt;a href='https://ky.fyi/posts/ai-burnout' target='_blank'&gt;article titled &lt;em&gt;Do I belong in tech anymore?&lt;/em&gt;&lt;/a&gt; by Ky Decker.&lt;/li&gt;
+&lt;li&gt;Ars Technica's &lt;a href='https://arstechnica.com/culture/2026/04/how-our-digital-devices-are-putting-our-right-to-privacy-at-risk/' target='_blank'&gt;&lt;em&gt;How our digital devices are putting our right to privacy at risk&lt;/em&gt;&lt;/a&gt;, by Jennifer Ouellette.&lt;/li&gt;
+&lt;li&gt;Privacy Guides' &lt;a href='https://www.privacyguides.org/articles/2025/05/10/sam-altman-wants-your-eyeball/#what-is-the-world-app' target='_blank'&gt;&lt;em&gt;Sam Altman wants your Eyeball&lt;/em&gt;&lt;/a&gt;, by Em.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;Follow this blog via &lt;a href='https://technically-good.ca/feed/?type=rss'&gt;RSS&lt;/a&gt; | Find me on &lt;a href='https://techhub.social/@technically_good' target='_blank'&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://notbyai.fyi/' target='_blank'&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/technically-good/written-by-a-human-not-by-ai-badge-white.webp" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=recent-posts&gt;Recent Posts&lt;/h2&gt;&lt;p&gt;
+
+&lt;ul class="embedded blog-posts"&gt;
+    
+    &lt;li data-tags="age gating,ai,big tech,blog,enshittification,gen ai,newsletter,slop"&gt;
+        &lt;span&gt;
+            &lt;i&gt;
+                &lt;time datetime="2026-04-26T14:58Z"&gt;
+    26 Apr, 2026
+&lt;/time&gt;
+            &lt;/i&gt;
+        &lt;/span&gt;
+        &lt;a href="/newsletter/007-2026-04-26/"&gt;💌 Newsletter #007 - Of Age-Gating, Belonging, and AI Being &lt;i&gt;Blazing Fast&lt;/i&gt; 🚀 (at Enshittifying)&lt;/a&gt;
+        
+
+        
+
+        
+    &lt;/li&gt;
+    
+    &lt;li data-tags="age gating,algorithmic media,big tech,blog,privacy,social media"&gt;
+        &lt;span&gt;
+            &lt;i&gt;
+                &lt;time datetime="2026-04-17T16:45Z"&gt;
+    17 Apr, 2026
+&lt;/time&gt;
+            &lt;/i&gt;
+        &lt;/span&gt;
+        &lt;a href="/blog/2026-04-age-gating-isnt-it/"&gt;Age-Gating Isn&amp;#x27;t It, Fam&lt;/a&gt;
+        
+
+        
+
+        
+    &lt;/li&gt;
+    
+    &lt;li data-tags="ai,algorithmic media,alternatives,blog,deshittification,fediverse,newsletter,social media"&gt;
+        &lt;span&gt;
+            &lt;i&gt;
+                &lt;time datetime="2026-04-12T14:25Z"&gt;
+    12 Apr, 2026
+&lt;/time&gt;
+            &lt;/i&gt;
+        &lt;/span&gt;
+        &lt;a href="/newsletter/006-2026-04-12/"&gt;💌 Newsletter #006 - Of Blasts from The Past, &lt;i&gt;Thoughts &amp;#x27;n&amp;#x27; Prayers&lt;/i&gt; Code, and the AI Fever Dream&lt;/a&gt;
+        
+
+        
+
+        
+    &lt;/li&gt;
+    
+&lt;/ul&gt;&lt;/p&gt;
+</content>
+    <link href="https://technically-good.ca/newsletter/007-2026-04-26/" rel="alternate"/>
+    <published>2026-04-26T14:58:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.anthonybald.win/hello-bear/</id>
+    <title>Hello, Bear</title>
+    <updated>2026-04-25T16:04:00+00:00</updated>
+    <author>
+      <name>anthony</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I paid for a lifetime subscription to Bear after discovering that this is a better place to spend my time scrolling. Thanks to &lt;a href='https://github.com/kagisearch/smallweb'&gt;Kagi Small Web&lt;/a&gt; for the introduction.&lt;/p&gt;
+&lt;p&gt;I do not have much of a plan here yet. I just want a simple place to write things down, collect and work through ideas, and keep a public trail of what I am learning.&lt;/p&gt;
+&lt;p&gt;Some posts will be technical. Some will be half-formed. Some will probably just be notes to myself. That sounds fine.&lt;/p&gt;
+&lt;p&gt;So: hello, Bear.&lt;/p&gt;
+</content>
+    <link href="https://blog.anthonybald.win/hello-bear/" rel="alternate"/>
+    <published>2026-04-25T16:04:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://pinewind.bearblog.dev/hayao-miyazaki-and-optimistic-nihilism/</id>
+    <title>Hayao Miyazaki and optimistic nihilism</title>
+    <updated>2026-04-25T14:55:00+00:00</updated>
+    <author>
+      <name>pinewind</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Yesterday, I found the post &lt;a href='https://sheilz.bearblog.dev/whimsy/' target='_blank'&gt;i think we're obsessed with aesthetic&lt;/a&gt; on the Discovery Feed. It featured quite a few nice quotes. My favourite was this one:&lt;/p&gt;
+&lt;div class="picwcap" style="margin-bottom: 1rem;"&gt;
+&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/sheilz/download-14.webp" alt="A set of two cuts from a documentary showing Hayao Miyazaki, looking at a sunset and saying: It really is beautiful. When you die, you can't see sunsets."&gt;
+&lt;/div&gt;
+&lt;p&gt;It's a real &lt;a href='https://www.youtube.com/watch?v=q3U_gGimekg' target='_blank'&gt;"people die when they are killed"&lt;/a&gt; kind of quote. Your first reaction is probably going to be some faint amusement, accompanied by a thought like &lt;em&gt;Well, duh. Thanks, Captain Obvious.&lt;/em&gt;&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; But aside from the &lt;em&gt;factual&lt;/em&gt; layer, it also has a personal, contemplative element. This scene shows one of those moments where you see something that you've seen a thousand times and suddenly feel a deep sense of appreciation. We come from non-existence, and go back into it. The time where every one of us gets to experience sunsets or soothing spring rain or beautiful autumn leaves is just a tiny fraction of existence as a whole. From that perspective, even the most commonplace, mundane or tacky things can seem truly beautiful.&lt;/p&gt;
+&lt;p&gt;I think this scene is from the documentary "The Kingdom of Dreams and Madness", which has circulated pretty widely online. I've never actually seen the whole thing, just the clips of it that get uploaded on YouTube. Another one I like is &lt;a href='https://youtu.be/eED1ALOtaYw?si=E4TzPooluqmObAle&amp;t=75' target='_blank'&gt;this one&lt;/a&gt;. The interviewer asks: "Aren't you worried about the studio's future?"&lt;/p&gt;
+&lt;p&gt;Miyazaki's response:&lt;/p&gt;
+&lt;blockquote&gt;The future is clear. It's going to fall apart. [laughs] I can already see it. What's the use worrying? It's inevitable. [...] "Ghibli" is just a random name that I got from an airplane. It's only a name.&lt;/blockquote&gt;
+&lt;p&gt;He then walks away, and the interviewer quietly says "how beautiful", to herself. I find that last part ruins the scene a bit; it feels like the interviewer is telling the audience how to interpret what was just said. It would've been much more effective to just end with the shot of Miyazaki walking across the garden.&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; However, a short scroll through the comments under the video will tell you that people still have different opinions on Miyazaki's stance. Some criticise him for being a stubborn old fart who'd rather let his studio fall apart than properly train a successor and make sure it continues to live on. Others just see him as a bitter nihilist.&lt;/p&gt;
+&lt;p&gt;To me, these quotes embody a kind of &lt;em&gt;optimistic nihilism.&lt;/em&gt; Yes, nothing is forever. Everything will return to nothing one day; the world and our lives don't have inherent meaning. But despite of that, or rather &lt;em&gt;precisely because&lt;/em&gt; of that, it becomes meaningful what you do with your life, and how you choose to live it.&lt;sup class="footnote-ref" id="fnref-3"&gt;&lt;a href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Miyazaki's oeuvre makes it obvious that he's not a bitter defeatist who declared life to be meaningless and simply gave up. Quite the contrary, he's dedicated his life to art and creativity, with all the self-discipline, self-criticism, doubt and despair that comes with it. He's a "suffering artist" type, but not one that wallows in their suffering or sees it as the &lt;em&gt;source&lt;/em&gt; of their art. He simply accepts it as a consequence of life.&lt;/p&gt;
+&lt;p&gt;When he laughs after saying that the studio is going to fall apart, it's not a laugh of self-pity, or a mask for disillusionment. It's a laugh born out of the awareness that all things will eventually fade away, and that, from a "cosmic" perspective, all human efforts are but small scratches on the ground. This serves as a way to balance out the deep attachment he has to his work. It's an &lt;a href='https://en.wikipedia.org/wiki/Absurdism' target='_blank'&gt;Absurdist&lt;/a&gt; take, really. The same is true for the comment about the name of the studio. It's just that, a random name, an empty container, like a drinking glass. The glass is only a vehicle for the water, tea, or juice you fill it with. At the same time, it's what &lt;em&gt;allows&lt;/em&gt; you to drink the water, tea, or juice - meaningless and meaningful at the same time.&lt;/p&gt;
+&lt;p&gt;Some of the comments under the YouTube video point out that the end of the movie &lt;em&gt;The Boy and the Heron&lt;/em&gt; represents Miyazaki truly coming to terms with the things that he says in this interview, or maybe truly internalising their meaning. Instead of desperately trying to hold onto a form (the Studio) and trying to find a successor, he realises (and posits to us, via the movie) that it's not the form that matters, but the spirit.&lt;sup class="footnote-ref" id="fnref-4"&gt;&lt;a href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt; It doesn't matter whether or not people use &lt;em&gt;your&lt;/em&gt; drinking glass - treating it as some kind of heirloom, or letting it shatter on the ground. As long as they too realise the value of drinking a cold lemonade on a summer evening or hot tea during a cold winter, &lt;em&gt;any&lt;/em&gt; glass, cup or mug will do.&lt;/p&gt;
+&lt;hr&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;Unless you believe in some kind of afterlife where you get to enjoy sunsets for the rest of eternity.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-2"&gt;&lt;p&gt;This is a documentary, so it's obviously "staged" to some degree. I don't believe that Miyazaki is lying, or the interviewer is simply reading off a script with her response. Still, the context that allowed these images to get made ends up guiding what they say in a certain direction. It's another kind of inevitability.&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-3"&gt;&lt;p&gt;Fittingly, the Japanese title of the movie &lt;em&gt;The Boy and the Heron&lt;/em&gt; (and the book it was based on) is "How Do You Live?"&lt;a href="#fnref-3" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-4"&gt;&lt;p&gt;When watching the documentary clips, I get the impression that Miyazaki &lt;em&gt;already&lt;/em&gt; came to terms with this a long time ago; &lt;em&gt;The Boy and the Heron&lt;/em&gt; is simply the first time he expresses this thought in one of his movies in a very clear and straightforward fashion.&lt;a href="#fnref-4" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://pinewind.bearblog.dev/hayao-miyazaki-and-optimistic-nihilism/" rel="alternate"/>
+    <published>2026-04-25T14:55:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.happyfellow.dev/simulacrum-of-knowledge-work/</id>
+    <title>Simulacrum of Knowledge Work</title>
+    <updated>2026-04-25T14:31:00+00:00</updated>
+    <author>
+      <name>happyfellow</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;How do you know the output is good without redoing the work yourself?&lt;/p&gt;
+&lt;p&gt;You've received a report, a market analysis for the new product you're planning to launch. Reading through it you notice problems: the date on the report doesn't match the date you requested it on, it's from 6 months prior. Several paragraphs have obvious spelling errors. Some graphs are mislabeled and duplicated.&lt;/p&gt;
+&lt;p&gt;The report is disregarded. The existence of typos and copy-paste errors which may not change the main conclusion of the report is enough to discard it. Someone who didn't put in enough care to make the report presentable on the surface level also didn't care enough to produce good research.&lt;/p&gt;
+&lt;p&gt;You have judged the quality using a proxy measure: the superficial quality of the writing itself. It's not what you ultimately care about — what you care about is whether the report reflects reality and points you toward good decisions. But that's expensive to check. Surface quality is cheap, and it correlates well enough with the thing you can't easily measure.&lt;/p&gt;
+&lt;p&gt;All of knowledge work has this problem. It's hard to objectively judge the quality of someone's work without spending a lot of effort on it. Therefore everyone relies heavily on proxy measures.&lt;/p&gt;
+&lt;p&gt;Proxy measures kept misaligned incentives in check. LLMs broke them.&lt;/p&gt;
+&lt;p&gt;Large language models are great at simulating a style of writing without necessarily reproducing the quality of the work. You can ask ChatGPT to write you a market analysis report and it will look and read like a deliverable from a top-tier consulting firm written by Serious Professionals.&lt;/p&gt;
+&lt;p&gt;A software engineer can write thousands of lines of code which looks like high-quality code, at least if you have just a couple of seconds to skim through it. Their colleagues will ask AI to do a code review for them, the code review will uncover a lot of issues and potential problems, and these will be addressed. The ritual of working will be upheld with none of the underlying quality.&lt;/p&gt;
+&lt;p&gt;We have built a working simulacrum of knowledge work.&lt;/p&gt;
+&lt;p&gt;The incentives almost guarantee we are in big trouble. Many workers, quite rationally, want to do well on whatever dimension they are being measured on. If they are judged by the surface-level quality of their work, then it's no surprise most of "their" output will be written by LLMs.&lt;/p&gt;
+&lt;p&gt;The LLMs have the same problem.&lt;/p&gt;
+&lt;p&gt;The training doesn't evaluate "is the answer true" or "is the answer useful." It's either "is the answer likely to appear in the training corpus" or "is the RLHF judge happy with the answer." We are optimising LLMs to produce output which looks like high quality output. And we have very good optimisers.&lt;/p&gt;
+&lt;p&gt;So here we are. We spent billions to create systems used to perform a simulacrum of work. Companies are racing to be the first on the tokens-spent leaderboard. The more LLM output workers produce, the less time anyone spends on looking deeply at the output. All we have time for is to skim it, slap "LGTM" on it and open their 17th Claude Code session.&lt;/p&gt;
+&lt;p&gt;We've automated ourselves into Goodhart's law.&lt;/p&gt;
+</content>
+    <link href="https://blog.happyfellow.dev/simulacrum-of-knowledge-work/" rel="alternate"/>
+    <published>2026-04-25T14:31:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://robertbirming.com/first-post-love/</id>
+    <title>First post love</title>
+    <updated>2026-04-25T09:30:40.816832+00:00</updated>
+    <author>
+      <name>robert</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;You see them in the &lt;a href='https://bearblog.dev/discover/'&gt;Bear discovery feed&lt;/a&gt; regularly.&lt;/p&gt;
+&lt;p&gt;Titles like “My first blog post” or “My new Bear blog”. The posts may only contain a couple of sentences, yet they quickly get upvoted. Some even end up on the trending page.&lt;/p&gt;
+&lt;p&gt;I love it! I can’t think of any other place where this loving support is so strong.&lt;/p&gt;
+&lt;p&gt;It’s not about how long or unique the post is. It’s all about the joy of seeing others getting into blogging. That shared beauty always deserves an upvote.&lt;/p&gt;
+&lt;p&gt;Keep on blogging and upvoting.&lt;/p&gt;
+</content>
+    <link href="https://robertbirming.com/first-post-love/" rel="alternate"/>
+    <published>2026-04-25T09:30:40.816832+00:00</published>
+  </entry>
   <entry>
     <id>https://jbrr.dev/the-american-kill-line/</id>
     <title>The American Kill Line</title>
@@ -84,7 +311,7 @@ The Global Times is explicitly Chinese state media, so take it for what it is, a
 &lt;p&gt;this shattering of your perspective feels physical. your vision goes blurry and it’s as if you’re floating in some liminal space, because your through-line has snapped and suddenly your journey from there to here doesn’t make sense anymore and where is here anyway? you don’t know because you don’t know anything.&lt;/p&gt;
 &lt;p&gt;/&lt;/p&gt;
 &lt;p&gt;anyway, looks like he started a new youtube channel. curiosity got the best of me and i found myself watching an ai-generated version of him in an ai-generated boardroom, his ai-generated voice reading some ai-generated script about being hungry for hard work or something.&lt;/p&gt;
-&lt;p&gt;i scrolled more and had to stop when i heard, “what’s up, guys!” in, to his credit, the most youtube voice i’ve ever heard.&lt;/p&gt;
+&lt;p&gt;i scrolled more and had to stop when i heard, “what’s up, guys! ” in, to his credit, the most youtube tone i’ve ever heard.&lt;/p&gt;
 &lt;p&gt;his websites, too, are full of blog posts and media analyses written by chatgpt, and not even a good model.&lt;/p&gt;
 &lt;p&gt;which is all to say:&lt;/p&gt;
 &lt;p&gt;i guess the rest of the illusion broke. whoever i thought he was would hate him.&lt;/p&gt;
@@ -141,6 +368,31 @@ Thanks for giving me a place to land.&lt;/p&gt;
     <published>2026-04-24T15:14:00+00:00</published>
   </entry>
   <entry>
+    <id>https://tadaima.bearblog.dev/just-some-boring-advice-on-consistency/</id>
+    <title>Just some boring advice on consistency</title>
+    <updated>2026-04-24T22:06:00+00:00</updated>
+    <author>
+      <name>tadaima</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Being consistent and sticking with a routine is something I only seriously started doing like a year ago. For most of my life I would start things with insane enthusiasm, to the point that it would take up all my time and mental space. Then I would quickly burn out, grow bored, and then abandon whatever it was I was obsessed with.&lt;/p&gt;
+&lt;p&gt;The mainstream advice when it comes to productivity and consistency is always the same: come up with a routine and stick with it until it becomes a habit. Procrastination is just resistance, and resistance is just fear, and fear is just our stupid brain thinking there's danger where there is none. The only way to break the cycle is to teach your brain that stress is not the same as fear, and you do that by completing tasks. Like an overbearing parent, once your brain sees you can actually do things, it starts to trust us more and stops making us feel anxious about everything.&lt;/p&gt;
+&lt;p&gt;I know this, everyone knows this, but &lt;em&gt;I still hate routine&lt;/em&gt;. I hate being forced to do things when I don't feel like doing them. So I came up with my own system.&lt;/p&gt;
+&lt;p&gt;Since I'm good at having big, explosive amounts of energy followed by weeks of burnout, I use it to my advantage. Take this blog for example. I was pretty inconsistent at first, but then found a way to stay productive. Instead of writing posts here and there then feeling completely over it, I now batch-write several posts at once whenever that burst of energy hits. I leave all the posts in draft and just let them sit there. Then, once a week, I go in and publish whatever draft that makes the most sense and looks the least sloppy. Easy peasy.&lt;/p&gt;
+&lt;p&gt;Any time I'm not consistent, it's usually because I procrastinated and let the cache go empty and now I have to find the time to refill it.&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;I have a similar system with other writing projects. During bouts of energy I'll write a ton without stopping, without sticking to a particular goal. Then, during burn-out days, I'll only write a little, like incoherent/stream of conscious-type stuff that doesn't take too much energy.&lt;/p&gt;
+&lt;p&gt;It even extends to reading. I have a goal of reading 2-4 books a month, which I have stuck to even though I don't always read every day. Sometimes I'll read a quarter of a novel over two weeks and then finish the rest of the book in one night. Even though I do it a bit differently, it's all still a routine at the end of the day.&lt;/p&gt;
+&lt;p&gt;Routine and consistency. It's boring, but it works.&lt;/p&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;Like today. 👀&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://tadaima.bearblog.dev/just-some-boring-advice-on-consistency/" rel="alternate"/>
+    <published>2026-04-24T22:06:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://guinevak.bearblog.dev/well-if-youd-just/</id>
     <title>Well if you'd just</title>
     <updated>2026-04-24T21:37:56.693959+00:00</updated>
@@ -161,36 +413,28 @@ Thanks for giving me a place to land.&lt;/p&gt;
     <published>2026-04-24T21:37:56.693959+00:00</published>
   </entry>
   <entry>
-    <id>https://pinewind.bearblog.dev/hayao-miyazaki-and-optimistic-nihilism/</id>
-    <title>Hayao Miyazaki and optimistic nihilism</title>
-    <updated>2026-04-25T14:55:00+00:00</updated>
+    <id>https://lwgrs.bearblog.dev/my-own-bic-pen-experiment/</id>
+    <title>My own BIC pen experiment</title>
+    <updated>2026-04-24T15:38:00+00:00</updated>
     <author>
-      <name>pinewind</name>
+      <name>lwgrs</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;Yesterday, I found a post &lt;a href='https://sheilz.bearblog.dev/whimsy/' target='_blank'&gt;i think we're obsessed with aesthetic&lt;/a&gt; on the Discovery Feed. It featured quite a few nice quotes. My favourite was this one:&lt;/p&gt;
-&lt;div class="picwcap" style="margin-bottom: 1rem;"&gt;
-&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/sheilz/download-14.webp" alt="A set of two cuts from a documentary showing Hayao Miyazaki, looking at a sunset and saying: It really is beautiful. When you die, you can't see sunsets."&gt;
-&lt;/div&gt;
-&lt;p&gt;It's a real &lt;a href='https://www.youtube.com/watch?v=q3U_gGimekg' target='_blank'&gt;"people die when they are killed"&lt;/a&gt; kind of quote. Your first reaction is probably going to be some faint amusement, accompanied by a thought like &lt;em&gt;Well, duh. Thanks, Captain Obvious.&lt;/em&gt;&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; But aside from the &lt;em&gt;factual&lt;/em&gt; layer, it also has a personal, contemplative element. This scene shows one of those moments where you see something that you've seen a thousand times and suddenly feel a deep sense of appreciation. You come from non-existence, and go back into it. The time where you get to experience sunsets or soothing spring rain or beautiful autumn leaves is just a tiny fraction of existence as a whole. From that perspective, even the most commonplace, mundane or tacky things can seem truly beautiful.&lt;/p&gt;
-&lt;p&gt;I think this scene is from the documentary "The Kingdom of Dreams and Madness", which has circulated pretty widely online. I've never actually seen the whole thing, just the clips of it that get uploaded on YouTube. Another one I like is &lt;a href='https://youtu.be/eED1ALOtaYw?si=E4TzPooluqmObAle&amp;t=75' target='_blank'&gt;this one&lt;/a&gt;. The interviewer asks: "Aren't you worried about the studio's future?"&lt;/p&gt;
-&lt;p&gt;Miyazaki's response:&lt;/p&gt;
-&lt;blockquote&gt;The future is clear. It's going to fall apart. [laughs] I can already see it. What's the use worrying? It's inevitable. [...] "Ghibli" is just a random name that I got from an airplane. It's only a name.&lt;/blockquote&gt;
-&lt;p&gt;He then walks away, and the interviewer quietly says "how beautiful", to herself. I find that last part ruins the scene a bit; it feels like the interviewer is telling the audience how to interpret what was just said. It would've been much more effective to just end with the shot of Miyazaki walking across the garden.&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; However, a short scroll through the comments under the video will tell you that people still have different opinions on Miyazaki's stance. Some criticise him for being a stubborn old fart who'd rather let his studio fall apart than properly train a successor and make sure it continues to live on. Others just see him as a bitter nihilist.&lt;/p&gt;
-&lt;p&gt;To me, these quotes embody a kind of &lt;em&gt;optimistic nihilism.&lt;/em&gt; Yes, nothing is forever. Everything will return to nothing one day; the world and our lives don't have inherent meaning. But despite of that, or rather &lt;em&gt;precisely because&lt;/em&gt; of that, it becomes meaningful what you do with your life, and how you choose to live it.&lt;/p&gt;
-&lt;p&gt;Miyazaki's oeuvre makes it obvious that he's not a bitter defeatist who declared life to be meaningless and simply gave up. Quite the contrary, he's dedicated his life to art and creativity, with all the self-discipline, self-criticism, doubt and despair that comes with it. He's a "suffering artist" type, but not one that wallows in their suffering or sees it as the &lt;em&gt;source&lt;/em&gt; of their art. He simply accepts it as a consequence of life.&lt;/p&gt;
-&lt;p&gt;When he laughs after saying that the studio is going to fall apart, it's not a laugh of self-pity, or a mask for disillusionment. It's a laugh born out of the awareness that all things will eventually fade away, and that, from a "cosmic" perspective, all human efforts are but small scratches on the ground. This serves as a way to balance out the deep attachment he has to his work. It's an &lt;a href='https://en.wikipedia.org/wiki/Absurdism' target='_blank'&gt;Absurdist&lt;/a&gt; take, really. The same is true for the comment about the name of the studio. It's just that, a random name, an empty container, like a drinking glass. The glass is only a vehicle for the water, tea, or juice you fill it with. At the same time, it's what &lt;em&gt;allows&lt;/em&gt; you to drink the water, tea, or juice - meaningless and meaningful at the same time.&lt;/p&gt;
-&lt;p&gt;Some of the comments under the YouTube video point out that the end of the movie &lt;em&gt;The Boy and the Heron&lt;/em&gt; represents Miyazaki truly coming to terms with the things that he says in this interview, or maybe truly internalising their meaning. Instead of desperately trying to hold onto a form (the Studio) and trying to find a successor, he realises (and posits to us, via the movie) that it's not the form that matters, but the spirit. It doesn't matter whether or not people use &lt;em&gt;your&lt;/em&gt; drinking glass - treating it as some kind of heirloom, or letting it shatter on the ground. As long as they too realise the value of drinking a cold lemonade on a summer evening or hot tea during a cold winter, &lt;em&gt;any&lt;/em&gt; glass, cup or mug will do.&lt;/p&gt;
-&lt;hr&gt;
+    <content type="html">&lt;p&gt;Once again, shame on me for forgetting where I first found this post:&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://tinkerdwarf.bearblog.dev/the-bic-pen-experiment-part-3/?ref=bubbles.town'&gt;The BIC Pen Experiment, Part 3 | The Tinkering Dwarf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I know it's on &lt;a href='https://bubbles.town/entry/110702'&gt;Bubbles&lt;/a&gt; but I am fairly certain I saw it on someone else's round-up. Maybe &lt;a href="https://joelchrono.xyz/" class="nametag"&gt;Joel&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Anyway the gist of the experiment was to see how long it would take to use up the ink well in a classic &lt;a href='https://en.wikipedia.org/wiki/Bic_Cristal'&gt;BIC cristal pen&lt;/a&gt;. It's one of my favourite reliable pens and I don't think I'm alone in that matter. It writes well and is smooth - what more do you want from a cheap ballpoint?&lt;/p&gt;
+&lt;p&gt;I have a vast collection of pens at my disposal, and in the interest of actually using all of them, I switch between pens week-to-week. Upon reading this experiment I decided to grab my &lt;a href='https://www.youtube.com/watch?v=ulooMspLUok'&gt;BIC Cristal ReNew&lt;/a&gt; from my locker at work on Monday and have committed to using it up&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;As of Monday it was about half-full, and as I type today, it's not far from the same spot. I don't write as much on weekends so it may take a while to empty it.&lt;/p&gt;
+&lt;h6 id=a-hrefhttpsletterbirdcosrgreply-by-emaila-nbsp-a-hrefhttpswwwaddtoanycomshareurl-post_link-title-post_title-target_blankshare-this-postanbsp-a-hrefhttpsottawaplacesrgowermastodonanbsp-a-hrefhttpsbskyappprofilesrgowercomblueskya&gt;&lt;a href="https://letterbird.co/srg"&gt;Reply by email&lt;/a&gt; &amp;nbsp; &lt;a href="https://www.addtoany.com/share#url=https://lwgrs.bearblog.dev/my-own-bic-pen-experiment&amp;title=My own BIC pen experiment" target="_blank"&gt;Share this post&lt;/a&gt;&amp;nbsp; &lt;a href='https://ottawa.place/@srgower/'&gt;Mastodon&lt;/a&gt;&amp;nbsp; &lt;a href='https://bsky.app/profile/srgower.com'&gt;Bluesky&lt;/a&gt;&lt;/h6&gt;&lt;hr /&gt;
 &lt;section class="footnotes"&gt;
 &lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;Unless you believe in some kind of afterlife where you get to enjoy sunsets for the rest of eternity.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id="fn-2"&gt;&lt;p&gt;This is a documentary, so it's obviously "staged" to some degree. I don't believe that Miyazaki is lying, or the interviewer is simply reading off a script with her response. Still, the context that allowed these images to get end up guiding them in a certain direction, another kind of inevitability.&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;This is a neat, slick-looking pen that is re-loadable! I have another ink well in my locker and if I so-chose I could put in a blue ink well from another pen. But for this time I'm just using up this ink well, I'm not going to use up &lt;em&gt;both&lt;/em&gt;.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
 </content>
-    <link href="https://pinewind.bearblog.dev/hayao-miyazaki-and-optimistic-nihilism/" rel="alternate"/>
-    <published>2026-04-25T14:55:00+00:00</published>
+    <link href="https://lwgrs.bearblog.dev/my-own-bic-pen-experiment/" rel="alternate"/>
+    <published>2026-04-24T15:38:00+00:00</published>
   </entry>
   <entry>
     <id>https://blog.absurdpirate.com/break-stupid-rules/</id>
@@ -239,30 +483,6 @@ Thanks for giving me a place to land.&lt;/p&gt;
     <published>2026-04-24T16:20:00+00:00</published>
   </entry>
   <entry>
-    <id>https://lwgrs.bearblog.dev/my-own-bic-pen-experiment/</id>
-    <title>My own BIC pen experiment</title>
-    <updated>2026-04-24T15:38:00+00:00</updated>
-    <author>
-      <name>lwgrs</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Once again, shame on me for forgetting where I first found this post:&lt;/p&gt;
-&lt;p&gt;&lt;a href='https://tinkerdwarf.bearblog.dev/the-bic-pen-experiment-part-3/?ref=bubbles.town'&gt;The BIC Pen Experiment, Part 3 | The Tinkering Dwarf&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I know it's on &lt;a href='https://bubbles.town/entry/110702'&gt;Bubbles&lt;/a&gt; but I am fairly certain I saw it on someone else's round-up. Maybe &lt;a href="https://joelchrono.xyz/" class="nametag"&gt;Joel&lt;/a&gt;?&lt;/p&gt;
-&lt;p&gt;Anyway the gist of the experiment was to see how long it would take to use up the ink well in a classic &lt;a href='https://en.wikipedia.org/wiki/Bic_Cristal'&gt;BIC cristal pen&lt;/a&gt;. It's one of my favourite reliable pens and I don't think I'm alone in that matter. It writes well and is smooth - what more do you want from a cheap ballpoint?&lt;/p&gt;
-&lt;p&gt;I have a vast collection of pens at my disposal, and in the interest of actually using all of them, I switch between pens week-to-week. Upon reading this experiment I decided to grab my &lt;a href='https://www.youtube.com/watch?v=ulooMspLUok'&gt;BIC Cristal ReNew&lt;/a&gt; from my locker at work on Monday and have committed to using it up&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;As of Monday it was about half-full, and as I type today, it's not far from the same spot. I don't write as much on weekends so it may take a while to empty it.&lt;/p&gt;
-&lt;h6 id=a-hrefhttpsletterbirdcosrgreply-by-emaila-nbsp-a-hrefhttpswwwaddtoanycomshareurl-post_link-title-post_title-target_blankshare-this-postanbsp-a-hrefhttpsottawaplacesrgowermastodonanbsp-a-hrefhttpsbskyappprofilesrgowercomblueskya&gt;&lt;a href="https://letterbird.co/srg"&gt;Reply by email&lt;/a&gt; &amp;nbsp; &lt;a href="https://www.addtoany.com/share#url=https://lwgrs.bearblog.dev/my-own-bic-pen-experiment&amp;title=My own BIC pen experiment" target="_blank"&gt;Share this post&lt;/a&gt;&amp;nbsp; &lt;a href='https://ottawa.place/@srgower/'&gt;Mastodon&lt;/a&gt;&amp;nbsp; &lt;a href='https://bsky.app/profile/srgower.com'&gt;Bluesky&lt;/a&gt;&lt;/h6&gt;&lt;hr /&gt;
-&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;This is a neat, slick-looking pen that is re-loadable! I have another ink well in my locker and if I so-chose I could put in a blue ink well from another pen. But for this time I'm just using up this ink well, I'm not going to use up &lt;em&gt;both&lt;/em&gt;.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</content>
-    <link href="https://lwgrs.bearblog.dev/my-own-bic-pen-experiment/" rel="alternate"/>
-    <published>2026-04-24T15:38:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://woolgathering.bearblog.dev/my-new-t-shirt/</id>
     <title>my new t-shirt</title>
     <updated>2026-04-24T10:17:00+00:00</updated>
@@ -303,6 +523,40 @@ Thanks for giving me a place to land.&lt;/p&gt;
     <published>2026-04-24T00:31:50.470199+00:00</published>
   </entry>
   <entry>
+    <id>https://blog.bearroll.dev/browse-bear-blog-trending-on-mobile/</id>
+    <title>bearroll.dev - Tip for browsing Bear Blog trending on mobile.</title>
+    <updated>2026-04-24T12:45:00+00:00</updated>
+    <author>
+      <name>bearroll</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Hey everyone! Thanks again for checking out &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt;, the daily roll of Bear Blog's top posts. The support has been much appreciated :)&lt;/p&gt;
+&lt;p&gt;I'm here to share a tip for those wanting to read bear blog trending posts with less distractions in a dedicated mobile app view.&lt;/p&gt;
+&lt;p&gt;You can do this is through adding Bear Roll to your home screen.&lt;/p&gt;
+&lt;h2 id=iphone-instructions&gt;iPhone Instructions&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Visit &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt; in Safari.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Tap the share icon at the bottom of the page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/share-button-1.webp" alt="share-button" /&gt;&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;Scroll down and tap "Add to Home Screen".&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/add-to-homescreen-2.webp" alt="add-to-homescreen" /&gt;&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;Tap "Add" in the top right corner.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/final-add-1.webp" alt="final-add" /&gt;&lt;/p&gt;
+&lt;h2 id=android-instructions&gt;Android Instructions&lt;/h2&gt;&lt;p&gt;I don't own an Android device but based on &lt;a href='https://www.wikihow.com/Set-a-Bookmark-Shortcut-in-Your-Home-Screen-on-Android'&gt;this WikiHow article&lt;/a&gt; the instructions are: go to &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt; on Chrome, click the three dot options icon in the top right, then click "Add to Home Screen".&lt;/p&gt;
+&lt;h2 id=all-done&gt;All done!&lt;/h2&gt;&lt;p&gt;After you've done this you will have a Bear icon 🐻 on your device home screen. When entering the website this way you get a focused experience with no search bar or extra buttons. Just bear blogs trending posts in a chronological view.&lt;/p&gt;
+&lt;p&gt;Hope this helps!&lt;/p&gt;
+&lt;p&gt;For any questions or thoughts reach out at &lt;a href='mailto:hello@bearroll.dev'&gt;hello@bearroll.dev&lt;/a&gt;&lt;/p&gt;
+</content>
+    <link href="https://blog.bearroll.dev/browse-bear-blog-trending-on-mobile/" rel="alternate"/>
+    <published>2026-04-24T12:45:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://livingkindfully.bearblog.dev/you-should-aim-to-make-fuck-you-money-respond-to-feedback/</id>
     <title>You Should Aim to Make Fuck You Money | Respond to Feedback</title>
     <updated>2026-04-24T03:15:00+00:00</updated>
@@ -338,146 +592,6 @@ Thanks for giving me a place to land.&lt;/p&gt;
 </content>
     <link href="https://pinewind.bearblog.dev/focusing-on-the-process-and-casual-wabi-sabi/" rel="alternate"/>
     <published>2026-04-24T13:30:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blog.anthonybald.win/blog/</id>
-    <title>Bear Blog</title>
-    <updated>2026-04-25T16:04:00+00:00</updated>
-    <author>
-      <name>anthony</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I paid for a lifetime subscription to Bear after discovering that this is a better place to spend my time scrolling. Thanks to &lt;a href='https://github.com/kagisearch/smallweb'&gt;Kagi Small Web&lt;/a&gt; for the introduction.&lt;/p&gt;
-&lt;p&gt;I do not have much of a plan here yet. I just want a simple place to write things down, collect and work through ideas, and keep a public trail of what I am learning.&lt;/p&gt;
-&lt;p&gt;Some posts will be technical. Some will be half-formed. Some will probably just be notes to myself. That sounds fine.&lt;/p&gt;
-&lt;p&gt;Hello, Bear.&lt;/p&gt;
-</content>
-    <link href="https://blog.anthonybald.win/blog/" rel="alternate"/>
-    <published>2026-04-25T16:04:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://rnotte.art/turning-your-brain-off/</id>
-    <title>turning your brain off</title>
-    <updated>2026-04-23T21:49:17.124565+00:00</updated>
-    <author>
-      <name>rnotte</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;ever since the COVID-19 pandemic, it seems a certain group of people who spend way too much time on the internet have adapted a principle of &lt;strong&gt;"turning your brain off"&lt;/strong&gt;. don't think, just consume.&lt;/p&gt;
-&lt;p&gt;i mean, i get why. i get why you'd want to scroll through tik tok 2 hours a day. i get why you'd want to indulge on junk food. i get why you'd want to go on temu and buy a haul of stuff you don't need. i get why you'd want to watch an anime about an average joe in a JRPG-esque fantasy world getting super OP skills and a bunch of hot girls who all want to &lt;em&gt;[REDACTED]&lt;/em&gt; him. life is frustrating, and sometimes you just want to melt your brain and numb yourself to it all. i get that, i really do.&lt;/p&gt;
-&lt;p&gt;if anything, &lt;strong&gt;that just makes me hate it even more.&lt;/strong&gt; i can't help but believe that the rich men want us to follow this principle, because it's a distraction from more important issues. issues that they, the rich men, caused. don't get it twisted; this is all &lt;em&gt;their&lt;/em&gt; fault.&lt;/p&gt;
-&lt;p&gt;we can sit here on our computers and type out condescending comments against folks who spend too much time on social media, telling them to "touch grass". but i'm not going to do that. it's not helpful. instead, if you are one of those folks, and you're reading this, i have a question for you.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;why?&lt;/strong&gt; why do you indulge in social media, fast food, temu/aliexpress/wish/shein, and wish-fulfillment fiction, while still complaining about how bad it is? it's not healthy. it's an unhealthy addiction, just like gambling or drugs. and i have a proposal to help you break free from it:&lt;/p&gt;
-&lt;p&gt;mark down a week on your calendar. throughout that week, uninstall your social media apps. plan to take a walk or bike ride (if you have a bike) once a day. if there's something you've been wanting to do for a while, such as reading a book or working on a project, do it. think of a skill you'd like to learn, and take time to learn it. take a piece of paper, and write down how you're feeling each day. the first step is always the hardest, but you will see that it's worth it.&lt;/p&gt;
-&lt;p&gt;and whenever you choose to do this, good luck. &lt;strong&gt;i believe in you.&lt;/strong&gt; sincerely.&lt;/p&gt;
-</content>
-    <link href="https://rnotte.art/turning-your-brain-off/" rel="alternate"/>
-    <published>2026-04-23T21:49:17.124565+00:00</published>
-  </entry>
-  <entry>
-    <id>https://notes.jeddacp.com/on-making-and-breaking-routines/</id>
-    <title>On Making and Breaking Routines</title>
-    <updated>2026-04-23T21:23:16.099128+00:00</updated>
-    <author>
-      <name>jedda</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;h3 id=it-takes-21-days-to-form-a-habit&gt;It takes 21 days to form a habit.&lt;/h3&gt;&lt;p&gt;I used to think that I could build a routine, and keep it as long as I was disciplined enough. There is comfort in that mindset, in believing that as long as we find something that works, we can hold on to it and it’s one less stressor in life.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;I was wrong.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Routines are not fixed. They shift because &lt;em&gt;we&lt;/em&gt; shift. They depend on circumstances, energy, and the version of ourselves that exists in a particular moment.&lt;/p&gt;
-&lt;p&gt;When a routine is in place, life feels a little calmer. There is less decision-making that needs to be done, less friction. Small actions repeat until they become almost second nature, and even things that used to be difficult are &lt;em&gt;at least&lt;/em&gt; manageable. That sense of rhythm can make everything else feel more grounded, and more in control.&lt;/p&gt;
-&lt;p&gt;I think about that when it comes to early mornings. There was a time when waking up before the sun, even as someone who is &lt;a href='/i-am-not-a-morning-person/'&gt;not a morning person&lt;/a&gt;, became my norm. It was not easy (I still complained a lot), but it was consistent enough that it stopped feeling like I was going to crash out. It was just something I &lt;em&gt;did&lt;/em&gt;.&lt;/p&gt;
-&lt;h3 id=then-life-changed-and-so-that-routine-went-into-the-trash&gt;Then life changed, and so that routine went into the trash.&lt;/h3&gt;&lt;p&gt;When my days no longer &lt;em&gt;needed&lt;/em&gt; me to wake up early, I let that structure go and built something that was more &lt;em&gt;me&lt;/em&gt;, as a non-morning person. Slower (later-ish) mornings were made for that time in my life. But returning to early mornings &lt;em&gt;now&lt;/em&gt; feels harder than expected. I hate being reminded that just because something felt natural before does not mean it will feel that way again.&lt;/p&gt;
-&lt;p&gt;That same pattern shows up in other aspects of my life too. Writing blog posts, for example, is something that benefits from a steady rhythm. When I had that in previous years, it felt easier to show up and publish consistently. Once that cadence broke, getting back into it requires more effort than I expected, even though my desire to write has never left.&lt;/p&gt;
-&lt;p&gt;Journaling for myself is &lt;em&gt;also&lt;/em&gt; the same. It used to be part of my daily routine, something I did without much thought. I would wake up, drink coffee, and journal. Nowadays, I fall behind and have to catch up later, which changes how it &lt;em&gt;feels&lt;/em&gt;. It’s become something I need to manage instead of something that just fits in my day.&lt;/p&gt;
-&lt;p&gt;I don’t even know how this train of thought started, but it got me thinking that routines are less permanent than I thought they were &lt;em&gt;supposed&lt;/em&gt; to be. They are tied to specific parts of our lives, and when those parts change, the routines often do too.&lt;/p&gt;
-&lt;p&gt;There is a tendency to see a broken routine as something to fix, to try to return to what once worked. Returning is not always simple. Instead, it’s better to just find something else that fits into who we are now, not who we were when that routine first took shape. And so that's what I'm &lt;em&gt;attempting&lt;/em&gt; to do.&lt;/p&gt;
-&lt;p&gt;I’m in the process of rebuilding routines that fit me &lt;em&gt;now&lt;/em&gt;, rather than forcefully recreating something that worked for early-2025 me. I think I’m just trying to accept that there will be times when things feel less structured, and that this does not mean I am off track.&lt;/p&gt;
-&lt;h3 id=this-new-rhythm-is-honestly-throwing-me-off-my-rhythm-but-im-working-on-it&gt;This new rhythm is honestly throwing me off my rhythm, but I’m working on it.&lt;/h3&gt;&lt;p&gt;TBD on if I'm successful or not, or if I revert back to myself from &lt;em&gt;the before times&lt;/em&gt; -- whoever that may have been.&lt;/p&gt;
-&lt;details open&gt;
-&lt;summary&gt;Comments&lt;/summary&gt;
-&lt;p&gt;If you'd like to comment, please send me an email, or sign my &lt;a href='/guestbook/'&gt;Guestbook&lt;/a&gt;.&lt;/p&gt;
-&lt;/details&gt;
-&lt;h5 id=a-hrefmailtoheyjeddacpmereply-by-emaila&gt;&lt;a href='mailto:hey@jeddacp.me'&gt;Reply by email&lt;/a&gt;&lt;/h5&gt;</content>
-    <link href="https://notes.jeddacp.com/on-making-and-breaking-routines/" rel="alternate"/>
-    <published>2026-04-23T21:23:16.099128+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blog.bearroll.dev/browse-bear-blog-trending-on-mobile/</id>
-    <title>bearroll.dev - Tip for browsing Bear Blog trending on mobile.</title>
-    <updated>2026-04-24T12:45:00+00:00</updated>
-    <author>
-      <name>bearroll</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Hey everyone! Thanks again for checking out &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt;, the daily roll of Bear Blog's top posts. The support has been much appreciated :)&lt;/p&gt;
-&lt;p&gt;I'm here to share a tip for those wanting to read bear blog trending posts with less distractions in a dedicated mobile app view.&lt;/p&gt;
-&lt;p&gt;You can do this is through adding Bear Roll to your home screen.&lt;/p&gt;
-&lt;h2 id=iphone-instructions&gt;iPhone Instructions&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Visit &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt; in Safari.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Tap the share icon at the bottom of the page.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/share-button-1.webp" alt="share-button" /&gt;&lt;/p&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;Scroll down and tap "Add to Home Screen".&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/add-to-homescreen-2.webp" alt="add-to-homescreen" /&gt;&lt;/p&gt;
-&lt;ol start="4"&gt;
-&lt;li&gt;Tap "Add" in the top right corner.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/final-add-1.webp" alt="final-add" /&gt;&lt;/p&gt;
-&lt;h2 id=android-instructions&gt;Android Instructions&lt;/h2&gt;&lt;p&gt;I don't own an Android device but based on &lt;a href='https://www.wikihow.com/Set-a-Bookmark-Shortcut-in-Your-Home-Screen-on-Android'&gt;this WikiHow article&lt;/a&gt; the instructions are: go to &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt; on Chrome, click the three dot options icon in the top right, then click "Add to Home Screen".&lt;/p&gt;
-&lt;h2 id=all-done&gt;All done!&lt;/h2&gt;&lt;p&gt;After you've done this you will have a Bear icon 🐻 on your device home screen. When entering the website this way you get a focused experience with no search bar or extra buttons. Just bear blogs trending posts in a chronological view.&lt;/p&gt;
-&lt;p&gt;Hope this helps!&lt;/p&gt;
-&lt;p&gt;For any questions or thoughts reach out at &lt;a href='mailto:hello@bearroll.dev'&gt;hello@bearroll.dev&lt;/a&gt;&lt;/p&gt;
-</content>
-    <link href="https://blog.bearroll.dev/browse-bear-blog-trending-on-mobile/" rel="alternate"/>
-    <published>2026-04-24T12:45:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://mason.bearblog.dev/make-private-media/</id>
-    <title>make private media</title>
-    <updated>2026-04-23T20:57:00+00:00</updated>
-    <author>
-      <name>mason</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Sometimes I am quite annoyed that I have lived my entire life in a digital age. Everyone around me has their heads in their screen. I can't really say much, I spend just as long on my computer each day as some of my friends spend on tik too. If I am bothering to ratify that then most of my time on my computer is productive and the leisure I do get from it is healthier than watching tik toks(it should be noted that technology can be used for leisure and productivity simultaneously, eg: blogging). But I don't actually want to ratify it today.&lt;/p&gt;
-&lt;p&gt;20 years ago, I assume that most people didn't carry around video cameras that connected to the internet and broadcasted their view to strangers on the internet. But something I have actually seem in movies is "home videos/movies". So before we all had internet machines in our pockets, it was still normalised to film you family and loved ones? Not for broadcast but for the sake of private media.&lt;/p&gt;
-&lt;p&gt;I think this is a wonderful idea, while I dont have experience with home videos because well, &lt;em&gt;"there's a camera on your phone why would you ever need to buy a seperste camera"&lt;/em&gt;, said the mother of the photographer.&lt;/p&gt;
-&lt;p&gt;If someone in my family has ever gone to take a photo of me or us, they would say &lt;em&gt;"smiiiiilleeeee"&lt;/em&gt;. Thats performance, and when I think about it I dont know if the thing to do to capture memories is to put on a performance rather than carry a digicam in your pocket and occasionally capture memories of you and your friends or family in the moment.&lt;/p&gt;
-&lt;p&gt;Similarly to Hermans &lt;a href='https://herman.bearblog.dev/the-commodification-of-travel/'&gt;Commodification of travel&lt;/a&gt; , you cannot &lt;em&gt;do&lt;/em&gt; a place and you cannot &lt;em&gt;do&lt;/em&gt; a moment. Especially not while performing for an internet box that will gamble a photo of you on the attention economy.&lt;/p&gt;
-&lt;p&gt;I am going to try and find a digicam at an op shop and I am going to start making home videos for and of my family. Make private media, not for performance but for yourself.&lt;/p&gt;
-</content>
-    <link href="https://mason.bearblog.dev/make-private-media/" rel="alternate"/>
-    <published>2026-04-23T20:57:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tadaima.bearblog.dev/just-some-boring-advice-on-consistency/</id>
-    <title>Just some boring advice on consistency</title>
-    <updated>2026-04-24T22:06:00+00:00</updated>
-    <author>
-      <name>tadaima</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Being consistent and sticking with a routine is something I only seriously started doing like a year ago. For most of my life I would start things with insane enthusiasm, to the point that it would take up all my time and mental space. Then I would quickly burn out, grow bored, and then abandon whatever it was I was obsessed with.&lt;/p&gt;
-&lt;p&gt;The mainstream advice when it comes to productivity and consistency is always the same: come up with a routine and stick with it until it becomes a habit. Procrastination is just resistance, and resistance is just fear, and fear is just our stupid brain thinking there's danger where there is none. The only way to break the cycle is to teach your brain that stress is not the same as fear, and you do that by completing tasks. Like an overbearing parent, once your brain sees you can actually do things, it starts to trust us more and stops making us feel anxious about everything.&lt;/p&gt;
-&lt;p&gt;I know this, everyone knows this, but &lt;em&gt;I still hate routine&lt;/em&gt;. I hate being forced to do things when I don't feel like doing them. So I came up with my own system.&lt;/p&gt;
-&lt;p&gt;Since I'm good at having big, explosive amounts of energy followed by weeks of burnout, I use it to my advantage. Take this blog for example. I was pretty inconsistent at first, but then found a way to stay productive. Instead of writing posts here and there then feeling completely over it, I now batch-write several posts at once whenever that burst of energy hits. I leave all the posts in draft and just let them sit there. Then, once a week, I go in and publish whatever draft that makes the most sense and looks the least sloppy. Easy peasy.&lt;/p&gt;
-&lt;p&gt;Any time I'm not consistent, it's usually because I procrastinated and let the cache go empty and now I have to find the time to refill it.&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;I have a similar system with other writing projects. During bouts of energy I'll write a ton without stopping, without sticking to a particular goal. Then, during burn-out days, I'll only write a little, like incoherent/stream of conscious-type stuff that doesn't take too much energy.&lt;/p&gt;
-&lt;p&gt;It even extends to reading. I have a goal of reading 2-4 books a month, which I have stuck to even though I don't always read every day. Sometimes I'll read a quarter of a novel over two weeks and then finish the rest of the book in one night. Even though I do it a bit differently, it's all still a routine at the end of the day.&lt;/p&gt;
-&lt;p&gt;Routine and consistency. It's boring, but it works.&lt;/p&gt;
-&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;Like today. 👀&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</content>
-    <link href="https://tadaima.bearblog.dev/just-some-boring-advice-on-consistency/" rel="alternate"/>
-    <published>2026-04-24T22:06:00+00:00</published>
   </entry>
   <entry>
     <id>https://streetlightcadence.com/back-in-my-neighborhood/</id>
@@ -555,33 +669,22 @@ Back in my neighborhood&lt;/p&gt;
     <published>2026-04-24T04:43:00+00:00</published>
   </entry>
   <entry>
-    <id>https://ohmyblog.bearblog.dev/pinewind-a-chill-bearblog/</id>
-    <title>ʕ•ᴥ•ʔﾉﾞ pinewind: a chill bearblog</title>
-    <updated>2026-04-23T16:31:07.449136+00:00</updated>
+    <id>https://rnotte.art/turning-your-brain-off/</id>
+    <title>turning your brain off</title>
+    <updated>2026-04-23T21:49:17.124565+00:00</updated>
     <author>
-      <name>ohmyblog</name>
+      <name>rnotte</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;div align="center"&gt;&lt;a href="https://pinewind.bearblog.dev/"&gt;&lt;img class="pixel-bear" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/ohmyblog/image-2.webp"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;pinewind, a blog by kwist, gives us a calm space to enjoy the jots and thoughts of a highly interesting Japan-based hobbyist, enthusiast, and multipotentialite writer.&lt;/p&gt;
-&lt;p&gt;i can't decide if my favorite post is his &lt;a href='https://pinewind.bearblog.dev/thought-log-blogging/' target='_blank'&gt;thought-log on blogging&lt;/a&gt; or his post on &lt;a href='https://pinewind.bearblog.dev/thought-log-blogging' target='_blank'&gt;personal colour pallets&lt;/a&gt;. both posts show the breadth of kwist's interests.&lt;/p&gt;
-&lt;p&gt;he considers his blog more of a garden. i have certainly appreciated wandering through his garden and have secretly (not anymore) taken some cuttings home with me to graft onto my own projects. please take a patient wander through pinewind, you will experience a lovely visit:&lt;/p&gt;
-&lt;div class="embed embed--live"&gt;
-  &lt;a class="embed-label"
-     href="https://pinewind.bearblog.dev/"
-     target="_blank"
-     rel="noopener"&gt;
-    https://pinewind.bearblog.dev/ ↗
-  &lt;/a&gt;
-  &lt;div class="embed-viewport"&gt;
-    &lt;iframe
-      src="https://pinewind.bearblog.dev/"
-      loading="lazy"
-      referrerpolicy="no-referrer"&gt;
-    &lt;/iframe&gt;
-  &lt;/div&gt;
+    <content type="html">&lt;p&gt;ever since the COVID-19 pandemic, it seems a certain group of people who spend way too much time on the internet have adapted a principle of &lt;strong&gt;"turning your brain off"&lt;/strong&gt;. don't think, just consume.&lt;/p&gt;
+&lt;p&gt;i mean, i get why. i get why you'd want to scroll through tik tok 2 hours a day. i get why you'd want to indulge on junk food. i get why you'd want to go on temu and buy a haul of stuff you don't need. i get why you'd want to watch an anime about an average joe in a JRPG-esque fantasy world getting super OP skills and a bunch of hot girls who all want to &lt;em&gt;[REDACTED]&lt;/em&gt; him. life is frustrating, and sometimes you just want to melt your brain and numb yourself to it all. i get that, i really do.&lt;/p&gt;
+&lt;p&gt;if anything, &lt;strong&gt;that just makes me hate it even more.&lt;/strong&gt; i can't help but believe that the rich men want us to follow this principle, because it's a distraction from more important issues. issues that they, the rich men, caused. don't get it twisted; this is all &lt;em&gt;their&lt;/em&gt; fault.&lt;/p&gt;
+&lt;p&gt;we can sit here on our computers and type out condescending comments against folks who spend too much time on social media, telling them to "touch grass". but i'm not going to do that. it's not helpful. instead, if you are one of those folks, and you're reading this, i have a question for you.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;why?&lt;/strong&gt; why do you indulge in social media, fast food, temu/aliexpress/wish/shein, and wish-fulfillment fiction, while still complaining about how bad it is? it's not healthy. it's an unhealthy addiction, just like gambling or drugs. and i have a proposal to help you break free from it:&lt;/p&gt;
+&lt;p&gt;mark down a week on your calendar. throughout that week, uninstall your social media apps. plan to take a walk or bike ride (if you have a bike) once a day. if there's something you've been wanting to do for a while, such as reading a book or working on a project, do it. think of a skill you'd like to learn, and take time to learn it. take a piece of paper, and write down how you're feeling each day. the first step is always the hardest, but you will see that it's worth it.&lt;/p&gt;
+&lt;p&gt;and whenever you choose to do this, good luck. &lt;strong&gt;i believe in you.&lt;/strong&gt; sincerely.&lt;/p&gt;
 </content>
-    <link href="https://ohmyblog.bearblog.dev/pinewind-a-chill-bearblog/" rel="alternate"/>
-    <published>2026-04-23T16:31:07.449136+00:00</published>
+    <link href="https://rnotte.art/turning-your-brain-off/" rel="alternate"/>
+    <published>2026-04-23T21:49:17.124565+00:00</published>
   </entry>
 </feed>
