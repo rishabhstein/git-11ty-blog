@@ -10,10 +10,6 @@ cover: "https://covers.openlibrary.org/b/id/14846872-L.jpg"
 rating: 5
 ---
 
-	<div class="blog-posts-book">
-  		<img src="{{ cover }}">
-	</div>
-
 This was my second book from **Khaled Hosseini**--the first one was *And the Mountains Echoed*--and it was a roller coaster of emotions, making me feel angry, disgusted, sad, and sometimes even crying. I decided to read this book after **Senecca**, in one of his letters (2000 years ago) to *Lucilius*, suggested *sticking to the writers you admire* instead of getting lost in the black hole of exploration. However, I think it's also better to check out new ones from time to time.
 
 The story is set in *Afghanistan* around 1970-80, before the *Taliban* took it over. It centers around two boys, *Amir* and *Hassan*, where Amir belongs to a rich family and Hassan is the son of a servant. They also differed religiously, where Hassan was born to a Hazara family--an outcast group of people--while Amir had Sunni parents. Despite these differences, thanks to Amir's generous father, they both grew up together, being nursed together by the same woman. There was a strong bond between them, but sometimes Amir felt jealous of Hassan, especially when Amir's father showed affection for Hassan, as if he were his own son. Hassan, on the other hand, was loving and caring towards Amir. He stood up for Amir several times whenever other boys bullied him. Regardless, they were mostly inseparable. They played around together all day, climbed trees, and loved flying *kites*. Amir was great at flying kites while Hassan was the best kite runner--a person who chases a Kite--in Kabul.

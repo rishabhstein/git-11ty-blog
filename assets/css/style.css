@@ -1836,6 +1836,93 @@ footer {
   max-height: 400px; /* Adjust this value to control the size */
 }
 
+.book-post-hero {
+  display: grid;
+  grid-template-columns: minmax(120px, 170px) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  width: min(100%, 560px);
+  margin: 14px auto 24px;
+  padding: 14px;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  box-shadow: var(--panel-shadow);
+}
+
+.book-post-cover img {
+  display: block;
+  width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+}
+
+.book-post-meta {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.book-post-meta div {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 10px;
+  align-items: baseline;
+  padding-bottom: 8px;
+  border-bottom: 1px dotted var(--panel-border);
+}
+
+.book-post-meta div:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.book-post-meta dt {
+  color: var(--muted-color);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.book-post-meta dd {
+  margin: 0;
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.book-post-stars {
+  color: #8b5a00;
+  letter-spacing: 0.04em;
+}
+
+.book-post-rating-text {
+  margin-left: 6px;
+  color: var(--muted-color);
+  font-size: 12px;
+}
+
+.book-post .container-narrow .blog-posts-book:first-child {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .book-post-hero {
+    grid-template-columns: 1fr;
+    width: min(100%, 320px);
+  }
+
+  .book-post-cover img {
+    max-width: 190px;
+    margin: 0 auto;
+  }
+
+  .book-post-meta div {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+}
+
 
 /*This is for the gallery of photos*/
 .gallery {
@@ -2900,6 +2987,15 @@ hr {
 .tagline a:focus {
   color: var(--tag-link-color);
   text-decoration: underline;
+}
+
+.home-entry-date {
+  display: block;
+  margin: 3px 0 0;
+  color: var(--muted-color);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 1.35;
 }
 
 .writing-lead p,

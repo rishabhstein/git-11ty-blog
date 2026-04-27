@@ -8,11 +8,6 @@ status: "Finished"  # only include books with this status
 cover: "https://covers.openlibrary.org/b/id/118603-L.jpg"
 rating: 1
 ---
-<div class="blog-posts-book" >
-    <img src="{{ cover }}" >
-</div>
-
-
 > *Yes, home they went, and all things beautiful,
 > All things high they took with them,
 > All colours, all the sounds of life,

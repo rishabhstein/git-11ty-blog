@@ -27,6 +27,10 @@ const excerpt = (value, count = 22) => {
   const words = clean(value).split(" ").filter(Boolean);
   return words.length > count ? `${words.slice(0, count).join(" ")}...` : words.join(" ");
 };
+const parseFeedDate = (value) => {
+  const date = new Date(text(value));
+  return Number.isNaN(date.getTime()) ? "" : date.toISOString();
+};
 
 function fallback({ label, tag, siteUrl, feedUrl }) {
   return {
@@ -37,6 +41,7 @@ function fallback({ label, tag, siteUrl, feedUrl }) {
     postUrl: siteUrl || feedUrl,
     excerpt: "Open site",
     imageUrl: "",
+    postedDate: "",
   };
 }
 
@@ -63,6 +68,7 @@ async function readLatestFeedPost({ label, tag, feedUrl, siteUrl, duration = "1h
       postUrl: text(item?.link) || siteUrl || feedUrl,
       excerpt: excerpt(body) || "Read the latest post.",
       imageUrl: image(body),
+      postedDate: parseFeedDate(item?.pubDate || item?.published || item?.updated || item?.["dc:date"]),
     };
   }
 
@@ -83,6 +89,7 @@ async function readLatestFeedPost({ label, tag, feedUrl, siteUrl, duration = "1h
       postUrl,
       excerpt: excerpt(text(entry?.summary) || content || text(entry?.subtitle)) || "Read the latest post.",
       imageUrl: image(content),
+      postedDate: parseFeedDate(entry?.published || entry?.updated),
     };
   }
 
@@ -114,6 +121,7 @@ async function readFeedPosts({ label, tag, feedUrl, siteUrl, duration = "1h", li
           postUrl: text(item?.link) || siteUrl || feedUrl,
           excerpt: excerpt(body) || "Read the latest post.",
           imageUrl: image(body),
+          postedDate: parseFeedDate(item?.pubDate || item?.published || item?.updated || item?.["dc:date"]),
         };
       });
   }
@@ -137,6 +145,7 @@ async function readFeedPosts({ label, tag, feedUrl, siteUrl, duration = "1h", li
           postUrl,
           excerpt: excerpt(text(entry?.summary) || content || text(entry?.subtitle)) || "Read the latest post.",
           imageUrl: image(content),
+          postedDate: parseFeedDate(entry?.published || entry?.updated),
         };
       });
   }

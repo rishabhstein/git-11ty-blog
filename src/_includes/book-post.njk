@@ -1,0 +1,75 @@
+---
+    layout: 'base.njk'
+---
+
+
+<article class="main-article book-post">
+
+<h1 data-pagefind-meta="title">{{ title }}</h1>
+<h3>{{ page.date | postDate }}</h3>
+
+{% if tags %}
+<p>Tags:
+  {% for tag in tags %}
+    <a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% if not loop.last %} {% endif %}
+  {% endfor %}
+</p>
+{% endif %}
+
+{% if cover %}
+<section class="book-post-hero" aria-label="Book details">
+  <div class="book-post-cover">
+    <img src="{{ cover }}" alt="Cover of {{ title }}">
+  </div>
+
+  <dl class="book-post-meta">
+    {% if author %}
+    <div>
+      <dt>Author</dt>
+      <dd>{{ author }}</dd>
+    </div>
+    {% endif %}
+
+    {% if rating %}
+    <div>
+      <dt>My rating</dt>
+      <dd>
+        <span class="book-post-stars" aria-label="{{ rating }} out of 5">
+          {% for i in range(5) %}{% if i < rating %}★{% else %}☆{% endif %}{% endfor %}
+        </span>
+        <span class="book-post-rating-text">{{ rating }}/5</span>
+      </dd>
+    </div>
+    {% endif %}
+
+    {% if sdate %}
+    <div>
+      <dt>Start date</dt>
+      <dd><time datetime="{{ sdate | isoDate }}">{{ sdate | postDate }}</time></dd>
+    </div>
+    {% endif %}
+
+    {% if fdate %}
+    <div>
+      <dt>Finish date</dt>
+      <dd><time datetime="{{ fdate | isoDate }}">{{ fdate | postDate }}</time></dd>
+    </div>
+    {% endif %}
+  </dl>
+</section>
+{% endif %}
+
+<div class="container-narrow">
+          <main>
+            {{ content | safe }}
+        </main>
+</div>
+
+<blockquote class = "post-footer">
+    <span>Posted at: {{ page.date | postDate }}</span> <br/>
+    <a href='mailto:hello@rishabhps.com?subject=Blogentry: {{ title }}'>Reply via email</a><br />
+
+</blockquote>
+
+{% include "webmentions.njk" %}
+</article>

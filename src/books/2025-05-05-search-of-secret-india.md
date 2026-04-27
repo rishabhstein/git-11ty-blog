@@ -7,6 +7,3 @@ status: "Finished"  # only include books with this status
 cover: "/assets/images/book_covers/a-search-in-secret-india.jpg"
 rating: 4
 ---
-<div class="blog-posts-book" >
-    <img src="{{ cover }}" >
-</div>

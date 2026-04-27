@@ -9,10 +9,6 @@ status: "Finished"
 published: true #unused flag
 rating: 5
 ---
-	<div class="blog-posts-book">
-  		<img src="{{ cover }}">
-	</div>
-
 This review is special as it is about an unpublished book written by my friend and colleague, [Prof. Stephane Douady](https://fr.wikipedia.org/wiki/St%C3%A9phane_Douady). I am honoured to be among the first few readers, as this gave me a unique opportunity to write the very first review.
 
 The main theme of the book is spiritual philosophy, where the author tries to find a common ground between science, religion, and spirituality. The arguments used in the book are based on the author's personal life experiences and observations. These arguments are supported by quoting spiritual masters of the East, such as *Zhuang Zou, Nisargdatta Maharaj, and Swami Pragjnanpad*, as well as religious books such as *Bible and Bhagwad Geeta*.

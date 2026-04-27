@@ -9,8 +9,4 @@ cover: "https://covers.openlibrary.org/b/id/8682221-L.jpg"
 ---
 
 
-	<div class="blog-posts-book">
-  		<img src="{{ cover }}">
-	</div>
-
 I just started this book as one of my friend recommended it during our discussion on different types of democracy. Lets see how it goes.

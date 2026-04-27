@@ -7,9 +7,5 @@ published: false #unused flag
 status: "Reading"  # only include books with this status
 cover: "https://covers.openlibrary.org/b/id/8579786-L.jpg"
 ---
-<div class="blog-posts-book" >
-    <img src="{{ cover }}" >
-</div>
-
 Nothing here yet.
 

@@ -11,10 +11,6 @@ rating: 4
 ---
 
 
-	<div class="blog-posts-book">
-  		<img src="{{ cover }}">
-	</div>
-
 I don't think there is a need for an introduction of this book, as hollywood already has a legendary movie, *The Shawshank Redemption*, based on this book. Its a pity that I was completely unware of the existence of this book even though I watched the movie many times.
 
 This book is one of the finest non-horror fiction of **Stephen King**.  It is a nice addition to the movie—at least thats how I read it. The storyline is very much the same. Even the key dialogues and main events are the same. The difference is that in movie adaptation some events are altered to make the story line compact, while the book has freedom to go in details. For instance, in the book the warden of the jail changes two times, compared to one warden throughout the movie.

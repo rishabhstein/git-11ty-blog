@@ -8,11 +8,6 @@ status: "Finished"  # only include books with this status
 cover: "https://covers.openlibrary.org/b/id/197852-L.jpg"
 rating: 3
 ---
-<div class="blog-posts-book" >
-    <img src="{{ cover }}" >
-</div>
-
-
 > *Malabar and Coromandel? And to observe, regularly, a famous local phenomenon: the full moon and setting sun entering and exiting simultaneously from the same patch of ocean*
 
 

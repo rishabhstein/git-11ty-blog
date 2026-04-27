@@ -10,8 +10,4 @@ rating: 4
 ---
 
 
-	<div class="blog-posts-book">
-  		<img src="{{ cover }}">
-	</div>
-
 A delightful and quick read. Enjoying it so far.

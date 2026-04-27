@@ -7,10 +7,6 @@ status: "Finished"
 cover: "/assets/images/book_covers/the-midnight-library.jpg"
 rating: 3
 ---
-<div class="blog-posts-book" >
-    <img src="{{ cover }}" >
-</div>
-
 Imagine, there is a multiverse that exists right here when you are reading this review but your decision to read it or ignore it could lead to different outcomes. These small decisions--yes!!! even reading my review is life changing LOL--as a consequence, can result in a long life full of happiness or a short one with depressing death.
 
 *The Midnight Library* by Matt Haig is the story of a girl, Nora Seed, who became frustrated with her life and decided to kill herself by overconsuming some drugs. Although the beginning of the book sounds depressing, the story later evolves into a deep spiritual journey to find the meaning of life. After the suicide attempt, instead of dying, Nora finds herself trapped in the middle of being alive and being clinically dead. In this grey zone between life and death, she found herself in a mysterious library, watched over by an old lady--a figure from Nora's real life.

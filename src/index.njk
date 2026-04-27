@@ -30,6 +30,7 @@ layout: 'base.njk'
           {% set leadTag = recentPosts[0].data.tags[1] or recentPosts[0].data.tags[0] %}
           <div class="tagline"><a href="/tags/{{ leadTag | slug }}/">{{ leadTag }}</a></div>
           <a href="{{ recentPosts[0].url }}" class="u-url p-name"><strong>{{ recentPosts[0].data.title }}</strong></a>
+          <time class="home-entry-date" datetime="{{ recentPosts[0].date | isoDate }}">{{ recentPosts[0].date | postDate }}</time>
           <p>{{ recentPosts[0].content | plainExcerpt(32) }}</p>
         </article>
         {% endif %}
@@ -55,6 +56,7 @@ layout: 'base.njk'
             {% set postTag = post.data.tags[1] or post.data.tags[0] %}
             <div class="tagline"><a href="/tags/{{ postTag | slug }}/">{{ postTag }}</a></div>
             <a href="{{ post.url }}" class="u-url p-name"><strong>{{ post.data.title }}</strong></a>
+            <time class="home-entry-date" datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time>
             <p>{{ post.content | plainExcerpt(18) }}</p>
           </article>
           {% endif %}
@@ -81,6 +83,7 @@ layout: 'base.njk'
                   </span>
                   {% endif %}
                 </a>
+                <time class="home-entry-date" datetime="{{ book.date | isoDate }}">{{ book.date | postDate }}</time>
                 <p>{{ book.content | plainExcerpt(18) }}</p>
               </div>
             </article>
@@ -110,6 +113,7 @@ layout: 'base.njk'
                     {% for i in range(5) %}{% if i < movie.data.rating %}★{% else %}☆{% endif %}{% endfor %}
                   </div>
                   {% endif %}
+                  <time class="home-entry-date" datetime="{{ movie.date | isoDate }}">{{ movie.date | postDate }}</time>
                   <p>{{ movie.content | plainExcerpt(16) }}</p>
                 </div>
               </article>
@@ -133,6 +137,7 @@ layout: 'base.njk'
                     {% for i in range(5) %}{% if i < movie.data.rating %}★{% else %}☆{% endif %}{% endfor %}
                   </div>
                   {% endif %}
+                  <time class="home-entry-date" datetime="{{ movie.date | isoDate }}">{{ movie.date | postDate }}</time>
                   <p>{{ movie.content | plainExcerpt(6) }}</p>
                 </div>
               </article>

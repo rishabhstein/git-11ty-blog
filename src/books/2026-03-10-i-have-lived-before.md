@@ -10,10 +10,6 @@ status: Finished
 published: true
 rating: 4
 ---
-	<div class="blog-posts-book">
-  		<img src="{{ cover }}">
-	</div>
-
 Reincarnation is a fascinating topic for me since I grew up in a society where many folk tales and stories mentioned this phenomenon. I have heard about it so many times since childhood that it feels obvious to me. However, my friends from other parts of the world have a hard time believing it. Yet, whenever we touch on the topic, the discussion always intrigues us more and more.
 
 > A four-year-old girl, *Shanti Devi*, who was born in the 1930s in Delhi, starts complaining to her parents that she does not belong to them. She claims that her name is *Lugdi Devi*, and she is a married woman. Her husband, *Kedar Seth*, lives in another city, Mathura, and she wants to go there to meet him. Later, the investigators find that *Lugdi Devi* was a real woman in Mathura who died in childbirth, just a year before Shanti Devi was born. Her husband's name was *Kedar Seth*.

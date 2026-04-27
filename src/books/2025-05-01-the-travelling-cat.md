@@ -7,10 +7,6 @@ status: "Finished"  # only include books with this status
 cover: "/assets/images/book_covers/the-travelling-cat-chronicles.jpg"
 rating: 4
 ---
-<div class="blog-posts-book" >
-    <img src="{{ cover }}" >
-</div>
-
 This is the second book I've read in the pets category. Although I do not have much experience with cats--most people in my circle prefer dogs--there was one instance when I tried to feed a stray kitten who dug her claws into my hand, which resulted in a dislike of cats, I developed a strong interest in them following my previous read, [The Guest Cat](/2025/04/21/book-the-guest-cat/).
 
 The book I just finished, *The Travelling Cat Chronicles* by **Hiro Arikawa**, continues that theme. Once again, I came across this book through [James' blog](https://jamesg.blog) review, and I thank him for his recommendation.

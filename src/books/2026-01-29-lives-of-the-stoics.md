@@ -9,8 +9,4 @@ status: "Finished"
 published: false #unused flag
 rating: 3
 ---
-	<div class="blog-posts-book">
-  		<img src="{{ cover }}">
-	</div>
-
 Finished reading it. I will post the review soon.

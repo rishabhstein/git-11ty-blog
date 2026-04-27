@@ -773,7 +773,7 @@ ${tabsMarkup}
 
   // Creating a datetime format filter
   eleventyConfig.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+    return DateTime.fromJSDate(new Date(dateObj)).toLocaleString(DateTime.DATE_MED);
   });
 
   // Using RenderPlugin
@@ -983,6 +983,15 @@ ${tabsMarkup}
 
   eleventyConfig.addNunjucksAsyncShortcode("externalFeedCards", async function() {
     const feeds = await getExternalFeeds();
+    const formatFeedDate = (value) => {
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return "";
+      return new Intl.DateTimeFormat("en", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+      }).format(date);
+    };
 
     return feeds.map((feed) => `
 <article class="external-feed-card">
@@ -995,6 +1004,7 @@ ${tabsMarkup}
     <a href="${feed.sourceUrl}" target="_blank" rel="noopener noreferrer">${feed.label}</a>
   </div>
   <a href="${feed.postUrl}" target="_blank" rel="noopener noreferrer"><strong>${feed.postTitle}</strong></a>
+  ${feed.postedDate ? `<time class="home-entry-date" datetime="${feed.postedDate.slice(0, 10)}">${formatFeedDate(feed.postedDate)}</time>` : ""}
   <p>${feed.excerpt}</p>
 </article>`.trim()).join("\n");
   });
