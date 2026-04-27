@@ -5,10 +5,6 @@ cover: "/assets/images/photo_posts/2025-08-22-IMG_2240.jpeg"
 ---
 
 
-	<div class="blog-posts">
-  		<img src="{{ cover }}">
-	</div>
-
 Its an Ashram in Meerut, India, which was built in 1920 to support *Swadesh* and *Non-Violence* moment.
 
 It also acted as a small Khadi factory to hand build India’s own national flag.

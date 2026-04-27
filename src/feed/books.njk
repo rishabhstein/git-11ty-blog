@@ -1,0 +1,82 @@
+---
+permalink: /feed/books.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sigmarootpi Books Feed</title>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed/books.xml" rel="self" type="application/rss+xml" />
+    <description>Book notes and reviews with cover, rating, and reading details.</description>
+    <language>en</language>
+    {%- for post in collections.bookFeed | reverse | take(10) %}
+    {%- set absolutePostUrl = post.url | htmlBaseUrl(site.url) %}
+    {%- set bookBody = post.content | renderTransforms(post.data.page, site.url) | rssBlockquoteStyle %}
+    {%- set coverUrl = "" %}
+    {%- if post.data.cover %}
+    {%- set coverUrl = post.data.cover | htmlBaseUrl(site.url) %}
+    {%- endif %}
+    {%- set rating = post.data.rating | int %}
+    {%- set feedContent %}
+<article class="book-feed-entry">
+  {% if coverUrl %}
+  <figure class="book-feed-cover">
+    <img src="{{ coverUrl }}" alt="Cover of {{ post.data.title }}" width="240">
+  </figure>
+  {% endif %}
+
+  <dl class="book-feed-meta">
+    {% if post.data.author %}
+    <div>
+      <dt>Author</dt>
+      <dd>{{ post.data.author }}</dd>
+    </div>
+    {% endif %}
+
+    {% if post.data.rating %}
+    <div>
+      <dt>My rating</dt>
+      <dd>
+        <span aria-label="{{ post.data.rating }} out of 5">{% for i in range(5) %}{% if i < rating %}★{% else %}☆{% endif %}{% endfor %}</span>
+        <span>{{ post.data.rating }}/5</span>
+      </dd>
+    </div>
+    {% endif %}
+
+    {% if post.data.sdate %}
+    <div>
+      <dt>Start date</dt>
+      <dd><time datetime="{{ post.data.sdate | isoDate }}">{{ post.data.sdate | postDate }}</time></dd>
+    </div>
+    {% endif %}
+
+    {% if post.data.fdate %}
+    <div>
+      <dt>Finish date</dt>
+      <dd><time datetime="{{ post.data.fdate | isoDate }}">{{ post.data.fdate | postDate }}</time></dd>
+    </div>
+    {% endif %}
+  </dl>
+
+  {% if bookBody | trim %}
+  <div class="book-feed-body">
+    {{ bookBody | safe }}
+  </div>
+  {% endif %}
+
+  <p class="post-footer"><a href="mailto:hello@rishabhps.com?subject={{ ('Blogentry: ' ~ post.data.title) | urlEncode }}">Reply by email</a> <br> <a href="{{ absolutePostUrl }}#webmentions">Send a webmention</a><br><a href="{{ site.url }}/guestbook/">Sign my Guestbook</a>.</p>
+</article>
+    {%- endset %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <description>{{ feedContent | rssCdata | safe }}</description>
+      <content:encoded>{{ feedContent | rssCdata | safe }}</content:encoded>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>{{ absolutePostUrl }}</guid>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

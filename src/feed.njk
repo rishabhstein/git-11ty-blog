@@ -19,7 +19,18 @@ eleventyExcludeFromCollections: true
     {%- if post.data.tags and "word-vomit" in post.data.tags %}
     {%- set feedIntro = wordVomitNote %}
     {%- endif %}
-    {%- set feedContent = feedIntro ~ feedBody ~ feedFooter %}
+    {%- set feedCover = "" %}
+    {%- if post.data.cover %}
+    {%- set coverUrl = post.data.cover | htmlBaseUrl(site.url) %}
+    {%- if not (coverUrl in feedBody) and not (post.data.cover in feedBody) %}
+    {%- set feedCover %}
+<figure class="feed-entry-cover">
+  <img src="{{ coverUrl }}" alt="Cover image for {{ post.data.title }}" width="240">
+</figure>
+    {%- endset %}
+    {%- endif %}
+    {%- endif %}
+    {%- set feedContent = feedIntro ~ feedCover ~ feedBody ~ feedFooter %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>

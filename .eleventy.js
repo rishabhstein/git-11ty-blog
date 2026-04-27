@@ -1217,16 +1217,6 @@ ${tabsMarkup}
 
   eleventyConfig.addPlugin(feedPlugin, {
     type: "rss",
-    outputPath: "/feed/books.xml",
-    collection: { name: "bookFeed", limit: 10 },
-    metadata: {
-      ...feedMetadata,
-      title: "Sigmarootpi Books Feed",
-    },
-  });
-
-  eleventyConfig.addPlugin(feedPlugin, {
-    type: "rss",
     outputPath: "/feed/snap.xml",
     collection: { name: "snapFeed", limit: 10 },
     metadata: {

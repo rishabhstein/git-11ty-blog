@@ -11,6 +11,11 @@
 
 <div class="container-narrow">
         <main>
+            {% if cover %}
+            <div class="blog-posts">
+                <img src="{{ cover }}" alt="{{ title }}">
+            </div>
+            {% endif %}
             {{ content | safe }}
         </main>
 </div>
