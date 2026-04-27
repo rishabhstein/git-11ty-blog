@@ -7,7 +7,17 @@
   "/posts/2025-01-20-21-43": [],
   "/books/2025-05-01-housekeeper-and-professor": [],
   "/books/2025-05-05-search-of-secret-india": [],
-  "/posts/2026-04-17-old-newspaper-like-blog-design": [],
+  "/posts/2026-04-17-old-newspaper-like-blog-design": [
+    {
+      "authorName": "",
+      "authorUrl": "",
+      "authorPhoto": "",
+      "url": "https://lars-christian.com/notes/2026-04-19-another-workout-logger/",
+      "target": "https://blog.rishabhps.com/posts/2026-04-17-old-newspaper-like-blog-design/",
+      "published": "2026-04-20T17:02:11Z",
+      "title": "Another workout logger — Lars-Christian's website"
+    }
+  ],
   "/books/2025-06-13-letter-of-a-stoic": [],
   "/books/2025-08-13-chasing-the-monsoon": [],
   "/books/2026-01-29-lives-of-the-stoics": [],
@@ -170,7 +180,17 @@
   "/movies/1774300774875": [],
   "/snap/palace-of-culture-and-science": [],
   "/snap/todays-workplace": [],
-  "/movies/1761411749768": [],
+  "/movies/1761411749768": [
+    {
+      "authorName": "benji",
+      "authorUrl": "https://www.benji.dog",
+      "authorPhoto": "https://avatars.webmention.io/www.benji.dog/98f50ccee2f72b224906440e0a78cc1fa5ea016ae65e5fa0d42ff5000ad29d24.jpg",
+      "url": "https://www.benji.dog/articles/indieweb-movie-club-october-2025/",
+      "target": "https://blog.rishabhps.com/movies/1761411749768/",
+      "published": "2025-10-01T00:00:00",
+      "title": "IndieWeb Movie Club: October 2025 - Hackers (1995)"
+    }
+  ],
   "/snap/holidays-are-coming": [],
   "/posts/2026-04-22-boring-tasks-for-adhd-mind-and-how-i-use-ai-agents": [],
   "/posts/2026-04-23-why-i-need-to-take-a-break-in-word-vomit-series": [],

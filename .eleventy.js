@@ -15,7 +15,10 @@ module.exports = async function(eleventyConfig) {
     return normalized ? `${normalized}/` : "/";
   })();
   const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "https://webmention.io/blog.rishabhps.com/webmention";
-  const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=In5dhxfjUWc5CqwWmgGfNA";
+  //blog.rishabhps
+  // const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=In5dhxfjUWc5CqwWmgGfNA";
+  //sigmarootpi
+  const webmentionDashboardUrl ="https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g"
   const webmentionCachePath = path.join(process.cwd(), ".cache", "webmentions-cache.json");
 
   function parseWorkoutDurationSeconds(value) {
