@@ -943,9 +943,15 @@ ${tabsMarkup}
         ...(await fetchWebmentionPreview(mention.url)),
       })));
 
-      setCachedWebmentions(normalizePathname(target), dedupeWebmentions(mentionsWithPreview));
+      const cacheKey = normalizePathname(target);
+      const mergedMentions = dedupeWebmentions([
+        ...getCachedWebmentions(cacheKey),
+        ...mentionsWithPreview,
+      ]);
 
-      return buildWebmentionsSectionHtml(mentionsWithPreview);
+      setCachedWebmentions(cacheKey, mergedMentions);
+
+      return buildWebmentionsSectionHtml(mergedMentions);
     } catch {
       const cachedMentions = getCachedWebmentions(normalizePathname(new URL(targetUrl, siteUrl).toString()));
       if (!cachedMentions.length) return "";
