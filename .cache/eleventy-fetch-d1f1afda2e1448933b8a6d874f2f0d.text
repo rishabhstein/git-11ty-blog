@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-04-26T21:30:07.224754+00:00</updated>
+  <updated>2026-04-27T08:42:52.022739+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -483,6 +483,40 @@ Thanks for giving me a place to land.&lt;/p&gt;
     <published>2026-04-24T16:20:00+00:00</published>
   </entry>
   <entry>
+    <id>https://blog.bearroll.dev/browse-bear-blog-trending-on-mobile/</id>
+    <title>bearroll.dev - Tip for browsing Bear Blog trending on mobile.</title>
+    <updated>2026-04-24T12:45:00+00:00</updated>
+    <author>
+      <name>bearroll</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Hey everyone! Thanks again for checking out &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt;, the daily roll of Bear Blog's top posts. The support has been much appreciated :)&lt;/p&gt;
+&lt;p&gt;I'm here to share a tip for those wanting to read bear blog trending posts with less distractions in a dedicated mobile app view.&lt;/p&gt;
+&lt;p&gt;You can do this is through adding Bear Roll to your home screen.&lt;/p&gt;
+&lt;h2 id=iphone-instructions&gt;iPhone Instructions&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Visit &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt; in Safari.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Tap the share icon at the bottom of the page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/share-button-1.webp" alt="share-button" /&gt;&lt;/p&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;Scroll down and tap "Add to Home Screen".&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/add-to-homescreen-2.webp" alt="add-to-homescreen" /&gt;&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;Tap "Add" in the top right corner.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/final-add-1.webp" alt="final-add" /&gt;&lt;/p&gt;
+&lt;h2 id=android-instructions&gt;Android Instructions&lt;/h2&gt;&lt;p&gt;I don't own an Android device but based on &lt;a href='https://www.wikihow.com/Set-a-Bookmark-Shortcut-in-Your-Home-Screen-on-Android'&gt;this WikiHow article&lt;/a&gt; the instructions are: go to &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt; on Chrome, click the three dot options icon in the top right, then click "Add to Home Screen".&lt;/p&gt;
+&lt;h2 id=all-done&gt;All done!&lt;/h2&gt;&lt;p&gt;After you've done this you will have a Bear icon 🐻 on your device home screen. When entering the website this way you get a focused experience with no search bar or extra buttons. Just bear blogs trending posts in a chronological view.&lt;/p&gt;
+&lt;p&gt;Hope this helps!&lt;/p&gt;
+&lt;p&gt;For any questions or thoughts reach out at &lt;a href='mailto:hello@bearroll.dev'&gt;hello@bearroll.dev&lt;/a&gt;&lt;/p&gt;
+</content>
+    <link href="https://blog.bearroll.dev/browse-bear-blog-trending-on-mobile/" rel="alternate"/>
+    <published>2026-04-24T12:45:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://woolgathering.bearblog.dev/my-new-t-shirt/</id>
     <title>my new t-shirt</title>
     <updated>2026-04-24T10:17:00+00:00</updated>
@@ -521,77 +555,6 @@ Thanks for giving me a place to land.&lt;/p&gt;
 </content>
     <link href="https://diels-daydreams.bearblog.dev/what-i-like-here-in-bear/" rel="alternate"/>
     <published>2026-04-24T00:31:50.470199+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blog.bearroll.dev/browse-bear-blog-trending-on-mobile/</id>
-    <title>bearroll.dev - Tip for browsing Bear Blog trending on mobile.</title>
-    <updated>2026-04-24T12:45:00+00:00</updated>
-    <author>
-      <name>bearroll</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Hey everyone! Thanks again for checking out &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt;, the daily roll of Bear Blog's top posts. The support has been much appreciated :)&lt;/p&gt;
-&lt;p&gt;I'm here to share a tip for those wanting to read bear blog trending posts with less distractions in a dedicated mobile app view.&lt;/p&gt;
-&lt;p&gt;You can do this is through adding Bear Roll to your home screen.&lt;/p&gt;
-&lt;h2 id=iphone-instructions&gt;iPhone Instructions&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Visit &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt; in Safari.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Tap the share icon at the bottom of the page.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/share-button-1.webp" alt="share-button" /&gt;&lt;/p&gt;
-&lt;ol start="3"&gt;
-&lt;li&gt;Scroll down and tap "Add to Home Screen".&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/add-to-homescreen-2.webp" alt="add-to-homescreen" /&gt;&lt;/p&gt;
-&lt;ol start="4"&gt;
-&lt;li&gt;Tap "Add" in the top right corner.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/bearroll/final-add-1.webp" alt="final-add" /&gt;&lt;/p&gt;
-&lt;h2 id=android-instructions&gt;Android Instructions&lt;/h2&gt;&lt;p&gt;I don't own an Android device but based on &lt;a href='https://www.wikihow.com/Set-a-Bookmark-Shortcut-in-Your-Home-Screen-on-Android'&gt;this WikiHow article&lt;/a&gt; the instructions are: go to &lt;a href='https://bearroll.dev'&gt;bearroll.dev&lt;/a&gt; on Chrome, click the three dot options icon in the top right, then click "Add to Home Screen".&lt;/p&gt;
-&lt;h2 id=all-done&gt;All done!&lt;/h2&gt;&lt;p&gt;After you've done this you will have a Bear icon 🐻 on your device home screen. When entering the website this way you get a focused experience with no search bar or extra buttons. Just bear blogs trending posts in a chronological view.&lt;/p&gt;
-&lt;p&gt;Hope this helps!&lt;/p&gt;
-&lt;p&gt;For any questions or thoughts reach out at &lt;a href='mailto:hello@bearroll.dev'&gt;hello@bearroll.dev&lt;/a&gt;&lt;/p&gt;
-</content>
-    <link href="https://blog.bearroll.dev/browse-bear-blog-trending-on-mobile/" rel="alternate"/>
-    <published>2026-04-24T12:45:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://livingkindfully.bearblog.dev/you-should-aim-to-make-fuck-you-money-respond-to-feedback/</id>
-    <title>You Should Aim to Make Fuck You Money | Respond to Feedback</title>
-    <updated>2026-04-24T03:15:00+00:00</updated>
-    <author>
-      <name>livingkindfully</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I received a few comments about my post on &lt;a href='https://livingkindfully.bearblog.dev/you-should-aim-to-make-fuck-you-money' target='_blank'&gt;"You Should Aim to Make Fuck You Money"&lt;/a&gt;. Most of the comments were about me promoting materialism and putting money ahead of everything such as family and love.&lt;/p&gt;
-&lt;p&gt;I think some of my readers missed the main plot. It is my fault for not writing it clearly. Making "Fuck You" money means having the ability to say no to things that you hate. It also means knowing when to focus on doing things that you enjoy. Life is more than just making money; you know you have enough when you can say "Fuck You".&lt;/p&gt;
-&lt;p&gt;While a few said I am putting money ahead of family and love. Money will never be ahead of family and love. However, money enables many things and experiences. I still remember my silence and helplessness when my family asked for tuition fees. How I worry about supporting the family when I suffered &lt;a href='https://livingkindfully.bearblog.dev/i-just-lost-usd470436-and-i-cannot-let-my-family-know/' target='_blank'&gt;my large financial loss&lt;/a&gt;. I can't even look at myself in the mirror as I know I have failed as a provider to the family. My wife and kids are very supportive. The only way to express my gratitude and love is to give them the best life that I can afford. I cannot drag the whole family down due to my stupidity and ignorance. My "Fuck You" money is different from others. I just want to let my family to live the life that they deserve. It is never about buying things but finding opportunities to do things together.&lt;/p&gt;
-&lt;p&gt;It is fine that you do not want to make "Fuck You" money. Your priority is different. Maybe you already making "Fuck You" money that's why you can say such things. May you never need to feel "helpless" over money issues.&lt;/p&gt;
-</content>
-    <link href="https://livingkindfully.bearblog.dev/you-should-aim-to-make-fuck-you-money-respond-to-feedback/" rel="alternate"/>
-    <published>2026-04-24T03:15:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://pinewind.bearblog.dev/focusing-on-the-process-and-casual-wabi-sabi/</id>
-    <title>"focusing on the process" and casual wabi-sabi</title>
-    <updated>2026-04-24T13:30:00+00:00</updated>
-    <author>
-      <name>pinewind</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Recently, while scrolling through pictures that I took on my phone last year, this one caught my eye.&lt;/p&gt;
-&lt;div class="picture-wrapper"&gt;
-&lt;img src="https://i.imgur.com/apKlQ0E.png" class="bigger-single" alt="Photograph of a paperback book, a coffee mug, an open sketchbook with a ballpoint pen and a white iPhone with simple earplugs wrapped around it"&gt;
-&lt;/div&gt;
-&lt;p&gt;I photographed this at some kind of design exhibition. I don't remember the topic anymore, or how this exhibit tied into the exhibition as a whole. However, both back then and now, when looking at the picture again, I found this arrangement of objects to be &lt;em&gt;attractive&lt;/em&gt; somehow ... even though the individual elements aren't. The iPhone is worn around the edges, without a protective case. The book is battered and broken (the spine has been fixed with tape). The drawings in the notebook are crude, drawn with a cheap ballpoint pen. The mug looks like it belongs in a dingy 80s coffee shop.&lt;/p&gt;
-&lt;p&gt;Aside from the iPhone, the ensemble looks very &lt;em&gt;retro&lt;/em&gt;. That is definitely part of its appeal to me. But that's not all there is to it. More so than the retro-nostalgia element, what appeals to me is the &lt;em&gt;frankness&lt;/em&gt; with which these things are presented.&lt;/p&gt;
-&lt;p&gt;I don't know who these items belong to (or if they even belong to one specific person at all). However, they still evoke an image: The image of a person who is a bit messy, but tends to keep things simple. Someone who doesn't care too much if their iPhone gets scratches or their book becomes worn down. They probably know that their drawings aren't very good, but it's not really the quality they're concerned with, anyway. The drawings are just vehicles for working out something else. And to get there, they'll use their tools extensively, without worrying about appearances. It's a kind of &lt;em&gt;messy chic&lt;/em&gt;, a form of contemporary, casual &lt;em&gt;wabi-sabi.&lt;/em&gt; It gets its appeal from the implication that the person using these tools is a &lt;em&gt;maker&lt;/em&gt; who focuses on action and the &lt;em&gt;process&lt;/em&gt; of doing something and doesn't overthink too much. The "just do it" attitude.&lt;/p&gt;
-&lt;p&gt;To someone who always wants to keep their notes clean and puts covers on their books and notebooks, this is very appealing. It's an "opposites attract" kind of situation: Because I'm the type of person who wants every page of the notebook to "look good" and gets bummed out when they "ruin a page" with a bad drawing, I admire people who can just put something on the page and move on. I think I often end up holding myself back, limiting my options and potential, because I care about form and doing things properly so much. If I spent more time trying, failing, and learning while doing, I'd probably get to where I want to be faster.&lt;/p&gt;
-&lt;p&gt;So in a way, this photo serves as a reminder to myself to &lt;em&gt;focus more on action and process.&lt;/em&gt; To treat my tools a bit more roughly - not in a "move fast and break things" kind of way, but just a &lt;em&gt;bit&lt;/em&gt; more worry-free. They're tools, they're meant to be used, not pampered. Yes, my notebooks and pens might get scratches, I'll make mistakes, and create a lot of bad drawings. But if that gets me where I want to go, it'll be worth it, and the traces left on the tools will let them develop their very own charm over time. It's not just old, kintsugi'd tea cups and antique wooden furniture that can embody beauty in imperfection. Beat-up pens or messy notebooks can, too.&lt;/p&gt;
-</content>
-    <link href="https://pinewind.bearblog.dev/focusing-on-the-process-and-casual-wabi-sabi/" rel="alternate"/>
-    <published>2026-04-24T13:30:00+00:00</published>
   </entry>
   <entry>
     <id>https://streetlightcadence.com/back-in-my-neighborhood/</id>
@@ -667,6 +630,43 @@ Back in my neighborhood&lt;/p&gt;
 </content>
     <link href="https://streetlightcadence.com/back-in-my-neighborhood/" rel="alternate"/>
     <published>2026-04-24T04:43:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://livingkindfully.bearblog.dev/you-should-aim-to-make-fuck-you-money-respond-to-feedback/</id>
+    <title>You Should Aim to Make Fuck You Money | Respond to Feedback</title>
+    <updated>2026-04-24T03:15:00+00:00</updated>
+    <author>
+      <name>livingkindfully</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I received a few comments about my post on &lt;a href='https://livingkindfully.bearblog.dev/you-should-aim-to-make-fuck-you-money' target='_blank'&gt;"You Should Aim to Make Fuck You Money"&lt;/a&gt;. Most of the comments were about me promoting materialism and putting money ahead of everything such as family and love.&lt;/p&gt;
+&lt;p&gt;I think some of my readers missed the main plot. It is my fault for not writing it clearly. Making "Fuck You" money means having the ability to say no to things that you hate. It also means knowing when to focus on doing things that you enjoy. Life is more than just making money; you know you have enough when you can say "Fuck You".&lt;/p&gt;
+&lt;p&gt;While a few said I am putting money ahead of family and love. Money will never be ahead of family and love. However, money enables many things and experiences. I still remember my silence and helplessness when my family asked for tuition fees. How I worry about supporting the family when I suffered &lt;a href='https://livingkindfully.bearblog.dev/i-just-lost-usd470436-and-i-cannot-let-my-family-know/' target='_blank'&gt;my large financial loss&lt;/a&gt;. I can't even look at myself in the mirror as I know I have failed as a provider to the family. My wife and kids are very supportive. The only way to express my gratitude and love is to give them the best life that I can afford. I cannot drag the whole family down due to my stupidity and ignorance. My "Fuck You" money is different from others. I just want to let my family to live the life that they deserve. It is never about buying things but finding opportunities to do things together.&lt;/p&gt;
+&lt;p&gt;It is fine that you do not want to make "Fuck You" money. Your priority is different. Maybe you already making "Fuck You" money that's why you can say such things. May you never need to feel "helpless" over money issues.&lt;/p&gt;
+</content>
+    <link href="https://livingkindfully.bearblog.dev/you-should-aim-to-make-fuck-you-money-respond-to-feedback/" rel="alternate"/>
+    <published>2026-04-24T03:15:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://pinewind.bearblog.dev/focusing-on-the-process-and-casual-wabi-sabi/</id>
+    <title>"focusing on the process" and casual wabi-sabi</title>
+    <updated>2026-04-24T13:30:00+00:00</updated>
+    <author>
+      <name>pinewind</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Recently, while scrolling through pictures that I took on my phone last year, this one caught my eye.&lt;/p&gt;
+&lt;div class="picture-wrapper"&gt;
+&lt;img src="https://i.imgur.com/apKlQ0E.png" class="bigger-single" alt="Photograph of a paperback book, a coffee mug, an open sketchbook with a ballpoint pen and a white iPhone with simple earplugs wrapped around it"&gt;
+&lt;/div&gt;
+&lt;p&gt;I photographed this at some kind of design exhibition. I don't remember the topic anymore, or how this exhibit tied into the exhibition as a whole. However, both back then and now, when looking at the picture again, I found this arrangement of objects to be &lt;em&gt;attractive&lt;/em&gt; somehow ... even though the individual elements aren't. The iPhone is worn around the edges, without a protective case. The book is battered and broken (the spine has been fixed with tape). The drawings in the notebook are crude, drawn with a cheap ballpoint pen. The mug looks like it belongs in a dingy 80s coffee shop.&lt;/p&gt;
+&lt;p&gt;Aside from the iPhone, the ensemble looks very &lt;em&gt;retro&lt;/em&gt;. That is definitely part of its appeal to me. But that's not all there is to it. More so than the retro-nostalgia element, what appeals to me is the &lt;em&gt;frankness&lt;/em&gt; with which these things are presented.&lt;/p&gt;
+&lt;p&gt;I don't know who these items belong to (or if they even belong to one specific person at all). However, they still evoke an image: The image of a person who is a bit messy, but tends to keep things simple. Someone who doesn't care too much if their iPhone gets scratches or their book becomes worn down. They probably know that their drawings aren't very good, but it's not really the quality they're concerned with, anyway. The drawings are just vehicles for working out something else. And to get there, they'll use their tools extensively, without worrying about appearances. It's a kind of &lt;em&gt;messy chic&lt;/em&gt;, a form of contemporary, casual &lt;em&gt;wabi-sabi.&lt;/em&gt; It gets its appeal from the implication that the person using these tools is a &lt;em&gt;maker&lt;/em&gt; who focuses on action and the &lt;em&gt;process&lt;/em&gt; of doing something and doesn't overthink too much. The "just do it" attitude.&lt;/p&gt;
+&lt;p&gt;To someone who always wants to keep their notes clean and puts covers on their books and notebooks, this is very appealing. It's an "opposites attract" kind of situation: Because I'm the type of person who wants every page of the notebook to "look good" and gets bummed out when they "ruin a page" with a bad drawing, I admire people who can just put something on the page and move on. I think I often end up holding myself back, limiting my options and potential, because I care about form and doing things properly so much. If I spent more time trying, failing, and learning while doing, I'd probably get to where I want to be faster.&lt;/p&gt;
+&lt;p&gt;So in a way, this photo serves as a reminder to myself to &lt;em&gt;focus more on action and process.&lt;/em&gt; To treat my tools a bit more roughly - not in a "move fast and break things" kind of way, but just a &lt;em&gt;bit&lt;/em&gt; more worry-free. They're tools, they're meant to be used, not pampered. Yes, my notebooks and pens might get scratches, I'll make mistakes, and create a lot of bad drawings. But if that gets me where I want to go, it'll be worth it, and the traces left on the tools will let them develop their very own charm over time. It's not just old, kintsugi'd tea cups and antique wooden furniture that can embody beauty in imperfection. Beat-up pens or messy notebooks can, too.&lt;/p&gt;
+</content>
+    <link href="https://pinewind.bearblog.dev/focusing-on-the-process-and-casual-wabi-sabi/" rel="alternate"/>
+    <published>2026-04-24T13:30:00+00:00</published>
   </entry>
   <entry>
     <id>https://rnotte.art/turning-your-brain-off/</id>

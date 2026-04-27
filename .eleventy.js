@@ -7,15 +7,15 @@ module.exports = async function(eleventyConfig) {
     [...new Set(items.map((item) => item.date.getFullYear()))].sort((a, b) => b - a);
   const takeItems = (items, count) => (Array.isArray(items) ? items.slice(0, count) : []);
   const secondsInDay = 24 * 60 * 60 * 1000;
-  const siteUrl = "https://sigmarootpi.com";
+  const siteUrl = "https://blog.rishabhps.com";
   const sitePathPrefix = (() => {
     const rawPrefix = process.env.SITE_PATH_PREFIX || process.env.PATH_PREFIX || "/";
     if (!rawPrefix || rawPrefix === "/") return "/";
     const normalized = String(rawPrefix).trim().replace(/^\/+/, "/").replace(/\/+$/, "");
     return normalized ? `${normalized}/` : "/";
   })();
-  const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "https://webmention.io/sigmarootpi.com/webmention";
-  const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g";
+  const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "https://webmention.io/blog.rishabhps.com/webmention";
+  const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=In5dhxfjUWc5CqwWmgGfNA";
   const webmentionCachePath = path.join(process.cwd(), ".cache", "webmentions-cache.json");
 
   function parseWorkoutDurationSeconds(value) {
@@ -326,10 +326,36 @@ module.exports = async function(eleventyConfig) {
       `.trim();
   }
 
-  function buildWebmentionsSectionHtml(mentions) {
-    if (!mentions.length) return "";
+  function normalizeWebmentionSourceUrl(url) {
+    if (!url) return "";
+    try {
+      const parsed = new URL(url);
+      parsed.hash = "";
+      parsed.searchParams.sort();
+      parsed.pathname = parsed.pathname.replace(/\/+$/, "") || "/";
+      return parsed.toString();
+    } catch {
+      return String(url).trim().replace(/\/+$/, "");
+    }
+  }
 
-    const itemsHtml = mentions.map(buildWebmentionItemHtml).join("\n");
+  function dedupeWebmentions(mentions) {
+    const seen = new Set();
+
+    return mentions.filter((mention) => {
+      const key = normalizeWebmentionSourceUrl(mention.url)
+        || `${mention.title || ""}|${mention.authorUrl || ""}|${mention.authorName || ""}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  function buildWebmentionsSectionHtml(mentions) {
+    const uniqueMentions = dedupeWebmentions(mentions);
+    if (!uniqueMentions.length) return "";
+
+    const itemsHtml = uniqueMentions.map(buildWebmentionItemHtml).join("\n");
 
     return `
       <section class="webmentions" aria-labelledby="webmentions-title">
@@ -914,7 +940,7 @@ ${tabsMarkup}
         ...(await fetchWebmentionPreview(mention.url)),
       })));
 
-      setCachedWebmentions(normalizePathname(target), mentionsWithPreview);
+      setCachedWebmentions(normalizePathname(target), dedupeWebmentions(mentionsWithPreview));
 
       return buildWebmentionsSectionHtml(mentionsWithPreview);
     } catch {
@@ -1143,7 +1169,7 @@ ${tabsMarkup}
   const feedMetadata = {
     language: "en",
     subtitle: "An outdated habbit of spitting my thoughts.",
-    base: "https://sigmarootpi.com/",
+    base: "https://blog.rishabhps.com/",
     author: {
       name: "Rishabh",
       email: "sigmarootpi@proton.me",

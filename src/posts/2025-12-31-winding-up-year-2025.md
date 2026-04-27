@@ -6,9 +6,9 @@ tags: ["windup"]
 
 It's 11:30 PM on the last day of 2025. I went to bed twenty minutes ago, but after checking out [Lars](https://lars-christian.com/posts/2025-12-31-out-with-the-old-in-with-the-new/) latest post of winding up the year, I realized I wanted to write a similar post for this whole month, but due to one reason or another, I was postponing it. So here I am writing a brief one at the last moment. Oops.
 
-1. **Books:** Based on my Kindle data, this year I finished ten out of fifteen books. I wanted to read more, but my job also demands reading, not books, but research articles, so I had less time for books. I plan to improve it. My favorite one was [The Kite Runner](https://sigmarootpi.com/books/2025-07-31-the-kite-runner/).
+1. **Books:** Based on my Kindle data, this year I finished ten out of fifteen books. I wanted to read more, but my job also demands reading, not books, but research articles, so I had less time for books. I plan to improve it. My favorite one was [The Kite Runner](https://blog.rishabhps.com/books/2025-07-31-the-kite-runner/).
 
-2. **Movies:** This year, from the time I started recording, I watched a total of thirty-five movies and three TV series. My favorite movie was [Braveheart](https://sigmarootpi.com/movies/1762378387055/) and TV series was *Jane Austin's* [Pride and Prejudice](https://sigmarootpi.com/movies/1759085452698/)
+2. **Movies:** This year, from the time I started recording, I watched a total of thirty-five movies and three TV series. My favorite movie was [Braveheart](https://blog.rishabhps.com/movies/1762378387055/) and TV series was *Jane Austin's* [Pride and Prejudice](https://blog.rishabhps.com/movies/1759085452698/)
 
 3. **Workout:** This year, I was less active due to PhD thesis work load, and due to moving out from one country to another three times. The stress made me lose discipline. I already started recovering last month, but I won't be ashamed telling my active days here.
 

@@ -18,6 +18,6 @@ from
 
 to
 
-[https://sigmarootpi/feed.xml](https://sigmarootpi.com/feed.xml)
+[https://sigmarootpi/feed.xml](https://blog.rishabhps.com/feed.xml)
 
 I will also add it as a warning in future posts at least in 5 upcoming posts.

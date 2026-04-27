@@ -31,7 +31,7 @@ I am just a beginner at blogging, so I can offer you only so much. However, I ca
 - [David Wertheimer](https://netwert.com/ideapad)
 - [Joy](https://jake009.blogspot.com/)
 - [Zachary Billman](https://www.zacharybillman.com/)
-- [Sigmarootpi](https://sigmarootpi.com/)
+- [Sigmarootpi](https://blog.rishabhps.com/)
 - [Orion’s Blog](https://orionsvoid.com/)
 - [Fabio Teixeira](https://fabioteixeira.eu/)
 - [JeddAcp](https://notes.jeddacp.com/)
