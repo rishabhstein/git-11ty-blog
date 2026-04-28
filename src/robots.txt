@@ -1,6 +1,12 @@
+#Allow Bubblebot
+User-agent: BubblesBot
+Allow: /
+
 # Block all bots from crawling the entire site
 User-agent: *
 Disallow: /
+
+
 
 # Block specific bots by their user-agent strings
 
