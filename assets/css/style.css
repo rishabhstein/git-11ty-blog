@@ -152,8 +152,11 @@ body.focus-mode-transition .page-header,
 body.focus-mode-transition .layout-wrapper {
   transition: transform 0.85s ease, opacity 0.85s ease, filter 0.85s ease;
   opacity: 0.92;
-  transform: translateY(8px) scale(0.995);
   filter: blur(0.45px) saturate(1.05);
+}
+
+body.focus-mode-transition .layout-wrapper {
+  animation: focus-content-lift 1.2s linear forwards;
 }
 
 body.focus-mode-transition .page-header {
@@ -206,6 +209,15 @@ body.focus-mode-transition .page-header {
   100% { opacity: 0; }
 }
 
+@keyframes focus-content-lift {
+  0% {
+    transform: translateY(18px) scale(0.995);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
 @keyframes focus-petal-drift-left {
   0% {
     opacity: 0;
@@ -244,6 +256,7 @@ body.focus-mode-transition .page-header {
 
   body.focus-mode-transition .page-header,
   body.focus-mode-transition .layout-wrapper {
+    animation: none !important;
     transform: none;
     filter: none;
     opacity: 1;
@@ -633,10 +646,19 @@ body.focus-mode-transition .page-header {
   line-height: 1.55;
 }
 
-body.focus-mode:not(.focus-mode-transition) .portal-layout,
 body.focus-mode .layout-wrapper {
   display: block;
-  width: min(1200px, 94vw);
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.focus-mode:not(.focus-mode-transition) .portal-layout {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -664,7 +686,7 @@ body.focus-mode-transition .right-column {
 }
 
 body.focus-mode-transition .layout-wrapper {
-  width: min(1200px, 94vw);
+  width: 100%;
   max-width: 1200px;
 }
 
@@ -682,14 +704,16 @@ body.focus-mode-transition .right-column {
 body.focus-mode-transition .portal-layout {
   display: block;
   position: relative;
-  width: min(1200px, 94vw);
-  max-width: 1200px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 body.focus-mode .portal-center,
 body.focus-mode .main-content {
+  box-sizing: border-box;
   width: min(900px, 100%);
   max-width: 900px;
   min-width: 0;
@@ -700,8 +724,8 @@ body.focus-mode .main-content {
 
 body.focus-mode .main-content.home-shell,
 body.focus-mode-transition .main-content.home-shell {
-  width: min(1200px, 94vw);
-  max-width: 1200px;
+  width: 100%;
+  max-width: none;
 }
 
 body.focus-mode .main-content.home-shell .portal-layout.home-index,
@@ -721,8 +745,8 @@ body.focus-mode:not(.focus-mode-transition) .portal-layout.home-index {
 body.focus-mode-transition .portal-layout.home-index,
 body.focus-mode-transition .portal-center,
 body.focus-mode-transition .main-content {
-  width: min(1200px, 94vw);
-  max-width: 1200px;
+  width: 100%;
+  max-width: 100%;
 }
 
 body.focus-mode-transition .portal-layout.home-index {
@@ -755,6 +779,8 @@ body.focus-mode-transition .portal-layout.home-index .portal-center {
 
 body.focus-mode .portal-center img,
 body.focus-mode .main-content img {
+  box-sizing: border-box;
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -767,9 +793,17 @@ body.focus-mode .portal-center video,
 body.focus-mode .main-content video,
 body.focus-mode .portal-center pre,
 body.focus-mode .main-content pre {
+  box-sizing: border-box;
   max-width: 100%;
   width: 100%;
   min-width: 0;
+}
+
+body.focus-mode .portal-center figure,
+body.focus-mode .main-content figure {
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: hidden;
 }
 
 body.focus-mode .home-index .media-list {
@@ -1930,6 +1964,7 @@ footer {
 
 /*This is for the gallery of photos*/
 .gallery {
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   justify-content: center;
@@ -1941,6 +1976,7 @@ footer {
 }
 
 .gallery > div {
+  min-width: 0;
   aspect-ratio: 1 / 1;
   overflow: hidden;
   border-radius: 10px;
@@ -2003,15 +2039,18 @@ footer {
 
 /* book-page grid format */
 .book-section-grid {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.5rem;
+  width: 100%;
   max-width: 90vw;
   margin: 0.5rem auto;
 }
 
 .book-entry-grid {
+  min-width: 0;
   width: clamp(100px, 30vw, 150px);
   aspect-ratio: 2 / 3;
   overflow: hidden;
@@ -2054,13 +2093,36 @@ footer {
   }
   .book-section-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.5rem;
   }
 
   .book-entry-grid {
     width: 100%; /* let grid control sizing */
   }
+}
+
+body.focus-mode .gallery,
+body.focus-mode .book-section-grid,
+body.focus-mode-transition .gallery,
+body.focus-mode-transition .book-section-grid {
+  max-width: 100%;
+  min-width: 0;
+}
+
+body.focus-mode .gallery img,
+body.focus-mode-transition .gallery img,
+body.focus-mode .book-entry-grid img,
+body.focus-mode-transition .book-entry-grid img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+}
+
+body.focus-mode .book-cover,
+body.focus-mode-transition .book-cover {
+  overflow: hidden;
 }
 /*---- */
 
@@ -2177,9 +2239,17 @@ footer {
 
   body.focus-mode-transition::before,
   body.focus-mode-transition .page-header,
-  body.focus-mode-transition .layout-wrapper,
   .focus-mode-particles {
     animation: none !important;
+  }
+
+  body.focus-mode-transition .portal-left,
+  body.focus-mode-transition .portal-right,
+  body.focus-mode-transition .right-column,
+  body.focus-mode-transition .overlay,
+  body.focus-mode-transition .toggle-sidebar {
+    display: none !important;
+    transform: none !important;
   }
 
   body.focus-mode .home-index .media-list,
@@ -2187,6 +2257,37 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+
+  body.focus-mode .gallery,
+  body.focus-mode-transition .gallery,
+  body.focus-mode .book-section-grid,
+  body.focus-mode-transition .book-section-grid {
+    width: min(100%, calc(94vw - 30px));
+    max-width: calc(94vw - 30px);
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body.focus-mode .gallery,
+  body.focus-mode-transition .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body.focus-mode .book-section-grid,
+  body.focus-mode-transition .book-section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  body.focus-mode .gallery > div,
+  body.focus-mode-transition .gallery > div,
+  body.focus-mode .book-entry-grid,
+  body.focus-mode-transition .book-entry-grid {
+    width: 100%;
+    max-width: 100%;
   }
 }
 
