@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (focusModeButton) {
     focusModeButton.addEventListener('click', function() {
       const nextState = !body.classList.contains('focus-mode');
-      setFocusMode(nextState, nextState && !mobileFocusModeQuery.matches, true);
+      setFocusMode(nextState, nextState, true);
       if (nextState) {
         playAngelHarpTone();
       }
