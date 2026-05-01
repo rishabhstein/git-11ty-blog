@@ -36,15 +36,13 @@ layout: 'base.njk'
         {% endif %}
 
         <article class="writing-piclog">
-          <a href="{{ piclog.link or 'https://piclog.blue/' }}" target="_blank" rel="noopener noreferrer">
-            {% if piclog and piclog.image %}
+          <a href="/assets/images/piclog/piclog.jpeg">
             <span class="piclog-overlay">Picture of the Day</span>
             <img
-              src="{{ piclog.image }}"
+              src="/assets/images/piclog/piclog.jpeg"
               alt="Picture of the Day"
               class="piclog-image"
             >
-            {% endif %}
           </a>
         </article>
       </div>

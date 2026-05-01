@@ -758,7 +758,6 @@ ${tabsMarkup}
   const markdownItModule = await import("markdown-it");
   const markdownIt = markdownItModule.default;
   const externalFeeds = require("./src/_lib/externalFeeds");
-  const getPiclog = require("./src/_data/piclog");
   const getExternalFeeds = externalFeeds.getExternalFeeds || externalFeeds;
   const { readFeedPosts } = externalFeeds;
 
@@ -773,8 +772,6 @@ ${tabsMarkup}
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
   eleventyConfig.addPassthroughCopy({"./src/workout/*.svg": "workout/"});
 
-  // Register Piclog explicitly so homepage templates can depend on one clear global source.
-  eleventyConfig.addGlobalData("piclog", async () => getPiclog());
   eleventyConfig.addGlobalData("site", {
     name: "Sigmarootpi.com",
     url: siteUrl,

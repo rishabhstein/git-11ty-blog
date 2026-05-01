@@ -6,8 +6,8 @@
         <description>All the interviews published as part of the ongoing People and Blogs series.</description>
         <language>en-us</language>
         <copyright>Copyright 2023-2026, Manuel Moreale</copyright>
-        <pubDate>Fri, 24 Apr 2026 13:00:00 +0200</pubDate>
-        <lastBuildDate>Fri, 24 Apr 2026 13:00:00 +0200</lastBuildDate>
+        <pubDate>Fri, 01 May 2026 13:00:00 +0200</pubDate>
+        <lastBuildDate>Fri, 01 May 2026 13:00:00 +0200</lastBuildDate>
         <generator>Kirby</generator>
         <managingEditor>hello@manuelmoreale.com (Manuel Moreale)</managingEditor>
         <webMaster>hello@manuelmoreale.com (Manuel Moreale)</webMaster>
@@ -19,6 +19,98 @@
             <link>https://manuelmoreale.com</link>
         </image>
                                 <item>
+    <title>Hyde Stevenson</title>
+    <link>https://manuelmoreale.com/interview/hyde-stevenson</link>
+    <guid isPermaLink="true">https://manuelmoreale.com/@/page/ewyardf7zjm2owgb</guid>
+    <pubDate>Fri, 01 May 2026 13:00:00 +0200</pubDate>
+    <description><![CDATA[
+        <p>This week on the People and Blogs series we have an interview with Hyde Stevenson, whose blog can be found at <a href="https://lazybea.rs">lazybea.rs</a>.</p>
+        <p>Tired of RSS? <a href="https://manuelmoreale.com/interview/hyde-stevenson">Read this in your browser</a> or <a href="https://buttondown.com/peopleandblogs">sign up for the newsletter</a>.</p>
+        <p>People and Blogs is supported by the <em>"One a Month"</em> club members.</p>
+        <p>If you enjoy P&B, <a href="https://ko-fi.com/manuelmoreale">consider becoming one</a> for as little as 1 dollar a month.</p>
+        <hr>
+        <h2>Let's start from the basics: can you introduce yourself?</h2>
+<p>Hyde Stevenson is a nickname I've been using online for years. It's a mix from Dr Jekyll and Mr Hyde, and its author Robert Louis Stevenson. Privacy is important to me, so I generally avoid using my real name.</p>
+<p>My parents are from Serbia, but I was born in Paris. I lived in London, and, now, I live in southern Europe. More vitamin D was needed in my life.</p>
+<p>I had two passions as a kid: sport, and computers.</p>
+<p>Sport has always been a big part of my life.</p>
+<p>When I was a kid, all my friends played football, but I was always more into basketball. I don't mind watching a good football game, but that's where it ends.</p>
+<p>But, basketball is another thing. I'm a big Nikola Jokic fan, and I haven't missed a Denver game for the last four years.</p>
+<p>When we were kids, we all dreamt about the NBA. There weren't many games available to watch. We had one guy who ordered games on tape direct from the US. Then, we shared, and copied them. Basketball was our life. We played at school, after the school, the weekends. We were chasing the best playgrounds to compete with other players. It was great.</p>
+<p>It was the end of the 80s. Bird, Magic, Jordan, the Pistons Bad Boys, and also Yugoslavian players like Vlade Divac and Dražen Petrovic. The Dream Team too, the real one. I'll always wonder what might've happened if the war in the Balkans hadn't happened and the USA and Yugoslavia had played each other in the Olympics final.</p>
+<p>That love for the game made me play at a semi-pro level. But, a bad coach put me off the courts. I was young and didn't understand why I couldn't play more when I knew I had the level. I remember one shooting training where I got 46/50 on 3pts, and the guy behind me got 36/50. Did the coach say something to me? Nope.</p>
+<p>That was enough, and I took a break from the game for a few years to pursue another passion: boxing.</p>
+<p>My love of boxing probably stems from those nights when my father would wake me up at 4am to watch Mike Tyson's fights.</p>
+<p>I've always loved boxing. My father's mate's nephew was a boxer. He invited me to train at his gym. And I got hooked. Sad story about this young man. He went pro, but after a bar fight, I heard he was murdered out for revenge by someone involved in that brawl.</p>
+<p>I also had a great group of friends, and we trained grappling, and MMA for four or five years. A good friend trained us grappling. Today, he trains fighters who fought in the UFC, and got lucky to meet many MMA fighters like <a href="https://en.wikipedia.org/wiki/Jon_Jones">Jon Jones</a>. Another one, <a href="https://fr.wikipedia.org/wiki/Guillaume_Kerner">Guillaume Kerner</a> trained us Thai boxing. </p>
+<p>Guillaume was one of the first western European Thai boxer who won a World Title in Thailand. You can check some <a href="https://yewtu.be/watch?v=stfdTyraWss">highlights of his career</a>. </p>
+<p>That was before I moved to London. When I got back in France, I was training exclusively in boxing until 2021, when I moved abroad. Since I relocated, I've really missed the camaraderie of the boxing club. I'm lucky enough to have a garage where I've hung a punching bag and can keep training.</p>
+<p>For those interested, I started last year a <a href="https://lazybea.rs/50k">#50kPushUps challenge</a>. The goal is to make 50,000 push-ups in one year.</p>
+<p>I could write many anecdotes about people I met, but I want also to share my other passion: computers.</p>
+<p>When I meet people, the first thing they say to me is that I don't look like a computer guy. Stereotypes... 🤷</p>
+<p>My passion probably started when one night my father brought home the VCS, the Video Computer System, later renamed the Atari 2600. It's not a computer, but that's where it all started.</p>
+<p>Later, I asked if I could have a computer, and they offered me the <a href="https://en.wikipedia.org/wiki/Amstrad_CPC_464">Amstrad CPC464</a> with its 64Kb RAM, and cassette deck.</p>
+<p>Later, my grandmother offered me the updated version the <a href="https://en.wikipedia.org/wiki/Amstrad_CPC#CPC_6128">CPC6128</a> with the same RAM, but with a 3-inch floppy disk.</p>
+<p>After that I had many other ones. I started to build them. I tried my first Linux distro in 1995. It was a Debian. Today, my main distribution is still Debian, even if I tried, and used many others.</p>
+<p>I've tried probably many window managers over the years. But, for the last 15 years more or less, I've been using only <a href="https://awesomewm.org">awesomewm</a>, a tiling window manager, light, and customizable if you know Lua a bit.</p>
+<p>I could write a lot about Linux, but I don't think it'd be of much interest to our readers. What I can say is that my love for computers is what got me to where I am today in my career.</p>
+<h2>What's the story behind your blog?</h2>
+<p>My first blog was about Debian, the GNU/Linux distribution. It was in 2001, and it was called debianworld.org. I used to write how-tos, and articles about Linux. I used the blog to post English to French translation of the Debian Weekly News, but also the <strong>Securing Debian Manual</strong>, and some part of the <strong>Advanced Bash scripting guide</strong>. Then in 2014, after a long summer, I found out I got cyber squatted. And, just like this it was gone.</p>
+<p>Then, for five years, I didn't set up anything online until 2019. I met a colleague that asked me if I participated in any conferences, or if I had a blog. That's when I wanted to have a personal place online again.</p>
+<p>I love bears, that's why I chose that domain name. And, lazy, because I am sometimes.</p>
+<p>About the theme, it took me some time to create it, and be happy with the final result. But, then, it didn't really change.</p>
+<h2>What does your creative process look like when it comes to blogging?</h2>
+<p>It depends. First, I need a topic, or an idea.</p>
+<p>Sometimes a blog post, a news, a new tool, or basically anything can inspire me to write directly a post.</p>
+<p>But, often, I like to go through my Zettelkasten.</p>
+<p>Every morning, I use this keybinding <Ctrl>-0. That opens a random note. If it doesn't sparkle anything, I hit the same keys again. A <em>"new"</em> note appears, and, sometimes,  a <em>discussion</em> starts. I will add more content, or argue with previous thoughts. That's how some drafts start.</p>
+<p>English not being my mother tongue, I read the different parts multiple times to be sure to make sense. My goal is to make simple sentences, but that connect with everyone.</p>
+<p>Once done, I check if some grammar hasn't been forgotten by my LSP.</p>
+<p>Then, a script will sync the content to my blog, and post it also on Mastodon.</p>
+<h2>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h2>
+<p>I don't. I just need my laptop, a terminal, and a coffee. That's all.</p>
+<p>Maybe the physical space could help some people. Maybe if I had a seaside view, it could impact my creativity 😅.</p>
+<h2>A question for the techie readers: can you run us through your tech stack?</h2>
+<p>Previously, for other projects, I used Drupal, then Wordpress. But, for this one, I wanted something easily to maintain. No database, or plugins updates. Something simple. That's why I went for a SSG, a Static Site Generator.</p>
+<p>I chose <a href="https://gohugo.io">Hugo</a>, and I've been happy with it for years.</p>
+<p>There is some JavaScript from <a href="https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/">Carl Schwan's post</a> to add Mastodon's comment on the blog. So far it works well. Everything is hosted on a dedicated server.</p>
+<p>All post have been written in Neovim, my go-to editor, on a Tuxedo laptop. My local repository has a backup on a Synology DS1812+ NAS, which also had a remote backup. That repository is pushed on a private Codeberg repository too.</p>
+<p>Domain name was purchase at <a href="https://Unlimited.rs">Unlimited.rs</a>, a registar in Serbia. Originally, the name of the blog was lazybear.io, but since the announcement that it will disappear in the future, that's when I switched to a Serbian one. For other projects, I use also Porkbun that I love.</p>
+<h2>Given your experience, if you were to start a blog today, would you do anything differently?</h2>
+<p>I don't think so.</p>
+<p>A few of my friends suggested that I should specialize and monetize it, but that was never its goal.</p>
+<p>It's my little corner on the web where I can do whatever I want. I can tweak it as I want, try new things, post photos the way I want, without having to follow a specific format.</p>
+<p>It was always meant to be my place to experiment.</p>
+<p>I don't track visitors, I don't care about numbers.</p>
+<p>Now, and then, I get some emails, and I like the discussions I get there. Keep them coming 🙌</p>
+<h2>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h2>
+<p>The domain name is around €24 per year. The dedicated server around €30 per month, but I use it for other things too.</p>
+<p>It doesn't generate any money. I could add a Ko-fi account, and maybe I will... just in case. 😇</p>
+<p>If people want to monetize it, I don't see any issue with that. Everyone is free to do whatever they want.</p>
+<h2>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h2>
+<p>Ok, I have a couple of them!</p>
+<ul>
+<li><a href="https://rldane.space">Rldane.space</a></li>
+<li><a href="https://zerokspot.com">Zerokspot.com</a></li>
+<li><a href="https://joelchrono.xyz">Joelchrono.xyz</a></li>
+<li><a href="https://benjaminhollon.com">Benjaminhollon.com</a></li>
+<li><a href="https://christiantietze.de">Christiantietze.de</a></li>
+</ul>
+<p>And, two French photographers:</p>
+<ul>
+<li><a href="https://Jeremyjanin.com">Jeremyjanin.com</a></li>
+<li><a href="https://GregoryMignard.com">GregoryMignard.com</a></li>
+</ul>
+<p>I also have a <a href="https://lazybea.rs/links/">list of blogs I enjoy, and follow</a>.</p>
+<h2>Final question: is there anything you want to share with us?</h2>
+<p>Yeah start a blog, value your privacy, and send an email to Manuel so we can find more about you.</p>        <hr>
+        <h3>Keep exploring</h3>
+        <p>Now that you're done reading the interview, <a href='https://lazybea.rs'>go check the blog</a> and <a href='https://lazybea.rs/index.xml'>subscribe to the RSS feed</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
+        <p>People and Blogs is possible because kind people support it.</p>
+    ]]></description>
+    <author>hello@manuelmoreale.com (Manuel Moreale)</author>
+</item>                                <item>
     <title>Nicolas Solerieu</title>
     <link>https://manuelmoreale.com/interview/nicolas-solerieu</link>
     <guid isPermaLink="true">https://manuelmoreale.com/@/page/zhn8o4txxfsenpe4</guid>
@@ -66,7 +158,7 @@
 <p>There are so many goodies out there, one link away. Sharing is fun, side projects too. In my case it took me a decade to get my head out of my own butt and realize the cost of my own ventures. I believe a lot of us are similar to me, moving through life and accumulating stuff. Cleaning up, giving up, and passing along are necessary processes. So as a closing thought I’d suggest to sit, close your eyes and think of all your stuff. If you’re comfortable with it, great. Otherwise, spring is coming.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://slrncl.com/blog'>go check the blog</a> and <a href='https://slrncl.com/blog/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -114,7 +206,7 @@
 <p>I’d love, love to see more non-techie folks on POSE-style blogs. I’m not talking about Medium or Tumblr; these are Silos. Some exist, here and there. There used to a be a priod, back when people published on movable type and wordpress was still something new no one knew about, where I was following a diner waitress from Jersey, a fighter pilot who was a patriot in the good kind of way, and of course, there was the USS clueless (I think he’s still around, in retirement). Now, you have to be in the industry to do anything like that. I had a conversation with my partner the other day and he just shrugged. The term “silo” (he uses Tumblr) is so regular now that it’s like explaining water to a fish. And it’s a shame. Those that are different, micro.blog included, seems to require some knowledge of what, I guess, used to be common knowledge if you wanted to be online. I don’t know. Perhaps if I was still a teacher, I’d teach these internet “basics” to teens.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://taonaw.com'>go check the blog</a> and <a href='https://taonaw.com/feels.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -180,7 +272,7 @@
 <p>You can learn more about the project (in Dutch) here: <a href="https://notes.frankmeeuwsen.com/over-creativenotes">https://notes.frankmeeuwsen.com/over-creativenotes</a></p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://blog.frankmeeuwsen.com'>go check the blog</a> and <a href='https://blog.frankmeeuwsen.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -227,7 +319,7 @@
 <p>If you’re up for a little challenge, find your own collection. It might be cool doors, weird postboxes, triangular things, every <a href="https://www.everybookshopinnovascotia.com">bookshop in Nova Scotia</a>, sewer manholes, purple things, number signs… It’ll give you another perspective not only when travelling in foreign places, but also on your (not so) familiar surroundings. It doesn’t cost a penny, but it’ll pay off immensely.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://z1nz0l1n.com'>go check the blog</a> and <a href='https://z1nz0l1n.com/rss/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -270,7 +362,7 @@
 <p>Other than that, I am so happy with what feels to me like a resurgence in personal blogging (here's <a href="https://hnpwd.github.io/">a recent index</a> of personal blogs from readers of HackerNews). Thank you for having me in your beautiful space and featuring several other lovely and interesting people! This is a fantastic project Manu 🤗</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://nikhil.io'>go check the blog</a> and <a href='https://nikhil.io/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -323,7 +415,7 @@
 <p>This is highly topical: I’m currently scheming about a directory site listing “maker” blogs! So many communities in the visual arts and crafts are stuck on social media platforms they don’t even enjoy, beholden to the whims of an algorithm. I’d like to connect makers in a more organic way. If you’re a crafter who would like to be part of this, feel free to fill out <a href="https://forms.gle/nMUw1YmbKUQ81n2T8">this Google form</a>!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://melanie-richards.com/blog/'>go check the blog</a> and <a href='https://melanie-richards.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -371,7 +463,7 @@
 <p>So this is what I want people to know: The worst of them is bringing out the best of us. The worst in them is bringing out the best in us.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.patrickrhone.net'>go check the blog</a> and <a href='https://www.patrickrhone.net/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -423,7 +515,7 @@
 <p>Other than shamelessly plugging what I’ve done, I wanted to comment that this was a really fun exercise to think over my place online and what it means to me—thanks again for the opportunity!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://schwarztech.net'>go check the blog</a> and <a href='https://schwarztech.net/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -469,7 +561,7 @@
 <p>If you don't have one yet, go start a personal website! Don't take it too seriously, try things and it can be a nice, meditative hobby and helps against the urge to doomscroll. Also you might never know, your kind of people might find it and connect with you.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://lostfocus.de/'>go check the blog</a> and <a href='https://lostfocus.de/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -519,7 +611,7 @@
 <p>Finally, I’d like to use this space to offer my experience (personal? professional?) to anyone who might need it: if you’d like to have a chat, and you think I might be able to help you with something, reach out via PM on <a href="https://mastodon.social/@steffoz">Mastodon</a> and I’ll try to do my best!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://squeaki.sh'>go check the blog</a> and <a href='https://squeaki.sh/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -570,7 +662,7 @@
 <p>I just want to say this was a lot of fun. Not to be the old man in the room but the internet has changed immensely since I started in 2008. Part of what has dropped away (at least for me) has been being in the “world” of blogs. Answering these questions and reading other people’s answers on your site has reminded me that some semblance of that community spirit still exists. Thanks for keeping it alive.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.raptitude.com'>go check the blog</a> and <a href='https://www.raptitude.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -607,7 +699,7 @@
 <p>I’m just a big fan of everyone out here rewilding the web with fun blogs, sites, and projects. Including everything you do, Manu, with your blog, People and Blogs, and Dealgorithmed. Thank you for them, and for having me here. Another cool project: Elmcat made <a href="https://elmc.at/mapping-the-blogosphere/">an interactive map of the TTRPG blogosphere</a>. Not only is this an amazing technically but it's so inspiring to see the community and all the connections.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://francescrossley.com'>go check the blog</a> and <a href='https://francescrossley.com/feed/?type=rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -657,7 +749,7 @@
 <p><a href="https://github.com/tonsky/FiraCode">Fira Code</a> is a nice programming font you might like.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://tonsky.me/'>go check the blog</a> and <a href='https://tonsky.me/atom.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -712,7 +804,7 @@
 <p>I've always got a few side projects going on. I've got one dedicated to a <a href="https://bouldercitypetcemetery.org/">pet cemetery in the Nevada desert</a>. I do a good bit of <a href="https://wmwc.org/">radio</a> <a href="https://hiphopradioarchive.org/">archiving</a> (and wholeheartedly support <a href="https://archivetheunimportant.org/">unimportant archiving</a>). I've also got a <a href="http://findthedash.org/">digital garden dedicated to genealogy</a>, but it needs some tending. And a pal and I have a <a href="https://yearlyping.com/">very slow joint blog</a> where we post once a year, alternating years between us. Anything new (or old) that I may be up to, I try to add to <a href="https://laze.net/projects/">my "projects" page</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://laze.net/'>go check the blog</a> and <a href='https://laze.net/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -770,7 +862,7 @@
 <p><a href="https://www.youtube.com/watch?v=LtzvUDD4bRY">A video I made</a> that shares nine reflections from my creative career.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.ystrickler.com/'>go check the blog</a> and <a href='https://www.ystrickler.com/rss/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -850,7 +942,7 @@
 <p>(If I can tack on a postscript of sorts: given my eternal struggle <em>with my own ego</em>, I thank Manu for inviting me to participate in People and Blogs.)</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://bix.blog'>go check the blog</a> and <a href='https://bix.blog/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -897,7 +989,7 @@
 <p>Besides all this, I’d encourage people to help build a better, more inclusive and kinder world for everyone by engaging meaningfully both online and offline (although not at the cost of your own mental health). Slow down, read more books and please don’t lose your attention span.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://vhbelvadi.com'>go check the blog</a> and <a href='https://vhbelvadi.com/rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -973,7 +1065,7 @@ I'll pull the curtains and blinds to let the light in</p>
 <p>My call to action, therefore, is this: If you have the chance, get involved with someone in your local community who is working to provide opportunities like these for children. Be it sports, dancing, singing or theatre, or computer clubs or whatever. If you can't get involved personally, make a donation. Give money if you can, or some old stuff you've got lying around. You <em>can</em> make a difference to someone. Providing as many kids as possible with the opportunity to explore their interests, find ways to express themselves and become part of a community is how we ensure that they continue to be alright.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://lars-christian.com'>go check the blog</a> and <a href='https://lars-christian.com/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1016,7 +1108,7 @@ I'll pull the curtains and blinds to let the light in</p>
 <p>Lastly, thank you, Manu, for reaching out to me and inviting me into this club. I had to read your email three times to make sure it was legit because who does this sort of thing? Highlights blog writers? My sincere thanks to you. What a gift to be able to do this.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.aspeckledtrout.com/'>go check the blog</a> and <a href='https://www.aspeckledtrout.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1064,7 +1156,7 @@ I'll pull the curtains and blinds to let the light in</p>
 <p>Thank you, Manuel, for inviting me to share my thoughts here.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://pxlnv.com/'>go check the blog</a> and <a href='https://pxlnv.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1123,7 +1215,7 @@ I'll pull the curtains and blinds to let the light in</p>
 <p>And a final shoutout to my husband, who is constantly building absolutely wild things with CSS. He’s working on getting his blog up but for now he’s got a few links on <a href="https://www.jhey.dev/">his website</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://blog.stephaniestimac.com'>go check the blog</a> and <a href='https://blog.stephaniestimac.com/feed/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1178,7 +1270,7 @@ I'll pull the curtains and blinds to let the light in</p>
 <p>And finally, THANK YOU to Manu for People and Blogs! I always find some really great new sites to check out after reading these interviews, and I am truly honored to be asked to join this list of great bloggers. It’s inspiring me to work harder on my blog and to post more often.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://chronosaur.us'>go check the blog</a> and <a href='https://chronosaur.us/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1239,7 +1331,7 @@ I'll pull the curtains and blinds to let the light in</p>
 Alex</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://wrywriter.ca/'>go check the blog</a> and <a href='https://wrywriter.ca/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1301,7 +1393,7 @@ Alex</p>        <hr>
 <p>I have a submission coming out for the 'Free To Play' gaming-themed zine under <a href="https://differenceengine.sg/">Difference Engine</a>, a Singaporean indie comics publisher. It's a collaboration with the narrative designer &amp; writer <a href="https://sarahmakmq.com/">Sarah Mak</a>, I hope you'll check it out when the time comes!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.nicchan.me'>go check the blog</a> and <a href='https://www.nicchan.me/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1354,7 +1446,7 @@ Alex</p>        <hr>
 <p>I also <a href="https://ruminatepodcast.com">have a podcast</a> that used to be about tech but is now about snacks.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://rknight.me/'>go check the blog</a> and <a href='https://rknight.me/subscribe/posts/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1390,7 +1482,7 @@ Alex</p>        <hr>
 <p>I want to take a moment to give a shout out to libraries. Librarians are god’s people. I think there is a strong ideological kinship between digital personal publishing (blogs) and libraries (self-expression, availability of information, capitalistic counterpoint, community and connection, and the overall “this is for everyone” vibe the web was born from). So, go check out your local library. Get a card, check out a book, enjoy the space, and maybe ask about what other services they have to offer besides media. Good communities come from good people and good spaces. Supporting your local library may be a way to nudge the world toward your vision of how it should be. Or it could just be a nice way to spend an afternoon.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://frankchimero.com'>go check the blog</a> and <a href='https://frankchimero.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1447,7 +1539,7 @@ Alex</p>        <hr>
 <p>Hm… No mucho. Lately I’ve been thinking about how fragile the internet feels. Everything moves too quickly, and yet most of what we publish disappears almost instantly. Keeping a personal site today feels like keeping a diary in public:  it’s small, quiet, and mostly unseen, but it resists the speed of everything else. I find comfort in that slowness.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://romi.link'>go check the blog</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1521,7 +1613,7 @@ Alex</p>        <hr>
 <p>I am also hugely appreciative of projects like this that make it easier for bloggers to find each other, so thank you, Manu!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://thewallflowerdigest.co.uk'>go check the blog</a> and <a href='https://thewallflowerdigest.co.uk/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1582,7 +1674,7 @@ Alex</p>        <hr>
 <p>There’s also <a href="https://archief.ntr.nl/tuinderlusten/en.html">this online documentary and experience</a> of <em>The Garden of Earthly Delights</em> by Jheronimous Bosch that I share all the time, and <a href="https://spencer.place/">Spencer Chang’s website</a> is pretty cool.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://midnightpond.com'>go check the blog</a> and <a href='https://midnightpond.com/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1665,7 +1757,7 @@ Alex</p>        <hr>
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://blakewatson.com'>go check the blog</a> and <a href='https://blakewatson.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1711,7 +1803,7 @@ Alex</p>        <hr>
 <p>This is so absolutely dorky, but I am currently reading the <a href="https://en.wikipedia.org/wiki/Aubrey%E2%80%93Maturin_series">Aubrey-Maturin "Master and Commander" books</a>. I always figured they were quintessential "Dad books" (given they are historical fiction about naval voyages in the Napoleonic Wars) and therefore Not For Me, but <a href="https://lithub.com/actually-master-and-commander-is-a-domestic-fantasy-about-a-codependent-life-partnership">this amazing essay</a> convinced me to give them a shot. I've discovered that the books themselves are fantastic, and there's this whole fandom subculture I never knew about! They refer to reading the series as a "circumnavigation," and there are charming <a href="https://www.cannonade.net/map.php?Master_and_Commander">map websites</a> and <a href="https://podcasts.apple.com/us/podcast/the-lubbers-hole-a-patrick-obrian-podcast/id1508854933">podcasts</a> and <a href="https://www.reddit.com/r/AubreyMaturinSeries/">subreddits</a> with fans all talking (in character!) about the books. I'm loving it. It's been a welcome escape from the news over the past few months, and I can highly recommend the series.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.web-goddess.org'>go check the blog</a> and <a href='https://www.web-goddess.org/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1775,7 +1867,7 @@ Alex</p>        <hr>
 <p><em>PS. Some might find my <a href="https://birming.com/links/">Blogging Tips &amp; Tools</a> page useful.</em></p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://birming.com'>go check the blog</a> and <a href='https://birming.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1840,7 +1932,7 @@ Alex</p>        <hr>
 <p>May I just suggest to anyone reading this, if you're even remotely interested in starting a blog, do it! 😁</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://baty.net'>go check the blog</a> and <a href='https://baty.net/index.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1913,7 +2005,7 @@ Alex</p>        <hr>
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://lmnt.me'>go check the blog</a> and <a href='https://lmnt.me/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -1979,7 +2071,7 @@ Alex</p>        <hr>
 <p>Those who complain about politics invading their spaces—whether it’s decrying “woke” media or <a href="https://netigen.com/the-descent">deflecting criticism</a> from those who promote hate and intolerance elsewhere—are doing the work of the oppressor, and their hands are not nearly as clean as they’d like to believe. Nobody is perfect. I am certainly not free from culpability, but we should keep our hearts and minds open, listen, and work toward being better, in whatever measure we can, even little by little.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://netigen.com'>go check the blog</a> and <a href='https://netigen.com/rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2050,7 +2142,7 @@ Alex</p>        <hr>
 <p>I’m having a lot of fun writing a little series of provocations about near futures thinking with my friend Brian at <a href="https://littlefutures.club/">Little Futures</a>. We’re working on a print on demand recap soon so stay tuned for that.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://tomcritchlow.com'>go check the blog</a> and <a href='https://tomcritchlow.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2106,7 +2198,7 @@ Alex</p>        <hr>
 <p>PS: I don’t do social media, so the only place you’ll find me is on my <a href="https://ldstephens.net">blog</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://ldstephens.net'>go check the blog</a> and <a href='https://ldstephens.net/feed/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2167,7 +2259,7 @@ Alex</p>        <hr>
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://xandra.cc'>go check the blog</a> and <a href='https://library.xandra.cc/feed/?type=rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2221,7 +2313,7 @@ Alex</p>        <hr>
 <p>I'd also like to plug <a href="https://hardcover.app/@emma?referrer_id=15017">Hardcover</a> which is a book tracking app that is turning out to be a pretty good replacement for Goodreads. They have an API you can use to query on your books (which is I'm sure music to any dev's ears) and they're planning on going open-source too!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.emgoto.com'>go check the blog</a> and <a href='https://www.emgoto.com/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2283,7 +2375,7 @@ Alex</p>        <hr>
 <p>On that note, I’m sad about the situation in the States with libraries and book banning. For each book, its reader; for each reader, their book. We shouldn’t turn a blind eye to these things—yes, the world is a mess, and I try to stay in my happy bubble—but we also shouldn’t deny what’s happening. Spread the love for reading. Spread the love for thoughts and expressions in all forms. And hopefully, future generations will be able to pick up the pieces of the mess we’ve made.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://marisabel.nl'>go check the blog</a> and <a href='https://marisabel.nl/public/pages/feeds'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2350,7 +2442,7 @@ Alex</p>        <hr>
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://alexsirac.com'>go check the blog</a> and <a href='https://alexsirac.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2394,7 +2486,7 @@ Alex</p>        <hr>
 <p>I have read Susanna Clarke's book 'Piranesi' twice already and am currently strongly tempted by a third expedition into her startlingly vivid, unsettling world. If you ever need a perfect example of the way that books can insert a complete and yet completely unfamiliar world into your brain, this is it.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.rousette.org.uk'>go check the blog</a> and <a href='https://www.rousette.org.uk/index.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2464,7 +2556,7 @@ Alex</p>        <hr>
 <p>Finally, I didn’t make <a href="http://circlejerk.blog/">circlejerk.blog</a>, but I enjoy reading this machine-generated satire of some myopic tech bro takes.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.nicksimson.com/'>go check the blog</a> and <a href='https://www.nicksimson.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2523,7 +2615,7 @@ Alex</p>        <hr>
 <p>Thanks again for having me!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://netwert.com/ideapad/'>go check the blog</a> and <a href='https://netwert.com/ideapad/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2567,7 +2659,7 @@ Alex</p>        <hr>
 <p>Thank you so much for having me.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://daverupert.com'>go check the blog</a> and <a href='https://daverupert.com/atom.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2615,7 +2707,7 @@ Alex</p>        <hr>
 <p>And lately my late-night writing has been heavily soundtracked by Midwife’s <a href="https://heavenmetal.bandcamp.com/album/prayer-hands">heaven metal</a> and <a href="https://variantsonics.bandcamp.com/album/dreaming-thru-vector">hour-long reverb sessions</a> from the Deepchord camp.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.jamesreeves.co'>go check the blog</a> and <a href='https://jamesreeves.co/rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2675,7 +2767,7 @@ Alex</p>        <hr>
 <p>Lastly, here is <a href="https://xoxofest.com/2024/videos/cabel-sasser/">Cabel Sasser's talk from XOXO 2024</a>. Ever since I first watched this, I've been reminding myself to "send the nice email" when I see someone's website I like. There's so many amazing things that people are creating on their websites and I think it's a good thing when we take a moment to tell each other that.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.benji.dog'>go check the blog</a> and <a href='https://www.benji.dog/feeds'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2754,7 +2846,7 @@ Alex</p>        <hr>
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://site.sebasmonia.com'>go check the blog</a> and <a href='https://site.sebasmonia.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2800,7 +2892,7 @@ Alex</p>        <hr>
 <p>I've been writing the <a href="https://socialmediaescapeclub.substack.com">Social Media Escape Club</a> newsletter since October of 2021, and having lots of fun with that. It started as a battle cry to delete the apps and put down our phones, but it's turned into a wonderful community of creative people helping one another navigate the world without algorithms and relying less on big platforms. It's been a lot of fun, and through this project I've got to meet so many wonderful people. It reminds me a lot of the early blogging days!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://sethw.xyz'>go check the blog</a> and <a href='https://sethw.xyz/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2848,7 +2940,7 @@ Alex</p>        <hr>
 <p>And, even if you’re <em>not</em> particularly into science fiction and fantasy but you’re into incredibly well-crafted short stories, I’d recommend a collection from last decade called <a href="https://smallbeerpress.com/books/2012/09/11/at-the-mouth-of-the-river-of-bees/"><em>At the Mouth of the River of Bees</em> by Kij Johnson</a>. All  the pieces in it are weird and literate and beautiful. And if you’re an aspiring genre writer, look into her novel-writing course—or Chris McKitterick’s short story course—at <a href="https://adastra-sf.com">the Ad Astra Institute</a>, a residential workshop in Lawrence, Kansas that used to be part of KU until the college decided to institute a policy against being interesting. My own novel, <a href="https://coyotetracks.org/for-sale/#kismet"><em>Kismet</em></a>, probably wouldn’t have ever been finished, let alone be as good, without that workshop, and I’ve returned to Lawrence a few times as a “graduate.”</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://coyotetracks.org/blog/'>go check the blog</a> and <a href='https://coyotetracks.org/blog/atom.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2898,7 +2990,7 @@ Alex</p>        <hr>
 <p>Floating around in the back of my mind, always, are comics—two very cool things you should check out are the <a href="https://comicsdevices.com/">Comics Devices Library</a> and <a href="https://digitalcomics.co/">Standards, Semantics, &amp; Sequential Art</a>. And then I humbly offer you my budding <a href="https://anhvn.com/garden/webcomics/">thoughts on webcomics</a>, from my digital garden.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://anhvn.com'>go check the blog</a> and <a href='https://anhvn.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -2933,7 +3025,7 @@ Alex</p>        <hr>
 <p>If Scottee wrote a blog, I would read it. In the meantime, I really enjoy his annual <a href="https://scottee.co.uk/shinfo">podcast</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.designswarm.com'>go check the blog</a> and <a href='https://www.designswarm.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3010,7 +3102,7 @@ Otherwise, here is a list of lovely things I watch and listen to on the reg:</p>
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://frills.dev'>go check the blog</a> and <a href='https://frills.dev/all.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3064,7 +3156,7 @@ Otherwise, here is a list of lovely things I watch and listen to on the reg:</p>
 Jeremy</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://adactio.com'>go check the blog</a> and <a href='https://adactio.com/rss/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3133,7 +3225,7 @@ Jeremy</p>        <hr>
 <p>Just remember that not everyone expresses their struggles openly. Some may internalize it, mask it behind a smile, or an “I’m fine.” Try to pay attention to the smaller signs that are easily overlooked, be patient, and remind them that you’re there if they ever need it. Sometimes, just hearing that someone actually cares is enough to lighten the weight they’re carrying.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://jeddacp.com'>go check the blog</a> and <a href='https://notes.jeddacp.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3217,7 +3309,7 @@ or</p>
 <p><a href="https://interconnected.org/home/2020/09/10/streak">Anyway.</a></p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://interconnected.org/home'>go check the blog</a> and <a href='https://interconnected.org/home/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3291,7 +3383,7 @@ or</p>
 <p><a href="https://open.spotify.com/track/7JyXODFo6tyMW9vvLR3O2K">This song is better played live and yelled along to</a>, but I can't imagine too many of you will get the chance, so Spotify shall suffice.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://maya.land'>go check the blog</a> and <a href='https://maya.land/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3343,7 +3435,7 @@ or</p>
 <p>I think my <a href="https://photos.ben.page">Photo of the Day</a> project is one I'm really proud of, and that I've been doing for over a year! Also if I had to highlight one post on my blog, it'd be <a href="https://benborgers.com/forks">this one about sneaking forks into the dining hall</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://benborgers.com'>go check the blog</a> and <a href='https://benborgers.com/rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3434,7 +3526,7 @@ or</p>
 <p>So if you have a website, please dear god <a href="mailto:keenan@gkeenan.co"><em>email me</em></a> about it. I want to see you and celebrate you. We need more of <em>you</em> in the world.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://gkeenan.co'>go check the blog</a> and <a href='https://gkeenan.co/avgb/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3506,7 +3598,7 @@ or</p>
 <p>Finally: Thank you so much for reading! Have a wonderful day.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://jamesg.blog'>go check the blog</a> and <a href='https://jamesg.blog/feeds/posts.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3565,7 +3657,7 @@ or</p>
 <p>Read up on complexity theory! It has insights on literally everything in life. It changes how you see the world. I believe it is the most important scientific discipline today.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://aethermug.com'>go check the blog</a> and <a href='https://aethermug.com/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3627,7 +3719,7 @@ or</p>
 <p>So: to the extent that you can do so safely, please write.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://werd.io'>go check the blog</a> and <a href='https://werd.io/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3684,7 +3776,7 @@ or</p>
 <p>Third, whatever the hell is going on with <a href="https://www.fluxus.org/">fluxus.org</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://maxkapur.com'>go check the blog</a> and <a href='https://maxkapur.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3756,7 +3848,7 @@ or</p>
 <p>One parting thought. Social justice and making a better world for every class of people are at the center of who I am as a person. There is a concerted effort going on all over the world right now to devalue and threaten people who aren't part of the ruling majority. We all have a voice and I ask that anyone who can, use theirs to speak out against injustice, intolerance and bigotry. Do what you can every day to stand in the way of any movement that doesn't value all people.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://louplummer.lol'>go check the blog</a> and <a href='https://louplummer.lol/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3805,7 +3897,7 @@ or</p>
 <p>Check out <a href="https://donnytruong.com/">donnytruong.com</a>. It’s my portfolio site. You can see my works there.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://visualgui.com'>go check the blog</a> and <a href='https://www.visualgui.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3841,7 +3933,7 @@ or</p>
 <p>I also have a blog where I review and talk about matcha. It's at <a href="https://emeraldsip.cafe">emeraldsip.cafe</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://blog.avas.space'>go check the blog</a> and <a href='https://avas.bearblog.dev/feed/?type=rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3905,7 +3997,7 @@ or</p>
 <p>I love <a href="https://anniemueller.com/guestbook">my guestbook</a>, please sign it so we can be friends. :)</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://anniemueller.com'>go check the blog</a> and <a href='https://anniemueller.com/posts_feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -3972,7 +4064,7 @@ or</p>
 <p>I would also just like to reinforce the value of writing as a tool to shape our own thoughts, and as a means to build shared understanding with others.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://actsofvolition.com'>go check the blog</a> and <a href='https://actsofvolition.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4021,7 +4113,7 @@ or</p>
 <p>I’m always excited to meet new people and have virtual coffee chats, so feel free to reach out! 😁 See you online!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.pawlean.com'>go check the blog</a> and <a href='https://pawlean.com/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4089,7 +4181,7 @@ or</p>
 </blockquote>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://journal.jatan.space'>go check the blog</a> and <a href='https://journal.jatan.space/rss/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4148,7 +4240,7 @@ or</p>
 <p>To everyone not reading this because they're on some street corner balancing their phone on a bench so they can record a poorly performed dance for TikTok: <a href="https://indieweb.org/Getting_Started">no</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.zinzy.website'>go check the blog</a> and <a href='https://zinzy.website/posts/index.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4213,7 +4305,7 @@ or</p>
 <p>Thanks!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.chrisdeluca.me'>go check the blog</a> and <a href='https://www.chrisdeluca.me/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4267,7 +4359,7 @@ or</p>
 <p>Beside my website I'm on many social networks, <a href="https://www.ericafustero.com/about">so don't be a stranger :)</a></p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='http://www.ericafustero.com'>go check the blog</a> and <a href='https://www.ericafustero.com/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4329,7 +4421,7 @@ or</p>
 <p>Bye!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://lucybellwood.com'>go check the blog</a> and <a href='https://lucybellwood.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4380,7 +4472,7 @@ or</p>
 <p>As a final note, if you could permit me the indulgence of trying to offer advice, I also want to say that, if you are a person who loves to write, or loved to write, or wrote as a child but gave it up as an adult, or has never written and wants to start, or to restart, then do yourself a kindness both small and huge and start today.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.conscienceround.com'>go check the blog</a> and <a href='https://www.conscienceround.com/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4560,7 +4652,7 @@ or</p>
 <p>Let us all do our part to make the internet queerer.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://sarajaksa.eu'>go check the blog</a> and <a href='https://sarajaksa.eu/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4625,7 +4717,7 @@ or</p>
 </blockquote>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.dltn.io'>go check the blog</a> and <a href='https://www.dltn.io/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4697,7 +4789,7 @@ or</p>
 <a href="https://wwinks.com">wwinks.com</a></p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://wwinks.com'>go check the blog</a> and <a href='https://wwinks.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4767,7 +4859,7 @@ or</p>
 <p>A great way to get started is your local library. Some communities more than others might really need help at the library. And it's often a fantastic way to jump into your community. Put yourself out there if you're able. It's something I've been doing for several years and it's been deeply rewarding.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://beardystarstuff.net/'>go check the blog</a> and <a href='https://beardystarstuff.net/feeds.html'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4815,7 +4907,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 <p>It is this wonder that inspires me to continue to write in my small corner of the web and I hope it will inspire them and others to do the same.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.viljoen.space'>go check the blog</a> and <a href='https://www.viljoen.space/writing/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4868,7 +4960,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 <p>Music: Jukebox the Ghost, Lawrence, Robert John and the Wreck, Bywater Call, The Commoners, Karen Jonas, Juliet Lloyd</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://odonnellweb.com/pelican'>go check the blog</a> and <a href='https://odonnellweb.com/pelican/feeds/all.atom.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4915,7 +5007,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 <p>Anyone reading this should go watch <em>The Hudsucker Proxy</em> right this moment, a criminally underrated gentle-hearted comedy that’s like Willy Wonka for grown-ups. Since they doubtless follow a bunch of other blogs, they might also wish to check out <a href="https://fraidyc.at/">Fraidycat</a>, a feed-reading browser extension whose link-based interface i find much nicer than the traditional email client knockoff. And if you’re ever in Northumberland, you simply must visit <a href="https://en.wikipedia.org/wiki/Barter_Books">Barter Books</a>, a second-hand bookshop in a grandiose train station that may be my favourite place in the whole wide world. That’s all that comes to mind for now. Oh, and wear sunscreen.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://satyrs.eu'>go check the blog</a> and <a href='https://satyrs.eu/garden/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -4964,7 +5056,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 <p>One of the things about this corner of the internet that I’m deeply grateful for is the humanity of it all: in a world that seems increasingly dominated by slop (generative AI, mass cold emails, SEO-optimized empty-calories content) it is both rarer and more valuable than ever to be able to forge a meaningful connection online. If there’s ever anything I can help the person reading this with, I’m at me@jmduke.com.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://jmduke.com'>go check the blog</a> and <a href='https://jmduke.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5051,7 +5143,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 </ol>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://gilest.org'>go check the blog</a> and <a href='https://gilest.org/feed/index.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5109,7 +5201,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 <p>P.S. Long live RSS!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://nazhamid.com'>go check the blog</a> and <a href='https://nazhamid.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5164,7 +5256,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 <p>In closing, thanks for this awesome opportunity and for letting me kick off year 2 of P&amp;B!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://tangiblelife.net'>go check the blog</a> and <a href='https://tangiblelife.net/feed.rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5227,7 +5319,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://blast-o-rama.com'>go check the blog</a> and <a href='https://blast-o-rama.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5270,7 +5362,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 <p>Because I'm such a fiction podcast guru, I’d highly recommend checking out the Fiction Podcast the Bright Sessions or the Two Princes. I’d also suggest the best place, I think, to find fiction podcasts is <a href="https://www.theend.fyi/">https://www.theend.fyi/</a> but I also recommend watching any movie with audio description enabled and not looking at the screen. You can find movies with audio description at <a href="https://adp.acb.org/masterad.html">https://adp.acb.org/masterad.html</a></p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://robertkingett.com'>go check the blog</a> and <a href='https://robertkingett.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5371,7 +5463,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 <p>And to all blog readers across the world: use RSS readers! Those are awesome and allows you to quickly subscribe/unsubscribe at your own pace.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://ploum.net'>go check the blog</a> and <a href='https://ploum.net/atom_en.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5429,7 +5521,7 @@ Over the years, my blog evolved through multiple iterations. I've experimented w
 <p>Back in 2020, in the early months of the pandemic, I published a poetry collection called “<a href="https://hey.georgie.nu/tosib/">the off switch is broken</a>”, inspired by my experience as a software engineer, growing up on the internet, and what identity means online. It has themes of discomfort and failure, as well as nostalgia and triumph. Although there are pieces of poetry in the depths of my blog, this was something I created with a lot more intent. I hope you consider taking a look, as I think it documents feelings that we all share.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://hey.georgie.nu'>go check the blog</a> and <a href='https://hey.georgie.nu/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5523,7 +5615,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://weblog.anniegreens.lol'>go check the blog</a> and <a href='https://weblog.anniegreens.lol/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5590,7 +5682,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.daniel.industries'>go check the blog</a> and <a href='https://www.daniel.industries/atom.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5658,7 +5750,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>While writing this I came across the album <a href="https://song.link/https://music.apple.com/us/album/ease-the-work/1725718657"><em>Ease the Work</em></a> by the instrumental group Hour. It feels like a nice stroll at sunset with a cool breeze behind you and an endless expanse of tired and dusty landscape in front. It beckons you to explore its gentle swells and sweeping strings while the beat steadily plods along, kicking up little swirls of vague nostalgia. Thoughts you’ve thought before but hadn’t properly put to rest will surface and demand to be explored, to be wholly perceived; thoughts that may have first surfaced decades prior. They nibble at your attention, threatening the tranquil state of your mind, but it is effortless to cast them away. You lose yourself in the fiery sun, yearning to someday follow its passage behind the hazy horizon. Not today though. Today is a great day to write a blog post.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.lkhrs.com'>go check the blog</a> and <a href='https://www.lkhrs.com/blog/index.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5709,7 +5801,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>I recently went back to my roots and created a short but elaborate text adventure with illustrations, <a href="https://sheep.horse/voyage_of_the_marigold/">Voyage of the Marigold</a>. Its my love letter to 80s adventure gamebooks and Star Trek, I get an enormous kick when people tell me they have played it.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://sheep.horse'>go check the blog</a> and <a href='https://sheep.horse/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5777,7 +5869,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>Also <a href="https://press.stripe.com/the-dream-machine">The Dream Machine</a> is an incredible book on the history of computing and early Internet.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://podviaznikov.com'>go check the blog</a> and <a href='https://podviaznikov.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5840,7 +5932,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>If you like hearing over-educated musicians who used to be married blathering about music, check out Greg's and my podcast, <a href="https://toomuchmusicpodcast.com">Too Much Music</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://alisonwilder.net'>go check the blog</a> and <a href='https://alisonwilder.net/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5898,7 +5990,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>When I heard that 123Guestbook is shutting down in July, I started a project at <a href="https://personal-web.org/">Personal-Web.org</a> to provide a replacement for static website owners who use 123Guestbook. Depending on how much utilization that service gets, I may provide other hosted widgets later.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://devastatia.com'>go check the blog</a> and <a href='https://devastatia.com/rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -5965,7 +6057,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>Also check out Anthony Alvarado's <em>DIY Magic</em>. It's such a great book on creativity!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://discombobulated.co.nz'>go check the blog</a> and <a href='https://discombobulated.co.nz/feed.rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6014,7 +6106,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>This text was written using my brain and an iterative process on recycled electrons. 🤓 Thanks for having me on People &amp; Blog series!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://blog.numericcitizen.me'>go check the blog</a> and <a href='https://blog.numericcitizen.me/feed.json'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6163,7 +6255,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>In closing, and to paraphrase what I say in party chat after a dungeon crawl or boss fight in <em>Final Fantasy XIV</em>: <strong>thanks for having me!</strong></p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://starbreaker.org'>go check the blog</a> and <a href='https://starbreaker.org/feeds/everything.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6208,7 +6300,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>If you are reading this, I want you to know that it is not too late to start a blog and to impose on us your likes, dislikes, dreams, nightmares, hopes and despairs.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://rebeccatoh.co'>go check the blog</a> and <a href='https://rebeccatoh.co/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6255,7 +6347,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>Well, this is a good one. I love a photography-focused podcast, <a href="https://photowork.foundation/podcast/">Photo Work</a>. I am also in love with <a href="https://www.slowdownshow.org">The Slowdown Podcast</a>. I highly recommend using <a href="https://readwise.io">Readwise</a> as a replacement for Pocket. It is very good. And my current favorite desktop tool is <a href="https://goodsnooze.gumroad.com/l/macwhisper">MacWhisper</a> — it is basically transcription on the desktop and not having to share all your audio with others. I love creating voice memos and using it to transcribe, and then ideating with it on Lex or one of the other AI-enhanced editing tools.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://om.co'>go check the blog</a> and <a href='https://om.co/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6384,7 +6476,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>Thank you, Manuel, for contacting me and giving me the opportunity to talk about myself and share all this information. All the best, and let’s keep in touch!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://morrick.me'>go check the blog</a> and <a href='https://morrick.me/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6433,7 +6525,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>Thanks for reading! I post a lot on <a href="https://coryd.dev/">my site</a> and on <a href="https://social.lol/@cory">Mastodon</a> so come say hi!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://coryd.dev'>go check the blog</a> and <a href='https://feedpress.me/coryd'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6498,7 +6590,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>Here's to happy-accident email friendships, shared curiosities, daydreams, and personal blogs!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://veronique.ink'>go check the blog</a> and <a href='https://veronique.ink/feed/?type=rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6546,7 +6638,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>Anecdotally speaking, it's something that I've mostly observed outside of Europe, particularly the States. I think it's a crucial topic. Personal blogs are not part of the commercial web, so why don't we present ourselves as people instead of shallow business cards? I've grown tired of having to remove the work disguise to get to know the person I'm talking to.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://minutestomidnight.co.uk'>go check the blog</a> and <a href='https://minutestomidnight.co.uk/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6607,7 +6699,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>I'd encourage anyone who wants to meet other bloggers and website makers to check out an <a href="https://events.indieweb.org/">IndieWeb online event</a> like Homebrew Website Club, which is held regularly in European and North American timezones. It's not just for technical folks!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://tracydurnell.com'>go check the blog</a> and <a href='https://tracydurnell.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6681,7 +6773,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>Thanks for publishing this series and having me as a guest here! And thanks to anyone reading!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://mattstein.com'>go check the blog</a> and <a href='https://mattstein.com/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6729,7 +6821,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 <p>I’ve also been cooking my way through <a href="https://sgpnoodles.substack.com/p/singapore-noodles-recipe-index">SGP Noodles’ recipes</a> (Singapore noodles are not actually from Singapore, so it’s pretty fun ‘in’ joke). Being an immigrant to the United States, what I miss most about home is the food. Pamela’s paid Substack has good recipes for the stuff I love.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://popagandhi.com'>go check the blog</a> and <a href='https://popagandhi.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6807,7 +6899,7 @@ You will find many newsletters to subscribe to but Eric's is one of my favorites
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://taylor.town'>go check the blog</a> and <a href='https://taylor.town/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6898,7 +6990,7 @@ real winners quit</p>
 <p>Oh and your readers should feel free to come find me on Mastodon: <a href="https://front-end.social/@sarajw">front-end.social/@sarajw</a> :)</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://sarajoy.dev'>go check the blog</a> and <a href='https://sarajoy.dev/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -6969,7 +7061,7 @@ real winners quit</p>
 <p>If you’re interested in exploring the possibility of working together, check out <a href="https://bradbarrish.me">bradbarrish.me</a> and set up some time with me.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://bradbarrish.com'>go check the blog</a> and <a href='https://bradbarrish.com/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7021,7 +7113,7 @@ real winners quit</p>
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://blog.cassidoo.co'>go check the blog</a> and <a href='https://blog.cassidoo.co/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7061,7 +7153,7 @@ real winners quit</p>
 <p>Right now I'm just fascinated with the <a href="https://play.date">play.date</a> and will be building games for the next few months. You can see a list of running projects on my blog's <a href="https://herman.bearblog.dev/projects/">project page</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://herman.bearblog.dev'>go check the blog</a> and <a href='https://herman.bearblog.dev/feed/?type=rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7152,7 +7244,7 @@ real winners quit</p>
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://ruk.ca'>go check the blog</a> and <a href='https://ruk.ca/rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7213,7 +7305,7 @@ real winners quit</p>
 </ul>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.gyford.com'>go check the blog</a> and <a href='https://www.gyford.com/phil/feeds/everything/rss/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7269,7 +7361,7 @@ real winners quit</p>
 <p>Finally, I hope people will not be afraid to pick up new skills, hobbies or any learnings at any age. I recently started to <a href="https://wynlimdraws.tumblr.com/">learn how to draw</a>, and I think being unafraid of <a href="https://winnielim.org/journal/daring-to-be-ugly/">“being ugly”</a> or failure goes a long way. I see too many people not pursue art/skills/hobbies because it is “too late”, “no talent”, or if they do they give up because they cannot tolerate not living up to their internal standards. But we can relish the process of doing things without being great at it. For me, it is also an act of rebellion towards an utilitarian world.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://winnielim.org'>go check the blog</a> and <a href='https://winnielim.org/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7315,7 +7407,7 @@ real winners quit</p>
 <p>An example of acausality at work is astrology. In physics, there's no realistic way that remote planets can influence your life. But in acausal metaphysics, the positions of the planets, and events in your life, might be two different aspects of something deeper that we don't understand yet, so they can line up without any causality. This was what Jung was trying to get at with synchronicity, and I try to cultivate synchronicity in everyday life, by noticing and being grateful when little things line up.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://ranprieur.com'>go check the blog</a> and <a href='https://ranprieur.com/feed.php'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7364,7 +7456,7 @@ real winners quit</p>
 <p>Right now I'm spending a lot of time on <a href="https://www.val.town/">Val Town</a>, so check that out!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://macwright.com'>go check the blog</a> and <a href='https://macwright.com/micro/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7405,7 +7497,7 @@ real winners quit</p>
 <p>If you desire to write on your own blog but something is holding you back I would say: don't make assumptions about what people will or won't find interesting or useful. Every time I think I'm sharing something "too niche" I am surprised at the interest from readers.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://rachsmith.com'>go check the blog</a> and <a href='https://rachsmith.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7461,7 +7553,7 @@ real winners quit</p>
 <p>I’m making a product recommendation site called <a href="http://zenofthings.com/" rel="noreferrer" target="_blank">zen of things</a>. It’s a bit like Wirecutter, but with a focus on good design instead of price. Check it out and provide feedback if you like well designed objects!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://arun.is'>go check the blog</a> and <a href='https://arun.is/rss.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7511,7 +7603,7 @@ real winners quit</p>
 <p>I want to help people's personal websites stay alive for a hundred years - to be their lasting digital legacy after their death.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://sive.rs'>go check the blog</a> and <a href='https://sive.rs/en.atom'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7572,7 +7664,7 @@ real winners quit</p>
 <p>I wrapped my last episode of my <a href="https://podcasts.apple.com/us/podcast/design-tomorrow/id1433919260">Design Tomorrow podcast</a> nearly five years ago, but I still think it's good and worth a listen.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.chrbutler.com'>go check the blog</a> and <a href='https://www.chrbutler.com/feed.rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7651,7 +7743,7 @@ real winners quit</p>
 <p>That is truly remarkable, and I can't thank the Internet, the Web, and the amazing world it created enough.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.thingelstad.com'>go check the blog</a> and <a href='https://www.thingelstad.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7706,7 +7798,7 @@ real winners quit</p>
 <p>Supposedly, one day, I’ll either share a video game or some fiction I’ve created. Those will land on my website when that time comes, but for now I have a <a href="https://eli.li/shout-outs">shout outs page</a> on my website. I update that with stuff that I think is worth shouting out.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://eli.li'>go check the blog</a> and <a href='https://eli.li/feed.rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7744,7 +7836,7 @@ real winners quit</p>
 <p>If I were still on social media, I would probably share most of the entries from <a href="https://www.theonion.com/opinion/american-voices" rel="noreferrer" target="_blank">The Onion&#039;s American Voices section</a>, which, to me, is the best corner of the web. I also tell all my friends to subscribe to the <a href="https://www.densediscovery.com/" rel="noreferrer" target="_blank">Dense Discovery</a> newsletter. When I travel to Paris by train once a month for work, I'm always hoping to find a new episode of the <a href="https://podcasts.apple.com/fr/podcast/north-v-south/id1079655296" rel="noreferrer" target="_blank">North v South design podcast</a>.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://thejollyteapot.com'>go check the blog</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7818,7 +7910,7 @@ real winners quit</p>
 <p>I’m kicking it around on Mastadon right now: <a href="https://sfba.social/@fonts">@fonts</a> and you can subscribe to <a href="https://robinrendle.com/newsletter">my newsletter</a> to keep in touch!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://robinrendle.com'>go check the blog</a> and <a href='https://robinrendle.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7875,7 +7967,7 @@ I would say: be liberal in how you syndicate. Your blog on the web can be home b
 <p>Keep an eye on <a href="https://codepen.io/your-work" rel="noreferrer" target="_blank">CodePen</a>. Little biased, but it’s already this incredible hive of creative web designers and developers, and we’re hard at work making it even more useful for everyone.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://chriscoyier.net'>go check the blog</a> and <a href='https://chriscoyier.net/feed/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7948,7 +8040,7 @@ I would say: be liberal in how you syndicate. Your blog on the web can be home b
 <p>Thanks for the opportunity to answer your questions (and for persevering with my extremely tardy reply!). It was fun reflecting. ♥️</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://piperhaywood.com'>go check the blog</a> and <a href='https://piperhaywood.com/rss-feeds/'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -7994,7 +8086,7 @@ I would say: be liberal in how you syndicate. Your blog on the web can be home b
 <p>There are people still doing web rings! There's various ones out there already. I am a part of the <a href="https://webring.xxiivv.com/" rel="noreferrer" target="_blank">Merveilles web ring</a>. I recommend trying to join one or make one with your friends.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://longest.voyage'>go check the blog</a> and <a href='https://longest.voyage/index.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -8048,7 +8140,7 @@ I would say: be liberal in how you syndicate. Your blog on the web can be home b
 <p>The internet is such an interesting place and having your own little corner of it can be so easy.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://brisray.com'>go check the blog</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -8113,7 +8205,7 @@ I would say: be liberal in how you syndicate. Your blog on the web can be home b
 <p>Nah. Never was much good at that.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://blog.jim-nielsen.com'>go check the blog</a> and <a href='https://blog.jim-nielsen.com/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -8169,7 +8261,7 @@ I would say: be liberal in how you syndicate. Your blog on the web can be home b
 <p>I still haven't been able to answer that question, but I recently stopped saying, <em>"Hi, I'm Ana, and I'm a front-end developer"</em> and started saying, <em>"Hi, I'm Ana, and I work as a front-end developer"</em>. I don't know where this is going, but the vibe I want to go with my blog is that it is a place on the internet where I just am. Where I am for myself and not to serve others.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://ohhelloana.blog'>go check the blog</a> and <a href='https://ohhelloana.blog/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -8225,7 +8317,7 @@ But, I've seen a lot of new platforms flourish lately and I've tried to collect 
 <p>Lately I'm re-discovery one of my biggest passions, cool football shirts and using this website as a bible <a href="https://www.footballshirtculture.com/" rel="noreferrer" target="_blank">footballshirtculture.com</a></p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://contino.com/'>go check the blog</a> and <a href='https://contino.com/feed'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -8269,7 +8361,7 @@ But, I've seen a lot of new platforms flourish lately and I've tried to collect 
 <p>Thanks for the interview Manuel!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://subpixel.space'>go check the blog</a> and <a href='https://subpixel.space/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -8320,7 +8412,7 @@ But, I've seen a lot of new platforms flourish lately and I've tried to collect 
 <p>I suppose this is primarily directed at younger or newer creatives, regarding “the algorithm” of search engines and social media. I think for most creatives there is a drive to get your work seen. Online that means figuring out a way to go viral, get likes, or rise in the search engine rankings. That’s a perfectly fine goal, but you should know that if the algorithm chooses you it has nothing to do with the quality or value of your work. And I mean literally nothing. The algorithm is nothing more than a capitalist predator, seeking to consume what it can, monetize it quickly, then toss aside. If you make the algorithm your audience, you get very good at creating for an audience of machines rather than humans. Creating for humans is harder, it may get you ignored by the algorithm, but your work will be better for it, and it will find an audience in time.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://briankoberlein.com'>go check the blog</a> and <a href='https://briankoberlein.com/index.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -8390,7 +8482,7 @@ But, I've seen a lot of new platforms flourish lately and I've tried to collect 
 <p>Finally, thanks to you Manu, for putting this together. I think this is a great idea and can’t wait to read the interviews from other bloggers. I hope I haven’t bored you readers too much!</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://kevquirk.com'>go check the blog</a> and <a href='https://kevquirk.com/feed.rss'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -8431,7 +8523,7 @@ But, I've seen a lot of new platforms flourish lately and I've tried to collect 
 <p>I really just love all these little worlds we have built for ourselves on the internet and it gives me hope for the future of the web :)</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://kwon.nyc'>go check the blog</a> and <a href='https://kwon.nyc/notes/index.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>
@@ -8473,7 +8565,7 @@ But, I've seen a lot of new platforms flourish lately and I've tried to collect 
 <p>During the COVID pandemic, I got back into reading novels, especially epic fantasy books. I like blogging about a book when I finish reading it, posting photos of nice hardcover books, and collecting "year in books" posts that I can post to my own site. I think there are many types of "content" that we default to posting on centralized silos, whether that's Goodreads, Instagram, Foursquare, or Reddit. But all of that becomes much more interesting when it's just as easy to post to our own blogs. I'm always inspired when I see bloggers doing interesting things with new post types on their own site.</p>        <hr>
         <h3>Keep exploring</h3>
         <p>Now that you're done reading the interview, <a href='https://www.manton.org'>go check the blog</a> and <a href='https://www.manton.org/feed.xml'>subscribe to the RSS feed</a>.</p>
-        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>138 interviews</a>.</p>
+        <p>If you're looking for more content, go read one of the previous <a href='https://peopleandblogs.com' target='_blank'>139 interviews</a>.</p>
         <p>People and Blogs is possible because kind people support it.</p>
     ]]></description>
     <author>hello@manuelmoreale.com (Manuel Moreale)</author>

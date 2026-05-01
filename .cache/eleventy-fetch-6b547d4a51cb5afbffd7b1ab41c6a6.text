@@ -12,7 +12,7 @@
 	<atom:link href="https://fyfluiddynamics.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://fyfluiddynamics.com</link>
 	<description>Celebrating the physics of all that flows</description>
-	<lastBuildDate>Mon, 06 Apr 2026 17:25:59 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 06 Apr 2026 17:30:12 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,39 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">169405895</site>	<item>
+		<title>Aflutter in the Breeze</title>
+		<link>https://fyfluiddynamics.com/2026/05/aflutter-in-the-breeze/</link>
+					<comments>https://fyfluiddynamics.com/2026/05/aflutter-in-the-breeze/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Fri, 01 May 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Art]]></category>
+		<category><![CDATA[flapping]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[fluid-solid interaction]]></category>
+		<category><![CDATA[fluids as art]]></category>
+		<category><![CDATA[flutter]]></category>
+		<category><![CDATA[instability]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[turbulence]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29543</guid>
+
+					<description><![CDATA[Fabrics flutter in seemingly impossible ways in artist Thomas Jackson&#8216;s images. But despite first appearances, each photograph is true to life; the fabrics are suspended on taut lines. Their dance is driven by wind energy, drag, tension, and flow&#8211;not manipulated pixels. I love the (turbulent) energy of them! (Image credit: T. Jackson; via Colossal)]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/jackson3-1024x769.png" title="Image by Thomas Jackson." alt="Image by Thomas Jackson." /></div></div>
+
+
+
+<p>Fabrics flutter in seemingly impossible ways in artist <a href="https://thomasjacksonphotography.com/">Thomas Jackson</a>&#8216;s images. But despite first appearances, each photograph is true to life; the fabrics are suspended on taut lines. Their <a href="/2012/08/the-flapping-of-flexible-objects-like-flags-have/">dance</a> is driven by wind energy, drag, tension, and flow&#8211;not manipulated pixels. I love the (turbulent) energy of them! (Image credit: <a href="https://thomasjacksonphotography.com/">T. Jackson</a>; via <a href="https://www.thisiscolossal.com/2026/03/thomas-jackson-fabrics-landscapes-photographs/?__readwiseLocation=">Colossal</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/05/aflutter-in-the-breeze/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">29543</post-id>	</item>
+		<item>
 		<title>Recreating Atmospheres</title>
 		<link>https://fyfluiddynamics.com/2026/04/recreating-atmospheres/</link>
 					<comments>https://fyfluiddynamics.com/2026/04/recreating-atmospheres/#comments</comments>
@@ -350,39 +383,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">27799</post-id>	</item>
-		<item>
-		<title>Insect Wings in Extreme Macro</title>
-		<link>https://fyfluiddynamics.com/2026/04/insect-wings-in-extreme-macro/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/insect-wings-in-extreme-macro/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Fri, 17 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Art]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[droplets]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[fluids as art]]></category>
-		<category><![CDATA[hydrophobic]]></category>
-		<category><![CDATA[interference]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[superhydrophobic]]></category>
-		<category><![CDATA[thin film]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29528</guid>
-
-					<description><![CDATA[Photographer Chris Perani is fascinated by the microstructures of insect wings, which he captures in &#8220;extreme macro&#8221; through focus stacking&#8211;letting us see wings in glorious micron-scale detail. In addition to giving insects their brilliant colors and irridescence, these structures serve another key role: they help insects stay dry. In a world where contact with water [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/perani1-1024x680.png" title="Xylocopa latipes wing. Image by Chris Perani." alt="Xylocopa latipes wing. Image by Chris Perani." /></div></div>
-
-
-
-<p>Photographer Chris Perani is fascinated by the microstructures of insect wings, which he captures in &#8220;extreme macro&#8221; through focus stacking&#8211;letting us see wings in glorious micron-scale detail. In addition to giving insects their brilliant colors and <a href="/tagged/thin-film/">irridescence</a>, these structures serve another key role: they help insects stay dry. In a world where contact with water is unavoidable, insects have instead evolved to trap air in the gaps of their wings, <a href="/2020/06/how-animals-stay-dry-in-the-rain/">letting water slide off</a> instead of sticking. (Image credit: <a href="http://instagram.com/christopherperani">C. Perani</a>; via <a href="https://www.thisiscolossal.com/2026/03/chris-perani-macro-photography-insects-wings/?__readwiseLocation=">Colossal</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/insect-wings-in-extreme-macro/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">29528</post-id>	</item>
 	</channel>
 </rss>
