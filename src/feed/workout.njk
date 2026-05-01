@@ -41,7 +41,7 @@ eleventyExcludeFromCollections: true
     {{ workoutBody | safe }}
     {% if coverUrl %}
     <figure class="workout-feed-cover">
-      <img src="{{ coverUrl }}" alt="Cover for {{ post.data.title }}" width="640">
+      <img src="{{ coverUrl }}" alt="Cover for {{ post.data.title }}" width="320" style="max-width:320px;height:auto;">
     </figure>
     {% endif %}
   </div>
