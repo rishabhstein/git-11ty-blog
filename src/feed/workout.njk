@@ -13,6 +13,10 @@ eleventyExcludeFromCollections: true
     {%- for post in collections.workoutFeed | reverse | take(10) %}
     {%- set absolutePostUrl = post.url | htmlBaseUrl(site.url) %}
     {%- set workoutBody = post.content | renderTransforms(post.data.page, site.url) | rssBlockquoteStyle %}
+    {%- set coverUrl = "" %}
+    {%- if post.data.cover %}
+    {%- set coverUrl = post.data.cover | htmlBaseUrl(site.url) %}
+    {%- endif %}
     {%- set details = [] %}
     {%- if post.data.workout_type %}{%- set details = (details.push(["Type", post.data.workout_type]), details) %}{%- endif %}
     {%- if post.data.distance %}{%- set details = (details.push(["Distance", post.data.distance ~ " km"]), details) %}{%- endif %}
@@ -35,6 +39,11 @@ eleventyExcludeFromCollections: true
   <div class="workout-summary-block">
     <h4>Summary</h4>
     {{ workoutBody | safe }}
+    {% if coverUrl %}
+    <figure class="workout-feed-cover">
+      <img src="{{ coverUrl }}" alt="Cover for {{ post.data.title }}" width="640">
+    </figure>
+    {% endif %}
   </div>
   {% endif %}
 </article>

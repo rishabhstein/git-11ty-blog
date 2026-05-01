@@ -12,7 +12,7 @@
 	<atom:link href="https://fyfluiddynamics.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://fyfluiddynamics.com</link>
 	<description>Celebrating the physics of all that flows</description>
-	<lastBuildDate>Mon, 06 Apr 2026 17:05:03 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 06 Apr 2026 17:25:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,145 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">169405895</site>	<item>
+		<title>Recreating Atmospheres</title>
+		<link>https://fyfluiddynamics.com/2026/04/recreating-atmospheres/</link>
+					<comments>https://fyfluiddynamics.com/2026/04/recreating-atmospheres/#comments</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Thu, 30 Apr 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[atmospheric science]]></category>
+		<category><![CDATA[energy cascade]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[planetary science]]></category>
+		<category><![CDATA[rotating flow]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[turbulence]]></category>
+		<category><![CDATA[vorticity]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29751</guid>
+
+					<description><![CDATA[In planetary atmospheres, energy and vorticity can cascade from large scales to smaller ones, but the mechanics of this transfer remain somewhat elusive. In a recent experiment, researchers built a lab-scale representation of an atmosphere using a meter-scale rotating annular tank. The outer bottom edge of the tank gets heated&#8211;representing the sun&#8217;s warming at the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>In planetary atmospheres, energy and <a href="/tagged/vorticity/">vorticity</a> can cascade from large scales to smaller ones, but the mechanics of this transfer remain somewhat elusive. In a <a href="https://doi.org/10.1103/n2nj-dg5r">recent experiment</a>, researchers built a lab-scale representation of an atmosphere using a meter-scale rotating annular tank. The outer bottom edge of the tank gets heated&#8211;representing the sun&#8217;s warming at the equator&#8211;while a pipe in the center of the tank gets cooled near the tank surface, which mimics the chilling effect of the poles. Researchers filled the tank with a water-glycerol mixture and recorded how their artificial atmosphere responded at different rotation rates.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img fetchpriority="high" decoding="async" width="720" height="360" src="https://fyfluiddynamics.com/wp-content/uploads/geo_model_ani.gif" alt="Two different rotating atmospheres, colored by vorticity (red clockwise, blue counterclockwise). The left version has a slower rate of rotation, and thus larger length scales." class="wp-image-29754"/><figcaption class="wp-element-caption">Two different rotating atmospheres, colored by vorticity (red clockwise, blue counterclockwise). The left version has a slower rate of rotation, and thus larger length scales.</figcaption></figure>
+
+
+
+<p>The results show an energy spectrum that&#8217;s consistent with atmospheric observations&#8211;with a steep drop at large length scales and a flatter one at smaller scales. But interestingly, they also found that the cascade was temperature-dependent in ways that current models don&#8217;t predict. Untangling that effect could help us understand not only our atmosphere but those of other planets. (Image credit: tank &#8211; H. Scolan, animation &#8211; <a href="https://doi.org/10.1103/n2nj-dg5r">S. Ding et al.</a>; research credit: <a href="https://doi.org/10.1103/n2nj-dg5r">S. Ding et al.</a>; via <a href="https://physics.aps.org/articles/v19/40?__readwiseLocation=">APS</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/recreating-atmospheres/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">29751</post-id>	</item>
+		<item>
+		<title>Bouncing on a Wave</title>
+		<link>https://fyfluiddynamics.com/2026/04/bouncing-on-a-wave/</link>
+					<comments>https://fyfluiddynamics.com/2026/04/bouncing-on-a-wave/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Wed, 29 Apr 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[2025gofm]]></category>
+		<category><![CDATA[bouncing droplets]]></category>
+		<category><![CDATA[coalescence]]></category>
+		<category><![CDATA[droplets]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[hydrodynamic quantum analogs]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[pilot-wave hydrodynamics]]></category>
+		<category><![CDATA[quantum mechanics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[vibration]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29790</guid>
+
+					<description><![CDATA[On a vibrating fluid, droplets can bounce and interact in complex ways. Here, researchers demonstrate some of the peculiar dynamics of these wave-guided droplets, showing how they can do things like pair up in waltzes. To keep the droplets from coalescing with one another, they perform their experiments in a pressurized chamber; the higher air [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/wave_waltz1-1024x576.png" title="Droplets bouncing on a vibrating fluid surface. Text reads, &quot;This is a collection of walking droplets bouncing on the surface of a vertically vibrated fluid interface...&quot;" alt="Droplets bouncing on a vibrating fluid surface. Text reads, &quot;This is a collection of walking droplets bouncing on the surface of a vertically vibrated fluid interface...&quot;" /></div></div>
+
+
+
+<p> On a <a href="/tagged/vibration">vibrating</a> fluid, <a href="/tagged/bouncing-droplets/">droplets can bounce</a> and interact in complex ways. Here, researchers demonstrate some of the peculiar dynamics of these wave-guided droplets, showing how they can do things like pair up in waltzes. To keep the droplets from <a href="/tagged/coalescence/">coalescing</a> with one another, they perform their experiments in a pressurized chamber; the higher air pressure makes it harder for the air film between droplets to drain during a collision, making the droplets unable to coalesce. Under these conditions, the authors show that the droplet-wave system has <a href="/tagged/hydrodynamic-quantum-analogs/">quantum-like statistics</a>. (Video and image credit: J. Clampett et al.)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/bouncing-on-a-wave/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">29790</post-id>	</item>
+		<item>
+		<title>&#8220;Sidewall Symphony&#8221;</title>
+		<link>https://fyfluiddynamics.com/2026/04/sidewall-symphony/</link>
+					<comments>https://fyfluiddynamics.com/2026/04/sidewall-symphony/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Tue, 28 Apr 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[2025gofm]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[fluids as art]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[turbulence]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=28631</guid>
+
+					<description><![CDATA[Flow visualization is both an art and science in fluid dynamics. Here, researchers were interested in studying the separation bubble that forms over a backward-facing ramp&#8211;a shape that shows up, for example, on an aircraft. In these areas, the flow over the surface separates, leaving an unsteady, recirculating bubble. That&#8217;s the flow that researchers are [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><a href="/tagged/flow-visualization/">Flow visualization</a> is both an art and science in fluid dynamics. Here, researchers were interested in studying the <a href="/tagged/flow-separation/">separation bubble</a> that forms over a backward-facing ramp&#8211;a shape that shows up, for example, on an aircraft. In these areas, the flow over the surface separates, leaving an unsteady, recirculating bubble. </p>
+
+
+
+<p>That&#8217;s the flow that researchers are visualizing here. They&#8217;ve done so by adding tiny helium-filled soap bubbles to the flow. With bright lights illuminating the bubbles, each one leaves a streak in a photograph, showing where the bubble moved during the time the camera&#8217;s shutter was open. Although images like these are beautiful, they can also be analyzed by computers to extract  the underlying flow that created the image. (Image and research credit: <a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/threedimensional-lowfrequency-dynamics-of-a-turbulent-separation-bubble/4ABB5AA0338669640C5374D52E0BA58E#article">B. Steinfurth et al.</a>; see also <a href="https://gfm.aps.org/meetings/dfd-2025/692e39e3a7f805227b16fe68">here</a>)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="723" src="https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-1024x723.png" alt="A research poster showing streaks left by hydrogen bubbles in the flow over a backward-facing ramp." class="wp-image-28633" srcset="https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-1024x723.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-300x212.png 300w, https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-768x542.png 768w, https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-1536x1085.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main.png 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/sidewall-symphony/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">28631</post-id>	</item>
+		<item>
+		<title>A Colorful Glimpse</title>
+		<link>https://fyfluiddynamics.com/2026/04/a-colorful-glimpse/</link>
+					<comments>https://fyfluiddynamics.com/2026/04/a-colorful-glimpse/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Mon, 27 Apr 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[phytoplankton]]></category>
+		<category><![CDATA[satellite image]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=21901</guid>
+
+					<description><![CDATA[Peeking between the clouds, satellites caught a glimpse of a massive phytoplankton bloom off the coast of Greenland in May 2024. The tiny organisms may be visible only under a microscope, but gatherings like these stretch hundreds of kilometers and are visible from space. Like tracer particles in a flow, the phytoplankton outline the swirls [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Peeking between the clouds, satellites caught a glimpse of a massive <a href="/tagged/phytoplankton/">phytoplankton</a> bloom off the coast of Greenland in May 2024. The tiny organisms may be visible only under a microscope, but gatherings like these stretch hundreds of kilometers and are visible from space. Like <a href="/tagged/flow-visualization/">tracer particles in a flow</a>, the phytoplankton outline the swirls and eddies of the underlying ocean. (Image credit: L. Dauphin; via <a href="https://earthobservatory.nasa.gov/images/152953/peek-a-bloom-in-the-north-atlantic">NASA Earth Observatory</a>)</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="682" src="https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-1024x682.png" alt="A satellite image reveals the blue and green swirls of a phytoplankton bloom." class="wp-image-21903" srcset="https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-1024x682.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-300x200.png 300w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-768x512.png 768w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-1536x1024.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-270x180.png 270w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-710x473.png 710w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">A satellite image reveals the blue and green swirls of a phytoplankton bloom.</figcaption></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/a-colorful-glimpse/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">21901</post-id>	</item>
+		<item>
 		<title>&#8220;Frozen Waves&#8221;</title>
 		<link>https://fyfluiddynamics.com/2026/04/frozen-waves/</link>
 					<comments>https://fyfluiddynamics.com/2026/04/frozen-waves/#comments</comments>
@@ -57,7 +196,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="FROZEN WAVES: Sunset Edition – Polygon Ice Formations Along the Baltic Sea Coast (4K Drone)" width="500" height="281" src="https://www.youtube.com/embed/-JQaZaUSS0E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" title="FROZEN WAVES: Sunset Edition – Polygon Ice Formations Along the Baltic Sea Coast (4K Drone)" width="500" height="281" src="https://www.youtube.com/embed/-JQaZaUSS0E?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></figure>
 ]]></content:encoded>
 					
@@ -94,7 +233,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img fetchpriority="high" decoding="async" width="1000" height="919" src="https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main.png" alt="Simulation of a flow around a cylinder in a viscoelastic flow. Left, vorticity; right, elastic stresses." class="wp-image-28359" srcset="https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main.png 1000w, https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main-300x276.png 300w, https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main-768x706.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1000" height="919" src="https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main.png" alt="Simulation of a flow around a cylinder in a viscoelastic flow. Left, vorticity; right, elastic stresses." class="wp-image-28359" srcset="https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main.png 1000w, https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main-300x276.png 300w, https://fyfluiddynamics.com/wp-content/uploads/viscoelastic_VIV_main-768x706.png 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/viscoelastic-vortex-street/feed/</wfw:commentRss>
@@ -245,144 +384,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">29528</post-id>	</item>
-		<item>
-		<title>Melting Can Propel Icebergs</title>
-		<link>https://fyfluiddynamics.com/2026/04/melting-can-propel-icebergs/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/melting-can-propel-icebergs/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Thu, 16 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[buoyancy]]></category>
-		<category><![CDATA[convection]]></category>
-		<category><![CDATA[flow visualization]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[iceberg]]></category>
-		<category><![CDATA[melting]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[plume]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[self-propulsion]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29530</guid>
-
-					<description><![CDATA[Icebergs have long served as a metaphor for not knowing what&#8217;s going on beneath the surface. Studies like today&#8217;s are a reminder of why that is. Researchers found that asymmetric icebergs&#8211;shaped, in this case, like a right triangular prism&#8211;can self-propel as they melt. Their shape forces cold, dense meltwater to slide down the surface, generating [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p><a href="/tagged/iceberg/">Icebergs</a> have long served as a metaphor for not knowing what&#8217;s going on beneath the surface. <a href="https://doi.org/10.1103/k6gl-1zqm">Studies like today&#8217;s</a> are a reminder of why that is. Researchers found that asymmetric icebergs&#8211;shaped, in this case, like a right triangular prism&#8211;can self-propel as they melt. Their shape forces cold, dense meltwater to slide down the surface, generating a sinking plume that propels the ice as a whole. The team demonstrated this effect in both fresh- and saltwater. For icebergs wandering into warm waters, the effect is particularly strong and may reach levels about 10% of the magnitude of dominant propulsive forces like wind. (Image and research credit: <a href="https://doi.org/10.1103/k6gl-1zqm">M. Berhanu et al.</a>; via <a href="https://physics.aps.org/articles/v19/36?__readwiseLocation=">APS</a>)</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="720" height="436" src="https://fyfluiddynamics.com/wp-content/uploads/melt_propel_main.gif" alt="Cold meltwater sinking off an asymmetric ice block is enough to propel the melting iceberg." class="wp-image-29533"/></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/melting-can-propel-icebergs/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">29530</post-id>	</item>
-		<item>
-		<title>Schooling at Scale</title>
-		<link>https://fyfluiddynamics.com/2026/04/schooling-at-scale/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/schooling-at-scale/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Wed, 15 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[2025gofm]]></category>
-		<category><![CDATA[active matter]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[collective motion]]></category>
-		<category><![CDATA[fish]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[instability]]></category>
-		<category><![CDATA[numerical simulation]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[schooling]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=27769</guid>
-
-					<description><![CDATA[Relatively simple visual and hydrodynamic signals are enough to make digital fish school in ways that resemble living ones. Here, researchers look at what happens when well-behaved schools of fish get too big. The researchers first demonstrate that their schools behave reasonably at one hundred members, either in a schooling configuration or a group milling [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/schooling1-1024x576.png" title="Images of one hundred fish in two different schooling configurations: schooling (moving back and forth) and milling (rotating about a central point). Text reads, &quot;One Hundred Fish. Schooling. Milling. Different combinations of parameter sets produce distinct emergent formations.&quot;" alt="Images of one hundred fish in two different schooling configurations: schooling (moving back and forth) and milling (rotating about a central point). Text reads, &quot;One Hundred Fish. Schooling. Milling. Different combinations of parameter sets produce distinct emergent formations.&quot;" /></div></div>
-
-
-
-<p>Relatively simple visual and hydrodynamic signals are enough to make digital fish school in ways that resemble living ones. Here, researchers look at what happens when well-behaved <a href="/tagged/schooling/">schools</a> of fish get too big. The researchers first demonstrate that their schools behave reasonably at one hundred members, either in a schooling configuration or a group milling around a central region. </p>
-
-
-
-<p>At one thousand fish, the schools are still reasonably coherent and sensible. But at fifty thousand fish, the picture is drastically different. Neither schooling nor milling groups are able to remain together. They fracture and scatter into smaller groupings. (Video and image credit: <a href="https://gfm.aps.org/meetings/dfd-2025/692e39eaa7f805227b16ff34">H. Hang et al.</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/schooling-at-scale/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">27769</post-id>	</item>
-		<item>
-		<title>Scrubbing Bubbles</title>
-		<link>https://fyfluiddynamics.com/2026/04/scrubbing-bubbles/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/scrubbing-bubbles/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Tue, 14 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[acoustics]]></category>
-		<category><![CDATA[bubbles]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[resonance]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[shear]]></category>
-		<category><![CDATA[vibration]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29757</guid>
-
-					<description><![CDATA[Cleaning produce helps fruits and vegetables last longer and reduces the chances for foodborne illness. But it can be a difficult feat with soft, delicate foods like tomatoes, berries, or greens. Current methods often combine ultrasonic cleaning and chemicals like chlorine. Instead, researchers are looking to boost the cleaning power of bubbles themselves by giving [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Cleaning produce helps fruits and vegetables last longer and reduces the chances for foodborne illness. But it can be a difficult feat with soft, delicate foods like tomatoes, berries, or greens. Current methods often combine ultrasonic cleaning and chemicals like chlorine. Instead, researchers are looking to <a href="https://doi.org/10.1002/dro2.70055">boost the cleaning power of bubbles</a> themselves by giving them an acoustic pick-me-up.</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="720" height="405" src="https://fyfluiddynamics.com/wp-content/uploads/stop_go_bubble_main.gif" alt="Stop-and-go. A bubble slides along an inclined surface in a pronounced stop-and-go motion when vibrated near its frequency for translational resonance." class="wp-image-29759"/><figcaption class="wp-element-caption">Stop-and-go. A bubble slides along an inclined surface in a pronounced stop-and-go motion when vibrated near its frequency for translational resonance.</figcaption></figure>
-
-
-
-<p>The team combined a bubble-filled bath with sound at low (sub-cavitation) frequencies. They found that driving sound waves at the right frequency could vibrate the bubbles in a way that made them slide in a stop-and-go motion along inclined surfaces. This swaying significantly boosted their cleaning power; getting surfaces 90% cleaner than non-resonating bubbles did. (Image credit: <a href="https://news.cornell.edu/stories/2026/03/tiny-bubbles-sound-waves-clean-produce-safely-and-effectively">S. Hok/Cornell University</a>; video and research credit: <a href="https://doi.org/10.1002/dro2.70055">Y. Lin et al.</a>; via <a href="https://gizmodo.com/scientists-found-a-weird-new-way-to-wash-fruits-and-vegetables-2000739135?__readwiseLocation=">Gizmodo</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/scrubbing-bubbles/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">29757</post-id>	</item>
-		<item>
-		<title>Bursting an Oobleck Bubble</title>
-		<link>https://fyfluiddynamics.com/2026/04/bursting-an-oobleck-bubble/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/bursting-an-oobleck-bubble/#comments</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Mon, 13 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[2025gofm]]></category>
-		<category><![CDATA[bubbles]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[oobleck]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=28655</guid>
-
-					<description><![CDATA[When soap bubbles burst, the hole grows as an expanding circle. But not every fluid bursts this same way. Here, researchers let air rise through oobleck&#8211;a fluid made from cornstarch suspended in water&#8211;to form a bubble. In time, as with all bubbles, the oobleck bubble bursts. But&#8211;in keeping with oobleck&#8217;s solid-like properties&#8211;the film tears open [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/oobleck_bubble1-1024x576.png" title="Black and white image of a soap bubble mid-burst. A white dashed circle marks the retracting film. Text reads, &quot;As a soap bubble bursts... the film retracts circularly due to surface tension&quot;" alt="Black and white image of a soap bubble mid-burst. A white dashed circle marks the retracting film. Text reads, &quot;As a soap bubble bursts... the film retracts circularly due to surface tension&quot;" /></div></div>
-
-
-
-<p>When <a href="/tagged/soap-bubbles/">soap bubbles</a> burst, the hole grows as an expanding circle. But not every fluid bursts this same way. Here, researchers let air rise through <a href="/tagged/oobleck/">oobleck</a>&#8211;a fluid made from cornstarch suspended in water&#8211;to form a bubble. In time, as with all bubbles, the oobleck bubble bursts. But&#8211;in keeping with oobleck&#8217;s solid-like properties&#8211;the film tears open and fractures. As it sinks back into the liquid, it wrinkles before it slowly relaxes back into fluid form. (Video and image credit: <a href="https://gfm.aps.org/meetings/dfd-2025/692e39eba7f805227b16ff52">X. Zhang et al.</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/bursting-an-oobleck-bubble/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">28655</post-id>	</item>
 	</channel>
 </rss>

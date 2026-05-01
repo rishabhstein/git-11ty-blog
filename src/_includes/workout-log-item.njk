@@ -39,6 +39,11 @@
       <div class="workout-summary-block">
         <h5>Summary</h5>
         {{ workoutBody | safe }}
+        {% if workoutItem.data.cover %}
+          <figure class="workout-post-cover">
+            <img src="{{ workoutItem.data.cover }}" alt="Cover for {{ workoutItem.data.title }}">
+          </figure>
+        {% endif %}
         {% workoutPlots workoutItem.inputPath, workoutItem.data.plot_svgs %}
       </div>
     {% endif %}

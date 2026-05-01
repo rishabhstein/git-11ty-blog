@@ -24,6 +24,12 @@
 
 <div class="container-narrow">
           <main>
+            {% if cover and not (cover in content) %}
+            <figure class="writing-post-cover">
+              <img src="{{ cover }}" alt="Cover for {{ title }}">
+            </figure>
+            {% endif %}
+
             {{ content | safe }}
         </main>
 </div>

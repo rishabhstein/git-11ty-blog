@@ -108,6 +108,11 @@ eleventyExcludeFromCollections: true
                     <div class="workout-summary-block">
                       <h5>Summary</h5>
                       {{ workout.templateContent | safe }}
+                      {% if workout.data.cover %}
+                        <figure class="workout-post-cover">
+                          <img src="{{ workout.data.cover }}" alt="Cover for {{ workout.data.title }}">
+                        </figure>
+                      {% endif %}
                       {% workoutPlots workout.inputPath, workout.data.plot_svgs %}
                     </div>
                   {% endif %}

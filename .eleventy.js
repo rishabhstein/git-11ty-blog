@@ -399,15 +399,18 @@ module.exports = async function(eleventyConfig) {
     const workoutBaseName = inputPath ? path.basename(inputPath, path.extname(inputPath)) : "";
     const workoutDir = inputPath ? path.dirname(inputPath) : path.join(process.cwd(), "src", "workout");
     const assetWorkoutDir = workoutBaseName
-      ? path.join(process.cwd(), "assets", "workout", workoutBaseName)
+      ? path.join(process.cwd(), "assets", "images", "workout", workoutBaseName)
       : "";
     const filePaths = [];
 
     const addPath = (candidatePath) => {
       if (!candidatePath) return;
 
-      const resolvedPath = path.isAbsolute(candidatePath)
+      const normalizedCandidatePath = String(candidatePath).replace(/^\/+/, "");
+      const resolvedPath = path.isAbsolute(candidatePath) && !String(candidatePath).startsWith("/")
         ? candidatePath
+        : normalizedCandidatePath.startsWith("assets/")
+          ? path.resolve(process.cwd(), normalizedCandidatePath)
         : path.resolve(workoutDir, candidatePath);
 
       if (!fs.existsSync(resolvedPath)) return;
