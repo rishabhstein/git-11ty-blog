@@ -31,7 +31,7 @@ layout: 'base.njk'
           {{ workoutBody | safe }}
           {% if cover %}
             <figure class="workout-post-cover">
-              <img src="{{ cover }}" alt="Cover for {{ title }}">
+              <img src="{{ cover | assetUrl }}" alt="Cover for {{ title }}">
             </figure>
           {% endif %}
           {% workoutPlots page.inputPath, plot_svgs %}

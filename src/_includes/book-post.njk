@@ -19,7 +19,7 @@
 {% if cover %}
 <section class="book-post-hero" aria-label="Book details">
   <div class="book-post-cover">
-    <img src="{{ cover }}" alt="Cover of {{ title }}">
+    <img src="{{ cover | assetUrl }}" alt="Cover of {{ title }}">
   </div>
 
   <dl class="book-post-meta">

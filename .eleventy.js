@@ -398,9 +398,12 @@ module.exports = async function(eleventyConfig) {
 
     const workoutBaseName = inputPath ? path.basename(inputPath, path.extname(inputPath)) : "";
     const workoutDir = inputPath ? path.dirname(inputPath) : path.join(process.cwd(), "src", "workout");
-    const assetWorkoutDir = workoutBaseName
-      ? path.join(process.cwd(), "assets", "images", "workout", workoutBaseName)
-      : "";
+    const assetWorkoutDirs = workoutBaseName
+      ? [
+          path.join(process.cwd(), "assets", "images", "workout", workoutBaseName),
+          path.join(process.cwd(), "assets", "workout", workoutBaseName),
+        ]
+      : [];
     const filePaths = [];
 
     const addPath = (candidatePath) => {
@@ -433,19 +436,25 @@ module.exports = async function(eleventyConfig) {
         .forEach((fileName) => addPath(path.join(directoryPath, fileName)));
     };
 
-    if (assetWorkoutDir) {
+    const addPreferredWorkoutPlots = () => {
       const preferredNames = ["heart-rate.svg", "power.svg", "cadence.svg"];
-      for (const fileName of preferredNames) {
-        const candidatePath = path.join(assetWorkoutDir, fileName);
-        if (fs.existsSync(candidatePath)) {
-          addPath(candidatePath);
+      for (const assetWorkoutDir of assetWorkoutDirs) {
+        for (const fileName of preferredNames) {
+          const candidatePath = path.join(assetWorkoutDir, fileName);
+          if (fs.existsSync(candidatePath)) {
+            addPath(candidatePath);
+          }
         }
+        if (filePaths.length) return true;
       }
-      if (filePaths.length) return filePaths.sort();
-    }
+      return false;
+    };
+
+    if (addPreferredWorkoutPlots()) return filePaths.sort();
 
     if (requestedPaths.length) {
       requestedPaths.forEach(addPath);
+      if (!filePaths.length) addPreferredWorkoutPlots();
       return filePaths.sort();
     }
 
@@ -848,6 +857,35 @@ ${tabsMarkup}
 
   eleventyConfig.addFilter("urlEncode", function(value) {
     return encodeURIComponent(String(value ?? ""));
+  });
+
+  eleventyConfig.addFilter("assetUrl", function(value) {
+    const rawUrl = String(value ?? "").trim();
+    if (!rawUrl) return "";
+    if (/^(?:[a-z][a-z0-9+.-]*:|\/\/|#)/i.test(rawUrl)) return rawUrl;
+
+    return rawUrl
+      .replace(/^(?:\.{1,2}\/)+assets\//, "/assets/")
+      .replace(/^\.\/assets\//, "/assets/")
+      .replace(/^assets\//, "/assets/");
+  });
+
+  eleventyConfig.addFilter("htmlBaseUrl", function(value, baseUrl = siteUrl) {
+    const rawUrl = String(value ?? "").trim();
+    const normalizedUrl = /^(?:[a-z][a-z0-9+.-]*:|\/\/|#)/i.test(rawUrl)
+      ? rawUrl
+      : rawUrl
+        .replace(/^(?:\.{1,2}\/)+assets\//, "/assets/")
+        .replace(/^\.\/assets\//, "/assets/")
+        .replace(/^assets\//, "/assets/");
+    if (!normalizedUrl) return "";
+    if (/^(?:[a-z][a-z0-9+.-]*:|\/\/|#)/i.test(normalizedUrl)) return normalizedUrl;
+
+    try {
+      return new URL(normalizedUrl, baseUrl).toString();
+    } catch {
+      return normalizedUrl;
+    }
   });
 
   eleventyConfig.addFilter("isoDate", function(dateObj) {

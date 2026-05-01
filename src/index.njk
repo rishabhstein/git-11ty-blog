@@ -72,7 +72,7 @@ layout: 'base.njk'
           {% if loop.index <= 4 %}
             <article class="media-item">
               <a href="{{ book.url }}" class="media-thumb">
-                <img src="{{ book.data.cover }}" alt="{{ book.title }}">
+                <img src="{{ book.data.cover | assetUrl }}" alt="{{ book.title }}">
               </a>
               <div class="media-text">
                 <a href="{{ book.url }}">
@@ -102,7 +102,7 @@ layout: 'base.njk'
             {% if loop.index <= 1 %}
               <article class="movie-feature-item">
                 <a href="{{ movie.url }}" class="movie-feature-thumb">
-                  <img src="{{ movie.data.cover }}" alt="{{ movie.title }}">
+                  <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.title }}">
                 </a>
                 <div class="movie-feature-text">
                   <a href="{{ movie.url }}">
@@ -126,7 +126,7 @@ layout: 'base.njk'
             {% if loop.index <= 3 %}
               <article class="movie-side-item">
                 <a href="{{ movie.url }}" class="movie-side-thumb">
-                  <img src="{{ movie.data.cover }}" alt="{{ movie.title }}">
+                  <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.title }}">
                 </a>
                 <div class="movie-side-text">
                   <a href="{{ movie.url }}">

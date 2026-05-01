@@ -41,7 +41,7 @@
         {{ workoutBody | safe }}
         {% if workoutItem.data.cover %}
           <figure class="workout-post-cover">
-            <img src="{{ workoutItem.data.cover }}" alt="Cover for {{ workoutItem.data.title }}">
+            <img src="{{ workoutItem.data.cover | assetUrl }}" alt="Cover for {{ workoutItem.data.title }}">
           </figure>
         {% endif %}
         {% workoutPlots workoutItem.inputPath, workoutItem.data.plot_svgs %}

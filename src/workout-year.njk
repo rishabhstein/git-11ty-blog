@@ -110,7 +110,7 @@ eleventyExcludeFromCollections: true
                       {{ workout.templateContent | safe }}
                       {% if workout.data.cover %}
                         <figure class="workout-post-cover">
-                          <img src="{{ workout.data.cover }}" alt="Cover for {{ workout.data.title }}">
+                          <img src="{{ workout.data.cover | assetUrl }}" alt="Cover for {{ workout.data.title }}">
                         </figure>
                       {% endif %}
                       {% workoutPlots workout.inputPath, workout.data.plot_svgs %}

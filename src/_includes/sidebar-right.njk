@@ -36,7 +36,7 @@
 {% if recentSnaps[0] %}
   <div class="sidebar-photo-feature">
     <a href="{{ recentSnaps[0].url }}" class="sidebar-photo-thumb">
-      <img src="{{ recentSnaps[0].data.cover }}" alt="{{ recentSnaps[0].data.title or recentSnaps[0].title }}">
+      <img src="{{ recentSnaps[0].data.cover | assetUrl }}" alt="{{ recentSnaps[0].data.title or recentSnaps[0].title }}">
     </a>
     <a href="{{ recentSnaps[0].url }}" class="sidebar-photo-title">{{ recentSnaps[0].data.title or recentSnaps[0].title }}</a>
   </div>

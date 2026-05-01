@@ -19,7 +19,7 @@ layout: 'base.njk'
     {% for book in collections.bookArchive | itemsForYear(currentYear) %}
       <div class="book-entry-grid">
         <a href="{{ book.url }}" class="book-cover">
-          <img src="{{ book.data.cover }}" alt="{{ book.title }}">
+          <img src="{{ book.data.cover | assetUrl }}" alt="{{ book.title }}">
           <div class="star-rating">
             {% for i in range(book.data.rating) %}⭐{% endfor %}
           </div>

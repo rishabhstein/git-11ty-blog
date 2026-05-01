@@ -7,7 +7,7 @@ status: "Finished"
 cover: "https://covers.openlibrary.org/b/id/14846872-L.jpg"
 ---
 <div class="blog-posts-book" >
-    <img src="{{ cover }}" >
+    <img src="{{ cover | assetUrl }}" >
 </div>
 
 This was my second book from **Khaled Hosseini**--the first one was *And the Mountains Echoed*--and it was a roller coaster of emotions, making me feel angry, disgusted, sad, and sometimes even crying. I decided to read this book after **Senecca**, in one of his letters (2000 years ago) to Lucilius, suggested sticking to the writers you admire instead of getting lost in the black hole of exploration. However, I think it's also better to check out new ones from time to time.

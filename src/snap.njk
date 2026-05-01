@@ -9,7 +9,7 @@
   <div class="gallery">
       {% for post in collections.snap | reverse %}
                    <div>
-                      <a href="{{ post.url }}"><img src="{{ post.data.cover }}"></a>
+                      <a href="{{ post.url }}"><img src="{{ post.data.cover | assetUrl }}"></a>
                   </div>
       {% endfor %}
   </div>

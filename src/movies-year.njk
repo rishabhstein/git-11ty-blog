@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: true
     {% for movie in collections.movieArchive | itemsForYear(archiveYear) %}
       <div class="book-entry-grid">
         <a href="{{ movie.url }}" class="book-cover">
-          <img src="{{ movie.data.cover }}" alt="{{ movie.title }}">
+          <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.title }}">
           <div class="star-rating">
             {% for i in range(movie.data.rating) %}⭐{% endfor %}
           </div>
