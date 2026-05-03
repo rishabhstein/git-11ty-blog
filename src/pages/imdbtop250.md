@@ -2,7 +2,7 @@
 title: IMDB Top 250
 ---
 
-## IMDb Top 250 Movies
+Inspired by [Hyde's page](https://lazybea.rs/movies/) to make sure I watch all IMDB top 250 movies. The list is taken from [IMDB's official webpage](https://www.imdb.com/chart/top/) on May 2026.
 
 1. ~~The Shawshank Redemption (1994)~~
 2. The Godfather (1972)
@@ -12,11 +12,11 @@ title: IMDB Top 250
 6. The Lord of the Rings: The Return of the King (2003)
 7. Schindler's List (1993)
 8. The Lord of the Rings: The Fellowship of the Ring (2001)
-9. Pulp Fiction (1994)
+9. ~~Pulp Fiction (1994)~~
 10. The Good, the Bad and the Ugly (1966)
 11. The Lord of the Rings: The Two Towers (2002)
 12. ~~Forrest Gump (1994)~~
-13. ~~Fight Club (1999)~~
+13. ~~Fight Club (1999)~~[Link](../movies/1777142324822/)
 14. ~~Inception (2010)~~
 15. Star Wars: Episode V - The Empire Strikes Back (1980)
 16. ~~The Matrix (1999)~~
