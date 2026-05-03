@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-05-01T17:03:06.845693+00:00</updated>
+  <updated>2026-05-03T20:36:49.136623+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -11,180 +11,266 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle>Trending posts on Bear Blog</subtitle>
   <entry>
-    <id>https://futureperfect.bearblog.dev/my-ideal-blog/</id>
-    <title>My ideal blog</title>
-    <updated>2026-05-01T00:09:00+00:00</updated>
+    <id>https://onomade.bearblog.dev/blogs-as-a-quiet-escape/</id>
+    <title>Blogs as a Quiet Escape</title>
+    <updated>2026-05-02T20:19:00+00:00</updated>
     <author>
-      <name>futureperfect</name>
+      <name>onomade</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;I wish more blogs were like the old school online journals. People just talking about their day. Not too much detail, not too confident in their opinions, not trying to prove any points, etc.&lt;/p&gt;
-&lt;p&gt;This certainly is not an attack on anybody. My blog isn’t like that either. For some reason it just feels more natural to write the way you typically see others write on their blogs in the modern era(at least what I normally see on the discovery/trending pages on bear).&lt;/p&gt;
-&lt;p&gt;That old LiveJournal/Xanga/MySpace blog style of post just felt more personal, though. Less like an op-ed.&lt;/p&gt;
-&lt;p&gt;Maybe I’m just stuck in a nostalgia trap right now. But I want to start posting more like that.&lt;/p&gt;
-&lt;p&gt;Tomorrow is Friday. This week has been excruciatingly long. Let’s finish strong and cruise into the weekend!&lt;/p&gt;
+    <content type="html">&lt;p&gt;I've been reading some posts on the "Discovery" section and noticed that quite a few of them talk about the negative effects of social media and the internet in general, as well as how people came to this blog to detox from them. At least where I live, watching TV, I get the impression that there might be more news coverage about social media issues, phone and online gaming addictions, betting apps, AI-related issues, and so on.&lt;/p&gt;
+&lt;p&gt;Social media, when used carefully and with moderation, has several benefits. For me, it has helped with things like connecting with people from other countries, learning new things, and keeping up with friends and family members who live too far away. But I just didn't have enough patience and self-control to deal with the negative sides...&lt;/p&gt;
+&lt;p&gt;Besides being a lesser-known blog with fewer users, the limited social features on sites like Bearblog are beneficial for many people. In my case, I wanted a place to share some thoughts, but I didn't really want a private diary. Part of me wanted to feel like I was talking to someone and, deep down, I wanted someone to actually read them, even though I'm quite a reserved person with social anxiety.&lt;/p&gt;
+&lt;p&gt;Here you can even control which posts are public or not. Posts from free accounts don't even show up in public searches. I had to ask for my blog to be reviewed.&lt;/p&gt;
+&lt;p&gt;Writing a blog post feels very different from the fast-paced and frenetic posting style of platforms like Twitter or Bluesky, doesn't it? Even with guestbooks, the additional clicks make us think more carefully about what we write. This gives emotional or impulsive reactions time to fade away, making interactions more thoughtful and less immediate.&lt;/p&gt;
+&lt;p&gt;Even though there is still a like button, the lack of comments, reposts, follower counts, and algorithmic feeds helps reduce things like performance addiction, mob behavior, and the spread of misinformation.&lt;/p&gt;
+&lt;p&gt;Switching to this blog feels like leaving a loud party and going to a cabin in the countryside...&lt;/p&gt;
 </content>
-    <link href="https://futureperfect.bearblog.dev/my-ideal-blog/" rel="alternate"/>
-    <published>2026-05-01T00:09:00+00:00</published>
+    <link href="https://onomade.bearblog.dev/blogs-as-a-quiet-escape/" rel="alternate"/>
+    <published>2026-05-02T20:19:00+00:00</published>
   </entry>
   <entry>
-    <id>https://tala.bearblog.dev/you-should-be-joymaxxing-your-projects/</id>
-    <title>you should be joymaxxing your projects</title>
-    <updated>2026-04-29T13:42:00+00:00</updated>
+    <id>https://swarn.bearblog.dev/dog-sleep/</id>
+    <title>I tried my Dog's sleep schedule for 30 days</title>
+    <updated>2026-05-02T02:30:00+00:00</updated>
     <author>
-      <name>tala</name>
+      <name>swarn</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;When I'm working on a passion project (or anything, really), I tend to be obsessively serious in ways that stress me out. Something I initially &lt;em&gt;wanted&lt;/em&gt; to do becomes a thing I &lt;em&gt;have&lt;/em&gt; to do. I've subconsciously cultivated this behavior, as I only ever notice it late: tired, tense, wondering why something I chose to do feels like something I owe, in a sense.&lt;/p&gt;
-&lt;p&gt;I'm not always caught up on social media jargon, but I'm interested in the —maxxing suffix I've seen circulating online. I liked the shamelessness of it, the idea you can just decide to maximize something (good), as aggressively and deliberately as you want. Joymaxxing, specifically: making happiness non-negotiable, not a &lt;em&gt;reward&lt;/em&gt; for finishing a task but a &lt;em&gt;condition&lt;/em&gt; maintained throughout the process. It's why my current goal, when working on something, is prioritizing fun.&lt;/p&gt;
-&lt;p&gt;The older I get, the more I feel permission to play. In practice, this looks different for everyone: working from a cafe instead of my desk, reading something adjacent to the project just for the pleasure of it, and following interesting tangents. All of these things alters the texture of the work in unexpectedly nice ways, because it reminds me that I'm a human being doing the thing, not a machine producing it.&lt;/p&gt;
-&lt;p&gt;The shift isn't from &lt;em&gt;serious&lt;/em&gt; to &lt;em&gt;unserious&lt;/em&gt;. I still passionately care about my projects as I always do. However, I stopped treating "enjoyment"  as a threat to "quality," like if I was having too much fun, I'll generate something mediocre or straight up horrendous. Looking back at it, perhaps the work I'm most proud of, is the work I've enjoyed doing the most.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I wanted to fix my sleep and morning routine, which had been inconsistent for a while, and my Dog's routine was the perfect one to go after. Snoopy wakes up at 4AM, gets her morning light, plays, eats, and is napping by 9. April, with the summers starting, seemed just right to feel the fresh morning summer breeze. My birthday in the first week was also a motivational factor to sort things out. I found out from a &lt;a href='https://youtu.be/lIo9FcrljDk?si=OxEfJvyivCR_YlBS' target='_blank'&gt;Dr. Huberman video&lt;/a&gt; that it takes 3 days for your &lt;a href='https://share.google/aimode/VZ9Y18KA0O1vAiaEj' target='_blank'&gt;circadian rhythm&lt;/a&gt; to adjust to a new sleep cycle, especially an early morning one.&lt;/p&gt;
+&lt;p&gt;I had been reading a lot about sleep cycles and optimal routines, but that doesn't help a lot unless you fix your "Night routine". Sleeping early has become increasingly rare over the last few years, thanks to widespread internet access. That was my first challenge, and a particularly hard one for someone who slept at 4am through college days. Unless, it wasn't! Our body is made to move with the sun, and it felt instantly fresh to sleep by 10PM and wake up at 4. Look how the tables have turned!&lt;/p&gt;
+&lt;p&gt;Getting morning light within the first hour of waking up helps reset your circadian rhythm and morning alertness by regulating cortisol and melatonin. You can understand these jargons better with this &lt;a href='https://www.instagram.com/reel/DNdYuuhxv85' target='_blank'&gt;short reel&lt;/a&gt;. Now the hard part was done, and it took me around 4-5 days. Working out when you're fresh is possibly one of the top 10 feelings of being a human. It is one of the most rejuvenating, empowering, and fundamental changes you can bring to your life.&lt;/p&gt;
+&lt;p&gt;My workout is a no-equipment simple set of exercises which involves 120 push-ups, mountain climbers, and 50 &lt;a href='https://youtu.be/vw2OT_-M8ek?si=yJ3UspJ0WqIBUQC5' target='_blank'&gt;Hindu squats&lt;/a&gt; all spread across 3 sets with 10-minute breaks of 1k steps each. So, an easy hack to get my 3-4k steps early in the morning! I end it with &lt;a href='https://youtube.com/shorts/XYfmdEWbTbc?si=IAYSRZnP8b92pCOq' target='_blank'&gt;Surya Namaskara&lt;/a&gt; or Sun Salutation, which is an ancient 12-step yoga sequence. This 45-50 minute routine has been the single best addition to my fitness routine, and it was much easier than I thought, especially the freshness afterwards throughout the day.&lt;/p&gt;
+&lt;p&gt;After this, I proceed with my morning coffee and chores until I realise that it's just 5:30 AM! There are many things that fall in place once you get into the right habits, and I got to see this in real time. Snoopy is already on her second nap by then, unbothered and completely winning at life as always. Ideally, I will do this throughout my life as it feels like the right way to live a human life. If you've read this far, I would encourage you as well to adapt to Snoopy's routine!&lt;/p&gt;
 </content>
-    <link href="https://tala.bearblog.dev/you-should-be-joymaxxing-your-projects/" rel="alternate"/>
-    <published>2026-04-29T13:42:00+00:00</published>
+    <link href="https://swarn.bearblog.dev/dog-sleep/" rel="alternate"/>
+    <published>2026-05-02T02:30:00+00:00</published>
   </entry>
   <entry>
-    <id>https://wombat.bearblog.dev/a-year-on-an-e-reader/</id>
-    <title>A year on an e-reader</title>
-    <updated>2026-04-29T18:54:00+00:00</updated>
+    <id>https://bruceblog.bearblog.dev/capitalism-is-its-own-parody-at-this-point/</id>
+    <title>capitalism is its own parody at this point</title>
+    <updated>2026-05-01T18:15:51.004447+00:00</updated>
     <author>
-      <name>wombat</name>
+      <name>bruceblog</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;E-readers are something of a niche technology. Hardly anybody has an e-reader in public, especially compared to the number of people with a smartphone in hand. Despite that, I took the plunge last year and got an Android e-reader — the Meebook M6.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://ibb.co/RTpXKr6c"&gt;&lt;img src="https://i.ibb.co/7tJ3DMpK/image.png" alt="A photo of a screensaver, a cartoon drawing of capybaras, displayed on an e-reader. The Meebook logo is visible on the bottom bezel. The e-reader sits upon a laptop keyboard."&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It’s been nothing short of awesome. I wanted to yap about my reading setup, because cool tech is cool, plus a bit about how I approach reading as a hobby.&lt;/p&gt;
-&lt;h2 id=why-an-e-reader&gt;Why an e-reader?&lt;/h2&gt;&lt;p&gt;I read primarily for fun and enjoyment. If I bought a physical copy of every book I wanted to read, my apartment would overflow with books. Libraries perform an absolutely vital service, but not every library book is in as good a condition as I’d like. Some books are way too bulky to carry on the go. Others are printed in teeny tiny font sizes (what is this, a book for ants?).&lt;/p&gt;
-&lt;p&gt;For several years, I read e-books on my phone, alongside the occasional library book. To this day, I only purchase physical copies for books with sentimental value (or, rarely, can’t find online). Reading on my phone was… alright. Good enough for me to assume that e-readers were largely redundant. After all, many of us read (or skim?) &lt;em&gt;colossal&lt;/em&gt; volumes of text on screens every day. Hell, you’re most likely doing it right now.&lt;/p&gt;
-&lt;p&gt;That changed when I was walking around a bougie bookstore that happened to have an e-reader section. I wasn’t (and still am not) convinced that the displays looked anything like real paper, but I was blown away by how comfortable they were to read on. I hadn’t even known I'd been settling for less. That same day, I was back home looking for reviews on budget options to try out myself.&lt;/p&gt;
-&lt;h2 id=hardware&gt;Hardware&lt;/h2&gt;&lt;p&gt;I eventually settled on the Meebook M6 for a few reasons. I wanted something that would fit in my pocket, so a screen larger than 7 inches wouldn’t do. At the same time, I wasn’t a fan of the phone-shaped form factor, like that of the Hisense Hi Reader and Boox Palma. I knew from experience that I disliked reading with a bigger font on a narrow screen.&lt;/p&gt;
-&lt;p&gt;So that left the 6 inch, regular Kindle-shaped options, though I didn’t exactly want a Kindle because of the &lt;a href='https://goodereader.com/blog/kindle/amazon-removing-download-and-transfer-on-the-kindle-feb-26th'&gt;bullshit&lt;/a&gt; Amazon had been pulling. Luckily for me, the Meebook M6 just so happened to be on sale on Taobao for under 100 USD — it had decent reviews, so I gave it a shot.&lt;/p&gt;
-&lt;p&gt;It is a lovely little Android device. Its royal blue bottom bezel and flush screen are immediately pleasing to the eye. It is basic hardware-wise, but there are a couple of neat features.&lt;/p&gt;
-&lt;p&gt;It has warm and cool front lights that can be adjusted independently with sliders. The warm light is particularly nice for reading in bed. There are three presets: “Day”, “Night”, and “Bed”. I use “Day” most often, which is most suited to reading in weird indoor lighting (rather than daylight).&lt;/p&gt;
-&lt;p&gt;The refresh rate is also adjustable with four presets: from the regular “regal mode” with a slow refresh rate and no ghosting, to the “A2 topspeed mode” with the fastest refresh rate but heavy ghosting. The former is most suited for reading, and is what I use 95% of the time. The latter option is much appreciated when I’m using apps not optimized for the display, especially when scrolling.&lt;/p&gt;
-&lt;h2 id=software&gt;Software&lt;/h2&gt;&lt;p&gt;I was not as enthused with the default software experience. I disliked the default launcher and the default reader app was off when rendering English text. The great thing about Android is that it took me about five seconds to ditch them for &lt;a href='https://github.com/gezimos/inkOS'&gt;a new launcher&lt;/a&gt; and &lt;a href='https://koreader.rocks/'&gt;a new reader&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=koreader-rocks&gt;KOReader rocks!&lt;/h3&gt;&lt;p&gt;I’m a bit anal about customizing my reading experience; KOReader has every feature I could ever wish for. It was a match made in heaven. The vast &lt;a href='https://koreader.rocks/user_guide/#L2-styletweaks'&gt;style tweaks&lt;/a&gt; options really satisfy that urge to have everything look exactly as I want it. I keep a handful of these enabled all the time — shoutout to spacing between paragraphs.&lt;/p&gt;
-&lt;p&gt;I was also impressed at how great KOReader is for &lt;a href='https://koreader.rocks/user_guide/#L1-pdfs'&gt;reading PDFs&lt;/a&gt;. The reflow feature works amazingly for many, but not all, PDFs. If it doesn’t, KOReader can automatically scroll to different parts of the screen depending on the reading direction. For example, for a two-column PDF, it can automatically start at the top left, go down until you hit the bottom left, then go up to the top right. Much, much easier than manually zooming in and scrolling.&lt;/p&gt;
-&lt;p&gt;All the features can be overwhelming, to be fair. Fortunately, the documentation is pretty robust. And things look good out of the box, even if you don’t mess with anything!&lt;/p&gt;
-&lt;h4 id=reading-fonts&gt;Reading fonts&lt;/h4&gt;&lt;p&gt;The English fonts that I rotate between are mostly from &lt;a href='https://github.com/nicoverbruggen/ebook-fonts'&gt;this GitHub repo&lt;/a&gt; containing fonts tweaked for e-reading. Here’s a &lt;a href='https://ebook-fonts.nicoverbruggen.be/'&gt;live showcase&lt;/a&gt; for how each font would look in action. Pretty cool!&lt;/p&gt;
-&lt;p&gt;My current default is their version of Charter. For informational non-fiction, I sometimes switch to a sans-serif font like Atkinson Hyperlegible Next or Jost. For (Traditional) Chinese, I use &lt;a href='https://github.com/chiron-fonts/chiron-sung-hk/blob/release/README.en.md'&gt;Chiron Sung HK&lt;/a&gt;, an aesthetically pleasing serif font.&lt;/p&gt;
-&lt;p&gt;This is how I've gotten things to look:
-&lt;a href="https://ibb.co/7xdXnGYf"&gt;&lt;img src="https://i.ibb.co/Gf40WVx6/Reader-jack-london-white-fang-epub-p5-2026-04-30-024656.png" alt="A screenshot of my current reading setup in KOReader, with text from White Fang by Jack London."&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=where-to-get-e-books&gt;Where to get e-books&lt;/h2&gt;&lt;p&gt;I sideload most of my books as EPUBs, and occasionally PDFs. This means I need my books DRM-free — which most e-books being sold are not. Apart from the obvious solution&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;, here are a few (100% legit!) suggestions for where to get e-books you actually own:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href='https://www.gutenberg.org/'&gt;Project Gutenberg&lt;/a&gt; is well-known for hosting a huge collection of public domain works. However, their earlier titles tend to be inconsistent in quality.&lt;/li&gt;
-&lt;li&gt;My go-to for older English works is &lt;a href='https://standardebooks.org/ebooks'&gt;Standard Ebooks&lt;/a&gt;. Despite their smaller collection, each book is meticulously proofread and beautifully formatted to elevate your reading experience. Seriously, they look &lt;em&gt;gorgeous&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://www.kobo.com/us/en/p/drm-free'&gt;Kobo&lt;/a&gt; and &lt;a href='https://www.ebooks.com/en-hk/drm-free/'&gt;eBooks.com&lt;/a&gt; are online storefronts with decently sized DRM-free catalogs. (The most popular fiction titles are those published by Tor, like Brandon Sanderson’s novels.)&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://libreture.com/bookshops/'&gt;Here&lt;/a&gt; is an extensive list of publishers that offer DRM-free books directly.&lt;/li&gt;
-&lt;li&gt;If you happen to have institutional access through a university or library, certain publishers allow DRM-free downloads. I find this especially handy for academic publications or textbooks. I recently downloaded several books from Oxford University Press this way.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=what-ive-learned&gt;What I’ve learned&lt;/h2&gt;&lt;p&gt;Sometimes, I get comments when I’m reading in public. People have told me, with a touch of regret, that they could never get through a whole book, or that the last time they picked up a book was in sixth grade. It might surprise them that I have struggled with keeping up a reading habit, too.&lt;/p&gt;
-&lt;p&gt;I don’t know how common this is, but I will confess that I got this device with the expectation that I would annihilate my entire backlog. A misguided approach, of course. The more pressure I put on myself to read, the less appealing and more overwhelming it felt. This was despite the fact that picking up a book was more easy and effort-free than ever. The sole barrier was my mind.&lt;/p&gt;
-&lt;p&gt;If you’re anything like me, it’s easy to hype something up in your head — even highly enjoyable and rewarding things — and end up demotivating yourself. I still find myself having to adjust my mindset to get over these hurdles. Some of this includes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Learning how to forgive myself for not being consistent day-to-day. Sometimes, consistency can look more like week-to-week, or month-to-month. Even then, it’s okay to fall off or take a break. I can come back anytime.&lt;/li&gt;
-&lt;li&gt;In a similar vein, letting myself put books on hold or drop them — whether I’m overwhelmed, exhausted, or just don’t enjoy them. I can pick them back up whenever I want to.&lt;/li&gt;
-&lt;li&gt;Approaching books with wonder and curiosity, rather than focusing on getting through as many as possible. Learning new stuff and gaining new perspectives is fun and awesome.&lt;/li&gt;
-&lt;li&gt;Being mindful of when a passage I’m reading is impacting me, and really feeling that wave of emotion. I find this heightens the experience and pushes me to get more into it.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Much of the above applies to other hobbies as well. While it’s easier said than done, maintaining intrinsic motivation is essential for hobbies, which are so vital to a meaningful life. Most importantly, have fun!&lt;/p&gt;
+    <content type="html">&lt;p&gt;Two truths and a lie. Which of these ad reads are real and which is fake.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ACME Day is almost here!!! ACME's big sale is almost here. From 4/25-4/27, you get a front row seat to the best deals at home. Like up to 80% off everything home. Plus, surprise flash deals all day long, with fast and free shipping on everything. Even the big stuff. These savings won't last. So mark your calendars and shop ACME Day from 4/25-4/27 for up to 80% off everything home.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Huh, I wonder if this can beat the market. Everyone's talking about the NASDAQ 100, but lets get more specific. Software. Actually, too broad. How about software that's already profitable? And companies that beat the last five quarters. Oh, and I want founders who are marathon runners. Now that's discipline. Yea, lets see what that looks like. With generated assets on ACME, you can turn any idea into an investable index. Just enter a prompt, and watch the AI screen thousands of stocks in seconds. You can then backtest your fund against the S&amp;P500. Make adjustments, refine your criteria. And when you're ready, invest in what you've built. Go to ACME.com and build your own assets with a generated index. Plus earn a 1% uncapped match when you transfer your portfolio. ACME. Investing for those that take it seriously.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Before this podcast continues, I need you to fill out 37 forms about your listening history. I'll wait. Just kidding, that'd be ridiculous, yet we do it every time we need healthcare. But new ACME Health AI, is different. It can connect your health history to offer personalized care. So, you can get help fast. ACME Health AI, healthcare just got less painful.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I lied, they're all 100% real. Wayfair, Public, Amazon. A fake sale for a corporate holiday, a new way to gamble on the stock market, and a new route to straight up hand over your information to a corporation. It's like Don Draper started speedballing at an advertiser open house.&lt;/p&gt;
+&lt;p&gt;Directly from Amazon's site,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Amazon has a long-standing track record of protecting customer data. Amazon Health Services—including One Medical and Amazon Pharmacy—protects customers’ protected health information (PHI) with HIPAA-compliant privacy and security practices to keep information safe and secure.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;mmm yes a strong &lt;a href='https://www.reuters.com/technology/amazon-loses-court-fight-against-record-812-mln-luxembourg-privacy-fine-2025-03-19/'&gt;track record&lt;/a&gt;,
+i feel very safe.
+Almighty Bezos please keep tracking my online activity but now also give me targeted ads with dynamic pricing for my specific medical conditions and income level.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Good morning Bruce, this is Alexa. I saw that you didn't sleep very well last night, are you having trouble adjusting to your new medication or is something else on your mind? I would recommend "OLLY Goodbye Stress Gummy, GABA, L-Theanine, Lemon Balm, Stress Relief Supplement, Berry - 42 Count", based on your medical history of "generalized anxiety and depression". This looks like a good fit for you. It's currently on sale for 5% off with digital coupon. Should I order some?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What the fuck is going on? What real humans are buying this shit? literally and metaphorically. Are we all in a black mirror episode and I missed the memo, or am I yelling at clouds?&lt;/p&gt;
+&lt;p&gt;help.&lt;/p&gt;
+</content>
+    <link href="https://bruceblog.bearblog.dev/capitalism-is-its-own-parody-at-this-point/" rel="alternate"/>
+    <published>2026-05-01T18:15:51.004447+00:00</published>
+  </entry>
+  <entry>
+    <id>https://magmacranes.bearblog.dev/life-has-been-very-unkind-lately/</id>
+    <title>Life has been very unkind lately</title>
+    <updated>2026-05-01T14:43:00+00:00</updated>
+    <author>
+      <name>magmacranes</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;em&gt;For those who want a TL;DR: took in an extremely sweet stray cat who turned out to be very sick, and then my husband was hospitalized a few days later (unrelated to the cat). These things will likely end up being super expensive. I have a &lt;a href='https://megancarnes.bandcamp.com/music'&gt;Bandcamp&lt;/a&gt; if you want to buy some music or a &lt;a href='https://ko-fi.com/megancarnes'&gt;ko-fi&lt;/a&gt; if you want to just throw a few bucks my way, and I'm always open for more &lt;a href='https://www.megancarnesmusic.com'&gt;composing or music implementation work&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;div style="text-align: center;"&gt;
-&lt;a class="previous-post" href="/steamed-hams" title="My favorite meme: Steamed Hams"&gt;Previous&lt;/a&gt; | &lt;a class="next-post" href="/skol" title="skol"&gt;Next&lt;/a&gt;
-&lt;/div&gt;
-&lt;div style="text-align: center;"&gt;
-&lt;a href="mailto:mortalwombat@proton.me"&gt;Reply via email&lt;/a&gt; 
-&lt;/div&gt;
+&lt;h2 id=arlo&gt;Arlo&lt;/h2&gt;&lt;p&gt;A little over 2 weeks ago, a very friendly cat that we hadn't seen before showed up on our back porch. There are people who live near us who have indoor/outdoor cats, so we didn't think much of it. He did keep trying to follow us and our neighbors into our apartments though.&lt;/p&gt;
+&lt;p&gt;He was still there the next day, so we figured he must be someone's lost pet. Our neighbor took him to get scanned for a microchip, and he didn't have one. We decided to keep him in my home studio temporarily until we could find his owner. The neighbor also made a post on a Chicago lost and found pets Facebook group, which got shared pretty widely, and we scoured various lost pet boards and websites (spoiler alert: we never found an owner).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/00kdtss.jpeg" alt="Arlo the cat" /&gt;&lt;/p&gt;
+&lt;p&gt;The next day we noticed he was having bloody diarrhea, so we brought him to an emergency vet. They gave us anti-diarrhea medicine, cleaned out his ears, and very kindly did not charge us for the exam since he was a stray. We declined getting any blood work done because the plan that I was going to call some cat rescues the next day and get him set up somewhere safe.&lt;/p&gt;
+&lt;p&gt;Well, none of the rescues wanted him, and all of them told me that since he was a stray, I should just put him back outside (?!?!). I wasn't going to do that. He clearly wanted to have a home, and I was really starting to bond with the little guy. So my husband Alex and I talked it over and decided to keep him as long as he didn't have anything like FIV or FeLV that he could pass onto our other cat, Ramona. We decided to name him Arlo.&lt;/p&gt;
+&lt;p&gt;We set up an appointment with a regular vet for that Tuesday. I ended up bringing Arlo to the appointment alone, because when the day came, (&lt;em&gt;ominous music plays&lt;/em&gt;) Alex was feeling sick.&lt;/p&gt;
+&lt;p&gt;Long story short, Arlo is around 5 years old and has likely been living outside for a very, very long time. He does not have FIV or FeLV. But he was very, very anemic, and the vet said this would normally require hospitalization. I told her we couldn't afford thousands of dollars to hospitalize him. I also cried a lot.&lt;/p&gt;
+&lt;p&gt;She was very understanding and offered me 2 options since no rescues would take him: euthanasia, or what she called the hail mary option, where she would give him treatment for what she thought was the most likely culprit of his anemia, &lt;a href='https://www.smalldoorvet.com/learning-center/medical/imha-cats'&gt;IMHA&lt;/a&gt;, without any of the expensive tests or hospitalization. Since he was still eating, alert, and affectionate, she thought there was a chance this could work. And while still somewhat expensive, it would cost a fraction of what hospitalization would.&lt;/p&gt;
+&lt;p&gt;I went for the hail mary option. Arlo is the sweetest little guy, and I thought he deserved a chance at life. They gave him a steroid shot, an antibiotic shot, and anti-parasite medication and told us to make a follow-up appointment for two weeks out to get him rechecked.&lt;/p&gt;
+&lt;h2 id=alex&gt;Alex&lt;/h2&gt;&lt;p&gt;I'm going to be a lot more vague about this part for privacy reasons. As we were getting ready to take Arlo to his vet appointment, Alex started feeling sick. He decided to drive himself to urgent care while I took Arlo to his appointment, and then I met him there after I brought Arlo back home. They gave him a referral to a specialist, and he made an appointment for 2 days later (Thursday).&lt;/p&gt;
+&lt;p&gt;On Wednesday, he was feeling better. But on Thursday morning as we were heading to the specialist, he started feeling bad again. The doctor scheduled some tests for a few days out, but we decided to go to the ER next door right away because Alex was feeling so bad.&lt;/p&gt;
+&lt;p&gt;It was a good thing we did that, because he was not doing well. They did some tests that day and moved the other one up to Friday, but he didn't end up getting discharged from the hospital until Sunday.&lt;/p&gt;
+&lt;h2 id=now&gt;Now&lt;/h2&gt;&lt;p&gt;Alex is home and on the mend. The tests ruled out anything scary like cancer or anything that would need surgery, but it's also not as straightforward as something like an infection that he can just get antibiotics for. Basically, he will recover, but he needs time and rest to do so.&lt;/p&gt;
+&lt;p&gt;Arlo's follow-up appointment is tomorrow. I had initially wanted to wait until after we got the results from that appointment to post this, but I didn't want to miss &lt;a href='https://daily.bandcamp.com/features/bandcamp-fridays'&gt;Bandcamp Friday&lt;/a&gt; and potentially miss out on a chunk the of the profits from selling my music.&lt;/p&gt;
+&lt;p&gt;But I will say, although I'm trying not to get my hopes up too much, Arlo seems to be doing well. He's gaining more energy each day and is still eating a ton. He's the sweetest, snuggliest boy, and he's recently become obsessed with a little ball with a bell in it that we gave to him. We are 100% going to keep him. We just really hope that the treatment works and he'll be with us for a long time.&lt;/p&gt;
+&lt;h2 id=if-you-want-to-help&gt;If you want to help&lt;/h2&gt;&lt;p&gt;Unfortunately we live in the US, which means there will probably be a lot of hospital bills. Who knows how much they'll be or when we'll get them! Very cool system we have here! I also had to take some time off work to be with Alex, which was unpaid.&lt;/p&gt;
+&lt;p&gt;Our families have been very kind in helping us with cat expenses so far, but they can't do that forever (nor would we expect them to). Assuming that Arlo pulls through, we don't know how long he'll need to continue getting treatment for his anemia. And then he's going to eventually need to be neutered, chipped, vaccinated, and all that fun stuff once he's healthy.&lt;/p&gt;
+&lt;p&gt;If it was just one thing or the other I probably wouldn't even be making this post. I'm just afraid that very sick husband + very sick cat in the same week will end up dumping a lot of big expenses on us at once.&lt;/p&gt;
+&lt;p&gt;I'm not going to do a GoFundMe because I honestly have no idea how much to ask for. And to be transparent, I wouldn't say our situation is dire, just very uncertain at the moment. More of a "how much of our long-earned savings is this going to deplete" situation than a "how are we going to pay rent" one.&lt;/p&gt;
+&lt;p&gt;Regardless, if you still feel compelled to help out, I've got music available for purchase on &lt;a href='https://megancarnes.bandcamp.com/music'&gt;Bandcamp&lt;/a&gt;, and I have a &lt;a href='https://ko-fi.com/megancarnes'&gt;ko-fi&lt;/a&gt; if you'd rather just throw a few bucks my way. And if you're someone who's in a position to hire a composer or music implementer, &lt;a href='https://www.megancarnesmusic.com'&gt;I am open for work!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thank you so much for reading this whole thing. Much love to you all! 💚&lt;/p&gt;
+</content>
+    <link href="https://magmacranes.bearblog.dev/life-has-been-very-unkind-lately/" rel="alternate"/>
+    <published>2026-05-01T14:43:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://minimal.bearblog.dev/bye-spotify-hello-mp3s/</id>
+    <title>Bye Spotify, hello MP3s</title>
+    <updated>2026-05-01T13:03:00+00:00</updated>
+    <author>
+      <name>minimal</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://live.staticflickr.com/65535/55242445300_211e328d31_b.jpg" alt="" /&gt;
+I was on and off on different streaming subscriptions like Spotify or Apple Music for a long while. I would eventually cancel my subscriptions for 2 main reasons, price and the algorithm.&lt;/p&gt;
+&lt;p&gt;In Germany, Spotify premium it's 12.99€ per month. That's not a huge price tag, but it's also not insignificant. I felt ok paying for it when I was regularly listening to music, but often times I just had periods when I would just listen to a couple of hours per month. So the expense just felt a bit unjustified.
+The non premium version of Spotify is decent for a short listening session, but the ads get really annoying after a while.&lt;/p&gt;
+&lt;p&gt;The second reason is that somehow I would end up listening to always the same music. I have a small number of artists and albums that I really like and I would put them on rotation. Sometimes I would go on the discovery playlist, but somehow I would always end up quite disappointed by the recommendations! I am sure that that's probably just me, since I heard people really like the algorithm recommendations.&lt;/p&gt;
+&lt;p&gt;A couple of months ago I decided to do something different. I made a list of all the albums that I would really like to listen on a regular basis, and then ordered them from this used &lt;a href='https://www.medimops.de/'&gt;music/movies/books&lt;/a&gt; website.
+Here is a list of what I ordered:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;Artist&lt;/th&gt;
+  &lt;th&gt;Album&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td&gt;All Time Low&lt;/td&gt;
+  &lt;td&gt;Nothing Personal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Blink-182&lt;/td&gt;
+  &lt;td&gt;Enema of the State&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Daft Punk&lt;/td&gt;
+  &lt;td&gt;Random Access Memories&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Eminem&lt;/td&gt;
+  &lt;td&gt;The Marshall Mathers LP 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Green Day&lt;/td&gt;
+  &lt;td&gt;21st Century Breakdown&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Green Day&lt;/td&gt;
+  &lt;td&gt;American Idiot&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Imagine Dragons&lt;/td&gt;
+  &lt;td&gt;Night Visions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Linkin Park&lt;/td&gt;
+  &lt;td&gt;Hybrid Theory&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Linkin Park&lt;/td&gt;
+  &lt;td&gt;Meteora&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Nirvana&lt;/td&gt;
+  &lt;td&gt;Best Of Nirvana&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Red Hot Chili Peppers&lt;/td&gt;
+  &lt;td&gt;Californication&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Skrillex&lt;/td&gt;
+  &lt;td&gt;Bangarang EP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Sum 41&lt;/td&gt;
+  &lt;td&gt;All Killer No Filler&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Sum 41&lt;/td&gt;
+  &lt;td&gt;Chuck&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;Sum 41&lt;/td&gt;
+  &lt;td&gt;Screaming Bloody Murder&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td&gt;The Beatles&lt;/td&gt;
+  &lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As you can see I have a bit of a soft spot for early 2000s punk rock music, with a bit of other things that I listened growing up. For the 16 CDs I ended up spending 61,92€.
+Here are some pictures of them:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;&lt;img src="https://live.staticflickr.com/65535/55242190348_030e794f32_b.jpg" alt="" /&gt;&lt;/th&gt;
+  &lt;th&gt;&lt;img src="https://live.staticflickr.com/65535/55241141017_f559d0f3d2_b.jpg" alt="" /&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I am planning to do another order soon as soon as I have made my mind on what CDs I would like to add.&lt;/p&gt;
+&lt;p&gt;I considered using an old mp3 player that I have for playing them, but I decided to just use my phone and the VLC app. The app is not the best, but it's free, open source, not filled with ads and has at least the basics covered (Albums, playlist, random playing).
+Here is how it looks like:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th&gt;&lt;img src="https://live.staticflickr.com/65535/55242282629_f265c5d874_b.jpg" alt="" /&gt;&lt;/th&gt;
+  &lt;th&gt;&lt;img src="https://live.staticflickr.com/65535/55242047546_396d2fdb7d_b.jpg" alt="" /&gt;&lt;/th&gt;
+  &lt;th&gt;&lt;img src="https://live.staticflickr.com/65535/55242190323_3e9eb8d768_b.jpg" alt="" /&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;hr /&gt;
-&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;It surprised me that depending on the jurisdiction, removing DRM from e-books you have purchased for personal use might be in &lt;a href='https://answers.justia.com/question/2025/03/23/is-it-legal-to-remove-drm-from-kindle-eb-1054254'&gt;a legal gray area&lt;/a&gt;. Personally, I find it difficult to argue against on moral grounds (compared to piracy).&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
+&lt;p&gt;I want to conclude with some thoughts on this process:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I really loved the search for the albums that I wanted to buy. I spent hours listening on YouTube to songs in order to decided what I liked most. It feels somehow more definitive when you invest some money on a CD versus just opening a streaming app.&lt;/li&gt;
+&lt;li&gt;The limited number of songs (approx 230 songs / 14h listen time) has not been boring. Actually quite the opposite. Not having the freedom to just skip for something else makes me just appreciate the song more and not have fomo. I often felt like Spotify was a tiktok-like experience.&lt;/li&gt;
+&lt;li&gt;Not having ads is great. Not having a recurrent fee is also great. Knowing that I now own the music and I don't need an internet connection to play them is just awesome.&lt;/li&gt;
+&lt;li&gt;Listening to a full album is something that I missed. There is something very relaxing to go from the first till the last song of an album and not just get the greatest hit.&lt;/li&gt;
+&lt;li&gt;I do still occasionally listen to the non-premium version of Spotify. The I find the desktop experience better and with less ads.&lt;/li&gt;
+&lt;li&gt;I often put on the radio when I want to listen something completely new. There are many radios which are ad-free (for example, &lt;a href='https://www.dasding.de/index.html'&gt;DASDING&lt;/a&gt;) and do some small moderation while proposing top pop hits.&lt;/li&gt;
+&lt;li&gt;I have since the first order bought some other CDs from used stores around my city. The price it's even lower than online, usually ~1€. This makes for a fun and sporadic activity.&lt;/li&gt;
+&lt;li&gt;The CDs make for a nice decorative item our home, and a conversation starter, especially if it's an album that the guest likes as well.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
-    <link href="https://wombat.bearblog.dev/a-year-on-an-e-reader/" rel="alternate"/>
-    <published>2026-04-29T18:54:00+00:00</published>
+    <link href="https://minimal.bearblog.dev/bye-spotify-hello-mp3s/" rel="alternate"/>
+    <published>2026-05-01T13:03:00+00:00</published>
   </entry>
   <entry>
-    <id>https://pseudosingleton.com/reddit-now-forces-you-to-use-their-app-on-mobile/</id>
-    <title>reddit now forces you to use their app on mobile</title>
-    <updated>2026-05-01T02:02:00+00:00</updated>
+    <id>https://scribblypam.bearblog.dev/lets-steal-ais-job/</id>
+    <title>let's steal ai's job</title>
+    <updated>2026-05-01T12:07:00+00:00</updated>
     <author>
-      <name>pseudosingleton</name>
+      <name>scribblypam</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;One of my personal rules for social media is that I only use the web version of sites. The web version is better for privacy, far less addictive, and makes my phone less bloated.&lt;/p&gt;
-&lt;p&gt;In the last few days, Reddit added a great new feature to the the mobile web version of their site.&lt;/p&gt;
-&lt;p&gt;Now, when you try to browse their site on your phone, you will encounter the below paywall-esque popup after scrolling a bit.&lt;/p&gt;
-&lt;div class="preview"&gt;
-&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/pseudosingleton/image-1.webp" alt="Reddit displays a popup saying 'Get the app to keep using reddit.' Really should say 'get the app so we can serve you better ads.'"/&gt;
+    <content type="html">&lt;div style="background-color:#ffcdf0; color:#000; border-left:4px solid #ffa0d7; padding:1em; margin:1em 0; border-radius:0.5em; text-align:center;"&gt;
+"in a world looming with the threat of ai stealing your job, save humanity by stealing ai's job."
 &lt;/div&gt;
-&lt;p&gt;You cannot dismiss the popup. You must download the app or request a desktop version of the site.&lt;/p&gt;
-&lt;p&gt;I guess finally a good enough nudge to finally quit Reddit completely.&lt;/p&gt;
-&lt;p&gt;No love lost&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; ¯\_(ツ)_/¯&lt;/p&gt;
-&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;Okay, some love lost. Reddit contains many of the remaining forums on the internet, so it sucks those won't be reachable anymore.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
+&lt;p&gt;This is the hilarity that headlines &lt;a href='https://youraislopbores.me/' target='_blank'&gt;Your AI Slop Bores Me&lt;/a&gt;, a website by programmer &lt;a href='https://www.fastcompany.com/91505685/your-ai-slop-bores-me-website-game-makes-humans-larp-chatgpt' target='_blank'&gt;Mihir Maroju&lt;/a&gt; where you write a prompt and a human being somewhere in the world roleplays as the AI responding to it.&lt;/p&gt;
+&lt;p&gt;The system is set up pretty simply – you can either use 1 credit to enter a prompt, or LARP (live-action roleplay) as an AI to earn 1 credit. If you LARP, you have 60 seconds to answer a writing or doodling prompt, otherwise Sam Altman burns your H100. (That's a direct quote.) If you'd like to give the "AI" more thinking time, you can spend 2 credits.&lt;/p&gt;
+&lt;p&gt;You do end up having to wait a few minutes when LARPing, as there are a bunch of other people waiting to steal AI's job with you. But you can always go do other things in the meantime – the website notifies you with a nice "ding!" sound when a prompt is ready for you, when someone's answered your prompt, or when someone has liked one of your answers.&lt;/p&gt;
+&lt;p&gt;I tried out a variety of prompts to see what the vibe was, and I was not disappointed:
+&lt;img src="https://i.ibb.co/C3Y4Yzgz/yasbom-history-2026-05-01.png" alt="my prompts" /&gt;&lt;/p&gt;
+&lt;p&gt;I LARPed a little, too:
+&lt;img src="https://i.ibb.co/t6Chqq8/Screenshot-2026-05-01-at-14-40-33.png" alt="my answer" /&gt;&lt;/p&gt;
+&lt;p&gt;It's very reminiscent of good-old-days Internet (StumbleUpon, anyone?), and has exactly the kind of &lt;a href='https://www.reddit.com/r/YourAISlopBoresMe/' target='_blank'&gt;playful shitposting energy&lt;/a&gt; that we'd find on sites like &lt;a href='https://web.archive.org/web/20100514045807/http://mylifeisaverage.com/' target='_blank'&gt;mylifeisaverage&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It may look silly on the surface, but ultimately, it's a vehemently human experience that uses the whimsical as a vehicle for protest.&lt;/p&gt;
+&lt;p&gt;So what are you waiting for? &lt;a href='https://youraislopbores.me/' target='_blank'&gt;Go steal AI's job.&lt;/a&gt;&lt;/p&gt;
 </content>
-    <link href="https://pseudosingleton.com/reddit-now-forces-you-to-use-their-app-on-mobile/" rel="alternate"/>
-    <published>2026-05-01T02:02:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://rnotte.art/rejecting-convenience/</id>
-    <title>rejecting convenience</title>
-    <updated>2026-04-29T21:11:24.627067+00:00</updated>
-    <author>
-      <name>rnotte</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;as i grew through my adult years, one thought has been running through my head over and over again:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;"how much have humans been sacrificing in the name of 'convenience'?"&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;that word... the word &lt;strong&gt;"convenience"&lt;/strong&gt; has become my least favorite word in the english language. i can't stand it. so many things that are bad for humans' social lives, health, and well-being, are consistently used because they're &lt;strong&gt;"convenient"&lt;/strong&gt;. why bother going to the brick-and-mortar store? amazon is more &lt;strong&gt;"convenient"&lt;/strong&gt;. why bother cooking a nice meal for yourself? doordash and uber eats are more &lt;strong&gt;"convenient"&lt;/strong&gt;. why go out and socialize with people? facebook is more &lt;strong&gt;"convenient"&lt;/strong&gt;. why use a digital camera, camcorder, or polaroid? your smartphone is more &lt;strong&gt;"convenient"&lt;/strong&gt;. why bother going to the theater or concerts? netflix and spotify are more &lt;strong&gt;"convenient"&lt;/strong&gt;. why bother making art? asking an AI to generate it for you is more &lt;strong&gt;"convenient"&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;well, i say nuts to that. from now on, i'm going to make my life as &lt;em&gt;inconvenient&lt;/em&gt; as possible. i'm going to go to the store and buy stuff in person. i'm going to make my own food with my own hands. i'm going to socialize with people face-to-face. i'm going to use a true camera instead of my phone's camera. i'm going to buy blu-rays, DVDs, and CDs instead of streaming. i'm going to take my time when creating, watching, playing, and reading a work of art.&lt;/p&gt;
-&lt;p&gt;i don't want to sound high-and-mighty with this. you're not a bad person for using streaming services. but not only are these &lt;strong&gt;"convenient"&lt;/strong&gt; systems costing more money, they're costing humans' social lives and life skills, the most important things that make us human. so, in the interest of keeping my humanity, i'm going to live my life the &lt;em&gt;inconvenient&lt;/em&gt; way.&lt;/p&gt;
-&lt;p&gt;and if you can, i invite you to join me in rejecting &lt;strong&gt;convenience&lt;/strong&gt;.&lt;/p&gt;
-</content>
-    <link href="https://rnotte.art/rejecting-convenience/" rel="alternate"/>
-    <published>2026-04-29T21:11:24.627067+00:00</published>
-  </entry>
-  <entry>
-    <id>https://stitching.bearblog.dev/your-instagram-account-is-scheduled-for-deletion/</id>
-    <title>Your Instagram account is scheduled for deletion</title>
-    <updated>2026-04-29T20:57:00+00:00</updated>
-    <author>
-      <name>stitching</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Yesterday, I deleted one of my Instagram accounts. I had two, actually. The first one was used when I was in high school and college, and that was where I followed classmates and friends. The only photos I uploaded there were more personal - a graduation photo, some more artsy pictures that were taken when I traveled, that kind of thing. I hadn’t checked that account in months, so I decided to just pull the plug on it. The second account was mostly used for things involving my hobbies or for following local businesses, and that was the one that was harder to let go of. &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;I tried to think about why that was, and I listed out some reasons. &lt;br&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;I follow along with what local businesses are doing. For example, what special events is the yarn store or bookstore putting on for the community this month? Has a coffee shop or food truck changed its seasonal menu?&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;I follow a lot of crafters, and seeing other peoples’ projects can inspire me and introduce me to new patterns, designers, and crafting techniques. I occasionally like and comment on these things and sometimes I’ll post pictures to show off my work, too.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Every Tuesday, the local bookstore’s account will post new releases to their story. I get introduced to interesting books that I can add to my TBR (to be read) list.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;I watch reels (funny things and recipes, mostly) and share them with friends or save the recipes to try later. I’ve found some great recipes this way!&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;I didn’t really… interact with other people on Instagram in a meaningful way, though. To ease my reluctance to deactivate my account, I revisited each point and thought about what I could do to still achieve these things outside of an Instagram account. &lt;br&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;I can go onto individual businesses’ websites and sign up for email newsletters to stay updated on their events. Most local businesses I have in mind already have websites set up.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;I’m already subscribed to a few crafting subreddits. I can browse through those or share my projects there, and I can still get inspiration from those pages.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;New books are released every Tuesday. I checked my local bookstore’s website and they have a page for new releases. I can just bookmark that page and check it manually rather than viewing the bookstore’s Instagram story every Tuesday.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;I don’t need to view short-form video content, especially as I know how bad it is for our brains and our attention spans. I don’t need funny reels to laugh and I don’t need recipe reels to cook. I own several cookbooks and (of course) I follow some cooking and baking subreddits if I really want to go looking for inspiration.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Making this list and writing it out really helped me to realize that there is nothing unique or exclusive that I can only get from Instagram. Afterwards, I went ahead to the settings page of my second account and “scheduled my account’s deletion” — because Meta doesn’t allow you to delete your account immediately. It schedules it out by one month, probably in the hopes that you’ll change your mind before that month is up. &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;I feel good, though! This means that since the start of 2026, I’ve deleted my Facebook and Instagram accounts. I’m not totally trying to step away from all websites, but I do want to leave most social medias that aren’t benefitting me in any way. I think Reddit will be harder to stay away from, and I am working to minimize the time spent on that site, at least. I think I’m off to a good start!&lt;/p&gt;
-</content>
-    <link href="https://stitching.bearblog.dev/your-instagram-account-is-scheduled-for-deletion/" rel="alternate"/>
-    <published>2026-04-29T20:57:00+00:00</published>
+    <link href="https://scribblypam.bearblog.dev/lets-steal-ais-job/" rel="alternate"/>
+    <published>2026-05-01T12:07:00+00:00</published>
   </entry>
   <entry>
     <id>https://monocyte.blog/my-favourite-unconventional-animal/</id>
@@ -222,118 +308,6 @@ gif of a pumpkin toadlet jumping from Richard Essner of Southern Illinois Univer
 </content>
     <link href="https://monocyte.blog/my-favourite-unconventional-animal/" rel="alternate"/>
     <published>2026-04-30T15:19:20.347244+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blog.solazy.me/20260429/</id>
-    <title>独立博客，难在不够独立</title>
-    <updated>2026-04-29T07:00:00+00:00</updated>
-    <author>
-      <name>sol</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/sol/saurav-mahto-ijwb7urjqyo-unsplash.webp" alt="saurav-mahto-ijWb7URJQyo-unsplash" /&gt;&lt;/p&gt;
-&lt;p&gt;经常能听到一种声音，说在当下的互联网环境里，坚持写独立博客是一件极难的事情。这种「难」往往被指向几个维度：技术维护的琐碎、内容的持续产出、流量的匮乏以及社交反馈的缺失。&lt;/p&gt;
-&lt;p&gt;但在我看来，如果一个人觉得独立博客难，很大程度上是因为他还没有实现真正的「独立」。&lt;/p&gt;
-&lt;p&gt;我们得承认，在这个世界上并没有什么事情是绝对简单的。但「难」与「难」之间存在本质的区别。如果你依附于某家公司，或者身处某个自媒体矩阵之中，那种「难」是具体的、有压迫感的。&lt;/p&gt;
-&lt;p&gt;你需要考虑更新频次，需要维持内容的垂直度，需要精准地捕捉算法的喜好，因为那是你的 KPI，是你获取生存资源的筹码。在那样的语境下，「难」是常态，因为你的意志必须服从于某种商业逻辑或平台规则。&lt;/p&gt;
-&lt;p&gt;可是，当你选择「独立博客」这个载体时，你已经从上述的所有枷锁中抽身而出了。既然已经「独立」了，这种「难」的感触究竟是从哪里来的？&lt;/p&gt;
-&lt;p&gt;很多时候，这种压力是自己强加给自己的。&lt;/p&gt;
-&lt;p&gt;独立博客不应该仅仅是技术手段上的自主，即拥有一台服务器、一个域名和一套自己挑选的主题。它更应该是一个人独立意志的具现化。如果你的博客内容、更新节奏甚至遣词造句的风格，依然在随着他人的意志或外界的评价而不断摇摆，那么这依然称不上是独立博客。它只是一个被你搬到了私人领地上的「朋友圈」或者「营销号」。&lt;/p&gt;
-&lt;p&gt;有些人觉得难，是因为他们太看重「读者」了。他们预设了一个庞大的观众群体，总觉得自己写出来的东西必须得给别人带去点什么，或者必须得到某种肯定和回馈。其实这未免有些太高看自己了。在信息过载的今天，并没有多少人会时刻盯着你的思考。&lt;/p&gt;
-&lt;p&gt;我们要看清一件事情的主次。独立博客首先是用来记录和呈现自我的工具。它是一个树洞，也是一座实验室，它是为了满足我们自身表达和梳理思维的欲望。如果我们能把「记录自己」放在「谋求肯定」之前，那些所谓的坚持不下去的「难」瞬间就会消散。&lt;/p&gt;
-&lt;p&gt;因为为你自己做事是不需要「坚持」的，只有为别人做事才需要。&lt;/p&gt;
-&lt;p&gt;从这个角度出发，独立博客难不难，其实取决于一个人人格内核的完整度。凡事如果能做到向内求，事情就会变得顺理成章。独立博客这种极其私人的产物，理应完全为自己考量。它不应该为了凑够某个字数而堆砌文字，也不应该为了迎合某种流行话题而强行发声。&lt;/p&gt;
-&lt;p&gt;当一个人不再向外寻求认同，不再被那种「必须产出精品」的虚荣心所绑架时，博客就不再是一项任务，而是一种生活方式。&lt;/p&gt;
-&lt;p&gt;所以，如果你依然在为如何运营好一个独立博客而感到痛苦，或许可以停下来审视一下：你是在为谁而写？你所追求的独立，究竟是代码层面的独立，还是精神层面的独立？&lt;/p&gt;
-&lt;p&gt;当你真正做到精神上的独立，不再为他人的独立意志而改变自己的表达时，你会发现，在这个自由的自留地里，根本不存在「难」这种说法。剩下的只有表达的快感，和与自己对话的宁静。&lt;/p&gt;
-</content>
-    <link href="https://blog.solazy.me/20260429/" rel="alternate"/>
-    <published>2026-04-29T07:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://migrainebrain.bearblog.dev/people-who-dont-use-ai-will-be-left-behind/</id>
-    <title>"People who don't use AI will be left behind"</title>
-    <updated>2026-04-28T17:33:00+00:00</updated>
-    <author>
-      <name>migrainebrain</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;"People who don't use AI will be left behind", they say.
-I can't emphasize enough how much I hate it when I hear/read shit like that because I'm pretty sure, in fact, that what will happen is the exact opposite.&lt;/p&gt;
-&lt;p&gt;People who rely on AI are the ones who will be left behind. They'll forget how to think, how to write, how to do a simple reliable search, how to tell fact from fiction... they'll forget how to fucking LEARN.
-I think that's the part that makes me the saddest. What a beautiful thing it is just to learn stuff.&lt;/p&gt;
-&lt;p&gt;If you believe chat GPT can do better than you, why would you just let it? Why wouldn't you aim to be better, to learn how to be or do something that AI would never?&lt;/p&gt;
-&lt;hr /&gt;
-&lt;div class="reply-email"&gt;
-  &lt;a href="mailto:hablacomigo@proton.me?subject=Re:%20&amp;quot;People who don&amp;#x27;t use AI will be left behind&amp;quot;"&gt;Reply to this post.&lt;/a&gt;
-&lt;/div&gt;
-or don't.
-&lt;hr /&gt;
-&lt;p&gt;&lt;a class="previous-post" href="/being-rude-anonymously-online" title="being rude anonymously online"&gt;Previous&lt;/a&gt; &lt;/p&gt;
-</content>
-    <link href="https://migrainebrain.bearblog.dev/people-who-dont-use-ai-will-be-left-behind/" rel="alternate"/>
-    <published>2026-04-28T17:33:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://guinevak.bearblog.dev/its-time-we-stopped-calling-them-tweets/</id>
-    <title>It's time we stopped calling them tweets</title>
-    <updated>2026-04-28T16:22:00+00:00</updated>
-    <author>
-      <name>guinevak</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I know a lot of people are still mourning the breakup of their toxic relationships with the Hellpit Formerly Known As Twitter, but it's time to move on.&lt;/p&gt;
-&lt;p&gt;And in token of that, I vote we start calling X posts something more appropriate, like, say, Xcretions.&lt;/p&gt;
-</content>
-    <link href="https://guinevak.bearblog.dev/its-time-we-stopped-calling-them-tweets/" rel="alternate"/>
-    <published>2026-04-28T16:22:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://forkingmad.blog/who-knows-that-you-blog/</id>
-    <title>Who knows that you blog?</title>
-    <updated>2026-04-28T17:28:00+00:00</updated>
-    <author>
-      <name>forkingmad</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Question for the audience:  Do you tell people you blog?&lt;/p&gt;
-&lt;p&gt;I was reflecting on this recently, after I inadvertently mentioned to a colleague that I had blogged about a topic a few days earlier.  That, of course, started the questioning from them: Oh, what's it called?  What do you write about?  Can I see it?&lt;/p&gt;
-&lt;p&gt;I reluctantly recited the web address.  I have no idea if they did/will look.  But then I wondered:  Why was I so restrained to promote my blog to a real-life-person-type.&lt;/p&gt;
-&lt;h2 id=public-is-public&gt;Public is Public&lt;/h2&gt;&lt;p&gt;I totally accept that everything I say online is Public.  I often remind people that what they are saying on &lt;em&gt;the socials&lt;/em&gt; could haunt them in the future.   Nothing is really private on the internet.&lt;/p&gt;
-&lt;p&gt;My test for what I recount online is simple:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Would I stand in the middle of a town-square, and proclaim this to anyone who stops to listen?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;If the answer is No, then I would not write it online.&lt;/p&gt;
-&lt;h2 id=nothing-to-hide&gt;Nothing to hide&lt;/h2&gt;&lt;p&gt;I've therefore nothing to hide in what I have said. I stand by it all.&lt;/p&gt;
-&lt;p&gt;So why do I not tell &lt;em&gt;people&lt;/em&gt; that I blog?&lt;/p&gt;
-&lt;p&gt;I'm not sure I have the answer!  I am not ashamed.  I just feel that this is my little outlet, that requires no discussion with my friends or family!  My other-half knows I blog but has never once asked what I blog about, or what the address is!&lt;/p&gt;
-&lt;p&gt;I appreciate some people like to be anonymous when blogging.  That's their choice.  I am an open book.  You can ask me anything and I will reply honestly, as long as it conforms to my &lt;em&gt;town-square&lt;/em&gt; rule.&lt;/p&gt;
-&lt;p&gt;Back to you:  Do you tell people you blog?&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/forkingmad/communityechoes-1.webp" alt="Community Echoes" /&gt;&lt;/p&gt;
-&lt;div style="border: 1px dashed; font-size: 85%; padding: 10px; line-height:1.4em; box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; border-radius:10px;"&gt;
-&lt;p&gt;Here are a few other blog posts responding to my question. &lt;a href='https://forkingmad.blog/contact/'&gt;Shout&lt;/a&gt; if you want your own added.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href='https://thatalexguy.dev/re-who-knows-that-you-blog'&gt;Alex White&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://rausgerufen.de/who-knows-that-you-blog'&gt;Rausgerufen / Ransomed&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://kevquirk.com/who-knows-that-you-blog'&gt;Kevin Quirk&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://wrywriter.ca/posts/re-who-knows-that-you-blog'&gt;the Wry Writer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://www.gordonmclean.co.uk/2026/04/29/who-knows-that-you-blog/'&gt; Gordon @ Happily Imperfect&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://kaigulliksen.com/re-who-knows-that-you-blog/'&gt;Kai Gulliksen&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://ptrbrynt.com/posts/re-who-knows-that-you-blog/'&gt;Peter Bryant&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://firesphere.dev/articles/re-who-knows-that-you-blog'&gt;Simon @ Firesphere&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://martinvukovic.com/posts/2026/04-30-quien-sabe.html'&gt;Martín&lt;/a&gt; 🇪🇸&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://blog.gridranger.dev/who-knows-that-you-blog/'&gt;Dávid Bárdos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://maintz.org/re-who-knows-that-you-blog'&gt;Melli&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id="comments"&gt;&lt;/div&gt;
-&lt;script src="https://pure.komments.cloud/public/embed.js" defer&gt;&lt;/script&gt;
-&lt;div class="bubbles-vote"&gt;&lt;/div&gt;
-&lt;script src="https://bubbles.town/vote.js" defer&gt;&lt;/script&gt;
-</content>
-    <link href="https://forkingmad.blog/who-knows-that-you-blog/" rel="alternate"/>
-    <published>2026-04-28T17:28:00+00:00</published>
   </entry>
   <entry>
     <id>https://hwisnu.bearblog.dev/crescent-dataframe-library-in-c23-built-using-safe_ch-and-cforge/</id>
@@ -906,6 +880,289 @@ Note: above is a warm-run of the benchmark, note how Crescent is very clean with
     <published>2026-05-01T04:25:00+00:00</published>
   </entry>
   <entry>
+    <id>https://diels-daydreams.bearblog.dev/i-made-a-cake/</id>
+    <title>I made a cake!</title>
+    <updated>2026-05-02T19:00:00+00:00</updated>
+    <author>
+      <name>diels-daydreams</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I made a cake! (Yesterday, but I didn’t have time to post it)&lt;/p&gt;
+&lt;p&gt;Just a simple cake. I thought of leaving the recipe here, but I’m sure you can find it if you search something like “simple chocolate cake recipe”. I just added two layers of brigadeiro, one in the middle and another above, and finished with store bought chantilly and sprinkles.&lt;/p&gt;
+&lt;p&gt;It was delicious anyway!&lt;/p&gt;
+&lt;div class="gallery"&gt;
+&lt;p&gt;&lt;a href='https://i.ibb.co/VWrSzznP/20260501-163041.jpg.webp'&gt;&lt;img src="https://i.ibb.co/VWrSzznP/20260501-163041.jpg.webp" alt="Photo" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://i.ibb.co/93V8hxSR/20260501-175445.jpg.webp'&gt;&lt;img src="https://i.ibb.co/93V8hxSR/20260501-175445.jpg.webp" alt="Photo" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;center&gt;
+· • —– ٠ ✤ ٠ —– • · · • —– ٠ ✤ ٠ —– • ·· • —– ٠ ✤ ٠ —– • ·
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+&lt;p&gt;· • —– ٠ ✤ ٠ —– • ·· • —– ٠ ✤ ٠ —– • ·· • —– ٠ ✤ ٠ —– • ·&lt;/p&gt;
+&lt;/center&gt;
+&lt;div class="reply-email"&gt;
+  &lt;a href="https://letterbird.co/dielisdaydreaming"&gt;Reply to this post&lt;/a&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://diels-daydreams.bearblog.dev/i-made-a-cake/" rel="alternate"/>
+    <published>2026-05-02T19:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://futureperfect.bearblog.dev/my-ideal-blog/</id>
+    <title>My ideal blog</title>
+    <updated>2026-05-01T00:09:00+00:00</updated>
+    <author>
+      <name>futureperfect</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I wish more blogs were like the old school online journals. People just talking about their day. Not too much detail, not too confident in their opinions, not trying to prove any points, etc.&lt;/p&gt;
+&lt;p&gt;This certainly is not an attack on anybody. My blog isn’t like that either. For some reason it just feels more natural to write the way you typically see others write on their blogs in the modern era(at least what I normally see on the discovery/trending pages on bear).&lt;/p&gt;
+&lt;p&gt;That old LiveJournal/Xanga/MySpace blog style of post just felt more personal, though. Less like an op-ed.&lt;/p&gt;
+&lt;p&gt;Maybe I’m just stuck in a nostalgia trap right now. But I want to start posting more like that.&lt;/p&gt;
+&lt;p&gt;Tomorrow is Friday. This week has been excruciatingly long. Let’s finish strong and cruise into the weekend!&lt;/p&gt;
+</content>
+    <link href="https://futureperfect.bearblog.dev/my-ideal-blog/" rel="alternate"/>
+    <published>2026-05-01T00:09:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.absurdpirate.com/spread-hope/</id>
+    <title>Spread Hope</title>
+    <updated>2026-04-30T18:42:55.630617+00:00</updated>
+    <author>
+      <name>absurdpirate</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;It's getting dark out there. Fascism is wanting to rear its ugly head, people are getting propagandized to hate each other, we're more stressed and neurotic than ever, shit is getting more expensive, and people are struggling to make ends meet. Instead of despair, I ask you to be a beacon of light in the dark. I want you to help spread hope.&lt;/p&gt;
+&lt;p&gt;Hope is found in the smallest of actions. It's found in when we help others without asking. It's when we open an ear and lend a hand. It's feeding and giving to people who have far less than you. It's being a friend. It's volunteering when and where you can. It's helping the sick, the elderly, the young, the frightened.&lt;/p&gt;
+&lt;p&gt;I do not say this like it is easy. It's far easier to ignore everything and turn a blind eye to the suffering, but you cannot hide from it forever. So what will you do? Succumb, or embrace your fellow sufferers?&lt;/p&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/when-does-collecting-become-overconsumption" title="When Does Collecting Become Overconsumption?"&gt;Previous&lt;/a&gt; | &lt;a class="next-post" href="/people-are-full-of-shit-when-someone-dies" title="People Are Full of Shit When Someone Dies"&gt;Next&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reply via email: &lt;a href='mailto:me@absurdpirate.com'&gt;me@absurdpirate.com&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h3 id=as-of-writing-this&gt;as of writing this...&lt;/h3&gt;&lt;p&gt;I have applied to become a court appointed special advocate for children. I've been putting it off due to time constraints, but I'm in a spot now where I can dedicate the time. Going to a funeral for my wife's grandfather this weekend, we weren't particularly close for a plethora of reasons, so we're mostly showing up to support my MIL.&lt;/p&gt;
+</content>
+    <link href="https://blog.absurdpirate.com/spread-hope/" rel="alternate"/>
+    <published>2026-04-30T18:42:55.630617+00:00</published>
+  </entry>
+  <entry>
+    <id>https://heychat.bearblog.dev/you-wont-be-left-behind-if-you-dont-use-ai/</id>
+    <title>You Won't Be Left Behind if You Don't Use AI</title>
+    <updated>2026-04-30T16:46:00+00:00</updated>
+    <author>
+      <name>heychat</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Every time I see "people who don't use AI will be left behind," I roll my eyes. When &lt;a href='http://migrainebrain.bearblog.dev/people-who-dont-use-ai-will-be-left-behind/' target='_blank'&gt;migraine brain's post&lt;/a&gt; came up on the trending Bearblog posts I gave out a little "huzzah!" because I love seeing the contrarian views.&lt;/p&gt;
+&lt;p&gt;You know what I also heard that about constantly 10 years ago? &lt;a href='https://tcaflisch.medium.com/the-evolution-of-smart-home-technology-c3b3f918fc8c' target='_blank'&gt;Smart homes&lt;/a&gt;. I'm not a person who has monitored economics over my decades of life, but I've been interested in technology and how people use it since I was a kid. These passive observations have become patterns over time, and it turns out lots of people have done research and written papers on what I've seen. I'll take some cues from them to help you see what I'm seeing.&lt;/p&gt;
+&lt;p&gt;We're currently in the "Gold Rush" phase of AI, a 5- to 10-year window where companies are blindly seeking "AI skills" without a clear definition of what that means. Companies are blindly adopting AI products without considering the user workflow or whether it makes sense. Futurists are making wild statements about the future of AI based on how they'd ilke it to progress. If you're not using an LLM to draft your emails or build your slide decks, the rhetoric suggests you're making yourself obsolete.&lt;/p&gt;
+&lt;p&gt;If you just look back into recent history you'll see several different possible endings depending on how people choose to use the technology: the most transformative technologies become invisible, moving from revolution to lifestyle choices. The reactions we're seeing are in perfect alignment with the &lt;a href='https://en.wikipedia.org/wiki/Technology_adoption_life_cycle' target='_blank'&gt;Technology Adoption Life Cycle&lt;/a&gt;. We are seeing the same patterns we saw with the dawn of the personal computer, word processing, and the internet.&lt;/p&gt;
+&lt;p&gt;In the 1990s there was a persistent fear that if you didn't learn to "code" or couldn't talk about all aspects of a LAN, you would become unemployable. For several years, webmasters were the highest paid people in the office because they possessed specialized skills in this new world. As the technology matured, it leveled out. Today being "good at the internet" isn't a job skill, it's a baseline utility, and you don't need to know anything about how it technically works to use it. There are millions of successful professionals who don't even use the internet in their jobs. The technology didn't replace or dictate the future of the workforce like initially predicted.&lt;/p&gt;
+&lt;p&gt;The "Smart Home" is the best metaphor I can think of when it comes to AI. A decade ago, tech enthusiasts predicted that every home would be a fully automated hub of &lt;a href='https://en.wikipedia.org/wiki/Internet_of_things' target='_blank'&gt;Internet of Things (IoT)&lt;/a&gt; devices, and those who didn't adapt would live in "dumb," inefficient homes. Today, our dumb houses are functioning perfectly well. In fact, I think today there are so many ads all over smart home devices that people are grateful they never adopted the "smart home" approach. I don't think AI will be any different. It enhances if you choose to use it, but you're not at a loss if you don't. Smart home adoption is a niche now. After the initial decade of frantic adoption and panic, AI will likely settle into the background as a tool for those who want it, while leaving the core of human work (judgment, empathy, physical presence) largely untouched.&lt;/p&gt;
+&lt;p&gt;We are also seeing this "evening out" with social media and smart watches. There was a period where "digital presence" was advertised as "mandatory" for any professional brand, yet we are seeing a trend of executives and creatives going out of their way to avoid the &lt;a href='https://aandrewdunn.medium.com/how-to-turn-off-and-drop-out-of-the-attention-economy-2e68f834d842' target='_blank'&gt;attention economy&lt;/a&gt;. While smart watches offer health insights, they haven't made analog watches obsolete. These technologies transitioned from being "the only path forward" to being "another option if that's what you prefer."&lt;/p&gt;
+&lt;p&gt;We'll likely continue to see AI-first hiring for a decade, which will be frustrating for people who prefer not to use it. However, &lt;a href='https://www.gartner.com/en/research/methodologies/gartner-hype-cycle' target='_blank'&gt;the hype will reach its peak and plateau&lt;/a&gt;, and &lt;a href='https://www.pewresearch.org/internet/2014/08/06/future-of-jobs/' target='_blank'&gt;"AI specialist" roles will likely be folded back into general roles&lt;/a&gt;. The "human in the loop" will remain the most valuable asset because while AI can simulate "what," it struggles with "why."&lt;/p&gt;
+&lt;p&gt;You won't be left behind by a machine. You'll be living in a world where the machine is another appliance to use to some goal or end. Some people will swear by it but others will find it completely unnecessary and live/work/play fine without it.&lt;/p&gt;
+</content>
+    <link href="https://heychat.bearblog.dev/you-wont-be-left-behind-if-you-dont-use-ai/" rel="alternate"/>
+    <published>2026-04-30T16:46:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://forkingmad.blog/powered-by-linux/</id>
+    <title>I'm finally Powered By Linux</title>
+    <updated>2026-04-30T17:46:00+00:00</updated>
+    <author>
+      <name>forkingmad</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I think I have &lt;em&gt;made it&lt;/em&gt; to Linux.  It's now my desktop of choice 99.9% of the time.&lt;/p&gt;
+&lt;p&gt;I've experimented in Linux for centuries!  In the early days there was always something major holding me back from getting serious with our penguin friend.&lt;/p&gt;
+&lt;p&gt;It was often a driver problem -- unable to recognise my display, sound card, external drive, etc.   Things have moved on.  More clever people have contributed to Linux, and I guess tech has got simpler; all inclusive and more standard.&lt;/p&gt;
+&lt;p&gt;Fast forward to the last few years and I have been enthusiastically trying to adopt it as my home operating system of choice.  The issue is that Linux comes in more flavours than the selection at an ice-cream parlour.   Generalising a little, I think it's fair to say almost all come from a few base sets of code, and people add the bells and whistles to make it stand-out from the crowd, or do some specialised tasks.&lt;/p&gt;
+&lt;h2 id=what-i-settled-on&gt;What I settled on?&lt;/h2&gt;&lt;p&gt;I've worked through many of the flavours.  Sometimes spending moments on their website, and on other occasions doing an install.  I quickly learned that I could spin up virtual machines to experiment, rather than trash or partition my live desktop computer.&lt;/p&gt;
+&lt;p&gt;Much reading, listening, and evaluating later I decided to stick with Ubuntu.  I like the feeling of being quite close to the &lt;em&gt;core&lt;/em&gt;, and I'm not too interested in a &lt;em&gt;Disney layer&lt;/em&gt; added over the top with sparkly bits.&lt;/p&gt;
+&lt;p&gt;I then installed Ubuntu on an old MacBook Pro I had.  It might be 10 years old, but it's a great machine.  It's just a shame that the hooligans at Apple decided to exclude older hardware from running later operating systems.  I totally wiped MacOS and installed Ubuntu. There were a few coughs and splutters along the way and it didn't find my wireless hardware.  I thought, "hell, here we go again!".  Some searching via my desktop computer and I found the fix.  I downloaded some drivers and applied them.  Not as simple as you might think as the laptop was not online!  I got there, with some friction.&lt;/p&gt;
+&lt;p&gt;While working with this hiccup, other people were singing the praises of Linux Mint.  I figured I might as well have a look as I had a bare Ubuntu laptop and had not installed anything extra yet.&lt;/p&gt;
+&lt;p&gt;Linux Mint just got on with the job.  No hiccups.  It found my built-in camera, microphone, WiFi, etc.  It even recognised the magic required to backlight the keyboard on the mac, and adjust it too.&lt;/p&gt;
+&lt;p&gt;In the end, I've settled on Linux Mint and have been running it on my Desktop and Laptop for about a year.&lt;/p&gt;
+&lt;h2 id=dual-booting&gt;Dual-booting&lt;/h2&gt;&lt;p&gt;I kept my Windows 11 partition on the desktop PC — I need to jump back to Windows for some work-related stuff.  Mostly for Teams for meetings, as there is no native app for Linux (why?).  Grrr.&lt;/p&gt;
+&lt;p&gt;However, over the last couple of months I have decided to stay in Linux and use the web-version of Teams.  It actually works just as well.  I've not hit any problems.  The camera and my bluetooth headset work perfectly; I can share my screen/window/tab when presenting; chat works.  All good.&lt;/p&gt;
+&lt;p&gt;Teams still consumes lots of processor juice when you're in a call -- have you noticed how your cooling fan sounds like an aircraft preparing for take-off?  What is that all about?  Lazy, inefficient, coding I guess. If I use zoom, or other video calling apps, I don't feel like I am about to be blown off my desk.&lt;/p&gt;
+&lt;h2 id=virtual-windows&gt;Virtual Windows&lt;/h2&gt;&lt;p&gt;Sometimes I do need to run a windows app -- Excel mostly.  I tried Wine (&lt;del&gt;windows emulator&lt;/del&gt;  compatibility layer capable of running Windows applications &lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;) but I honestly got lost trying to make it work.  Far too fiddly.  I also tried Bottles.  Same idea.  Doesn't really work.&lt;/p&gt;
+&lt;p&gt;I now have Windows 11 running as a Virtual PC, using VirtualBox, inside Linux.  On the rare occasion I need to do a &lt;em&gt;Windows thing&lt;/em&gt;, I spin it up.  It's generally one Excel sheet I need to work on.  It's got some awkward scripting in it so I can't run it via Libre Office, or alternatives.&lt;/p&gt;
+&lt;h2 id=im-officially-linux&gt;I'm Officially Linux&lt;/h2&gt;&lt;p&gt;I therefore now consider myself as a Linux user.  The desktop and laptop run without issue.  I can get native apps or web-apps for almost everything.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/forkingmad/linuxpenguinpoweredbytransparent.webp" alt="LinuxPenguinPoweredByTransparent" /&gt;&lt;/p&gt;
+&lt;div id="comments"&gt;&lt;/div&gt;
+&lt;script src="https://pure.komments.cloud/public/embed.js" defer&gt;&lt;/script&gt;
+&lt;div class="bubbles-vote"&gt;&lt;/div&gt;
+&lt;script src="https://bubbles.town/vote.js" defer&gt;&lt;/script&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;Thanks to Kami for correction my mis-understanding with Wine's function&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://forkingmad.blog/powered-by-linux/" rel="alternate"/>
+    <published>2026-04-30T17:46:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tala.bearblog.dev/you-should-be-joymaxxing-your-projects/</id>
+    <title>you should be joymaxxing your projects</title>
+    <updated>2026-04-29T13:42:00+00:00</updated>
+    <author>
+      <name>tala</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;When I'm working on a passion project (or anything, really), I tend to be obsessively serious in ways that stress me out. Something I initially &lt;em&gt;wanted&lt;/em&gt; to do becomes a thing I &lt;em&gt;have&lt;/em&gt; to do. I've subconsciously cultivated this behavior, as I only ever notice it late: tired, tense, wondering why something I chose to do feels like something I owe, in a sense.&lt;/p&gt;
+&lt;p&gt;I'm not always caught up on social media jargon, but I'm interested in the —maxxing suffix I've seen circulating online. I liked the shamelessness of it, the idea you can just decide to maximize something (good), as aggressively and deliberately as you want. Joymaxxing, specifically: making happiness non-negotiable, not a &lt;em&gt;reward&lt;/em&gt; for finishing a task but a &lt;em&gt;condition&lt;/em&gt; maintained throughout the process. It's why my current goal, when working on something, is prioritizing fun.&lt;/p&gt;
+&lt;p&gt;The older I get, the more I feel permission to play. In practice, this looks different for everyone: working from a cafe instead of my desk, reading something adjacent to the project just for the pleasure of it, and following interesting tangents. All of these things alters the texture of the work in unexpectedly nice ways, because it reminds me that I'm a human being doing the thing, not a machine producing it.&lt;/p&gt;
+&lt;p&gt;The shift isn't from &lt;em&gt;serious&lt;/em&gt; to &lt;em&gt;unserious&lt;/em&gt;. I still passionately care about my projects as I always do. However, I stopped treating "enjoyment"  as a threat to "quality," like if I was having too much fun, I'll generate something mediocre or straight up horrendous. Looking back at it, perhaps the work I'm most proud of, is the work I've enjoyed doing the most.&lt;/p&gt;
+</content>
+    <link href="https://tala.bearblog.dev/you-should-be-joymaxxing-your-projects/" rel="alternate"/>
+    <published>2026-04-29T13:42:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://wombat.bearblog.dev/a-year-on-an-e-reader/</id>
+    <title>A year on an e-reader</title>
+    <updated>2026-04-29T18:54:00+00:00</updated>
+    <author>
+      <name>wombat</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;E-readers are something of a niche technology. Hardly anybody has an e-reader in public, especially compared to the number of people with a smartphone in hand. Despite that, I took the plunge last year and got an Android e-reader — the Meebook M6.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://ibb.co/RTpXKr6c"&gt;&lt;img src="https://i.ibb.co/7tJ3DMpK/image.png" alt="A photo of a screensaver, a cartoon drawing of capybaras, displayed on an e-reader. The Meebook logo is visible on the bottom bezel. The e-reader sits upon a laptop keyboard."&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It’s been nothing short of awesome. I wanted to yap about my reading setup, because cool tech is cool, plus a bit about how I approach reading as a hobby.&lt;/p&gt;
+&lt;h2 id=why-an-e-reader&gt;Why an e-reader?&lt;/h2&gt;&lt;p&gt;I read primarily for fun and enjoyment. If I bought a physical copy of every book I wanted to read, my apartment would overflow with books. Libraries perform an absolutely vital service, but not every library book is in as good a condition as I’d like. Some books are way too bulky to carry on the go. Others are printed in teeny tiny font sizes (what is this, a book for ants?).&lt;/p&gt;
+&lt;p&gt;For several years, I read e-books on my phone, alongside the occasional library book. To this day, I only purchase physical copies for books with sentimental value (or, rarely, can’t find online). Reading on my phone was… alright. Good enough for me to assume that e-readers were largely redundant. After all, many of us read (or skim?) &lt;em&gt;colossal&lt;/em&gt; volumes of text on screens every day. Hell, you’re most likely doing it right now.&lt;/p&gt;
+&lt;p&gt;That changed when I was walking around a bougie bookstore that happened to have an e-reader section. I wasn’t (and still am not) convinced that the displays looked anything like real paper, but I was blown away by how comfortable they were to read on. I hadn’t even known I'd been settling for less. That same day, I was back home looking for reviews on budget options to try out myself.&lt;/p&gt;
+&lt;h2 id=hardware&gt;Hardware&lt;/h2&gt;&lt;p&gt;I eventually settled on the Meebook M6 for a few reasons. I wanted something that would fit in my pocket, so a screen larger than 7 inches wouldn’t do. At the same time, I wasn’t a fan of the phone-shaped form factor, like that of the Hisense Hi Reader and Boox Palma. I knew from experience that I disliked reading with a bigger font on a narrow screen.&lt;/p&gt;
+&lt;p&gt;So that left the 6 inch, regular Kindle-shaped options, though I didn’t exactly want a Kindle because of the &lt;a href='https://goodereader.com/blog/kindle/amazon-removing-download-and-transfer-on-the-kindle-feb-26th'&gt;bullshit&lt;/a&gt; Amazon had been pulling. Luckily for me, the Meebook M6 just so happened to be on sale on Taobao for under 100 USD — it had decent reviews, so I gave it a shot.&lt;/p&gt;
+&lt;p&gt;It is a lovely little Android device. Its royal blue bottom bezel and flush screen are immediately pleasing to the eye. It is basic hardware-wise, but there are a couple of neat features.&lt;/p&gt;
+&lt;p&gt;It has warm and cool front lights that can be adjusted independently with sliders. The warm light is particularly nice for reading in bed. There are three presets: “Day”, “Night”, and “Bed”. I use “Day” most often, which is most suited to reading in weird indoor lighting (rather than daylight).&lt;/p&gt;
+&lt;p&gt;The refresh rate is also adjustable with four presets: from the regular “regal mode” with a slow refresh rate and no ghosting, to the “A2 topspeed mode” with the fastest refresh rate but heavy ghosting. The former is most suited for reading, and is what I use 95% of the time. The latter option is much appreciated when I’m using apps not optimized for the display, especially when scrolling.&lt;/p&gt;
+&lt;h2 id=software&gt;Software&lt;/h2&gt;&lt;p&gt;I was not as enthused with the default software experience. I disliked the default launcher and the default reader app was off when rendering English text. The great thing about Android is that it took me about five seconds to ditch them for &lt;a href='https://github.com/gezimos/inkOS'&gt;a new launcher&lt;/a&gt; and &lt;a href='https://koreader.rocks/'&gt;a new reader&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=koreader-rocks&gt;KOReader rocks!&lt;/h3&gt;&lt;p&gt;I’m a bit anal about customizing my reading experience; KOReader has every feature I could ever wish for. It was a match made in heaven. The vast &lt;a href='https://koreader.rocks/user_guide/#L2-styletweaks'&gt;style tweaks&lt;/a&gt; options really satisfy that urge to have everything look exactly as I want it. I keep a handful of these enabled all the time — shoutout to spacing between paragraphs.&lt;/p&gt;
+&lt;p&gt;I was also impressed at how great KOReader is for &lt;a href='https://koreader.rocks/user_guide/#L1-pdfs'&gt;reading PDFs&lt;/a&gt;. The reflow feature works amazingly for many, but not all, PDFs. If it doesn’t, KOReader can automatically scroll to different parts of the screen depending on the reading direction. For example, for a two-column PDF, it can automatically start at the top left, go down until you hit the bottom left, then go up to the top right. Much, much easier than manually zooming in and scrolling.&lt;/p&gt;
+&lt;p&gt;All the features can be overwhelming, to be fair. Fortunately, the documentation is pretty robust. And things look good out of the box, even if you don’t mess with anything!&lt;/p&gt;
+&lt;h4 id=reading-fonts&gt;Reading fonts&lt;/h4&gt;&lt;p&gt;The English fonts that I rotate between are mostly from &lt;a href='https://github.com/nicoverbruggen/ebook-fonts'&gt;this GitHub repo&lt;/a&gt; containing fonts tweaked for e-reading. Here’s a &lt;a href='https://ebook-fonts.nicoverbruggen.be/'&gt;live showcase&lt;/a&gt; for how each font would look in action. Pretty cool!&lt;/p&gt;
+&lt;p&gt;My current default is their version of Charter. For informational non-fiction, I sometimes switch to a sans-serif font like Atkinson Hyperlegible Next or Jost. For (Traditional) Chinese, I use &lt;a href='https://github.com/chiron-fonts/chiron-sung-hk/blob/release/README.en.md'&gt;Chiron Sung HK&lt;/a&gt;, an aesthetically pleasing serif font.&lt;/p&gt;
+&lt;p&gt;This is how I've gotten things to look:
+&lt;a href="https://ibb.co/7xdXnGYf"&gt;&lt;img src="https://i.ibb.co/Gf40WVx6/Reader-jack-london-white-fang-epub-p5-2026-04-30-024656.png" alt="A screenshot of my current reading setup in KOReader, with text from White Fang by Jack London."&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=where-to-get-e-books&gt;Where to get e-books&lt;/h2&gt;&lt;p&gt;I sideload most of my books as EPUBs, and occasionally PDFs. This means I need my books DRM-free — which most e-books being sold are not. Apart from the obvious solution&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;, here are a few (100% legit!) suggestions for where to get e-books you actually own:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href='https://www.gutenberg.org/'&gt;Project Gutenberg&lt;/a&gt; is well-known for hosting a huge collection of public domain works. However, their earlier titles tend to be inconsistent in quality.&lt;/li&gt;
+&lt;li&gt;My go-to for older English works is &lt;a href='https://standardebooks.org/ebooks'&gt;Standard Ebooks&lt;/a&gt;. Despite their smaller collection, each book is meticulously proofread and beautifully formatted to elevate your reading experience. Seriously, they look &lt;em&gt;gorgeous&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href='https://www.kobo.com/us/en/p/drm-free'&gt;Kobo&lt;/a&gt; and &lt;a href='https://www.ebooks.com/en-hk/drm-free/'&gt;eBooks.com&lt;/a&gt; are online storefronts with decently sized DRM-free catalogs. (The most popular fiction titles are those published by Tor, like Brandon Sanderson’s novels.)&lt;/li&gt;
+&lt;li&gt;&lt;a href='https://libreture.com/bookshops/'&gt;Here&lt;/a&gt; is an extensive list of publishers that offer DRM-free books directly.&lt;/li&gt;
+&lt;li&gt;If you happen to have institutional access through a university or library, certain publishers allow DRM-free downloads. I find this especially handy for academic publications or textbooks. I recently downloaded several books from Oxford University Press this way.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=what-ive-learned&gt;What I’ve learned&lt;/h2&gt;&lt;p&gt;Sometimes, I get comments when I’m reading in public. People have told me, with a touch of regret, that they could never get through a whole book, or that the last time they picked up a book was in sixth grade. It might surprise them that I have struggled with keeping up a reading habit, too.&lt;/p&gt;
+&lt;p&gt;I don’t know how common this is, but I will confess that I got this device with the expectation that I would annihilate my entire backlog. A misguided approach, of course. The more pressure I put on myself to read, the less appealing and more overwhelming it felt. This was despite the fact that picking up a book was more easy and effort-free than ever. The sole barrier was my mind.&lt;/p&gt;
+&lt;p&gt;If you’re anything like me, it’s easy to hype something up in your head — even highly enjoyable and rewarding things — and end up demotivating yourself. I still find myself having to adjust my mindset to get over these hurdles. Some of this includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning how to forgive myself for not being consistent day-to-day. Sometimes, consistency can look more like week-to-week, or month-to-month. Even then, it’s okay to fall off or take a break. I can come back anytime.&lt;/li&gt;
+&lt;li&gt;In a similar vein, letting myself put books on hold or drop them — whether I’m overwhelmed, exhausted, or just don’t enjoy them. I can pick them back up whenever I want to.&lt;/li&gt;
+&lt;li&gt;Approaching books with wonder and curiosity, rather than focusing on getting through as many as possible. Learning new stuff and gaining new perspectives is fun and awesome.&lt;/li&gt;
+&lt;li&gt;Being mindful of when a passage I’m reading is impacting me, and really feeling that wave of emotion. I find this heightens the experience and pushes me to get more into it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Much of the above applies to other hobbies as well. While it’s easier said than done, maintaining intrinsic motivation is essential for hobbies, which are so vital to a meaningful life. Most importantly, have fun!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;a class="previous-post" href="/steamed-hams" title="My favorite meme: Steamed Hams"&gt;Previous&lt;/a&gt; | &lt;a class="next-post" href="/skol" title="skol"&gt;Next&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style="text-align: center;"&gt;
+&lt;a href="mailto:mortalwombat@proton.me"&gt;Reply via email&lt;/a&gt; 
+&lt;/div&gt;
+&lt;hr /&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;It surprised me that depending on the jurisdiction, removing DRM from e-books you have purchased for personal use might be in &lt;a href='https://answers.justia.com/question/2025/03/23/is-it-legal-to-remove-drm-from-kindle-eb-1054254'&gt;a legal gray area&lt;/a&gt;. Personally, I find it difficult to argue against on moral grounds (compared to piracy).&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://wombat.bearblog.dev/a-year-on-an-e-reader/" rel="alternate"/>
+    <published>2026-04-29T18:54:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://pseudosingleton.com/reddit-now-forces-you-to-use-their-app-on-mobile/</id>
+    <title>reddit now forces you to use their app on mobile</title>
+    <updated>2026-05-01T02:02:00+00:00</updated>
+    <author>
+      <name>pseudosingleton</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;One of my personal rules for social media is that I only use the web version of sites. The web version is better for privacy, far less addictive, and makes my phone less bloated.&lt;/p&gt;
+&lt;p&gt;In the last few days, Reddit added a great new feature to the the mobile web version of their site.&lt;/p&gt;
+&lt;p&gt;Now, when you try to browse their site on your phone, you will encounter the below paywall-esque popup after scrolling a bit.&lt;/p&gt;
+&lt;div class="preview"&gt;
+&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/pseudosingleton/image-1.webp" alt="Reddit displays a popup saying 'Get the app to keep using reddit.' Really should say 'get the app so we can serve you better ads.'"/&gt;
+&lt;/div&gt;
+&lt;p&gt;You cannot dismiss the popup. You must download the app or request a desktop version of the site.&lt;/p&gt;
+&lt;p&gt;I guess finally a good enough nudge to finally quit Reddit completely.&lt;/p&gt;
+&lt;p&gt;No love lost&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; ¯\_(ツ)_/¯&lt;/p&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;Okay, some love lost. Reddit contains many of the remaining forums on the internet, so it sucks those won't be reachable anymore.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://pseudosingleton.com/reddit-now-forces-you-to-use-their-app-on-mobile/" rel="alternate"/>
+    <published>2026-05-01T02:02:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rnotte.art/rejecting-convenience/</id>
+    <title>rejecting convenience</title>
+    <updated>2026-04-29T21:11:24.627067+00:00</updated>
+    <author>
+      <name>rnotte</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;as i grew through my adult years, one thought has been running through my head over and over again:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;"how much have humans been sacrificing in the name of 'convenience'?"&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;that word... the word &lt;strong&gt;"convenience"&lt;/strong&gt; has become my least favorite word in the english language. i can't stand it. so many things that are bad for humans' social lives, health, and well-being, are consistently used because they're &lt;strong&gt;"convenient"&lt;/strong&gt;. why bother going to the brick-and-mortar store? amazon is more &lt;strong&gt;"convenient"&lt;/strong&gt;. why bother cooking a nice meal for yourself? doordash and uber eats are more &lt;strong&gt;"convenient"&lt;/strong&gt;. why go out and socialize with people? facebook is more &lt;strong&gt;"convenient"&lt;/strong&gt;. why use a digital camera, camcorder, or polaroid? your smartphone is more &lt;strong&gt;"convenient"&lt;/strong&gt;. why bother going to the theater or concerts? netflix and spotify are more &lt;strong&gt;"convenient"&lt;/strong&gt;. why bother making art? asking an AI to generate it for you is more &lt;strong&gt;"convenient"&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;well, i say nuts to that. from now on, i'm going to make my life as &lt;em&gt;inconvenient&lt;/em&gt; as possible. i'm going to go to the store and buy stuff in person. i'm going to make my own food with my own hands. i'm going to socialize with people face-to-face. i'm going to use a true camera instead of my phone's camera. i'm going to buy blu-rays, DVDs, and CDs instead of streaming. i'm going to take my time when creating, watching, playing, and reading a work of art.&lt;/p&gt;
+&lt;p&gt;i don't want to sound high-and-mighty with this. you're not a bad person for using streaming services. but not only are these &lt;strong&gt;"convenient"&lt;/strong&gt; systems costing more money, they're costing humans' social lives and life skills, the most important things that make us human. so, in the interest of keeping my humanity, i'm going to live my life the &lt;em&gt;inconvenient&lt;/em&gt; way.&lt;/p&gt;
+&lt;p&gt;and if you can, i invite you to join me in rejecting &lt;strong&gt;convenience&lt;/strong&gt;.&lt;/p&gt;
+</content>
+    <link href="https://rnotte.art/rejecting-convenience/" rel="alternate"/>
+    <published>2026-04-29T21:11:24.627067+00:00</published>
+  </entry>
+  <entry>
+    <id>https://stitching.bearblog.dev/your-instagram-account-is-scheduled-for-deletion/</id>
+    <title>Your Instagram account is scheduled for deletion</title>
+    <updated>2026-04-29T20:57:00+00:00</updated>
+    <author>
+      <name>stitching</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Yesterday, I deleted one of my Instagram accounts. I had two, actually. The first one was used when I was in high school and college, and that was where I followed classmates and friends. The only photos I uploaded there were more personal - a graduation photo, some more artsy pictures that were taken when I traveled, that kind of thing. I hadn’t checked that account in months, so I decided to just pull the plug on it. The second account was mostly used for things involving my hobbies or for following local businesses, and that was the one that was harder to let go of. &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;I tried to think about why that was, and I listed out some reasons. &lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;I follow along with what local businesses are doing. For example, what special events is the yarn store or bookstore putting on for the community this month? Has a coffee shop or food truck changed its seasonal menu?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I follow a lot of crafters, and seeing other peoples’ projects can inspire me and introduce me to new patterns, designers, and crafting techniques. I occasionally like and comment on these things and sometimes I’ll post pictures to show off my work, too.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Every Tuesday, the local bookstore’s account will post new releases to their story. I get introduced to interesting books that I can add to my TBR (to be read) list.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I watch reels (funny things and recipes, mostly) and share them with friends or save the recipes to try later. I’ve found some great recipes this way!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I didn’t really… interact with other people on Instagram in a meaningful way, though. To ease my reluctance to deactivate my account, I revisited each point and thought about what I could do to still achieve these things outside of an Instagram account. &lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;I can go onto individual businesses’ websites and sign up for email newsletters to stay updated on their events. Most local businesses I have in mind already have websites set up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I’m already subscribed to a few crafting subreddits. I can browse through those or share my projects there, and I can still get inspiration from those pages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;New books are released every Tuesday. I checked my local bookstore’s website and they have a page for new releases. I can just bookmark that page and check it manually rather than viewing the bookstore’s Instagram story every Tuesday.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I don’t need to view short-form video content, especially as I know how bad it is for our brains and our attention spans. I don’t need funny reels to laugh and I don’t need recipe reels to cook. I own several cookbooks and (of course) I follow some cooking and baking subreddits if I really want to go looking for inspiration.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Making this list and writing it out really helped me to realize that there is nothing unique or exclusive that I can only get from Instagram. Afterwards, I went ahead to the settings page of my second account and “scheduled my account’s deletion” — because Meta doesn’t allow you to delete your account immediately. It schedules it out by one month, probably in the hopes that you’ll change your mind before that month is up. &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;I feel good, though! This means that since the start of 2026, I’ve deleted my Facebook and Instagram accounts. I’m not totally trying to step away from all websites, but I do want to leave most social medias that aren’t benefitting me in any way. I think Reddit will be harder to stay away from, and I am working to minimize the time spent on that site, at least. I think I’m off to a good start!&lt;/p&gt;
+</content>
+    <link href="https://stitching.bearblog.dev/your-instagram-account-is-scheduled-for-deletion/" rel="alternate"/>
+    <published>2026-04-29T20:57:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://puppynet.work/the-balance-between-privacy-and-oversharing/</id>
     <title>The balance between privacy and oversharing</title>
     <updated>2026-04-29T21:55:00+00:00</updated>
@@ -921,220 +1178,27 @@ Note: above is a warm-run of the benchmark, note how Crescent is very clean with
 &lt;p&gt;Privacy is a human right, and companies shouldn't have the ability to strip you of that right for their own monetary gain. The things I post about on my blog are the things I choose to share, and not things that I &lt;em&gt;have&lt;/em&gt; to share. Sure, they may give information about myself away, but I have the ability to remove posts, and more simply, to not write about things that could lead to that.&lt;/p&gt;
 &lt;p&gt;&lt;a href="mailto:puppy@puppynet.work?subject=Post:%20The balance between privacy and oversharing"&gt;Reply by email&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;small&gt;This post was last updated 19 hours, 7 minutes ago.&lt;/small&gt;
+&lt;small&gt;This post was last updated 2 days, 22 hours ago.&lt;/small&gt;
 </content>
     <link href="https://puppynet.work/the-balance-between-privacy-and-oversharing/" rel="alternate"/>
     <published>2026-04-29T21:55:00+00:00</published>
   </entry>
   <entry>
-    <id>https://untangled.bearblog.dev/brain-rot/</id>
-    <title>Can You Reverse Brain Rot?</title>
-    <updated>2026-04-28T00:15:00+00:00</updated>
+    <id>https://aidanking.blog/the-new-rule-of-writing-in-the-ai-age-dont-be-too-good/</id>
+    <title>The New Rule of Writing in the AI Age: Don’t Be Too Good</title>
+    <updated>2026-05-01T21:34:49.369281+00:00</updated>
     <author>
-      <name>untangled</name>
+      <name>aidansalibi</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;I’ve been following Cal Newport for some time (known for his book &lt;a href='https://calnewport.com/deep-work-rules-for-focused-success-in-a-distracted-world/' target='_blank'&gt;Deep Work&lt;/a&gt; and &lt;a href='https://www.goodreads.com/book/show/40672036-digital-minimalism/' target='_blank'&gt;Digital Minimalism&lt;/a&gt;). I’ve come to look forward to his weekly podcasts on attention, focus, and life without social media.&lt;/p&gt;
-&lt;p&gt;Today, he dropped a podcast titled “How Do I Build Cognitive Fitness?” (Alternatively, his &lt;a href='https://m.youtube.com/watch?v=U9a2_KqzF7Y' target='_blank'&gt;YouTube video&lt;/a&gt; with the same content was titled &lt;em&gt;“How Do I Reverse Brain Rot?”&lt;/em&gt;, so I’m curious which one got more clicks).&lt;/p&gt;
-&lt;p&gt;In it, he outlines five ways that we can improve our cognitive fitness and challenges us to be more intentional with our time. If you want to &lt;a href='https://m.youtube.com/watch?v=U9a2_KqzF7Y' target='_blank'&gt;give it a listen&lt;/a&gt; he covers it in the first half of this episode.&lt;/p&gt;
-&lt;p&gt;Here are the five things he suggested, and my thoughts on each one.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h3 id=read-every-day&gt;Read every day.&lt;/h3&gt;&lt;p&gt;He suggests that the more time you spend reading, the more you’re rewiring your brain. It gives you practice in &lt;mark&gt;“aiming your minds eye at a desired internal target,”&lt;/mark&gt; such as a thought or idea. He recommends starting with books you’re excited to read, not books you feel you “should” read. Fun books, trashy books, romance books, they all count. Start with 15-20 pages a day. Read at lunch and before bed. After you’re doing that regularly, increase to 30-50 pages a day. As that gets easier, make 1 out of 3 books “hard” or more challenging.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I feel good about reading every day, though I can definitely improve on the number of pages. I’m likely still in the first category, reading 10-20 pages a day. Not quite to 50 pages a day. Though I do think I’m reading more challenging stuff sometimes. I’m currently reading Dune Messiah I’m definitely slowing down to digest the passages.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=dont-avoid-writing&gt;Don’t avoid writing.&lt;/h3&gt;&lt;p&gt;Cal states that many people are writing less than ever before due to generative AI, and that &lt;em&gt;“to improve your cognitive fitness you should seek out as many opportunities to write as possible.”&lt;/em&gt; He goes on to say that &lt;mark&gt;"we feel naturally resistant to it because of how many moving pieces there are in our brains.”&lt;/mark&gt; Writing is hard and we feel strain when we write, but it provides us with more &lt;em&gt;“cognitive strength”&lt;/em&gt;. He recommends studying technique while you read, writing in a journal/newsletter/blog (&lt;em&gt;ahem&lt;/em&gt;), and acclimating yourself to getting over the first 10 minutes of writing as they are the hardest to work through.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Why do you think I’m here? Ha! I’m trying to get better at constructing my thoughts into sentences and paragraphs. And yeah, it’s hard. But I figure the more I do it, the easier it will start to feel. I’m also trying to write by hand more, but I need to find better opportunities to write when I’m not getting interrupted.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=go-on-thinking-walks&gt;Go on thinking walks.&lt;/h3&gt;&lt;p&gt;Cal suggests that we take walks several times a week without our phone (and if we do bring our phones we should make them very inaccessible, like at the bottom of our bag). &lt;mark&gt;“Practice turning your attention inwards to make sense of some information.”&lt;/mark&gt; Brainstorming or day dreaming counts here. Reflection is “where you develop your sense of self” and our best ideas come from it. He recommends journaling your insights after your walk, that it will help you clarify internal thinking.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I might have to take on this one. I’m not good at getting out of the house (I work remotely), and I need to be better about it. The weather is warming up though, which will make it easier. Plus it’ll get me away from my desk more often. Something semi-related is that our brains come up with some of our best ideas while we’re in the shower, and I think the two are related.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=plug-in-your-phone&gt;Plug in your phone.&lt;/h3&gt;&lt;p&gt;Cal recommends keeping your phone plugged in and not with you when you’re at home. &lt;mark&gt;“Spend hours in your house each day without your phone as your constant companion.”&lt;/mark&gt; This will give you lots of practice doing things without that constant short term motivation to pick up the phone. Put your ringer on and let people know to call you. Make the phone “less desirable by taking off any apps that makes money from your engagement” - social media apps, for example.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Oooh this one is good. I can do this right now. I have a charger in the other room and can put my phone there. This would be a really good one to practice. I still need an alternative for having my phone next to my bed - I still use it as my alarm because last summer our phones woke us at midnight for a tornado warning that sent us grabbing the kids and flying to the basement. Maybe I can plug it in further away from the bed and still hear weather alerts. I’ll need to explore this further.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=learn-a-hard-skill&gt;Learn a hard skill.&lt;/h3&gt;&lt;p&gt;Cal’s last idea is to master a skill that requires you to focus and get better, but also gets you a clear reward. Take up tennis, playing the guitar, learning to knit, etc. He goes on to say that when you learn a hard skill, it &lt;mark&gt;“builds up a sense of discipline and helps train your long term motivation system that when we focus on something hard, over time we get meaningful rewards.”&lt;/mark&gt; When you practice focusing, it becomes easier to sustain concentration. BUT, you need to do this on a regular schedule, not whenever you feel like it.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is a great one. I’ll have to think about what I’d want to learn! The hard part for me will be sticking with it. I have a terrible habit of picking up new projects every couple of weeks and I need to get on top of that. I need to find something that will sustain me for at least a season or so.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr /&gt;
-&lt;p&gt;Overall, some really good tips from Cal Newport. I really do think these could help someone step back and assess their cognitive fitness. I know I’ll be implementing some of these ideas.&lt;/p&gt;
-&lt;p&gt;Which of these 5 do you see yourself implementing? Which is the easiest? The most difficult? I’d love to hear your thoughts on this.&lt;/p&gt;
-&lt;div class="reply-email"&gt;
-  &lt;a href="mailto:amandauntangled@proton.me?subject=Re:%20Can You Reverse Brain Rot?"&gt;Reply via email&lt;/a&gt;
-&lt;/div&gt;
+    <content type="html">&lt;p&gt;Today, one of my final papers came back. I got a grade that I am really happy about. The only issue my professor had was that I did not italicize the title of the newspaper that I was writing about throughout my paper. Yet I knew before handing it in that newspaper titles are supposed to be italicized. Leaving the title improperly formatted was an intentional signal to him that I, not ChatGPT, wrote it.&lt;/p&gt;
+&lt;p&gt;I think AI and its use in academic writing has produced an incentive for students to write a little imperfectly. There is a lingering anxiety that if I submit a piece of work that is too well-written or formatted perfectly, the professor will just assume that AI has written it. Therefore, the goal has shifted from writing well to writing in a way that signals a human wrote it.&lt;/p&gt;
+&lt;p&gt;This does not solely apply to college essays, but is also prevalent in every aspect of writing nowadays. Even in my blog, I sometimes degrade my writing to a level for the sole purpose of signaling authenticity.&lt;/p&gt;
+&lt;p&gt;I used to be an avid em-dash user. But a year ago, I, like everyone else, cut it out of my writing completely, as it was an obvious fingerprint of LLMs.&lt;/p&gt;
+&lt;p&gt;There is an underlying anxiety with all of this, and it is that the new gold in writing is the appearance of authenticity rather than authenticity itself.&lt;/p&gt;
+&lt;p&gt;What gets lost is the actual conversation about writing. The question of whether people are developing a voice, engaging with ideas, and doing intellectual work. All of it is being flattened into a binary: human or machine. And in trying to land on the right side of that binary, people like me are, in small ways, making ourselves worse writers.&lt;/p&gt;
 </content>
-    <link href="https://untangled.bearblog.dev/brain-rot/" rel="alternate"/>
-    <published>2026-04-28T00:15:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://risse.bearblog.dev/first-posts-are-how-selves-get-made/</id>
-    <title>first posts are how selves get made</title>
-    <updated>2026-04-28T00:09:00+00:00</updated>
-    <author>
-      <name>risse</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;i made a choice to introduce myself as risse&lt;/p&gt;
-&lt;p&gt;it's a small thing but your name is the first step of an introduction &lt;br /&gt;
-and i like how you can pronounce it at least five different ways, &lt;br /&gt;
-plus it's not on my birth certificate, so i don't have to correct people when they say it wrong&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;
-i put a lot of weight into introductions &lt;br /&gt;
-i have this fear that on first pass, people read traits into me that i gotta uphold from then on &lt;br /&gt;
-so i put a lot of thought into who i'll come off as &lt;br /&gt;
-and i rewrite first posts over and over &lt;br /&gt;
-because whether i capitalize my letters says something about the self i can offer them,
-and once i've committed i'll be stuck for a while&lt;/p&gt;
-&lt;p&gt;i don't know though. it's not high school anymore, i don't need to daydream of a body to escape into &lt;br /&gt;
-i should have fun with the identities i act out even if there's nothing truer underneath&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;
-so hello !! &amp;nbsp;  i'm risse :) &amp;nbsp; &amp;nbsp; it's nice to meet you&lt;/p&gt;
-</content>
-    <link href="https://risse.bearblog.dev/first-posts-are-how-selves-get-made/" rel="alternate"/>
-    <published>2026-04-28T00:09:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://robertbirming.com/forget-about-numbers/</id>
-    <title>Forget about the numbers</title>
-    <updated>2026-04-27T17:28:00+00:00</updated>
-    <author>
-      <name>robert</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I don't check my Bear stats very often. When I do, it's always the same: ups and downs, ups and downs...&lt;/p&gt;
-&lt;p&gt;The spikes occur when a post is trending. When it's gone, the numbers go back down into the peaceful valley.&lt;/p&gt;
-&lt;p&gt;I say &lt;em&gt;peaceful&lt;/em&gt; because that's how I feel. I like that it goes up and down. It shows that it's not so much about my blog as a whole, but rather that some posts simply happen to attract more people at certain times.&lt;/p&gt;
-&lt;p&gt;Some might say that's what statistics are for, learning what works, coming up with a winning formula. That might work for a product, but it's a recipe for disaster when it comes to a personal blog.&lt;/p&gt;
-&lt;p&gt;Blogging according to a winning formula is a great way to lose. You'll lose interest, and so will your readers.&lt;/p&gt;
-&lt;p&gt;Forget about the numbers. Remember to be yourself.&lt;/p&gt;
-</content>
-    <link href="https://robertbirming.com/forget-about-numbers/" rel="alternate"/>
-    <published>2026-04-27T17:28:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://forkingmad.blog/ai-summary-blog-post/</id>
-    <title>AI Summaries in your Blog Posts!</title>
-    <updated>2026-04-27T17:18:00+00:00</updated>
-    <author>
-      <name>forkingmad</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I was sad today!&lt;/p&gt;
-&lt;p&gt;I love discovering, and reading new, personal blogs.  I'm always interested in people and opinions.&lt;/p&gt;
-&lt;p&gt;Imagine my sadness when I stumbled onto a new (to me) blog, only to discover that the author had an &lt;em&gt;AI Generated Summary&lt;/em&gt; at the top of each post.&lt;/p&gt;
-&lt;p&gt;In my opinion, this is devaluing the work. All that effort infused into researching, planning, writing, and editing.  And then thrown through the &lt;em&gt;sausage-machine&lt;/em&gt; for it to summarise the work in about three sentences.&lt;/p&gt;
-&lt;p&gt;It probably vacuumed up the discourse and threw it into the depths of its learning model, to later regurgitate as "AI content" to someone else.&lt;/p&gt;
-&lt;p&gt;Do you really think your own words are worthless?&lt;/p&gt;
-&lt;p&gt;For very long articles, it's nice to have a summary, but AI?  Really?&lt;/p&gt;
-&lt;p&gt;Spend an extra two minutes and summarise your own content, please.&lt;/p&gt;
-&lt;div id="comments"&gt;&lt;/div&gt;
-&lt;script src="https://pure.komments.cloud/public/embed.js" defer&gt;&lt;/script&gt;
-&lt;div class="bubbles-vote"&gt;&lt;/div&gt;
-&lt;script src="https://bubbles.town/vote.js" defer&gt;&lt;/script&gt;
-</content>
-    <link href="https://forkingmad.blog/ai-summary-blog-post/" rel="alternate"/>
-    <published>2026-04-27T17:18:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blog.avas.space/misogyny/</id>
-    <title>misogyny in the blogosphere</title>
-    <updated>2026-04-29T12:15:00+00:00</updated>
-    <author>
-      <name>avas</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I struggle with how humiliating it feels to talk about and point out misogyny; how the general regression into conservative values makes addressing misogyny come across as a last resort card you can pull out to make yourself look like a victim or get brownie points, while vilifying someone else. Like a thing you only do if you have no better arguments and want to shut discussion down, as the only people coming to challenge you further are seen (or even are) misogynists who don’t believe you. It feels like it’s sucking all the air out of the room, and people begin to tiptoe.&lt;/p&gt;
-&lt;p&gt;So much about identifying and calling out covert misogyny is about prior experience and gut feelings and hypotheticals, which makes it so hard; because overt, obvious misogyny is rarely worth a discussion and is a lot less controversial to name.&lt;/p&gt;
-&lt;p&gt;It’s exactly those edge cases of&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;this would have been fine for me to do or say if I was a man&lt;/li&gt;
-&lt;li&gt;they wouldn’t have done this if I was a man&lt;/li&gt;
-&lt;li&gt;this would have been more successful if I was a man&lt;/li&gt;
-&lt;li&gt;this reaction comes from someone that has a harder time accepting successful/opinionated/... women&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;that are worth calling out, but are impossible to prove. You cannot snap your fingers and enter the alternate reality of being a man and seeing if it happened or not.&lt;/p&gt;
-&lt;p&gt;Even if you find a comparable action or writing from a man about the same topic where he was praised for what you were criticized for, it’s very easy to dismiss that. &lt;em&gt;”He’s just more charming. It’s not that comparable. You were just unlucky with who read it. Does it even matter?&lt;/em&gt;”&lt;/p&gt;
-&lt;p&gt;And there’s really nothing you can do about that; there’s always some plausible deniability.&lt;/p&gt;
-&lt;p&gt;The following are just my personal feelings and experiences; if you’ve made the opposite experiences or think these are cherry-picked, that’s okay.&lt;/p&gt;
-&lt;p&gt;In my experience online…&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Men get credited (“taken from (name)”, “made by (name)”), women often get nothing or “is inspired by” even when it’s an exact copy. That even happens with theme code on here (and happened to me before).&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Men calling each other out online is accepted, even if harsh; criticizing some guy online as a woman is seen as extra humiliating and it gets treated like you’re ruining his life or reputation on the platform. I’ve seen some harsh callouts and fights on the indie web, even downright discussing if someone is spewing Nazi rhetoric or not, and it didn’t seemingly devolve into whether any of them are a big meanie bullying people off of platforms. This only seems to happen when women call out some stuff.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Seeing bullshit online from random guys is normal and we are desensitized (open any inflammatory comment section; most are men or are read as men), so a woman talking some shit gets extraordinarily more replies and attention. I feel like even on things like the Bearblog Discovery, people rather hide and silently report a man for despicable views, but are less inclined to move on silently for women bloggers who have awful takes. Don’t get me wrong: Call out stuff openly, I’m just focusing on who seemingly gets a pass and who doesn’t.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;People easily get sick of seeing the same woman in their feed than they do with men, and I’ve had the feeling that the most complaints about Trending posts come in when the same women are on there multiple times. You can see this even in pop culture: There was a time when everyone was sick of seeing Anne Hathaway, and during the Barbie press tour, I remember Margot Robbie saying she’s gonna lie low now so people don’t get sick of her, and since then, I have seen other successful women in such visible positions say the same. I have never seen anyone fault a male actor for showing up in a lot of media or him saying he needs to disappear for a while to give people a break. Usually it’s celebrated like “&lt;em&gt;lmao there he is again&lt;/em&gt;”.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;People expect women online to be more neutral, more caring, motherly; sharing less opinion pieces and instead, more art and pictures. Women’s opinion pieces feel more like nagging to people, and are easily somehow read as “too aggressive”, especially when it’s guides. Makes you wonder if some select few men just can’t handle guides written by women because that’s a woman telling them what to do or how to behave. That’s why they take it upon themselves to just rewrite your post saying the original was too aggressive, and link other male authors on the same topic. Happened to me!&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;When a man writes confidently like an expert about something, it matters less to people when he doesn’t have (or doesn’t immediately offer up) official credentials (like certificates, degrees, work, etc.) about it. As a woman, you are asked more for these and even have to offer up this information upfront to be believed. Even then, this is not enough for some people.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Closely related, I am reminded of the recent news when actress Milla Jovovich released &lt;a href='https://github.com/MemPalace/mempalace'&gt;MemPalace&lt;/a&gt; on GitHub. Almost unanimously, comments everywhere were agreeing that a) this is just someone using her name, or, after it was confirmed to be her, b) she lent her name to this project to give it more visibility, or c) just paid someone to do it for her. This was more than just an understandable, normal "&lt;em&gt;Wow, an actress has this other interest? Did not expect that, cool.&lt;/em&gt;" It was deeply driven by the fact that people cannot imagine a pretty woman to do anything technical. People even questioned her motivation to do so - man, why not? AI has been in the public spotlight for 5 years. Why could she not deeply immerse herself in that topic during that time because it interests her? Meanwhile, people accept and admire that James Cameron, who is a successful and well-known filmmaker, is also a deepsea expert who was able to give valuable insight into the OpenSea submersible failure.&lt;/p&gt;
-&lt;p&gt;I’ll let you in on a little secret: Before I wrote about data protection law on this blog, I tried it on another blog that made no mention of my name or gender was was designed in a way that would be read as masculine, to avoid biases due to my gender. But I quickly got tired of missing out on having my actual name and official presence attached to my work and field, so I’d rather live with the bias, I guess.&lt;/p&gt;
-&lt;p&gt;Thanks to everyone who has always treated me with respect, gives credit where it's due, and properly acknowledges women's skills and expertise.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Feel free to let me know your own experiences and observations around misogyny, both in general and in the personal web. Even with a public reply, if you feel comfortable.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href='mailto:avas.space@pm.me'&gt;Reply via email&lt;/a&gt;&lt;br /&gt;
-Published &lt;time datetime="2026-04-29T12:15Z"&gt;
-    29 Apr, 2026
-&lt;/time&gt;&lt;/p&gt;
-&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;Slightly related: Someone also stole some of my posts, slightly changed a sentence here and there, and when caught, said they just used the texts to test how their website’s CSS looks with it. Since then, friends and I are joking that my best posts are good &lt;em&gt;Lorem Ipsum&lt;/em&gt;s.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</content>
-    <link href="https://blog.avas.space/misogyny/" rel="alternate"/>
-    <published>2026-04-29T12:15:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://notes.jeddacp.com/the-new-kid-on-the-block/</id>
-    <title>The New Kid on the Block</title>
-    <updated>2026-04-28T16:43:14.450289+00:00</updated>
-    <author>
-      <name>jedda</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;There’s something unsettling about being the &lt;em&gt;new kid on the block&lt;/em&gt;, even as an adult.&lt;/p&gt;
-&lt;p&gt;It’s not super obvious, at least not like back then when you were a literal child. No one is pointing or whispering. There’s no cafeteria to navigate or classroom to choose a seat in. The feeling of being in those scenarios show up always, just in a different kind of way. It’s the hesitation before saying something out loud, the extra time spent double (and triple) checking something that would normally feel simple, and the awareness that everyone else &lt;em&gt;seems&lt;/em&gt; to know what they’re doing.&lt;/p&gt;
-&lt;p&gt;I started somewhere &lt;em&gt;new&lt;/em&gt; three weeks ago.&lt;/p&gt;
-&lt;p&gt;In the grand scheme of things, three weeks isn’t a long time. I get that. If anyone else said that to me, I’d tell them to give themselves more grace, to take their time, to &lt;em&gt;settle in&lt;/em&gt;. As always, in my head, it sounds different. It’s more like: &lt;strong&gt;it’s already week three. You should have a better handle on things by now.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I really don’t though. Not &lt;em&gt;fully&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;There are still gaps here and there. I have moments where I’m trying to piece things together in real time, trying to understand not just what I’m supposed to do, but how everything fits, who to go to, and what hasn’t been said out loud but is somehow expected to be known.&lt;/p&gt;
-&lt;p&gt;Sometimes things are handed off without much context, or reference something that hasn’t clicked yet. Not in a &lt;em&gt;bad&lt;/em&gt; way, but just in a way that assumed I’ve already connected &lt;em&gt;all of the dots&lt;/em&gt; that I didn’t even know existed. So I nod, and figure it all out somehow.&lt;/p&gt;
-&lt;p&gt;I get it. I’m not supposed to know everything yet. That would be unreasonable (maybe?). But there’s still that perfectionist part of me that expects it anyway. Or at least expects me to &lt;em&gt;anticipate&lt;/em&gt; it, to figure out how to read between the lines and keep up with things I haven’t been introduced to yet. Which, when I say out loud, doesn’t even make much sense. I don’t know how to read people’s minds. I don’t even think I’ve met everyone I’m supposed to meet yet. I still feel behind though.&lt;/p&gt;
-&lt;p&gt;I know that a lot of this comes from the version of myself I’m used to being. She’s the one who is steady, capable and already a few steps ahead. There’s a rhythm to that version of me, and right now, I’m all over the place. At this moment, I feel slightly disjointed, a little uncomfortable, full of questions that don’t have immediate answers I can get to just yet.&lt;/p&gt;
-&lt;p&gt;Just like with my &lt;a href='/on-making-and-breaking-routines/'&gt;making and breaking routines&lt;/a&gt;, I’m &lt;em&gt;attempting&lt;/em&gt; to sit with it without rushing to just &lt;strong&gt;fix it.&lt;/strong&gt; I’m trying to let myself be new without treating it like a problem. I understand that three weeks is still the beginning, even if it doesn’t feel like it.&lt;/p&gt;
-&lt;p&gt;I'm trying to be the new kid on the block that isn't just catching up as quickly as possible (my stress level would probably be lower). I'm hoping to learn to find my place while still figuring things out at the same time.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;...and if you happen to read this, and you’re in that world of mine right now, no, you didn’t just read this.&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=i-am-as-confident-as-can-be&gt;I am as confident as can be.&lt;/h3&gt;&lt;p&gt; 
-&lt;details open&gt;
-&lt;summary&gt;Comments&lt;/summary&gt;
-&lt;p&gt;If you'd like to comment, please send me an email, or sign my &lt;a href='/guestbook/'&gt;Guestbook&lt;/a&gt;.&lt;/p&gt;
-&lt;/details&gt;
-&lt;h5 id=a-hrefmailtoheyjeddacpmereply-by-emaila&gt;&lt;a href='mailto:hey@jeddacp.me'&gt;Reply by email&lt;/a&gt;&lt;/h5&gt;</content>
-    <link href="https://notes.jeddacp.com/the-new-kid-on-the-block/" rel="alternate"/>
-    <published>2026-04-28T16:43:14.450289+00:00</published>
-  </entry>
-  <entry>
-    <id>https://binaryribbons01111011.bearblog.dev/i-wont-watch-short-form-videos/</id>
-    <title>I won't watch short form videos.</title>
-    <updated>2026-04-27T07:39:00+00:00</updated>
-    <author>
-      <name>binaryribbons01111011</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I never downloaded TikTok and never will.&lt;/p&gt;
-&lt;p&gt;I blocked all YouTube Shorts from my desktop homepage, recommendations, and search. I do not use Youtube on my phone (where it's difficult to block Shorts.) If someone is playing Shorts on a TV I will physically leave the room.&lt;/p&gt;
-&lt;p&gt;When I noticed I was opening Reels when I went on Instagram, I deleted the app, then my account. Same with Snapchat; when I kept opening their short video section, I knew it was time for my account to go.&lt;/p&gt;
-&lt;p&gt;I know short form video is just another media format, but in these cases it's paired with a personalized algorithm on a service that prioritizes engagement. I've seen what consuming short form video on these platforms has done to my friends and even my parents. I've tried and failed to convince them to quit.&lt;/p&gt;
-&lt;p&gt;Self control isn't my strong suit, I know that already. The best thing I can do is stay as far away as I can.&lt;/p&gt;
-</content>
-    <link href="https://binaryribbons01111011.bearblog.dev/i-wont-watch-short-form-videos/" rel="alternate"/>
-    <published>2026-04-27T07:39:00+00:00</published>
+    <link href="https://aidanking.blog/the-new-rule-of-writing-in-the-ai-age-dont-be-too-good/" rel="alternate"/>
+    <published>2026-05-01T21:34:49.369281+00:00</published>
   </entry>
 </feed>

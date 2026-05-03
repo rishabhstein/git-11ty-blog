@@ -21,7 +21,8 @@ const milestonesRaw = [
   { date: "2025-04-01", label: "Submitted PhD thesis" },
   { date: "2025-06-16", label: "Awarded PhD" },
   { date: "2025-08-11", label: "💔 My younger cousin died" },
-  { date: "2025-10-07", label: "Started first Postdoc" }
+  { date: "2025-10-07", label: "Started first Postdoc" },
+  { date: "2026-01-20", label: "My son was born" }
 ];
 
 // Calculate week numbers
