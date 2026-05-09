@@ -18,8 +18,6 @@ I was also checking his mental health by analyzing the data from his blog. This 
 
 <div class="gallery">
 	<img src="/assets/images/blog_posts/2026-05-09/visa1.png">
-</div>
-<div class="gallery">
 	<img src="/assets/images/blog_posts/2026-05-09/visa2.png">
 </div>
 
