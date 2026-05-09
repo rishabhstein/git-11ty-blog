@@ -5,13 +5,570 @@
   <link rel="self" type="application/atom+xml" href="https://appaddict.app/feed.atom"/>
   <title>AppAddict</title>
   <subtitle>I'm an incurable software collector and enjoy few things more than downloading and exploring new apps. If you've got the same bug, check here for suggestions. If you're a developer and have an app you'd like me to check out, let me know.</subtitle>
-  <updated>2026-04-29T01:29:37Z</updated>
+  <updated>2026-05-08T14:44:22Z</updated>
   <logo>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWl3QmFRSXNBVG9LYzJGMlpYSjdCem9LYzNSeWFYQlVPZ3h4ZFdGc2FYUjVhV1E9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--d5470907b5b5a357fec32990d4bdb78c827f9472/1024px-App_Store_(iOS).svg.png</logo>
   <icon>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwUldsRk9ncHpZWFpsY25zSE9ncHpkSEpwY0ZRNkRIRjFZV3hwZEhscFpBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--d0a377349dc1eed29878fcae6bec2204e230fc00/1024px-App_Store_(iOS).svg.png</icon>
   <author>
     <name>AppAddict</name>
     <uri>https://appaddict.app</uri>
   </author>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/17934</id>
+    <published>2026-05-08T14:44:22Z</published>
+    <updated>2026-05-08T14:44:25Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/liqoria-the-mac-dock-player-that-should-ve-been-built-in"/>
+    <title>Liqoria: The Mac Dock Player That Should've Been Built In</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Liqoria" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2FrQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2935b3a4ff7c078061d240c553c68435f0fc607a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-05-08%20at%2010.29.14.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Liqoria
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;The promise:&lt;/strong&gt;&lt;/b&gt; A universal music controller that lives in your Dock and unifies Apple Music, Spotify, browsers, and more with animated artwork, real waveforms, and native Apple design.&lt;/p&gt;
+
+&lt;p&gt;If Apple were the company that so many people pretend that it is, it would make a music controller lives in your Dock and plays not just Apple Music but also Spotify, Youtube and more with animated artwork, real waveforms, using real native Apple design. The reality though, is that Apple Music is a storefront, not a music player.&lt;/p&gt;
+
+&lt;p&gt;Thankfully, we now have &lt;a href="https://www.liqoria.com/"&gt;Liqoria,&lt;/a&gt; which quietly removes the whole category of app-switching annoyances that plague every other macOS music player. The Dock placement is better than notch-only players. The feature set makes it more than just a controller. The design is more native-feeling than 99% of indie apps.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Liqoria proves three myths wrong at once:&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;that all miniplayers belong in the menu bar&lt;/li&gt;
+&lt;li&gt;that you need multiple apps for different services&lt;/li&gt;
+&lt;li&gt;that Apple will one day build a proper music widget.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;What Liqoria Actually Does&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Four player modes in one app:&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Dock Player&lt;/strong&gt;&lt;/b&gt; -- Dynamic Island-style player docked to the macOS Dock, controls integrated directly where apps live&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Floating Player&lt;/strong&gt;&lt;/b&gt; -- Draggable desktop player with full controls&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Menu Bar Player&lt;/strong&gt;&lt;/b&gt; -- Compact menu bar integration&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Lock Screen Player&lt;/strong&gt;&lt;/b&gt; -- Full-screen controls with animated artwork&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Liqoria doesn't just pass commands to Apple Music and call it a day. It is a standalone music player with built-in search, queue management, and playback control. You can search Apple Music and Spotify directly, manage your Now Playing queue (including Apple Music), and control playback without ever touching the source app.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;The multi-player view is the real weapon.&lt;/strong&gt;&lt;/b&gt; See all active music sources at once -- Apple Music, Spotify, browser playback, anything exposing to Control Center -- and switch between them. Most competitors show one source or force you to cycle. Liqoria shows everything at a glance.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;The visual polish is borderline aggressive.&lt;/strong&gt;&lt;/b&gt; Real FFT waveform visualization (that pulsing audio graph from Dynamic Island), animated album art for supported tracks (SZA's "Kill Bill" actually animates on lock screen), and that liquid glass aesthetic stolen shamelessly from Apple's design language. It's the kind of UI that makes you check if it's using private frameworks (it is, which is why it's not on the App Store).&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Features Set&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Built-in search across platforms:&lt;/strong&gt;&lt;/b&gt; Search Apple Music and Spotify directly within Liqoria. No context-switching to the Music app or Spotify client. YouTube search is coming -- dev confirmed it's in progress but won't drop until it's ready.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Apple Music queue management:&lt;/strong&gt;&lt;/b&gt; Finally, see and manage your Now Playing queue from a miniplayer. Apple Music's own app doesn't even show this in mini mode. You can reorder, remove, and see what's coming next without opening the full app.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Playback control that goes beyond play/pause:&lt;/strong&gt;&lt;/b&gt; Like, shuffle, repeat, scrubbing, and the waveform visualization gives you a visual read on track activity. The dock player responds to hover and integrates clean with the Dock's native behavior.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Multi-source control:&lt;/strong&gt;&lt;/b&gt; If you switch from YouTube Music to Apple Music, Liqoria can track the active source. The dev admits Apple's API makes this difficult -- play/pause sometimes grabs the wrong source -- but a dedicated YouTube controller mode is in progress to fix this.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Lyrics support:&lt;/strong&gt;&lt;/b&gt; Already displays lyrics with major updates incoming. Current implementation works; future version will be a significant overhaul.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Customization:&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Switch between liquid glass and standard styles&lt;/li&gt;
+&lt;li&gt;Configure dock player position (center/left/right)&lt;/li&gt;
+&lt;li&gt;Priority settings for multiple audio sources&lt;/li&gt;
+&lt;li&gt;Keyboard shortcuts for everything&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;The Competition&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Silicio, VinylPod, Sleeve:&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;These are solid but fundamentally limited. Most support only Apple Music and Spotify, lack built-in search, can't display multiple players simultaneously, and ship with the same queue control gap that Liqoria fills. Sleeve's album art integration is pretty, but it doesn't let you search Spotify or manage Apple Music queues without reaching for the source app.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Dynamic Island clones (Menu Bar/Notch):&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The notch obsession is the wrong approach. When the Island expands, it blocks menu bar items and reduces usable screen space on the MacBook. The Dock makes more sense for high-frequency controls -- your cursor's already there for app interaction. You can glance at playback without breaking focus on your main window.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Browser-based miniplayers:&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Fine for one service, but they don't unify across sources. Liqoria's the unifier -- one player for everything, no matter where the audio comes from.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Real-World Use&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;The workflow that clicks:&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;You're working in a fullscreen app, music playing from Apple Music. A track comes up you want to pull up in Spotify to check the original or explore the artist. Instead of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cmd+Tab to Music&lt;/li&gt;
+&lt;li&gt;Copy/paste search&lt;/li&gt;
+&lt;li&gt;Jump to Spotify&lt;/li&gt;
+&lt;li&gt;Search again&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You invoke Liqoria's search, switch sources, and never leave your workspace. The 72-hour trial is more than enough to decide if this friction removal is worth $9.90.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;The dock player specifically:&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;I run hidden docks (vertical on the left for screen real estate), so I was skeptical. But the dock player only appears when the dock is visible, and vertical dock support is coming in the next update ETA May-June. Even without that, the floating and menu bar modes cover the hidden dock use case.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;The Apple Music queue fix:&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;a href="https://appaddict.app/post/i-replaced-apple-music-with-yate-swinsian-navidrome-and-an-ipod-classic-surprisingly-better"&gt;I recently switched back to using my own curated music collection over subscription sources.&lt;/a&gt; If you rip CDs or build libraries instead of streaming, the queue view alone justifies the app. Apple Music's mini player shows track info and controls, but you can't see what's queued or reorder. Liqoria surfaces this without forcing you into the full Music app.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;What's Missing (Or Coming)&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Vertical dock support:&lt;/strong&gt;&lt;/b&gt; Confirmed for May-June timeframe. Current version works with horizontal docks and respects hidden dock behavior.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;YouTube search:&lt;/strong&gt;&lt;/b&gt; In development, no ETA. Dev refuses to drop a half-baked implementation, which is the right call.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Lyrics overhaul:&lt;/strong&gt;&lt;/b&gt; On the roadmap. Current support works but the dev promised "major improvements."&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Local file playback:&lt;/strong&gt;&lt;/b&gt; Not yet supported, but planned. Liqoria can control audio from Finder Quick Look and 99% of apps already, but direct local file playback is coming.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Scrobbling support:&lt;/strong&gt;&lt;/b&gt; Planned (&lt;a href="http://last.fm/"&gt;Last.fm&lt;/a&gt;, etc.), not yet implemented.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Minor bugs:&lt;/strong&gt;&lt;/b&gt; Some users report the menu panel not opening over fullscreen apps (opens to desktop instead). Dev is responsive -- moved conversation to Discord/email to debug directly. This is active development, not abandonware.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;The App Store Question&lt;/h2&gt;
+
+&lt;p&gt;Why no App Store? The dev uses Apple private frameworks for browser music handling and Bluetooth device control. App Store review would reject this immediately. Direct download via Lemon Squeezy, 14-day refund window, lifetime license for up to 3 devices.&lt;/p&gt;
+
+&lt;p&gt;The reality is you trade sandboxed convenience for the kind of deep system integration that makes Liqoria work. If you live inside the App Store walled garden, this isn't for you. If you want your music player to actually control your system, it's the only option.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Pricing &amp;amp; Availability&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;$9.90 lifetime license&lt;/strong&gt;&lt;/b&gt; (up to 3 devices, deactivatable anytime). Free 72-hour trial -- full feature access, no credit card required. macOS 15.4+ required. Available at &lt;a href="http://liqoria.com/"&gt;liqoria.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is aggressively priced compared to competitors selling subscription models or charging $20+ for similar feature sets. The lifetime model alone puts it ahead of Sleeve and company.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;The Verdict&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;If you use multiple music services or want actual queue control, Liqoria is an instant buy.&lt;/strong&gt;&lt;/b&gt;The multi-player view, built-in search, and Apple Music queue management quietly remove a whole category of friction that nobody else addresses.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;If you're happy with one service and don't care about queues&lt;/strong&gt;&lt;/b&gt;, this might be overkill. A simpler miniplayer or the native controls will suffice.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;If you have a hidden dock&lt;/strong&gt;&lt;/b&gt;, wait for the May-June update for full vertical dock support. The floating and menu bar modes work now, but you're not getting the headline feature without horizontal dock access.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;The Dock vs. Notch debate is settled:&lt;/strong&gt;&lt;/b&gt; The Dock makes more sense for high-frequency interaction. You're already glancing at it for other apps, and it doesn't block menu bar icons or eat screen space. The notch obsession is cool until you try to click that menu bar item and realize the Island ate your workspace.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Real Utility Defined:&lt;/strong&gt;&lt;/b&gt; Not in copying Dynamic Island visual flair, but in unifying disjointed audio sources in one place. Liqoria doesn't look native -- it is native, enough that some users on r/macapps genuinely thought it shipped with the OS.&lt;/p&gt;
+
+&lt;p&gt;72-hour trial. If you switch between Apple Music, Spotify, and browser playback daily, you'll know whether this is worth $9 within an hour. The animations and waveforms are marketing; the unified control is why you keep it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Liqoria:%20The%20Mac%20Dock%20Player%20That%20Should" ve been built in style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>The promise: A universal music controller that lives in your Dock and unifies Apple Music, Spotify, browsers, and more with animated artwork, real waveforms, and native Apple design.
+
+If Apple were the company that so many people pretend that it is, it would make a music controller lives in your...</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/17909</id>
+    <published>2026-05-06T19:21:42Z</published>
+    <updated>2026-05-07T01:22:02Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/corel-painter-is-still-alive-and-still-ridiculously-good"/>
+    <title>    Corel Painter Is Still Alive and Still Ridiculously Good</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Corel Painter" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMStrQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d0695c8c130931bee2043d563b71570faaa91223/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-05-06%20at%2015.17.46.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Corel Painter
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Corel’s Spot on Memory Lane&lt;/h2&gt;
+
+&lt;p&gt;I hadn’t thought about &lt;a href="https://www.painterartist.com/en/"&gt;Corel graphics apps&lt;/a&gt; in a long time until I saw &lt;a href="https://bundlehunt.com/?ap_id=MacPicks"&gt;their flagship app on sale recently&lt;/a&gt;. I got my first tech-related job in 1994, when my ability to figure things out in Windows 3.1 earned me a promotion from the manufacturing floor to the quality department at the Westinghouse factory where I worked after getting out of the Army.&lt;/p&gt;
+
+&lt;p&gt;The tools I worked with felt absurdly expensive at the time: a Pentium PC, a Kodak digital camera, and the first color laser printer I’d ever seen. And then there was Corel; a professional suite of graphics tools I used to produce hundreds of technical work instructions for the people on the shop floor.&lt;/p&gt;
+
+&lt;p&gt;Corel still occupies a narrow but devoted niche in the graphics world. It’s loved by a small community of artists and designers and mostly ignored by everyone else in favor of mass-market tools from Adobe, Affinity, and a handful of others. The current version is Painter 2023. I took it for a spin and it’s more capable than anything else I’ve seen in its niche, but the real question is whether those capabilities matter to you.&lt;/p&gt;
+
+&lt;h2&gt;But What Is It?&lt;/h2&gt;
+
+&lt;p&gt;Painter isn’t a drawing app or an image editor in the conventional sense. It’s a digital canvas simulator built for artists who want the feel of oil paint, watercolor, ink, and charcoal without the mess. The brush engine is the entire product. Everything else exists to support it.&lt;/p&gt;
+
+&lt;p&gt;The target user is a professional illustrator, concept artist, or fine artist working with a Wacom or another pressure-sensitive tablet. If that’s not you, Painter probably isn’t for you, and Corel doesn’t pretend otherwise.&lt;/p&gt;
+
+&lt;h2&gt;The Brush Engine&lt;/h2&gt;
+
+&lt;p&gt;The reality is that no software on any platform simulates natural media the way Painter does. Photoshop’s brushes are powerful but fundamentally digital. Procreate feels great on an iPad but remains a raster drawing tool. Clip Studio Paint has excellent line tools but doesn’t attempt to simulate paint physics at this level.&lt;/p&gt;
+
+&lt;p&gt;Painter 2023 ships with hundreds of brushes organized across dozens of categories: Oils, Acrylics, Watercolor, Gouache, Pastels, Chalk, Charcoal, Inks, and more. Each category behaves differently at the physics level. Watercolor bleeds and beads. Thick paint builds up and catches light. Impasto brushes create actual texture relief on the virtual canvas.&lt;/p&gt;
+
+&lt;p&gt;The &lt;b&gt;&lt;strong&gt;Fluid Brushes&lt;/strong&gt;&lt;/b&gt; iappear to be a real game changer. They’re built around layer transparency and allow subtle glazing and blending effects that previously required awkward workarounds. Corel claims they run up to 50 times faster by leveraging both CPU and GPU acceleration. On Apple Silicon hardware (my M4 Mac Mini), the effect is genuinely impressive.&lt;/p&gt;
+
+&lt;h2&gt;The Feature Set&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;900+ brushes&lt;/strong&gt;&lt;/b&gt; covering nearly every traditional medium&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Fluid Paint&lt;/strong&gt;&lt;/b&gt; with build, sculpt, and blend brushes plus precision opacity control&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Thick Paint&lt;/strong&gt;&lt;/b&gt; with three-dimensional impasto simulation&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Particle Brushes&lt;/strong&gt;&lt;/b&gt; that flow, fork, and react dynamically&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Color Selection Brushes&lt;/strong&gt;&lt;/b&gt; that combine selection and painting workflows&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;AI Photo Painting&lt;/strong&gt;&lt;/b&gt; tools powered by Core ML&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Clone Painting&lt;/strong&gt;&lt;/b&gt; for painting directly from reference photos&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Photoshop compatibility&lt;/strong&gt;&lt;/b&gt; with layered PSD read/write support&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Tablet support&lt;/strong&gt;&lt;/b&gt; for Wacom, Xencelabs, and Huion devices with pressure, tilt, rotation, and bearing support&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Customizable workspace&lt;/strong&gt;&lt;/b&gt; with movable palettes, panels, and brush libraries&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;The Catch&lt;/h2&gt;
+
+&lt;p&gt;This is not an easy app to learn, even for experienced users. Nobody is going to master Painter in an afternoon. Corel provides tutorials, webinars, and learning materials through its Painter portal, and if you decide to invest time in the app, you’ll probably need them.&lt;/p&gt;
+
+&lt;p&gt;The UI looks exactly like what it is: decades of accumulated decisions packed into a single workspace. Tool panels feel cramped even on a large laptop display. Honestly, two monitors feels less like a luxury and more like a requirement.&lt;/p&gt;
+
+&lt;p&gt;The current version is still Painter 2023. It runs fine on the last several macOS releases, including Apple Silicon Macs, but there was no 2024 or 2025 release, and it’s unclear whether there will be a 2026 version. I understand that it’s a mature product serving a mature niche, but some transparency about the development cycle would help inspire confidence.&lt;/p&gt;
+
+&lt;p&gt;Under normal circumstances, I couldn’t recommend that an individual pay the full perpetual-license price of $429. That’s the kind of software purchase employers are supposed to absorb. Especially when Procreate costs $12.99 and Clip Studio Paint EX runs about $50 a year.&lt;/p&gt;
+
+&lt;p&gt;But don’t stop reading yet.&lt;/p&gt;
+
+&lt;h2&gt;The Justification&lt;/h2&gt;
+
+&lt;p&gt;Right now, you can get a perpetual license for the full version of Painter 2023 for $49 from &lt;a href="https://bundlehunt.com/?ap_id=MacPicks"&gt; BundleHunt.&lt;/a&gt; That’s still real money, but it changes the equation dramatically.&lt;/p&gt;
+
+&lt;p&gt;If you’re genuinely curious, already own a pressure-sensitive tablet, and have the artistic skills to take advantage of what Painter offers, this becomes much easier to justify. At that price, it’s less a reckless software purchase and more an opportunity to experiment with what is probably the most sophisticated paint-physics engine ever shipped on a desktop computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Painter 2023 for Mac&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Developer: Corel Corporation&lt;br&gt;Price: Regularly $429 | &lt;a href="https://www.painterartist.com/en/"&gt;BundleHunt Price $49&lt;/a&gt;&lt;br&gt;macOS: Sequoia, Sonoma, Ventura&lt;br&gt;Apple Silicon: Native (M1 and later, optimized)&lt;br&gt;Website: &lt;a href="https://www.painterartist.com/en/"&gt;painterartist.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Affiliate links are used on this blog in about 10% of posts. &lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=%20%20%20%20Corel%20Painter%20Is%20Still%20Alive%20and%20Still%20Ridiculously%20Good" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Corel’s Spot on Memory LaneI hadn’t thought about Corel graphics apps in a long time until I saw their flagship app on sale recently. I got my first tech-related job in 1994, when my ability to figure things out in Windows 3.1 earned me a promotion from the manufacturing floor...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/17898</id>
+    <published>2026-05-05T18:32:33Z</published>
+    <updated>2026-05-05T18:32:35Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/substage-a-natural-language-command-line-tool-for-finder"/>
+    <title>Substage - A Natural Language Command Line Tool for Finder</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Substage" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBek9rQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e75a2ceab9f04d19da20b63c13b5ad1fddd4f623/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/image.png" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Substage
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href="https://selkie.design/substage/"&gt;Substage&lt;/a&gt; is a command bar that attaches beneath your Finder window. Select files, type what you want in plain English, and Substage generates a Terminal command, previews its side effects, and runs it with confirmation when needed.&lt;/p&gt;
+
+&lt;p&gt;Think of it less as an AI assistant and more as a natural language layer between your intent and the Unix tools already built into macOS.&lt;/p&gt;
+
+&lt;p&gt;The key distinction; the AI’s role ends once the command is generated. After that, real shell tools do the work: &lt;code&gt;sips&lt;/code&gt;, &lt;code&gt;ffmpeg&lt;/code&gt;, &lt;code&gt;zip&lt;/code&gt;, &lt;code&gt;qpdf&lt;/code&gt;, &lt;code&gt;pandoc&lt;/code&gt;, &lt;code&gt;git&lt;/code&gt;. No hallucinated output. No “trying until something works.” The command either works or it doesn’t, just like it would in Terminal.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Developer:&lt;/strong&gt;&lt;/b&gt; Selkie Design — Joe Humfrey (u/joethephish)&lt;br&gt;&lt;b&gt;&lt;strong&gt;Platform:&lt;/strong&gt;&lt;/b&gt; macOS 15.0 or later&lt;br&gt;&lt;b&gt;&lt;strong&gt;Pricing:&lt;/strong&gt;&lt;/b&gt; BYOK — $39.99. &lt;a href="https://appaddict.app/post/i-got-a-sneak-peek-at-the-spring-sale-at-bundlehunt"&gt;Currently on sale for $5 at Bundlehunt&lt;/a&gt;&lt;br&gt;&lt;b&gt;&lt;strong&gt;Website:&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://selkie.design/substage/"&gt;substage.app&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;Let’s Get One Thing Straight&lt;/h2&gt;
+
+&lt;p&gt;Even if you’re comfortable in the Terminal, it can still be tedious.&lt;/p&gt;
+
+&lt;p&gt;Using natural language to drive command-line tools isn’t about avoiding the shell; it’s about removing friction. I reach for Substage in the same situations where I’d otherwise open a converter app, type out a &lt;code&gt;sips&lt;/code&gt; command, or navigate into a deeply nested folder just to run something quick.&lt;/p&gt;
+
+&lt;p&gt;The goal isn’t to replace knowledge; it’s to make it easier to apply.&lt;/p&gt;
+
+&lt;h2&gt;Features That Matter&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Substage Predicts&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;This is what makes the app practical.&lt;/p&gt;
+
+&lt;p&gt;Before running anything, Substage simulates the command using a custom interpreter that understands pipes, redirection, and arguments across a wide range of tools. You can see exactly what will happen; which files will be created, renamed, moved, or deleted.&lt;/p&gt;
+
+&lt;p&gt;This feeds into Auto-run:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read-only operations can run automatically&lt;/li&gt;
+&lt;li&gt;Destructive actions always require confirmation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s not just a safety layer; it gives you confidence to use it for real work.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Instant Actions&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;For simple tasks, Substage skips the AI layer entirely. Commands like &lt;code&gt;jpg&lt;/code&gt;, &lt;code&gt;zip&lt;/code&gt;, or &lt;code&gt;mp4&lt;/code&gt; execute locally with no delay.&lt;/p&gt;
+
+&lt;p&gt;That keeps common operations fast and predictable.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Command History&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Up-arrow cycles through previous commands, just like in Terminal. Small detail, but it makes repeat tasks and batch workflows much more practical.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Model Flexibility&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;By default, Substage uses GPT-4.1 Mini; fast and reliable for most tasks.&lt;/p&gt;
+
+&lt;p&gt;The BYOK license lets you use your own API keys or local models via Ollama or LM Studio. OpenRouter and Perplexity also work with custom configuration.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Global Shortcut&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Ctrl-Space by default. Opens Substage under the active Finder window. Fast enough to become muscle memory.&lt;/p&gt;
+
+&lt;h2&gt;Real-World Use Cases&lt;/h2&gt;
+
+&lt;p&gt;This is where it starts to earn its keep:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Batch image resizing across folders&lt;/li&gt;
+&lt;li&gt;Video conversion with control over resolution, FPS, and bitrate&lt;/li&gt;
+&lt;li&gt;PDF workflows: merge, split, rotate, password protect, extract text&lt;/li&gt;
+&lt;li&gt;Document conversion via &lt;code&gt;pandoc&lt;/code&gt; (DOCX ⇄ Markdown ⇄ HTML ⇄ EPUB)&lt;/li&gt;
+&lt;li&gt;File metadata inspection - “Where did I download this?”&lt;/li&gt;
+&lt;li&gt;Git operations without leaving Finder&lt;/li&gt;
+&lt;li&gt;Quick system queries without opening System Information&lt;/li&gt;
+&lt;li&gt;Numeric calculations using &lt;code&gt;bc&lt;/code&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It cuts out the need for one-off GUI wrappers around tools you already have.&lt;/p&gt;
+
+&lt;h2&gt;Honest Limitations&lt;/h2&gt;
+
+&lt;p&gt;The developer is clear about where things break down.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Multi-step prompts are unreliable&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Chaining actions like “convert, rename, and zip into subfolders” can work, but reliability drops quickly. Better to split tasks into discrete steps.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Finder only&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;No support for Path Finder or ForkLift. If you don’t use stock Finder, this won’t fit your workflow.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Default Folder X conflicts&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Documented in the FAQ. If you rely on it, test carefully.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;No multimodal features&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;No image analysis, no transcription, no generative features. This is strictly a file operations tool.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Occasional lag&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;It can trail Finder updates slightly. Not constant, but noticeable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;The Verdict&lt;/h2&gt;
+
+&lt;p&gt;Substage addresses a real gap; what macOS can do versus what you can remember how to ask it to do.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Natural language handles syntax&lt;/li&gt;
+&lt;li&gt;The simulator handles safety&lt;/li&gt;
+&lt;li&gt;Native tools handle execution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It won’t replace Hazel, and it’s not meant to.&lt;/p&gt;
+
+&lt;p&gt;What it replaces is the friction between intent and execution; opening another app, digging through menus, or reconstructing a command you last used months ago.&lt;/p&gt;
+
+&lt;p&gt;Caveats matter:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Default Folder X users should evaluate carefully&lt;/li&gt;
+&lt;li&gt;Multi-step commands are hit or miss&lt;/li&gt;
+&lt;li&gt;Finder dependency is real&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But within its lane; single-step, file-focused operations; it’s genuinely useful.&lt;/p&gt;
+
+&lt;p&gt;If you spend a lot of time in Finder and regularly convert, inspect, compress, or manipulate files, Substage removes a surprising amount of friction.&lt;/p&gt;
+
+&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Substage%20-%20A%20Natural%20Language%20Command%20Line%20Tool%20for%20Finder" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Substage is a command bar that attaches beneath your Finder window. Select files, type what you want in plain English, and Substage generates a Terminal command, previews its side effects, and runs it with confirmation when needed.
+
+Think of it less as an AI assistant and more as a natural...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/17881</id>
+    <published>2026-05-04T01:32:58Z</published>
+    <updated>2026-05-04T01:32:59Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/i-got-a-sneak-peek-at-the-spring-sale-at-bundlehunt"/>
+    <title>I Got a Sneak Peek at the Spring Sale at BundleHunt</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="BundleHunt" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN3lqQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1a9d18ba4d7dfa6a4c2f8f28245004247a47522f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/99033.jpeg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      BundleHunt
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For bargain hunters,&lt;a href="https://bundlehunt.com/?ap_id=MacPicks"&gt; BundleHunt&lt;/a&gt; makes the holidays happen four times a year. Many well-known and popular apps have appeared there over the years at prices 70% to 90% below what's the apps typically sell for. This current bundle is no exception The oldest receipt I have for a purchase from them is from 2015. I've purchased over 50 different apps without ever having a bad experience.&lt;/p&gt;
+
+&lt;p&gt;Here's the current selection. I've posted links to ones I've reviewed in the past.&lt;/p&gt;
+
+&lt;h2&gt;Apps I've Reviewed&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://findanyfile.app"&gt;&lt;b&gt;&lt;strong&gt;Find Any File (FAF)&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- File search tool that goes deeper than Spotlight, reaching locations Spotlight ignores like system folders and external drives. Supports precise, rule-based search criteria. &lt;a href="https://appaddict.app/post/find-any-file-for-2-new-bundlehunt-sneak-peek"&gt;Find any File for $2: New BundleHunt Sneak Peek | AppAddict&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://picmal.app"&gt;&lt;b&gt;&lt;strong&gt;Picmal&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Batch media converter and compressor for Mac covering images, video, and audio. Handles format conversion without launching a separate app per file type. - &lt;a href="https://appaddict.app/post/automation-fans-are-going-to-love-picmal-for-conversions"&gt;Automation Fans Are Going to Love PicMal for Conversions | AppAddict&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://screenmemory.app"&gt;&lt;b&gt;&lt;strong&gt;ScreenMemory&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Continuously captures your screen activity so you can search and recall anything you've seen on your Mac. Local processing keeps your data private. - &lt;a href="https://appaddict.app/post/screen-memory"&gt;Screen Memory | AppAddict&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://peacockmedia.software/mac/integrity-pro/"&gt;&lt;b&gt;&lt;strong&gt;Integrity Pro&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Broken link checker with sitemap generation, SEO auditing, and redirect tracking for websites. Companion to Scrutiny, focused specifically on link validation and site mapping. - &lt;a href="https://appaddict.app/post/integrity-free-link-checker"&gt;Integrity - Free Link Checker | AppAddict&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Apps I Have Experience With&lt;/h2&gt;
+
+&lt;p&gt;I've been using all of these apps for a while, but haven't written them up yet. I'll give you some details soon.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://www.deltawalker.com"&gt;&lt;b&gt;&lt;strong&gt;DeltaWalker&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Advanced file and folder comparison tool for spotting, merging, and syncing differences across Mac, Windows, and Linux. Handles text, images, and office documents side by side.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.taskpaper.com"&gt;&lt;b&gt;&lt;strong&gt;TaskPaper&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Plain-text to-do list app built around a simple, outline-based format that's been a productivity staple since 2006. No database, no lock-in--just a text file you can read anywhere.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://supasidebar.com"&gt;&lt;b&gt;&lt;strong&gt;SupaSidebar&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Unified sidebar that surfaces tabs, bookmarks, and apps from all your browsers in one place. Eliminates the need to switch browser windows to find what you're looking for.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://substage.app"&gt;&lt;b&gt;&lt;strong&gt;Substage&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Natural language command bar layered on top of Finder windows. Type what you want to do with a file or folder instead of navigating menus.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://noteifyapp.com/command-tab-plus/"&gt;&lt;b&gt;&lt;strong&gt;Command-Tab Plus&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Enhanced app and window switcher that replaces macOS's default Cmd-Tab with a richer, more controllable interface. Supports window-level switching, not just app-level.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://hazeover.com/"&gt;&lt;b&gt;&lt;strong&gt;HazeOver&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Dims all background windows to keep focus on the active one. Configurable opacity and works across multiple displays.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://nektony.com/duplicate-finder-free"&gt;&lt;b&gt;&lt;strong&gt;Duplicate File Finder&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Scans your Mac for duplicate files using content-based comparison, not just filenames. Frees up disk space by safely removing exact copies.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;What I'm Buying this Spring&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm going to try and write reviews on all these while the sale is ongoing.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://www.corel.com/en/"&gt;&lt;b&gt;&lt;strong&gt;Painter by Corel&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- The industry-standard digital painting application, delivering Natural-Media™ brushes and&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://notepadexe.com"&gt;&lt;b&gt;&lt;strong&gt;Notepad.exe&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Lightweight native macOS IDE supporting Swift, Python, and JavaScript with instant code execution and iOS Simulator integration. Includes on-device AI and SwiftPM support.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://peacockmedia.software/mac/scrutiny/"&gt;&lt;b&gt;&lt;strong&gt;Scrutiny&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Full-featured website crawler that audits broken links, SEO issues, metadata, and more. Generates detailed reports without requiring a subscription.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.tominlab.com/wonderpen"&gt;&lt;b&gt;&lt;strong&gt;WonderPen Pro&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Distraction-free writing app designed for long-form content and storytelling. Combines a clean editor with project and document management tools.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.ebook-tool.com/ebook-converter-ultimate.htm"&gt;&lt;b&gt;&lt;strong&gt;Ebook Converter Ultimate&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Converts ebooks between PDF, ePub, Mobi, AZW, TXT, and other formats. Handles batch conversions for large libraries.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://ensili.co/app/jsonwizard/"&gt;&lt;b&gt;&lt;strong&gt;JSON Wizard&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- Native Mac JSON viewer and formatter for quick inspection and editing of JSON data. Part of the enSili utility suite.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://coderblocks.eu/mobility"&gt;&lt;b&gt;&lt;strong&gt;MacMobility&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt; -- iPhone companion app that lets you control and automate your Mac remotely. Bridges the gap between iOS shortcuts and macOS actions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=I%20Got%20a%20Sneak%20Peek%20at%20the%20Spring%20Sale%20at%20BundleHunt" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>For bargain hunters, BundleHunt makes the holidays happen four times a year. Many well-known and popular apps have appeared there over the years at prices 70% to 90% below what's the apps typically sell for. This current bundle is no exception The oldest receipt I have for a purchase from...</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/17880</id>
+    <published>2026-05-04T01:27:46Z</published>
+    <updated>2026-05-05T18:32:47Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/find-any-file-for-2-new-bundlehunt-sneak-peek"/>
+    <title>Find any File for $2: New BundleHunt Sneak Peek</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Find Any File" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN0tqQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--665566c5295cae926f9b602d3265190348b26f67/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/95154.jpeg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Find Any File
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The spring sale for &lt;a href="https://bundlehunt.com/?ap_id=MacPicks"&gt;Bundle Hunt&lt;/a&gt; doesn't officially open until tomorrow, but I have some inside info on what's coming this time around for the bargain hunters out there. One of my favorite apps for over two decades is going on sale for $2.&lt;/p&gt;
+
+&lt;p&gt;Mac users have a wide range of file search tools, from the built-in Spotlight to professional options like Foxtrot that cost north of $100. The right choice depends on how you actually search.&lt;/p&gt;
+
+&lt;p&gt;I tend to run the same kinds of queries repeatedly, so saved searches and reusable templates matter. I also frequently need to locate a specific file quickly, which means I care about a clean interface and fast launch.&lt;/p&gt;
+
+&lt;p&gt;My go-to for day-to-day work is &lt;a href="https://bundlehunt.com/?ap_id=MacPicks"&gt;Find Any File (FAF)&lt;/a&gt;. It’s currently on sale at BundleHunt for $2, which is almost absurd given what it does. More importantly, it finds files that Spotlight simply won’t.&lt;/p&gt;
+
+&lt;p&gt;Spotlight is fast. It’s convenient. It’s also quietly omitting large parts of your filesystem.&lt;/p&gt;
+
+&lt;p&gt;FAF searches everywhere Spotlight skips: system and Library folders, hidden files, package contents, network volumes, and external disks. Most tools avoid these areas. FAF doesn’t.&lt;/p&gt;
+
+&lt;p&gt;Hold ⌥ in the search window and the &lt;b&gt;&lt;strong&gt;Find&lt;/strong&gt;&lt;/b&gt; button changes to &lt;b&gt;&lt;strong&gt;Find All&lt;/strong&gt;&lt;/b&gt;. Enter your admin password, and FAF relaunches with elevated privileges, allowing it to search other users’ home directories on the same Mac. That sounds niche until you actually need it.&lt;/p&gt;
+
+&lt;p&gt;Spotlight only indexes what Apple chooses to include. System folders, many Library paths, network volumes, other users’ home directories, and files buried inside app bundles are often excluded. If you’ve ever tried to track down a preference file, cache, or config in &lt;code&gt;/Library&lt;/code&gt;, you’ve probably hit this wall: no results, no explanation, and no confidence the file is even there.&lt;/p&gt;
+
+&lt;h2&gt;What It Is&lt;/h2&gt;
+
+&lt;p&gt;Find Any File, developed by Thomas Templeton, has been around for over two decades. The current version is 2.6.&lt;/p&gt;
+
+&lt;p&gt;Its core approach is straightforward: it searches the filesystem directly via BSD APIs instead of relying on Spotlight’s index. No index means no blind spots. If the file exists and your permissions allow it, FAF will find it.&lt;/p&gt;
+
+&lt;p&gt;This isn’t a full replacement for Spotlight. It’s the tool you reach for when Spotlight comes up empty.&lt;/p&gt;
+
+&lt;h2&gt;Key Features That Actually Matter&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Precise search rules&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The search builder supports stacked criteria: filename (including wildcards and regex), extension, size, date ranges, file type, visibility, Trash status, and even Finder comments.&lt;/p&gt;
+
+&lt;p&gt;Real-world example: in a large &lt;code&gt;~/Music&lt;/code&gt; library, you can find every file that &lt;i&gt;&lt;em&gt;isn’t&lt;/em&gt;&lt;/i&gt; MP3 or AAC and is larger than 1 MB. That’s a simple three-condition query here; Spotlight can’t express it cleanly.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Content search&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;FAF can search inside plain text files and compressed archives, including &lt;code&gt;.docx&lt;/code&gt; and &lt;code&gt;.xlsx&lt;/code&gt;. With optional Spotlight integration enabled, you can also pull in PDF content results alongside FAF’s direct matches.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Hierarchical results view&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Flat lists break down quickly with large result sets. Switch to tree view (⌘2) and results are grouped by folder hierarchy, which makes triage and cleanup work much faster.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Saved searches&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Save any query as a &lt;code&gt;.faf&lt;/code&gt; file and rerun it with a double-click. This is where FAF becomes a workflow tool, not just a utility.&lt;/p&gt;
+
+&lt;p&gt;Example use case: auditing an Obsidian vault for non-markdown files (anything that isn’t &lt;code&gt;.md&lt;/code&gt;, an image, or a PDF).&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Automation hooks&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;FAF exposes a URL scheme and integrates cleanly with tools like Keyboard Maestro, PopClip, Default Folder X, and BBEdit. If your workflow is hotkey-driven, this is where it starts to compound.&lt;/p&gt;
+
+&lt;h2&gt;A Little Reality&lt;/h2&gt;
+
+&lt;p&gt;FAF isn’t instant. It performs a live filesystem scan rather than querying an index.&lt;/p&gt;
+
+&lt;p&gt;On a fast SSD with a narrow scope, it’s quick enough. On a large spinning disk or wide search scope, it takes longer. That’s the tradeoff: completeness vs. speed.&lt;/p&gt;
+
+&lt;p&gt;For the situations where you reach for FAF, completeness usually wins.&lt;/p&gt;
+
+&lt;p&gt;The UI is functional and very macOS-native. It uses the same criteria-building pattern as Finder searches and Smart Mailboxes, so there’s almost no learning curve if you’ve used those.&lt;/p&gt;
+
+&lt;h2&gt;Pricing &amp;amp; Availability&lt;/h2&gt;
+
+&lt;p&gt;You can grab it via BundleHunt during sales, or buy it outright on the Mac App Store as a one-time purchase. There’s also a direct download from the developer that runs as shareware: try it, pay if you keep using it.&lt;/p&gt;
+
+&lt;p&gt;If you already purchased the App Store version, you can run the direct version on the same Mac without buying it again. That’s a small detail, but it says a lot about the developer.&lt;/p&gt;
+
+&lt;h2&gt;Who It’s For&lt;/h2&gt;
+
+&lt;p&gt;Anyone who has run into Spotlight’s invisible boundaries:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;developers tracking down config files&lt;/li&gt;
+&lt;li&gt;power users auditing disk contents&lt;/li&gt;
+&lt;li&gt;admins who need full visibility&lt;/li&gt;
+&lt;li&gt;anyone who’s ever thought: &lt;i&gt;&lt;em&gt;“this file exists, why can’t I find it?”&lt;/em&gt;&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;FAF isn’t flashy. It’s a precision tool for when Spotlight stops being honest about what’s on your disk.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Find%20any%20File%20for%20$2:%20New%20BundleHunt%20Sneak%20Peek" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>
+
+The spring sale for Bundle Hunt doesn't officially open until tomorrow, but I have some inside info on what's coming this time around for the bargain hunters out there. One of my favorite apps for over two decades is going on sale for $2.
+
+Mac users have a wide...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
   <entry>
     <id>tag:appaddict.app,2005:Post/17818</id>
     <published>2026-04-29T01:29:37Z</published>
@@ -1518,319 +2075,6 @@ BackiGo is an iCloud backup app I can recommend for anyone looking for an alter
     <summary>
 
 I’m always impressed when an out-of-the-box thinker builds an app unlike anything I’ve seen before. Iterating on proven concepts is fine, but after testing enough clipboard managers and voice-to-text apps, they all start to blur together. Give me something new, clever, and useful, and I’ll happily change my workflow...</summary>
-    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15815</id>
-    <published>2026-03-29T10:30:00Z</published>
-    <updated>2026-03-29T10:30:02Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/500-app-reviews-published"/>
-    <title>500 App Reviews Published!</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Number 500!!!" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXVMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4d2220436baeb2b7e6562eda2909b792c74afd9c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/appaddict500.png" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Number 500!!!
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I posted my 500th app review this week. If you keep typing long enough, this is what happens. It makes me super happy and I hope I have helped some of you find apps that you've grown to use and love. If I have, please leave a comment, it will be motivating and appreciated. I want to give a shout out to &lt;a href="https://reddit.com/r/macapps"&gt; r/MacApps&lt;/a&gt; for all the support and feedback I've gotten there. I also want to thank &lt;a href="https://scribbles.page"&gt;Scribbles&lt;/a&gt;, the blogging platform I've used the entire time.&lt;/p&gt;
-
-&lt;p&gt;I recently added a way for developers to alert me to their apps. If you know anyone who has an app that could use some exposure, please let them know they can request a review &lt;a href="https://www.cognitoforms.com/AppAddictapp/AppReviewSubmission"&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;AppAddict is just me, one old guy with a laptop and a decades old predilection for clicking the download button on just about every app I see. This is my hobby, not a side job. I do it because I enjoy it. I can't tell you how thrilling it's been to interact with developers of some of my favorite apps. I still have a big streak of fanboy.&lt;/p&gt;
-
-&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Analytics" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMTZMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cbf948cf1311d42e52ab8c64406de369b1052ea3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-29%20at%2006.28.16.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Analytics
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=500%20App%20Reviews%20Published!" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>I posted my 500th app review this week. If you keep typing long enough, this is what happens. It makes me super happy and I hope I have helped some of you find apps that you've grown to use and love. If I have, please leave a comment, it will...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15789</id>
-    <published>2026-03-27T01:46:14Z</published>
-    <updated>2026-03-27T01:46:16Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/automation-fans-are-going-to-love-picmal-for-conversions"/>
-    <title>Automation Fans Are Going to Love PicMal for Conversions</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="PicMal" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUNLQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bb58781cc3899738a2935f6036e470520ff9197b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-26%20at%2021.42.00.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      PicMal
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Every Mac user eventually ends up with a pile of files that need converting. Screenshots that are too large for the web. HEIC photos from iPhones that need to become JPEGs. Audio recordings saved at ridiculous bitrates. Video files that need to be optimized for sharing.&lt;/p&gt;
-
-&lt;p&gt;You can solve all of that with command-line tools like &lt;code&gt;ffmpeg&lt;/code&gt; or with a handful of separate utilities.&lt;/p&gt;
-
-&lt;p&gt;Or you can just use &lt;a href="https://picmal.app/"&gt;Picmal&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Picmal is a single macOS utility that handles image, audio, and video conversion and compression. Once installed, it integrates directly into the &lt;b&gt;&lt;strong&gt;Dock, Finder, menu bar, Services, and Shortcuts,&lt;/strong&gt;&lt;/b&gt; so it behaves more like a built-in system tool than a typical standalone app.&lt;/p&gt;
-
-&lt;p&gt;It works immediately with sensible defaults, but if you want to tweak codecs, formats, or compression levels, the controls are there.&lt;/p&gt;
-
-&lt;h2&gt;Images&lt;/h2&gt;
-
-&lt;p&gt;I’ve set up one of my screenshot apps specifically for images I plan to post on the web. It saves those screenshots into a folder that Picmal watches.&lt;/p&gt;
-
-&lt;p&gt;When a file lands there, Picmal automatically:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;converts it to my preferred format&lt;/li&gt;
-&lt;li&gt;applies a compression level that keeps good clarity while shrinking the file size&lt;/li&gt;
-&lt;li&gt;renames the file so I know it’s already been processed&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;That automation alone has been useful for blogging and documentation.&lt;/p&gt;
-
-&lt;p&gt;If you regularly deal with HEIC photos from iPhones or iPads, Picmal can also watch a folder and convert them automatically.&lt;/p&gt;
-
-&lt;p&gt;Picmal also handles image resizing and color space conversion (sRGB, ProPhoto RGB, Display P3, and others). If you’re preparing files for printing, you can adjust DPI as well.&lt;/p&gt;
-
-&lt;h2&gt;Audio&lt;/h2&gt;
-
-&lt;p&gt;Batch processing works well. I had a collection of spoken-word recordings from events I’d attended, and many of them had been saved at extremely high bitrates that made sense for music but not for speech.&lt;/p&gt;
-
-&lt;p&gt;Picmal converted and compressed the entire batch without complaint. The resulting files sounded the same for spoken content while taking up far less disk space.&lt;/p&gt;
-
-&lt;h2&gt;Video&lt;/h2&gt;
-
-&lt;p&gt;Video conversion uses simple presets:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Maximum Quality&lt;/li&gt;
-&lt;li&gt;Balanced (Size &amp;amp; Quality)&lt;/li&gt;
-&lt;li&gt;Web Optimized&lt;/li&gt;
-&lt;li&gt;Social Media&lt;/li&gt;
-&lt;li&gt;Maximum Compression&lt;/li&gt;
-&lt;li&gt;Custom&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pick the preset that matches the destination and you’re done. If you need more control, the Custom option exposes additional settings.&lt;/p&gt;
-
-&lt;h2&gt;Clipboard Optimization&lt;/h2&gt;
-
-&lt;p&gt;Clipboard optimization lets Picmal compress images you copy to the clipboard. Copy a screenshot, a web image, or a file in Finder and Picmal quietly optimizes it in the background.&lt;/p&gt;
-
-&lt;p&gt;A small overlay appears so you can immediately replace the original clipboard contents with the compressed version.&lt;/p&gt;
-
-&lt;p&gt;If you enable the option, Picmal can automatically copy the optimized image back to your clipboard. One practical advantage: images processed this way can be pasted into Finder as files, which isn’t something macOS normally allows with clipboard images.&lt;/p&gt;
-
-&lt;p&gt;A nice touch: if the image is already efficiently compressed, Picmal detects that and skips the process instead of recompressing it.&lt;/p&gt;
-
-&lt;h2&gt;How It Fits Into a Typical Mac Workflow&lt;/h2&gt;
-
-&lt;p&gt;If you already use media tools on macOS, you might be wondering where Picmal fits.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://appaddict.app/post/imageoptim-free-and-open-source-utility-to-reduce-file-sizes"&gt;&lt;b&gt;&lt;strong&gt;ImageOptim&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Great for compressing images, especially for web publishing. Picmal overlaps here but adds format conversion, automation via watched folders, and clipboard workflows.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://appaddict.app/post/permute-powerful-easy-to-use-media-converter-for-images-video-and-audio"&gt;&lt;b&gt;&lt;strong&gt;Permute &lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Permute focuses mostly on media conversion with a clean UI. Picmal covers similar ground but adds automation features and deeper Finder integration.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/FFmpeg"&gt;&lt;b&gt;&lt;strong&gt;ffmpeg / command-line tools&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Still the most flexible option for scripting and complex workflows. Picmal obviously can’t match that level of control, but for everyday tasks it removes a lot of friction.&lt;/p&gt;
-
-&lt;p&gt;In practice, Picmal feels less like a replacement for those tools and more like a convenient layer on top of common conversion tasks.&lt;/p&gt;
-
-&lt;h2&gt;Final Thoughts&lt;/h2&gt;
-
-&lt;p&gt;At $15.99 per seat with lifetime updates, Picmal is reasonably priced for what it does. There’s also a 15-day no-questions-asked refund.&lt;/p&gt;
-
-&lt;p&gt;All processing happens locally on your Mac (macOS 14 or newer), and the developer states that no data is collected. If you want to dig deeper, the developer provides &lt;a href="https://picmal.app/docs"&gt;comprehensive documentation&lt;/a&gt; on the website.&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Automation%20Fans%20Are%20Going%20to%20Love%20PicMal%20for%20Conversions" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>Every Mac user eventually ends up with a pile of files that need converting. Screenshots that are too large for the web. HEIC photos from iPhones that need to become JPEGs. Audio recordings saved at ridiculous bitrates. Video files that need to be optimized for sharing.
-
-You can solve all...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15762</id>
-    <published>2026-03-25T20:22:29Z</published>
-    <updated>2026-03-25T20:22:31Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/10-tiny-mac-workflow-tweaks-that-save-me-time-every-day"/>
-    <title>10 Tiny Mac Workflow Tweaks that Save Me Time Every Day</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Power User Apps" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWFLQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ce4121c53d071566c797687a8531c3d4747b1daa/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/a_3x4_grid_of_application_icons_is_displayed_on_a.jpeg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Power User Apps
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I spend a lot of time trying to remove small bits of friction from my Mac workflow. macOS is a great system, but out of the box it still leaves a lot of obvious automation opportunities on the table.&lt;/p&gt;
-
-&lt;p&gt;I spend a lot of time trying to remove small bits of friction from my Mac workflow. macOS is a great system, but out of the box it still leaves a lot of obvious automation opportunities on the table.&lt;/p&gt;
-
-&lt;p&gt;Most of the improvements I rely on come from stitching together tools like AppleScript, Keyboard Maestro, Shortcuts, and a few power-user utilities I discovered at &lt;a href="https://reddit.com/r/macapps"&gt;r/MacApps&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;None of this is complicated once it’s set up. The goal is just to eliminate little interruptions that happen dozens of times a day.&lt;/p&gt;
-
-&lt;h2&gt;Here are a few small automations and workflow tweaks that currently make my Mac feel a lot more like &lt;i&gt;&lt;em&gt;my&lt;/em&gt;&lt;/i&gt; machine.&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I like Safari, but I don’t like how easily it spawns extra windows. I now use an &lt;a href="https://dropover.cloud/42839b"&gt;AppleScript&lt;/a&gt; tied to &lt;a href="https://appaddict.app/post/keyboard-maestro-the-app-that-makes-everything-better-tips-for-the-for-the-automation-curious"&gt;Keyboard Maestro&lt;/a&gt;. With a mouse click or hotkey, it closes every Safari window except the frontmost one.&lt;/li&gt;
-&lt;li&gt;Safari has good AppleScript and Shortcuts support, but it still doesn’t provide a keyboard-friendly way to jump directly to a specific Tab Group. My workaround is &lt;a href="https://www.icloud.com/shortcuts/424633ecabef49bba903e3f03b68bc62"&gt;an Apple Shortcut that batch-opens groups of URLs&lt;/a&gt; that mirror my tab groups: Server, Social, Blogging, Software, etc.&lt;/li&gt;
-&lt;li&gt;I set up &lt;a href="https://folivora.ai/"&gt;BetterTouchTool&lt;/a&gt; so that &lt;b&gt;&lt;strong&gt;fn + Button 3&lt;/strong&gt;&lt;/b&gt; on my Logitech mouse triggers the &lt;b&gt;&lt;strong&gt;New&lt;/strong&gt;&lt;/b&gt; command across roughly two dozen apps. Depending on the app, that can mean a new tab, new note, new document, new Shortcut, new Keyboard Maestro macro, new email, or new message.&lt;/li&gt;
-&lt;li&gt;I’m currently using &lt;a href="https://www.apptorium.com/sidenotes"&gt;SideNotes&lt;/a&gt; as my scratchpad. It stays hidden on the right edge of my primary display until I toggle it with a hotkey or an &lt;a href="https://appaddict.app/post/extra-bar-gets-extra-features"&gt;ExtraBar&lt;/a&gt; menu item.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Most of these are tiny things, but they add up surprisingly fast&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I use &lt;a href="https://github.com/rxhanson/RectanglePro-Community/discussions/111"&gt;Rectangle Pro’s layout manager&lt;/a&gt; to launch and arrange &lt;b&gt;&lt;strong&gt;10 apps across two displays and eight virtual desktops&lt;/strong&gt;&lt;/b&gt;. Each desktop has a keyboard shortcut, and I tie them together with a single Keyboard Maestro macro. &lt;a href="https://dropover.cloud/bda645"&gt;(download link)&lt;/a&gt;
-&lt;/li&gt;
-&lt;li&gt;I wrote a small shell script &lt;a href="https://dropover.cloud/85439b"&gt;(download link)&lt;/a&gt; that reconnects me to &lt;a href="https://appaddict.app/post/ailscale-the-best-free-app-most-mac-power-users-aren-t-using"&gt;Tailscale&lt;/a&gt; if the connection drops or fails to start. It runs via &lt;b&gt;&lt;strong&gt;launchd&lt;/strong&gt;&lt;/b&gt;, configured through &lt;a href="https://appaddict.app/post/stop-making-cron-jobs"&gt;Lingon Pro&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;I use macOS 26’s automation features in Apple Shortcuts to create my daily Obsidian note from a template. The automation also inserts a weather report and the day’s calendar events, so the note is ready when I sit down at my desk each morning. (Requires &lt;a href="https://apps.apple.com/us/app/actions-for-obsidian/id1659667937"&gt;Actions for Obsidian&lt;/a&gt;.)&lt;/li&gt;
-&lt;li&gt;When I need a dual-pane file manager instead of Finder, a Keyboard Maestro trigger runs an AppleScript that closes all Finder windows and replaces them with a ForkLift window. (&lt;a href="https://a.dropoverapp.com/cloud/download/c4376cdb-9bd3-4a1e-be1e-e8b79d139155/2b0a6331-f55c-406d-ab56-18d0d82cbf11"&gt;download macro&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;I removed the menu bar icons for &lt;a href="https://appaddict.app/post/better-touch-tool-favoriteso"&gt;BetterTouchTool&lt;/a&gt;, &lt;a href="https://appaddict.app/post/default-folder-x-an-og-app-for-mac-power-users"&gt;Default Folder X&lt;/a&gt;, &lt;a href="https://appaddict.app/post/using-supercharge"&gt;Supercharge&lt;/a&gt;, and Rectangle Pro. Their functions are now exposed through ExtraBar instead.&lt;/li&gt;
-&lt;li&gt;If a developer doesn’t expose a URL scheme, you can’t deep-link into specific menu items. Finder is a good example; there’s no direct link for &lt;b&gt;&lt;strong&gt;Go to Folder&lt;/strong&gt;&lt;/b&gt;. ExtraBar can run scripts, though, so a small AppleScript can send keystrokes to trigger the command. If the feature exists in a menu but has no keyboard shortcut, you can also create your own under &lt;b&gt;&lt;strong&gt;System Settings → Keyboard → Keyboard Shortcuts&lt;/strong&gt;&lt;/b&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Sample Script&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;tell application "Finder"&lt;/code&gt;&lt;br&gt;&lt;code&gt;activate&lt;/code&gt;&lt;br&gt;&lt;code&gt;end tell&lt;/code&gt;&lt;br&gt;&lt;code&gt;tell application "System Events"&lt;/code&gt;&lt;br&gt;&lt;code&gt;keystroke "g" using {command down, shift down}&lt;/code&gt;&lt;br&gt;&lt;code&gt;end tell&lt;/code&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;None of these are huge changes individually, but together they remove a lot of small interruptions during the day.&lt;/p&gt;
-
-&lt;p&gt;Curious what small automations or workflow tricks other people here are using.&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=10%20Tiny%20Mac%20Workflow%20Tweaks%20that%20Save%20Me%20Time%20Every%20Day" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>I spend a lot of time trying to remove small bits of friction from my Mac workflow. macOS is a great system, but out of the box it still leaves a lot of obvious automation opportunities on the table.
-
-I spend a lot of time trying to remove small bits...</summary>
-    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15736</id>
-    <published>2026-03-24T15:40:46Z</published>
-    <updated>2026-03-24T15:40:48Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/consul-is-supremely-useful"/>
-    <title>Consul is Supremely Useful</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Automation" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK21KQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--46c431fc5cc6baa73f13cc6be141c3b47829cc8d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-24%20at%2011.40.00.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Automation
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I’ve become quite fond of &lt;a href="https://getconsul.app/"&gt;Consul&lt;/a&gt;, a relatively new file conversion utility that’s both simple to use and easy to automate. The concept is almost absurdly straightforward: change the file extension to the format you want and the conversion just happens.&lt;/p&gt;
-
-&lt;p&gt;You might think you’ll never really need to convert files from one format to another. In practice, that assumption tends to collapse sooner or later. A few situations I’ve run into over the years:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Switching from one e-reader (for example, Sony) to another (Kindle) and suddenly needing to convert an entire library of books.&lt;/li&gt;
-&lt;li&gt;My photography workflow revolves around Canon’s RAW format (CR2). When a relative passed away and I inherited his photo archive, the files were a mix of several other RAW formats.&lt;/li&gt;
-&lt;li&gt;After living through the minor apocalypse when Microsoft killed Works, you’d think I would have learned something about proprietary formats. Instead, I spent another twenty years writing in Word before finally switching to Markdown.&lt;/li&gt;
-&lt;li&gt;Occasionally grabbing an iPhone photo and realizing it exported as HEIC, which remains incompatible with far more things than it should be.&lt;/li&gt;
-&lt;li&gt;Optimizing photos and video for my blog or social media.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are plenty of ways to convert files. Most of them involve some level of friction:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Opening an app (Word, for example) and using &lt;b&gt;&lt;strong&gt;File → Save As&lt;/strong&gt;&lt;/b&gt; to create another copy in a different format.&lt;/li&gt;
-&lt;li&gt;Uploading files to random conversion websites with unclear privacy policies.&lt;/li&gt;
-&lt;li&gt;Using powerful utilities like &lt;a href="https://software.charliemonroe.net/permute/"&gt;Permute&lt;/a&gt;, which are excellent but come with a bit of a learning curve.&lt;/li&gt;
-&lt;li&gt;Building your own workflow with Apple Shortcuts if you enjoy assembling that kind of plumbing.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What makes Consul such a pleasure is the complete absence of friction. It runs quietly in the background, and when you need to convert something, it just happens the moment you rename the file. For most conversions, the default settings are fine, but in the settings, you can control exactly how each conversion is handled including the output quality and codec, or whether to strip metadata.&lt;/p&gt;
-
-&lt;p&gt;For Mac automation nerds, Consul can be set to watch folders and perform conversions when a certain file type lands there. You can use Consul with &lt;a href="https://amerpie.lol/2024/05/10/my-favorite-actions.html"&gt;Hazel&lt;/a&gt; or another automation tool like &lt;a href="https://appaddict.app/post/developer-spotlight-low-tech-guys-maker-of-clop-lunar-rcmd-pipiri-and-crank"&gt;Crank&lt;/a&gt; to route the converted file elsewhere, import it into Photos or upload it to an FTP server.&lt;/p&gt;
-
-&lt;p&gt;Consul currently supports &lt;b&gt;&lt;strong&gt;1,391 conversions across 76 file formats&lt;/strong&gt;&lt;/b&gt;, covering images, audio, video, documents, e-books, email, configuration files, spreadsheets, and archives.&lt;/p&gt;
-
-&lt;p&gt;The developer’s site suggests more formats are planned. I’d particularly like to see support for Apple iWork files and OpenOffice spreadsheets and presentations. My pie-in-the-sky request would be a &lt;b&gt;&lt;strong&gt;PDF → EPUB conversion&lt;/strong&gt;&lt;/b&gt; that performs better than what Calibre currently produces.&lt;/p&gt;
-
-&lt;p&gt;Pricing is refreshingly simple. A single license is &lt;b&gt;&lt;strong&gt;$14&lt;/strong&gt;&lt;/b&gt;, and a three-seat license is &lt;b&gt;&lt;strong&gt;$19&lt;/strong&gt;&lt;/b&gt;, both including a year of updates.&lt;/p&gt;
-
-&lt;p&gt;The privacy policy is exactly what you want to see: &lt;b&gt;&lt;strong&gt;no data collection&lt;/strong&gt;&lt;/b&gt;. Email support is available, and the developer is &lt;a href="https://www.reddit.com/user/Spaaze/"&gt;active on Reddit&lt;/a&gt; and notably friendly when people have questions.&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Consul%20is%20Supremely%20Useful" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>I’ve become quite fond of Consul, a relatively new file conversion utility that’s both simple to use and easy to automate. The concept is almost absurdly straightforward: change the file extension to the format you want and the conversion just happens.
-
-You might think you’ll never really need to convert files...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15705</id>
-    <published>2026-03-22T14:17:16Z</published>
-    <updated>2026-03-22T14:17:17Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/if-these-apps-are-missing-my-mac-feels-broken"/>
-    <title>If These Apps Are Missing My Mac Feels Broken</title>
-    <content type="html">&lt;p&gt;Some small utilities become so embedded in my workflow that they start to feel like part of macOS itself. When I sit down at someone else’s Mac or a freshly set-up machine and they aren’t there, it genuinely throws me off.&lt;/p&gt;
-
-&lt;p&gt;I’m curious what apps fall into that category for you.&lt;/p&gt;
-
-&lt;h2&gt;Shareful&lt;/h2&gt;
-
-&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMU9KQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2f7290055972ec9ef48a13962080bc65a34f6b1f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/screenshot1.Cu-zFadA.jpg" loading="lazy" decoding="async"&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;One of those apps for me is &lt;a href="https://appaddict.app/post/shareful-a-free-app-i-use-every-day"&gt;Shareful&lt;/a&gt; by &lt;a href="https://appaddict.app/post/the-many-apps-of-sindre-sorhus"&gt;Sindre Sorhus&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The Mac share menu has always felt like an afterthought compared to iOS. Many developers don’t bother implementing it, and Apple keeps it oddly limited. Shareful fixes that by adding a few practical actions that save me a surprising number of clicks every day:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Copy&lt;/li&gt;
-&lt;li&gt;Open In&lt;/li&gt;
-&lt;li&gt;Save As…&lt;/li&gt;
-&lt;li&gt;Save to Downloads&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It’s simple, but once you have it, the default share sheet feels incomplete without it.&lt;/p&gt;
-
-&lt;h2&gt;Start by Innovative Bytes&lt;/h2&gt;
-
-&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNKQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--31cbb665d0bc6bf98debaacfdad43d3f1b554887/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/start.jpg" loading="lazy" decoding="async"&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Even though I’m very much a keyboard-launcher person (Team &lt;a href="https://appaddict.app/post/how-to-get-the-most-from-raycast"&gt;Raycast&lt;/a&gt;), there are situations where that approach breaks down.&lt;/p&gt;
-
-&lt;p&gt;Sometimes I need a small, obscure utility whose name I can’t remember. When your &lt;code&gt;/Applications&lt;/code&gt; folder is as crowded as mine, scrolling through it isn’t realistic.&lt;/p&gt;
-
-&lt;p&gt;That’s where &lt;a href="https://appaddict.app/post/start-from-innovative-bytes"&gt;Start from Innovative Bytes&lt;/a&gt; comes in. Two features make it especially useful.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Tagging&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Tagging lets you create categories for apps without any friction. You can even nest them, like &lt;code&gt;Utilities/Screenshots&lt;/code&gt; or &lt;code&gt;Utilities/Clipboard&lt;/code&gt;, which makes browsing a large app library much more manageable.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;You can attach a short description to an app so you remember what it actually does.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A good example is the file-conversion utility &lt;a href="https://getconsul.app/"&gt;Consul&lt;/a&gt;, which lets you change an image’s format just by renaming it. Seeing a note like “file rename / conversion” when browsing makes it much easier to find again later.&lt;/p&gt;
-
-&lt;h2&gt;Honorable Mentions&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href="https://appaddict.app/post/apparency-the-app-that-open-apps"&gt;Apparency – The App That Opens Apps&lt;/a&gt; — a Quick Look extension and inspection utility for applications&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://appaddict.app/post/cleanshot-x"&gt;CleanShot X&lt;/a&gt; — the screenshot tool whose keyboard shortcuts are permanently burned into my muscle memory; although &lt;a href="https://appaddict.app/post/screenfloat-is-a-different-kind-of-screenshot-app"&gt;ScreenFloat&lt;/a&gt; is starting to make a case for itself&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=If%20These%20Apps%20Are%20Missing%20My%20Mac%20Feels%20Broken" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>Some small utilities become so embedded in my workflow that they start to feel like part of macOS itself. When I sit down at someone else’s Mac or a freshly set-up machine and they aren’t there, it genuinely throws me off.
-
-I’m curious what apps fall into that category for...</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
     <author>
       <name>Lou Plummer</name>

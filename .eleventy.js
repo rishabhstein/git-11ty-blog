@@ -1229,7 +1229,7 @@ ${tabsMarkup}
     base: "https://blog.rishabhps.com/",
     author: {
       name: "Rishabh",
-      email: "sigmarootpi@proton.me",
+      email: "hello@rishabhps.com",
     },
   };
 
