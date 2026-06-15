@@ -4,14 +4,805 @@
   <link rel="alternate" type="text/html" href="https://appaddict.app"/>
   <link rel="self" type="application/atom+xml" href="https://appaddict.app/feed.atom"/>
   <title>AppAddict</title>
-  <subtitle>I'm an incurable software collector and enjoy few things more than downloading and exploring new apps. If you've got the same bug, check here for suggestions. If you're a developer and have an app you'd like me to check out, let me know.</subtitle>
-  <updated>2026-05-08T14:44:22Z</updated>
+  <subtitle>I emphasize honest, practical reviews from my perspective as a power user and productivity enthusiast — not a marketer I have a particular fondness for the indie Mac scene, privacy-respecting software, open-source tools, and workflow automation. I also cover self-hosting, the de-Googling/de-Apple-ification of digital life, and the art of building efficient Mac workflows with the right combination of small, focused apps. Posts range from single-app deep dives to multi-app roundups, workflow walkthroughs, and developer spotlights. If you're a developer and have an app you'd like me to check out, let me know.</subtitle>
+  <updated>2026-06-01T21:02:01Z</updated>
   <logo>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWl3QmFRSXNBVG9LYzJGMlpYSjdCem9LYzNSeWFYQlVPZ3h4ZFdGc2FYUjVhV1E9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--d5470907b5b5a357fec32990d4bdb78c827f9472/1024px-App_Store_(iOS).svg.png</logo>
   <icon>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwUldsRk9ncHpZWFpsY25zSE9ncHpkSEpwY0ZRNkRIRjFZV3hwZEhscFpBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--d0a377349dc1eed29878fcae6bec2204e230fc00/1024px-App_Store_(iOS).svg.png</icon>
   <author>
     <name>AppAddict</name>
     <uri>https://appaddict.app</uri>
   </author>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18172</id>
+    <published>2026-06-01T21:02:01Z</published>
+    <updated>2026-06-13T06:48:45Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/cache-out-a-privacy-focused-free-tool-for-multiple-browsers"/>
+    <title>Cache Out - A Privacy Focused Free Tool For Multiple Browsers</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2FyQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--109a148300c16e76fceb7baf00fb800ed209c139/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-06-01%20at%2017.00.35@2x.jpg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href="https://cacheout.app/"&gt;Cache Out&lt;/a&gt;, a free new single-purpose utility from veteran Mac developer Jim Mitchell, fits right into an app category that is severely underrepresented - utilities that work across multiple browsers from a single interface.&lt;/p&gt;
+
+&lt;h2&gt;What It Does&lt;/h2&gt;
+
+&lt;p&gt;Cache Out's superpower is selective data removal from a variety of popular macOS browsers with the click of a single button. It removes five categories of information - &lt;b&gt;&lt;strong&gt;cache, history, downloads, favicons, and cookies&lt;/strong&gt;&lt;/b&gt;. You select the browsers you want cleared from a list. You select the categories of data to remove. Then, you click a single button and BOOM. It's done. After the files are removed, you aren't left in the dark about what happened since you get a report on the number of files and MBs that were removed.&lt;/p&gt;
+
+&lt;p&gt;There are currently seven supported browsers:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Safari&lt;/li&gt;
+&lt;li&gt;Chrome&lt;/li&gt;
+&lt;li&gt;Firefox&lt;/li&gt;
+&lt;li&gt;Edge&lt;/li&gt;
+&lt;li&gt;Brave&lt;/li&gt;
+&lt;li&gt;Opera&lt;/li&gt;
+&lt;li&gt;Orion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I'd like to see a few more on the list, including Vivaldi, Arc, and Atlas. Thankfully, Mitchell indicates that more browsers are coming.&lt;/p&gt;
+
+&lt;p&gt;Cache Out punches all the right buttons for a privacy-focused app. It doesn't phone home or collect analytics. It doesn't require an account or registration. It's Apple-notarized. Everything happens on your machine.&lt;/p&gt;
+
+&lt;h2&gt;Why You Need It&lt;/h2&gt;
+
+&lt;p&gt;Don't think that an app like this is the ultimate Boss Button. Most corporate-owned computers track Internet traffic in real time, so your IT department can still track your history if this is your only precaution. Still, most undermanned and overworked support workers don't care where you go as a general rule. Likewise, your home ISP can track your DNS requests for almost every site you visit unless you use a no-log VPN or a service like NextDNS that offers name resolution over HTTPS. Even then, you have to be savvy enough to set it up correctly.&lt;/p&gt;
+
+&lt;p&gt;Still, there are a lot of reasons for running clean browsers. In a world where browser fingerprinting is maximally invasive and pervasive, one defense is using multiple browsers to make yourself harder to track for the data scrapers of the world. You'll quickly build up GBs of data for almost every browser you use. If you're stuck with a small hard drive you can't upgrade (like my brand-new M4 Mac Mini's 256GB), you always have to be careful with space. Cache Out is the perfect app to do that.&lt;/p&gt;
+
+&lt;p&gt;Also, many countries, including my own, are seeing a rollback of civil liberties. To make matters worse, areas where people travel with their computers offer less privacy than you'd have at home. If you gave the slightest concern about the TSA, ICE, or the CBP looking through your browser history, use Cache Out before you travel.&lt;/p&gt;
+
+&lt;h2&gt;2026-06-13 Update&lt;/h2&gt;
+
+&lt;p&gt;Cache Out has been updated to v1.3.1, adding several new features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New &lt;b&gt;&lt;strong&gt;Preview before cleaning&lt;/strong&gt;&lt;/b&gt; option: see exactly which files and download-history rows would be removed, and confirm, before anything is deleted.&lt;/li&gt;
+&lt;li&gt;New &lt;b&gt;&lt;strong&gt;Move to Trash instead of deleting&lt;/strong&gt;&lt;/b&gt; option, so cleared files are recoverable.&lt;/li&gt;
+&lt;li&gt;Each browser card now shows its &lt;b&gt;&lt;strong&gt;reclaimable size&lt;/strong&gt;&lt;/b&gt; in the header, calculated at launch.&lt;/li&gt;
+&lt;li&gt;New &lt;b&gt;&lt;strong&gt;Clean default profile only&lt;/strong&gt;&lt;/b&gt; preference for multi-profile browsers (Chrome, Firefox, Edge, Opera, Brave).&lt;/li&gt;
+&lt;li&gt;Clearing browsing history now also clears the &lt;b&gt;&lt;strong&gt;“Recently Closed”&lt;/strong&gt;&lt;/b&gt; tabs and windows that browsers restore from session data.&lt;/li&gt;
+&lt;li&gt;Added &lt;b&gt;&lt;strong&gt;French localization&lt;/strong&gt;&lt;/b&gt;.&lt;/li&gt;
+&lt;li&gt;Hardened the deletion safety checks against symlink and path-traversal escapes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Other Cross Browser Utilities&lt;/h2&gt;
+
+&lt;p&gt;Here are utilities that operate across multiple browsers on macOS:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;History &amp;amp; Data Aggregation&lt;/h3&gt;
+
+&lt;ul&gt;&lt;li&gt;
+&lt;a href="https://appaddict.app/post/historyhound-a-must-have-research-tool-1"&gt;HistoryHound a Must Have Research Tool | AppAddict&lt;/a&gt;&lt;br&gt;&lt;b&gt;&lt;strong&gt;St. Clair Software&lt;/strong&gt;&lt;/b&gt; — Indexes and searches browsing history from multiple browsers (Safari, Chrome, Firefox, and more) in one place. Lets you do full-text searches across all your browser histories simultaneously. Useful for finding pages you visited without remembering which browser you used.&lt;/li&gt;&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Macro &amp;amp; Automation Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/keyboard-maestro-the-app-that-makes-everything-better-tips-for-the-for-the-automation-curious"&gt;Keyboard Maestro, The App That Makes Everything Better - Tips for the Automation Curious | AppAddict&lt;/a&gt;&lt;br&gt;&lt;b&gt;&lt;strong&gt;Stairways Software&lt;/strong&gt;&lt;/b&gt; — A powerful macro utility that can trigger actions in any browser. You can build macros that work in Safari, Chrome, Firefox, Arc, and others — filling forms, clicking elements, navigating pages, or switching between browsers automatically.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.alfredapp.com/"&gt;Alfred&lt;/a&gt;&lt;br&gt;&lt;b&gt;&lt;strong&gt;Running with Crayons&lt;/strong&gt;&lt;/b&gt; — Launcher and automation tool with workflows that can interact with multiple browsers. Can open URLs in a chosen browser, search history, and trigger browser-based actions via custom workflows.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/how-to-get-the-most-from-raycast"&gt;How to Get The Most from Raycast | AppAddict&lt;/a&gt;&lt;br&gt;A launcher and productivity tool with extensions for Chrome, Safari, Firefox, and Arc. Extensions let you search tabs, bookmarks, and history across browsers from a single interface.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Password Managers (Cross-Browser)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://1password.com/"&gt;1Password&lt;/a&gt;&lt;br&gt;Works via browser extensions in Safari, Chrome, Firefox, Edge, and Brave. The Mac app itself manages credentials centrally regardless of which browser you use.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://bitwarden.com/"&gt;Bitwarden&lt;/a&gt;&lt;br&gt;Open-source password manager with extensions for virtually every major browser. The Mac desktop app serves as a central vault across all of them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Ad Blocking &amp;amp; Privacy (System-Wide)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://adguard.com/en/adguard-mac/overview.html"&gt;AdGuard for Mac&lt;/a&gt;&lt;br&gt;Filters ads and trackers at the system level, meaning it works across &lt;b&gt;&lt;strong&gt;all&lt;/strong&gt;&lt;/b&gt; browsers without needing individual extensions installed in each one.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.obdev.at/products/littlesnitch/"&gt;Little Snitch&lt;/a&gt;&lt;br&gt;&lt;b&gt;&lt;strong&gt;Objective Development&lt;/strong&gt;&lt;/b&gt; — Network monitor and firewall that works at the OS level, so it monitors and controls outgoing connections from any browser equally.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Developer / Inspection Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://proxyman.io/"&gt;Proxyman&lt;/a&gt;&lt;br&gt;A macOS proxy tool that intercepts HTTP/HTTPS traffic from any browser (or app). Useful for debugging web traffic regardless of which browser made the request.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.charlesproxy.com/"&gt;Charles Proxy&lt;/a&gt;&lt;br&gt;Similar to Proxyman — a web debugging proxy that captures traffic from all browsers at the network level.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Bookmark Management&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/raindrop-io-gets-a-significant-new-feature"&gt;Raindrop.io Gets a Significant New Feature | AppAddict&lt;/a&gt;&lt;br&gt;Cross-browser bookmark manager with extensions for all major browsers. Centralizes bookmarks saved from any browser into one organized collection.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://appaddict.app/post/goodlinks"&gt;GoodLinks | AppAddict&lt;/a&gt;&lt;br&gt;Read-later and bookmarking app with Safari extension built-in and support for sharing from other browsers via the share sheet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Cache%20Out%20-%20A%20Privacy%20Focused%20Free%20Tool%20For%20Multiple%20Browsers" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Cache Out, a free new single-purpose utility from veteran Mac developer Jim Mitchell, fits right into an app category that is severely underrepresented - utilities that work across multiple browsers from a single interface.
+
+What It DoesCache Out's superpower is selective data removal from a variety of popular macOS browsers...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18146</id>
+    <published>2026-05-27T18:21:17Z</published>
+    <updated>2026-05-27T18:21:20Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/just-wondering-around-github-looking-for-a-software-fix"/>
+    <title>Just Wondering Around Github, Looking for a Software Fix</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMytyQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8e948e39099201cafe5bac929eb53a7d19e06c3e/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/github-gold-blog-header-fixed.png" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The mark of a good Internet citizen is whether they star the GitHub repositories they like and whether they upvote helpful posts on Reddit. As someone who devotes a lot of time to online communities, racking up a few Internet points always feels good. I used to be slightly intimidated by GitHub. For the most part, it's full of indie apps by individual devs, so there isn't a marketing department designing websites and writing copy. It's just the same dude who coded the app you want to try. If you spend time looking around, you find that GitHub also contains plenty of goodies that aren't apps. There are repositories for scripts, app settings, Black Friday deals, and more. I'm not a dev, but even I have a couple of public repos. On one, I share my collection of &lt;a href="https://github.com/cyclelou/Automation"&gt;800 Keyboard Maestro macros, plus Hazel rules and Better Touch Tool actions&lt;/a&gt;. My other public repo is &lt;a href="https://github.com/cyclelou/Amerpie"&gt;a collection of markdown documents&lt;/a&gt; with quotes from people wiser than me. I added over 300 new notes there last week.&lt;/p&gt;
+
+&lt;p&gt;One obsessive soul created a repo where he &lt;a href="https://github.com/marekbrze/categorized-obsidian-plugins"&gt;documented 1,600 Obsidian extensions&lt;/a&gt; AND another for &lt;a href="https://github.com/marekbrze/categorized-raycast-extensions"&gt;1,700 Raycast extensions&lt;/a&gt;. It's impossible, I think, to keep something like that up to date, but both are good resources.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://appaddict.app/page/appaddict-s-github-bookmarks"&gt;You can see a list of 81 repositories I felt worthy of being added to my Raindrop collection here&lt;/a&gt;. Here are a few highlights. I'm always looking for more, so hit me up if you have anything to share.&lt;/p&gt;
+
+&lt;h2&gt;macOS Apps &amp;amp; Utilities&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/mas-cli/mas"&gt;MAS&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Command-line interface for the &lt;b&gt;&lt;strong&gt;Mac App Store&lt;/strong&gt;&lt;/b&gt;. Search, install, update, and manage App Store apps from the terminal. Easy to use as part of a launchd item or cron job to force updates when the Mac App Store is being stubborn about doing it for you.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/tw93/Mole"&gt;Mole&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Terminal-based tool for cleaning, uninstalling, analyzing, optimizing, and monitoring your Mac. This is the free version that does almost everything the GUI (which is not free) does.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/cardisoft/Cardinal"&gt;Cardinal&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Fast macOS file search app using Everything-compatible syntax with filters for file type, size, tags, and content.&lt;/p&gt;
+
+&lt;h2&gt;Obsidian&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/LilSizzles/Obsidian-Webclipper-Templates"&gt;Obsidian Webclipper Templates&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Customizable Obsidian Webclipper templates with LLM integration that automatically organize and categorize clipped web content into structured notes. I've tried every way known to mankind to get selected web content into my vault.&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;strong&gt;This is the way.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/sylumer/automators"&gt;Automators Vault&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Obsidian vault for the late great Automators Podcast community, containing automation-related notes, show notes, and resources.&lt;/p&gt;
+
+&lt;h2&gt;Raycast&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/raycast/script-commands"&gt;script-commands&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Official Raycast collection of community-contributed script commands you can install and run directly from the launcher.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/WToa/raycast_extensions_by_downloads"&gt;raycast_extensions_by_downloads&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Auto-generated, regularly updated ranking of Raycast extensions sorted by download count.&lt;/p&gt;
+
+&lt;h2&gt;Automation and Scripting&lt;/h2&gt;
+
+&lt;p&gt;Tools for automating tasks on macOS and the command line.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/charmbracelet/gum"&gt;Gum&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Charm tool for writing interactive shell scripts with styled prompts, spinners, and formatted output.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/topgrade-rs/topgrade"&gt;Topgrade&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Single command to upgrade everything on your system -- The Mac App Store, package managers, Homebrew apps, runtimes, and more -- all at once. See also &lt;a href="https://appaddict.app/post/topgrade-upgrade-all-the-things"&gt;Topgrade - Upgrade All the Things | AppAddict&lt;/a&gt; and &lt;a href="https://appaddict.app/post/how-to-use-topgrade-silently-and-automatically-for-multiple-update-protocols-free"&gt;How to Use Topgrade Silently and Automatically for Multiple Update Protocols (Free) | AppAddict&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Privacy, Networking and Security&lt;/h2&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/glinford/dns-easy-switcher"&gt;DNS Easy Switcher&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Simple macOS app for quickly switching between DNS server configurations.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/yokoffing/Betterfox"&gt;Betterfox&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Firefox &lt;code&gt;user.js&lt;/code&gt; configuration file for optimal privacy and security hardening without breaking normal browsing.&lt;/p&gt;
+
+&lt;h2&gt;Curated Lists &amp;amp; Directories&lt;/h2&gt;
+
+&lt;p&gt;Awesome lists, resource hubs, and community-maintained directories.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/jaywcjlove/awesome-mac"&gt;awesome-mac&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;High-quality, community-curated list of macOS software, tools, and resources organized by category.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/serhii-londar/open-source-mac-os-apps"&gt;open-source-mac-os-apps&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Comprehensive list of open-source macOS applications available for free, organized by type.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/mRs-/Black-Friday-Deals"&gt;Black-Friday-Deals&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Community-maintained list of Black Friday deals on macOS/iOS software and books, updated annually.&lt;/p&gt;
+
+&lt;h2&gt;AI &amp;amp; Language Models&lt;/h2&gt;
+
+&lt;p&gt;Tools for running, hosting, and working with AI and local language models.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/Arthur-Ficial/apfel"&gt;apfel&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Exposes Apple's built-in on-device language model as a local OpenAI-compatible API server on macOS. Enables AI capabilities without cloud APIs or API keys.&lt;/p&gt;
+
+&lt;h3&gt;&lt;a href="https://github.com/Mozilla-Ocho/llamafile"&gt;llamafile&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Distribute and run LLMs as a single self-contained executable file. Removes the complexity of setting up local models across platforms.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Just%20Wondering%20Around%20Github,%20Looking%20for%20a%20Software%20Fix" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>The mark of a good Internet citizen is whether they star the GitHub repositories they like and whether they upvote helpful posts on Reddit. As someone who devotes a lot of time to online communities, racking up a few Internet points always feels good. I used to be slightly intimidated...</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18142</id>
+    <published>2026-05-27T00:33:51Z</published>
+    <updated>2026-05-27T00:33:52Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/why-i-replaced-jettison-with-ejectify-after-15-years"/>
+    <title>Why I Replaced Jettison with Ejectify after 15 Years</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMm1yQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e18ed26c89be1f83d3207e138c79627f8b454faf/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/81673.jpeg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In trying to be open-minded, I recently agreed to try &lt;a href="https://ejectify.app/"&gt;Ejectify&lt;/a&gt;, an app that performs a task for which I already had a solution: to automatically eject external disks from my Mac before it goes to sleep and to remount them when it wakes. I worked off a MacBook for a long, long time, and I needed a way to just shut it, unplug, and move on without getting nagged to death about thumb drives and external volumes. I've been using &lt;a href="https://stclairsoft.com/Jettison/"&gt;Jettison&lt;/a&gt; to do that since I saw it in Macworld in 2011. The developer, St. Clair Software, also makes &lt;a href="https://appaddict.app/post/default-folder-x-an-og-app-for-mac-power-users"&gt;Default Folder X&lt;/a&gt;, &lt;a href="https://appaddict.app/post/historyhound-a-must-have-research-tool-1"&gt;History Hound&lt;/a&gt;, and &lt;a href="https://appaddict.app/post/app-tamer-from-st-claire-software"&gt;App Tamer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The reason I opted to try Ejectify is that it ticks some boxes that are pretty important in 2026. It's &lt;a href="https://github.com/nielsmouthaan/ejectify-macos"&gt;open source and on Github&lt;/a&gt;, meaning you can essentially get it for free if you have the chops to build it. You can also see how the developer, Niels Mouthaan, responds to issues, both in troubleshooting and in planning for additional features. I've used &lt;a href="https://appaddict.app/post/backup-status-check-up-your-time-machine"&gt;other apps from Niels&lt;/a&gt;, and he has provided me with good support.&lt;/p&gt;
+
+&lt;p&gt;Aside from philosophical differences with Jettison, there are also some features added by using Ejectify.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Volumes are managed individually, not as one size fits all, so you have more control.&lt;/li&gt;
+&lt;li&gt;Provides a way to force unmount a disk on a case-by-case basis.&lt;/li&gt;
+&lt;li&gt;Allows you to mute "Disks Not Ejected Properly" messages if you and macOS can't reach an agreement on what that means.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;The full feature set (from the website):&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Helps prevent "Disk Not Ejected Properly" notifications after wake.&lt;/li&gt;
+&lt;li&gt;Helps reduce the risk of data loss or corrupted volumes by safely unmounting them first.&lt;/li&gt;
+&lt;li&gt;Lets you choose which supported volumes Ejectify manages, including external volumes, ejectable internal volumes, and disk images.&lt;/li&gt;
+&lt;li&gt;Supports automatic unmounting when the display turns off or the system starts sleeping, then attempts to mount volumes again after wake.&lt;/li&gt;
+&lt;li&gt;Includes force unmount, force mute notifications, and instant "Unmount all" actions, plus a global keyboard shortcut for manual unmount-all.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Why%20I%20Replaced%20Jettison%20with%20Ejectify%20after%2015%20Years" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>
+
+In trying to be open-minded, I recently agreed to try Ejectify, an app that performs a task for which I already had a solution: to automatically eject external disks from my Mac before it goes to sleep and to remount them when it wakes. I worked off a MacBook for...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18120</id>
+    <published>2026-05-24T01:46:46Z</published>
+    <updated>2026-05-24T01:46:48Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/10-ways-to-get-more-out-of-apple-shortcuts"/>
+    <title>10 Ways to Get More Out of Apple Shortcuts</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3FyQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--07bb5d91e3d113c723a743e7b7c566c89f24944a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/playground.jpg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I like using Apple Shortcuts when it fits my workflow, but advanced features can be confusing. I manage simple loops and variables, but it’s slow and tricky. That’s why I was happy to see MacStories release Shortcuts Playground, a free plugin for Codex and Claude Code. It lets you describe what you want in natural language and creates a real Apple Shortcut you can use or share. You can &lt;a href="https://www.macstories.net/shortcuts-playground/"&gt;read about it and get installation instructions&lt;/a&gt; for free if you have those platforms.&lt;/p&gt;
+
+&lt;p&gt;It’s been years since I updated my list of free and cheap apps that boost Apple Shortcuts, so here’s the 2026 edition.&lt;/p&gt;
+
+&lt;h3&gt;Best Standalone App for Triggers - Shortery&lt;/h3&gt;
+
+&lt;p&gt;Apps like Keyboard Maestro, Hazel, and BetterTouchTool can trigger Shortcuts but take time to learn. &lt;a href="https://apps.apple.com/us/app/shortery/id1594183810?mt=12"&gt;Shortery&lt;/a&gt; costs $29.99 and is easier to use. Apple also added some automation triggers in macOS:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;macOS Shortcuts covers basics&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;&lt;li&gt;Apps, Files and folders, Wi‑Fi/Bluetooth, Displays, Focus, Time, Wake/sleep&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;strong&gt;Shortery adds extras&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;&lt;li&gt;Audio, Camera, Clamshell, Calendar, Keyboard hotkeys, Login/logout, LAN, Power details, Screen lock/unlock, Sunrise/sunset, More device triggers&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Best Deep System Control: Shortcutie&lt;/h3&gt;
+
+&lt;p&gt;For $10, &lt;a href="https://sindresorhus.gumroad.com/l/shortcutie"&gt;Shortcutie&lt;/a&gt; offers 70+ system actions Apple won’t allow directly. It can change defaults without prompts, clear all notifications, quit all apps, scrape browser tabs, run JavaScript, and grab selected text from any window.&lt;/p&gt;
+
+&lt;h3&gt;Best for Extra Shortcut Actions: Toolbox and Actions.app&lt;/h3&gt;
+
+&lt;p&gt;Sindre Sorhus’s free app Actions offers 170 Shortcut actions for all Apple platforms. See a partial list &lt;a href="https://sindresorhus.com/actions"&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://apps.apple.com/us/app/toolbox-pro-for-shortcuts/id1476205977"&gt;Toolbox Pro&lt;/a&gt; costs $5.99 one-time and adds powerful features for date/time, dictionaries, contacts, files, media, reminders, system tasks, and text.&lt;/p&gt;
+
+&lt;h3&gt;Best for Persistent Data: Data Jar&lt;/h3&gt;
+
+&lt;p&gt;Shortcuts handle temporary data well but can’t save it long-term. &lt;a href="https://apps.apple.com/us/app/data-jar/id1453273600"&gt;Data Jar&lt;/a&gt; (donationware) stores structured data for Shortcuts to read and update later, helping workflows track state over time—making Shortcuts act like apps.&lt;/p&gt;
+
+&lt;p&gt;Good for: settings, preferences, counters, lists, saved variables, workflow state.&lt;/p&gt;
+
+&lt;h3&gt;Best for Notes-Centric Workflows: Actions for Obsidian&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://apps.apple.com/us/app/actions-for-obsidian/id1659667937"&gt;Actions for Obsidian&lt;/a&gt; adds Shortcut features to import web content, calendars, contacts, health data, and more into Obsidian notes.&lt;/p&gt;
+
+&lt;h3&gt;Other Useful Shortcut Enhancers&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href="https://actions.work/barcuts/"&gt;BarCuts: macOS Shortcuts Launcher&lt;/a&gt; — menu bar app shows relevant Shortcuts without clutter &lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://menubox.app/"&gt;Menu Box&lt;/a&gt; — create custom Shortcut menus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Find helpful Shortcuts at:&lt;br&gt;&lt;a href="https://routinehub.co/"&gt;Routine Hub&lt;/a&gt;&lt;br&gt;&lt;a href="https://matthewcassinelli.com/"&gt;Matthew Cassinelli&lt;/a&gt;&lt;br&gt;&lt;a href="https://shortcutsgallery.com/"&gt;Shortcuts Gallery&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.macstories.net/shortcuts/"&gt;MacStories Shortcuts Archive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=10%20Ways%20to%20Get%20More%20Out%20of%20Apple%20Shortcuts" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>I like using Apple Shortcuts when it fits my workflow, but advanced features can be confusing. I manage simple loops and variables, but it’s slow and tricky. That’s why I was happy to see MacStories release Shortcuts Playground, a free plugin for Codex and Claude Code. It lets you describe...</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18110</id>
+    <published>2026-05-21T15:11:07Z</published>
+    <updated>2026-05-21T15:11:09Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/marked-3-is-the-markdown-companion-a-lot-of-mac-writers-have-been-waiting-for"/>
+    <title>Marked 3 Is the Markdown Companion a Lot of Mac Writers Have Been Waiting For</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2FxQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--eebfa283ec02775fd6d2e57cd8380bd254377f1f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/65281.jpeg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Brett Terpstra has released &lt;a href="https://markedapp.com/"&gt;Marked 3&lt;/a&gt;, and this is not just a routine update. It’s one of those releases that makes you stop and think about where a tool actually fits in your workflow. If you write in Markdown on a Mac, there’s a very good chance Marked has been the missing piece all along.&lt;/p&gt;
+
+&lt;p&gt;For years, I lived in Microsoft Word for anything that wasn’t email. That was the EdTech world: Word was the standard, `.doc` and `.docx` were the expected formats, and no one wanted to hear about alternatives. Never mind the huge app footprint, the licensing mess, the cost, or the absurdity of the entire Office suite when all you really needed was a word processor.&lt;/p&gt;
+
+&lt;p&gt;And whenever someone in tech tried to suggest something leaner — OpenOffice, Google Docs, anything that didn’t come with Microsoft baggage — the pushback was immediate and emotional. In 2015, we were literally one day away from canceling our Microsoft contract when the superintendent made a late-afternoon phone call to my boss with a $100K purchase order to renew. That was the kind of environment it was.&lt;/p&gt;
+
+&lt;p&gt;So yes, I value the freedom to choose my own tools now.&lt;/p&gt;
+
+&lt;p&gt;Plain text has become the backbone of the way I work. Obsidian handles notes and longer writing. Drafts is where quick capture happens. Blogging tools and publishing platforms fill in the rest. Markdown wasn’t hard to learn, and once it clicks, it’s hard to go back. But Markdown has one weakness: the writing experience is only as good as the tools around it.&lt;/p&gt;
+
+&lt;p&gt;That’s where Marked comes in.&lt;/p&gt;
+
+&lt;h2&gt;Marked Defined&lt;/h2&gt;
+
+&lt;p&gt;Marked is not an editor. That’s the first thing to understand. It works alongside your editor, taking Markdown and rendering it live so you can actually see what your writing looks like without breaking your flow.&lt;/p&gt;
+
+&lt;p&gt;It also works with HTML and OPML files, which makes it more flexible than a lot of people realize. And beyond rendering, Marked can convert documents to PDF, HTML, DOCX, and RTF. It also brings prose analysis, syntax checking, and integration with all sorts of writing and outlining apps.&lt;/p&gt;
+
+&lt;h2&gt;Who It’s For&lt;/h2&gt;
+
+&lt;p&gt;The short answer: anybody who writes.&lt;/p&gt;
+
+&lt;p&gt;If you’re a coder or a technical writer, you get a lot of useful extras:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Syntax highlighting for code blocks&lt;/li&gt;
+&lt;li&gt;MathJax and KaTeX support&lt;/li&gt;
+&lt;li&gt;Mermaid diagrams&lt;/li&gt;
+&lt;li&gt;MultiMarkdown, YAML, and Pandoc metadata support&lt;/li&gt;
+&lt;li&gt;CriticMarkup&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s useful, sure, but it’s not really why I care about it.&lt;/p&gt;
+
+&lt;p&gt;For the kind of writing I do, the most valuable features are the ones that help me clean up my prose before I hit publish:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spelling and grammar checking&lt;/li&gt;
+&lt;li&gt;Sentence simplification tips&lt;/li&gt;
+&lt;li&gt;Word count, sentence count, and sentence complexity&lt;/li&gt;
+&lt;li&gt;Reading time&lt;/li&gt;
+&lt;li&gt;Grade-level scoring&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s the real value. Write where you’re comfortable, then let Marked tell you what the page actually looks like.&lt;/p&gt;
+
+&lt;h2&gt;The Little Things That Make It Better&lt;/h2&gt;
+
+&lt;p&gt;Marked has a bunch of features that sound minor until you actually start using them regularly. Flexible search. Automatic table of contents generation. Bookmarking. A visual document overview. Collapsible sections. Keyboard access almost everywhere.&lt;/p&gt;
+
+&lt;p&gt;It’s also a very nice Markdown reader, even when you’re not editing. Auto-scroll is there. So is distraction-free mode. And if you want to read faster, there’s even an RSVP-style overlay with adjustable WPM.&lt;/p&gt;
+
+&lt;p&gt;If you work with outlines or mind maps, Marked supports embeds from popular apps and can even turn an outline into a mind map directly. That’s a niche feature, but a genuinely useful one if your brain works that way.&lt;/p&gt;
+
+&lt;p&gt;There are also browser extensions for sending page URLs or selected content straight into Marked 3, which is a nice touch if you spend any time collecting notes from the web.&lt;/p&gt;
+
+&lt;h2&gt;Integrations Matter&lt;/h2&gt;
+
+&lt;p&gt;Marked works the way good Mac software should: it gets out of the way and plays well with the tools you already use.&lt;/p&gt;
+
+&lt;p&gt;That means it fits alongside Scrivener, Word, MarsEdit, Bear, Ulysses, Obsidian, and other writing apps. In v3, Scrivener rendering with live preview is new, and Bear and Obsidian callouts are now fully supported.&lt;/p&gt;
+
+&lt;p&gt;And for the automation crowd, there’s CLI support and AppleScript. That alone makes it much more interesting than a typical “pretty preview” app.&lt;/p&gt;
+
+&lt;h2&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;If you have a Setapp subscription, Marked 3 is already there. Otherwise, you can &lt;a href="https://markedapp.com/download/Marked.zip"&gt;download it directly&lt;/a&gt; for a free trial or pick it up from the &lt;a href="https://apps.apple.com/us/app/marked-3/id6747497179?mt=12"&gt;Mac App Store.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The lifetime price is $69.99, which is a little steep, though not outrageous for a serious utility you’ll keep using. The subscription option is $2.99 per month, which is much easier to justify.&lt;/p&gt;
+
+&lt;p&gt;Marked 3 is the kind of Mac app that quietly improves everything around it. It doesn’t try to replace your editor. It makes your writing workflow better by giving you a clearer view of what you’ve actually written, and that’s a pretty compelling trick.&lt;/p&gt;
+
+&lt;p&gt;And in classic Brett Terpstra fashion, it’s built by someone who clearly understands the people using it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Marked%203%20Is%20the%20Markdown%20Companion%20a%20Lot%20of%20Mac%20Writers%20Have%20Been%20Waiting%20For" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Brett Terpstra has released Marked 3, and this is not just a routine update. It’s one of those releases that makes you stop and think about where a tool actually fits in your workflow. If you write in Markdown on a Mac, there’s a very good chance Marked has been the...</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18063</id>
+    <published>2026-05-14T19:41:36Z</published>
+    <updated>2026-05-15T08:22:08Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/airspace-a-polished-fix-for-a-macos-friction-point"/>
+    <title>Airspace: A Polished Fix for a macOS  Friction Point</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeldxQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4a398873ec647aec88651331e1caf38a100f61e5/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/lists.Ciy44Y24.jpg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href="https://hazels.garden/airspace"&gt;Airspace&lt;/a&gt;, an app I downloaded today, has a lot going for it. It removes a classic Apple friction point by letting you name your virtual desktops, customize their appearance, and assign keyboard shortcuts to jump between them. It also helps me illustrate a point.&lt;/p&gt;
+
+&lt;p&gt;Making a decision about the right price for an app has to be one of the hardest parts of releasing something new.&lt;/p&gt;
+
+&lt;p&gt;Some of the most versatile and useful apps in the Mac ecosystem are priced absurdly low. I am looking at you, &lt;a href="https://appaddict.app/post/better-touch-tool-favorite"&gt;BetterTouchTool&lt;/a&gt;. On the other hand, we have all seen apps with plenty of competitors that still carry what I consider an absurdly high price. My favorite example is the clipboard manager, &lt;a href="https://pasteapp.io/pricing"&gt;Paste&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In reality, every software purchase comes down to what we value. Some people have strict requirements around aesthetics and would rather pay for polish than use something more functional. I think the ebook manager Calibre fits that description perfectly. I love it and use it every day for its incredible versatility, but it certainly is not easy on the eyes.&lt;/p&gt;
+
+&lt;p&gt;Two of my favorite notch apps show how wide the pricing spread can be. &lt;a href="https://appaddict.app/post/new-droppy-release-is-a-full-featured-utility-suite"&gt;Droppy&lt;/a&gt;, which is not just a notch app but a full suite of utilities, costs 10 euro. Dynamic Lake, another app I like in this space, costs 40% more, still a fair price. It is well thought out and nicely designed, but it is much more narrowly focused on the notch.&lt;/p&gt;
+
+&lt;p&gt;There are personal factors, too. I live in the United States. I am retired. I have disposable income that I dedicate to buying software. I compensate by driving a 2005 Toyota and not playing golf like some of my contemporaries. But there are plenty of tech enthusiasts in less prosperous countries, students on tight budgets, and people for whom software pricing is a much more serious decision point than it is for me.&lt;/p&gt;
+
+&lt;p&gt;Now, more about Airspace.&lt;/p&gt;
+
+&lt;h2&gt;Features&lt;/h2&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Custom Naming&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Instead of Desktop 1, Desktop 2, and so on, you can have Writing, Development, Social, or whatever names fit the way you actually work.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Visual Personalization&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;You can choose custom colors for the menu bar indicator and switcher menu, making different Spaces easier to recognize at a glance.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;User-Defined Shortcuts&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;You can assign your own shortcuts to switch between Spaces. If your writing tools live on Desktop 3, make &lt;code&gt;Cmd+Option+3&lt;/code&gt; the shortcut that takes you there.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Multi-Monitor Support&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;If you use a Mac mini or a laptop with an external display, you will appreciate that Airspace works across displays. It also handles selected full-screen apps, with one important exception noted below.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;HUD Overlay&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The current release supports a heads-up display switcher that shows your custom Space names and colors.&lt;/p&gt;
+
+&lt;h2&gt;Selling Points&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No AI used in development, backed by documentation such as GitHub history, Figma files, and browser logs. Whether that matters to you depends on your stance on AI-assisted development, but it is refreshing to see the work documented transparently.&lt;/li&gt;
+&lt;li&gt;Full-featured seven-day trial.&lt;/li&gt;
+&lt;li&gt;Fully sandboxed and App Store approved, while still delivering the core functionality many users want.&lt;/li&gt;
+&lt;li&gt;No tracking or data collection.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Caveats&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Airspace v1. did not track Spaces created by clicking the green traffic-light full-screen button. AirSpace v2.1 (latest) added this feature, so if you are on the previous version, make sure to upgrade.&lt;/li&gt;
+&lt;li&gt;Onboarding is a process, not an event. If you use as many Spaces as I do, it takes a few minutes to get Airspace configured.&lt;/li&gt;
+&lt;li&gt;There is no Mission Control integration. Custom names will not appear in Mission Control. That is an Apple limitation; Airspace cannot modify that UI. The workaround is to use Airspace's own menu bar indicator and HUD instead.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Similar Apps and Solutions&lt;/h2&gt;
+
+&lt;p&gt;You can achieve some of what Airspace does with a &lt;a href="https://www.hammerspoon.org/"&gt;Hammerspoon&lt;/a&gt; script or a &lt;a href="https://www.keyboardmaestro.com/main/"&gt;Keyboard Maestro&lt;/a&gt; macro. There are also direct competitors like &lt;a href="https://www.jaysce.dev/projects/spaceman"&gt;Spaceman&lt;/a&gt; and &lt;a href="https://contexts.co"&gt;Contexts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.josean.com/posts/how-to-setup-aerospace-tiling-window-manager"&gt;Aerospace&lt;/a&gt;, a tiling window manager beloved by people who like to fiddle, offers virtual workspace emulation that is similar in spirit, but it is not a true Spaces replacement.&lt;/p&gt;
+
+&lt;h2&gt;Details&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Developer's website: &lt;a href="https://hazels.garden/airspace"&gt;https://hazels.garden/airspace&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Privacy policy: &lt;a href="https://hazels.garden/privacy"&gt;https://hazels.garden/privacy&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;Price: $9.99&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Bottom Line&lt;/h2&gt;
+
+&lt;p&gt;Airspace is not trying to reinvent window management on the Mac. It's not a window manager at all.It is trying to make Apple's existing Spaces feature more usable, more readable, and faster to navigate. That is a narrow job, but it is a real one.&lt;/p&gt;
+
+&lt;p&gt;At $9.99, the price feels fair to me, especially if you already rely on Spaces as part of your daily workflow. If you only use one or two desktops, this probably will not change your life. But if you live across several named work contexts, Airspace turns a vague row of numbered desktops into something much closer to an actual workspace system.&lt;/p&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemVxQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4d9d39c1f7906fb9ae04bfdb37764552a5c34169/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/94468.jpeg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Airspace:%20A%20Polished%20Fix%20for%20a%20macOS%20%20Friction%20Point" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Airspace, an app I downloaded today, has a lot going for it. It removes a classic Apple friction point by letting you name your virtual desktops, customize their appearance, and assign keyboard shortcuts to jump between them. It also helps me illustrate a point.
+
+Making a decision about the right...</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18054</id>
+    <published>2026-05-13T16:45:57Z</published>
+    <updated>2026-05-13T16:45:59Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/dockdoor-pro-the-dock-apple-wouldn-t-build"/>
+    <title>DockDoor Pro - The Dock Apple Wouldn't Build</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL0NwQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d4417eca27835b0dec300375d1d28c12a71e5b8f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-05-13%20at%2012.45.27.jpg" loading="lazy" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When the free app DockDoor was released in 2024, it was the first time I had seen a developer add window previews to the Mac Dock in much the same way that other operating system from Redmond handles them. For kicks, it also included a Windows-style application switcher, also free.&lt;/p&gt;
+
+&lt;p&gt;I have been &lt;a href="https://appaddict.app/post/dockdoor-adds-functionality-to-macos"&gt;updating some older reviews&lt;/a&gt;, so I went back to check on DockDoor. Not only does the original free version still exist, but the developer has also added a paid Pro version with a much larger feature set.&lt;/p&gt;
+
+&lt;p&gt;The splash page for DockDoor Pro puts its claim front and center:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;DockDoor Pro - The Dock macOS Deserves&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;The official native Mac dock replacement with profiles, live window previews, media controls, a file tray, magnification, and everything Apple left out.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;That is bold, but defensible.&lt;/p&gt;
+
+&lt;h3&gt;What It Does&lt;/h3&gt;
+
+&lt;p&gt;The real question with any Dock utility is whether it replaces the native Dock or merely augments it. DockDoor Pro can do either. I hid the native Dock completely and did not run into any problems.&lt;/p&gt;
+
+&lt;p&gt;The other killer feature, and one Apple will probably never give us for fear of waking the ghost of Steve Jobs, is the ability to exclude a running app from the Dock. You no longer have to stare at every app just because it happens to be open.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Dock Profiles&lt;/strong&gt;&lt;/b&gt; - I work in multiple contexts. Some of my time is spent testing software and writing reviews. For that, I need quick access to a file manager, an uninstaller, Activity Monitor, Drafts, Obsidian, my Downloads folder, the folder where I keep rough drafts, the folder where I keep archives, and Reddit.&lt;/p&gt;
+
+&lt;p&gt;DockDoor Pro profiles can include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pinned apps&lt;/li&gt;
+&lt;li&gt;Folders&lt;/li&gt;
+&lt;li&gt;Files&lt;/li&gt;
+&lt;li&gt;Widgets&lt;/li&gt;
+&lt;li&gt;URLs&lt;/li&gt;
+&lt;li&gt;Design elements, including separators and spacers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When I switch to media management, I need a different setup: &lt;a href="https://appaddict.app/post/calibre-keeps-getting-better"&gt;Calibre&lt;/a&gt;, &lt;a href="https://appaddict.app/post/swinsian-music-app-the-answer-to-feature-bloat"&gt;Swinsian&lt;/a&gt;, &lt;a href="https://appaddict.app/post/i-replaced-apple-music-with-yate-swinsian-navidrome-and-an-ipod-classic-surprisingly-better"&gt;Yate&lt;/a&gt;, &lt;a href="https://appaddict.app/post/digikam-is-replacing-apple-photos-google-photos-and-amazon-photos-for-me"&gt;digiKam&lt;/a&gt;, &amp;amp; &lt;a href="https://appaddict.app/post/toyviewer-a-preview-replacment"&gt;ToyViewer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When it is time to do research or just relax, I want &lt;a href="https://appaddict.app/post/inoreader-rss-gets-new-features"&gt;Inoreader&lt;/a&gt;, &lt;a href="https://appaddict.app/post/freetube-maybe-the-most-underrated-app"&gt;FreeTube&lt;/a&gt;, &lt;a href="https://watch.plex.tv/me"&gt;Plex&lt;/a&gt;, &lt;a href="https://appaddict.app/post/2025-01-07"&gt;Radarr&lt;/a&gt;, Sonarr, and websites like &lt;a href="https://macmenubar.com"&gt;Mac Menu Bar &lt;/a&gt;and &lt;a href="https://alternativeto.net/"&gt;AlternativeTo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;DockDoor Pro gives you two ways to switch profiles. The easiest is to associate a specific app with a profile. When you open an app tied to another workflow, the Dock profile changes automatically. If you work with multiple monitors, you can also assign different Docks on a per-display basis.&lt;/p&gt;
+
+&lt;p&gt;One welcome feature is the ability to export Dock profiles as JSON. That makes it easy to move a setup to another Mac or keep a restorable backup in case an experiment goes sideways.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Control Panel&lt;/strong&gt;&lt;/b&gt; - Each Dock contains a tiny icon that opens a control panel when long-clicked. It consolidates an app launcher, profile switcher, volume slider, audio device picker, and power controls. It is a well-designed bit of UI rather than a pile of bolted-on buttons.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;File Tray&lt;/strong&gt;&lt;/b&gt; - If you keep your Dock at the bottom of the display, scrolling on it reveals a file tray. You can drop files there temporarily, drag them back out when you need them, or send them via AirDrop directly from the tray.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Widgets&lt;/strong&gt;&lt;/b&gt; - DockDoor Pro also includes small widgets that add live tiles directly to the Dock, including weather and system stats. They stay compact at rest and expand with more detail on hover. They also adapt to the Dock's design, so they do not look like afterthoughts.&lt;/p&gt;
+
+&lt;p&gt;The music widget is almost an app within the app. You get album art, a seek bar, and synchronized lyrics with a karaoke-style anticipation offset. Whether that is useful or just fun depends on how you work. I do not need lyrics in my Dock, but I understand the appeal.&lt;/p&gt;
+
+&lt;h3&gt;Customization&lt;/h3&gt;
+
+&lt;p&gt;This is the least opinionated Dock app I have used. If you are not inclined to fiddle, it looks fine out of the box. If you like to experiment, you can control almost every visible part of the UI, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Color&lt;/li&gt;
+&lt;li&gt;Spacing&lt;/li&gt;
+&lt;li&gt;Padding&lt;/li&gt;
+&lt;li&gt;Background&lt;/li&gt;
+&lt;li&gt;Shape&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;DockDoor Pro is still in beta, and there is a warning not to use it on a mission-critical machine, so do not install it on your boss's MacBook and blame me if something gets weird. That said, I have not encountered any instability after two weeks of constant use.&lt;/p&gt;
+
+&lt;p&gt;This is an app best suited for power users, especially those with multi-monitor setups or workflows that shift throughout the day. If you use the same five apps all the time and do not care about customizing your workspace, you can probably skip it. But if you have ever wanted the Dock to be more useful, more contextual, and less stubbornly Apple-like, DockDoor Pro is worth a look.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;DockDoor Pro Website&lt;/strong&gt;&lt;/b&gt; - &lt;a href="https://pro.dockdoor.net"&gt;DockDoor Pro - Official macOS Dock Replacement&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/b&gt; - &lt;a href="https://pro.dockdoor.net/legal/"&gt;DockDoor Pro | Privacy Policy &amp;amp; EULA&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Price&lt;/strong&gt;&lt;/b&gt; - $20&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=DockDoor%20Pro%20-%20The%20Dock%20Apple%20Wouldn" t build style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>When the free app DockDoor was released in 2024, it was the first time I had seen a developer add window previews to the Mac Dock in much the same way that other operating system from Redmond handles them. For kicks, it also included a Windows-style application switcher, also free....</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18011</id>
+    <published>2026-05-12T15:02:00Z</published>
+    <updated>2026-05-12T09:40:36Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/bartender-enters-a-new-era-with-top-shelf"/>
+    <title>Bartender Enters a New Era with Top Shelf</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Top Shelf" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemFwQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f453f28188bc4eb470b9e014775cee35d97db328/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/Top%20Shelf%20-%20Files%20(Full).png" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Top Shelf
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For the past few weeks, I’ve been beta testing a new release of Bartender; an app with an interesting, and at times slightly controversial, history. Despite that, it’s a utility &lt;a href="https://appaddict.app/post/bartender-still-best-in-class"&gt;I’ve relied on for years&lt;/a&gt;. I recently did &lt;a href="https://appaddict.app/post/mac-menu-bar-chaos"&gt;a deep dive into the problems&lt;/a&gt; macOS changes have created for menu bar managers and what those changes mean going forward. Even with a few lingering issues in the category, I still came away viewing Bartender as the best overall option for serious Mac users.&lt;/p&gt;
+
+&lt;p&gt;The new release, called &lt;a href="https://www.macbartender.com/pro"&gt;Bartender Pro&lt;/a&gt;, expands beyond traditional menu bar management with a feature called Top Shelf. The idea is simple: turn the MacBook notch into something genuinely useful instead of leaving it as dead space. The developers are entering an increasingly crowded area occupied by apps like &lt;a href="https://getdroppy.app/"&gt;Droppy&lt;/a&gt; and &lt;a href="https://www.dynamiclake.com/"&gt;DynamicLake Pro&lt;/a&gt;, both of which are also trying to claim that piece of Mac interface real estate.&lt;/p&gt;
+
+&lt;p&gt;Top Shelf supports temporary file storage, clipboard history, AirDrop access, widgets, media controls, live weather, calendar views, and what Bartender calls “live activities.” One particularly interesting addition is support for displaying the status of running Claude Code or Codex sessions directly from the notch area. That puts Bartender Pro in direct competition with Droppy for AI-focused workflow integration.&lt;/p&gt;
+
+&lt;p&gt;I’m fortunate to have a small home lab with several Macs available for testing. I’ve been running Bartender Pro on my M2 MacBook Air with the latest version of macOS, and overall the implementation feels thoughtful and mature. The developers have integrated the new functionality cleanly into Bartender’s existing settings architecture rather than bolting on a second interface.&lt;/p&gt;
+
+&lt;p&gt;The Top Shelf interface itself is polished and visually cohesive with macOS. More importantly, it offers enough customization that power users should be able to shape it around their workflow instead of adapting to someone else’s idea of how the notch should work. Enabling or disabling features is straightforward, and the configuration process never feels overly complicated.&lt;/p&gt;
+
+&lt;p&gt;One feature Bartender Pro offers that I have not seen handled as well elsewhere is its dynamic interaction with the Bartender Bar itself. The app intelligently avoids hiding menu bar items behind the notch interface, which sounds minor until you actually start using multiple notch utilities and discover how messy that problem can become.&lt;/p&gt;
+
+&lt;p&gt;Importantly, none of this replaces the traditional Bartender experience. The new functionality is strictly additive. Bartender 6 is still available as a standard one-time purchase for $20, and the company has been explicit that core menu bar management is not being moved behind a subscription wall.&lt;/p&gt;
+
+&lt;p&gt;For users interested in Top Shelf and the broader Pro feature set, Bartender Pro is available as a $15/year subscription. That includes Bartender 6 along with all upgrades released during the subscription period.&lt;/p&gt;
+
+&lt;p&gt;The Bartender team has clearly invested serious effort into getting this release right. During the beta period, updates arrived constantly, feedback was actively incorporated, and bug reports received prompt attention. That responsiveness matters, especially for utility software operating this deeply inside the macOS interface.&lt;/p&gt;
+
+&lt;p&gt;If you are evaluating notch utilities or trying to build a cleaner AI-oriented Mac workflow, Bartender Pro deserves a serious look.&lt;/p&gt;
+
+&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Top Shelf - General Settings" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemVwQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--11dfe55470c659b517d16b6eb15eaef08918e296/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/Top%20Shelf%20Settings%20-%20General.png" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Top Shelf - General Settings
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Bartender%20Enters%20a%20New%20Era%20with%20Top%20Shelf" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>For the past few weeks, I’ve been beta testing a new release of Bartender; an app with an interesting, and at times slightly controversial, history. Despite that, it’s a utility I’ve relied on for years. I recently did a deep dive into the problems macOS changes have created for menu bar managers and...</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/17980</id>
+    <published>2026-05-11T12:09:20Z</published>
+    <updated>2026-05-11T12:09:21Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/new-droppy-release-is-a-full-featured-utility-suite"/>
+    <title>New Droppy Release is a Full Featured Utility Suite</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Droppy" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeEdtQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9cb0125983217deac0e063c72c14f6392c595800/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-05-11%20at%2007.33.52.jpg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      Droppy
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;An update to &lt;a href="https://getdroppy.app/"&gt;Droppy&lt;/a&gt; by developer Jordy Spruit dropped this weekend. What started as a free notch app has evolved into a paid, but still inexpensive, suite of Mac productivity tools.&lt;/p&gt;
+
+&lt;p&gt;The licensing recently changed so that Droppy’s one-time payment now gets you a license for two Macs instead of one. The change is retroactive and applies to all users. From now until May 31st, the price is €6.99. After that, it will be €9.99. Both prices include lifetime updates, including major version releases.&lt;/p&gt;
+
+&lt;p&gt;Droppy is written in native Swift. It’s signed and notarized by Apple, runs on macOS 14 and later, and ships without analytics or third-party trackers.&lt;/p&gt;
+
+&lt;p&gt;Spruit says, “v14 contains more than 100 user-visible bug fixes and dozens of performance improvements, all driven by feedback from the Discord testers I’ve been working with daily for months.”&lt;/p&gt;
+
+&lt;h2&gt;My Personal Use Cases&lt;/h2&gt;
+
+&lt;p&gt;In previous versions of Droppy, I’ve used the notch based shelf, the menu bar manager, and the heads up displays extensively while dabbling with the other features. With the extensive additions in the new version, I plan to see what else feels like a good fit for my work style.&lt;/p&gt;
+
+&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Five Functions, One App&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can roughly classify what Droppy v14 does into five areas.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Drag-and-drop shelf that lives in the notch&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Drop files onto it to stash them temporarily, then drag them back out when needed or run quick actions like move, copy, share, zip, unzip, compress, or convert.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Clipboard Manager&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Includes live previews, pinned and favorited entries, OCR, a built-in screenshot editor, custom tags, and more.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Floating Shelves&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Droppy calls them “baskets,” but the concept is similar to the shelf in the notch. You can designate watched folders that automatically populate baskets with files, and the interface supports multiple baskets at once.&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Heads-Up Displays (HUDs)&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;You can selectively enable notch-based HUDs for things like:&lt;/li&gt;
+&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
+&lt;li&gt;Volume or brightness changes&lt;/li&gt;
+&lt;li&gt;AirPods connections&lt;/li&gt;
+&lt;li&gt;Internet connectivity loss&lt;/li&gt;
+&lt;li&gt;VPN connections&lt;/li&gt;
+&lt;li&gt;Low battery warnings&lt;/li&gt;
+&lt;li&gt;Music playback&lt;/li&gt;
+&lt;li&gt;Notifications&lt;/li&gt;
+&lt;li&gt;Caffeine activation to prevent sleep&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Extensions&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Droppy calls them “Droplets.” These are add-on features that plug into the notch interface.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;There’s no extra charge for extensions&lt;/strong&gt;&lt;/b&gt;, and several of them realistically replace standalone apps.&lt;/p&gt;
+
+&lt;p&gt;Included extensions include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Voice transcription, including live transcription feedback while speaking; something many competing apps still don't offer (new)&lt;/li&gt;
+&lt;li&gt;Mechanical keyboard typing sounds routed only through headphones during meetings so you don't blast everyone else on the call&lt;/li&gt;
+&lt;li&gt;An AI coding companion that surfaces activity from Claude Code, Cursor, and Codex directly in the notch, with one-click return to the active app&lt;/li&gt;
+&lt;li&gt;A major overhaul to menu bar management via an internal version of Thaw, a fork of Ice, bundled directly into Droppy&lt;br&gt;Clipboard manager&lt;/li&gt;
+&lt;li&gt;Droppy Cloud; a temporary file-sharing service that generates 24-hour share links (new)&lt;/li&gt;
+&lt;li&gt;Meeting controls for Zoom, Teams, and similar apps&lt;/li&gt;
+&lt;li&gt;Pomodoro timer&lt;/li&gt;
+&lt;li&gt;Tiny terminal, and more&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Replacement Suggestions&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;Dedicated apps will usually go deeper in specific areas, but if you mainly need solid day-to-day functionality, Droppy v14 could realistically replace:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MacWhisper or similar transcription apps&lt;/li&gt;
+&lt;li&gt;Bartender, Hidden Bar, or Barbee for menu bar management&lt;/li&gt;
+&lt;li&gt;Yoink, Gladys, or Unclutter for shelf-style workflows&lt;/li&gt;
+&lt;li&gt;Clack or other mechanical keyboard sound apps&lt;/li&gt;
+&lt;li&gt;PastePal, Paste, Copy 'Em, and similar clipboard tools&lt;/li&gt;
+&lt;li&gt;Dropover or DropShare&lt;/li&gt;
+&lt;li&gt;A separate Pomodoro timer app&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Some Notable New Features&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
+
+&lt;h4&gt;&lt;b&gt;&lt;strong&gt;Droppy Cloud&lt;/strong&gt;&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;The sharing limits are generous:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;100 MB per file&lt;/li&gt;
+&lt;li&gt;1 GB per share&lt;/li&gt;
+&lt;li&gt;25 files per share&lt;/li&gt;
+&lt;li&gt;1 GB of active shared data per installation at a time&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The generated links open into an iCloud-style interface with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Image previews in a grid with click-to-expand&lt;/li&gt;
+&lt;li&gt;Inline video and audio playback&lt;/li&gt;
+&lt;li&gt;Inline PDF viewing&lt;/li&gt;
+&lt;li&gt;Individual downloads plus “Download All” ZIP support&lt;/li&gt;
+&lt;li&gt;A clean, mobile-friendly layout&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;&lt;b&gt;&lt;strong&gt;Lock Screen Display&lt;/strong&gt;&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;When playing music in Apple Music, the lock screen now displays expanded album artwork. Synced lyrics scroll over a soft blur effect that keeps them readable even against busy animated art.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b&gt;&lt;strong&gt;New UI&lt;/strong&gt;&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;According to the developer, every animation in the app has been rebuilt by hand. When the shelf opens, a HUD appears, a widget swaps, or the notch reacts to your cursor, the motion now shares one consistent spring-based feel.&lt;/p&gt;
+
+&lt;p&gt;The small floating pill below the notch expands similarly to Dynamic Island on iPhone, and the shelf physically drops down from the notch instead of simply fading in.&lt;/p&gt;
+
+&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Feedback on the Update&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;Droppy makes reasonable demands on system resources based on what it does. At idle it consumes about 5% of my M4 CPU and around 275 MB of RAM, about the same amount as the apps, Drafts and Mona for Mastodon use on my system.&lt;/p&gt;
+
+&lt;p&gt;The new interface is subtle, but well executed. Nothing feels over-designed just for the sake of animation demos.&lt;/p&gt;
+
+&lt;p&gt;Since Droppy Cloud runs on the developer’s own infrastructure, the 24-hour expiration window makes sense. Features with ongoing hosting costs usually end up behind subscriptions sooner or later, so it’s refreshing to see this included in a one-time purchase.&lt;/p&gt;
+
+&lt;p&gt;I was accustomed to the previous menu bar manager, so the switch to the integrated Thaw-based system took a little adjustment. But after using it for a bit, it feels like a real upgrade rather than a cosmetic replacement. It exposes more functionality than the older implementation and fits better with the rest of the app.&lt;/p&gt;
+
+&lt;p&gt;Droppy already does an almost unreasonable number of things, but I still have one request: I’d love to see a lightweight notes or scratchpad interface added somewhere in the ecosystem. Nothing elaborate; just a quick place to park temporary text while working.&lt;/p&gt;
+
+&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Wrap-Up&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
+
+&lt;p&gt;Droppy v14 feels less like a “notch utility” now and more like a modular productivity platform that happens to live around the notch. Some people will absolutely think it’s trying to do too much. Fair enough. But if your workflow already overlaps with clipboard managers, shelf apps, menu bar utilities, lightweight sharing tools, and small workflow helpers, there’s a good chance Droppy consolidates more of your setup than you’d expect.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=New%20Droppy%20Release%20is%20a%20Full%20Featured%20Utility%20Suite" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>An update to Droppy by developer Jordy Spruit dropped this weekend. What started as a free notch app has evolved into a paid, but still inexpensive, suite of Mac productivity tools.
+
+The licensing recently changed so that Droppy’s one-time payment now gets you a license for two Macs instead of one. The...</summary>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
   <entry>
     <id>tag:appaddict.app,2005:Post/17934</id>
     <published>2026-05-08T14:44:22Z</published>
@@ -658,1424 +1449,6 @@ Mac users have a wide...</summary>
     <summary>Tolaria is a free, open-source desktop app for macOS and Linux built by Luca Rossi, the author of the Refactoring newsletter. Rossi created Tolaria to manage his own collection of 10,000+ notes.
 
 That origin story matters. The feature set feels like it grew out of solving real problems for a...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/16235</id>
-    <published>2026-04-21T17:06:17Z</published>
-    <updated>2026-04-21T17:06:19Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/dockside-turns-drag-and-drop-into-a-real-workflow"/>
-    <title>Dockside Turns Drag-And-Drop Into a Real Workflow</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Dockside" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBenlUQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c477ea28ee5cd6418e099737d9ba46f38cb5c80c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-21%20at%2013.04.19.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Dockside
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Most Mac users already rely on drag-and-drop constantly, but macOS never really gave us a good place to &lt;i&gt;&lt;em&gt;stage&lt;/em&gt;&lt;/i&gt; things temporarily. Finder windows work, but they’re clumsy for quick hand-offs between apps.&lt;/p&gt;
-
-&lt;p&gt;Dockside turns that gap into a system. It acts like a permanent drop zone beside your Dock where you can park files, preview them, batch them, trigger actions, and move them between apps without juggling Finder windows.&lt;/p&gt;
-
-&lt;h3&gt;Turning Drag and Drop Into a System&lt;/h3&gt;
-
-&lt;p&gt;Just because you want to use a file shelf utility doesn’t mean you should have to manage yet another window cluttering your workspace.&lt;/p&gt;
-
-&lt;p&gt;Shelf location is a feature; an important one. With Dockside, the shelf lives beside your Dock or on any edge of your display you choose. It’s always where your muscle memory expects it. It’s definitely not another window you have to manage.&lt;/p&gt;
-
-&lt;p&gt;Dockside’s strength isn’t just acting as a landing strip for files. It includes multiple purpose-built shelf areas, a secondary space for screenshots, downloads, recents, and clipboard history, plus stacks, Quick Look, utilities, and; this is where the real power lives; drop zones that can trigger Shortcuts, scripts, or file actions based on what you drop.&lt;/p&gt;
-
-&lt;h3&gt;What Dockside Is and Isn’t&lt;/h3&gt;
-
-&lt;p&gt;Dockside is a native-feeling macOS file shelf and Dock companion. You drag in files, folders, apps, images, video, links, or text; park them temporarily; preview or batch-select them; then drag them out to Finder or into apps.&lt;/p&gt;
-
-&lt;p&gt;It’s &lt;b&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/b&gt; a “Dock replacement.” It’s more like a workflow lane; close enough to the Dock to feel like it belongs to the OS, but customizable enough to act like a small command center.&lt;/p&gt;
-
-&lt;h3&gt;Multi-Shelf Layout&lt;/h3&gt;
-
-&lt;p&gt;Dockside gives each side of your Dock a different purpose.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Files shelf&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The primary area where you drag files, folders, apps, images, video, links, or text.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Secondary shelf&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;By default this displays screenshots and downloads, but it can be configured to show several other categories:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Recent files&lt;/strong&gt;&lt;/b&gt; (with exclusions and limits)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Clipboard history&lt;/strong&gt;&lt;/b&gt; (with capture toggles, exclusions, and regex rules)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Media controls&lt;/strong&gt;&lt;/b&gt; (Spotify or Apple Music)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;System info&lt;/strong&gt;&lt;/b&gt; (CPU, memory, disk, network, battery, uptime, temperatures)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Dragging; Opinionated in a Good Way&lt;/h3&gt;
-
-&lt;p&gt;Dragging items out of Dockside is sophisticated in a way that shows how much thought went into its design.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Smart drag activation:&lt;/strong&gt;&lt;/b&gt; open when dragging starts, when the cursor nears the shelf, or when it approaches the cursor; user choice.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Adjustable sensitivity:&lt;/strong&gt;&lt;/b&gt; tune the delay and drop-zone height so it feels fast without triggering accidentally.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Store by alias or copy:&lt;/strong&gt;&lt;/b&gt; keep lightweight aliases or store real copies inside Dockside.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Remove items after drag-out:&lt;/strong&gt;&lt;/b&gt; great for true hand-off workflows.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The attention to detail is clear in the modifier-key behavior while dragging. You can remove items on drag-out with &lt;b&gt;&lt;strong&gt;Option&lt;/strong&gt;&lt;/b&gt;, use Finder-style move vs copy behavior, ignore activation with &lt;b&gt;&lt;strong&gt;Fn&lt;/strong&gt;&lt;/b&gt;, and more.&lt;/p&gt;
-
-&lt;p&gt;It’s the kind of app that gets noticeably better once your muscle memory kicks in.&lt;/p&gt;
-
-&lt;h3&gt;So Many Features&lt;/h3&gt;
-
-&lt;p&gt;I’ve been using Dockside for over a year. During that time the feature set has grown quite a bit without drifting into feature bloat.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Project Scratchpad&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;You can create and manage up to three separately configurable work zones in Dockside (for example: working copies, archive, future projects), each with its own automation rules based on tag filters or watched folders.&lt;/p&gt;
-
-&lt;p&gt;Clutter isn’t much of a problem because Dockside includes a &lt;b&gt;&lt;strong&gt;stack interface&lt;/strong&gt;&lt;/b&gt; and lets you create folders directly from selected files.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Drop Zones&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;You can configure multiple drop zones that appear when you drag items. Each zone has a user-definable primary action (Shortcut, Email, Copy or Move, AppleScript, shell script, CLI command, utilities, or none) and a post-drop action (keep in shelf, move or copy elsewhere, trash, or permanently delete).&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Utility Suite&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Dockside includes a set of file utilities available from menus, hover actions, or assignable drop zones:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Compression and extraction&lt;/li&gt;
-&lt;li&gt;Image to PDF&lt;/li&gt;
-&lt;li&gt;Image metadata removal&lt;/li&gt;
-&lt;li&gt;Rename&lt;/li&gt;
-&lt;li&gt;Move or copy to predefined folders&lt;/li&gt;
-&lt;li&gt;ShareSheet&lt;/li&gt;
-&lt;li&gt;Cloud uploads&lt;/li&gt;
-&lt;li&gt;Clop integration for file size optimization&lt;/li&gt;
-&lt;li&gt;Finder integration via a Finder Sync extension&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3&gt;What Makes Dockside Stand Out&lt;/h3&gt;
-
-&lt;p&gt;The problem with many apps in this category is inconsistent behavior. Elements move around unexpectedly, or panels hide and unhide randomly.&lt;/p&gt;
-
-&lt;p&gt;Dockside has been rock solid in my experience.&lt;/p&gt;
-
-&lt;p&gt;You can configure which display it appears on and which edge it attaches to. You choose how it hides or shows itself, either through settings or a global shortcut. Once configured, it behaves predictably. It just works.&lt;/p&gt;
-
-&lt;p&gt;It’s 100% a &lt;b&gt;&lt;strong&gt;Mac-ass Mac app&lt;/strong&gt;&lt;/b&gt;. Standard keyboard shortcuts work as expected: ⌘C, ⌘V, ⌘A, ⌘⌫, and ⌘Z to restore. Multi-item selection is built in. There are trackpad and mouse gestures for expanding shelves and paginating items. The right-click context menu is practical and thoughtfully designed.&lt;/p&gt;
-
-&lt;p&gt;Dockside is also Terminal friendly. It supports Apple Shortcuts and custom URLs. Not only does it work with Clop, it also includes a PopClip extension and sharing via Dropshare.&lt;/p&gt;
-
-&lt;p&gt;This is a power user’s kind of utility. The developer is friendly and responsive, and the app fits into your workflow without forcing you to change how you work. It’s particularly well suited to juggling multiple projects at once. There’s also a two-week free trial, which is plenty of time to see whether it fits your workflow.&lt;/p&gt;
-
-&lt;h3&gt;Real-World Uses&lt;/h3&gt;
-
-&lt;p&gt;After a few weeks of using Dockside, certain workflows start to feel natural.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Temporary file staging&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Drag files from Finder, Mail, or Safari into Dockside while collecting materials for something. Once everything is there, drag them out together into the destination app.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Screenshot triage&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Screenshots land in the secondary shelf automatically. From there you can preview them with Quick Look, drop them into an image tool, or send them directly to a drop zone action.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Automation trigger pad&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Drop a file onto a zone that runs a Shortcut or shell script; resize images, move files to project folders, or trigger upload workflows.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Multi-project juggling&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Use separate scratchpad zones for active work, reference material, and future tasks without scattering Finder windows everywhere.&lt;/p&gt;
-
-&lt;h3&gt;The Details&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Activation on up to three Macs&lt;/li&gt;
-&lt;li&gt;Apple notarized&lt;/li&gt;
-&lt;li&gt;Privacy policy: no data collection; internet used mainly for license activation and checks&lt;/li&gt;
-&lt;li&gt;Homebrew install supported (&lt;code&gt;brew install --cask dockside&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Cost: $5.99 lifetime; no subscription. I could easily see paying five times that for something this useful.&lt;/li&gt;
-&lt;li&gt;Developer website:&lt;br&gt;&lt;a href="https://hachipoo.com/dockside-app"&gt;Dockside for Mac — native file shelf &amp;amp; Dock companion (drag, drop, done)&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;The Verdict&lt;/h3&gt;
-
-&lt;p&gt;Dockside is one of those tools that feels small at first and then quietly becomes part of your daily workflow.&lt;/p&gt;
-
-&lt;p&gt;If you move files between apps constantly, collect materials for projects, or run file-based automations, it’s an easy recommendation. It behaves like a natural extension of macOS rather than another utility window competing for your attention.&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Dockside%20Turns%20Drag-And-Drop%20Into%20a%20Real%20Workflow" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>Most Mac users already rely on drag-and-drop constantly, but macOS never really gave us a good place to stage things temporarily. Finder windows work, but they’re clumsy for quick hand-offs between apps.
-
-Dockside turns that gap into a system. It acts like a permanent drop zone beside your Dock where...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/16158</id>
-    <published>2026-04-16T15:39:15Z</published>
-    <updated>2026-04-16T15:39:17Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/seeking-feedback-from-mac-power-users"/>
-    <title>Seeking Feedback from Mac Power Users</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Mac Apps" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL2FSQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ae14ba59cae8a4ea4e75269c3ce974d8a063fe17/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-16%20at%2011.36.42.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Mac Apps
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I’m looking for feedback on a few apps.&lt;/p&gt;
-
-&lt;p&gt;I’m looking for the answers to the following questions:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Did this app solve a problem you had? If so, what was the issue and the solution.&lt;/li&gt;
-&lt;li&gt;Who do you think is the target audience for the app&lt;/li&gt;
-&lt;li&gt;What’s your favorite feature or biggest aggravation with the app?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;a href="https://getbookshelves.app/"&gt;BookShelves eBook Reader -&lt;/a&gt; BookShelves is a modern ebook reader and library manager for macOS and iOS. It supports EPUB, PDF, MOBI, PRC, and Kindle formats with iCloud sync, a customizable reading experience, and thousands of free classic books built in.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://sidebarapp.net/"&gt;Sidebar -&lt;/a&gt; Sidebar is a MacOS application that replaces the standard MacOS Dock. It feels more like the taskbar of other operating systems (e.g. Windows, Linux).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.vaultsort.com/"&gt;VaultSort - Organize, Secure, and Optimize Your Mac Files -&lt;/a&gt; File automation, cleanup, and security&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://pacificcoast.dev/#procman"&gt;Procman -&lt;/a&gt; Procman is a native process explorer for Mac that combines the hierarchy of pstree with the clarity of Activity Monitor. Instead of a flat list of processes, it shows a live parent-child tree so you can actually understand what spawned what, what’s consuming resources, and how everything fits together.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.liqoria.com/"&gt;Liqoria - Mac Music Player • Apple Music • Spotify • YouTube and more -&lt;/a&gt; An Apple Music alternative, improving your Spotify for Mac workflow, or comparing tools like Cider for Mac.&lt;/p&gt;
-
-&lt;p&gt;If you have feedback, you can use the comment for here, send me an email or hit me up on Reddit, Mastodon or BlueSky.&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Seeking%20Feedback%20from%20Mac%20Power%20Users" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>I’m looking for feedback on a few apps.
-
-I’m looking for the answers to the following questions:
-
-1. Did this app solve a problem you had? If so, what was the issue and the solution.
-2. Who do you think is the target audience for the app
-3. What’s your...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/16115</id>
-    <published>2026-04-14T01:06:50Z</published>
-    <updated>2026-04-14T01:29:10Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/learning-and-using-github-as-a-non-developer-with-tower"/>
-    <title>Learning and Using GitHub As a Non-Developer with Tower</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Tower" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBKzJRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a1f50152e6731aaff8f371c23c43bdbb8fccfeb3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-13%20at%2021.02.32.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Tower
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;For years I assumed GitHub was only useful if you were a developer.&lt;/p&gt;
-
-&lt;p&gt;Turns out it's actually one of the best tools I've found for managing &lt;b&gt;&lt;strong&gt;text-heavy Mac workflows&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;I now use Git repositories to version and back up things like:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;my 13K-file Obsidian vault (private)&lt;/li&gt;
-&lt;li&gt;~700 Keyboard Maestro macros (public)&lt;/li&gt;
-&lt;li&gt;Hazel and BetterTouchTool configs (public)&lt;/li&gt;
-&lt;li&gt;writing projects and scripts (private)&lt;/li&gt;
-&lt;li&gt;~500 Markdown documents with my quotes collection (public)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;No coding required.&lt;/p&gt;
-
-&lt;p&gt;I recently switched from GitHub Desktop to &lt;a href="https://www.git-tower.com"&gt;Tower&lt;/a&gt;, which exposes a lot more of Git's capabilities without forcing you into the command line.&lt;/p&gt;
-
-&lt;p&gt;If you're a Mac power user managing large folders of Markdown, scripts, or automation configs, Git is basically &lt;b&gt;&lt;strong&gt;Time Machine for specific folders&lt;/strong&gt;&lt;/b&gt; — and Tower makes it easy to use.&lt;/p&gt;
-
-&lt;h2&gt;Why This Matters for Mac Power Users&lt;/h2&gt;
-
-&lt;p&gt;If you work with text-heavy workflows on macOS — Markdown notes, scripts, automation configs, or documentation — Git gives you something Time Machine doesn’t:&lt;/p&gt;
-
-&lt;p&gt;• version history for individual files&lt;br&gt;• the ability to roll back one specific edit&lt;br&gt;• an off-site backup of critical working folders&lt;br&gt;• synchronization between multiple Macs&lt;/p&gt;
-
-&lt;p&gt;For people managing large Obsidian vaults, automation libraries, or documentation projects, that combination becomes extremely useful.&lt;/p&gt;
-
-&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Let's Speak the Same Language&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
-
-&lt;p&gt;Here's a quick translation of common Git terminology:&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Repository&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;A folder tracked by Git that contains files and their complete change history.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Commit&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;A saved snapshot of the repository at a specific moment, along with a message describing the change.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;History&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;The chronological record of all commits.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Branch&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;A parallel line of development that lets you experiment without affecting the main version.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Merge&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;Combining changes from one branch into another.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Remote&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;A copy of the repository stored somewhere else; typically GitHub.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Push&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;Send your local commits to the remote repository.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Pull&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;Fetch changes from the remote repository and integrate them into your local copy.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Clone&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;Download a complete copy of a repository, including its history.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Diff&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;A comparison showing exactly what changed between two versions of a file.&lt;/p&gt;
-
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Why I Use Tower&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-
-&lt;p&gt;Tower provides a graphical interface for Git repositories and remote services such as GitHub. Instead of memorizing commands, you interact with commits, branches, and history visually.&lt;/p&gt;
-
-&lt;p&gt;For developers this manages source code. For everyone else it manages &lt;b&gt;&lt;strong&gt;collections of important files&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;Git tracks the complete history of a folder. Every time you make a commit, Git records a snapshot of the repository. Tower simply exposes that system visually. Instead of typing commands like:&lt;/p&gt;
-
-&lt;pre data-language="plain"&gt;git add &lt;br&gt;git commit &lt;br&gt;git push&lt;/pre&gt;
-
-&lt;p&gt;Tower gives you:&lt;/p&gt;
-
-&lt;p&gt;• checkboxes to stage files&lt;/p&gt;
-
-&lt;p&gt;• a commit message box&lt;/p&gt;
-
-&lt;p&gt;• push / pull buttons&lt;/p&gt;
-
-&lt;p&gt;• a visual timeline of changes&lt;/p&gt;
-
-&lt;p&gt;The idea is so simple it's easy to miss how powerful it is.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Every commit becomes a permanent historical snapshot.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;For writers, note-takers, and automation nerds, Git effectively becomes &lt;b&gt;&lt;strong&gt;Time Machine for specific folders&lt;/strong&gt;&lt;/b&gt;; but with far more precision. Instead of restoring an entire folder, you can restore a &lt;b&gt;&lt;strong&gt;single edit inside a single file&lt;/strong&gt;&lt;/b&gt;. That capability becomes extremely valuable once your knowledge base grows large.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;I regularly use Tower to manage:&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Markdown notes&lt;/li&gt;
-&lt;li&gt;scripts&lt;/li&gt;
-&lt;li&gt;documentation&lt;/li&gt;
-&lt;li&gt;configuration files&lt;/li&gt;
-&lt;li&gt;knowledge bases&lt;/li&gt;
-&lt;li&gt;writing projects
-
-&lt;br&gt;&lt;b&gt;&lt;strong&gt;Using Tower with GitHub adds a few major benefits:&lt;/strong&gt;&lt;/b&gt;
-&lt;/li&gt;
-&lt;li&gt;complete version history&lt;/li&gt;
-&lt;li&gt;off-site backup&lt;/li&gt;
-&lt;li&gt;synchronization between machines&lt;/li&gt;
-&lt;li&gt;detailed change tracking&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Tower Features Worth Highlighting&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
-
-&lt;h2&gt;&lt;b&gt;&lt;strong&gt;Rebase&lt;/strong&gt;&lt;/b&gt;&lt;/h2&gt;
-
-&lt;p&gt;Tower includes a visual interface for &lt;b&gt;&lt;strong&gt;rebasing&lt;/strong&gt;&lt;/b&gt;, which allows you to reorganize commit history. The GUI makes operations that are intimidating on the command line much easier:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;reordering commits&lt;/li&gt;
-&lt;li&gt;editing commit messages&lt;/li&gt;
-&lt;li&gt;combining commits&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Stashing&lt;/h3&gt;
-
-&lt;p&gt;Suppose you're halfway through editing files but need to switch branches. You don't want to commit unfinished work. &lt;b&gt;&lt;strong&gt;Stashing&lt;/strong&gt;&lt;/b&gt; temporarily saves those changes so you can switch contexts and return later.&lt;/p&gt;
-
-&lt;h3&gt;Conflict Resolution&lt;/h3&gt;
-
-&lt;p&gt;I'll admit I tend to use more computers than I should. That occasionally creates conflicts. When multiple versions of a file diverge, Git produces a &lt;b&gt;&lt;strong&gt;merge conflict&lt;/strong&gt;&lt;/b&gt;. Tower provides a visual interface for resolving these conflicts instead of forcing you to edit raw conflict markers. For non-developers, this feature alone removes a lot of confusion.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Getting Started in Five Minutes&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-
-&lt;p&gt;You can realistically start using Tower on macOS in about five minutes.&lt;/p&gt;
-
-&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Create a repository&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;
-
-&lt;p&gt;Pick a folder; your Obsidian vault is a good candidate. Initialize it as a Git repository in Tower.&lt;/p&gt;
-
-&lt;ol&gt;&lt;li&gt;**Make the first commit&lt;/li&gt;&lt;/ol&gt;
-
-&lt;p&gt;Tower will show all files in the folder. Select them and create the first commit.&lt;/p&gt;
-
-&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Connect to GitHub&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;
-
-&lt;p&gt;Create a repository on GitHub and link it to your local repository. Push the files.&lt;/p&gt;
-
-&lt;ol&gt;&lt;li&gt;&lt;b&gt;&lt;strong&gt;Adopt a simple daily workflow&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;
-
-&lt;p&gt;Open Tower; review the files that changed; write a short commit message; push to GitHub.&lt;/p&gt;
-
-&lt;p&gt;That's really all most non-developers need.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h1&gt;&lt;b&gt;&lt;strong&gt;Details&lt;/strong&gt;&lt;/b&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Tower Website&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.git-tower.com"&gt;https://www.git-tower.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.git-tower.com/legal/privacy-policy"&gt;https://www.git-tower.com/legal/privacy-policy&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Price&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;$5.75/month billed annually&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Learning%20and%20Using%20GitHub%20As%20a%20Non-Developer%20with%20Tower" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>For years I assumed GitHub was only useful if you were a developer.
-
-Turns out it's actually one of the best tools I've found for managing text-heavy Mac workflows.
-
-I now use Git repositories to version and back up things like:
-
-• my 13K-file Obsidian vault (private)
-• ~700 Keyboard...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/16047</id>
-    <published>2026-04-11T01:25:20Z</published>
-    <updated>2026-04-11T01:25:21Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/three-creative-and-original-new-apps"/>
-    <title>Three Creative and Original New Apps</title>
-    <content type="html">&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;
-
-&lt;p&gt;Developers keep finding interesting ways to make our existing tech more useful. Sometimes that means refining how we interact with tools we already rely on. Other times it means applying software to problems that don’t obviously look like “tech problems.”&lt;/p&gt;
-
-&lt;p&gt;Here are three apps that take a slightly unconventional approach.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href="https://xspeak.app/"&gt;Xspeak&lt;/a&gt; — a meeting companion for people who sometimes struggle to articulate their thoughts in fast-moving conversations. It transcribes discussion in real time and helps you decide how and when to respond.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://apps.apple.com/us/app/drooid-news-from-all-sides/id6593684010"&gt;Drooid&lt;/a&gt; — a news reader that focuses on surfacing bias and showing how different outlets frame the same story.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://parall.app/"&gt;Parall&lt;/a&gt; — a utility that lets you run multiple configurations of the same app simultaneously on a single Mac.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;figure class="attachment attachment--preview flex-col justify-center attachment--webp"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd21RQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f7b010e7da2acdff95257cd9de1e4871d7281c20/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2h3Ym1jNkZISmxjMmw2WlY5MGIxOXNhVzFwZEZzSGFRSUFDR2tDQUFZNkNuTmhkbVZ5ZXdjNkNuTjBjbWx3VkRvTWNYVmhiR2wwZVdsayIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--63d820beee6b8696af3b0f76fc64159e37e92615/10.webp" loading="lazy" decoding="async"&gt;
-&lt;/figure&gt;
-
-&lt;h2&gt;XSpeak&lt;/h2&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;What problem this solves&lt;/strong&gt;&lt;/b&gt; - Contributing effectively in meetings when conversations move faster than your ability to respond.&lt;/p&gt;
-
-&lt;p&gt;Xspeak is not a generic Whisper front end. It supports multiple on-device speech recognition models, and the entire design emphasizes privacy. If you prefer, you can also connect it to OpenAI-compatible cloud models.&lt;/p&gt;
-
-&lt;p&gt;The interesting part is what happens after transcription. XSpeak produces diarized transcripts and identifies questions that may require a response. With some setup and training, its on-device AI can suggest responses and strategies in real time during a meeting.&lt;/p&gt;
-
-&lt;p&gt;The system improves over time. Once you identify a speaker, XSpeak can recognize that voice in future meetings and remember their role in the conversation.&lt;/p&gt;
-
-&lt;p&gt;By default, it stores past meetings locally so you can reference them later. The app can generate summaries, insights, and suggested follow-ups. During a live meeting it also allows custom queries to the AI for additional context or analysis.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Highlights&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Diarized transcription&lt;/li&gt;
-&lt;li&gt;Multiple local speech models&lt;/li&gt;
-&lt;li&gt;Optional OpenAI-compatible cloud models&lt;/li&gt;
-&lt;li&gt;Real-time suggestions during meetings&lt;/li&gt;
-&lt;li&gt;Meeting summaries and follow-up analysis&lt;/li&gt;
-&lt;li&gt;Local storage of past meetings&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Developer Website&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;a href="https://xspeak.app/"&gt;https://xspeak.app&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;No data collection; processing and storage can remain fully on-device.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Pricing&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;$3.99/mo · $19.99/year · $49 lifetime&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Drooid&lt;/h2&gt;
-
-&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3FRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1677857cf8cc83ecf6e884017878edcf746f5854/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-10%20at%2021.23.14.jpg" loading="lazy" decoding="async"&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;What problem this solves:&lt;/strong&gt;&lt;/b&gt; Quickly comparing how different news outlets frame the same story.&lt;/p&gt;
-
-&lt;p&gt;I’ve followed news closely since I was a kid. Over the last decade, the media landscape has shifted in ways that make it harder to quickly evaluate what’s reliable and what’s not.&lt;/p&gt;
-
-&lt;p&gt;Drooid tries to address that problem by presenting the same story through multiple outlets and highlighting differences in framing and bias.&lt;/p&gt;
-
-&lt;p&gt;I initially assumed it would take a simplistic “both sides are the same” approach. That’s not what it does. Instead, it analyzes historical editorial patterns and presents coverage alongside contextual explanations of each source’s tendencies.&lt;/p&gt;
-
-&lt;p&gt;It’s also a capable news reader. You can follow topics, read summaries, jump to original reporting, and save stories for later.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;How Drooid Works&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Aggregates articles from established publishers&lt;/li&gt;
-&lt;li&gt;Uses AI to generate structured summaries from multiple sources&lt;/li&gt;
-&lt;li&gt;Identifies differences in perspective and framing&lt;/li&gt;
-&lt;li&gt;Adds historical context and citations when relevant&lt;/li&gt;
-&lt;li&gt;Provides deeper analysis for major stories&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;What You Can Do&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read concise multi-source summaries&lt;/li&gt;
-&lt;li&gt;Compare coverage across outlets&lt;/li&gt;
-&lt;li&gt;Open original articles&lt;/li&gt;
-&lt;li&gt;Explore deeper AI analysis&lt;/li&gt;
-&lt;li&gt;Follow topics and people&lt;/li&gt;
-&lt;li&gt;Search stories and events&lt;/li&gt;
-&lt;li&gt;Participate in community discussion&lt;/li&gt;
-&lt;li&gt;Save stories for later&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Drooid runs on Mac, iPhone, and iPad.&lt;/p&gt;
-
-&lt;p&gt;Instead of relying on a social media algorithm to decide what you see, Drooid gives you a structured way to compare coverage directly.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Developer Website&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;a href="https://drooid.social/"&gt;https://drooid.social&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Collects some data but does not link it to your identity.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Pricing&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;$3.99/mo · $29.99/year&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Parall&lt;/h2&gt;
-
-&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3VRQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a205abf88347b7992acf1eaa6040149e3abf5789/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-10%20at%2021.24.39.jpg" loading="lazy" decoding="async"&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;What problem this solves:&lt;/strong&gt;&lt;/b&gt; Running multiple independent instances of the same app without separate macOS accounts.&lt;/p&gt;
-
-&lt;p&gt;For years I used separate macOS accounts when I needed to run the same app with different configurations. Parall removes that requirement.&lt;/p&gt;
-
-&lt;p&gt;It creates configurable shortcuts that launch separate instances of supported apps, each with its own configuration and data environment.&lt;/p&gt;
-
-&lt;p&gt;Parall already supports many common third-party apps and can download compatibility profiles for apps it hasn’t explicitly tested yet. That approach lets the ecosystem expand without waiting for a full app update.&lt;/p&gt;
-
-&lt;p&gt;The original application isn’t modified. Parall simply launches isolated instances with different parameters. If you stop using the shortcuts, the original app behaves exactly as it always did.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Key Features&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Configurable launch shortcuts&lt;/li&gt;
-&lt;li&gt;Separate configuration and data environments&lt;/li&gt;
-&lt;li&gt;Custom launch arguments&lt;/li&gt;
-&lt;li&gt;Visual indicators to distinguish instances&lt;/li&gt;
-&lt;li&gt;Logging and debugging tools&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There are limits. Some apps cannot be isolated this way. Also, macOS security prompts appear frequently during setup, so expect to click through quite a few dialogs.&lt;/p&gt;
-
-&lt;p&gt;This is not a beginner utility. If you are comfortable with launch arguments and environment variables, it makes immediate sense. If not, you can still use it; the learning curve is just a bit steeper.&lt;/p&gt;
-
-&lt;p&gt;Parall is one of those niche utilities that becomes surprisingly useful once you start using it. Separate Dock icons for different contexts; clean separation between work and personal accounts; isolated project environments; all without duplicate installs or brittle automation.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Developer Website&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;a href="https://parall.app/"&gt;https://parall.app&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Privacy Policy&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Fully sandboxed macOS app. Operates locally by default and does not send network requests or collect personal data.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Price&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;$9.99 on the Mac App Store&lt;br&gt;&lt;a href="https://apps.apple.com/us/app/parall/id6754065114?mt=12"&gt;https://apps.apple.com/us/app/parall/id6754065114?mt=12&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2&gt;Who These Apps Are For&lt;/h2&gt;
-
-&lt;p&gt;These are not generic productivity apps. Each one targets a specific workflow:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Xspeak&lt;/strong&gt;&lt;/b&gt; — people who participate in a lot of meetings and want real-time assistance organizing their thoughts.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Drooid&lt;/strong&gt;&lt;/b&gt; — readers who want structured comparisons of how news outlets frame the same story.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Parall&lt;/strong&gt;&lt;/b&gt; — power users who need multiple app environments without juggling macOS accounts or duplicate installs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;None of these tools will appeal to everyone. But if the specific problem they solve matches your workflow, they are unusually thoughtful implementations.&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Three%20Creative%20and%20Original%20New%20Apps" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>
-
-Developers keep finding interesting ways to make our existing tech more useful. Sometimes that means refining how we interact with tools we already rely on. Other times it means applying software to problems that don’t obviously look like “tech problems.”
-
-Here are three apps that take a slightly unconventional...</summary>
-    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15998</id>
-    <published>2026-04-09T01:32:06Z</published>
-    <updated>2026-04-09T01:32:08Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/organizing-a-660-app-applications-folder-with-apptela"/>
-    <title>Organizing a 660-App /Applications Folder with AppTela</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="AppTela" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMXlQQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--74c8df767b0059a8cbc0320b2b049a44d6784a1c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-08%20at%2021.28.30.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      AppTela
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I recently organized my &lt;b&gt;&lt;strong&gt;/Applications&lt;/strong&gt;&lt;/b&gt; folder; it contains more than &lt;b&gt;&lt;strong&gt;660 apps&lt;/strong&gt;&lt;/b&gt;. The tool that finally made it manageable is &lt;a href="https://apps.apple.com/us/app/apptela-app-launcher/id6752568197?mt=12"&gt;&lt;b&gt;&lt;strong&gt;AppTela&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;, a layered, categorized launcher available for &lt;b&gt;&lt;strong&gt;$4.99 on the Mac App Store&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;I tend to keep an app for every contingency. The problem isn’t disk space; it’s remembering the name of the utility you installed last year to solve a problem that only shows up every few months.&lt;/p&gt;
-
-&lt;p&gt;If you’ve ever had the experience of knowing you &lt;i&gt;&lt;em&gt;have&lt;/em&gt;&lt;/i&gt; an app for something but not remembering what it’s called, AppTela is designed to solve exactly that problem. I still launch the majority of my apps from Raycast. My use case for AppTela is using it's organizational structure, but if you're primarily a mouse or trackpad (nothing wrong with that), then this app will server you well on that front.&lt;/p&gt;
-
-&lt;p&gt;Not many days go by without me downloading at least one app. I’ve been doing that for years. Some people golf; some people play video games. My hobby is testing software.&lt;/p&gt;
-
-&lt;p&gt;Over time, of course, some maintenance and culling becomes necessary. But I’ve never worried about having too many apps; if that’s even a thing. As long as I stay away from the big bundles from companies like Adobe and Microsoft and keep Electron apps to a minimum, disk space isn’t an issue. Even on a &lt;b&gt;&lt;strong&gt;Mac mini with a 256 GB SSD&lt;/strong&gt;&lt;/b&gt;, my very full Applications folder uses &lt;b&gt;&lt;strong&gt;less than 20% of the drive&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;AppTela is &lt;b&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/b&gt; a Launchpad clone. It’s completely &lt;b&gt;&lt;strong&gt;non-destructive&lt;/strong&gt;&lt;/b&gt;. No matter how you organize things inside AppTela, your underlying file system never changes.&lt;/p&gt;
-
-&lt;p&gt;The structure takes a little time to understand, but it clicks pretty quickly. And importantly, none of the organizational layers are mandatory. You can ignore the ones that don’t fit your workflow.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Pages&lt;/h2&gt;
-
-&lt;p&gt;The highest organizational level is the &lt;b&gt;&lt;strong&gt;Page&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;When you first open AppTela, it places all your apps on a single page. You can create as many pages as you like.&lt;/p&gt;
-
-&lt;p&gt;An app can appear on multiple pages. For example, you might create:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;a &lt;b&gt;&lt;strong&gt;Side Hustle&lt;/strong&gt;&lt;/b&gt; page&lt;/li&gt;
-&lt;li&gt;a &lt;b&gt;&lt;strong&gt;YouTube setup&lt;/strong&gt;&lt;/b&gt; page&lt;/li&gt;
-&lt;li&gt;a &lt;b&gt;&lt;strong&gt;Daily Work&lt;/strong&gt;&lt;/b&gt; page&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Safari could appear on all of them.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Categories&lt;/h2&gt;
-
-&lt;p&gt;Within each page, apps are arranged into &lt;b&gt;&lt;strong&gt;Categories&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;On the default page, categories appear as headers with apps displayed in a grid beneath them. You can rename, delete, or create categories from the context menu.&lt;/p&gt;
-
-&lt;p&gt;The default categories include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Design and Photography&lt;/li&gt;
-&lt;li&gt;Notes&lt;/li&gt;
-&lt;li&gt;Entertainment and Media&lt;/li&gt;
-&lt;li&gt;Developer Tools&lt;/li&gt;
-&lt;li&gt;Education and Reference&lt;/li&gt;
-&lt;li&gt;Internet&lt;/li&gt;
-&lt;li&gt;Social and Lifestyle&lt;/li&gt;
-&lt;li&gt;Utilities&lt;/li&gt;
-&lt;li&gt;Video&lt;/li&gt;
-&lt;li&gt;General Applications&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can keep these, modify them, or replace them entirely.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Groups&lt;/h2&gt;
-
-&lt;p&gt;If you have a lot of apps in a category, &lt;b&gt;&lt;strong&gt;Groups&lt;/strong&gt;&lt;/b&gt; become useful.&lt;/p&gt;
-
-&lt;p&gt;For example, instead of having a giant Utilities grid containing 100 apps, you can break that category into smaller groups.&lt;/p&gt;
-
-&lt;p&gt;Here are the &lt;b&gt;&lt;strong&gt;Utility groups&lt;/strong&gt;&lt;/b&gt; I created:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Automation&lt;/li&gt;
-&lt;li&gt;Backup&lt;/li&gt;
-&lt;li&gt;Clipboard&lt;/li&gt;
-&lt;li&gt;Disk Tools&lt;/li&gt;
-&lt;li&gt;Dock Utilities&lt;/li&gt;
-&lt;li&gt;File Maintenance&lt;/li&gt;
-&lt;li&gt;File Transfer&lt;/li&gt;
-&lt;li&gt;File Search&lt;/li&gt;
-&lt;li&gt;Hardware&lt;/li&gt;
-&lt;li&gt;Maintenance&lt;/li&gt;
-&lt;li&gt;Menu Bar&lt;/li&gt;
-&lt;li&gt;Network&lt;/li&gt;
-&lt;li&gt;Shelf&lt;/li&gt;
-&lt;li&gt;Shell&lt;/li&gt;
-&lt;li&gt;Shortcuts&lt;/li&gt;
-&lt;li&gt;Speech&lt;/li&gt;
-&lt;li&gt;System&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Groups can also be &lt;b&gt;&lt;strong&gt;nested up to five levels deep&lt;/strong&gt;&lt;/b&gt;, which gives you a surprising amount of flexibility if you want a very structured layout.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Stacks&lt;/h2&gt;
-
-&lt;p&gt;The lowest organizational level is the &lt;b&gt;&lt;strong&gt;Stack&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;There are two kinds.&lt;/p&gt;
-
-&lt;h3&gt;Regular Stacks&lt;/h3&gt;
-
-&lt;p&gt;A regular stack is simply a way to group &lt;b&gt;&lt;strong&gt;up to 10 apps&lt;/strong&gt;&lt;/b&gt; inside the space normally occupied by a single icon.&lt;/p&gt;
-
-&lt;p&gt;This is useful when you have clusters of related tools you only use occasionally.&lt;/p&gt;
-
-&lt;h3&gt;Launch Stacks&lt;/h3&gt;
-
-&lt;p&gt;Launch Stacks look similar, but behave differently.&lt;/p&gt;
-
-&lt;p&gt;Clicking one launches &lt;b&gt;&lt;strong&gt;every app inside the stack simultaneously&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is perfect for starting a workflow where several tools always open together; for example:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;a writing environment&lt;/li&gt;
-&lt;li&gt;a development setup&lt;/li&gt;
-&lt;li&gt;a media editing session&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Stacks can be placed directly inside a &lt;b&gt;&lt;strong&gt;category&lt;/strong&gt;&lt;/b&gt; or inside a &lt;b&gt;&lt;strong&gt;group&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Aesthetics and Customization&lt;/h2&gt;
-
-&lt;p&gt;AppTela is extremely customizable.&lt;/p&gt;
-
-&lt;p&gt;Almost every visual element can be adjusted; borders, colors, fonts, and backgrounds.&lt;/p&gt;
-
-&lt;p&gt;It includes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;26 display themes&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;29 color schemes&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;7 animated backgrounds&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can run it:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;full screen&lt;/li&gt;
-&lt;li&gt;as a sidebar above the Dock&lt;/li&gt;
-&lt;li&gt;on any display&lt;/li&gt;
-&lt;li&gt;on any Space&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you spend time dialing in a layout you really like, you can &lt;b&gt;&lt;strong&gt;lock, save, and back up the configuration&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Wish List&lt;/h2&gt;
-
-&lt;p&gt;There are a few things I’d still like to see added.&lt;/p&gt;
-
-&lt;p&gt;The biggest one is the ability to launch things other than applications, such as:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Shortcuts&lt;/li&gt;
-&lt;li&gt;Folders&lt;/li&gt;
-&lt;li&gt;URLs&lt;/li&gt;
-&lt;li&gt;Files&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I would also like something similar to the &lt;b&gt;&lt;strong&gt;notes feature in Start (by Innovative Bytes)&lt;/strong&gt;&lt;/b&gt;. Being able to attach a short reference note to an app would be genuinely useful.&lt;/p&gt;
-
-&lt;p&gt;Not every app name is descriptive. And if you happen to have &lt;b&gt;&lt;strong&gt;six clipboard managers installed&lt;/strong&gt;&lt;/b&gt; (hypothetically speaking), it would be helpful to leave yourself a reminder about which one supports cumulative copying.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;App Details&lt;/h2&gt;
-
-&lt;h3&gt;Developer Website&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://apptela.com/en/"&gt;AppTela for Mac – Customizable App Launcher &amp;amp; Launchpad Alternative&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Privacy Policy&lt;/h3&gt;
-
-&lt;p&gt;AppTela collects &lt;b&gt;&lt;strong&gt;no personal data&lt;/strong&gt;&lt;/b&gt;.&lt;br&gt;The app runs entirely on your device and requires &lt;b&gt;&lt;strong&gt;no network connectivity&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;h3&gt;Price&lt;/h3&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;$4.99&lt;/strong&gt;&lt;/b&gt; on the &lt;a href="https://apps.apple.com/us/app/apptela-app-launcher/id6752568197?mt=12"&gt;Mac App Store&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Organizing%20a%20660-App%20/Applications%20Folder%20with%20AppTela" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>I recently organized my /Applications folder; it contains more than 660 apps. The tool that finally made it manageable is AppTela, a layered, categorized launcher available for $4.99 on the Mac App Store.
-
-I tend to keep an app for every contingency. The problem isn’t disk space; it’s remembering the name of the utility you...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15943</id>
-    <published>2026-04-06T16:26:30Z</published>
-    <updated>2026-04-06T16:26:32Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/i-replaced-apple-music-with-yate-swinsian-navidrome-and-an-ipod-classic-surprisingly-better"/>
-    <title>I replaced Apple Music with Yate, Swinsian, Navidrome, and an iPod Classic. Surprisingly better.</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Navidrome" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNGlOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8be0a070ddcf99c2cafc0fc1df9e97b0cc206ff6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/dylan.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Navidrome
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;My ten-year experiment with Apple Music is over.&lt;/p&gt;
-
-&lt;p&gt;Over the past month I rebuilt my workflow for managing a large local music collection; roughly &lt;b&gt;&lt;strong&gt;36,000 tracks&lt;/strong&gt;&lt;/b&gt;. After a lot of experimentation, these are the tools that finally clicked.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Migration&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://support.apple.com/en-us/108935"&gt;Apple Music with iTunes Match&lt;/a&gt; ($25/year; you only need it once)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Repair&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://2manyrobots.com/yate/"&gt;Yate&lt;/a&gt; (free)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Management&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://swinsian.com/"&gt;Swinsian&lt;/a&gt; ($34.95)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Maintenance&lt;/strong&gt;&lt;/b&gt; – Yate + Swinsian&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Consumption (hardware)&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://www.ebay.com/sch/i.html?_nkw=used+ipod+classic&amp;amp;_sop=12"&gt;iPod Classic&lt;/a&gt; ($40–$400)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Consumption (streaming)&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://www.navidrome.org/"&gt;Navidrome&lt;/a&gt; (free)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is the story of moving from Apple Music back to &lt;b&gt;&lt;strong&gt;files I actually own&lt;/strong&gt;&lt;/b&gt;, and the workflow that makes that practical in 2026.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Why Leave?&lt;/h2&gt;
-
-&lt;p&gt;Streaming trained us to tolerate a mess we never should have accepted.&lt;/p&gt;
-
-&lt;p&gt;Tracks, albums, and playlists quietly disappear. You’re never quite sure what counts as “your library.” Metadata changes underneath you. And if you cancel the subscription, it’s not always clear what remains.&lt;/p&gt;
-
-&lt;p&gt;For casual listening that trade-off may be fine. For anyone who has spent years curating a library, it’s frustrating.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;iPod Enforced Clarity&lt;/h2&gt;
-
-&lt;p&gt;Using a big old &lt;b&gt;&lt;strong&gt;iPod Classic&lt;/strong&gt;&lt;/b&gt; forces a certain discipline.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Everything must be local.&lt;/strong&gt;&lt;/b&gt; No cloud placeholders. Availability becomes certain instead of the streamer’s gamble of “is this still licensed?”&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Metadata has to be correct.&lt;/strong&gt;&lt;/b&gt; Artist, Album, Genre, Composer, and Year matter because that’s how the device navigates.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Portability means independence.&lt;/strong&gt;&lt;/b&gt; The device doesn’t call home to verify a subscription.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;It’s a surprisingly healthy constraint.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;DRM Isn’t What It Used to Be&lt;/h2&gt;
-
-&lt;p&gt;My library comes from a mix of sources:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ripped CDs&lt;/li&gt;
-&lt;li&gt;iTunes purchases&lt;/li&gt;
-&lt;li&gt;Other digital stores (Amazon, eMusic, etc.)&lt;/li&gt;
-&lt;li&gt;Napster downloads&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In the early years, iTunes purchases were &lt;b&gt;&lt;strong&gt;DRM-protected AAC files&lt;/strong&gt;&lt;/b&gt;. Later Apple switched to DRM-free downloads and eventually provided ways to convert older purchases.&lt;/p&gt;
-
-&lt;p&gt;That history leaves many long-time iTunes libraries in a messy transitional state.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;iTunes Match Worked for Me&lt;/h2&gt;
-
-&lt;p&gt;For &lt;b&gt;&lt;strong&gt;$25&lt;/strong&gt;&lt;/b&gt;, iTunes Match will upload up to &lt;b&gt;&lt;strong&gt;100,000 songs&lt;/strong&gt;&lt;/b&gt; in almost any format.&lt;/p&gt;
-
-&lt;p&gt;The useful trick is what happens next: once the songs are matched or uploaded, you can &lt;b&gt;&lt;strong&gt;re-download them as 256 kbps AAC files&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;That’s not lossless audiophile territory, but it’s a big improvement over the &lt;b&gt;&lt;strong&gt;128 kbps MP3s&lt;/strong&gt;&lt;/b&gt; many of us ripped twenty years ago.&lt;/p&gt;
-
-&lt;p&gt;In my case it did two useful things:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Upgraded thousands of low-bitrate files&lt;/li&gt;
-&lt;li&gt;Removed DRM from every track I had ever purchased from Apple&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It’s not magic, though.&lt;/p&gt;
-
-&lt;p&gt;A “matched” track can sometimes be:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;a different mastering&lt;/li&gt;
-&lt;li&gt;a radio or clean edit&lt;/li&gt;
-&lt;li&gt;a compilation version&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Those substitutions can break album coherence. Keeping a &lt;b&gt;&lt;strong&gt;backup of your original files&lt;/strong&gt;&lt;/b&gt; is essential so you can restore anything that gets replaced incorrectly.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Yate" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNG1OQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ac70cdb23c56355b9b96f07593a9a2b1dd78e923/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/yate.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Yate
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2&gt;Using Yate to Modernize the Library&lt;/h2&gt;
-
-&lt;p&gt;Old iTunes libraries accumulate a lot of structural problems.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Artist vs Album Artist inconsistencies&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Compilations explode into dozens of fake albums because Album Artist wasn’t standardized.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Multiple versions of the same artist&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;code&gt;AC/DC&lt;/code&gt; vs &lt;code&gt;ACDC&lt;/code&gt;, smart quotes, stray spaces, or hidden characters create duplicate artist entries.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Broken multi-disc structure&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Missing disc numbers, merged discs, or tracks numbered 1–12 twice.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Genre chaos&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;i&gt;&lt;em&gt;Alternative, Alt Rock, Alt. Rock, Indie Rock&lt;/em&gt;&lt;/i&gt; multiplied across 36,000 tracks.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Legacy sorting fields&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Old iTunes “Sort Artist” conventions vary wildly and sometimes actively break browsing.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Artwork inconsistencies&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Some tracks embed artwork, others rely on external caches, and some albums contain multiple covers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can fix these issues manually for a small collection. Mine required automation.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Yate&lt;/strong&gt;&lt;/b&gt; turned out to be the right tool. Its strengths include:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Batch tag repair&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Album Artist normalization, compilation handling, capitalization rules.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Multi-disc metadata fixes&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Correct disc numbers, track numbering, and album naming.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Genre standardization&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Apply a consistent genre system across the library.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Artwork workflows&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Embed artwork consistently and clean up mismatched covers.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Duplicate and anomaly detection&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Surface metadata problems that older iTunes libraries accumulate silently.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr&gt;
-
-&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Swinsian" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHFOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fc4be1e8c6ba7b3a7fa9363832e6820ad83cd056/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-04-06%20at%2011.53.10.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Swinsian
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2&gt;Swinsian as the Management Layer&lt;/h2&gt;
-
-&lt;p&gt;Swinsian is the perfect &lt;b&gt;&lt;strong&gt;ongoing management layer&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;Yes, it’s a player. But more importantly, it’s a tool for keeping a large collection curated over time.&lt;/p&gt;
-
-&lt;h3&gt;What Swinsian Does Well&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;It stays fast.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Even with large libraries. It behaves like a library manager rather than a storefront.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Smart playlists act like real queries.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;You can build them around almost any metadata combination.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Examples from my library:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Tracks added in the last 30 days that are under 256 kbps&lt;/li&gt;
-&lt;li&gt;Albums missing artwork&lt;/li&gt;
-&lt;li&gt;Tracks with blank Album Artist or “Unknown Album”&lt;/li&gt;
-&lt;li&gt;Plays = 0 but rating ≥ 4 stars (a “rediscover” list)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Metadata triage is straightforward.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Sorting by Bit Rate, Kind, Date Added, Album Artist, or Disc Number quickly surfaces problems.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Bulk editing is practical.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Yate handles large automation jobs; Swinsian is perfect for smaller fixes like missing years or Album Artist corrections.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;It’s local-first.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;No cloud substitutions. No licensing surprises. Your library remains exactly what’s on disk.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Files. Tags. Structure.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;The Drawbacks&lt;/h2&gt;
-
-&lt;p&gt;Local libraries come with responsibilities.&lt;/p&gt;
-
-&lt;p&gt;Discovery becomes a separate task. There’s no instant “add to playlist” from a streaming catalog.&lt;/p&gt;
-
-&lt;p&gt;You also have to care about the plumbing:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;tagging discipline&lt;/li&gt;
-&lt;li&gt;folder structure&lt;/li&gt;
-&lt;li&gt;backups&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My library uses a simple &lt;b&gt;&lt;strong&gt;Artist/Album/Track&lt;/strong&gt;&lt;/b&gt; folder structure so both Swinsian and streaming remain predictable.&lt;/p&gt;
-
-&lt;p&gt;I’m also paranoid about losing data, so I keep backups on external drives and in the cloud. If you follow a &lt;b&gt;&lt;strong&gt;3–2–1 backup strategy&lt;/strong&gt;&lt;/b&gt;, you’re golden. At minimum, use Time Machine.&lt;/p&gt;
-
-&lt;p&gt;The upside is control. The downside is maintenance.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;What About Streaming?&lt;/h2&gt;
-
-&lt;p&gt;This turned out to be the easiest part.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Navidrome&lt;/strong&gt;&lt;/b&gt; is the layer that makes your local library available everywhere.&lt;/p&gt;
-
-&lt;p&gt;Point it at your curated music folder, let it scan the files, and your collection becomes streamable from:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;phones&lt;/li&gt;
-&lt;li&gt;tablets&lt;/li&gt;
-&lt;li&gt;browsers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The key advantage is that &lt;b&gt;&lt;strong&gt;Navidrome reflects your existing organization&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;Yate handles tag cleanup and upgrades.&lt;br&gt;Swinsian handles library management and playlists.&lt;br&gt;Navidrome simply serves whatever you’ve already organized.&lt;/p&gt;
-
-&lt;p&gt;Once it’s set up, it mostly disappears into the background.&lt;/p&gt;
-
-&lt;p&gt;Exactly the way infrastructure should.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;My Current Workflow&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Acquire music (CD rip, digital purchase, download).&lt;/li&gt;
-&lt;li&gt;Run Yate actions to normalize tags and artwork.&lt;/li&gt;
-&lt;li&gt;Import into Swinsian for library management.&lt;/li&gt;
-&lt;li&gt;Sync to an iPod Classic for offline listening.&lt;/li&gt;
-&lt;li&gt;Let Navidrome stream the same library remotely.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr&gt;
-
-&lt;h2&gt;Closing: The Point Isn’t Nostalgia&lt;/h2&gt;
-
-&lt;p&gt;This isn’t a retro flex. It’s an engineering decision.&lt;/p&gt;
-
-&lt;p&gt;A locally managed library quietly removes an entire category of annoyances: licensing uncertainty, cloud weirdness, metadata drift, and app strategy whiplash.&lt;/p&gt;
-
-&lt;p&gt;And with the right combination of tools — iTunes Match for upgrades, Yate for tagging, Swinsian for management — a &lt;b&gt;&lt;strong&gt;36,000-song library becomes not just manageable, but pleasant again.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=I%20replaced%20Apple%20Music%20with%20Yate,%20Swinsian,%20Navidrome,%20and%20an%20iPod%20Classic.%20Surprisingly%20better." style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>My ten-year experiment with Apple Music is over.
-
-Over the past month I rebuilt my workflow for managing a large local music collection; roughly 36,000 tracks. After a lot of experimentation, these are the tools that finally clicked.
-
-• Migration – Apple Music with iTunes Match ($25/year; you only need it once)
-• Repair – Yate (free)...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15889</id>
-    <published>2026-04-02T22:32:17Z</published>
-    <updated>2026-04-03T06:27:59Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/radial-4-works-best-as-an-automation-hub"/>
-    <title>Radial 4 Works Best as an Automation Hub</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Radial" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMVNNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--475905546719757d36f756dc8270e7e8bc8301bc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/UIUpdate.png" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Radial
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I spent the afternoon experimenting with &lt;a href="https://radial.appverge.net/"&gt;Radial 4&lt;/a&gt;, a rapidly evolving pie-menu app from independent developer Gustav Lubker of AppVerge. If you’re not familiar with pie menu apps, they present a circular menu divided into sections (or slices), each representing an action or command. When configured well, they map naturally to muscle memory and can be extremely fast to use.&lt;/p&gt;
-
-&lt;p&gt;Other pie-menu apps I've used include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;a href="https://appaddict.app/post/pieoneer-multi-use-pie-menu"&gt;Pieoneer&lt;/a&gt; (good)&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://apps.apple.com/us/app/cirmenu/id6450661015?mt=12"&gt;CirMenu&lt;/a&gt; (good)&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://appaddict.app/post/pie-menu"&gt;PieMenu&lt;/a&gt; (limited)&lt;/li&gt;
-&lt;li&gt;
-&lt;a href="https://kando.menu/"&gt;Kando&lt;/a&gt; (FOSS)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Interface&lt;/h2&gt;
-
-&lt;p&gt;In Radial, pie menus can include the following types of actions:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;Input&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
-&lt;li&gt;Keyboard Shortcut&lt;/li&gt;
-&lt;li&gt;Text&lt;/li&gt;
-&lt;li&gt;Clipboard&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;Open&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
-&lt;li&gt;Open App&lt;/li&gt;
-&lt;li&gt;Open File&lt;/li&gt;
-&lt;li&gt;Open URL&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;Scripting&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
-&lt;li&gt;Apple Shortcut&lt;/li&gt;
-&lt;li&gt;AppleScript&lt;/li&gt;
-&lt;li&gt;Shell Script&lt;/li&gt;
-&lt;li&gt;Keyboard Maestro&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;System&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li class="lexxy-nested-listitem"&gt;&lt;ul&gt;
-&lt;li&gt;Window Management&lt;/li&gt;
-&lt;li&gt;System Control&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The only obvious thing missing right now is deep-link support for tools like &lt;a href="https://appaddict.app/post/how-to-get-the-most-from-raycast"&gt;Raycast&lt;/a&gt; and similar command launchers.&lt;/p&gt;
-
-&lt;h2&gt;Some Use Case Ideas&lt;/h2&gt;
-
-&lt;h3&gt;Categorized Launchers&lt;/h3&gt;
-
-&lt;p&gt;Radial is much more than an &lt;b&gt;&lt;strong&gt;app launcher&lt;/strong&gt;&lt;/b&gt;, but it works well for that role. You can create multiple menus and switch between them once a Radial menu is invoked with a keyboard shortcut or mouse gesture. One practical approach is to build menus around categories of apps you use regularly.&lt;/p&gt;
-
-&lt;p&gt;Examples:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Browsers&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://appaddict.app/post/safari-extensions-worth-paying-for-and-a-couple-of-worthy-freebies"&gt;Safari&lt;/a&gt;, Chrome, Firefox, Dia, &lt;a href="https://appaddict.app/post/vivaldi-my-favorite-browser-just-got-some-updates"&gt;Vivaldi&lt;/a&gt;, Orion&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Utilities&lt;/strong&gt;&lt;/b&gt; – Emoji Picker, &lt;a href="https://appaddict.app/post/why-haven-t-you-installed-keka-yet"&gt;Keka&lt;/a&gt;, PastePal, Updatest&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Writing&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://appaddict.app/post/drafts-wins-app-of-the-year-at-mac-stories"&gt;Drafts&lt;/a&gt;, &lt;a href="https://obsidian.amerpie.lol/"&gt;Obsidian,&lt;/a&gt; LibreOffice, Dictionary&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Graphics&lt;/strong&gt;&lt;/b&gt; – &lt;a href="https://appaddict.app/post/imageoptim-free-and-open-source-utility-to-reduce-file-sizes"&gt;ImageOptim&lt;/a&gt;, &lt;a href="https://appaddict.app/post/consul-is-supremely-useful"&gt;Consul&lt;/a&gt;, Immich&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This kind of grouping works well because the direction of the slice becomes the memory trigger rather than the app name.&lt;/p&gt;
-
-&lt;h3&gt;Consistent Application Menus&lt;/h3&gt;
-
-&lt;p&gt;Radial calls menus that are available everywhere &lt;b&gt;&lt;strong&gt;global menus&lt;/strong&gt;&lt;/b&gt;. It also supports &lt;b&gt;&lt;strong&gt;context-aware menus&lt;/strong&gt;&lt;/b&gt; that appear only in specific apps or groups of apps.&lt;/p&gt;
-
-&lt;p&gt;Because Radial includes a template feature, you can create menus that behave consistently across your main working apps. Anything that can be triggered with a keyboard shortcut can live in the menu.&lt;/p&gt;
-
-&lt;p&gt;If you place common commands in the same slice position across multiple apps, muscle memory kicks in quickly.&lt;/p&gt;
-
-&lt;p&gt;Examples of commands that translate well across apps:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;New&lt;/strong&gt;&lt;/b&gt; – note, document, macro, shortcut, etc. (⌘N)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Settings&lt;/strong&gt;&lt;/b&gt; – quick access to preferences (⌘,)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Search / Search and Replace&lt;/strong&gt;&lt;/b&gt; (⌘F and ⌥⌘F)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can still add app-specific commands; just keep their placement consistent so your muscle memory stays intact. I created Radial menus for Safari, &lt;a href="https://appaddict.app/post/things-3-maybe-the-pinnacle-in-app-design"&gt;Things&lt;/a&gt;, Obsidian, and Drafts using this approach.&lt;/p&gt;
-
-&lt;h3&gt;Automation Hub&lt;/h3&gt;
-
-&lt;p&gt;Where Radial really shines is as an &lt;b&gt;&lt;strong&gt;automation hub&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;Instead of launching apps individually, you can trigger an &lt;a href="https://appaddict.app/post/enhance-apple-shortcuts-with-these-apps"&gt;Apple Shortcut&lt;/a&gt; or a &lt;a href="https://appaddict.app/post/keyboard-maestro-the-app-that-makes-everything-better-tips-for-the-for-the-automation-curious"&gt;Keyboard Maestro&lt;/a&gt; macro that launches an entire workspace with a single click. A second action can close the same apps when you’re done.&lt;/p&gt;
-
-&lt;p&gt;If you combine this with a window manager like &lt;a href="https://appaddict.app/post/developer-spotlight-ryan-hanson"&gt;Rectangle&lt;/a&gt; or &lt;a href="https://appaddict.app/post/snapsofapps-has-new-powerful-features"&gt;Snaps of Apps&lt;/a&gt;, you can go even further and &lt;b&gt;&lt;strong&gt;launch apps on specific displays and in specific Spaces with windows already arranged&lt;/strong&gt;&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;Another useful trick is reducing menu-bar clutter. Many utilities can have their core actions exposed through a Radial menu instead of living permanently in the menu bar.&lt;/p&gt;
-
-&lt;p&gt;Examples of apps that work well this way:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://appaddict.app/post/cleanshot-x"&gt;CleanShot X&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Shortcuts&lt;/li&gt;
-&lt;li&gt;Rectangle&lt;/li&gt;
-&lt;li&gt;Keyboard Maestro&lt;/li&gt;
-&lt;li&gt;Side Notes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I also adapted my morning checklist into a Radial menu using a mix of actions:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Opening several daily websites in specific browsers&lt;/li&gt;
-&lt;li&gt;Checking new email across three mailboxes&lt;/li&gt;
-&lt;li&gt;Launching social media through the apps I actually use&lt;/li&gt;
-&lt;li&gt;Opening &lt;a href="https://appaddict.app/post/two-recommendations-for-syncing-utilities"&gt;Sync Folders Pro&lt;/a&gt; and &lt;a href="https://appaddict.app/post/smartbackup-free-fast-and-foolproof"&gt;Smart Backup&lt;/a&gt; to verify my auto-archiving workflows for photos, music, ebooks, and video&lt;/li&gt;
-&lt;li&gt;Sending a predefined prompt to ChatGPT that generates my daily report&lt;/li&gt;
-&lt;li&gt;Logging into my self-hosted server for routine health checks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once it’s set up, everything can be accessed from a single menu instead of hunting through menus, booksmarks and other launchers.&lt;/p&gt;
-
-&lt;h2&gt;Details&lt;/h2&gt;
-
-&lt;h3&gt;Privacy Policy&lt;/h3&gt;
-
-&lt;p&gt;Radial has a good privacy policy and you can read it at &lt;a href="https://radial.appverge.net/privacy"&gt;https://radial.appverge.net/privacy&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Radial includes a&lt;mark style="color:rgb(51, 61, 66);background-color:rgb(248, 248, 248);"&gt; built-in AI assistant using Meta's llama-3.1-8b-instant hosted on Groq (with a Q, not K).&lt;/mark&gt; Ideally, future versions will support additional providers.&lt;/p&gt;
-
-&lt;p&gt;Radial is developed in Denmark, which means it falls under EU privacy regulations.&lt;/p&gt;
-
-&lt;h3&gt;Price&lt;/h3&gt;
-
-&lt;p&gt;Radial offers a seven-day free trial. The full license costs &lt;b&gt;&lt;strong&gt;€14.99&lt;/strong&gt;&lt;/b&gt; and covers &lt;b&gt;&lt;strong&gt;five seats&lt;/strong&gt;&lt;/b&gt;, which is fairly generous for a utility in this category.&lt;/p&gt;
-
-&lt;h3&gt;Website&lt;/h3&gt;
-
-&lt;p&gt;Radial’s website includes solid documentation and clear explanations of how the system works.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://radial.appverge.net/"&gt;Radial – Everything at Your Cursor&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Radial%204%20Works%20Best%20as%20an%20Automation%20Hub" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>I spent the afternoon experimenting with Radial 4, a rapidly evolving pie-menu app from independent developer Gustav Lubker of AppVerge. If you’re not familiar with pie menu apps, they present a circular menu divided into sections (or slices), each representing an action or command. When configured well, they map naturally to...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15873</id>
-    <published>2026-04-02T00:08:50Z</published>
-    <updated>2026-04-02T07:29:10Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/backigo-is-a-dependable-full-featured-icloud-backup-solution"/>
-    <title>BackiGo is a Dependable &amp; Full Featured iCloud Backup Solution</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="BackiGo" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWFNQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--af2b5827c6f07fefea10231ba29f044b8b03abc9/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/SCR-20260401-rlxn.png" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      BackiGo
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;If you rely on iCloud but don’t have a true backup of that data, BackiGo is one of the simplest ways to create one.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://backigo.app/"&gt;BackiGo&lt;/a&gt; is an iCloud backup app I can recommend for anyone looking for an alternative to Parachute. Parachute is a well-known iCloud backup utility that was recently acquired by a company with a solid reputation, but also a history of price increases and subscription transitions.&lt;/p&gt;
-
-&lt;h2&gt;Who This Is For&lt;/h2&gt;
-
-&lt;p&gt;BackiGo is particularly useful if you:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Store large amounts of data in &lt;b&gt;&lt;strong&gt;iCloud Drive or iCloud Photos&lt;/strong&gt;&lt;/b&gt;
-&lt;/li&gt;
-&lt;li&gt;Use &lt;b&gt;&lt;strong&gt;Optimize Mac Storage&lt;/strong&gt;&lt;/b&gt;, meaning your Mac does not hold full local copies&lt;/li&gt;
-&lt;li&gt;Want an &lt;b&gt;&lt;strong&gt;off-Apple backup copy&lt;/strong&gt;&lt;/b&gt; of your iCloud data&lt;/li&gt;
-&lt;li&gt;Need to back up iCloud data to a &lt;b&gt;&lt;strong&gt;NAS, external drive, or another cloud provider&lt;/strong&gt;&lt;/b&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Why You Need an iCloud Backup&lt;/h2&gt;
-
-&lt;p&gt;Sometimes Apple’s logic escapes me. Nowhere is that more obvious than in the opaque world of iCloud.&lt;/p&gt;
-
-&lt;p&gt;If you don’t have a method for keeping a &lt;b&gt;&lt;strong&gt;versioned backup of your iCloud documents and photos&lt;/strong&gt;&lt;/b&gt;, you should set one up sooner rather than later.&lt;/p&gt;
-
-&lt;p&gt;The simplest approach looks like this:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Use a Mac signed into iCloud.&lt;/li&gt;
-&lt;li&gt;Turn &lt;b&gt;&lt;strong&gt;off&lt;/strong&gt;&lt;/b&gt; “Optimize Mac Storage” for both &lt;b&gt;&lt;strong&gt;iCloud Drive&lt;/strong&gt;&lt;/b&gt; and &lt;b&gt;&lt;strong&gt;Photos&lt;/strong&gt;&lt;/b&gt;.&lt;/li&gt;
-&lt;li&gt;Allow all files to download locally.&lt;/li&gt;
-&lt;li&gt;Let &lt;b&gt;&lt;strong&gt;Time Machine&lt;/strong&gt;&lt;/b&gt; back up that Mac.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This works because Time Machine will keep historical versions of those files.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, that approach isn’t practical for everyone. If, like me, you pay for &lt;b&gt;&lt;strong&gt;2TB of iCloud storage&lt;/strong&gt;&lt;/b&gt; but your Mac has a much smaller internal drive that can’t be upgraded, downloading everything locally simply isn’t feasible.&lt;/p&gt;
-
-&lt;p&gt;Experienced Mac users already understand the core issue: &lt;b&gt;&lt;strong&gt;iCloud is a syncing service, not a backup.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;If you overwrite a file, the new version replaces the old one everywhere. If you delete a file, it disappears everywhere. If a file becomes corrupted, that corruption syncs too.&lt;/p&gt;
-
-&lt;p&gt;Even with Time Machine running, you still won’t have copies of many files if &lt;b&gt;&lt;strong&gt;Optimize Mac Storage&lt;/strong&gt;&lt;/b&gt; is enabled, because those files never existed locally on your Mac.&lt;/p&gt;
-
-&lt;p&gt;The core idea is simple: &lt;b&gt;&lt;strong&gt;get a second copy of your iCloud data somewhere Apple’s sync engine can’t touch it.&lt;/strong&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;One more thing - you can find multiple stories of people permanently losing access to their iCloud accounts through ID theft, malware and Apple’s own policies.&lt;/p&gt;
-
-&lt;h2&gt;BackiGo Features&lt;/h2&gt;
-
-&lt;p&gt;This is where BackiGo comes in. The app lets you create a copy of your iCloud data and store it in a variety of locations:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;External drives (USB or Thunderbolt)&lt;/li&gt;
-&lt;li&gt;Other cloud providers with versioned storage, such as &lt;b&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;&lt;/b&gt; or &lt;b&gt;&lt;strong&gt;Google Drive&lt;/strong&gt;&lt;/b&gt;
-&lt;/li&gt;
-&lt;li&gt;A NAS on your home network&lt;/li&gt;
-&lt;li&gt;A shared folder on another computer (including Windows machines)&lt;/li&gt;
-&lt;li&gt;An FTP server&lt;/li&gt;
-&lt;li&gt;WebDAV support is planned&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some of the features I’ve found useful:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Universal app&lt;/strong&gt;&lt;/b&gt; that runs on Mac, iPhone, and iPad&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Flexible photo organization&lt;/strong&gt;&lt;/b&gt;; mirror your Apple Photos structure or export into folders by device/year/month (for example &lt;code&gt;AmerpieMBA/2026/04&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Selective backups&lt;/strong&gt;&lt;/b&gt;; back up documents but skip photos, or back up only specific albums&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Multiple cloud destinations&lt;/strong&gt;&lt;/b&gt;, including Dropbox, Google Drive, OneDrive, pCloud, and Backblaze&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;Incremental and full backups&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Scheduled backups&lt;/strong&gt;&lt;/b&gt; based on time, frequency, and backup type&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Local Photos library support&lt;/strong&gt;&lt;/b&gt; for people who use Photos without iCloud&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;&lt;strong&gt;Live Photo and shared album support&lt;/strong&gt;&lt;/b&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Built-in photo viewer&lt;/strong&gt;&lt;/b&gt; to visually confirm what’s included in a backup&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Detailed reports&lt;/strong&gt;&lt;/b&gt; of backup and restore history, exportable as HTML or CSV&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Recent Updates&lt;/h2&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Added backup encryption(optional).&lt;/strong&gt;&lt;/b&gt; While iCloud’s Advanced Data Protection (ADP) already encrypts data on Apple’s side, the app now adds client-side encryption, meaning your data is encrypted before it’s written to the backup destination. This helps protect your data even if the storage drive is lost, a cloud service is compromised, or an account gets leaked.&lt;/p&gt;
-
-&lt;h4&gt;
-&lt;b&gt;&lt;strong&gt;Also added iCloud archive restore support&lt;/strong&gt;&lt;/b&gt;: Restore iCloud Contacts and iCloud Drive documents Search your iCloud documents and restore specific files&lt;br&gt;
-&lt;/h4&gt;
-
-&lt;h3&gt;Privacy Policy&lt;/h3&gt;
-
-&lt;p&gt;No data collected.&lt;/p&gt;
-
-&lt;h3&gt;Developer Website&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://backigo.app/"&gt;BackiGo – Complete iCloud Photo backup and restore solution for iOS and Mac&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Price&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Free trial (limited to 500 images)&lt;/li&gt;
-&lt;li&gt;$14.99 lifetime purchase&lt;/li&gt;
-&lt;li&gt;$6.99 annual subscription&lt;/li&gt;
-&lt;li&gt;$0.99 monthly subscription&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Available on the &lt;a href="https://apps.apple.com/us/app/backigo/id6746894565"&gt;Mac App Store&lt;/a&gt; with &lt;b&gt;&lt;strong&gt;Family Sharing&lt;/strong&gt;&lt;/b&gt; enabled.&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=BackiGo%20is%20a%20Dependable%20&amp;amp;%20Full%20Featured%20iCloud%20Backup%20Solution" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>
-
-
-
-If you rely on iCloud but don’t have a true backup of that data, BackiGo is one of the simplest ways to create one.
-
-BackiGo is an iCloud backup app I can recommend for anyone looking for an alternative to Parachute. Parachute is a well-known iCloud backup utility that was...</summary>
-    <category term="universal-apps" label="Universal Apps" scheme="https://appaddict.app/categories"/>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/15845</id>
-    <published>2026-03-30T19:06:39Z</published>
-    <updated>2026-03-30T19:07:59Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/doublememory-doing-great-after-a-year"/>
-    <title>DoubleMemory Doing Great After a Year</title>
-    <content type="html">&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;
-
-&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="DoubleMemory" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOHlMQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0fc05eaf09c15fe51b61f77821e44b4e6e6fdd9c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--daf4078a1aefa3c961be2c7b8fbe4a74a2641c0c/CleanShot%202026-03-30%20at%2015.01.18.jpg" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      DoubleMemory
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I’m always impressed when an out-of-the-box thinker builds an app unlike anything I’ve seen before. Iterating on proven concepts is fine, but after testing enough clipboard managers and voice-to-text apps, they all start to blur together. Give me something new, clever, &lt;b&gt;&lt;strong&gt;and&lt;/strong&gt;&lt;/b&gt; useful, and I’ll happily change my workflow to make room for it. a year ago, DoubleMemory caught my attention with its interesting feature set and it's done nothing but improve since then.&lt;/p&gt;
-
-&lt;h2&gt;&lt;a href="https://doublememory.com"&gt;DoubleMemory&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;I sometimes worry that one day my brain will run out of capacity for new hotkey combinations. When that happens, any app that relies on them will be off the table. DoubleMemory neatly sidesteps that problem by baking the instruction directly into its name.&lt;/p&gt;
-
-&lt;p&gt;Press &lt;b&gt;&lt;strong&gt;⌘C twice quickly&lt;/strong&gt;&lt;/b&gt;, and the app captures either the webpage you’re on or the text you’ve highlighted. It then drops that content into an aesthetically well-designed, searchable, Pinterest-like interface with some surprisingly useful capabilities.&lt;/p&gt;
-
-&lt;p&gt;There’s a setting that allows DoubleMemory to save &lt;i&gt;&lt;em&gt;everything&lt;/em&gt;&lt;/i&gt; you copy, but I’d advise against leaving that on all the time. It’s not a clipboard manager in the sense that &lt;b&gt;&lt;strong&gt;Raycast&lt;/strong&gt;&lt;/b&gt; or &lt;b&gt;&lt;strong&gt;PastePal&lt;/strong&gt;&lt;/b&gt; are. For example, it doesn’t capture images.&lt;/p&gt;
-
-&lt;p&gt;Where it shines is with URLs. Highlight the URL of any webpage you’re on and press &lt;b&gt;&lt;strong&gt;⌘C twice&lt;/strong&gt;&lt;/b&gt;. DoubleMemory downloads the page content and stores it locally, making it as much a &lt;b&gt;&lt;strong&gt;read-it-later tool&lt;/strong&gt;&lt;/b&gt; as a bookmark manager. In practice, it works well as either.&lt;/p&gt;
-
-&lt;p&gt;Saved content can sync via &lt;b&gt;&lt;strong&gt;iCloud&lt;/strong&gt;&lt;/b&gt;, which means your collection is accessible on your iPhone, iPad, and other Macs.&lt;/p&gt;
-
-&lt;p&gt;DoubleMemory also doubles as a lightweight notes tool. Highlight a passage of text anywhere, press &lt;b&gt;&lt;strong&gt;⌘C twice&lt;/strong&gt;&lt;/b&gt;, and it’s saved to your board. From there you can add your own commentary and organize the entry with tags. There’s even optional &lt;b&gt;&lt;strong&gt;AI-powered auto-tagging&lt;/strong&gt;&lt;/b&gt; if you want help categorizing things.&lt;/p&gt;
-
-&lt;p&gt;One detail I appreciate: &lt;b&gt;&lt;strong&gt;DoubleMemory doesn’t require an account&lt;/strong&gt;&lt;/b&gt;, and you don’t need to install a browser extension. If you routinely save URLs from different sources on a specific topic, you quickly end up with a clean, searchable database that works offline.&lt;/p&gt;
-
-&lt;p&gt;It’s also refreshingly lightweight. The app uses roughly &lt;b&gt;&lt;strong&gt;10 MB of RAM&lt;/strong&gt;&lt;/b&gt; during normal use. For automation fans, it supports &lt;b&gt;&lt;strong&gt;Apple Shortcuts&lt;/strong&gt;&lt;/b&gt;, the &lt;b&gt;&lt;strong&gt;macOS share sheet&lt;/strong&gt;&lt;/b&gt;, and &lt;b&gt;&lt;strong&gt;drag-and-drop to the Dock&lt;/strong&gt;&lt;/b&gt; (if you enable the Dock icon).&lt;/p&gt;
-
-&lt;h3&gt;Interesting Features&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Bookmark Imports&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;If you want to migrate an existing read-it-later list or bookmarks from another service (for example &lt;b&gt;&lt;strong&gt;Raindrop&lt;/strong&gt;&lt;/b&gt;), DoubleMemory includes solid import tools.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Active Roadmap&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;I’ve been following the project for about a year, and development has been steady. Planned features include &lt;b&gt;&lt;strong&gt;image and screenshot support&lt;/strong&gt;&lt;/b&gt; and &lt;b&gt;&lt;strong&gt;automated imports of saved searches&lt;/strong&gt;&lt;/b&gt;. Personally, I’d love to see it pull in my saved Reddit posts.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Approachable Developer&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The developer is easy to reach and actively engages with users. There’s a &lt;a href="https://discord.gg/6REDWJuRy4"&gt;Discord&lt;/a&gt;, a &lt;a href="https://doublememory.substack.com/"&gt;Substack&lt;/a&gt; newsletter, an active Reddit presence, and a well-maintained website with an up-to-date changelog.&lt;/li&gt;
-&lt;li&gt;
-&lt;b&gt;&lt;strong&gt;Freemium Model&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The free tier already allows unlimited saves, notes, bookmarks, and tags. The Pro plan mainly adds more than three saved searches and supports the developer. Future premium features are expected to focus on &lt;b&gt;&lt;strong&gt;advanced retrieval, AI-powered organization, and richer content consumption tools&lt;/strong&gt;&lt;/b&gt;. I have some 50% off subscription codes. Use the comment tool below if you want one.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;DoubleMemory has a lot going for it. It’s easy to understand, genuinely useful in daily workflows, and feature-rich without feeling bloated.&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=DoubleMemory%20Doing%20Great%20After%20a%20Year" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>
-
-I’m always impressed when an out-of-the-box thinker builds an app unlike anything I’ve seen before. Iterating on proven concepts is fine, but after testing enough clipboard managers and voice-to-text apps, they all start to blur together. Give me something new, clever, and useful, and I’ll happily change my workflow...</summary>
-    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
     <author>
       <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>

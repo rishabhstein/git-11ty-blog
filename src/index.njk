@@ -48,7 +48,7 @@ layout: 'base.njk'
       </div>
 
       <div class="writing-row-two">
-        {% for post in recentPosts | offset(1) | shuffle %}
+        {% for post in recentPosts | offset(1) %}
           {% if loop.index <= 3 %}
           <article class="writing-card">
             {% set postTag = post.data.tags[1] or post.data.tags[0] %}

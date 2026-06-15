@@ -66,6 +66,17 @@ module.exports = async function(eleventyConfig) {
       .replace(/'/g, "&#39;");
   }
 
+  function decodeHtmlEntities(value) {
+    return String(value || "")
+      .replace(/&#x([0-9a-fA-F]+);/gi, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+      .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+      .replace(/&quot;/g, '"')
+      .replace(/&apos;/g, "'")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&amp;/g, "&");
+  }
+
   function firstMatch(text, patterns) {
     const source = String(text || "");
     for (const pattern of patterns) {
@@ -247,15 +258,19 @@ module.exports = async function(eleventyConfig) {
 
   function extractWebmentionSourcePreview(html) {
     const text = String(html || "");
-    const title = firstMatch(text, [
+    const title = decodeHtmlEntities(firstMatch(text, [
       /<meta[^>]*property="og:title"[^>]*content="([^"]+)"/i,
+      /<meta[^>]*content="([^"]+)"[^>]*property="og:title"/i,
       /<meta[^>]*name="twitter:title"[^>]*content="([^"]+)"/i,
       /<title[^>]*>([\s\S]*?)<\/title>/i,
-    ]).replace(/\s+/g, " ").trim();
+    ]).replace(/\s+/g, " ").trim());
 
-    return {
-      title,
-    };
+    const siteName = decodeHtmlEntities(firstMatch(text, [
+      /<meta[^>]*property="og:site_name"[^>]*content="([^"]+)"/i,
+      /<meta[^>]*content="([^"]+)"[^>]*property="og:site_name"/i,
+    ]).replace(/\s+/g, " ").trim());
+
+    return { title, siteName };
   }
 
   async function fetchWebmentionPreview(sourceUrl) {
@@ -303,29 +318,35 @@ module.exports = async function(eleventyConfig) {
   }
 
   function buildWebmentionItemHtml(mention) {
-    const avatar = mention.authorPhoto
-      ? `<img class="webmention-avatar" src="${escapeHtml(mention.authorPhoto)}" alt="" loading="lazy">`
-      : `<span class="webmention-avatar webmention-avatar-fallback" aria-hidden="true">↳</span>`;
-    const sourceLink = mention.url
-      ? `<a href="${escapeHtml(mention.url)}" target="_blank" rel="noopener noreferrer">View source</a>`
+    const hostname = getHostname(mention.url);
+    const faviconUrl = hostname
+      ? `https://www.google.com/s2/favicons?domain=${encodeURIComponent(hostname)}&sz=32`
       : "";
-    const publishedLabel = formatWebmentionDate(mention.published);
-    const published = publishedLabel
-      ? `<p class="webmention-meta"><time datetime="${escapeHtml(mention.published)}">${escapeHtml(publishedLabel)}</time></p>`
-      : "";
-    const title = mention.title
-      ? `<p class="webmention-title">${escapeHtml(mention.title)}</p>`
+    const favicon = faviconUrl
+      ? `<img class="webmention-favicon" src="${escapeHtml(faviconUrl)}" alt="" loading="lazy" width="28" height="28">`
+      : `<span class="webmention-favicon webmention-favicon-fallback" aria-hidden="true"></span>`;
+
+    const displayName = decodeHtmlEntities(mention.siteName || mention.authorName || hostname || "Webmention");
+    const nameHtml = mention.url
+      ? `<a class="webmention-blog-name" href="${escapeHtml(mention.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(displayName)}</a>`
+      : `<span class="webmention-blog-name">${escapeHtml(displayName)}</span>`;
+
+    const rawText = decodeHtmlEntities((mention.contentText || mention.title || "").replace(/\s+/g, " ").trim());
+    const words = rawText ? rawText.split(" ").filter(Boolean) : [];
+    const excerptWords = words.slice(0, 10);
+    const hasMore = words.length > 10 && mention.url;
+    const excerptHtml = excerptWords.length
+      ? `<p class="webmention-excerpt">${escapeHtml(excerptWords.join(" "))}${hasMore ? `… <a href="${escapeHtml(mention.url)}" target="_blank" rel="noopener noreferrer">more</a>` : ""}</p>`
       : "";
 
     return `
-        <li class="webmention-item">
-          ${avatar}
+        <article class="webmention-item">
+          ${favicon}
           <div class="webmention-body">
-            ${published}
-            ${title}
-            ${sourceLink ? `<p class="webmention-source">${sourceLink}</p>` : ""}
+            ${nameHtml}
+            ${excerptHtml}
           </div>
-        </li>
+        </article>
       `.trim();
   }
 
@@ -361,12 +382,9 @@ module.exports = async function(eleventyConfig) {
     const itemsHtml = uniqueMentions.map(buildWebmentionItemHtml).join("\n");
 
     return `
-      <section class="webmentions" aria-labelledby="webmentions-title">
-        <h3 id="webmentions-title">Mentioned in</h3>
-        <ul class="webmentions-list">
-          ${itemsHtml}
-        </ul>
-      </section>
+      <div class="webmentions-list">
+        ${itemsHtml}
+      </div>
     `.trim();
   }
 
@@ -504,6 +522,21 @@ module.exports = async function(eleventyConfig) {
       const publicUrl = toWorkoutPublicUrl(svgFile);
       const tabId = `${workoutBaseName || "workout"}-${index}`;
 
+      let plotHtml;
+      if (fs.existsSync(svgFile)) {
+        // Inline SVG: strip background rect, tighten viewBox to remove chart padding
+        const inlineSvg = fs.readFileSync(svgFile, "utf8")
+          .replace(/<\?xml[^?]*\?>\s*/gi, "")
+          .replace(/<!--[\s\S]*?-->\s*/g, "")
+          .replace(/<rect[^>]*fill="#fbfbfb"[^>]*\/>\s*/gi, "")
+          .replace(/viewBox="0 0 640 180"/, 'viewBox="0 8 640 166"')
+          .replace(/(<svg\b)/, '$1 class="workout-plot-svg"')
+          .trim();
+        plotHtml = inlineSvg;
+      } else {
+        plotHtml = `<img class="workout-plot-image" src="${escapeHtml(publicUrl)}" alt="${escapeHtml(altLabel)}${workoutBaseName ? ` for ${escapeHtml(workoutBaseName)}` : ""}" loading="lazy">`;
+      }
+
       return `
       <div
         class="workout-plot-panel${index === 0 ? " is-active" : ""}"
@@ -519,12 +552,7 @@ module.exports = async function(eleventyConfig) {
             <strong class="workout-plot-title">${escapeHtml(title)}</strong>
             <a class="workout-plot-link" href="${escapeHtml(publicUrl)}">SVG</a>
           </figcaption>
-          <img
-            class="workout-plot-image"
-            src="${escapeHtml(publicUrl)}"
-            alt="${escapeHtml(altLabel)}${workoutBaseName ? ` for ${escapeHtml(workoutBaseName)}` : ""}"
-            loading="lazy"
-          >
+          ${plotHtml}
         </figure>
       </div>`.trim();
     }).join("\n");
@@ -972,6 +1000,7 @@ ${tabsMarkup}
           url: String(entry?.url || "").trim(),
           target: String(entry?.["mention-of"] || entry?.["in-reply-to"] || "").trim(),
           published: String(entry?.published || entry?.["wm-received"] || "").trim(),
+          contentText: String(entry?.content?.text || "").trim(),
           title: String(entry?.content?.text || entry?.content?.html || "").trim(),
         }))
         .filter(matchesTarget);
@@ -1064,19 +1093,19 @@ ${tabsMarkup}
       });
 
       return `
-<h3><a href="https://manuelmoreale.com/people-and-blogs">People and Blogs</a></h3>
+<h3><a href="https://manuelmoreale.com/people-and-blogs" target="_blank" rel="noopener noreferrer">People and Blogs</a></h3>
 <ul class="portal-list">
   ${posts.map((post) => `
   <li>
-    <a href="${post.postUrl}">${formatInterviewName(post.postTitle)}</a>
+    <a href="${post.postUrl}" target="_blank" rel="noopener noreferrer">${formatInterviewName(post.postTitle)}</a>
   </li>`).join("\n  ")}
 </ul>`.trim();
     } catch {
       return `
-<h3><a href="https://manuelmoreale.com/people-and-blogs">People and Blogs</a></h3>
+<h3><a href="https://manuelmoreale.com/people-and-blogs" target="_blank" rel="noopener noreferrer">People and Blogs</a></h3>
 <ul class="portal-list">
   <li>
-    <a href="https://manuelmoreale.com/feed/peopleandblogs">Latest interview</a>
+    <a href="https://manuelmoreale.com/feed/peopleandblogs" target="_blank" rel="noopener noreferrer">Latest interview</a>
   </li>
 </ul>`.trim();
     }
@@ -1093,19 +1122,19 @@ ${tabsMarkup}
       });
 
       return `
-<h3><a href="https://bearblog.dev/discover/">Bearblog Discovery</a></h3>
+<h3><a href="https://bearblog.dev/discover/" target="_blank" rel="noopener noreferrer">Bearblog Discovery</a></h3>
 <ul class="portal-list">
   ${posts.map((post) => `
   <li>
-    <a href="${post.postUrl}">${post.postTitle}</a>
+    <a href="${post.postUrl}" target="_blank" rel="noopener noreferrer">${post.postTitle}</a>
   </li>`).join("\n  ")}
 </ul>`.trim();
     } catch {
       return `
-<h3><a href="https://bearblog.dev/discover/">Bearblog Discovery</a></h3>
+<h3><a href="https://bearblog.dev/discover/" target="_blank" rel="noopener noreferrer">Bearblog Discovery</a></h3>
 <ul class="portal-list">
   <li>
-    <a href="https://bearblog.dev/discover/">Latest discovery posts</a>
+    <a href="https://bearblog.dev/discover/" target="_blank" rel="noopener noreferrer">Latest discovery posts</a>
   </li>
 </ul>`.trim();
     }

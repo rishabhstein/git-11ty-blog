@@ -12,13 +12,13 @@
 	<atom:link href="https://fyfluiddynamics.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://fyfluiddynamics.com</link>
 	<description>Celebrating the physics of all that flows</description>
-	<lastBuildDate>Mon, 13 Apr 2026 19:37:27 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 02 Jun 2026 19:32:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.9.4</generator>
+	<generator>https://wordpress.org/?v=7.0</generator>
 
 <image>
 	<url>https://fyfluiddynamics.com/wp-content/uploads/2019/11/FYFD_logo-150x150.png</url>
@@ -28,361 +28,370 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">169405895</site>	<item>
-		<title>&#8220;Spiralling Textures&#8221;</title>
-		<link>https://fyfluiddynamics.com/2026/05/spiralling-textures/</link>
-					<comments>https://fyfluiddynamics.com/2026/05/spiralling-textures/#respond</comments>
+		<title>NASA Testing Supersonic Rotors for Mars</title>
+		<link>https://fyfluiddynamics.com/2026/06/nasa-testing-supersonic-rotors-for-mars/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/nasa-testing-supersonic-rotors-for-mars/#respond</comments>
 		
 		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Fri, 08 May 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Art]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[elastocapillarity]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[fluids as art]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=28972</guid>
-
-					<description><![CDATA[Wet fur forms a spiral of spiky hairs in this image by photographer Ben Dalgleish. For thin and flexible fibers like hair, a little moisture lets them clump together, forming stiffer (but still flexible) shapes. The technical term for this water-meets-flexible-solid phenomenon is elastocapillarity, and it lets you do things like wind a wire with [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Wet fur forms a spiral of spiky hairs in this image by photographer Ben Dalgleish. For thin and flexible fibers like hair, a little moisture lets them clump together, forming stiffer (but still flexible) shapes. The technical term for this water-meets-flexible-solid phenomenon is <a href="/tagged/elastocapillarity/">elastocapillarity</a>, and it lets you do things like <a href="/2017/01/its-often-at-the-intersection-of-topics-that-we/">wind a wire with a bubble</a>. It also makes a big difference when washing hair, including <a href="/2018/01/i-imagine-that-the-most-common-questions/">in space</a>. (Image credit: <a href="https://www.bwpawards.org/2026-winners">B. Dalgleish/BWPA</a>; via <a href="https://www.thisiscolossal.com/2026/03/british-wildlife-photography-awards-contest-winners/?__readwiseLocation=">Colossal</a>)</p>
-
-
-
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="683" src="https://fyfluiddynamics.com/wp-content/uploads/spiralling_texture_main-1024x683.png" alt="&quot;Spiralling Textures&quot; by Ben Dalgleish" class="wp-image-28974" srcset="https://fyfluiddynamics.com/wp-content/uploads/spiralling_texture_main-1024x683.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/spiralling_texture_main-300x200.png 300w, https://fyfluiddynamics.com/wp-content/uploads/spiralling_texture_main-768x512.png 768w, https://fyfluiddynamics.com/wp-content/uploads/spiralling_texture_main-1536x1025.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/spiralling_texture_main-2048x1366.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/05/spiralling-textures/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">28972</post-id>	</item>
-		<item>
-		<title>Inside an Ear</title>
-		<link>https://fyfluiddynamics.com/2026/05/inside-an-ear/</link>
-					<comments>https://fyfluiddynamics.com/2026/05/inside-an-ear/#comments</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Thu, 07 May 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[acoustics]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[cilia]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[vibration]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29960</guid>
-
-					<description><![CDATA[Our ears, like those of many other animals, convert mechanical signals to electrical ones, through a Rube-Goldberg-esque series of transformations. External sound waves make their way down the soft tube of the ear canal, which funnels them to a thin-walled cone, the eardrum, that&#8217;s about half as large as a dime. Here, the vibrating air [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Our ears, like those of many other animals, convert mechanical signals to electrical ones, through a Rube-Goldberg-esque series of transformations. External sound waves make their way down the soft tube of the ear canal, which funnels them to a thin-walled cone, the eardrum, that&#8217;s about half as large as a dime. Here, the vibrating air pushes against the cone’s membrane, and those <a href="/tagged/vibration/">vibrations</a> travel onward through a linked <a href="https://en.wikipedia.org/wiki/Ossicles">trio of small bones</a> that amplify the vibration’s amplitude.</p>
-
-
-
-<p>The last of these bones presses against an even smaller, oval-shaped membrane. As the bone moves, it shakes the membrane, sending waves through the liquid on its other side. Those waves travel down the spirals of the tiny, pea-sized <a href="https://en.wikipedia.org/wiki/Cochlea">cochlea</a>, named for a snail shell&#8217;s shape. As the waves move through the liquid, they bend <a href="https://en.wikipedia.org/wiki/Hair_cell">bundles of hair-like strands</a> back and forth, like tall grass waving in a breeze. The bending triggers a chemical that binds to nerves at the base of the bundles, sending an electrical signal through the nerve and into the brain.</p>
-
-
-
-<p>But the hair-like bundles, known as stereocilia, are also able to amplify incoming vibrations. In this case, the bundles in the outer portion of the cochlea expend energy to bend more than the incoming vibrations naturally make them move. This bending amplifies the fluid motion that gets transmitted to stereocilia further down the line; it&#8217;s those bundles that will make the final conversion to an electrical signal the brain receives. (Image credit: <a href="https://irp.nih.gov/our-research/research-in-action/high-fidelity-stereocilia">B. Kachar</a>; research credit: <a href="https://doi.org/10.1103/6wcm-z333">Y. Thipmaungprom et al.</a>; via <a href="https://physics.aps.org/articles/v19/45">APS</a>)</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="1000" height="750" src="https://fyfluiddynamics.com/wp-content/uploads/audtrans-Stereocilia.png" alt="Scanning electron microscope view of the stereocilia &quot;hair bundles&quot; inside a frog's inner ear." class="wp-image-29961" srcset="https://fyfluiddynamics.com/wp-content/uploads/audtrans-Stereocilia.png 1000w, https://fyfluiddynamics.com/wp-content/uploads/audtrans-Stereocilia-300x225.png 300w, https://fyfluiddynamics.com/wp-content/uploads/audtrans-Stereocilia-768x576.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Scanning electron microscope view of the stereocilia &#8220;hair bundles&#8221; inside a frog&#8217;s inner ear.</figcaption></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/05/inside-an-ear/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">29960</post-id>	</item>
-		<item>
-		<title>Plucking Droplets</title>
-		<link>https://fyfluiddynamics.com/2026/05/plucking-droplets/</link>
-					<comments>https://fyfluiddynamics.com/2026/05/plucking-droplets/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Wed, 06 May 2026 15:00:00 +0000</pubDate>
+		<pubDate>Mon, 15 Jun 2026 15:00:00 +0000</pubDate>
 				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[2025gofm]]></category>
-		<category><![CDATA[droplets]]></category>
-		<category><![CDATA[flow visualization]]></category>
 		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[helicopter]]></category>
+		<category><![CDATA[Mars]]></category>
 		<category><![CDATA[physics]]></category>
+		<category><![CDATA[rotorcraft]]></category>
 		<category><![CDATA[science]]></category>
-		<category><![CDATA[surface tension]]></category>
-		<category><![CDATA[viscosity]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29985</guid>
+		<category><![CDATA[supersonic]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30574</guid>
 
-					<description><![CDATA[A sudden breeze can pluck droplets hanging from a stem. Here, researchers recreate that phenomenon in the laboratory. With a close-up view and high-speed images, we can enjoy every detail of the detachment and break-up. As the wire pulls away, it drags a liquid sheet off the droplet. The thicker rims on either side of [&#8230;]]]></description>
+					<description><![CDATA[NASA&#8217;s Ingenuity helicopter was the first aircraft humanity has flown on another planet, and engineers are looking to make the next generation of Martian helicopters bigger and more capable. That&#8217;s challenging in Mars&#8216; thin atmosphere, which is only 1% as dense as Earth&#8217;s. To get adequate lift, the rotors need to spin faster there. During [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/pluck_drops1-1024x576.png" title="Wind shakes a plant stem, causing droplets to stretch and get plucked away. Text reads, &quot;A sudden blast of wind stretches the droplets and plucks them from the stem&quot;" alt="Wind shakes a plant stem, causing droplets to stretch and get plucked away. Text reads, &quot;A sudden blast of wind stretches the droplets and plucks them from the stem&quot;" /></div></div>
+<p class="wp-block-paragraph">NASA&#8217;s <a href="/tagged/ingenuity/">Ingenuity helicopter</a> was the first aircraft humanity has flown on another planet, and engineers are looking to make the next generation of Martian helicopters bigger and more capable. That&#8217;s challenging in <a href="/tagged/mars/">Mars</a>&#8216; thin atmosphere, which is only 1% as dense as Earth&#8217;s. To get adequate lift, the rotors need to spin faster there.</p>
 
 
 
-<p>A sudden breeze can <a href="/2025/06/droplet-on-a-plucked-wire/">pluck droplets</a> hanging from a stem. Here, researchers recreate that phenomenon in the laboratory. With a close-up view and high-speed images, we can enjoy every detail of the detachment and break-up. As the wire pulls away, it drags a liquid sheet off the droplet. The thicker rims on either side of the sheet eventually collide, creating a jet that stretches, deforms, and, at last, breaks. (Video and image credit: <a href="https://gfm.aps.org/meetings/dfd-2025/692e39eaa7f805227b16ff37">D. Maity et al.</a>)</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="720" height="405" src="https://fyfluiddynamics.com/wp-content/uploads/pluck_drops_main.gif" alt="Animation of two droplets getting plucked, one made of glycerin+water (left) and one of water (right)." class="wp-image-29989"/><figcaption class="wp-element-caption">Animation of two droplets getting plucked, one made of glycerin+water (left) and one of water (right).</figcaption></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/05/plucking-droplets/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">29985</post-id>	</item>
-		<item>
-		<title>Fluids Can Fracture</title>
-		<link>https://fyfluiddynamics.com/2026/05/fluids-can-fracture/</link>
-					<comments>https://fyfluiddynamics.com/2026/05/fluids-can-fracture/#comments</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Tue, 05 May 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[fracture]]></category>
-		<category><![CDATA[newtonian fluids]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[solid mechanics]]></category>
-		<category><![CDATA[viscous flow]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29952</guid>
-
-					<description><![CDATA[Fracture is a sudden, brittle breaking-apart that we generally associate with solid materials that get stressed too far. Some viscoelastic, non-Newtonian fluids have been known to fracture, but that was generally thought to be unusual. But a recent study turns that idea on its head, revealing that even simple, albeit highly viscous, liquids can fracture. [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Fracture is a sudden, brittle breaking-apart that we generally associate with solid materials that get stressed too far. Some <a href="/tagged/viscoelasticity">viscoelastic</a>, <a href="/tagged/non-Newtonian-fluids/">non-Newtonian fluids</a> have been known to fracture, but that was generally thought to be unusual. But a <a href="https://doi.org/10.1103/t2vy-32wr">recent study</a> turns that idea on its head, revealing that even simple, albeit highly viscous, liquids can fracture.</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="720" height="405" src="https://fyfluiddynamics.com/wp-content/uploads/liquid_fracture1.gif" alt="A viscous hydrocarbon fluid gets stretched at 100 mm/s." class="wp-image-29955"/><figcaption class="wp-element-caption">A viscous hydrocarbon fluid gets stretched at 100 mm/s, drawing it into a thinning shape.</figcaption></figure>
-
-
-
-<p>When you stretch a liquid, the general expectation is what you see above: the liquid gets drawn into an ever thinner shape. But researchers found that&#8211;when stretched quickly&#8211;that same simple hydrocarbon liquid cracked open:</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="720" height="405" src="https://fyfluiddynamics.com/wp-content/uploads/liquid_fracture2.gif" alt="A viscous hydrocarbon fluid gets stretched at 300 mm/s, causing it to fracture like a solid." class="wp-image-29954"/><figcaption class="wp-element-caption">A viscous hydrocarbon fluid gets stretched at 300 mm/s, causing it to fracture like a solid.</figcaption></figure>
-
-
-
-<p>There&#8217;s even an audible snap, which you can hear in the video below. The results were so surprising that they repeated the experiment several times and with different viscous (but Newtonian) liquids. The results held. When the liquids were pulled to a critical stress, they audibly snapped and fractured like a solid.</p>
-
-
-
-<p>The next question, of course, is <em>why</em> this happens. The authors suspect (but have yet to show) that <a href="/tagged/cavitation">cavitation</a> may be at play in the initiation of the crack that separates the liquid in two. (Image, video, and research credit: <a href="https://doi.org/10.1103/t2vy-32wr">T. Lima et al.</a>; via <a href="https://gizmodo.com/liquids-crack-with-an-audible-snap-study-finds-2000740281?__readwiseLocation=">Gizmodo</a>)</p>
+<p class="wp-block-paragraph">During Ingenuity&#8217;s mission, the team intentionally designed the craft to keep the rotor tips below supersonic speeds. But for the next mission&#8211;SkyFall&#8211;they&#8217;re looking to push the rotorcraft further. In recent tests in a Mars simulator chamber, they successfully spun the new rotors to tip speeds as high as Mach 1.08, significantly increasing the loads SkyFall could carry. (Image and video credit: <a href="https://www.nasa.gov/solar-system/planets/mars/nasa-pushes-next-gen-mars-helicopter-rotor-blades-past-mach-1/">NASA/JPL-Caltech</a>; via <a href="https://arstechnica.com/space/2026/05/engineers-at-nasas-jet-propulsion-lab-make-a-breakthrough-in-rotor-technology/?__readwiseLocation=">Ars Technica</a>)</p>
 
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Scientists Discover Unexpected Fracturing Behavior in Liquids" width="500" height="281" src="https://www.youtube.com/embed/i5TQegTyCvc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe title="Testing the Next Generation of Mars Helicopter Rotor Blades" width="500" height="281" src="https://www.youtube.com/embed/aBJNtvAyt9g?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/05/fluids-can-fracture/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">29952</post-id>	</item>
-		<item>
-		<title>Meandering Along the Alabama River</title>
-		<link>https://fyfluiddynamics.com/2026/05/meandering-along-the-alabama-river/</link>
-					<comments>https://fyfluiddynamics.com/2026/05/meandering-along-the-alabama-river/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Mon, 04 May 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[astronaut]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[meander]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[river bend]]></category>
-		<category><![CDATA[rivers]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=22202</guid>
-
-					<description><![CDATA[Over time, rivers naturally curve and meander. As water accelerates around a river bend&#8217;s curve, it creates a secondary flow that carves sediment away from the outer bank and deposits it on the inner one. That, in turn, makes the river bend sharper until it eventually cuts part of the river off into an oxbow [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Over time, rivers naturally curve and meander. As water accelerates around a river bend&#8217;s curve, it creates <a href="/2014/05/when-unconstrained-by-the-local-topography-rivers/">a secondary flow</a> that carves sediment away from the outer bank and deposits it on the inner one. That, in turn, makes the river bend sharper until it eventually cuts part of the river off into an <a href="/tagged/oxbow-lake/">oxbow lake</a>. In this <a href="/tagged/astronaut/">astronaut</a> photo, we see the Alabama River flowing right-to-left. The river&#8217;s natural meander is constrained by the dam on the center left, which widens the river upstream. The higher water level upstream creates the feather-like floodplains lining the river.  (Image credit: NASA; via <a href="https://earthobservatory.nasa.gov/images/153384/bends-of-the-alabama-river">NASA Earth Observatory</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/05/meandering-along-the-alabama-river/feed/</wfw:commentRss>
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/nasa-testing-supersonic-rotors-for-mars/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">22202</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">30574</post-id>	</item>
 		<item>
-		<title>Aflutter in the Breeze</title>
-		<link>https://fyfluiddynamics.com/2026/05/aflutter-in-the-breeze/</link>
-					<comments>https://fyfluiddynamics.com/2026/05/aflutter-in-the-breeze/#respond</comments>
+		<title>&#8220;Stellar Iris&#8221;</title>
+		<link>https://fyfluiddynamics.com/2026/06/stellar-iris/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/stellar-iris/#respond</comments>
 		
 		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Fri, 01 May 2026 15:00:00 +0000</pubDate>
+		<pubDate>Fri, 12 Jun 2026 15:00:00 +0000</pubDate>
 				<category><![CDATA[Art]]></category>
-		<category><![CDATA[flapping]]></category>
+		<category><![CDATA[chemistry]]></category>
 		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[fluid-solid interaction]]></category>
 		<category><![CDATA[fluids as art]]></category>
-		<category><![CDATA[flutter]]></category>
+		<category><![CDATA[fractals]]></category>
 		<category><![CDATA[instability]]></category>
 		<category><![CDATA[physics]]></category>
 		<category><![CDATA[science]]></category>
-		<category><![CDATA[turbulence]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29543</guid>
+		<category><![CDATA[surface tension]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30865</guid>
 
-					<description><![CDATA[Fabrics flutter in seemingly impossible ways in artist Thomas Jackson&#8216;s images. But despite first appearances, each photograph is true to life; the fabrics are suspended on taut lines. Their dance is driven by wind energy, drag, tension, and flow&#8211;not manipulated pixels. I love the (turbulent) energy of them! (Image credit: T. Jackson; via Colossal)]]></description>
+					<description><![CDATA[Artist Thomas Blanchard likes to create wild visuals from a mixture of mundane ingredients like ink, soap, oils, and ferrofluids. In this latest video, he&#8217;s mixed chemical reactions and physical phenomena into something reminiscent of a god&#8217;s eye staring across time and space, creation and destruction. (Video and image credit: T. Blanchard)]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/jackson3-1024x769.png" title="Image by Thomas Jackson." alt="Image by Thomas Jackson." /></div></div>
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/stellar_iris1-1024x540.png" title="From &quot;Stellar Iris&quot; by Thomas Blanchard." alt="From &quot;Stellar Iris&quot; by Thomas Blanchard." /></div></div>
 
 
 
-<p>Fabrics flutter in seemingly impossible ways in artist <a href="https://thomasjacksonphotography.com/">Thomas Jackson</a>&#8216;s images. But despite first appearances, each photograph is true to life; the fabrics are suspended on taut lines. Their <a href="/2012/08/the-flapping-of-flexible-objects-like-flags-have/">dance</a> is driven by wind energy, drag, tension, and flow&#8211;not manipulated pixels. I love the (turbulent) energy of them! (Image credit: <a href="https://thomasjacksonphotography.com/">T. Jackson</a>; via <a href="https://www.thisiscolossal.com/2026/03/thomas-jackson-fabrics-landscapes-photographs/?__readwiseLocation=">Colossal</a>)</p>
+<p class="wp-block-paragraph">Artist Thomas Blanchard likes to create wild visuals from a mixture of mundane ingredients like ink, soap, oils, and <a href="/tagged/ferrofluid/">ferrofluids</a>. In this latest video, he&#8217;s mixed chemical reactions and physical phenomena into something reminiscent of a god&#8217;s eye staring across time and space, creation and destruction. (Video and image credit: <a href="https://thomas-blanchard.com">T. Blanchard</a>)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/05/aflutter-in-the-breeze/feed/</wfw:commentRss>
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/stellar-iris/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">29543</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">30865</post-id>	</item>
 		<item>
-		<title>Recreating Atmospheres</title>
-		<link>https://fyfluiddynamics.com/2026/04/recreating-atmospheres/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/recreating-atmospheres/#comments</comments>
+		<title>Cloudy Mornings and Clear Evenings</title>
+		<link>https://fyfluiddynamics.com/2026/06/cloudy-mornings-and-clear-evenings/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/cloudy-mornings-and-clear-evenings/#comments</comments>
 		
 		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Thu, 30 Apr 2026 15:00:00 +0000</pubDate>
+		<pubDate>Thu, 11 Jun 2026 15:00:00 +0000</pubDate>
 				<category><![CDATA[Research]]></category>
-		<category><![CDATA[atmospheric science]]></category>
-		<category><![CDATA[energy cascade]]></category>
-		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[astrophysics]]></category>
+		<category><![CDATA[cloud formation]]></category>
+		<category><![CDATA[exoplanets]]></category>
 		<category><![CDATA[fluid dynamics]]></category>
 		<category><![CDATA[physics]]></category>
 		<category><![CDATA[planetary science]]></category>
-		<category><![CDATA[rotating flow]]></category>
 		<category><![CDATA[science]]></category>
-		<category><![CDATA[turbulence]]></category>
-		<category><![CDATA[vorticity]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29751</guid>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30824</guid>
 
-					<description><![CDATA[In planetary atmospheres, energy and vorticity can cascade from large scales to smaller ones, but the mechanics of this transfer remain somewhat elusive. In a recent experiment, researchers built a lab-scale representation of an atmosphere using a meter-scale rotating annular tank. The outer bottom edge of the tank gets heated&#8211;representing the sun&#8217;s warming at the [&#8230;]]]></description>
+					<description><![CDATA[In the past few decades, our knowledge of exoplanets has exploded, but we&#8217;re still relatively limited in what we can learn about these worlds. That&#8217;s due, in large part, to the indirect way we observe them. Most exoplanets are found when we see them transit, passing between Earth and their star. During a transit, the [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p>In planetary atmospheres, energy and <a href="/tagged/vorticity/">vorticity</a> can cascade from large scales to smaller ones, but the mechanics of this transfer remain somewhat elusive. In a <a href="https://doi.org/10.1103/n2nj-dg5r">recent experiment</a>, researchers built a lab-scale representation of an atmosphere using a meter-scale rotating annular tank. The outer bottom edge of the tank gets heated&#8211;representing the sun&#8217;s warming at the equator&#8211;while a pipe in the center of the tank gets cooled near the tank surface, which mimics the chilling effect of the poles. Researchers filled the tank with a water-glycerol mixture and recorded how their artificial atmosphere responded at different rotation rates.</p>
+<p class="wp-block-paragraph">In the past few decades, our knowledge of <a href="/tagged/exoplanets/">exoplanets</a> has exploded, but we&#8217;re still relatively limited in what we can learn about these worlds. That&#8217;s due, in large part, to the indirect way we observe them. Most exoplanets are found when we see them transit, passing between Earth and their star. During a transit, the planet blocks a portion of the light we would otherwise detect from the star, letting us know that something&#8217;s there. We&#8217;re often able to measure the spectra of light passing through the exoplanet&#8217;s atmosphere, giving us a glimpse of chemical signatures.</p>
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="720" height="360" src="https://fyfluiddynamics.com/wp-content/uploads/geo_model_ani.gif" alt="Two different rotating atmospheres, colored by vorticity (red clockwise, blue counterclockwise). The left version has a slower rate of rotation, and thus larger length scales." class="wp-image-29754"/><figcaption class="wp-element-caption">Two different rotating atmospheres, colored by vorticity (red clockwise, blue counterclockwise). The left version has a slower rate of rotation, and thus larger length scales.</figcaption></figure>
+<p class="wp-block-paragraph"><a href="https://doi.org/10.1126/science.adx5903">Today&#8217;s study</a> looks at exoplanet WASP-94A b, a gas giant tidally-locked so that only one side ever faces its star. In its transit, researchers could clearly measure different spectra from the morning and evening sides of the planet. The asymmetry seems to indicate that the exoplanet develops thick clouds on the nightside, which then dissipate during the daytime. (Image credit: <a href="https://www.nature.com/articles/d41586-026-01608-3?utm_source=bluesky&amp;utm_medium=social&amp;utm_campaign=nature&amp;linkId=61995476&amp;__readwiseLocation=">H. Robbins/JHU</a>; research credit: <a href="https://doi.org/10.1126/science.adx5903">S. Mukherjee et al.</a>; via <a href="https://www.nature.com/articles/d41586-026-01608-3?utm_source=bluesky&amp;utm_medium=social&amp;utm_campaign=nature&amp;linkId=61995476&amp;__readwiseLocation=">Nature</a>)</p>
 
 
 
-<p>The results show an energy spectrum that&#8217;s consistent with atmospheric observations&#8211;with a steep drop at large length scales and a flatter one at smaller scales. But interestingly, they also found that the cascade was temperature-dependent in ways that current models don&#8217;t predict. Untangling that effect could help us understand not only our atmosphere but those of other planets. (Image credit: tank &#8211; H. Scolan, animation &#8211; <a href="https://doi.org/10.1103/n2nj-dg5r">S. Ding et al.</a>; research credit: <a href="https://doi.org/10.1103/n2nj-dg5r">S. Ding et al.</a>; via <a href="https://physics.aps.org/articles/v19/40?__readwiseLocation=">APS</a>)</p>
+<figure class="wp-block-image aligncenter size-large"><img fetchpriority="high" decoding="async" width="1024" height="637" src="https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-1024x637.jpg" alt="Artist's conception of an exoplanet with clouds forming on the nightside and dissipating on the dayside." class="wp-image-30826" srcset="https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-1024x637.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-300x187.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-768x478.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-1536x956.jpg 1536w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main.jpg 2034w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/recreating-atmospheres/feed/</wfw:commentRss>
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/cloudy-mornings-and-clear-evenings/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30824</post-id>	</item>
+		<item>
+		<title>Breaking a Dam to Save It</title>
+		<link>https://fyfluiddynamics.com/2026/06/breaking-a-dam-to-save-it/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/breaking-a-dam-to-save-it/#comments</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Wed, 10 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[civil engineering]]></category>
+		<category><![CDATA[civil infrastructure]]></category>
+		<category><![CDATA[dams]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[solid mechanics]]></category>
+		<category><![CDATA[stress]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30722</guid>
+
+					<description><![CDATA[The concrete that makes up so much of our world is usually local in origin. To keep costs low, engineers use locally-sourced ingredients to make it. But not all ingredients perform the same. In the decades since concrete&#8217;s widespread adoption, engineers have discovered that some components in the concrete are prone to chemical reactions that [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/damsaw1-1024x576.png" title="Concrete is a common material, but since it&#039;s usually made from local materials, it can vary from place to place." alt="Concrete is a common material, but since it&#039;s usually made from local materials, it can vary from place to place." /></div></div>
+
+
+
+<p class="wp-block-paragraph">The concrete that makes up so much of our world is usually local in origin. To keep costs low, engineers use locally-sourced ingredients to make it. But not all ingredients perform the same. </p>
+
+
+
+<p class="wp-block-paragraph">In the decades since concrete&#8217;s widespread adoption, engineers have discovered that some components in the concrete are prone to chemical reactions that cause the concrete to expand over time. For big infrastructure projects like a mid-twentieth century <a href="/tagged/dams/">dam</a>, this sparks a conundrum: how can we deal with expanding concrete without losing out on years of the project&#8217;s planned lifetime?</p>
+
+
+
+<p class="wp-block-paragraph">To find out, see what Grady learned about the Tennessee Valley Authority&#8217;s clever method for relieving a dam&#8217;s stress. (Video and image credit: Practical Engineering)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/breaking-a-dam-to-save-it/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30722</post-id>	</item>
+		<item>
+		<title>Buckling in Rings</title>
+		<link>https://fyfluiddynamics.com/2026/06/buckling-in-rings/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/buckling-in-rings/#comments</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Tue, 09 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[buckling]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[solid mechanics]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30595</guid>
+
+					<description><![CDATA[From oil drums to&#8211;yes&#8211;soda cans, liquid-filled cylindrical shells are everywhere. And, it turns out, these structures fail differently than empty shells or ones filled with a solid. Liquid-filled cylinders buckle in sequential rings, as seen in the video below. Researchers found that the buckling resulted from the shell softening and re-stiffening under the compressive load&#8211;repeating [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">From oil drums to&#8211;yes&#8211;soda cans, liquid-filled cylindrical shells are everywhere. And, it turns out, these structures <a href="https://doi.org/10.1038/s42005-026-02589-5">fail differently</a> than empty shells or ones filled with a solid. Liquid-filled cylinders buckle in sequential rings, as seen in the video below. Researchers found that the <a href="/tagged/buckling/">buckling</a> resulted from the shell softening and re-stiffening under the compressive load&#8211;repeating that process over and over for each ring. Their findings could help us detect containers that are in danger of failing. (Video, image, and research credit: <a href="https://doi.org/10.1038/s42005-026-02589-5">S. Jain et al.</a>; via <a href="https://arstechnica.com/science/2026/05/research-roundup-6-cool-science-stories-we-almost-missed-4/?__readwiseLocation=">Ars Technica</a>)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="392" height="720" src="https://fyfluiddynamics.com/wp-content/uploads/can_crush_main.gif" alt="Animation of a liquid-filled cylindrical shell buckling sequentially under compression." class="wp-image-30598"/><figcaption class="wp-element-caption">Animation of a liquid-filled cylindrical shell buckling sequentially under compression.</figcaption></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/buckling-in-rings/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">29751</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">30595</post-id>	</item>
 		<item>
-		<title>Bouncing on a Wave</title>
-		<link>https://fyfluiddynamics.com/2026/04/bouncing-on-a-wave/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/bouncing-on-a-wave/#comments</comments>
+		<title>Drying Out Microbe-Filled Droplets</title>
+		<link>https://fyfluiddynamics.com/2026/06/drying-out-microbe-filled-droplets/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/drying-out-microbe-filled-droplets/#respond</comments>
 		
 		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Wed, 29 Apr 2026 15:00:00 +0000</pubDate>
+		<pubDate>Mon, 08 Jun 2026 15:00:00 +0000</pubDate>
 				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[2025gofm]]></category>
-		<category><![CDATA[bouncing droplets]]></category>
-		<category><![CDATA[coalescence]]></category>
+		<category><![CDATA[2026gosm]]></category>
+		<category><![CDATA[aerosols]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[contact line]]></category>
 		<category><![CDATA[droplets]]></category>
+		<category><![CDATA[evaporation]]></category>
 		<category><![CDATA[flow visualization]]></category>
 		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[hydrodynamic quantum analogs]]></category>
 		<category><![CDATA[physics]]></category>
-		<category><![CDATA[pilot-wave hydrodynamics]]></category>
-		<category><![CDATA[quantum mechanics]]></category>
+		<category><![CDATA[pinning]]></category>
 		<category><![CDATA[science]]></category>
-		<category><![CDATA[vibration]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=29790</guid>
+		<category><![CDATA[sessile drop]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30332</guid>
 
-					<description><![CDATA[On a vibrating fluid, droplets can bounce and interact in complex ways. Here, researchers demonstrate some of the peculiar dynamics of these wave-guided droplets, showing how they can do things like pair up in waltzes. To keep the droplets from coalescing with one another, they perform their experiments in a pressurized chamber; the higher air [&#8230;]]]></description>
+					<description><![CDATA[Ocean sprays, coughs, and sneezes are just a few of the ways that droplets full of bacteria and salt can get aloft on a breeze. How do these bacteria stay viable even as their droplet evaporates? That&#8217;s the question behind this video&#8217;s research. When a bacteria-laden droplet or a salt-laden droplet dries, the evaporating droplet&#8217;s [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/wave_waltz1-1024x576.png" title="Droplets bouncing on a vibrating fluid surface. Text reads, &quot;This is a collection of walking droplets bouncing on the surface of a vertically vibrated fluid interface...&quot;" alt="Droplets bouncing on a vibrating fluid surface. Text reads, &quot;This is a collection of walking droplets bouncing on the surface of a vertically vibrated fluid interface...&quot;" /></div></div>
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/microbe_drying1-1024x576.png" title="Images of ocean spray and sneezing, showing how microbes can get aerosolized in particles. Text reads, &quot;Microbes often survive in aerosolized droplets of complex compositions, containing salts, polymers, and other solutes.&quot;" alt="Images of ocean spray and sneezing, showing how microbes can get aerosolized in particles. Text reads, &quot;Microbes often survive in aerosolized droplets of complex compositions, containing salts, polymers, and other solutes.&quot;" /></div></div>
 
 
 
-<p> On a <a href="/tagged/vibration">vibrating</a> fluid, <a href="/tagged/bouncing-droplets/">droplets can bounce</a> and interact in complex ways. Here, researchers demonstrate some of the peculiar dynamics of these wave-guided droplets, showing how they can do things like pair up in waltzes. To keep the droplets from <a href="/tagged/coalescence/">coalescing</a> with one another, they perform their experiments in a pressurized chamber; the higher air pressure makes it harder for the air film between droplets to drain during a collision, making the droplets unable to coalesce. Under these conditions, the authors show that the droplet-wave system has <a href="/tagged/hydrodynamic-quantum-analogs/">quantum-like statistics</a>. (Video and image credit: J. Clampett et al.)</p>
+<p class="wp-block-paragraph">Ocean sprays, coughs, and sneezes are just a few of the ways that droplets full of bacteria and salt can get <a href="/tagged/aerosols/">aloft on a breeze</a>. How do these bacteria stay viable even as their droplet <a href="/tagged/evaporation/">evaporates</a>? That&#8217;s the question behind this video&#8217;s research. </p>
+
+
+
+<p class="wp-block-paragraph">When a bacteria-laden droplet or a salt-laden droplet dries, the evaporating droplet&#8217;s contact area shrinks, leaving behind only a concentrated lump of bacteria or salt. But when droplets contain both salt and bacteria, the drying droplet&#8217;s <a href="/tagged/contact-line/">contact line</a> gets pinned, leaving a larger area stain. The bacteria&#8217;s presence seems to promote crystallization of the salt, which&#8211;in turn&#8211;traps water in isolated spaces, perhaps helping the bacteria stay viable longer. (Video and image credit: <a href="https://engage.aps.org/dsoft/gallery/gallery/mm26-gallery">R. Ran et al.</a>)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="720" height="405" src="https://fyfluiddynamics.com/wp-content/uploads/microbe_drying_main.gif" alt="" class="wp-image-30335"/><figcaption class="wp-element-caption">Animation of three droplets drying out. When all three components&#8211;water, salt, and bacteria&#8211;are in a droplet, the drying process looks very different.</figcaption></figure>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/bouncing-on-a-wave/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/drying-out-microbe-filled-droplets/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">29790</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">30332</post-id>	</item>
 		<item>
-		<title>&#8220;Sidewall Symphony&#8221;</title>
-		<link>https://fyfluiddynamics.com/2026/04/sidewall-symphony/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/sidewall-symphony/#respond</comments>
+		<title>Soaring Over Icelandic Lava Fields</title>
+		<link>https://fyfluiddynamics.com/2026/06/soaring-over-icelandic-lava-fields/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/soaring-over-icelandic-lava-fields/#respond</comments>
 		
 		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Tue, 28 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[2025gofm]]></category>
+		<pubDate>Fri, 05 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Art]]></category>
 		<category><![CDATA[flow visualization]]></category>
 		<category><![CDATA[fluid dynamics]]></category>
 		<category><![CDATA[fluids as art]]></category>
+		<category><![CDATA[lava]]></category>
 		<category><![CDATA[physics]]></category>
 		<category><![CDATA[science]]></category>
-		<category><![CDATA[turbulence]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=28631</guid>
+		<category><![CDATA[volcano]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=27037</guid>
 
-					<description><![CDATA[Flow visualization is both an art and science in fluid dynamics. Here, researchers were interested in studying the separation bubble that forms over a backward-facing ramp&#8211;a shape that shows up, for example, on an aircraft. In these areas, the flow over the surface separates, leaving an unsteady, recirculating bubble. That&#8217;s the flow that researchers are [&#8230;]]]></description>
+					<description><![CDATA[We&#8217;re terribly spoiled these days when it comes to footage of lava and volcanic eruptions. Back when I started FYFD, I could find very few decent photos of lava flows to illustrate posts. And now, thanks to drone cameras, we have a glut of absolutely gorgeous footage of flowing lava. This particular example comes from [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p><a href="/tagged/flow-visualization/">Flow visualization</a> is both an art and science in fluid dynamics. Here, researchers were interested in studying the <a href="/tagged/flow-separation/">separation bubble</a> that forms over a backward-facing ramp&#8211;a shape that shows up, for example, on an aircraft. In these areas, the flow over the surface separates, leaving an unsteady, recirculating bubble. </p>
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/waider_volcano1-1024x576.png" title="Image by Jan Erik Waider." alt="Image by Jan Erik Waider." /></div></div>
 
 
 
-<p>That&#8217;s the flow that researchers are visualizing here. They&#8217;ve done so by adding tiny helium-filled soap bubbles to the flow. With bright lights illuminating the bubbles, each one leaves a streak in a photograph, showing where the bubble moved during the time the camera&#8217;s shutter was open. Although images like these are beautiful, they can also be analyzed by computers to extract  the underlying flow that created the image. (Image and research credit: <a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/threedimensional-lowfrequency-dynamics-of-a-turbulent-separation-bubble/4ABB5AA0338669640C5374D52E0BA58E#article">B. Steinfurth et al.</a>; see also <a href="https://gfm.aps.org/meetings/dfd-2025/692e39e3a7f805227b16fe68">here</a>)</p>
+<p class="wp-block-paragraph">We&#8217;re terribly spoiled these days when it comes to footage of <a href="/tagged/lava/">lava</a> and <a href="/tagged/volcano/">volcanic eruptions</a>. Back when I started FYFD, I could find very few decent photos of lava flows to illustrate posts. And now, thanks to drone cameras, we have a glut of absolutely gorgeous footage of flowing lava. This particular example comes from photographer <a href="https://northlandscapes.com">Jan Erik Waider</a>, who specializes in the ice, fire, and flows of northern landscapes. </p>
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="723" src="https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-1024x723.png" alt="A research poster showing streaks left by hydrogen bubbles in the flow over a backward-facing ramp." class="wp-image-28633" srcset="https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-1024x723.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-300x212.png 300w, https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-768x542.png 768w, https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main-1536x1085.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/sidewall_symphony_main.png 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+<p class="wp-block-paragraph">Waider&#8217;s lens offers us a detailed, almost abstract view  of these rivers of lava. I especially enjoy his shots looking directly down on lava. Watching the cooled rock rafting along on the lava is like seeing a fiery version of sea ice floes. (Video and image credit: <a href="https://www.northlandscapes.com/">J. Waider</a>; via <a href="https://laughingsquid.com/iceland-4k-drone-footage/?__readwiseLocation=">Laughing Squid</a>)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/sidewall-symphony/feed/</wfw:commentRss>
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/soaring-over-icelandic-lava-fields/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">28631</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">27037</post-id>	</item>
 		<item>
-		<title>A Colorful Glimpse</title>
-		<link>https://fyfluiddynamics.com/2026/04/a-colorful-glimpse/</link>
-					<comments>https://fyfluiddynamics.com/2026/04/a-colorful-glimpse/#respond</comments>
+		<title>Regelation Lets Glaciers Flow</title>
+		<link>https://fyfluiddynamics.com/2026/06/regelation-lets-glaciers-flow/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/regelation-lets-glaciers-flow/#respond</comments>
 		
 		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Mon, 27 Apr 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[flow visualization]]></category>
+		<pubDate>Thu, 04 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
 		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[geophysics]]></category>
+		<category><![CDATA[glacier]]></category>
+		<category><![CDATA[ice]]></category>
+		<category><![CDATA[melting]]></category>
 		<category><![CDATA[physics]]></category>
-		<category><![CDATA[phytoplankton]]></category>
-		<category><![CDATA[satellite image]]></category>
+		<category><![CDATA[regelation]]></category>
 		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=21901</guid>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30552</guid>
 
-					<description><![CDATA[Peeking between the clouds, satellites caught a glimpse of a massive phytoplankton bloom off the coast of Greenland in May 2024. The tiny organisms may be visible only under a microscope, but gatherings like these stretch hundreds of kilometers and are visible from space. Like tracer particles in a flow, the phytoplankton outline the swirls [&#8230;]]]></description>
+					<description><![CDATA[Under the cold temperatures and immense pressures of a glacier, ice does not always behave in ways we&#8217;d expect. For example, cutting through ice using the pressure of a weighted wire does not break an ice block in two; as the wire passes through the ice, the melted water refreezes in its wake, leaving an [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p>Peeking between the clouds, satellites caught a glimpse of a massive <a href="/tagged/phytoplankton/">phytoplankton</a> bloom off the coast of Greenland in May 2024. The tiny organisms may be visible only under a microscope, but gatherings like these stretch hundreds of kilometers and are visible from space. Like <a href="/tagged/flow-visualization/">tracer particles in a flow</a>, the phytoplankton outline the swirls and eddies of the underlying ocean. (Image credit: L. Dauphin; via <a href="https://earthobservatory.nasa.gov/images/152953/peek-a-bloom-in-the-north-atlantic">NASA Earth Observatory</a>)</p>
+<p class="wp-block-paragraph">Under the cold temperatures and immense pressures of a <a href="/tagged/glacier">glacier</a>, ice does not always behave in ways we&#8217;d expect. For example, cutting through ice using the pressure of a weighted wire does not break an ice block in two; as the wire passes through the ice, the melted water refreezes in its wake, leaving an intact block. Known as regelation, this process is one way that glaciers flow past obstacles in their path.</p>
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="682" src="https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-1024x682.png" alt="A satellite image reveals the blue and green swirls of a phytoplankton bloom." class="wp-image-21903" srcset="https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-1024x682.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-300x200.png 300w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-768x512.png 768w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-1536x1024.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-270x180.png 270w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main-710x473.png 710w, https://fyfluiddynamics.com/wp-content/uploads/greenlandbloom_amo_20240616_lrg_main.png 2000w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">A satellite image reveals the blue and green swirls of a phytoplankton bloom.</figcaption></figure>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Cutting through Ice to Understand the Behavior of Glaciers" width="500" height="281" src="https://www.youtube.com/embed/EHRJxeGvTLs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p class="wp-block-paragraph">Although many experiments demonstrate regelation for ice with temperatures near freezing, the process occurs in colder ice, too. <a href="https://doi.org/10.1098/rspa.2024.0032">A new study</a> combines data across a wide range of temperatures with a new physical model of regelation to show how the process changes with temperature. It seems that relatively small temperature changes drastically affect how much meltwater forms around the wire and how slowly the ice refreezes. (Image credit: <a href="https://unsplash.com/photos/aerial-photography-of-mountain-and-river-uOi3lg8fGl4">S. Ferrara</a>; video credit: SciTube; research credit: <a href="https://doi.org/10.1098/rspa.2024.0032">C. Meyer et al.</a>)</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/04/a-colorful-glimpse/feed/</wfw:commentRss>
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/regelation-lets-glaciers-flow/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">21901</post-id>	</item>
+		<post-id xmlns="com-wordpress:feed-additions:1">30552</post-id>	</item>
+		<item>
+		<title>Infrasound Fire Suppression Goes Commercial</title>
+		<link>https://fyfluiddynamics.com/2026/06/infrasound-fire-suppression-goes-commercial/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/infrasound-fire-suppression-goes-commercial/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Wed, 03 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[acoustics]]></category>
+		<category><![CDATA[civil infrastructure]]></category>
+		<category><![CDATA[combustion]]></category>
+		<category><![CDATA[fire]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[infrasound]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[sound waves]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30547</guid>
+
+					<description><![CDATA[Sprinklers have long been the go-to fire protection for commercial properties and some residences. Dousing a fire in water not only puts out the flames but cools the surroundings and helps prevent reignition. But it requires complicated infrastructure and can damage buildings and their contents. Back in 2015, students were experimenting with an alternative fire [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Sprinklers have long been the go-to fire protection for commercial properties and some residences. Dousing a fire in water not only puts out the flames but cools the surroundings and helps prevent reignition. But it requires complicated infrastructure and can damage buildings and their contents. Back in 2015, students were experimenting with an <a href="/2015/05/engineering-students-from-george-mason-university/">alternative fire extinguisher that used sound</a> below the range of human hearing; now a company is pitching a version of that technology for replacing sprinklers.</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://arstechnica.com/gadgets/2026/05/startup-says-sound-waves-can-replace-fire-sprinklers-experts-arent-so-sure/?__readwiseLocation=">As described by Ars Technica</a>, this infrasound system can detect and put out a small kitchen fire in under a minute. But fire fighting experts warn that there&#8217;s a big difference between a fire small enough for a fire extinguisher to handle and the kinds of fires sprinklers put out. With lives at stake, the burden of proof is significant for Sonic Fire Tech and any other company that wants to get their infrasound &#8220;sprinkler&#8221; system cleared for use in buildings. (Image credit: I. Azevedo; via <a href="https://arstechnica.com/gadgets/2026/05/startup-says-sound-waves-can-replace-fire-sprinklers-experts-arent-so-sure/?__readwiseLocation=">Ars Technica</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/infrasound-fire-suppression-goes-commercial/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30547</post-id>	</item>
+		<item>
+		<title>On Dolphin Turbulence</title>
+		<link>https://fyfluiddynamics.com/2026/06/on-dolphin-turbulence/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/on-dolphin-turbulence/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Tue, 02 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[CFD]]></category>
+		<category><![CDATA[computational fluid dynamics]]></category>
+		<category><![CDATA[dolphins]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[numerical simulation]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[propulsion]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[swimming]]></category>
+		<category><![CDATA[turbulence]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30589</guid>
+
+					<description><![CDATA[Dolphins are such fast and agile swimmers that, naturally, scientists have long wanted to understand how they swim so well. A recent study draws on numerical simulation to analyze the flow a dolphin creates when flapping its tail. The resulting flow is highly turbulent&#8211;researchers were only able to simulate up to a fraction of a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><a href="/tagged/dolphins/">Dolphins</a> are such fast and agile swimmers that, naturally, scientists have long wanted to understand how they swim so well. A <a href="https://doi.org/10.1103/tnxb-ckr5">recent study</a> draws on <a href="/tagged/numerical-simulation/">numerical simulation</a> to analyze the flow a dolphin creates when flapping its tail.</p>
+
+
+
+<p class="wp-block-paragraph">The resulting flow is highly <a href="/tagged/turbulence">turbulent</a>&#8211;researchers were only able to simulate up to a fraction of a dolphin&#8217;s actual <a href="/tagged/Reynolds-number/">Reynolds number</a>&#8211;with both large-scale vortices and a cascade of smaller ones. The largest vortices, shown here in white, form on the upper and lower surface of the dolphin&#8217;s tail, then slide off the tail in a vortex ring. It&#8217;s these vortex rings, the researchers found, that provide the bulk of a dolphin&#8217;s thrust. </p>
+
+
+
+<p class="wp-block-paragraph">The smaller-scale vortices, in contrast, get formed by the large vortices, and they make little to no contribution to the dolphin&#8217;s propulsion. Interestingly, these results suggest that we might be able to describe the propulsion of dolphins and other highly turbulent swimmers by focusing only on the largest scales in the flow. (Video, image, and research credit: <a href="https://doi.org/10.1103/tnxb-ckr5">Y. Motoori et al.</a>; via <a href="https://arstechnica.com/science/2026/05/research-roundup-6-cool-science-stories-we-almost-missed-4/?__readwiseLocation=">Ars Technica</a>)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="720" height="405" src="https://fyfluiddynamics.com/wp-content/uploads/dolphin_sim_main_ani.gif" alt="Animation of the simulated flow from a swimming dolphin." class="wp-image-30591"/><figcaption class="wp-element-caption">Animation of the simulated flow from a swimming dolphin.</figcaption></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/on-dolphin-turbulence/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30589</post-id>	</item>
 	</channel>
 </rss>

@@ -9,6 +9,8 @@ permalink: "/movies/{{ archiveYear }}/"
 eleventyExcludeFromCollections: true
 ---
 
+<h4>{{ title }}</h4>
+
 <div data-pagefind-ignore>
   <p>
     Years:
@@ -17,7 +19,7 @@ eleventyExcludeFromCollections: true
     {% endfor %}
   </p>
 
-  <h4>{{ title }}: {{ archiveYear }}</h4>
+  <h4>{{ archiveYear }}</h4>
   <section class="book-section-grid">
     {% for movie in collections.movieArchive | itemsForYear(archiveYear) %}
       <div class="book-entry-grid">
