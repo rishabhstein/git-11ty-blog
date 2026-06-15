@@ -7,13 +7,13 @@ layout: base.njk
 {% set weeksPerDecade = 10 * lifeline.weeksInYear %}
 {% set totalDecades = (totalWeeks / weeksPerDecade) | round(0, 'ceil') %}
 
-<h1>{{ title }}</h1>
-Each box represents a week with color indicating:
-<div class="legend">
-  <span class="week lived legend-box"></span> Lived weeks <br>
-  <span class="week legend-box"></span> Future weeks <br>
+<h4>{{ title }}</h4>
+<p>Each box represents a week with color indicating:</p>
+<p class="legend">
+  <span class="week lived legend-box"></span> Lived weeks &nbsp;
+  <span class="week legend-box"></span> Future weeks &nbsp;
   <span class="week lived milestone legend-box legend-milestone"></span> Milestones
-</div>
+</p>
 
 <br>
 
@@ -55,6 +55,10 @@ Each box represents a week with color indicating:
 
 
 <style>
+
+.legend {
+  font-size: 14px;
+}
 
 .legend span {
   margin-right: 12px;
@@ -172,10 +176,27 @@ document.addEventListener("DOMContentLoaded", function() {
       const label = week.getAttribute("data-label");
       const date = week.getAttribute("data-date");
       popup.textContent = `${date}\n${label}`;
-      const rect = week.getBoundingClientRect();
-      popup.style.top = rect.top + window.scrollY - popup.offsetHeight - 5 + "px";
-      popup.style.left = rect.left + window.scrollX + "px";
       popup.style.display = "block";
+
+      const rect = week.getBoundingClientRect();
+      const popupW = popup.offsetWidth;
+      const popupH = popup.offsetHeight;
+      const margin = 8;
+
+      let top = rect.top + window.scrollY - popupH - 5;
+      let left = rect.left + window.scrollX;
+
+      // clamp horizontally within viewport
+      const vLeft = window.scrollX + margin;
+      const vRight = window.scrollX + window.innerWidth - margin;
+      if (left + popupW > vRight) left = vRight - popupW;
+      if (left < vLeft) left = vLeft;
+
+      // if not enough room above, show below the cell
+      if (top < window.scrollY + margin) top = rect.bottom + window.scrollY + 5;
+
+      popup.style.top = top + "px";
+      popup.style.left = left + "px";
     });
   });
 
