@@ -58,3 +58,13 @@ One trick to recognize AI slop is to spot the struggle of AI models in simulatin
 > 7. Are you hopeful for a better future with A.I. or a dystopian one?
 
 It's clear that this tech is not going anywhere. So I do hope that after norms and regulations are made we will see a shift in its use case. There are more crucial problems of privacy and surveillance by the government itself, but I do hope that it will still be in favor of the state, and not of any corporation.
+
+--
+I have no idea how many people wrote about this challenge. But those I find are here:
+
+1. [Cesar Agguire](https://canro91.github.io/2026/05/30/AIBlogChallenge/)
+2. [Manu Moreale](https://manuelmoreale.com/thoughts/ai-blog-question-challenge)
+3. [Ava](https://blog.avas.space/ai-question-challenge/)
+4. [Haewyr](https://haewyr.mataroa.blog/blog/ai-blog-questions-challenge/)
+5. [Kev Quirk](https://kevquirk.com/ai-blog-questions-challenge)
+6. [Thomas Rigbi](https://thomasrigby.com/posts/ai-blog-question-challenge/)
