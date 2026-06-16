@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-06-15T21:59:56.664164+00:00</updated>
+  <updated>2026-06-16T06:51:21.271873+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -10,6 +10,36 @@
   <link href="https://bearblog.dev/discover/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle>Trending posts on Bear Blog</subtitle>
+  <entry>
+    <id>https://lwgrs.bearblog.dev/re-bloggers-can-we-make-better-titles-for-our-posts/</id>
+    <title>re: Bloggers, can we make better titles for our posts?</title>
+    <updated>2026-06-15T18:35:00+00:00</updated>
+    <author>
+      <name>lwgrs</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Original post: &lt;a href='https://michaelharley.net/posts/2026/06/15/bloggers-can-we-make-better-titles-for-our-posts/'&gt;Bloggers, can we make better titles for our posts? | Michael Harley&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Overall I agree with Michael's premise: blogs need better titles. I agree; I think I browse &lt;a href='https://bubbles.town'&gt;Bubbles&lt;/a&gt; and Bear's &lt;a href='https://bearblog.dev/discovery'&gt;discovery page&lt;/a&gt; in much the same way. You can't read everything, and titles are a good shorthand way to guess if it's something you'd be into&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Where I disagree:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I think this one might be a bit unpopular but I do not like the round-up posts. You know the ones. They're titled &lt;em&gt;Week Notes&lt;/em&gt;, &lt;em&gt;Week in Review&lt;/em&gt;, &lt;em&gt;Weekly Links&lt;/em&gt; and the like. When I'm cruising Bubbles, I do not click weekly notes from randos. For bloggers I know and have followed, I do often scan them.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This one probably is less &lt;em&gt;write better titles&lt;/em&gt; and is more &lt;em&gt;write better posts&lt;/em&gt;. I think many people use these posts as a writing tool to exercise their writing muscles. I'd suggest a better tool is the age-old favorite of writing blog posts about blogging, like I'm doing here.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;People like doing weekly recaps and link round-ups, and that's not a problem. They're usually very identifiable and easy to skip if you don't want to read them. Michael, I think you're right on the nose about that being an unpopular opinion. Your second paragraph is also assigning judgment on what makes a "good" or "bad" blog post. We (collective "we", as in a blogging community) don't need to discourage people from writing if that's what they want to write.&lt;/p&gt;
+&lt;p&gt;In addition, I &lt;em&gt;will&lt;/em&gt; sometimes click through on random week notes from people I don't know; sometimes that's a good way to get a quick summary of who the person is. Secondly, it brings me to their blog, where—if I find their post interesting enough to skim through—I will find other things they've written and decide if I want to add their feed to my RSS reader.&lt;/p&gt;
+&lt;p&gt;Anyway. I'm procrastinating from work; earlier this afternoon I &lt;a href='https://ottawa.place/@srgower/116755226913887132'&gt;lamented that I have a lot of thoughts but couldn't put anything to paper&lt;/a&gt;. I was supposed to tackle my to-do list but I opened Bubbles and started reading. Woops!&lt;/p&gt;
+&lt;h6 id=a-hrefhttpsletterbirdcosrgreply-by-emaila-nbsp-a-hrefhttpswwwaddtoanycomshareurl-post_link-title-post_title-target_blankshare-this-postanbsp-a-hrefhttpsottawaplacesrgowermastodonanbsp-a-hrefhttpsbskyappprofilesrgowercomblueskya&gt;&lt;a href="https://letterbird.co/srg"&gt;Reply by email&lt;/a&gt; &amp;nbsp; &lt;a href="https://www.addtoany.com/share#url=https://lwgrs.bearblog.dev/re-bloggers-can-we-make-better-titles-for-our-posts&amp;title=re: Bloggers, can we make better titles for our posts?" target="_blank"&gt;Share this post&lt;/a&gt;&amp;nbsp; &lt;a href='https://ottawa.place/@srgower/'&gt;Mastodon&lt;/a&gt;&amp;nbsp; &lt;a href='https://bsky.app/profile/srgower.com'&gt;Bluesky&lt;/a&gt;&lt;/h6&gt;&lt;hr /&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;The good thing about Bubbles is that if you click through the Bubbles listing, you at least get the first few sentences of the post.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://lwgrs.bearblog.dev/re-bloggers-can-we-make-better-titles-for-our-posts/" rel="alternate"/>
+    <published>2026-06-15T18:35:00+00:00</published>
+  </entry>
   <entry>
     <id>https://pompomette.bearblog.dev/we-should-be-having-parades-about-the-fact-that-clean-water-comes-out-of-the-sink/</id>
     <title>we should be having parades about the fact that clean water comes out of the sink</title>
@@ -64,6 +94,27 @@ If you don’t, are you unsure how to learn?&lt;/p&gt;
     <published>2026-06-14T13:34:00+00:00</published>
   </entry>
   <entry>
+    <id>https://mrmarket.lol/zen-and-the-art-of-being-a-mid-skater/</id>
+    <title>Zen and the art of being a mid skater</title>
+    <updated>2026-06-14T13:58:00+00:00</updated>
+    <author>
+      <name>mrmarket</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I work in tech, the industry of optimization, monetization, efficiency, and frictionlessness. I’m generally opposed to what it 'stands for', but I love the work and I appreciate the money.&lt;/p&gt;
+&lt;p&gt;My job makes being a mid skater and writing/reading poems a hallowed act. What I love about skating and poems is that they are commercially dead-on-arrival (skateboarding can be lucrative but not if ur mid.) When you do something that cannot easily be converted into money, you're free. You're cast out into the uselessness and beauty of personal meaning and play.&lt;/p&gt;
+&lt;p&gt;I am not a ‘bad’ skater. I can do a heelflip and ollie a ten-stair. But I’m certainly not in a position to ever profit from it in any way. I’m scared to kickflip gaps or do anything but a 50/50 on a rail, despite having been at this since I was very young (though I am one of those people who, in high school, when asked, would say I’d only started a year ago to attempt to conceal my mid-ness.) I definitely still get that flash of dread before dropping in.&lt;/p&gt;
+&lt;p&gt;As for writing poems, there just isn't a real market. I am grateful for this every single day. It is good to perform for an empty arena. It reminds you who you are: another bozo on the bus, among the millions of others, all of us preoccupied worrying someone’s gonna notice the coffee stain on our shirt.&lt;/p&gt;
+&lt;p&gt;Skateboarding is about a strictly interior glory: you throw yourself against the indifferent pavement of your own hesitation and fear again and again to impress upon yourself that you are more unpredictable, daring, and childishly hopeful than you thought you were.&lt;/p&gt;
+&lt;p&gt;My wife is pregnant and we’re having a son. I hope to teach him to skate, but if he doesn’t like it, I’ll encourage him to fish, or do ballet, or build gleaming, architecturally defiant LEGO structures. Something he can practice for hours alone in his room or a garage or floating on the placid surface of a lake at dawn, surrounded by nothing but his own imagination.&lt;/p&gt;
+&lt;p&gt;If we have more kids, I’ll try to teach my daughter or my next son how to skate. And if they bounce off that we’ll both go hunting for some other source of inspiration that no one can take from them (middle school bullies will try but fuck em).&lt;/p&gt;
+&lt;p&gt;I like to skate in the very early mornings in my driveway or sometimes, when it’s snowing or raining, in my basement. I like to write poems three coffees deep, sweating in the boundless loneliness of 4am. I like to write and then stop and look out at the street in front of my house, vacant as an ocean, before its subsumed by the uncomprehending business of commuters.&lt;/p&gt;
+&lt;p&gt;All of this is for nothing and no one. But it keeps me more of what I like about myself and less of what I don’t.&lt;/p&gt;
+</content>
+    <link href="https://mrmarket.lol/zen-and-the-art-of-being-a-mid-skater/" rel="alternate"/>
+    <published>2026-06-14T13:58:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://blog.spu.io/buying-coffee-has-become-controversial-ok-you-can-now-buy-me-coffee/</id>
     <title>Buying Coffee Has Become Controversial? OK, You Can Now Buy Me Coffee</title>
     <updated>2026-06-14T00:09:00+00:00</updated>
@@ -97,7 +148,7 @@ I'm not known to be easily swayed by the opinions others, or for caring too much
 &lt;p&gt;If you want a more coherent version of the point I've been trying to make here - full of facts and references and stuff - have a look at Brennan's &lt;a href='https://brennan.day/yes-buy-them-a-coffee-support-and-mutual-aid-on-the-indieweb/' target='_blank'&gt;Yes, Buy Them a Coffee: Support and Mutual Aid on the IndieWeb&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;And if you want even more to read this month is also Junited - a celebration of blogs on the indie web! Due to my absence I haven't been able to join, but you can find a list of participants on Robert Birming's &lt;a href='https://robertbirming.com/junited-2026-blog-sharing/' target='_blank'&gt;blog&lt;/a&gt;.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a class="previous-post" href="/notes/2026/06/07/19-48" title="2026-06-07 19:48"&gt;Previous&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/notes/2026/06/07/19-48" title="2026-06-07 19:48"&gt;Previous&lt;/a&gt; &lt;a class="next-post" href="/a-stranger-made-me-cry-today" title="A Stranger Made Me Cry Today"&gt;Next&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;em&gt;If this post was of value to you please consider doing a &lt;a href='https://spu.io/capitalism/'&gt;capitalism&lt;/a&gt; or getting the &lt;a href='https://itch.io/b/3666/townsqueer-a-gamedevlgbt-zine-and-games-bundle' target='_blank'&gt;Townsqueer&lt;/a&gt; game bundle.&lt;br /&gt;
 I have no connection to the latter, but supporting queer indie game devs during pride month makes you incredibly cool.&lt;br /&gt;
@@ -147,6 +198,31 @@ reply via: &lt;a id="reply-mail" rel="nofollow, noindex" href="mailto:?subject=r
     <published>2026-06-13T20:01:00.904493+00:00</published>
   </entry>
   <entry>
+    <id>https://menotexts.bearblog.dev/the-unhappy-web-person/</id>
+    <title>The Unhappy Web Person</title>
+    <updated>2026-06-15T19:42:00+00:00</updated>
+    <author>
+      <name>menotexts</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;The smallweb draws a certain kind of unhappy cynic. Chronically online, this kind of person sees evil everywhere. Probably depressed, fatigued with the state of the world, and able to find something wrong, immoral or reprehensible in most things. This is the kind of person you are likely to find on Reddit. Here's an example.&lt;/p&gt;
+&lt;p&gt;I'm on the 32-Bit Café forum, where someone started &lt;a href='https://discourse.32bit.cafe/t/town-square/4708'&gt;a thread&lt;/a&gt; about &lt;a href='https://cauenapier.com/blog/townsquare/'&gt;Cauenapier's Town Square idea&lt;/a&gt; on his blog, which he describes like so:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You open the site and see a few other visitors wandering around at the bottom of the page.
+Maybe someone says hello. Maybe nobody talks at all.
+Either way, the site feels inhabited. It's a little space on the internet where people can chat, like a small café, or a small town square.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Naturally, an Unhappy Web Person (UWP) had a criticism:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;But I kinda wonder if these kinds of ideas “belong” on the small web. These are all trying to help us “feel” the presence of others online, which I think is also a goal of the small web, but the small web partially achieves this by rejecting algorithms and, thus, limiting a site/person’s reach on purpose.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;According to this UWP, a goal of the small web is to help us feel the presence of others online. This is partially achieved through the rejection of algorithms. And this rejection results in purposefully limiting a person's reach. OK, so now you have a person with a digital presence, namely a personal website or blog, a space where creative individuality is as boundless as its creator's imagination. And there's a rewarding feeling in finding this digital space as an act of serendipity, a lucky link, an ongoing conversation or helpful guide which brought us to this person's home on the small web, what the UWP calls a "dark forest" later in their comment. OK, that's cool. But there's no virtue in obscurity. Are we really to believe that being purposefully hard-to-find on the internet supports the small web's mission of helping us feel the presence of others online?&lt;/p&gt;
+&lt;p&gt;To cherish fortuitous discovery is not the same as purposefully limiting a person's reach online. Nor should obscurity be an objective, considering it's the default state of everyone creating a personal website. A project like Cauenapier's Town Square (which is a small interactive component near the footer of his website) is neither antithetical to the small web nor direct support for algorithms. It's just a human being adding a fun widget to their personal website. And the small web is really nothing more than that, just people having fun on the internet by cultivating personal spaces without seeking economic profit.&lt;/p&gt;
+</content>
+    <link href="https://menotexts.bearblog.dev/the-unhappy-web-person/" rel="alternate"/>
+    <published>2026-06-15T19:42:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://sususol.bearblog.dev/i-dont-know-how-to-be-creative/</id>
     <title>i don't know how to be creative</title>
     <updated>2026-06-13T01:01:25.051769+00:00</updated>
@@ -164,27 +240,6 @@ reply via: &lt;a id="reply-mail" rel="nofollow, noindex" href="mailto:?subject=r
 &lt;h6 id=thanks-for-reading-heres-a-cookie&gt;Thanks for reading! Here's a cookie: 🍪&lt;/h6&gt;&lt;h6 id=a-hrefhttpssususolbearblogdevgo-homea&gt;&lt;a href='https://sususol.bearblog.dev/'&gt;Go Home&lt;/a&gt;&lt;/h6&gt;</content>
     <link href="https://sususol.bearblog.dev/i-dont-know-how-to-be-creative/" rel="alternate"/>
     <published>2026-06-13T01:01:25.051769+00:00</published>
-  </entry>
-  <entry>
-    <id>https://mrmarket.lol/zen-and-the-art-of-being-a-mid-skater/</id>
-    <title>Zen and the art of being a mid skater</title>
-    <updated>2026-06-14T13:58:00+00:00</updated>
-    <author>
-      <name>mrmarket</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I work in tech, the industry of optimization, monetization, efficiency, and frictionlessness. I’m generally opposed to what it 'stands for', but I love the work and I appreciate the money.&lt;/p&gt;
-&lt;p&gt;My job makes being a mid skater and writing/reading poems a hallowed act. What I love about skating and poems is that they are commercially dead-on-arrival (skateboarding can be lucrative but not if ur mid.) When you do something that cannot easily be converted into money, you're free. You're cast out into the uselessness and beauty of personal meaning and play.&lt;/p&gt;
-&lt;p&gt;I am not a ‘bad’ skater. I can do a heelflip and ollie a ten-stair. But I’m certainly not in a position to ever profit from it in any way. I’m scared to kickflip gaps or do anything but a 50/50 on a rail, despite having been at this since I was very young (though I am one of those people who, in high school, when asked, would say I’d only started a year ago to attempt to conceal my mid-ness.) I definitely still get that flash of dread before dropping in.&lt;/p&gt;
-&lt;p&gt;As for writing poems, there just isn't a real market. I am grateful for this every single day. It is good to perform for an empty arena. It reminds you who you are: another bozo on the bus, among the millions of others, all of us preoccupied worrying someone’s gonna notice the coffee stain on our shirt.&lt;/p&gt;
-&lt;p&gt;Skateboarding is about a strictly interior glory: you throw yourself against the indifferent pavement of your own hesitation and fear again and again to impress upon yourself that you are more unpredictable, daring, and childishly hopeful than you thought you were.&lt;/p&gt;
-&lt;p&gt;My wife is pregnant and we’re having a son. I hope to teach him to skate, but if he doesn’t like it, I’ll encourage him to fish, or do ballet, or build gleaming, architecturally defiant LEGO structures. Something he can practice for hours alone in his room or a garage or floating on the placid surface of a lake at dawn, surrounded by nothing but his own imagination.&lt;/p&gt;
-&lt;p&gt;If we have more kids, I’ll try to teach my daughter or my next son how to skate. And if they bounce off that we’ll both go hunting for some other source of inspiration that no one can take from them (middle school bullies will try but fuck em).&lt;/p&gt;
-&lt;p&gt;I like to skate in the very early mornings in my driveway or sometimes, when it’s snowing or raining, in my basement. I like to write poems three coffees deep, sweating in the boundless loneliness of 4am. I like to write and then stop and look out at the street in front of my house, vacant as an ocean, before its subsumed by the uncomprehending business of commuters.&lt;/p&gt;
-&lt;p&gt;All of this is for nothing and no one. But it keeps me more of what I like about myself and less of what I don’t.&lt;/p&gt;
-</content>
-    <link href="https://mrmarket.lol/zen-and-the-art-of-being-a-mid-skater/" rel="alternate"/>
-    <published>2026-06-14T13:58:00+00:00</published>
   </entry>
   <entry>
     <id>https://mrmarket.lol/what-the-fuck-happened-to-nerds/</id>
@@ -266,6 +321,41 @@ reply via: &lt;a id="reply-mail" rel="nofollow, noindex" href="mailto:?subject=r
 </content>
     <link href="https://forkingmad.blog/call-me-sarah/" rel="alternate"/>
     <published>2026-06-12T12:01:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://alieniloquy.bearblog.dev/coffee-through-divine-intervention/</id>
+    <title>Coffee Through Divine Intervention</title>
+    <updated>2026-06-14T14:06:00+00:00</updated>
+    <author>
+      <name>alieniloquy</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;For the past two years or so, I've been mistakenly getting emails from a church somewhere in Virginia. I've never been to this town, let alone this church. (For the record, I'm not really religious either, haven't been to church since I was a kid). It looks like its somewhere out near the Blue Ridge Mountains, and I'm still not sure how they accidentally got my email. My guess is that someone who is part of that church has a very similar name or something. Anyways, for these past two years, I've been politely writing the pastor and informing him that he has the wrong email and I would appreciate being taken off the list. Every time, he replies with something along the lines of "I'm so sorry, I'm trying to figure out how to get you out of my computer". Its only a light annoyance, as they all go to an email account I don't really use anymore, so I don't really care either way, but more and more I just feel for him, as I watch him clearly struggle to figure out how to do something that I think is so simple.&lt;/p&gt;
+&lt;p&gt;So when I received another of these emails the other day, to my surprise, it came in the form of a gift. I was certain it was spam at first, and was hesitant to look at it, but when I deduced that it was in fact real, and came from a real address, found a $25 Starbucks digital gift card with the note &lt;em&gt;Thank you for your patience, I can't seem to get you out of my computer!&lt;/em&gt; Just for fun, because I still didn't believe it was real, I decided to go to the Starbucks down the street from my apartment (something I &lt;em&gt;never&lt;/em&gt; do, as I've always been pretty anti-Starbucks) and try to use it. I picked out 2 lbs of coffee, about $30 worth, and brought them up to the barista to pay for them. I noticed immediately that the barista's name was also Sam, which felt uncanny, a good sign of some sort. I kept my story of coffee through divine intervention to myself though, and just hoped that this digital gift card would work. It did. I ended up paying the difference of $4 or so, and wrote back this pastor thanking him for the gift.&lt;/p&gt;
+&lt;p&gt;Now I'm sipping the special 1971 roast from Starbucks, and thinking about my entire life as a barista, delivery person for roasters, all the years I spent being very pretentious about my coffee, and remembering drinking very similar tasting Starbucks coffee and Peets coffee in my pre-barista teen years in the 2000s. It feels very much like I've come full circle, and now, especially with the price of coffee being out of control and every specialty roaster doing their own takes on the latest trends like &lt;em&gt;anaerobic naturals&lt;/em&gt; and various new processes to make &lt;em&gt;decaf&lt;/em&gt; coffees excellent, I have a rekindled appreciation for just buying a bunch of relatively cheap coffee, and enjoying it at home on a weekend, off from work, feeling generally like I did 15 or 20 years ago.&lt;/p&gt;
+&lt;p&gt;I won't go on about why I love cheap coffee, because well, &lt;a href="https://alieniloquy.bearblog.dev/whyilovecheapcoffee/"&gt;I already did&lt;/a&gt;, but felt this was a really interesting story to share. I no longer feel annoyance from getting these emails from this unknown church somewhere in the foothills of the mountains of Virginia. When I see the emails now, I'll feel a little less annoyed and a little more grateful knowing that this is a congregation of probably pretty decent people, and I'll remember when he graciously bought my coffee for a good few weeks.&lt;/p&gt;
+&lt;p&gt;Let's be easier with each other. Let's remember that even though something is easy for us, like taking a name mistakenly added to an email list off said list, someone else may feel like that is akin to pushing a Sisyphean boulder up a mountain.&lt;/p&gt;
+</content>
+    <link href="https://alieniloquy.bearblog.dev/coffee-through-divine-intervention/" rel="alternate"/>
+    <published>2026-06-14T14:06:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://nataliewrites.lol/take-pride-in-your-neighborhood/</id>
+    <title>take pride in your neighborhood</title>
+    <updated>2026-06-11T22:51:00+00:00</updated>
+    <author>
+      <name>without-restraint</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;i had been complaining for the past few weeks about the litter that has been accumulating outside of the large grocery store next door, as well as the dog poop owners have neglected to pick up. i was getting increasingly annoyed every time i walked past a fresh, untouched pile of crap, or saw that the litter still remained and no one had done anything about it.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;i realized that neglectful pet owners would not suddenly decide to start cleaning up after their dogs, nor was the city coming to clean up the local litter. if i want to live in a neighborhood that i'm proud of and excited to come home to, i need to be part of what makes it better.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;so, this morning i decided to walk to Ace Hardware and buy some gloves and a grabber, and do the dirty work myself. it was particularly warm today, as we approach the summer solstice, and i found myself quickly becoming sticky with heat. but i wouldn't let that stop me.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;i spent the better part of an hour walking around my humble block, picking up trash and dog poop, and smiling at passerby's. i wondered if they thought i was doing court-ordered community service and then i wondered if it mattered. did i need them to know that i was just a neighbor, trying to improve our neighborhood? was i doing this to be seen? no, i reminded myself, i was doing this because i wanted to live in a space that is clean and whose occupants tend to each other. i didn't need to stop them and say, "hey! i'm doing this because i'm a good person! no one is forcing me!". i was above that.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;in the end, i filled two trash bags with miscellaneous rubbish. when i got home, i separated the recycling from the landfill waste, in case you were still doubting if i'm morally superior.&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;i suppose the point of this post is: if there is something in your neighborhood you want to see changed, be the one to implement the change. stop waiting for someone else to do it, because they probably won't. if your neighborhood is dirty, spend some time helping to clean it up. maybe others will see you and be inspired. if you wish your neighborhood had a library or access to more books, buy a Little Free Library and set it up outside your house. if you wish there were more community events, plan one and go door to door to hand out invitations. set up fix-it-clinics, float the idea of a neighborhood-wide garage sale, play guitar on your porch, have a potluck. in times that are increasingly trying to separate us, find ways to come together.&lt;/p&gt;
+</content>
+    <link href="https://nataliewrites.lol/take-pride-in-your-neighborhood/" rel="alternate"/>
+    <published>2026-06-11T22:51:00+00:00</published>
   </entry>
   <entry>
     <id>https://lightlogged.blog/drinking-beer-with-mom/</id>
@@ -423,23 +513,6 @@ reply via: &lt;a id="reply-mail" rel="nofollow, noindex" href="mailto:?subject=r
     <published>2026-06-11T21:07:00+00:00</published>
   </entry>
   <entry>
-    <id>https://alieniloquy.bearblog.dev/coffee-through-divine-intervention/</id>
-    <title>Coffee Through Divine Intervention</title>
-    <updated>2026-06-14T14:06:00+00:00</updated>
-    <author>
-      <name>alieniloquy</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;For the past two years or so, I've been mistakenly getting emails from a church somewhere in Virginia. I've never been to this town, let alone this church. (For the record, I'm not really religious either, haven't been to church since I was a kid). It looks like its somewhere out near the Blue Ridge Mountains, and I'm still not sure how they accidentally got my email. My guess is that someone who is part of that church has a very similar name or something. Anyways, for these past two years, I've been politely writing the pastor and informing him that he has the wrong email and I would appreciate being taken off the list. Every time, he replies with something along the lines of "I'm so sorry, I'm trying to figure out how to get you out of my computer". Its only a light annoyance, as they all go to an email account I don't really use anymore, so I don't really care either way, but more and more I just feel for him, as I watch him clearly struggle to figure out how to do something that I think is so simple.&lt;/p&gt;
-&lt;p&gt;So when I received another of these emails the other day, to my surprise, it came in the form of a gift. I was certain it was spam at first, and was hesitant to look at it, but when I deduced that it was in fact real, and came from a real address, found a $25 Starbucks digital gift card with the note &lt;em&gt;Thank you for your patience, I can't seem to get you out of my computer!&lt;/em&gt; Just for fun, because I still didn't believe it was real, I decided to go to the Starbucks down the street from my apartment (something I &lt;em&gt;never&lt;/em&gt; do, as I've always been pretty anti-Starbucks) and try to use it. I picked out 2 lbs of coffee, about $30 worth, and brought them up to the barista to pay for them. I noticed immediately that the barista's name was also Sam, which felt uncanny, a good sign of some sort. I kept my story of coffee through divine intervention to myself though, and just hoped that this digital gift card would work. It did. I ended up paying the difference of $4 or so, and wrote back this pastor thanking him for the gift.&lt;/p&gt;
-&lt;p&gt;Now I'm sipping the special 1971 roast from Starbucks, and thinking about my entire life as a barista, delivery person for roasters, all the years I spent being very pretentious about my coffee, and remembering drinking very similar tasting Starbucks coffee and Peets coffee in my pre-barista teen years in the 2000s. It feels very much like I've come full circle, and now, especially with the price of coffee being out of control and every specialty roaster doing their own takes on the latest trends like &lt;em&gt;anaerobic naturals&lt;/em&gt; and various new processes to make &lt;em&gt;decaf&lt;/em&gt; coffees excellent, I have a rekindled appreciation for just buying a bunch of relatively cheap coffee, and enjoying it at home on a weekend, off from work, feeling generally like I did 15 or 20 years ago.&lt;/p&gt;
-&lt;p&gt;I won't go on about why I love cheap coffee, because well, &lt;a href="https://alieniloquy.bearblog.dev/whyilovecheapcoffee/"&gt;I already did&lt;/a&gt;, but felt this was a really interesting story to share. I no longer feel annoyance from getting these emails from this unknown church somewhere in the foothills of the mountains of Virginia. When I see the emails now, I'll feel a little less annoyed and a little more grateful knowing that this is a congregation of probably pretty decent people, and I'll remember when he graciously bought my coffee for a good few weeks.&lt;/p&gt;
-&lt;p&gt;Let's be easier with each other. Let's remember that even though something is easy for us, like taking a name mistakenly added to an email list off said list, someone else may feel like that is akin to pushing a Sisyphean boulder up a mountain.&lt;/p&gt;
-</content>
-    <link href="https://alieniloquy.bearblog.dev/coffee-through-divine-intervention/" rel="alternate"/>
-    <published>2026-06-14T14:06:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://robertbirming.com/blogging-daily-easier/</id>
     <title>Why blogging daily feels easier</title>
     <updated>2026-06-11T14:54:00+00:00</updated>
@@ -458,142 +531,86 @@ reply via: &lt;a id="reply-mail" rel="nofollow, noindex" href="mailto:?subject=r
     <published>2026-06-11T14:54:00+00:00</published>
   </entry>
   <entry>
-    <id>https://nataliewrites.lol/take-pride-in-your-neighborhood/</id>
-    <title>take pride in your neighborhood</title>
-    <updated>2026-06-11T22:51:00+00:00</updated>
+    <id>https://blog.avas.space/digital-remains/</id>
+    <title>let's talk about your digital remains!</title>
+    <updated>2026-06-15T15:50:00+00:00</updated>
     <author>
-      <name>without-restraint</name>
+      <name>avas</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;i had been complaining for the past few weeks about the litter that has been accumulating outside of the large grocery store next door, as well as the dog poop owners have neglected to pick up. i was getting increasingly annoyed every time i walked past a fresh, untouched pile of crap, or saw that the litter still remained and no one had done anything about it.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;i realized that neglectful pet owners would not suddenly decide to start cleaning up after their dogs, nor was the city coming to clean up the local litter. if i want to live in a neighborhood that i'm proud of and excited to come home to, i need to be part of what makes it better.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;so, this morning i decided to walk to Ace Hardware and buy some gloves and a grabber, and do the dirty work myself. it was particularly warm today, as we approach the summer solstice, and i found myself quickly becoming sticky with heat. but i wouldn't let that stop me.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;i spent the better part of an hour walking around my humble block, picking up trash and dog poop, and smiling at passerby's. i wondered if they thought i was doing court-ordered community service and then i wondered if it mattered. did i need them to know that i was just a neighbor, trying to improve our neighborhood? was i doing this to be seen? no, i reminded myself, i was doing this because i wanted to live in a space that is clean and whose occupants tend to each other. i didn't need to stop them and say, "hey! i'm doing this because i'm a good person! no one is forcing me!". i was above that.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;in the end, i filled two trash bags with miscellaneous rubbish. when i got home, i separated the recycling from the landfill waste, in case you were still doubting if i'm morally superior.&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;i suppose the point of this post is: if there is something in your neighborhood you want to see changed, be the one to implement the change. stop waiting for someone else to do it, because they probably won't. if your neighborhood is dirty, spend some time helping to clean it up. maybe others will see you and be inspired. if you wish your neighborhood had a library or access to more books, buy a Little Free Library and set it up outside your house. if you wish there were more community events, plan one and go door to door to hand out invitations. set up fix-it-clinics, float the idea of a neighborhood-wide garage sale, play guitar on your porch, have a potluck. in times that are increasingly trying to separate us, find ways to come together.&lt;/p&gt;
-</content>
-    <link href="https://nataliewrites.lol/take-pride-in-your-neighborhood/" rel="alternate"/>
-    <published>2026-06-11T22:51:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://hunter-s-housewife.bearblog.dev/i-used-to-be-from-here-thank-you-herman/</id>
-    <title>𝚒 𝚞𝚜𝚎𝚍 𝚝𝚘 𝚋𝚎 𝚏𝚛𝚘𝚖 𝚑𝚎𝚛𝚎 | 𝚝𝚑𝚊𝚗𝚔 𝚢𝚘𝚞, 𝚑𝚎𝚛𝚖𝚊𝚗 ♡</title>
-    <updated>2026-06-11T03:48:53.321316+00:00</updated>
-    <author>
-      <name>hunter-s-housewife</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Needed a place to talk like we used to. I guess Angelfire is gone. I'm too old for this internet and somehow still a beginner here... Substack gives me imposter syndrome and I always feel the need to explain...&lt;/p&gt;
-&lt;p&gt;I don't mind the ring lights and the 5G and the ultra crazy super hi-fi definition of everything... I just don't need the super reality. I get enough of that... everywhere.&lt;/p&gt;
-&lt;p&gt;I miss the internet as a haven. The place where I curated my interior. The place where I came with my real truth... but never from a beige palace... never with all the tapping. I miss not needing to be an expert. I miss our blurry photos not because I didn't love "Real", but because I already had a REAL WORLD to deal with and this was where it was my movie... this is where we could show how it would look if we could make it that way...&lt;/p&gt;
-&lt;p&gt;I miss talking about something without proclamation.&lt;/p&gt;
-&lt;p&gt;I am a little afraid that the only people in these corners are a part of some -osphere or another that I'm not invited to. Or welcome in. I'll be honest. I didn't even do my due diligence. I found a free blog site and crossed my fingers. I typed a title and jumped in. Old school.&lt;/p&gt;
-&lt;p&gt;I hope this isn't another wrong space, or worse, a space that hates me. I'm a creep. I'm a weirdo.&lt;/p&gt;
-&lt;p&gt;I want to process whatever is happening without a 30-day plan or hacks. I want to create and commune. I want to make music with other people who make music. I want to meet people in real life again and find them at concerts and around dumb camp fires like we did in '03. I wish it could be new again. I wish we'd get it right. I wish we'd keep the capitalism out and each other in. I wish we were still giving each other somewhere digital to be when the analog heart couldn't find anywhere out here to belong.&lt;/p&gt;
-&lt;p&gt;I lost that internet. And I miss it.&lt;/p&gt;
-&lt;p&gt;I'm 42 now. In some rooms, I'm ancient. In some, I'm still just a poseur manic pixie nightmare who didn't figure it out. I lost most of my metrics for how to do this wild and precious life thing.&lt;/p&gt;
-&lt;p&gt;I turned to the internet and I know it's happening. Running away in RVs and soft anarchism and Instagram homesteads... but I forget what's trust-funded and what's photoshopped and designed to sell me one more answer I can't afford. Anyone certain is selling something certainly or something. Ha.&lt;/p&gt;
-&lt;p&gt;I'm not a writer. I'm not handy with code. I'm a loser, baby, so why don't you kill me.&lt;/p&gt;
-&lt;p&gt;But somewhere between all the em dashes and optimization plans and politicized everything, I see meaning-making. I see ethics I respect. I see community. I see humans. It's just strange how little of it is anywhere I was told I could expect it. Certainly I thought our histories had been more fact-checked. I thought the people in charge were mostly good. I thought someone had the whole world in his hands.&lt;/p&gt;
-&lt;p&gt;I grew up in the Midwest with no small amount of religious confusion, so it was natural that I was unsure WHO had the whole world, but I was definitely being assured constantly by the grown-ups in the room that someone had this whole thing under control. Don't worry. I'm not still there.&lt;/p&gt;
-&lt;p&gt;I've got grown children now. That means I have experienced the singular pleasure of knowing my teenage child can articulate my generational trauma (and appear to understand it clinically) and plethora of diagnoses better at 16 than I could at 35 on hour seven-hundred-something of therapy... the language was there. Don't mind me. I'm just learning. We all are. Some of us quickly. Some of us with a fair degree of deprogramming to do. I'm one of those.&lt;/p&gt;
-&lt;p&gt;I don't have many days without some shadow of someone's disapproval or my own shame or some neurodivergent urge to only feed wolf number 16 because that's the motherfucker that gets things done (a little IFS humor for my babies in the back)...&lt;/p&gt;
-&lt;p&gt;I don't belong here. I don't know if I belong anywhere.&lt;/p&gt;
-&lt;p&gt;But I need to write in a way that isn't... allowed? Gosh... I am not here with any horrifying ideologies or anything. It's just... it hasn't always been a clean story. I've lived what's amounted to a staggeringly ordinary human life, so it's always stung a little when some part of me that was just true got marked restricted or called something it wasn't. Compressing my "self" into something easy to scan and incomplete.&lt;/p&gt;
-&lt;p&gt;I feel too big for the internet. Not like a megalomaniac. Like a pair of not-stretchy jeans from before my hips changed... like with this new shape... I'll never get back in... but here's to trying.&lt;/p&gt;
-&lt;p&gt;Is there anybody out there?&lt;/p&gt;
-</content>
-    <link href="https://hunter-s-housewife.bearblog.dev/i-used-to-be-from-here-thank-you-herman/" rel="alternate"/>
-    <published>2026-06-11T03:48:53.321316+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blog.welcomehome.city/b/three-lines/</id>
-    <title>The three lines of CSS that saved me 40kb and might do the same for you</title>
-    <updated>2026-06-10T21:11:00+00:00</updated>
-    <author>
-      <name>welcomehome</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Custom fonts are a boon for usability and they can give your blog that extra bit
-of oomf. But fonts can really hurt performance if you're not careful. A single
-font can take up 40kb or more.&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; That's not a ton in a world of 3MB
-SPAs, but they're very much on the critical path and need to be loaded as
-quickly as possible to avoid your page jumping around.&lt;/p&gt;
-&lt;p&gt;So cutting out as much font bandwidth as possible can make a huge difference.&lt;/p&gt;
-&lt;p&gt;One of the key parts of bearblog's personality is its logo:
-&lt;span class="bear"&gt;ʕ•ᴥ•ʔ&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Here's the thing though: those 5 characters aren't in the base latin character
-set. If you're using fonts from &lt;a href='https://fonts.bunny.net'&gt;bunny&lt;/a&gt; or
-&lt;a href='https://staticdelivr.com/google-fonts'&gt;staticdelivr&lt;/a&gt;,&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; the fonts may very
-well be broken down into a latin font-face and a latin-ext font-face using the
-unicode-range
-&lt;a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face/unicode-range'&gt;property&lt;/a&gt;,
-so those 5 characters result in downloading the latin-ext font.&lt;/p&gt;
-&lt;p&gt;Fortunately, the fix is very simple because Herman attached a class to that set
-of characters. So all you have to do is paste the following 3 lines into your
-CSS theme.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;bear&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="k"&gt;font-family&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ui-monospace&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Cascadia Code&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;Source Code Pro&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Menlo&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Consolas&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;DejaVu Sans Mono&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;monospace&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This uses the Monospace Code font stack from
-&lt;a href='https://modernfontstacks.com/'&gt;Modern Font Stacks&lt;/a&gt;. Because those fonts are
-built into everyone's browser, there's no added font to download.&lt;/p&gt;
-&lt;p&gt;And even if this doesn't reduce your page weight, doesn't the bear look a bit
-better in monospace? I think so.&lt;/p&gt;
+    <content type="html">&lt;blockquote&gt;
+&lt;p&gt;"&lt;em&gt;When I die, delete my browser history.&lt;/em&gt;" ­— Unknown&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When you die, there are lots of processes in place to deal with your body, your burial, your physical possessions, subscriptions and bank accounts. &lt;em&gt;&lt;strong&gt;But what about your digital accounts and possessions?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As our lives become more and more digital, taking these into account when tying up the affairs of a dead person is increasingly important. Think about it: This can involve e-mail accounts, social media accounts, messengers, LLM conversations, hard drives, cloud storage, crypto wallets, websites, your digital media licenses, intellectual property you released (like four (F)OSS projects, for example), and more. In a broader sense, you might count browser history and other metadata, too!&lt;/p&gt;
+&lt;p&gt;What's interesting is that so many of these do not fall under the laws you might expect them to, like succession/inheritance law or privacy law.&lt;/p&gt;
+&lt;p&gt;Services that offer you licensed content (like Steam) have made clear in the past that family members are unable to inherit the accounts or licenses, like they would with physical items.&lt;/p&gt;
+&lt;p&gt;In terms of privacy and data protection, the GDPR applies only to &lt;em&gt;living&lt;/em&gt; people, so you lose these rights upon death; the task of legislating the rights of the dead in these regards has been given to the Member States, which results in quite a patchwork of rights&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. This patchwork makes things difficult, because it means your European country can have different laws than another, and companies will have to see how to comply with them all.&lt;/p&gt;
+&lt;p&gt;France, for example, has one of the most developed post-mortem data protection regimes in Europe. The &lt;em&gt;&lt;strong&gt;French Data Protection Act&lt;/strong&gt;&lt;/em&gt; (the &lt;em&gt;Loi Informatique et Libertés&lt;/em&gt;) actively considers death in data protection and explicitly allows a person to give instructions regarding the retention, deletion, and communication of their personal data after death and appoint a person responsible for implementing those instructions. It mandates that controllers must follow the deceased's valid instructions, and heirs can obtain access to data necessary to settle the estate, to identify assets and liabilities, or to close user accounts and manage digital affairs.&lt;/p&gt;
+&lt;p&gt;Germany, on the other hand, is pretty much the opposite: Protection of deceased persons' data arises from a combination of post-mortem personality rights (postmortales Persönlichkeitsrecht) concluded from civil law and constitutional law, inheritance/succession law, confidentiality obligations and possibly some sector-specific laws. It's a lot more complicated and full of holes for specific types of digital data. I wish we had a law like France has!&lt;/p&gt;
+&lt;p&gt;Regardless of when we might have a European law harmonizing this aspect across Member States, it's still important to ask yourself: &lt;mark&gt;Who is allowed to have access to your accounts and data after you pass?&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;You might still want to give your younger sibling access to your Steam account later, or you need your spouse to be able to log in and keep a personal website up and running, or save pictures from the cloud. For this, you should make sure that the correct people can have access to your accounts in case of death, and know what to do with them.&lt;/p&gt;
+&lt;p&gt;How you do that is up to you: You might set up something that automatically notifies them about how to access your accounts in times of death when you don't check in for a while, or you tell them a physical location where they can find the device passwords and the Master password to your password manager. I personally mention it in my &lt;a href='https://avas.bearblog.dev/when-i-die'&gt;when i die&lt;/a&gt; page. Remember to keep this information updated!&lt;/p&gt;
+&lt;p&gt;Some companies and services, like Apple, Google and Meta, offer settings about what should happen after your death (usually called Digital Legacy tools, Inactive Account preferences, or Memorialization). You're able to set a successor/manager, deletion preferences and more, depending on the service. You have to dig a little in the settings, but if you're reading this right now, I encourage you to go find it. Good to know: Despite setting someone as a legacy contact, these companies might still request additional documents to prove that you really died.&lt;/p&gt;
+&lt;p&gt;On the other hand, it's also okay to want things to be deleted, either by family members, or automatically by the platform itself. At CPDP 2026, I participated in a workshop about digital remains, and my discussion partner said that her Instagram feels so personal that it should be deleted upon her death, but something like a LinkedIn she'd keep up.&lt;/p&gt;
+&lt;p&gt;So decide for yourself: &lt;mark&gt;What accounts do you want deleted, which ones can remain up/dormant?&lt;/mark&gt; You should communicate this clearly in a way the people tasked with your digital legacy can see it, and talk to these people about it beforehand, if possible, or set it up in the settings. If you want to keep data up, &lt;mark&gt;is there a maximum retention period you want to set so that the data would be deleted afterwards?&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;As a next step, you have to think about the future. The world will move on without you, and even right now as you are reading this, we are building tech that promises to bring people "back to life" via AI. Even just a decade ago, you likely couldn't have foreseen where we are at the moment with tech being trained to impersonate you. So where will we be decades down the line? That may require the restraints you set in a will to be more on the tech-agnostic side instead of just banning very specific processes and products.&lt;/p&gt;
+&lt;p&gt;This is not just about the recent &lt;a href='https://futurism.com/future-society/meta-patented-ai-die-keeps-posting'&gt;Meta AI&lt;/a&gt; thing; there are several companies in this space, as it looks to be a profitable new market niche: &lt;em&gt;&lt;strong&gt;Bereavement tech&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;So, &lt;mark&gt;how do you want your data to be processed? Do you want tech to be trained on it?&lt;/mark&gt; Do you allow the platform, or your relatives, to train AI on your accounts and other data and media they have on you? Your account might keep posting for you as if you were still alive, generate selfies or videos with your likeness, or it will respond to messages people send to it so they can keep chatting with "you".&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Side note&lt;/strong&gt;&lt;/em&gt;: &lt;em&gt;Does this truly help the grieving process? I guess we'll have to find out. A physical removal of items, telephone numbers going out of business, and a burial help saying goodbye and accept the finality of it all. Yet social media accounts can exist visually unchanged for years afterward, as the platform may nudge you to message them, reminds you of their birthday, or shows memories from a couple years ago out of nowhere on your feed. If we soon have the option to have people posting as if nothing happened to them, they stay stuck how they were when they died forever. If you never have to deal with the deafening silence from the other party, do you ever really have to grapple with death? And will the person die a second time for you when they stop offering the model? Maybe that's something you wanna blog your thoughts about :)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It doesn't have to be so personal and focused on social media platforms as well. &lt;mark&gt;How about archives? Museums?&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;You might laugh at the idea, but most stuff in museums is by ordinary people; we might not even know their name. Some people become famous after their death and their possessions and likeness are displayed for people to learn about them (for example: Anne Frank). We get great insights from the things they left behind that they thought no one would read, and if we're honest, likely wouldn't have consented to be out there. This will increasingly happen with digital means. How okay are you with a holo-you or virtual avatar greeting people in a museum?&lt;/p&gt;
+&lt;p&gt;You might not care about any of this at all - if you're dead, then what does privacy and the data matter? It's not like it can still affect you! And that's fair. The views on this can be pretty diverse. Others see the digital remains as a digital version/informational "body" that should also be untouchable and remain undisturbed, and that there should be a general right not to "become a bot".&lt;/p&gt;
+&lt;p&gt;Reading papers and studies about this topic is interesting, because it seems if you belong to the current older generations, you are more in favor of deleting it all, while the younger generations want to keep it up&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;. This makes sense: They might have way more online friends they'd wanna keep this up for. Women seem more in favor to deleting everything than men are&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;, which I can totally see; women tend to make a lot of negative experiences online that center the loss of control over their data and misuse of it. Death, without being able to lock down or delete anything based on developments online seems like the biggest loss of control of all. There are country and cultural differences as well.&lt;/p&gt;
+&lt;p&gt;Unfortunately, unless you control the data (your own Mastodon instance, your self-hosted personal website, etc.), you are reliant on these services to heed your/your loved ones' requests about this. As the big social media companies' business model relies on data harvesting and using existing data for new projects and growth, this might be a hard fight in the future, as they see it as their property. Companies can hold the data hostage because of a lack of laws in your region and no goodwill from their side. There have also been cases already where the companies have refused giving access of a deceased's account to the relatives until &lt;a href='https://www.lto.de/recht/hintergruende/h/bgh-iii-zb-30-20-digitaler-nachlass-erben-bekommen-zugriff-auf-facebook-konto'&gt;a court decided&lt;/a&gt; they had to. How many would just give up?&lt;/p&gt;
+&lt;h2 id=conclusion&gt;conclusion&lt;/h2&gt;&lt;p&gt;For good digital hygiene, we should remember death and make it as easy as possible or sensible for the people we leave behind to get the access they need to manage our stuff how we want them to.&lt;/p&gt;
+&lt;p&gt;Organize your data well (maybe you also want to do some recurring digital version of &lt;a href='https://en.wikipedia.org/wiki/Swedish_death_cleaning'&gt;Swedish Death Cleaning&lt;/a&gt;?), leave instructions, set emergency/legacy access when available, include digital assets in your will, decide how your data is allowed to be used after death, especially around AI replicas. Families should talk about this openly, and relatives and nurses should learn to ask affected parties about these things.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Previous related entry: &lt;a href='https://blog.avas.space/blog-after-death/'&gt;plans for your blog after you die&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='mailto:avas.space@tuta.com'&gt;Reply via email&lt;/a&gt;&lt;br /&gt;
+Published &lt;time datetime="2026-06-15T15:50Z"&gt;
+    15 Jun, 2026
+&lt;/time&gt;&lt;/p&gt;
 &lt;section class="footnotes"&gt;
 &lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;Your milage may vary. It depends in large part on whether you're using
-static or variable fonts and how you're using fonts, weights, and italics.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id="fn-2"&gt;&lt;p&gt;Because you're not using Google fonts, right?&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;France is very invested in this aspect and its data protection authority (CNIL) has made it one of their main points and even wrote a &lt;a href='https://www.cnil.fr/sites/default/files/2025-11/cnil_10th_ip_report.pdf'&gt;paper&lt;/a&gt; on it.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-2"&gt;&lt;p&gt;The &lt;a href='https://www.cnil.fr/sites/default/files/2025-11/cnil_10th_ip_report.pdf'&gt;CNIL paper&lt;/a&gt; has some study summaries about this on page 15. Generally speaking, another good study to read is &lt;a href='https://www.tandfonline.com/doi/full/10.1080/13576275.2025.2451093#d1e443'&gt;this one&lt;/a&gt;.&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
 </content>
-    <link href="https://blog.welcomehome.city/b/three-lines/" rel="alternate"/>
-    <published>2026-06-10T21:11:00+00:00</published>
+    <link href="https://blog.avas.space/digital-remains/" rel="alternate"/>
+    <published>2026-06-15T15:50:00+00:00</published>
   </entry>
   <entry>
-    <id>https://chadmccullough.bearblog.dev/missing-in-action-and-rebuilding-my-life/</id>
-    <title>Missing in action and rebuilding my life</title>
-    <updated>2026-06-09T23:53:00+00:00</updated>
+    <id>https://robertbirming.com/junited-buttons-collection/</id>
+    <title>Junited buttons collection</title>
+    <updated>2026-06-14T09:20:00+00:00</updated>
     <author>
-      <name>chadmccullough</name>
+      <name>robert</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;My apologies, but I've been missing in action for the past, well, a long time. Over the past 8 or 9 months or so, I've experienced a couple of life changing events. Life sort of went haywire and I was struggling to handle it all.&lt;/p&gt;
-&lt;p&gt;First, I lost my job, and found that no one is really interested in hiring an almost 60 year old who spent the better part of the last 30+ years in tech. Ageism in hiring is real and I'm finding that out the hard way. If anything, my struggle with finding full-time work made me realize that maybe it's time to move on from the tech field to something a bit less stressful. Before losing my job, I was working part-time as a teacher for a nonprofit based here in St. Louis. I was able to join the team full-time. Lots of strange hours but I really enjoy the work and I go home a hell of a lot less stressed compared to when I worked in tech. Am I making as much? Not even close. But going home happy and less stressed makes up for it.&lt;/p&gt;
-&lt;p&gt;Second, I went through a divorce. The divorce was relatively easy compared to what so many experience. My ex-wife and I had a lawyer draw up papers, we signed them, the judge signed them, and a few months later, the marriage was over. The divorce was "easy" but that doesn't make the experience any easier. My ex-wife and I don't hate each other. We were just going in different directions and felt it was time to call it quits. But I still feel like I failed. I still live close to her so I get to see my 15-year-old son all the time. He can literally walk to my apartment and comes over whenever he wants. My daughter lives nearby with her boyfriend so we get to see each other all the time, too. But after 20 years of marriage, it was over in a few months, and that's going to take some time to get over.&lt;/p&gt;
-&lt;p&gt;With the divorce over, and working full-time again, it's time to start rebuilding my life. At the age of nearly 60, it's weird to say that I'm rebuilding my life, but it feels like this is exactly what I'm doing. And rebuilding my life includes getting back into things that I really enjoyed. After a few months of no running, I'm back at it. I'm even training for a marathon again. And I still commute by bike, and always will, but it's starting feel enjoyable again. I even go for rides just for fun. Crazy, right?&lt;/p&gt;
-&lt;p&gt;Well, anyway, I want to start writing again. I've never been a great writer but to me, that doesn't really matter. I just want to write and hope that others will enjoy what I write and get something out it. Over time, you'll start seeing more posts from me as I slowly get back to living again.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I thought it would be nice to have some of those lovely old-school 88×31 pixel web buttons for those of you taking part in Junited 2026. You can still join if you want to.&lt;/p&gt;
+&lt;p&gt;Since it's the third time I'm running this annual blogging event, I also included buttons for 2024 and 2025. A different color each year, like music recaps. A fun little keepsake and a friendly nudge to keep coming back.&lt;/p&gt;
+&lt;p&gt;I've also included a bunch of evergreen ones. Here's the complete collection. I hope you find something that fits your taste.&lt;/p&gt;
+&lt;h4 id=yearly&gt;Yearly&lt;/h4&gt;&lt;div style="display:flex;flex-wrap:wrap;gap:8px;"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-24.svg" alt="Junited 2024 participant badge" width="88" height="31"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-25.svg" alt="Junited 2025 participant badge" width="88" height="31"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-26.svg" alt="Junited 2026 participant badge" width="88" height="31"&gt;
+&lt;/div&gt;
+&lt;h4 id=evergreen&gt;Evergreen&lt;/h4&gt;&lt;div style="display:flex;flex-wrap:wrap;gap:8px;"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-twotone.svg" alt="Junited badge" width="88" height="31"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-sunny.svg" alt="Junited badge" width="88" height="31"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-dark.svg" alt="Junited badge" width="88" height="31"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-gradient.svg" alt="Junited badge" width="88" height="31"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-stamp.svg" alt="Junited badge" width="88" height="31"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-terminal.svg" alt="Junited badge" width="88" height="31"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-rainbow.svg" alt="Junited badge" width="88" height="31"&gt;
+  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-rainbow-letters.svg" alt="Junited badge" width="88" height="31"&gt;
+&lt;/div&gt;
+&lt;p&gt;Happy blogging and sharing!&lt;/p&gt;
 </content>
-    <link href="https://chadmccullough.bearblog.dev/missing-in-action-and-rebuilding-my-life/" rel="alternate"/>
-    <published>2026-06-09T23:53:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://gary.onl/i-finally-finished-the-internet/</id>
-    <title>I finally finished the internet</title>
-    <updated>2026-06-09T22:12:00+00:00</updated>
-    <author>
-      <name>garyonline</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I've never made a fuss about spending too much time doomscrolling. I get that it's technically an addiction, but as someone who's been through real addiction, like to things your body actually becomes dependent on, I never took it seriously. Like at all.&lt;/p&gt;
-&lt;p&gt;And I still don't think watching a few too many TikTok videos is even in the same universe banging heroin, but that doesn't mean it's something you should do all the time.&lt;/p&gt;
-&lt;p&gt;I have a lot of downtime throughout the work day, so I was stoked a couple years ago when I realized I can dissociate through a bunch of short form content and suddenly it's time to clock out.&lt;/p&gt;
-&lt;p&gt;That's definitely addict behavior right? Again; different universe, but it's kinda like huffing a can of Reddi-Wip to get high instead of eating it on a slice of pie or topping off your sugary morning mocktail with a dollop of it like a goddamn adult.&lt;/p&gt;
-&lt;p&gt;Both things are bad for you in their own ways, but one is considerably worse and has no benefits whatsoever.&lt;/p&gt;
-&lt;p&gt;And not to mention these platforms are all being flooded with AI bullshit, and before that you couldn't scroll more than a few videos without landing on brainrot or entirely made up clickbait stories.&lt;/p&gt;
-&lt;p&gt;I remember a few years ago when TikTok was the cool new thing that no one could get enough of. I'd find videos so absolutely ridiculous that I'd have tears running down my face from laughing. I honestly can't remember the last time I've found any Vine level videos there, come to think of it.&lt;/p&gt;
-&lt;p&gt;They used to be everywhere. Silly little songs from people like Nicholas Megalis or even just shenanigans from that guy who used to slam entire bottles of liquor in one go. Maybe I'm just getting old, maybe my algorithm has hit the point of no return; I don't know. But I do know it's rotting my skull from the inside out with product promotion after product promotion, brain dead memes, and that guy who fills his apartment up with piss jugs.&lt;/p&gt;
-&lt;p&gt;It's a wasteland of low effort content and commercials. Insidious commercials that feel like normal videos until the little orange shopping cart pops up. Or like on Reddit, where it looks just like any other post made by some random person until you see it was posted by Whirlpool or The Daily Beast.&lt;/p&gt;
-&lt;p&gt;There truly isn't much of the internet that remains unfucked. Everything is fucked. Everything's commercial.&lt;/p&gt;
-&lt;p&gt;And no one is immune to it. I work in sales; I work pretty closely with our marketing director for fuck's sake, and I still bought a Magic John screen protector from a dumb ass TikTok video. I don't even use screen protectors! I stuck with it for a week and promptly ripped it off and threw it away. Came with a nice little cheap microfiber I use on my watches now though.&lt;/p&gt;
-&lt;p&gt;So I deleted TikTok and Reddit both from my phone. I'm not going to kid myself and say I'll spend &lt;strong&gt;significantly&lt;/strong&gt; less time using social media; I still really really like Lemmy and Tumblr, and I can't forget about my trusty RSS reader and random blogs I follow, but all of that stuff is more genuine. Lemmy has its share of bot problems and it's a ghost town at times, but I've had more interaction on there than I ever did being on Reddit for what, like 15 years? And it's genuine interaction, not just some neckbeard shitting on me for trying to participate in a conversation.&lt;/p&gt;
-&lt;p&gt;I have a growing stack of books I've been meaning to read for two or three years that keeps getting neglected because I start scrolling and travel through time, all for the sake of making myself dumber. I used to pick up my guitar and screw around for a little bit if I was waiting on something. Lately I just scroll.&lt;/p&gt;
-&lt;p&gt;I'm well past salvation when it comes to this magic rectangle in my pocket; I don't think I could ever fully switch back to a flip phone. But I wanna be more mindful of where I'm letting my attention wander. There's so much shit you can do without being tethered to your router or 5G connection.&lt;/p&gt;
-&lt;p&gt;Write a song. Read a book. Doodle on a scrap of paper and throw it away when you're done. Listen to music and daydream. I can't remember the last time I did &lt;em&gt;anything&lt;/em&gt; without listening to a video or podcast in the background. Literally even just play a video game without scrolling TikTok through loading screens or playing a YouTube video in the background. We weren't meant to multitask 24/7 you know? The mind needs a break every now and then. The endless stream of content will still be there if I ever want to plug back in.&lt;/p&gt;
-</content>
-    <link href="https://gary.onl/i-finally-finished-the-internet/" rel="alternate"/>
-    <published>2026-06-09T22:12:00+00:00</published>
+    <link href="https://robertbirming.com/junited-buttons-collection/" rel="alternate"/>
+    <published>2026-06-14T09:20:00+00:00</published>
   </entry>
 </feed>
