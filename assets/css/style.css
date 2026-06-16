@@ -4290,3 +4290,13 @@ img.geo-image-loaded {
     border-top-color: var(--panel-border);
   }
 }
+
+#oneko {
+  filter: sepia(0.7) saturate(1.4) hue-rotate(-15deg) brightness(1.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  #oneko {
+    filter: sepia(0.6) saturate(1.8) hue-rotate(-20deg) brightness(1.3);
+  }
+}
