@@ -15,10 +15,11 @@ module.exports = async function(eleventyConfig) {
     return normalized ? `${normalized}/` : "/";
   })();
   const webmentionEndpoint = process.env.WEBMENTION_ENDPOINT || "https://webmention.io/blog.rishabhps.com/webmention";
+  const webmentionToken = process.env.WEBMENTION_TOKEN || "hshMNKohepVd3pJV5eMM_g";
   //blog.rishabhps
   // const webmentionDashboardUrl = "https://webmention.io/api/mentions.html?token=In5dhxfjUWc5CqwWmgGfNA";
   //sigmarootpi
-  const webmentionDashboardUrl ="https://webmention.io/api/mentions.html?token=hshMNKohepVd3pJV5eMM_g"
+  const webmentionDashboardUrl =`https://webmention.io/api/mentions.html?token=${webmentionToken}`
   const webmentionCachePath = path.join(process.cwd(), ".cache", "webmentions-cache.json");
 
   function parseWorkoutDurationSeconds(value) {
@@ -290,20 +291,29 @@ module.exports = async function(eleventyConfig) {
     }
   }
 
+  async function fetchWebmentionPage(target, page, perPage) {
+    const feed = await fetchTextNoCache(
+      `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(target)}&page=${page}&per-page=${perPage}&sort-dir=up&token=${webmentionToken}`
+    );
+    const parsed = JSON.parse(feed);
+    return Array.isArray(parsed?.children) ? parsed.children : [];
+  }
+
   async function fetchAllWebmentionEntries(target) {
     const perPage = 100;
     const entries = [];
 
-    for (let page = 0; page < 50; page += 1) {
-      const feed = await fetchTextNoCache(
-        `https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(target)}&page=${page}&per-page=${perPage}&sort-dir=up`
-      );
-      const parsed = JSON.parse(feed);
-      const children = Array.isArray(parsed?.children) ? parsed.children : [];
-      entries.push(...children);
+    // webmention.io stores mentions keyed by the exact URL the sender used,
+    // so fetch both trailing-slash and non-trailing-slash variants.
+    const withSlash = target.endsWith("/") ? target : `${target}/`;
+    const withoutSlash = target.endsWith("/") ? target.slice(0, -1) : target;
+    const targets = withSlash === withoutSlash ? [withSlash] : [withSlash, withoutSlash];
 
-      if (children.length < perPage) {
-        break;
+    for (const t of targets) {
+      for (let page = 0; page < 50; page += 1) {
+        const children = await fetchWebmentionPage(t, page, perPage);
+        entries.push(...children);
+        if (children.length < perPage) break;
       }
     }
 
@@ -375,17 +385,38 @@ module.exports = async function(eleventyConfig) {
     });
   }
 
+  function buildWebmentionLikeHtml(mention) {
+    const label = escapeHtml(mention.authorName || mention.authorUrl || "Anonymous");
+    if (mention.authorPhoto) {
+      const linkOpen = mention.authorUrl
+        ? `<a href="${escapeHtml(mention.authorUrl)}" target="_blank" rel="noopener noreferrer" title="${label}">`
+        : "";
+      const linkClose = mention.authorUrl ? `</a>` : "";
+      return `${linkOpen}<img class="webmention-like-avatar" src="${escapeHtml(mention.authorPhoto)}" alt="${label}" loading="lazy" width="32" height="32">${linkClose}`;
+    }
+    const linkOpen = mention.authorUrl
+      ? `<a href="${escapeHtml(mention.authorUrl)}" target="_blank" rel="noopener noreferrer">`
+      : "";
+    const linkClose = mention.authorUrl ? `</a>` : "";
+    return `<span class="webmention-like-name">${linkOpen}${label}${linkClose}</span>`;
+  }
+
   function buildWebmentionsSectionHtml(mentions) {
     const uniqueMentions = dedupeWebmentions(mentions);
     if (!uniqueMentions.length) return "";
 
-    const itemsHtml = uniqueMentions.map(buildWebmentionItemHtml).join("\n");
+    const likes = uniqueMentions.filter((m) => m.type === "like-of" || m.type === "repost-of");
+    const interactions = uniqueMentions.filter((m) => m.type !== "like-of" && m.type !== "repost-of");
 
-    return `
-      <div class="webmentions-list">
-        ${itemsHtml}
-      </div>
-    `.trim();
+    const likesHtml = likes.length
+      ? `<div class="webmentions-likes"><span class="webmentions-likes-label">${likes.length} like${likes.length === 1 ? "" : "s"}</span><div class="webmentions-likes-avatars">${likes.map(buildWebmentionLikeHtml).join("")}</div></div>`
+      : "";
+
+    const interactionsHtml = interactions.length
+      ? `<div class="webmentions-list">${interactions.map(buildWebmentionItemHtml).join("\n")}</div>`
+      : "";
+
+    return [likesHtml, interactionsHtml].filter(Boolean).join("\n");
   }
 
   function humanizeWorkoutPlotName(fileName, fallback = "Workout plot") {
@@ -996,9 +1027,10 @@ ${tabsMarkup}
         .map((entry) => ({
           authorName: String(entry?.author?.name || "").trim(),
           authorUrl: String(entry?.author?.url || "").trim(),
-          authorPhoto: String(entry?.author?.photo || "").trim(),
+          authorPhoto: String(entry?.author?.photo || (Array.isArray(entry?.photo) ? entry.photo[0] : "") || "").trim(),
           url: String(entry?.url || "").trim(),
-          target: String(entry?.["mention-of"] || entry?.["in-reply-to"] || "").trim(),
+          type: String(entry?.["wm-property"] || "mention-of").trim(),
+          target: String(entry?.["mention-of"] || entry?.["in-reply-to"] || entry?.["like-of"] || entry?.["repost-of"] || "").trim(),
           published: String(entry?.published || entry?.["wm-received"] || "").trim(),
           contentText: String(entry?.content?.text || "").trim(),
           title: String(entry?.content?.text || entry?.content?.html || "").trim(),
@@ -1012,8 +1044,8 @@ ${tabsMarkup}
 
       const cacheKey = normalizePathname(target);
       const mergedMentions = dedupeWebmentions([
-        ...getCachedWebmentions(cacheKey),
         ...mentionsWithPreview,
+        ...getCachedWebmentions(cacheKey),
       ]);
 
       setCachedWebmentions(cacheKey, mergedMentions);

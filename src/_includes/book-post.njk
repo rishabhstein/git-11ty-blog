@@ -65,11 +65,5 @@
         </main>
 </div>
 
-<blockquote class = "post-footer">
-    <span>Posted at: {{ page.date | postDate }}</span> <br/>
-    <a href='mailto:hello@rishabhps.com?subject=Blogentry: {{ title }}'>Reply via email</a><br />
-
-</blockquote>
-
-{% include "webmentions.njk" %}
+{% include "post-footer.njk" %}
 </article>

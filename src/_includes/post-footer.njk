@@ -1,0 +1,23 @@
+<blockquote class="post-footer">
+  <span>Posted at: {{ page.date | postDate }}</span>
+  <ul class="post-footer-actions">
+    <li>
+      <a class="post-footer-action-link" href="mailto:hello@rishabhps.com?subject=Blogentry: {{ title }}">Reply via email</a>
+    </li>
+    {% if site.webmentionEndpoint %}
+    <li class="post-footer-webmention-item">
+      <a class="post-footer-action-link" href="#webmention-form-inline" onclick="var f=document.getElementById('webmention-form-inline');f.hidden=!f.hidden;return false;">Send a webmention</a>
+      <form id="webmention-form-inline" class="webmention-form" action="{{ site.webmentionEndpoint }}" method="post" hidden>
+        <div class="webmention-form-row">
+          <label class="sr-only" for="webmention-source">Your post URL</label>
+          <input id="webmention-source" name="source" type="url" inputmode="url" placeholder="https://your-site.example/my-reply" required>
+          <input type="hidden" name="target" value="{{ site.url }}{{ page.url }}">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </li>
+    {% endif %}
+  </ul>
+</blockquote>
+
+{% include "webmentions.njk" %}

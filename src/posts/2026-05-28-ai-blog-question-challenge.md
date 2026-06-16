@@ -60,6 +60,7 @@ One trick to recognize AI slop is to spot the struggle of AI models in simulatin
 It's clear that this tech is not going anywhere. So I do hope that after norms and regulations are made we will see a shift in its use case. There are more crucial problems of privacy and surveillance by the government itself, but I do hope that it will still be in favor of the state, and not of any corporation.
 
 --
+
 I have no idea how many people wrote about this challenge. But those I find are here:
 
 1. [Cesar Agguire](https://canro91.github.io/2026/05/30/AIBlogChallenge/)

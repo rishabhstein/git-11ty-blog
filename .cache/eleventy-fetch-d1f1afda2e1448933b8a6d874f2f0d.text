@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-06-16T06:51:21.271873+00:00</updated>
+  <updated>2026-06-16T12:56:17.227451+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -39,6 +39,56 @@
 </content>
     <link href="https://lwgrs.bearblog.dev/re-bloggers-can-we-make-better-titles-for-our-posts/" rel="alternate"/>
     <published>2026-06-15T18:35:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://pego.dev/i-wanted-bear-blog-but-for-my-photos/</id>
+    <title>I wanted Bear Blog, but for my photos</title>
+    <updated>2026-06-16T10:14:00+00:00</updated>
+    <author>
+      <name>pego</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I love Bear.&lt;/p&gt;
+&lt;p&gt;It is one of the few places on the web that still feels calm, personal, and human. You write something, publish it, and it exists as a simple page on the internet.&lt;/p&gt;
+&lt;p&gt;No algorithm.
+No follower count.
+No pressure to perform.&lt;/p&gt;
+&lt;p&gt;For writing, Bear feels almost perfect to me.&lt;/p&gt;
+&lt;p&gt;But I also take photos.&lt;/p&gt;
+&lt;p&gt;Not professional photos. Not portfolio work. Just ordinary life: walks, family days, weekends, cities, small details, strange light, quiet moments I want to keep.&lt;/p&gt;
+&lt;p&gt;And I never really knew where those photos should live.&lt;/p&gt;
+&lt;p&gt;Instagram feels too loud. Cloud storage feels too buried. A portfolio feels too serious. A normal blog feels close, but still writing-first.&lt;/p&gt;
+&lt;p&gt;Of course, you can add photos to a Bear post. But the photo usually supports the writing.&lt;/p&gt;
+&lt;p&gt;I wanted the opposite.&lt;/p&gt;
+&lt;p&gt;A place where the photo is the post.&lt;/p&gt;
+&lt;p&gt;Where text is optional.
+Where one photo is enough.
+Where images are large, calm, and treated with respect.
+Where browsing feels more like moving through a photo journal than scrolling a feed.&lt;/p&gt;
+&lt;p&gt;So I built &lt;a href='https://moments.im'&gt;Moments&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Moments is a quiet photoblog for people who take photos as part of life.&lt;/p&gt;
+&lt;p&gt;It is not social media. There are no likes, no follower counts, no rankings, and no pressure to post often.&lt;/p&gt;
+&lt;p&gt;Moments are simply organised by time, because time is enough. Newer moments come first. Older ones slowly move down.&lt;/p&gt;
+&lt;p&gt;In that sense, Moments comes from the same place that made me love Bear: simple personal websites, ownership, and publishing without turning everything into performance.&lt;/p&gt;
+&lt;p&gt;But it starts from a different object.&lt;/p&gt;
+&lt;p&gt;Bear starts with words.&lt;/p&gt;
+&lt;p&gt;Moments starts with photos.&lt;/p&gt;
+&lt;p&gt;That is the whole idea.&lt;/p&gt;
+&lt;p&gt;Moments is still very early. There are only a few journals on it right now, including &lt;a href='https://photos.pego.dev'&gt;my own&lt;/a&gt;. But I like that. It already feels like a small group of personal photo journals, not a platform trying to become huge.&lt;/p&gt;
+&lt;p&gt;You can see my own photo journal here:&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://photos.pego.dev'&gt;photos.pego.dev&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://photos.pego.dev'&gt;&lt;img src="https://www.moments.im/og?title=Peter%27s+journal&amp;amp;subtitle=Software+engineer%2C+photographer%2C+and+builder+of+small+things+on+the+internet.+Based+in+Budapest%2C+usually+walking+around+with+a+Fujifilm+camera+and+noticing+quiet+everyday+moments.&amp;amp;eyebrow=Photography+journal&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2F94_5IBO_H0s20Xuz9jjy_%2Foriginal.JPG&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2FGfCTqprlcqO4mVQc6FsXF%2Foriginal.JPG&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2F6fmQr2Oe89Khult2cZvZb%2Foriginal.JPG&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2FTc479St_oFyzjtK1g3HWU%2Foriginal.jpg&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2FnNM1xO2Feu2v7xYX36Vxr%2Foriginal.JPG&amp;amp;avatar=https%3A%2F%2Fcdn.pego.dev%2Favatars%2FgS3WS6UzT1eHYBDnjYXvwwNUSWwrPxAL%2FivKiZZH8KS22hKm45c6KF.jpg" alt="Peter's journal" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And you can create yours here:&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://moments.im'&gt;moments.im&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you already like Bear and you also have a quiet pile of photos sitting somewhere, I would love for you to try it.&lt;/p&gt;
+&lt;p&gt;Questions, suggestions, rough feedback, bug reports, or just thoughts are all welcome.&lt;/p&gt;
+&lt;p&gt;You can reach me at:&lt;/p&gt;
+&lt;p&gt;&lt;a href='mailto:pepegombos@gmail.com'&gt;pepegombos@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Your photos do not need to become content.&lt;/p&gt;
+&lt;p&gt;Maybe they just need a home.&lt;/p&gt;
+</content>
+    <link href="https://pego.dev/i-wanted-bear-blog-but-for-my-photos/" rel="alternate"/>
+    <published>2026-06-16T10:14:00+00:00</published>
   </entry>
   <entry>
     <id>https://pompomette.bearblog.dev/we-should-be-having-parades-about-the-fact-that-clean-water-comes-out-of-the-sink/</id>
@@ -78,22 +128,6 @@ If you don’t, are you unsure how to learn?&lt;/p&gt;
     <published>2026-06-14T14:53:00+00:00</published>
   </entry>
   <entry>
-    <id>https://slowsongs.bearblog.dev/this-is-probably-about-you/</id>
-    <title>this is (probably) about you.</title>
-    <updated>2026-06-14T13:34:00+00:00</updated>
-    <author>
-      <name>slowsongs</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;There are so many people here writing such beautiful things. So many poets and painters and programmers and tellers of their own personal truth that move me. Sometimes there's a guestbook or an email address that makes it possible for me to say so in a place it might be seen. Just as often, there's no way to connect, and all my words die in the womb.&lt;/p&gt;
-&lt;p&gt;I guess I've never wanted to be a quiet voice in the void. There's always been this hope of hearing someone else singing at the end of the hall, however distant they might be. Most of the time I end up singing to myself. Trying to find a melody that feels like synergy to me.&lt;/p&gt;
-&lt;p&gt;A lot of the connective tissue of life is just this: a series of near-misses and moments of grace that are stumbled into as often as they're built by our own hands and heads and hearts. As bittersweet as that can be, maybe it wouldn't mean so much if we struck gold every time we tossed a stone in the stream and hoped to see it hit something more than our own face reflected and refracted by the same soup that spawned us.&lt;/p&gt;
-&lt;p&gt;If you're reading this, chances are I love what you do. Even if it's just having the courage to be yourself in a world that's largely forgotten what a gift that is.&lt;/p&gt;
-</content>
-    <link href="https://slowsongs.bearblog.dev/this-is-probably-about-you/" rel="alternate"/>
-    <published>2026-06-14T13:34:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://mrmarket.lol/zen-and-the-art-of-being-a-mid-skater/</id>
     <title>Zen and the art of being a mid skater</title>
     <updated>2026-06-14T13:58:00+00:00</updated>
@@ -113,6 +147,22 @@ If you don’t, are you unsure how to learn?&lt;/p&gt;
 </content>
     <link href="https://mrmarket.lol/zen-and-the-art-of-being-a-mid-skater/" rel="alternate"/>
     <published>2026-06-14T13:58:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://slowsongs.bearblog.dev/this-is-probably-about-you/</id>
+    <title>this is (probably) about you.</title>
+    <updated>2026-06-14T13:34:00+00:00</updated>
+    <author>
+      <name>slowsongs</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;There are so many people here writing such beautiful things. So many poets and painters and programmers and tellers of their own personal truth that move me. Sometimes there's a guestbook or an email address that makes it possible for me to say so in a place it might be seen. Just as often, there's no way to connect, and all my words die in the womb.&lt;/p&gt;
+&lt;p&gt;I guess I've never wanted to be a quiet voice in the void. There's always been this hope of hearing someone else singing at the end of the hall, however distant they might be. Most of the time I end up singing to myself. Trying to find a melody that feels like synergy to me.&lt;/p&gt;
+&lt;p&gt;A lot of the connective tissue of life is just this: a series of near-misses and moments of grace that are stumbled into as often as they're built by our own hands and heads and hearts. As bittersweet as that can be, maybe it wouldn't mean so much if we struck gold every time we tossed a stone in the stream and hoped to see it hit something more than our own face reflected and refracted by the same soup that spawned us.&lt;/p&gt;
+&lt;p&gt;If you're reading this, chances are I love what you do. Even if it's just having the courage to be yourself in a world that's largely forgotten what a gift that is.&lt;/p&gt;
+</content>
+    <link href="https://slowsongs.bearblog.dev/this-is-probably-about-you/" rel="alternate"/>
+    <published>2026-06-14T13:34:00+00:00</published>
   </entry>
   <entry>
     <id>https://blog.spu.io/buying-coffee-has-become-controversial-ok-you-can-now-buy-me-coffee/</id>
@@ -223,6 +273,23 @@ Either way, the site feels inhabited. It's a little space on the internet where 
     <published>2026-06-15T19:42:00+00:00</published>
   </entry>
   <entry>
+    <id>https://alieniloquy.bearblog.dev/coffee-through-divine-intervention/</id>
+    <title>Coffee Through Divine Intervention</title>
+    <updated>2026-06-14T14:06:00+00:00</updated>
+    <author>
+      <name>alieniloquy</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;For the past two years or so, I've been mistakenly getting emails from a church somewhere in Virginia. I've never been to this town, let alone this church. (For the record, I'm not really religious either, haven't been to church since I was a kid). It looks like its somewhere out near the Blue Ridge Mountains, and I'm still not sure how they accidentally got my email. My guess is that someone who is part of that church has a very similar name or something. Anyways, for these past two years, I've been politely writing the pastor and informing him that he has the wrong email and I would appreciate being taken off the list. Every time, he replies with something along the lines of "I'm so sorry, I'm trying to figure out how to get you out of my computer". Its only a light annoyance, as they all go to an email account I don't really use anymore, so I don't really care either way, but more and more I just feel for him, as I watch him clearly struggle to figure out how to do something that I think is so simple.&lt;/p&gt;
+&lt;p&gt;So when I received another of these emails the other day, to my surprise, it came in the form of a gift. I was certain it was spam at first, and was hesitant to look at it, but when I deduced that it was in fact real, and came from a real address, found a $25 Starbucks digital gift card with the note &lt;em&gt;Thank you for your patience, I can't seem to get you out of my computer!&lt;/em&gt; Just for fun, because I still didn't believe it was real, I decided to go to the Starbucks down the street from my apartment (something I &lt;em&gt;never&lt;/em&gt; do, as I've always been pretty anti-Starbucks) and try to use it. I picked out 2 lbs of coffee, about $30 worth, and brought them up to the barista to pay for them. I noticed immediately that the barista's name was also Sam, which felt uncanny, a good sign of some sort. I kept my story of coffee through divine intervention to myself though, and just hoped that this digital gift card would work. It did. I ended up paying the difference of $4 or so, and wrote back this pastor thanking him for the gift.&lt;/p&gt;
+&lt;p&gt;Now I'm sipping the special 1971 roast from Starbucks, and thinking about my entire life as a barista, delivery person for roasters, all the years I spent being very pretentious about my coffee, and remembering drinking very similar tasting Starbucks coffee and Peets coffee in my pre-barista teen years in the 2000s. It feels very much like I've come full circle, and now, especially with the price of coffee being out of control and every specialty roaster doing their own takes on the latest trends like &lt;em&gt;anaerobic naturals&lt;/em&gt; and various new processes to make &lt;em&gt;decaf&lt;/em&gt; coffees excellent, I have a rekindled appreciation for just buying a bunch of relatively cheap coffee, and enjoying it at home on a weekend, off from work, feeling generally like I did 15 or 20 years ago.&lt;/p&gt;
+&lt;p&gt;I won't go on about why I love cheap coffee, because well, &lt;a href="https://alieniloquy.bearblog.dev/whyilovecheapcoffee/"&gt;I already did&lt;/a&gt;, but felt this was a really interesting story to share. I no longer feel annoyance from getting these emails from this unknown church somewhere in the foothills of the mountains of Virginia. When I see the emails now, I'll feel a little less annoyed and a little more grateful knowing that this is a congregation of probably pretty decent people, and I'll remember when he graciously bought my coffee for a good few weeks.&lt;/p&gt;
+&lt;p&gt;Let's be easier with each other. Let's remember that even though something is easy for us, like taking a name mistakenly added to an email list off said list, someone else may feel like that is akin to pushing a Sisyphean boulder up a mountain.&lt;/p&gt;
+</content>
+    <link href="https://alieniloquy.bearblog.dev/coffee-through-divine-intervention/" rel="alternate"/>
+    <published>2026-06-14T14:06:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://sususol.bearblog.dev/i-dont-know-how-to-be-creative/</id>
     <title>i don't know how to be creative</title>
     <updated>2026-06-13T01:01:25.051769+00:00</updated>
@@ -321,23 +388,6 @@ Either way, the site feels inhabited. It's a little space on the internet where 
 </content>
     <link href="https://forkingmad.blog/call-me-sarah/" rel="alternate"/>
     <published>2026-06-12T12:01:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://alieniloquy.bearblog.dev/coffee-through-divine-intervention/</id>
-    <title>Coffee Through Divine Intervention</title>
-    <updated>2026-06-14T14:06:00+00:00</updated>
-    <author>
-      <name>alieniloquy</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;For the past two years or so, I've been mistakenly getting emails from a church somewhere in Virginia. I've never been to this town, let alone this church. (For the record, I'm not really religious either, haven't been to church since I was a kid). It looks like its somewhere out near the Blue Ridge Mountains, and I'm still not sure how they accidentally got my email. My guess is that someone who is part of that church has a very similar name or something. Anyways, for these past two years, I've been politely writing the pastor and informing him that he has the wrong email and I would appreciate being taken off the list. Every time, he replies with something along the lines of "I'm so sorry, I'm trying to figure out how to get you out of my computer". Its only a light annoyance, as they all go to an email account I don't really use anymore, so I don't really care either way, but more and more I just feel for him, as I watch him clearly struggle to figure out how to do something that I think is so simple.&lt;/p&gt;
-&lt;p&gt;So when I received another of these emails the other day, to my surprise, it came in the form of a gift. I was certain it was spam at first, and was hesitant to look at it, but when I deduced that it was in fact real, and came from a real address, found a $25 Starbucks digital gift card with the note &lt;em&gt;Thank you for your patience, I can't seem to get you out of my computer!&lt;/em&gt; Just for fun, because I still didn't believe it was real, I decided to go to the Starbucks down the street from my apartment (something I &lt;em&gt;never&lt;/em&gt; do, as I've always been pretty anti-Starbucks) and try to use it. I picked out 2 lbs of coffee, about $30 worth, and brought them up to the barista to pay for them. I noticed immediately that the barista's name was also Sam, which felt uncanny, a good sign of some sort. I kept my story of coffee through divine intervention to myself though, and just hoped that this digital gift card would work. It did. I ended up paying the difference of $4 or so, and wrote back this pastor thanking him for the gift.&lt;/p&gt;
-&lt;p&gt;Now I'm sipping the special 1971 roast from Starbucks, and thinking about my entire life as a barista, delivery person for roasters, all the years I spent being very pretentious about my coffee, and remembering drinking very similar tasting Starbucks coffee and Peets coffee in my pre-barista teen years in the 2000s. It feels very much like I've come full circle, and now, especially with the price of coffee being out of control and every specialty roaster doing their own takes on the latest trends like &lt;em&gt;anaerobic naturals&lt;/em&gt; and various new processes to make &lt;em&gt;decaf&lt;/em&gt; coffees excellent, I have a rekindled appreciation for just buying a bunch of relatively cheap coffee, and enjoying it at home on a weekend, off from work, feeling generally like I did 15 or 20 years ago.&lt;/p&gt;
-&lt;p&gt;I won't go on about why I love cheap coffee, because well, &lt;a href="https://alieniloquy.bearblog.dev/whyilovecheapcoffee/"&gt;I already did&lt;/a&gt;, but felt this was a really interesting story to share. I no longer feel annoyance from getting these emails from this unknown church somewhere in the foothills of the mountains of Virginia. When I see the emails now, I'll feel a little less annoyed and a little more grateful knowing that this is a congregation of probably pretty decent people, and I'll remember when he graciously bought my coffee for a good few weeks.&lt;/p&gt;
-&lt;p&gt;Let's be easier with each other. Let's remember that even though something is easy for us, like taking a name mistakenly added to an email list off said list, someone else may feel like that is akin to pushing a Sisyphean boulder up a mountain.&lt;/p&gt;
-</content>
-    <link href="https://alieniloquy.bearblog.dev/coffee-through-divine-intervention/" rel="alternate"/>
-    <published>2026-06-14T14:06:00+00:00</published>
   </entry>
   <entry>
     <id>https://nataliewrites.lol/take-pride-in-your-neighborhood/</id>
@@ -513,24 +563,6 @@ Either way, the site feels inhabited. It's a little space on the internet where 
     <published>2026-06-11T21:07:00+00:00</published>
   </entry>
   <entry>
-    <id>https://robertbirming.com/blogging-daily-easier/</id>
-    <title>Why blogging daily feels easier</title>
-    <updated>2026-06-11T14:54:00+00:00</updated>
-    <author>
-      <name>robert</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Today it was time again. A task at work I only do like once every three months.&lt;/p&gt;
-&lt;p&gt;I always feel a bit uncomfortable doing it. Partly because it involves a lot of secrecy, but mainly because I don't do it regularly.&lt;/p&gt;
-&lt;p&gt;It never becomes routine. It's like starting all over again each time. If I did it daily, or at least a couple of times a week, it would be a whole different story.&lt;/p&gt;
-&lt;p&gt;That's why I write every day. It's easier.&lt;/p&gt;
-&lt;p&gt;I write like it's meant to be a blog post. It doesn't always turn out that way, but the intent makes me more motivated to write. I also feel that it makes the writing more thoughtful.&lt;/p&gt;
-&lt;p&gt;It sounds weird. Writing a daily blog post being easier than writing every now and then with no pressure of anyone reading it. But it is, at least for me.&lt;/p&gt;
-</content>
-    <link href="https://robertbirming.com/blogging-daily-easier/" rel="alternate"/>
-    <published>2026-06-11T14:54:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://blog.avas.space/digital-remains/</id>
     <title>let's talk about your digital remains!</title>
     <updated>2026-06-15T15:50:00+00:00</updated>
@@ -583,34 +615,21 @@ Published &lt;time datetime="2026-06-15T15:50Z"&gt;
     <published>2026-06-15T15:50:00+00:00</published>
   </entry>
   <entry>
-    <id>https://robertbirming.com/junited-buttons-collection/</id>
-    <title>Junited buttons collection</title>
-    <updated>2026-06-14T09:20:00+00:00</updated>
+    <id>https://robertbirming.com/blogging-daily-easier/</id>
+    <title>Why blogging daily feels easier</title>
+    <updated>2026-06-11T14:54:00+00:00</updated>
     <author>
       <name>robert</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;I thought it would be nice to have some of those lovely old-school 88×31 pixel web buttons for those of you taking part in Junited 2026. You can still join if you want to.&lt;/p&gt;
-&lt;p&gt;Since it's the third time I'm running this annual blogging event, I also included buttons for 2024 and 2025. A different color each year, like music recaps. A fun little keepsake and a friendly nudge to keep coming back.&lt;/p&gt;
-&lt;p&gt;I've also included a bunch of evergreen ones. Here's the complete collection. I hope you find something that fits your taste.&lt;/p&gt;
-&lt;h4 id=yearly&gt;Yearly&lt;/h4&gt;&lt;div style="display:flex;flex-wrap:wrap;gap:8px;"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-24.svg" alt="Junited 2024 participant badge" width="88" height="31"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-25.svg" alt="Junited 2025 participant badge" width="88" height="31"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-26.svg" alt="Junited 2026 participant badge" width="88" height="31"&gt;
-&lt;/div&gt;
-&lt;h4 id=evergreen&gt;Evergreen&lt;/h4&gt;&lt;div style="display:flex;flex-wrap:wrap;gap:8px;"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-twotone.svg" alt="Junited badge" width="88" height="31"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-sunny.svg" alt="Junited badge" width="88" height="31"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-dark.svg" alt="Junited badge" width="88" height="31"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-gradient.svg" alt="Junited badge" width="88" height="31"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-stamp.svg" alt="Junited badge" width="88" height="31"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-terminal.svg" alt="Junited badge" width="88" height="31"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-rainbow.svg" alt="Junited badge" width="88" height="31"&gt;
-  &lt;img style="display:inline-block;margin:0;border-radius:0;height:31px;" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/robert/junited-rainbow-letters.svg" alt="Junited badge" width="88" height="31"&gt;
-&lt;/div&gt;
-&lt;p&gt;Happy blogging and sharing!&lt;/p&gt;
+    <content type="html">&lt;p&gt;Today it was time again. A task at work I only do like once every three months.&lt;/p&gt;
+&lt;p&gt;I always feel a bit uncomfortable doing it. Partly because it involves a lot of secrecy, but mainly because I don't do it regularly.&lt;/p&gt;
+&lt;p&gt;It never becomes routine. It's like starting all over again each time. If I did it daily, or at least a couple of times a week, it would be a whole different story.&lt;/p&gt;
+&lt;p&gt;That's why I write every day. It's easier.&lt;/p&gt;
+&lt;p&gt;I write like it's meant to be a blog post. It doesn't always turn out that way, but the intent makes me more motivated to write. I also feel that it makes the writing more thoughtful.&lt;/p&gt;
+&lt;p&gt;It sounds weird. Writing a daily blog post being easier than writing every now and then with no pressure of anyone reading it. But it is, at least for me.&lt;/p&gt;
 </content>
-    <link href="https://robertbirming.com/junited-buttons-collection/" rel="alternate"/>
-    <published>2026-06-14T09:20:00+00:00</published>
+    <link href="https://robertbirming.com/blogging-daily-easier/" rel="alternate"/>
+    <published>2026-06-11T14:54:00+00:00</published>
   </entry>
 </feed>
