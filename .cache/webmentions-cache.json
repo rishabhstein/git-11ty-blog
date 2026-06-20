@@ -98,6 +98,42 @@
       "contentText": "",
       "title": "AI Blog Question Challenge",
       "siteName": "thomasrigby.com"
+    },
+    {
+      "authorName": "",
+      "authorUrl": "",
+      "authorPhoto": "",
+      "url": "https://www.bongotwisty.blog/ai_blog_question_challenge/",
+      "type": "mention-of",
+      "target": "https://blog.rishabhps.com/posts/2026-05-28-ai-blog-question-challenge/",
+      "published": "2026-06-16T15:29:44Z",
+      "contentText": "",
+      "title": "AI blog question challenge",
+      "siteName": "Bongo Twisty"
+    },
+    {
+      "authorName": "",
+      "authorUrl": "",
+      "authorPhoto": "",
+      "url": "https://blog.sulimans.space/ai-questionnaire/",
+      "type": "mention-of",
+      "target": "https://blog.rishabhps.com/posts/2026-05-28-ai-blog-question-challenge/",
+      "published": "2026-06-17T07:16:50Z",
+      "contentText": "",
+      "title": "answering the ai questionnaire",
+      "siteName": "suliman's blog"
+    },
+    {
+      "authorName": "",
+      "authorUrl": "",
+      "authorPhoto": "",
+      "url": "https://heychat.bearblog.dev/ai-question-challenge/",
+      "type": "mention-of",
+      "target": "https://blog.rishabhps.com/posts/2026-05-28-ai-blog-question-challenge/",
+      "published": "2026-06-17T23:56:23Z",
+      "contentText": "",
+      "title": "AI Question Challenge",
+      "siteName": "Chatscape"
     }
   ],
   "/movies/1750002672184": [],

@@ -5,13 +5,98 @@
   <link rel="self" type="application/atom+xml" href="https://appaddict.app/feed.atom"/>
   <title>AppAddict</title>
   <subtitle>I emphasize honest, practical reviews from my perspective as a power user and productivity enthusiast — not a marketer I have a particular fondness for the indie Mac scene, privacy-respecting software, open-source tools, and workflow automation. I also cover self-hosting, the de-Googling/de-Apple-ification of digital life, and the art of building efficient Mac workflows with the right combination of small, focused apps. Posts range from single-app deep dives to multi-app roundups, workflow walkthroughs, and developer spotlights. If you're a developer and have an app you'd like me to check out, let me know.</subtitle>
-  <updated>2026-06-01T21:02:01Z</updated>
+  <updated>2026-06-16T16:13:07Z</updated>
   <logo>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWl3QmFRSXNBVG9LYzJGMlpYSjdCem9LYzNSeWFYQlVPZ3h4ZFdGc2FYUjVhV1E9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--d5470907b5b5a357fec32990d4bdb78c827f9472/1024px-App_Store_(iOS).svg.png</logo>
   <icon>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwUldsRk9ncHpZWFpsY25zSE9ncHpkSEpwY0ZRNkRIRjFZV3hwZEhscFpBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--d0a377349dc1eed29878fcae6bec2204e230fc00/1024px-App_Store_(iOS).svg.png</icon>
   <author>
     <name>AppAddict</name>
     <uri>https://appaddict.app</uri>
   </author>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18356</id>
+    <published>2026-06-16T16:13:07Z</published>
+    <updated>2026-06-16T16:13:09Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/supasidebar-boosts-privacy-and-productivity"/>
+    <title>SupaSidebar Boosts Privacy and Productivity</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="SupaSidebar in Action" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL2l1QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e3233b5db8fdcef758567db6c14bcbe5c1ca6e54/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0FBaHBBZ0FHT2dwellYWmxjbnNIT2dwemRISnBjRlE2REhGMVlXeHBkSGxwWkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--fa3dbe24e376882dfd8c9dddfec0441143a8bd41/39977.jpeg" loading="lazy" decoding="async"&gt;
+    &lt;figcaption class="attachment__caption text-center"&gt;
+      SupaSidebar in Action
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Most technically oriented people who value privacy do so because privacy is, and should be, a human right, not because they have something to hide.&lt;/p&gt;
+
+&lt;p&gt;Maintaining privacy in the current technical environment requires a real strategy and almost constant attention to an evolving landscape.&lt;/p&gt;
+
+&lt;p&gt;It is no longer enough to block trackers, ads, and cookies. Browser fingerprinting has become one of the primary privacy-violating mechanisms used by companies that want to identify, profile, and monetize you across the web.&lt;/p&gt;
+
+&lt;p&gt;One strategy many people use is spreading their work across multiple browsers. That has a second benefit: it lets you match the strengths of a particular browser to the task at hand.&lt;/p&gt;
+
+&lt;h3&gt;Privacy and Productivity&lt;/h3&gt;
+
+&lt;p&gt;The downside becomes obvious pretty quickly: you take a real productivity hit when your history, bookmarks, and open tabs are scattered across multiple places.&lt;/p&gt;
+
+&lt;p&gt;There are several tools that try to help with this. The one I like best is &lt;a href="https://supasidebar.com"&gt;SupaSidebar&lt;/a&gt;, by developer Kshetez Vinayak. He stands out for being responsive, helpful, and clearly invested in fixing bugs and expanding the app’s usefulness. I bought SupaSidebar during the 2025 Black Friday sale and have been using it ever since.&lt;/p&gt;
+
+&lt;p&gt;SupaSidebar operates at the OS level. It is not a browser extension. It is built for exactly this use case: people who use multiple browsers and need a way to consolidate browser context without paying a constant productivity tax every time they switch.&lt;/p&gt;
+
+&lt;p&gt;Arc was a favorite of many Mac power users, and for good reason. Although it is still maintained for security, active feature development effectively stopped in early 2025. Arc introduced a genuinely useful way to manage browsing around spaces, context, and workflows. SupaSidebar recreates much of that experience, but does it across multiple browsers instead of inside just one.&lt;/p&gt;
+
+&lt;p&gt;The power of SupaSidebar becomes obvious when you take the time to create spaces that match how you actually work. You might have a space for research, one for personal browsing, one for work, and separate spaces for projects that need to stay isolated.&lt;/p&gt;
+
+&lt;p&gt;Within a space, SupaSidebar aggregates tabs and bookmarks from every supported browser you have open. It pulls in Safari, Chrome, Firefox, Arc, and others. You get a vertical, organized, searchable interface showing your open tabs across browsers.&lt;/p&gt;
+
+&lt;p&gt;If your browser use is simple, the free version may be enough. It supports three spaces. Paid users get unlimited spaces.&lt;/p&gt;
+
+&lt;p&gt;SupaSidebar also has a command panel with fuzzy search across tabs, bookmarks, history, folders, and spaces. It works like a specialized version of Spotlight for your internet life.&lt;/p&gt;
+
+&lt;h3&gt;Features&lt;/h3&gt;
+
+&lt;p&gt;Some of the most useful features include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Recents tab&lt;/strong&gt;&lt;/b&gt;: shows recently visited tabs across browsers, which is useful for recovering something without keeping every tab open and burning RAM&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Multiple ways to save links&lt;/strong&gt;&lt;/b&gt;: right-click, drag-and-drop, command panel, auto-routing rules, and more&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Notes for saved links&lt;/strong&gt;&lt;/b&gt;: add context to a link without leaving the app&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Browser profile linking&lt;/strong&gt;&lt;/b&gt;: connect a space to a specific browser profile so links open in the right place automatically&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;Auto-routing rules&lt;/strong&gt;&lt;/b&gt;: send links to specific spaces or browser profiles based on conditions&lt;/li&gt;
+&lt;li&gt;
+&lt;b&gt;&lt;strong&gt;AI chat mode&lt;/strong&gt;&lt;/b&gt;: integrates with OpenAI, Anthropic, and Gemini directly in the panel, with Markdown rendering and slash commands&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Yes, But...&lt;/h3&gt;
+
+&lt;p&gt;SupaSidebar is still, at its core, a beta app. But it has a clear purpose, it is actively developed, and it solves a real problem that many multi-browser power users have simply learned to tolerate.&lt;/p&gt;
+
+&lt;p&gt;The spaces model gives it more depth than simple tab aggregation. The pricing is also reasonable, and the free tier is actually useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;strong&gt;Free&lt;/strong&gt;&lt;/b&gt;: 0-3 spaces&lt;br&gt;&lt;b&gt;&lt;strong&gt;Pro&lt;/strong&gt;&lt;/b&gt;: $13.99/year with unlimited spaces, early access, and priority support&lt;br&gt;&lt;b&gt;&lt;strong&gt;Lifetime&lt;/strong&gt;&lt;/b&gt;: $34.99 one-time purchase, 5 devices, lifetime updates&lt;/p&gt;
+
+&lt;p&gt;Use &lt;code&gt;BETA30&lt;/code&gt; as a discount code for 30% off both paid options.&lt;/p&gt;
+
+&lt;p&gt;There are bugs and rough edges. I have seen tab synchronization inconsistencies, occasional lag when opening folders, and occasional page reloads when clicking tabs. The command panel also has some edge-case quirks around keyboard navigation.&lt;/p&gt;
+
+&lt;p&gt;But even with those issues, SupaSidebar is one of the more useful workflow apps I have added to my Mac setup recently.&lt;/p&gt;
+
+&lt;p&gt;If you stick with one browser for everything, you probably will not get much out of it. But if you live across Safari, Firefox, Chrome, Arc, and browser profiles, SupaSidebar fills a gap that Apple, Google, and Mozilla have not bothered to solve.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=SupaSidebar%20Boosts%20Privacy%20and%20Productivity" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Most technically oriented people who value privacy do so because privacy is, and should be, a human right, not because they have something to hide.
+
+Maintaining privacy in the current technical environment requires a real strategy and almost constant attention to an evolving landscape.
+
+It is no longer enough to...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
   <entry>
     <id>tag:appaddict.app,2005:Post/18172</id>
     <published>2026-06-01T21:02:01Z</published>
@@ -1355,100 +1440,6 @@ The spring sale for Bundle Hunt doesn't officially open until tomorrow, but I ha
 
 Mac users have a wide...</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/17818</id>
-    <published>2026-04-29T01:29:37Z</published>
-    <updated>2026-04-29T01:29:38Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/tolaria-a-files-first-markdown-app-for-mac-designed-for-git-workflows-and-ai-agents"/>
-    <title>Tolaria: a files-first Markdown app for Mac designed for Git workflows and AI agents</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--png"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" alt="Tolaria" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeUtpQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2110fe116496acd97df7bf106cc5b4fc909dad62/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUNHa0NBQVk2Q25OaGRtVnlld2M2Q25OMGNtbHdWRG9NY1hWaGJHbDBlV2xrIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--768aeab7fb7843d85fe5b2b4ba237e06e6ef604f/tolaria-full-layout.png" loading="lazy" decoding="async"&gt;
-    &lt;figcaption class="attachment__caption text-center"&gt;
-      Tolaria
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;a href="https://tolaria.md"&gt;Tolaria&lt;/a&gt; is a free, open-source desktop app for macOS and Linux built by Luca Rossi, the author of the &lt;i&gt;&lt;em&gt;Refactoring&lt;/em&gt;&lt;/i&gt; newsletter. Rossi created Tolaria to manage his own collection of 10,000+ notes.&lt;/p&gt;
-
-&lt;p&gt;That origin story matters. The feature set feels like it grew out of solving real problems for a real workflow; not something assembled by a product manager or stitched together from an AI roadmap.&lt;/p&gt;
-
-&lt;p&gt;At its core, Tolaria is a very 2026-style Markdown editor; modern, opinionated, and not trying to clone Notion or compete head-on with Obsidian.&lt;/p&gt;
-
-&lt;p&gt;The sweet-spot user is someone who:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Already lives in Markdown and Git&lt;/li&gt;
-&lt;li&gt;Is experimenting with tools like Claude Code or other AI agents in their daily workflow&lt;/li&gt;
-&lt;li&gt;Wants their knowledge base to be part of their AI context instead of isolated from it&lt;/li&gt;
-&lt;li&gt;Treats data portability as a non-negotiable requirement&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;Tolaria’s Core Principles&lt;/h2&gt;
-
-&lt;p&gt;These are deliberate design choices from the developer.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Files-first.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Notes are plain &lt;code&gt;.md&lt;/code&gt; files on disk. No proprietary database; no export step. Open them in BBEdit, Obsidian, Vim, or anything else that understands Markdown.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Git-first.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;Every vault is a Git repository. You get full version history and can push to any remote you like. There are no Tolaria servers; the app doesn’t depend on one.&lt;/p&gt;
-
-&lt;p&gt;That alone sets it apart from a lot of the field.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Offline-first, zero lock-in.&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;No account. No subscription. The vault works completely offline.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;strong&gt;Open source (AGPL-3.0).&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;The code lives on GitHub. You can read it, fork it, and run your own build if you want.&lt;/p&gt;
-
-&lt;h2&gt;What It’s Not&lt;/h2&gt;
-
-&lt;p&gt;Tolaria is not trying to be Notion.&lt;/p&gt;
-
-&lt;p&gt;There’s no relational database layer, no property-driven schemas, and no team collaboration platform. That trade-off is intentional; those features usually come with heavier infrastructure and less portability.&lt;/p&gt;
-
-&lt;p&gt;It also doesn’t have anything close to Obsidian’s plugin ecosystem. If your workflow depends on dozens of community plugins, Tolaria probably isn’t ready to replace Obsidian yet. It’s a younger, more focused tool.&lt;/p&gt;
-
-&lt;p&gt;Another practical detail: it runs on Mac and Linux only; there’s no Windows version. For some people that’s a dealbreaker. For others, it’s perfectly fine.&lt;/p&gt;
-
-&lt;h2&gt;AI Support and Integration&lt;/h2&gt;
-
-&lt;p&gt;This is where Tolaria earns its “second brain for the AI era” tagline.&lt;/p&gt;
-
-&lt;p&gt;Instead of bolting on a chat sidebar, the app treats your knowledge vault as something AI agents can actually work with.&lt;/p&gt;
-
-&lt;p&gt;Tolaria includes built-in support for tools like Claude Code, Codex CLI, and Gemini CLI. It automatically generates a shared &lt;code&gt;AGENTS.md&lt;/code&gt; file in the vault root. That file explains the structure and conventions of your notes, and every supported AI tool reads the same one.&lt;/p&gt;
-
-&lt;p&gt;The practical benefit: you maintain a single source of truth for how your vault is organized instead of writing separate instructions for each model you’re experimenting with.&lt;/p&gt;
-
-&lt;p&gt;Tolaria also runs a local MCP (Model Context Protocol) server. When you connect an external AI tool, your vault is registered as a structured context source that the agent can query directly.&lt;/p&gt;
-
-&lt;p&gt;Most “AI-enabled” note apps just add a chat window. Tolaria takes a different approach: it lets AI agents navigate and operate on the vault itself using standard protocols.&lt;/p&gt;
-
-&lt;p&gt;There are also vault-level permission modes, so agents don’t automatically get full write access to your notes.&lt;/p&gt;
-
-&lt;h2&gt;Power-User Bonus Feature&lt;/h2&gt;
-
-&lt;p&gt;Tolaria clearly targets people who prefer keyboards over mice.&lt;/p&gt;
-
-&lt;p&gt;The Command Palette is central to the workflow, and the editor is designed around keyboard navigation. If you spend time in tools like Raycast, Keyboard Maestro, or VS Code, the design philosophy will feel familiar.&lt;/p&gt;
-
-&lt;p&gt;This is the difference between a command palette that drives the interface and one that feels bolted on as an afterthought.&lt;/p&gt;
-
-&lt;h2&gt;Availability and Pricing&lt;/h2&gt;
-
-&lt;p&gt;Tolaria is free and open source.&lt;/p&gt;
-
-&lt;p&gt;You can download it from &lt;a href="https://tolaria.md"&gt;tolaria.md&lt;/a&gt; or build it yourself from the GitHub repository.&lt;/p&gt;
-
-&lt;p&gt;No subscription. No account. No catch.&lt;/p&gt;
-
-&lt;p&gt;Hat tip to &lt;a href="https://labnotes.org/weekend-reading-dream-of-bigger-things/?ref=labnotes-by-assaf-arkin-newsletter"&gt;Labnotes&lt;/a&gt; for once again, being the first to write about a new tool&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Tolaria:%20a%20files-first%20Markdown%20app%20for%20Mac%20designed%20for%20Git%20workflows%20and%20AI%20agents" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>Tolaria is a free, open-source desktop app for macOS and Linux built by Luca Rossi, the author of the Refactoring newsletter. Rossi created Tolaria to manage his own collection of 10,000+ notes.
-
-That origin story matters. The feature set feels like it grew out of solving real problems for a...</summary>
     <author>
       <name>Lou Plummer</name>
       <uri>https://appaddict.app</uri>

@@ -6,13 +6,100 @@
     <link>https://zacharykai.net/</link>
     <description>Notes from the People and Blogs series on zacharykai.net.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jun 2026 16:40:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 03:27:41 +0000</lastBuildDate>
     <atom:link href="https://zacharykai.net/assets/files/feeds/pb.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://zacharykai.net/assets/icon.png</url>
       <title>People and Blogs — Zachary Kai</title>
       <link>https://zacharykai.net/</link>
     </image>
+    <item>
+      <title>People and Blogs: Edoardo</title>
+      <link>https://zacharykai.net/notes/pb/edoardo</link>
+      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Edoardo. Do go visit their blog and say...</description>
+      <content:encoded><![CDATA[<section class="e-content">
+
+                <!-- Introduction -->
+                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Edoardo. Do go visit <a href="https://edoardob.blog" rel="noopener">their blog</a> and say hello!</em></p>
+
+                <!-- Interview -->
+                <section>
+                    <h2>Interview</h2>
+
+                    <section>
+                        <h3>Let's start from the basics: can you introduce yourself?</h3>
+                        <p>Hello! I'm Edoardo, in my thirties, born near Milan (Italy) and raised in the Alps of the same region, to escape the boredom of too flat a horizon. I studied physics, first in Milan, then abroad in Switzerland, where I spent a little over four years on a PhD that convinced me academic research wasn't for me &ndash; or so I thought, since I didn't stray too far. In the following years I became a "research software engineer", meaning a software developer who works closely with research. It took me a while to realize that, despite the many benefits, that work had become a routine I was taking too much for granted. Or better: I had lost sight of <em>why</em> I was staying there; why I kept choosing that <em>configuration</em> for my life. Now I'm trying to figure out if teaching the two subjects I'm most passionate about &ndash; math and physics &ndash; is what I want to do in the next chapter of my career.</p>
+                        <p>I can never get enough of hiking in the mountains, especially over multiple days &ndash; as long as my body agrees. And sharing an experience with other people who love the same thing is my ideal vacation. Books, writing &ndash; I don't know how many experiments with novels and short stories I've done over the years &ndash; and puzzles of all kinds (including programming challenges, even though I'm a particularly slow coder) are some of the activities that can easily fill my free time.</p>
+                    </section>
+
+                    <section>
+                        <h3>What's the story behind your blog?</h3>
+                        <p>Having always loved tinkering with computers, I think I started writing random things online quite early. If I remember correctly, it was on LiveJournal or MySpace, prehistoric stuff now. I discovered WordPress during high school, following a guy from my same school who wrote ironic essays on philosophy topics. I tried to emulate that model, but I didn't get very far as it wasn't my thing. Years later, with some friends fond of cinema, again on WordPress, I started a collective blog where we wrote our opinions on the movies we watched, often together. The name of the blog &ndash; <em>Sweet Sue and Her Society Syncopators</em> &ndash; was a tribute to a classic 50s American comedy. (I'll let you work that one out.)</p>
+                        <p>During my PhD, I collaborated on and managed the university cinema club's blog. At the time, however, I also started publishing my very personal ideas on books and movies on another blog, whose name or domain I honestly don't even remember now. I think I tried to recover something from that blog via the Wayback Machine, with no success.</p>
+                        <p>Fast-forward several years, I realized why none of those blogs had survived: I was writing <em>on commission</em> &ndash; I loved the perk of press screenings, but writing something afterwards was non-negotiable. Or I was performing for some imagined audience by covering whatever was trending, not what I actually cared about. I could say that my personal blog was born when I decided that my online space would be <em>only</em> a public personal journal: the only rule was to write about what interested me the most, in the way that felt most natural. This is still the reason behind my current blog. How long is it going to survive? I don't know. It did well, so far, with ups and downs.</p>
+                    </section>
+
+                    <section>
+                        <h3>What does your creative process look like when it comes to blogging?</h3>
+                        <p>Beyond my hiking recaps, almost everything I write starts from curiosity &ndash; a science-based question ("if I ate an apple a day for a year, how many kg of peel could I accumulate?"), something I want to understand well enough to explain, a brain teaser that sometimes keeps me awake. Since it's often something I don't know, a research phase almost always follows &ndash; and I admit that, sometimes, it derails my intention to write. I keep a dedicated note for each idea, where I track its evolution. When I feel like I've reached a conclusion of sorts, I then sketch out a structure and use it as a guide for the first draft. Curiously, all my notes are in English, but the first draft of anything I write is always in Italian. Then I translate into English, and very often rewrite some parts that don't flow very well in the other language. And yes, I often use Claude for a final proofread: I've given it strict instructions on what it can and can't touch, and how. The content is always mine, and I'm careful to keep it that way: I don't want to end up with a voice I no longer recognize as my own.</p>
+                        <p>As for the tools, my personal notes live in an Obsidian vault &ndash; because they <em>must</em> be plain text files &ndash; and I write all my drafts almost exclusively in iA Writer. It's been my first choice for many writing projects, at least in their early stages. One feature I particularly love is its support for <a href="https://ia.net/writer/support/editor/authorship" rel="noopener">authorship</a>, without violating the plain text pact.</p>
+                    </section>
+
+                    <section>
+                        <h3>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h3>
+                        <p>When I sit down to write the first draft, I have only one need: to be alone in a fairly quiet environment. Honestly, I've never tried writing in a public place, like a caf&eacute; &ndash; and the few times I did write on a train, it was surely due to a deadline I couldn't avoid.</p>
+                        <p>As far as I'm concerned, it's more the act of moving through space that stimulates what I might call <em>creative thinking</em> &ndash; which I take to mean <em>authentic</em> rather than <em>original</em>, as in "totally new". And I'm also convinced that the environment influences my creativity, but I couldn't say how or why. Often I've only realized much later that I had visited an environment from which I returned with ideas I considered <em>creative</em> &ndash; whether these didn't go very far is another, unresolved story.</p>
+                    </section>
+
+                    <section>
+                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
+                        <p>I think I've tried dozens of frameworks to create a blog, starting with the large family of static-site generators. After several attempts, intrigued by some input from Manu, I gave Kirby a chance and discovered that it met all my needs. One above all: my blog's content must be in plain text, as I don't want to deal with any kind of problem taking it with me, wherever it might be in the future. So, for the moment: Kirby CMS, hosted on a fairly basic server managed by Hetzner. The domain is registered on Porkbun, and the DNS is managed by Cloudflare. I've also written a dozen custom plugins to tweak many aspects of my website because, for me, tinkering with the mechanics of a personal blog is part of the joy of having one. I just can't resist &ndash; and I keep telling myself "tinker less, write more".</p>
+                    </section>
+
+                    <section>
+                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
+                        <p>I would probably study web design and web technologies properly from the start &ndash; I mostly stumbled into this stuff through my day job. I say this to avoid having to settle for some preconfigured service that isn't right for me.</p>
+                        <p>I would love to have a domain like <code>firstname.blog</code>, but the problem isn't availability so much as the popularity of my name. And, honestly, I'm not ready to pay $200 a year for a personal website.</p>
+                    </section>
+
+                    <section>
+                        <h3>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h3>
+                        <p>The maintenance costs for my blog are quite low: 4&euro; and something a month for the server, plus the annual cost of the domain &ndash; about 20&euro;. Kirby CMS requires a one-time license (100&euro;, renewed every four years), and this is the only expense I periodically re-evaluate: the moment it no longer aligns with my needs, I will have no problem planning a migration elsewhere. In fact, I've already done it several times as a <em>stress test</em>, but for now I don't feel the need to.</p>
+                        <p>My website generates no revenue, nor have I ever tried to make it do so. Personally, I have nothing against monetising a personal website, provided it's done honestly. If I were to do it, I probably wouldn't rely on platforms like Substack &ndash; only because I like building things myself. Even today I financially support some blogs because I believe in the work of the people behind them &ndash; or to give a friend a small nudge to keep going.</p>
+                    </section>
+
+                    <section>
+                        <h3>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h3>
+                        <p>A good part of the blogs I follow, or like to return to from time to time, I discovered thanks to "People &amp; Blogs" &ndash; or through <a href="https://blogroll.org" rel="noopener">"Ye Olde Blogroll"</a>. I think it's unlikely that anyone reading this page doesn't know either of them; but if that's the case, I invite you to take a look, exploring even the older, less obvious stuff.</p>
+                        <p>I want to mention a friend's project, halfway between a personal blog and a photography portfolio, that <a href="https://staystaystay.substack.com/p/impermanence-15e" rel="noopener">I had the pleasure of contributing to</a>. I'm very fond of it: partly for my friendship with the author, and partly because it circles a theme that has quietly followed me for years: the sense of belonging to a place, or to multiple places; the idea, the concept, the experience of what we call <em>home</em>. The project is <a href="https://staystaystay.substack.com" rel="noopener">"Stay Stay Stay"</a> by Elettra Pistoni: if you're not into reading about this topic, her pictures are well worth a look. I also think she would more than gladly welcome the opportunity for this interview, but I'll leave the decision to those in charge.</p>
+                        <p>I've lost count of how many newsletters or feeds I've subscribed to over the years, and it doesn't really matter. I've reached the point where the list of online content I follow consistently has no more than ten items. Among these, two blogs and a newsletter (in Italian) that I return to quite regularly, even to reread older things:</p>
+                        <ul>
+                            <li><a href="https://usefulfictions.substack.com" rel="noopener">"Useful Fictions"</a> by Cate Hall</li>
+                            <li><a href="https://jvns.ca" rel="noopener">Julia Evans</a>'s blog, a trove for tech enthusiasts</li>
+                            <li>The newsletter <a href="https://itsfridayimnotinlove.substack.com" rel="noopener">"It's Friday I'm (not) in love"</a>, partly inspired by "Modern Love", the New York Times' well-known column.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Final question: is there anything you want to share with us?</h3>
+                        <p>I'll take this as a cue to share a bit of what's going through my head &ndash; two thoughts and a side project that will maybe see the light someday.</p>
+                        <ul>
+                            <li>Whenever I feel like telling someone "I don't have time", I stop and remind myself that it's almost never true. In fact, never. It's just my fear of making a commitment, or a lack of courage to admit what I really care about. I try never to hide behind this excuse with the people I really care about, because they don't deserve it. <a href="https://edoardob.blog/i-have-no-time" rel="noopener">I've also written a short post about it</a>.</li>
+                            <li>This could be one of my <em>guiding tenets</em>, because I haven't been able to refute it yet: <em>"Actions, not words, reveal our real values"</em>. <a href="https://sive.rs/arv" rel="noopener">It's not mine</a>, and I often struggle to accept it myself. But I'm convinced that if we actually lived by it, we would have far more genuine and satisfying relationships with other people &ndash; in whatever sense you want to take that.</li>
+                            <li>Being a hiker obsessed with traveling light, I started working on an app (web only to begin with) that lets me keep track of my gear and which items I decide to bring on each trip. Dozens of these tools already exist, but this is <em>my vision</em> of what I'd want such an app to do. I called it "Baseweight", and I hope to have an alpha version out in the near future. If someone is curious, the app's future home will be at <a href="https://baseweight.my" rel="noopener">baseweight.my</a>. And if you'd like to share your thoughts on it, <a href="https://edoardob.blog/contact" rel="noopener">don't hesitate to reach out</a>! Opinions and suggestions are especially welcome at this early stage.</li>
+                        </ul>
+                        <p>Finally, a heartfelt thanks to Manu for offering me the opportunity to share a bit of myself with this community!</p>
+                    </section>
+                </section>
+
+                <!-- Closing -->
+                <p>&bull;--&#9825;--&bull;</p>
+
+            </section>
+]]></content:encoded>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/pb/edoardo</guid>
+    </item>
     <item>
       <title>People and Blogs: Carl Barenbrug</title>
       <link>https://zacharykai.net/notes/pb/carl</link>
@@ -2088,108 +2175,6 @@
 ]]></content:encoded>
       <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://zacharykai.net/notes/pb/belvadi</guid>
-    </item>
-    <item>
-      <title>People and Blogs: Lars-Christian Simonsen</title>
-      <link>https://zacharykai.net/notes/pb/lars</link>
-      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Lars-Christian Simonsen. Do go visit th...</description>
-      <content:encoded><![CDATA[<section class="e-content">
-
-                <!-- Introduction -->
-                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Lars-Christian Simonsen. Do go visit <a href="https://lars-christian.com" rel="noopener">their blog</a> and say hello!</em></p>
-
-                <!-- Interview -->
-                <section>
-                    <h2>Interview</h2>
-
-                    <section>
-                        <h3>Let's start from the basics: can you introduce yourself?</h3>
-                        <p>My name is Lars-Christian Simonsen. I'm a guy in my twenties. No wait, thirties? Actually let's just scratch that part. I was born and raised on <a href="https://en.wikipedia.org/wiki/Senja" rel="noopener">an island</a> deep inside the Arctic circle. Up there, I spent the first quarter century of my life, before relocating to the Norwegian capital, Oslo, while looking for work after getting a degree in finance and business administration.</p>
-                        <p>There was also a girl and that girl is now my wife. As she was less than excited about the prospect of settling down somewhere where the number of what she considers a warm summer day per season is typically counted on one hand, and the dark days of winter seemingly never end, I simply could not convince her to move back north with me. Instead, we hopped on a train and found a quiet suburban neighbourhood when we were ready to settle down. A decade later, we're still here and we're raising two children in this community. We've concluded it was a good compromise.</p>
-                        <p>My days revolve around the aforementioned children, and juggling keeping them alive and content (tall ask, but we aim high) with a nine-to-five and trying to find some time for other things I enjoy. This includes, but is not limited to, running, reading and writing. I also enjoy being outside in nature, hiking and camping in the mountains in particular. Alas, I don't find nearly enough time for it. In an attempt to compensate, I double down on exercise and reading, and try to spend around at least half an hour on each every day.</p>
-                    </section>
-
-                    <section>
-                        <h3>What's the story behind your blog?</h3>
-                        <p>Circa 1995 my dad took me to a newly opened local internet caf&eacute;. It was the first time I went online, and I was hooked. A couple years later we got a state of the art ISDN line installed in our house. Back then we paid for usage by the "call unit" (the Norwegian term "tellerskritt", which translates literally to "counter steps", is far more memorable) and there were months where I wasn't looking forward to the day the bill dropped into our (physical) mailbox. My life as a chronically online person was underway.</p>
-                        <p>Hanging out in local IRC channels, moderated by our community tech gurus, it didn't take long before I was inspired to make my own website. The year was 1998, and I used a program like FrontPage or some such to get my very first personal site online. Domains were expensive back then and the site was hosted on a directory provided by our ISP.</p>
-                        <p>After that, I spent a few years making a website dedicated to a popular video game series. But when 2005 rolled around, blogging was all the hype, and I decided that I needed to have a personal blog as well. Domains had become more affordable, and I decided to register the .com for my given name, Lars-Christian. It has housed my personal website since.</p>
-                        <p>As I have changed (grown?) as a person through these years, the blog has changed with me, and there have been <em>many</em> iterations through these two decades. Last year, however, I made a concerted effort to reconstruct as much as I could of the content from the earlier versions of the blog. (I relied heavily on the magnificent <a href="https://archive.org" rel="noopener">Internet Archive</a> which I think everyone should support.) By my estimate, the <a href="https://lars-christian.com/posts/" rel="noopener">posts archive</a> now contains at least 90% of the posts I ever published to my blog. There honestly isn't much to be proud of. My 2007 phase of trying to fashion myself an internet marketing guru is particularly cringe. But I like the idea of my personal website as a reflection of my many past selves, so I leave everything for posterity.</p>
-                        <p>The blog laid dormant for many years, before I decided to bring it back to life in late 2023. Like so many others, I had become disillusioned by the state of the big social platforms. Withdrawing from those, breathing life into my blog again as a place to express, collect and share whatever interested me seemed an obvious move.</p>
-                        <p>Nowadays, I think of my website as not just a blog, but an online home. My personal space to do whatever I want. And a place to experiment and tinker with tech. You know, like we used to do back when tech was exciting and spoke to a world full of possibilities as opposed the dystopian timeline we stumbled upon as we ceded our lives to a handful of algorithms. Turns out that part is mostly optional, even today. I've built functionality to replace centralised services like Goodreads and Strava, and share my reading and workouts on my blog.</p>
-                        <p>Admittedly, those are mostly just <a href="https://strangestloop.io/essays/things-that-arent-doing-the-thing" rel="noopener">things that aren't doing the thing</a>. Because the thing I <em>really</em> want to do is write more. To the extent that I have a goal for my blog, it is simply to write more.</p>
-                    </section>
-
-                    <section>
-                        <h3>What does your creative process look like when it comes to blogging?</h3>
-                        <p>There's a stanza from the song <a href="https://songmeanings.com/songs/view/3530822107858551145/" rel="noopener">Marching Bands of Manhattan</a> by Death Cab for Cutie. It's one of my favourite songs, by one of my favourite bands, and the particular line is this:</p>
-                        <blockquote><p>And it is true what you said That I live like a hermit in my own head</p></blockquote>
-                        <p>To the extent that I have a creative process, it is living like a hermit in my own head. Always thinking, contemplating, obsessing over some thing or other. It can be exhausting, and often leaves me feeling restless. But committing my thoughts to paper is something of an antidote. The song continues:</p>
-                        <blockquote><p>But when the sun shines again I'll pull the curtains and blinds to let the light in</p></blockquote>
-                        <p>Putting my thoughts to the sword by writing them down, examine if they make sense, sometimes feels like pulling the curtains and letting the light in. It helps me discard that which doesn't make sense. Which is to say most of it. I can then spend my energy on that which does make sense.</p>
-                        <p>Of course, what I'm thinking about is, to a large extent, determined by input. That would be the "content" I consume. And that's why I had to step back from social media. The hot-takes and constant negativity and never-ending dread made me depressed. Now I try to control my inputs to a great extent. Avoiding the 24 hour news cycle and social media. I don't really watch TV either. Instead, I read books and listen to audiobooks and long-form podcasts, for education and entertainment.</p>
-                        <p>Inspiration to write comes from these sources, but also my daily life &mdash; particularly my children. They never cease to amaze me and they frequently force me to challenge my own assumptions and perspectives, letting me (hopefully) grow with them. To the extent that I've written anything worth reading, it was probably inspired by my children.</p>
-                        <p>My technical setup is as simple as can be. I do all my writing in my plain text editor of choice, <a href="https://www.sublimetext.com/" rel="noopener">Sublime Text</a>, using simple <a href="https://en.wikipedia.org/wiki/Markdown" rel="noopener">Markdown</a> for formatting. If I have one enormous weakness as a writer, it is my aversion to reading my own writing. I believe it induces similar feelings in me as many people experience when hearing a recording of their own voice. I dread it.  Proof reading&hellip; well, let's say I have room to grow. It's usually just write it, and if I have a vague feeling of what I wrote having made some sense, I try to be quick to publish. If I don't publish something the same day I write the bulk of it, it is likely to end up in my enormous pile of mostly not even half finished drafts.</p>
-                    </section>
-
-                    <section>
-                        <h3>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h3>
-                        <p>That's easy.</p>
-                        <p>The sun is about to come up. I'm sat at the kitchen table and through the window I see world come back to life. I'm sat at the kitchen table. My laptop in front of me, a cup of coffee on the side. The rest of the house is still asleep. No matter how sleepy I might be, I can access something in these moments that is locked off and unavailable at all other times. Creativity never comes more naturally to me.</p>
-                        <p>Unfortunately, life often gets in the way and too often I only find myself with time to spare for writing in the evenings. At night, I'll be tired and groggy and anything that requires effort feels like a tall ask.</p>
-                        <p>Surroundings definitely influence my creativity and ability to get work done. Concentration is hard to come by in an untidy environment. Usually, I start any work session by tidying up the room around me. Some people excel in chaotic surroundings. Me, I'm at my best, creatively and productively, in quiet, comfortable and familiar settings.</p>
-                        <p>Dialogue is especially distracting to me, and it will consistently throw me off. Even music will eat into my concentration. I've found one exception: ambient music. A pair of noise cancelling headphones and Brian Eno's <a href="https://en.wikipedia.org/wiki/Ambient_1:_Music_for_Airports" rel="noopener">Music for Airports</a> (good luck purchasing that in a digital format) and Boards of Canada's <a href="https://boardsofcanada.bandcamp.com/album/tomorrows-harvest" rel="noopener">Tomorrow's Harvest</a> have saved me many times.</p>
-                    </section>
-
-                    <section>
-                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
-                        <p>I mentioned earlier that I do all of my writing in a plain text editor. This after a desire to simplify my tech stack a couple of years back. In the same process, I also threw out my CMS and &mdash; because all the existing static site generators confused me to no end &mdash; put together a few Python scripts to generate a static version of my website based on markdown content files. It was quite a challenge, but an enjoyable one.</p>
-                        <p>When I've finished a post I dump the file in a specific directory. The scripts take over, generate the new and updated pages of my website, before uploading it to my web host. Speaking of web hosts, I rent a Virtual Machine (VM) from <a href="https://openbsd.amsterdam/" rel="noopener">OpenBSD.amsterdam</a>. They are an independent host that contribute to an independent Free and Open Source (FOSS) initiative. That, and the opportunity to learn more about working in the command line and doing some simple server administration, was why I chose them. And they've been great! If I have a question, I just send them an email. An actual human being responds within a reasonable time frame, answering my question. What a luxury!</p>
-                        <p>My domain registrar of choice is <a href="https://www.hover.com/" rel="noopener">Hover</a>. I think I've been a customer for close to fifteen years. I've never had any problems, which is all I want from my registrar.</p>
-                    </section>
-
-                    <section>
-                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
-                        <p>That depends entirely where you're coming from. For someone who wants to start a blog primarily to write and share their thoughts, I certainly wouldn't recommend going down the path of obsessing about the tech. Do the thing! Get a domain name and start with a service like <a href="https://bearblog.dev/" rel="noopener">Bearblog</a> or <a href="https://micro.blog/" rel="noopener">Micro.blog</a>. Both are small, independent services that work for the betterment of the open web.</p>
-                    </section>
-
-                    <section>
-                        <h3>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h3>
-                        <p>A virtual machine from <a href="https://openbsd.amsterdam" rel="noopener">OpenBSD.amsterdam</a> costs &euro;69.00 per year, and I pay <a href="https://www.hover.com/" rel="noopener">Hover</a> $18.99 per year for my domain name. Let's consolidate that in a common currency, and say that keeping my blog alive each year costs me &pound;74.76. Were I more cost conscious, I could easily get away with half or less. I'm privileged to be able to afford some idealism in these choices.</p>
-                        <p>Similarly, I have no real need for, or interest in, monetising my blog. I've long dreamed of carving out a little niche of my own on the web and spend my days providing something people value enough that it could generate enough income to sustain my lifestyle. Today, my blog is not that. It is a public notebook, a playground and <a href="https://dri.es/a-blog-is-a-biography" rel="noopener">a biography</a>.</p>
-                        <p>Monetisation is, to me, inherently linked to providing something of value. I'm just not providing anything of value on my blog. Nor would I want to commit to doing that. If someone else thinks differently about that, I have nothing against it at all. In fact, I've supported a few independent web writers whose work I enjoy in recent years.</p>
-                        <p>The 2007 internet marketing guru version of me would probably be full of advice on how someone could best earn a pretty penny from their blog. Today, though, I have fewer opinions on the matter. What I will say is this: If someone is creating something that you enjoy on a regular basis, whether that's writing, audio, software or whatever, you should find a way to help them sustain their practice. Otherwise, you have no right to be upset when they change or disappear.</p>
-                    </section>
-
-                    <section>
-                        <h3>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h3>
-                        <p>You should interview <a href="https://vhbelvadi.com/" rel="noopener">V.H. Belvadi</a>. Venkatram's writing often makes me stop, think and question myself. His blog is also one of the most aesthetically pleasing websites you'll find.</p>
-                        <p>There are so many blogs out there worth mentioning, but I'll try to stick to a few:</p>
-                        <p><a href="https://pimoore.ca/" rel="noopener">Slice of pi</a> is always a delightful read. Pete writes in a playful and unpretentious manner, which I find inspiring.</p>
-                        <p><a href="https://alexwlchan.net" rel="noopener">Alex Chan's</a> writing is equally inspiring, in a completely different manner. Her language is precise and to the point, while still remaining personable and engaging. A very difficult balance to to strike.</p>
-                        <p>Likewise, I enjoy <a href="https://meadow.cafe" rel="noopener">Meadow's</a> blog as well, but for another entirely different set of reasons. He is a smart thinker and a gifted writer who isn't afraid to be personal. He also become somewhat of a hero to me when he told me that, just like me, English wasn't his native tongue.</p>
-                        <p>My friend <a href="https://holzer.online/" rel="noopener">Fabian</a> writes with both curiosity and authority at once, and comes across as wise beyond his years. I always sit up straighter and try to get ready to learn when he's published a new post.</p>
-                        <p>Through the <a href="https://discourse.32bit.cafe/" rel="noopener">32-Bit Cafe forum</a> (another recommendation!) I also recently came across <a href="https://stephvee.ca/" rel="noopener">Stephanie's</a> blog. I've been enjoying her well thought out posts.</p>
-                        <p>One last suggestion will be <a href="https://blogroll.org/" rel="noopener">Ye Olde Blogroll</a>. Whenever I'm in the mood for some "doom scrolling" I go there and visit a few blogs I haven't visited before. It'll leave you feeling much better than spending an hour or two on your algorithmic engagement-farm of choice. Promise!</p>
-                    </section>
-
-                    <section>
-                        <h3>Final question: is there anything you want to share with us?</h3>
-                        <p>I've got nothing, so I'll end by sharing a profound experience and a call to action.</p>
-                        <p>My daughter, four years old, started dancing ballet this year. Yesterday, she was part of her first recital. A big production. In the local theatre with professional sound and lightning. Hers was a small role. But she got on the big stage in front of hundreds of spectators and did her dance together with her ballet classmates. It wasn't so much her role, but the whole spectacle that blew me away.</p>
-                        <p>There must have been several dozen dancers on stage throughout the two hour show, and they were (to my admittedly untrained) eye so, so great at what they were doing. Sitting there and watching all these children, small and big, perform at an amazing level, I realised that each and every one of them must have worked diligently and with passion for years to be there that day.</p>
-                        <p>The kids are alright.</p>
-                        <p>My call to action, therefore, is this: If you have the chance, get involved with someone in your local community who is working to provide opportunities like these for children. Be it sports, dancing, singing or theatre, or computer clubs or whatever. If you can't get involved personally, make a donation. Give money if you can, or some old stuff you've got lying around. You <em>can</em> make a difference to someone. Providing as many kids as possible with the opportunity to explore their interests, find ways to express themselves and become part of a community is how we ensure that they continue to be alright.</p>
-                    </section>
-                </section>
-
-                <!-- Closing -->
-                <p>&bull;--&#9825;--&bull;</p>
-
-            </section>
-]]></content:encoded>
-      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://zacharykai.net/notes/pb/lars</guid>
     </item>
   </channel>
 </rss>

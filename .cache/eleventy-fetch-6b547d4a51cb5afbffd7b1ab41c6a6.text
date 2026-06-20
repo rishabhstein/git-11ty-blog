@@ -12,7 +12,7 @@
 	<atom:link href="https://fyfluiddynamics.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://fyfluiddynamics.com</link>
 	<description>Celebrating the physics of all that flows</description>
-	<lastBuildDate>Tue, 02 Jun 2026 19:32:42 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 02 Jun 2026 19:58:54 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,150 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">169405895</site>	<item>
+		<title>&#8220;Inferno&#8221;</title>
+		<link>https://fyfluiddynamics.com/2026/06/inferno/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/inferno/#comments</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Fri, 19 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Art]]></category>
+		<category><![CDATA[convection]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[fluids as art]]></category>
+		<category><![CDATA[haboob]]></category>
+		<category><![CDATA[microburst]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[supercell]]></category>
+		<category><![CDATA[thunderstorm]]></category>
+		<category><![CDATA[turbulence]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30682</guid>
+
+					<description><![CDATA[Nothing showcases the incredible power of our atmosphere like storms, and no one does stormchase photography like Mike Olbinski. In this vignette, he shows a stunning line of supercells caught near sunset on July 17, 2022. The high shear&#8211;combined with the setting sun&#8211;put on an incredible show. Dust blown up in a haboob, microbursts and [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/inferno1-1024x576.png" title="Image from &quot;Inferno&quot; by Mike Olbinski." alt="Image from &quot;Inferno&quot; by Mike Olbinski." /></div></div>
+
+
+
+<p class="wp-block-paragraph">Nothing showcases the incredible power of our atmosphere like storms, and no one does stormchase photography like Mike Olbinski. In this vignette, he shows a stunning line of <a href="/tagged/supercell/">supercells</a> caught near sunset on July 17, 2022. The high shear&#8211;combined with the setting sun&#8211;put on an incredible show. Dust blown up in a <a href="/tagged/haboob/">haboob</a>, <a href="/tagged/microburst/">microbursts</a> and downpours in the distance, and lots of churning, roiling turbulence. (Video and image credit: <a href="https://www.mikeolbinski.com">M. Olbinski</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/inferno/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30682</post-id>	</item>
+		<item>
+		<title>Retreating Glaciers Risk Tsunamis</title>
+		<link>https://fyfluiddynamics.com/2026/06/retreating-glaciers-risk-tsunamis/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/retreating-glaciers-risk-tsunamis/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Thu, 18 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[geophysics]]></category>
+		<category><![CDATA[landslide]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[seiche]]></category>
+		<category><![CDATA[standing wave]]></category>
+		<category><![CDATA[tsunami]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30699</guid>
+
+					<description><![CDATA[On 10 August 2025, the slopes of Alaska&#8217;s Tracy Arm Fjord gave way, sliding into the water. The resulting tsunami was the second-largest ever recorded, with a 481-meter runup after a 100-meter initial wave that moved at more than 70 meters per second. The fjord was fortunately empty at the time, though it is regularly [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">On 10 August 2025, the slopes of Alaska&#8217;s Tracy Arm Fjord gave way, sliding into the water. <a href="https://eos.org/articles/the-forensics-of-a-skyscraper-sized-tsunami?__readwiseLocation=">The resulting tsunami was the second-largest ever recorded</a>, with a 481-meter runup after a 100-meter initial wave that moved at more than 70 meters per second. The fjord was fortunately empty at the time, though it is regularly visited by cruise ships. After the landslide, a seiche ricocheted through the fjord for 36 hours.</p>
+
+
+
+<p class="wp-block-paragraph">With no earthquake to trigger the tsunami, researchers had to piece together the accident through forensics. <a href="https://doi.org/10.1126/science.aec3187">Their study concluded</a> that the glacier&#8217;s retreat had left unstable slopes exposed, likening it to a child&#8217;s closet overstuffed with hastily gathered toys. The moment the door is no longer held closed, everything comes crashing out.</p>
+
+
+
+<p class="wp-block-paragraph">Ultimately, the landslide-induced tsunami is, therefore, a result of climate change. That result is disconcerting, given the increasing frequency of cruise ships visiting glacial fjords. Unlike earthquake-induced tsunamis, landslide-induced ones like the Tracy Arm event don&#8217;t come with a seismic warning. With rapid climate change and frequent tourism, risk management is critical. (Image credit: <a href="https://eos.org/thelandslideblog/the-10-august-2025-landslide-and-tsunami-at-tracy-arm-fjord-in-alaska">C. Read/USGS</a>; research credit: <a href="https://doi.org/10.1126/science.aec3187">D. Shugar et al.</a>; via <a href="https://eos.org/articles/the-forensics-of-a-skyscraper-sized-tsunami?__readwiseLocation=">Eos</a>)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img fetchpriority="high" decoding="async" width="1024" height="681" src="https://fyfluiddynamics.com/wp-content/uploads/tsunami-aftermath_main-1024x681.jpg" alt="An image showing the aftermath of the 10 August, 2025 landslide in Alaska's Tracy Arm Fjord, which caused the second largest tsunami recorded. The light rock slope shows where material fell from. On the lower right, the foot of the South Sawyer Glacier is just visible." class="wp-image-30701" srcset="https://fyfluiddynamics.com/wp-content/uploads/tsunami-aftermath_main-1024x681.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/tsunami-aftermath_main-300x200.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/tsunami-aftermath_main-768x511.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/tsunami-aftermath_main.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">An image showing the aftermath of the 10 August, 2025 landslide in Alaska&#8217;s Tracy Arm Fjord, which caused the second largest tsunami recorded. The light rock slope shows where material fell from. On the lower right, the foot of the South Sawyer Glacier is just visible.</figcaption></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/retreating-glaciers-risk-tsunamis/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30699</post-id>	</item>
+		<item>
+		<title>Moths Taking Flight</title>
+		<link>https://fyfluiddynamics.com/2026/06/moths-taking-flight/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/moths-taking-flight/#comments</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Wed, 17 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[flapping flight]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[hydrophobic]]></category>
+		<category><![CDATA[insect flight]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30754</guid>
+
+					<description><![CDATA[Insect flight is vastly different than the aerodynamics engineers learn around aircraft. That&#8217;s particularly apparent looking at these tiny moths taking off and flying in slow motion. Almost every feature seems, at first glance, aerodynamically wasteful. Hairy, scaly surfaces instead of smooth ones? Relatively small wings for their body size? Moths break our engineering intuition. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/mothfly1-1024x576.png" title="Litter moths taking flight." alt="Litter moths taking flight." /></div></div>
+
+
+
+<p class="wp-block-paragraph"><a href="/tagged/insect-flight/">Insect flight</a> is vastly different than the aerodynamics engineers learn around aircraft. That&#8217;s particularly apparent looking at these tiny moths taking off and flying in slow motion. Almost every feature seems, at first glance, aerodynamically wasteful. Hairy, scaly surfaces instead of smooth ones? Relatively small wings for their body size? Moths break our engineering intuition.</p>
+
+
+
+<p class="wp-block-paragraph">For moths, flight is an inherently unsteady process. Every stroke of its wings cups and flings fluid away in an effort to generate enough lift to stay aloft. Notice how the wings flex with each stroke. Part of the moth&#8217;s efficiency <a href="/2021/02/flexible-wings-aid-butterfly-flight/">comes from that flexibility</a>, even though keeping wings relatively stiff is the norm for engineering larger fixed-wing craft. And those hairy surfaces? Not only can they help camouflage insects; <a href="/2020/06/how-animals-stay-dry-in-the-rain/">they keep them hydrophobic</a> so that water bounces off them. (Video and image credit: Ant Lab/A. Smith)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/moths-taking-flight/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30754</post-id>	</item>
+		<item>
+		<title>Testing Coffee With Current</title>
+		<link>https://fyfluiddynamics.com/2026/06/testing-coffee-with-current/</link>
+					<comments>https://fyfluiddynamics.com/2026/06/testing-coffee-with-current/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Tue, 16 Jun 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[chemistry]]></category>
+		<category><![CDATA[coffee]]></category>
+		<category><![CDATA[electrochemistry]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30367</guid>
+
+					<description><![CDATA[Coffee is a key ingredient in the scientific process for many researchers, so it&#8217;s no wonder that researchers often develop an interest in the drink&#8217;s physics and chemistry. In a new study, a research team devised an objective method to test both a coffee&#8217;s strength and its roast color. The researchers used a potentiostat to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><a href="/tagged/coffee/">Coffee</a> is a key ingredient in the scientific process for many researchers, so it&#8217;s no wonder that researchers often develop an interest in the drink&#8217;s physics and chemistry. In a <a href="https://doi.org/10.1038/s41467-026-71526-5">new study</a>, a research team devised an objective method to test both a coffee&#8217;s strength and its roast color. </p>
+
+
+
+<p class="wp-block-paragraph">The researchers used a <a href="https://pineresearch.com/support-article/what-is-a-potentiostat-and-how-does-it-work/">potentiostat</a> to test how an electric current interacted with the brewed coffee and showed how the measurements related to the coffee&#8217;s flavor. The method was even robust enough that they could identify which coffee sample came from a batch of beans that had failed a roaster&#8217;s quality controls. </p>
+
+
+
+<p class="wp-block-paragraph">While you&#8217;re unlikely to use such a method at home, it could be helpful in coffee shops, where baristas try to pin down the variables to produce the same flavor in every cup. (Image credit: <a href="https://unsplash.com/photos/white-ceramic-mug-and-saucer-with-coffee-beans-on-brown-textile-tNALoIZhqVM">M. Kenneally</a>; research credit: <a href="https://doi.org/10.1038/s41467-026-71526-5">R. Bumbaugh et al.</a>; via <a href="https://arstechnica.com/science/2026/04/electrical-current-might-be-the-key-to-a-better-cup-of-coffee/?__readwiseLocation=">Ars Technica</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/testing-coffee-with-current/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30367</post-id>	</item>
+		<item>
 		<title>NASA Testing Supersonic Rotors for Mars</title>
 		<link>https://fyfluiddynamics.com/2026/06/nasa-testing-supersonic-rotors-for-mars/</link>
 					<comments>https://fyfluiddynamics.com/2026/06/nasa-testing-supersonic-rotors-for-mars/#respond</comments>
@@ -123,7 +267,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img fetchpriority="high" decoding="async" width="1024" height="637" src="https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-1024x637.jpg" alt="Artist's conception of an exoplanet with clouds forming on the nightside and dissipating on the dayside." class="wp-image-30826" srcset="https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-1024x637.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-300x187.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-768x478.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-1536x956.jpg 1536w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main.jpg 2034w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="637" src="https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-1024x637.jpg" alt="Artist's conception of an exoplanet with clouds forming on the nightside and dissipating on the dayside." class="wp-image-30826" srcset="https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-1024x637.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-300x187.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-768x478.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main-1536x956.jpg 1536w, https://fyfluiddynamics.com/wp-content/uploads/cloudy_exoplanet_main.jpg 2034w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/cloudy-mornings-and-clear-evenings/feed/</wfw:commentRss>
@@ -192,7 +336,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="392" height="720" src="https://fyfluiddynamics.com/wp-content/uploads/can_crush_main.gif" alt="Animation of a liquid-filled cylindrical shell buckling sequentially under compression." class="wp-image-30598"/><figcaption class="wp-element-caption">Animation of a liquid-filled cylindrical shell buckling sequentially under compression.</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="392" height="720" src="https://fyfluiddynamics.com/wp-content/uploads/can_crush_main.gif" alt="Animation of a liquid-filled cylindrical shell buckling sequentially under compression." class="wp-image-30598"/><figcaption class="wp-element-caption">Animation of a liquid-filled cylindrical shell buckling sequentially under compression.</figcaption></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/buckling-in-rings/feed/</wfw:commentRss>
@@ -244,154 +388,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">30332</post-id>	</item>
-		<item>
-		<title>Soaring Over Icelandic Lava Fields</title>
-		<link>https://fyfluiddynamics.com/2026/06/soaring-over-icelandic-lava-fields/</link>
-					<comments>https://fyfluiddynamics.com/2026/06/soaring-over-icelandic-lava-fields/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Fri, 05 Jun 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Art]]></category>
-		<category><![CDATA[flow visualization]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[fluids as art]]></category>
-		<category><![CDATA[lava]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[volcano]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=27037</guid>
-
-					<description><![CDATA[We&#8217;re terribly spoiled these days when it comes to footage of lava and volcanic eruptions. Back when I started FYFD, I could find very few decent photos of lava flows to illustrate posts. And now, thanks to drone cameras, we have a glut of absolutely gorgeous footage of flowing lava. This particular example comes from [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/waider_volcano1-1024x576.png" title="Image by Jan Erik Waider." alt="Image by Jan Erik Waider." /></div></div>
-
-
-
-<p class="wp-block-paragraph">We&#8217;re terribly spoiled these days when it comes to footage of <a href="/tagged/lava/">lava</a> and <a href="/tagged/volcano/">volcanic eruptions</a>. Back when I started FYFD, I could find very few decent photos of lava flows to illustrate posts. And now, thanks to drone cameras, we have a glut of absolutely gorgeous footage of flowing lava. This particular example comes from photographer <a href="https://northlandscapes.com">Jan Erik Waider</a>, who specializes in the ice, fire, and flows of northern landscapes. </p>
-
-
-
-<p class="wp-block-paragraph">Waider&#8217;s lens offers us a detailed, almost abstract view  of these rivers of lava. I especially enjoy his shots looking directly down on lava. Watching the cooled rock rafting along on the lava is like seeing a fiery version of sea ice floes. (Video and image credit: <a href="https://www.northlandscapes.com/">J. Waider</a>; via <a href="https://laughingsquid.com/iceland-4k-drone-footage/?__readwiseLocation=">Laughing Squid</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/soaring-over-icelandic-lava-fields/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">27037</post-id>	</item>
-		<item>
-		<title>Regelation Lets Glaciers Flow</title>
-		<link>https://fyfluiddynamics.com/2026/06/regelation-lets-glaciers-flow/</link>
-					<comments>https://fyfluiddynamics.com/2026/06/regelation-lets-glaciers-flow/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Thu, 04 Jun 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[geophysics]]></category>
-		<category><![CDATA[glacier]]></category>
-		<category><![CDATA[ice]]></category>
-		<category><![CDATA[melting]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[regelation]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30552</guid>
-
-					<description><![CDATA[Under the cold temperatures and immense pressures of a glacier, ice does not always behave in ways we&#8217;d expect. For example, cutting through ice using the pressure of a weighted wire does not break an ice block in two; as the wire passes through the ice, the melted water refreezes in its wake, leaving an [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Under the cold temperatures and immense pressures of a <a href="/tagged/glacier">glacier</a>, ice does not always behave in ways we&#8217;d expect. For example, cutting through ice using the pressure of a weighted wire does not break an ice block in two; as the wire passes through the ice, the melted water refreezes in its wake, leaving an intact block. Known as regelation, this process is one way that glaciers flow past obstacles in their path.</p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Cutting through Ice to Understand the Behavior of Glaciers" width="500" height="281" src="https://www.youtube.com/embed/EHRJxeGvTLs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p class="wp-block-paragraph">Although many experiments demonstrate regelation for ice with temperatures near freezing, the process occurs in colder ice, too. <a href="https://doi.org/10.1098/rspa.2024.0032">A new study</a> combines data across a wide range of temperatures with a new physical model of regelation to show how the process changes with temperature. It seems that relatively small temperature changes drastically affect how much meltwater forms around the wire and how slowly the ice refreezes. (Image credit: <a href="https://unsplash.com/photos/aerial-photography-of-mountain-and-river-uOi3lg8fGl4">S. Ferrara</a>; video credit: SciTube; research credit: <a href="https://doi.org/10.1098/rspa.2024.0032">C. Meyer et al.</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/regelation-lets-glaciers-flow/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">30552</post-id>	</item>
-		<item>
-		<title>Infrasound Fire Suppression Goes Commercial</title>
-		<link>https://fyfluiddynamics.com/2026/06/infrasound-fire-suppression-goes-commercial/</link>
-					<comments>https://fyfluiddynamics.com/2026/06/infrasound-fire-suppression-goes-commercial/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Wed, 03 Jun 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[acoustics]]></category>
-		<category><![CDATA[civil infrastructure]]></category>
-		<category><![CDATA[combustion]]></category>
-		<category><![CDATA[fire]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[infrasound]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[sound waves]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30547</guid>
-
-					<description><![CDATA[Sprinklers have long been the go-to fire protection for commercial properties and some residences. Dousing a fire in water not only puts out the flames but cools the surroundings and helps prevent reignition. But it requires complicated infrastructure and can damage buildings and their contents. Back in 2015, students were experimenting with an alternative fire [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Sprinklers have long been the go-to fire protection for commercial properties and some residences. Dousing a fire in water not only puts out the flames but cools the surroundings and helps prevent reignition. But it requires complicated infrastructure and can damage buildings and their contents. Back in 2015, students were experimenting with an <a href="/2015/05/engineering-students-from-george-mason-university/">alternative fire extinguisher that used sound</a> below the range of human hearing; now a company is pitching a version of that technology for replacing sprinklers.</p>
-
-
-
-<p class="wp-block-paragraph"><a href="https://arstechnica.com/gadgets/2026/05/startup-says-sound-waves-can-replace-fire-sprinklers-experts-arent-so-sure/?__readwiseLocation=">As described by Ars Technica</a>, this infrasound system can detect and put out a small kitchen fire in under a minute. But fire fighting experts warn that there&#8217;s a big difference between a fire small enough for a fire extinguisher to handle and the kinds of fires sprinklers put out. With lives at stake, the burden of proof is significant for Sonic Fire Tech and any other company that wants to get their infrasound &#8220;sprinkler&#8221; system cleared for use in buildings. (Image credit: I. Azevedo; via <a href="https://arstechnica.com/gadgets/2026/05/startup-says-sound-waves-can-replace-fire-sprinklers-experts-arent-so-sure/?__readwiseLocation=">Ars Technica</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/infrasound-fire-suppression-goes-commercial/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">30547</post-id>	</item>
-		<item>
-		<title>On Dolphin Turbulence</title>
-		<link>https://fyfluiddynamics.com/2026/06/on-dolphin-turbulence/</link>
-					<comments>https://fyfluiddynamics.com/2026/06/on-dolphin-turbulence/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Tue, 02 Jun 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[CFD]]></category>
-		<category><![CDATA[computational fluid dynamics]]></category>
-		<category><![CDATA[dolphins]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[numerical simulation]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[propulsion]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[swimming]]></category>
-		<category><![CDATA[turbulence]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30589</guid>
-
-					<description><![CDATA[Dolphins are such fast and agile swimmers that, naturally, scientists have long wanted to understand how they swim so well. A recent study draws on numerical simulation to analyze the flow a dolphin creates when flapping its tail. The resulting flow is highly turbulent&#8211;researchers were only able to simulate up to a fraction of a [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph"><a href="/tagged/dolphins/">Dolphins</a> are such fast and agile swimmers that, naturally, scientists have long wanted to understand how they swim so well. A <a href="https://doi.org/10.1103/tnxb-ckr5">recent study</a> draws on <a href="/tagged/numerical-simulation/">numerical simulation</a> to analyze the flow a dolphin creates when flapping its tail.</p>
-
-
-
-<p class="wp-block-paragraph">The resulting flow is highly <a href="/tagged/turbulence">turbulent</a>&#8211;researchers were only able to simulate up to a fraction of a dolphin&#8217;s actual <a href="/tagged/Reynolds-number/">Reynolds number</a>&#8211;with both large-scale vortices and a cascade of smaller ones. The largest vortices, shown here in white, form on the upper and lower surface of the dolphin&#8217;s tail, then slide off the tail in a vortex ring. It&#8217;s these vortex rings, the researchers found, that provide the bulk of a dolphin&#8217;s thrust. </p>
-
-
-
-<p class="wp-block-paragraph">The smaller-scale vortices, in contrast, get formed by the large vortices, and they make little to no contribution to the dolphin&#8217;s propulsion. Interestingly, these results suggest that we might be able to describe the propulsion of dolphins and other highly turbulent swimmers by focusing only on the largest scales in the flow. (Video, image, and research credit: <a href="https://doi.org/10.1103/tnxb-ckr5">Y. Motoori et al.</a>; via <a href="https://arstechnica.com/science/2026/05/research-roundup-6-cool-science-stories-we-almost-missed-4/?__readwiseLocation=">Ars Technica</a>)</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="720" height="405" src="https://fyfluiddynamics.com/wp-content/uploads/dolphin_sim_main_ani.gif" alt="Animation of the simulated flow from a swimming dolphin." class="wp-image-30591"/><figcaption class="wp-element-caption">Animation of the simulated flow from a swimming dolphin.</figcaption></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/06/on-dolphin-turbulence/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">30589</post-id>	</item>
 	</channel>
 </rss>
