@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
     <title>{{ site.name }}</title>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    <description>An outdated habbit of spitting my thoughts.</description>
+    <description>An outdated habbit of spitting my thoughts online</description>
     <language>en</language>
     {%- for post in collections.combinedFeed | reverse | take(10) %}
     {%- set absolutePostUrl = post.url | htmlBaseUrl(site.url) %}
@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
     <a href="https://blog.rishabhps.com/guestbook/"> Sign my Guestbook</a>    
     </p>' %}  
     {%- set wordVomitNote = '<blockquote style="margin:1rem 0;padding:0.9rem 1rem;border-left:5px solid #ffd84d;background:#fff8d6;color:#1b1b1b;font-style:italic"><p>This post is a part of my word-vomit series. Feel free to skip it.</p></blockquote>' %}
-    {%- set urlChangeNote = '<blockquote style="margin:1rem 0;padding:0.9rem 1rem;border-left:5px solid #ffd84d;background:#fff8d6;color:#1b1b1b;font-style:italic"><p>This blog is moving to <a href="https://blog.rishabhps.com/">another domain</a> Please update your <a href="https://blog.rishabhps.com/feed.xml/">feeds</a>.</p></blockquote>' %}
+    {%- set urlChangeNote = '' %}
     {%- set feedIntro = urlChangeNote %}
     {%- if post.data.tags and "word-vomit" in post.data.tags %}
     {%- set feedIntro = urlChangeNote + wordVomitNote %}
@@ -29,11 +29,11 @@ eleventyExcludeFromCollections: true
     {%- if post.data.cover %}
     {%- set coverUrl = post.data.cover | htmlBaseUrl(site.url) %}
     {%- if not (coverUrl in feedBody) and not (post.data.cover in feedBody) %}
-    {%- set feedCover %}
-<figure class="feed-entry-cover">
-  <img src="{{ coverUrl }}" alt="Cover image for {{ post.data.title }}" width="240">
-</figure>
-    {%- endset %}
+      {%- set feedCover %}
+        <figure class="feed-entry-cover">
+          <img src="{{ coverUrl }}" alt="Cover image for {{ post.data.title }}" width="240">
+        </figure>
+      {%- endset %}
     {%- endif %}
     {%- endif %}
     {%- set feedContent = feedIntro ~ feedCover ~ feedBody ~ feedFooter %}
