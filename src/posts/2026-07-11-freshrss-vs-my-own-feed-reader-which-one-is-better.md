@@ -24,7 +24,7 @@ Overall, I was quite satisfied with it. But after using it for a couple of weeks
 So, I moved to my second idea--modifying FreshRSS by developing its plugins. Again, I used Claude for it. I mentioned above that I wanted FreshRSS to act as a link aggregator and not as a feed reader. So, I took inspiration from [Hacker News](https://news.ycombinator.com) design and built an extension which modify FreshRSS theme.
 
 <div class="gallery">
-  <img src="/assets/images/blog_posts/2026-11-07-hackernews-freshrss.jpeg" alt="freshrss>
+  <img src="/assets/images/blog_posts/2026-11-07-hackernews-freshrss.jpeg" alt="freshrss">
 </div>
 
 The main working of FreshRSS is still the same except the result of direct click on a new post. Now clicking on the link opens the entry on the original website, and not in the native reader. In case I want to read a post in FreshRSS, I have added a "note icon" which opens the entry in native reader. 
