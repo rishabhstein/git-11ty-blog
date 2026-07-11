@@ -1,7 +1,7 @@
 ---
 title: "FreshRSS vs My Own Feed Reader: Which One Is Better?"
 date: 2026-07-11
-tags: ["self-hosting, indieweb, tech"]
+tags: ["self-hosting, tech"]
 ---
 We all consume online content by different means.  The majority of the people prefer mainstream social media while a small number of people use newsletters or RSS/Atom feeds. I am in the latter group.
 
