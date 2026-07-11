@@ -1,5 +1,5 @@
 ---
-title: "FreshRSS vs My Own Feed Reader: Which One Is Better?"
+title: "FreshRSS vs My Own Feed Reader: A fierce competetion"
 date: 2026-07-11
 tags: ["self-hosting, tech"]
 ---
