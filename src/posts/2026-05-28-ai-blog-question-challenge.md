@@ -2,6 +2,7 @@
 title: "AI blog question challenge"
 date: 2026-05-28
 tags: ["indieweb"]
+highlight: true
 ---
 
 AI is such a hot topic now a days that rarely any day passes when I do not encounter a single post in my blogroll, which is small, only around twenty people. Majority of the posts are rants, or rants about someone else's rant. Is this a rant as well? Despite that, I still love reading your posts. They give me new insights and make me aware of new issues. So please keep doing it.

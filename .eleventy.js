@@ -842,6 +842,14 @@ ${tabsMarkup}
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
   eleventyConfig.addPassthroughCopy({"./src/workout/*.svg": "workout/"});
 
+  // Picture of the Day: prefer piclog.gif when present, fall back to piclog.jpeg
+  eleventyConfig.addGlobalData("piclogImage", () => {
+    const piclogDir = path.join(process.cwd(), "assets", "images", "piclog");
+    const candidates = ["piclog.gif", "piclog.jpeg", "piclog.jpg", "piclog.png"];
+    const found = candidates.find((name) => fs.existsSync(path.join(piclogDir, name)));
+    return `/assets/images/piclog/${found || "piclog.jpeg"}`;
+  });
+
   eleventyConfig.addGlobalData("site", {
     name: "Sigmarootpi.com",
     url: siteUrl,

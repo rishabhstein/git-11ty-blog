@@ -24,6 +24,7 @@ html {
   --tag-link-color: #555555;
   --link-hover-bg: transparent;
   --highlight-color: #ffd84d;
+  --popular-glow: #ffd84d;
 
   --panel-bg: rgba(255, 255, 255, 0.98);
   --panel-text: #1a1a1a;
@@ -786,6 +787,27 @@ body.focus-mode .main-content img {
   height: auto;
 }
 
+/* Fixed-size front-page thumbs keep their dimensions in focus mode */
+body.focus-mode .home-index .writing-piclog img {
+  height: 210px;
+  object-fit: cover;
+}
+
+body.focus-mode .home-index .external-feed-thumb {
+  height: 86px;
+  object-fit: cover;
+}
+
+body.focus-mode .home-index .movie-feature-thumb img {
+  height: 240px;
+  object-fit: cover;
+}
+
+body.focus-mode .home-index .movie-side-thumb img {
+  height: 96px;
+  object-fit: cover;
+}
+
 body.focus-mode .portal-center figure,
 body.focus-mode .main-content figure,
 body.focus-mode .portal-center iframe,
@@ -827,7 +849,7 @@ body.focus-mode .home-index .media-item {
 
 body.focus-mode .home-index .media-thumb {
   width: 90px;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 2 / 3;
   height: auto;
   background: #ffffff;
   border: 1px solid var(--panel-border);
@@ -837,7 +859,7 @@ body.focus-mode .home-index .media-thumb {
 body.focus-mode .home-index .media-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center top;
   background: #ffffff;
   display: block;
@@ -1322,6 +1344,27 @@ footer {
 .blog-posts li a {
   flex: 1;
   word-break: break-word;
+}
+
+.blog-posts li span:first-child {
+  min-width: 110px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Archive lists: one link color regardless of visited state, underline on hover only */
+.archive-years a,
+.archive-years a:visited,
+.blog-posts li a,
+.blog-posts li a:visited {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.archive-years a:hover,
+.archive-years a:focus,
+.blog-posts li a:hover,
+.blog-posts li a:focus {
+  text-decoration: underline;
 }
 
 .workout-log-page > h1 {
@@ -3055,15 +3098,17 @@ hr {
 .media-thumb {
   display: block;
   width: 90px;
-  height: 115px;
+  height: 135px;
   background: #ffffff;
   border: 1px solid var(--panel-border);
+  overflow: hidden;
 }
 
 .media-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
   display: block;
 }
 
@@ -3097,13 +3142,15 @@ hr {
   width: 180px;
   background: #ffffff;
   border: 1px solid var(--panel-border);
+  overflow: hidden;
 }
 
 .movie-feature-thumb img {
   display: block;
   width: 100%;
   height: 240px;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
   background: #ffffff;
 }
 
@@ -3159,13 +3206,15 @@ hr {
   width: 72px;
   background: #ffffff;
   border: 1px solid var(--panel-border);
+  overflow: hidden;
 }
 
 .movie-side-thumb img {
   display: block;
   width: 100%;
-  height: 96px;
-  object-fit: contain;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
   background: #ffffff;
 }
 
@@ -3180,7 +3229,7 @@ hr {
 
 .writing-row-one {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 0.8fr;
   gap: 12px;
   margin-bottom: 10px;
 }
@@ -3234,6 +3283,61 @@ hr {
 .writing-lead {
   border-top: 1px solid var(--panel-border);
   padding-top: 8px;
+}
+
+/* Round all front-page content images and cover boxes; skip tiny inline icons */
+.home-index img:not(.sidebar-photo-icon):not(.icon-emoji),
+.home-index .media-thumb,
+.home-index .movie-feature-thumb,
+.home-index .movie-side-thumb {
+  border-radius: 5px;
+}
+
+.sidebar-guestbook {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar-guestbook-gif {
+  display: block;
+  width: 80px;
+  /* height: auto; */
+  flex-shrink: 0;
+}
+
+.sidebar-guestbook-text {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.35;
+  letter-spacing: 0.03em;
+}
+
+/* Front-page highlight box, opt-in via `highlight: true` in post front matter */
+.writing-highlight {
+  position: relative;
+  border: 2px solid var(--popular-glow);
+  border-radius: 6px;
+  padding: 10px 12px 16px;
+  box-shadow: 0 0 12px var(--popular-glow);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--popular-glow) 70%, transparent),
+    inset 0 0 8px color-mix(in srgb, var(--popular-glow) 25%, transparent);
+}
+
+.writing-highlight::after {
+  content: "Popular";
+  position: absolute;
+  right: 10px;
+  bottom: -9px;
+  padding: 2px 9px;
+  background: var(--popular-glow);
+  color: #1a1a1a;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  border-radius: 999px;
 }
 
 .tagline {
@@ -3671,7 +3775,7 @@ hr {
   font-family: inherit;
   font-size: 14px;
   line-height: 1.4;
-  color: var(--tag-link-color);
+  color: var(--heading-color);
 }
 
 .home-index .sidebar-photo-list {
@@ -3697,6 +3801,7 @@ hr {
 .home-index .sidebar-photo-list a:hover,
 .home-index .sidebar-photo-list a:focus {
   color: var(--tag-link-color);
+  text-decoration: underline;
 }
 
 .home-index .sidebar-photo-icon {
@@ -4019,6 +4124,7 @@ hr {
     --tag-link-color: #f0b45f;
     --link-hover-bg: transparent;
     --highlight-color: #2b3d5c;
+    --popular-glow: #f0b45f;
 
     --panel-bg: rgba(14, 24, 41, 0.98);
     --panel-text: #d8e1ec;

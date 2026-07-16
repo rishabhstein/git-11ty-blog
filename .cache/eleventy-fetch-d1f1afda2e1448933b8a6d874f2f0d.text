@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-07-16T05:22:12.712586+00:00</updated>
+  <updated>2026-07-16T07:55:12.787216+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -30,6 +30,50 @@
 </content>
     <link href="https://blog.basementcommunity.com/are-no-ai-disclaimers-really-necessary/" rel="alternate"/>
     <published>2026-07-14T20:18:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://notebookery.bearblog.dev/re-dirt-notebook/</id>
+    <title>Re: I started a "dirt notebook"</title>
+    <updated>2026-07-15T20:06:00+00:00</updated>
+    <author>
+      <name>notebookery</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;In &lt;a href='https://pinewind.bearblog.dev/i-started-a-dirt-notebook/' target='_blank'&gt;I started a "dirt notebook"&lt;/a&gt;, BearBlogger kwist describes his reluctance to take messy notes in his regular notebooks:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"I start cherishing every notebook that I start. I can't seem to keep my notes messy. Eventually, I start structuring the notes, doing cleaner handwriting, adding a cover or some stickers ... and before I know it, the notebook is too well-organised for simply scribbling into."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To counter this tendency, he started a dedicated "dirt notebook":&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"I've nicknamed it "The Drainage Channel", because it's just a place for whatever is going through my head right in that moment. I'm using an old, empty notebook that I found lying around the other day. The paper quality is pretty bad; every kind of fountain pen ink bleeds through so I'm forced to use cheap ballpoints and it doesn't open flat, which makes it hard to take clean-looking notes in."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is a really good way to work against such perfectionist tendencies.&lt;/p&gt;
+&lt;p&gt;When I saw his post, I thought I'd add &lt;strong&gt;two tipps and tricks about how to overcome the fear of "messing up" a notebook&lt;/strong&gt; that many analog note-takers seem to have:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Start with the inside of the cover&lt;/strong&gt;: Purposefully "mess up" the part of the notebook that's not really for taking notes. Put a coffee stain or some stickers on it, give it a silly name or at least a number, doodle something.&lt;/p&gt;
+&lt;p&gt;I use the blank inside of my notebooks for all sorts of things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the start and end dates of me using that notebook,&lt;/li&gt;
+&lt;li&gt;its running number,&lt;/li&gt;
+&lt;li&gt;my contact info and sometimes the promise of a finder's fee,&lt;/li&gt;
+&lt;li&gt;the page numbers of single remaining empty pages,&lt;/li&gt;
+&lt;li&gt;the best quotes or ideas that made it into that notebook etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Embrace scrapbooking&lt;/strong&gt;: Every note you "messed up" is an opportunity to increase the scrapbooky&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; feel of your notebook: Tear a random piece of paper and glue it over the messed-up note, or cover it with a piece of a sticky note. Then, write the note again.&lt;/p&gt;
+&lt;p&gt;This comes down to taste, of course, but curiously, even many notebook users who are afraid of messing up their notes actually enjoy the vibe of a scrapbook.&lt;/p&gt;
+&lt;p&gt;I go even a little further: Whenever I take a note about a larger topic im currently working on in my pocket notebook, I consciously write it on a fresh page. Later, instead of re-writing that note in the notebook that I use for thinking about that particular topic, I rip or cut it out and glue or staple it in. Saves time and makes the whole thing more organic — and more scrapbooky, which is always a good thing.&lt;br /&gt;
+The result might look something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/notebookery/20260605_081826.webp" alt="20260605_081826" /&gt;&lt;/p&gt;
+&lt;p&gt;Hope this helps — 'til next time, fellow notebookers!&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://notebookery.bearblog.dev/contact/'&gt;&lt;strong&gt;Contact me!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/notebookery/kelly-sikkema-jdpdmainjko-unsplash.webp" alt="kelly-sikkema-JDPDMaINjko-unsplash" /&gt;&lt;/p&gt;
+&lt;h4 id=footnotes&gt;Footnotes&lt;/h4&gt;&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;A scrapbook is a notebook or journal where the actual journaling is combined with scraps of paper, tickets, receits etc. that are glued in as physical artifacts of what the journaling is about.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://notebookery.bearblog.dev/re-dirt-notebook/" rel="alternate"/>
+    <published>2026-07-15T20:06:00+00:00</published>
   </entry>
   <entry>
     <id>https://futureperfect.bearblog.dev/sex-is-better-with-bear/</id>
@@ -94,6 +138,29 @@
     <published>2026-07-13T09:55:00+00:00</published>
   </entry>
   <entry>
+    <id>https://basic.bearblog.dev/retro-computer-advertising-memories/</id>
+    <title>Retro computer advertising memories</title>
+    <updated>2026-07-12T16:18:00+00:00</updated>
+    <author>
+      <name>basic</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I have fond memories of computer magazines from the late 80's and into the 90's. The large full page and double page ads with words and images that I never skipped. These were informative to me as a young mind absorbing everything I could to share with my friends in our discussions of which computer was better.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/ataristad.webp" alt="ataristad" /&gt;&lt;/p&gt;
+&lt;p&gt;I had a fascination with every brand and never had a favourite. Back then, there was competition and each brand had to present their own platforms. Screenshots were a big deal to prove they also had software that could match IBM compatible versions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/applead.webp" alt="applead" /&gt;&lt;/p&gt;
+&lt;p&gt;Each company had their own idea of advertising. Some were fun and others were very descriptive. They poked fun at each other too with claims of being toys.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/amigaad.webp" alt="amigaad" /&gt;&lt;/p&gt;
+&lt;p&gt;It confused consumers too, especially parents investing in a platform for their children.  At the time, schools were taking chances with Apple and IBM compatible computer classrooms. I recall my own school constructing a new building addition just for &lt;a href='https://en.wikipedia.org/wiki/IBM_PS/1' target='_blank'&gt;IBM PS/1&lt;/a&gt; systems. By 1989, I could see the writing on the wall for other brands because schools were not investing in Atari, Commodore or other computers. Not even my friend's parents took a risk any longer and stuck with IBM compatible computers.&lt;/p&gt;
+&lt;p&gt;I saw less advertising in computer magazines for those other brands and eventually those companies disappeared. It wasn't until 1998, when Steve Jobs coming back to Apple would we see a new world of advertising for fun colorful computers and accessories. The 2000's became all about Apple and no one wanted a beige or black PC.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/appleimacad.webp" alt="appleimacad" /&gt;&lt;/p&gt;
+&lt;p&gt;What were your favourite memories of vintage PC ads?&lt;/p&gt;
+&lt;hr /&gt;
+</content>
+    <link href="https://basic.bearblog.dev/retro-computer-advertising-memories/" rel="alternate"/>
+    <published>2026-07-12T16:18:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://loveisverbing.bearblog.dev/bear-quest/</id>
     <title>Bear Blogging - unanswered questions</title>
     <updated>2026-07-12T13:49:00+00:00</updated>
@@ -133,73 +200,6 @@
     <published>2026-07-13T21:41:00+00:00</published>
   </entry>
   <entry>
-    <id>https://basic.bearblog.dev/retro-computer-advertising-memories/</id>
-    <title>Retro computer advertising memories</title>
-    <updated>2026-07-12T16:18:00+00:00</updated>
-    <author>
-      <name>basic</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I have fond memories of computer magazines from the late 80's and into the 90's. The large full page and double page ads with words and images that I never skipped. These were informative to me as a young mind absorbing everything I could to share with my friends in our discussions of which computer was better.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/ataristad.webp" alt="ataristad" /&gt;&lt;/p&gt;
-&lt;p&gt;I had a fascination with every brand and never had a favourite. Back then, there was competition and each brand had to present their own platforms. Screenshots were a big deal to prove they also had software that could match IBM compatible versions.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/applead.webp" alt="applead" /&gt;&lt;/p&gt;
-&lt;p&gt;Each company had their own idea of advertising. Some were fun and others were very descriptive. They poked fun at each other too with claims of being toys.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/amigaad.webp" alt="amigaad" /&gt;&lt;/p&gt;
-&lt;p&gt;It confused consumers too, especially parents investing in a platform for their children.  At the time, schools were taking chances with Apple and IBM compatible computer classrooms. I recall my own school constructing a new building addition just for &lt;a href='https://en.wikipedia.org/wiki/IBM_PS/1' target='_blank'&gt;IBM PS/1&lt;/a&gt; systems. By 1989, I could see the writing on the wall for other brands because schools were not investing in Atari, Commodore or other computers. Not even my friend's parents took a risk any longer and stuck with IBM compatible computers.&lt;/p&gt;
-&lt;p&gt;I saw less advertising in computer magazines for those other brands and eventually those companies disappeared. It wasn't until 1998, when Steve Jobs coming back to Apple would we see a new world of advertising for fun colorful computers and accessories. The 2000's became all about Apple and no one wanted a beige or black PC.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/appleimacad.webp" alt="appleimacad" /&gt;&lt;/p&gt;
-&lt;p&gt;What were your favourite memories of vintage PC ads?&lt;/p&gt;
-&lt;hr /&gt;
-</content>
-    <link href="https://basic.bearblog.dev/retro-computer-advertising-memories/" rel="alternate"/>
-    <published>2026-07-12T16:18:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://notebookery.bearblog.dev/re-dirt-notebook/</id>
-    <title>Re: I started a "dirt notebook"</title>
-    <updated>2026-07-15T20:06:00+00:00</updated>
-    <author>
-      <name>notebookery</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;In &lt;a href='https://pinewind.bearblog.dev/i-started-a-dirt-notebook/' target='_blank'&gt;I started a "dirt notebook"&lt;/a&gt;, BearBlogger kwist describes his reluctance to take messy notes in his regular notebooks:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;"I start cherishing every notebook that I start. I can't seem to keep my notes messy. Eventually, I start structuring the notes, doing cleaner handwriting, adding a cover or some stickers ... and before I know it, the notebook is too well-organised for simply scribbling into."&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;To counter this tendency, he started a dedicated "dirt notebook":&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;"I've nicknamed it "The Drainage Channel", because it's just a place for whatever is going through my head right in that moment. I'm using an old, empty notebook that I found lying around the other day. The paper quality is pretty bad; every kind of fountain pen ink bleeds through so I'm forced to use cheap ballpoints and it doesn't open flat, which makes it hard to take clean-looking notes in."&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;This is a really good way to work against such perfectionist tendencies.&lt;/p&gt;
-&lt;p&gt;When I saw his post, I thought I'd add &lt;strong&gt;two tipps and tricks about how to overcome the fear of "messing up" a notebook&lt;/strong&gt; that many analog note-takers seem to have:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1. Start with the inside of the cover&lt;/strong&gt;: Purposefully "mess up" the part of the notebook that's not really for taking notes. Put a coffee stain or some stickers on it, give it a silly name or at least a number, doodle something.&lt;/p&gt;
-&lt;p&gt;I use the blank inside of my notebooks for all sorts of things:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the start and end dates of me using that notebook,&lt;/li&gt;
-&lt;li&gt;its running number,&lt;/li&gt;
-&lt;li&gt;my contact info and sometimes the promise of a finder's fee,&lt;/li&gt;
-&lt;li&gt;the page numbers of single remaining empty pages,&lt;/li&gt;
-&lt;li&gt;the best quotes or ideas that made it into that notebook etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;2. Embrace scrapbooking&lt;/strong&gt;: Every note you "messed up" is an opportunity to increase the scrapbooky&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; feel of your notebook: Tear a random piece of paper and glue it over the messed-up note, or cover it with a piece of a sticky note. Then, write the note again.&lt;/p&gt;
-&lt;p&gt;This comes down to taste, of course, but curiously, even many notebook users who are afraid of messing up their notes actually enjoy the vibe of a scrapbook.&lt;/p&gt;
-&lt;p&gt;I go even a little further: Whenever I take a note about a larger topic im currently working on in my pocket notebook, I consciously write it on a fresh page. Later, instead of re-writing that note in the notebook that I use for thinking about that particular topic, I rip or cut it out and glue or staple it in. Saves time and makes the whole thing more organic — and more scrapbooky, which is always a good thing.&lt;br /&gt;
-The result might look something like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/notebookery/20260605_081826.webp" alt="20260605_081826" /&gt;&lt;/p&gt;
-&lt;p&gt;Hope this helps — 'til next time, fellow notebookers!&lt;/p&gt;
-&lt;p&gt;&lt;a href='https://notebookery.bearblog.dev/contact/'&gt;&lt;strong&gt;Contact me!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/notebookery/kelly-sikkema-jdpdmainjko-unsplash.webp" alt="kelly-sikkema-JDPDMaINjko-unsplash" /&gt;&lt;/p&gt;
-&lt;h4 id=footnotes&gt;Footnotes&lt;/h4&gt;&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;A scrapbook is a notebook or journal where the actual journaling is combined with scraps of paper, tickets, receits etc. that are glued in as physical artifacts of what the journaling is about.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</content>
-    <link href="https://notebookery.bearblog.dev/re-dirt-notebook/" rel="alternate"/>
-    <published>2026-07-15T20:06:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://onlinegoddess.net/2026/07/getting-frustrated-with-big-bang-theory/</id>
     <title>Getting Frustrated with Big Bang Theory</title>
     <updated>2026-07-15T17:30:00+00:00</updated>
@@ -213,43 +213,19 @@ The result might look something like this:&lt;/p&gt;
 &lt;p&gt;While we take opportunities to discuss things that arise in the show, I do worry how much he thinks these characters are having normal adult friendships and relationships.&lt;/p&gt;
 &lt;p&gt;Eldest doesn’t watch a lot of TV, so he hasn’t experienced a varied cultural diet. I’d like us to take a break from BBT and watch something that will provide a more positive attitude towards others while still embracing being different.&lt;/p&gt;
 &lt;p&gt;I’d appreciate any recommendations for other shows that have nerdy, neurodivergent or queer (or all the above!) primary characters who would be better role models for my son. Feel free to &lt;a href='https://onlinegoddess.net/contact/'&gt;pop me an email&lt;/a&gt; if you have any suggestions!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;EDIT: Thank you so much to everyone who has emailed me. These are the great suggestions I’ve had so far, so I’ll be checking them out over the next few days:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Antonio&lt;/strong&gt;: Star Trek: The Next Generation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aurelien&lt;/strong&gt;: Sex Education&lt;/li&gt;
+&lt;li&gt;&lt;a href='https://danq.me/' target='_blank'&gt;Dan Q&lt;/a&gt;: Our Flag Means Death, Interview with the Vampire (TV), Tuca &amp; Bertie, Ted Lasso and Poker Face.&lt;/li&gt;
+&lt;li&gt;&lt;a href='https://chamook.lol' target='_blank'&gt;Adam&lt;/a&gt;: Star Trek, specifically Discovery, Strange New Worlds and Lower Decks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Johanna&lt;/strong&gt;: Atypical&lt;/li&gt;
+&lt;li&gt;&lt;a href='https://www.rhyswynne.co.uk/' target='_blank'&gt;Rhys&lt;/a&gt;: For All Mankind&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     <link href="https://onlinegoddess.net/2026/07/getting-frustrated-with-big-bang-theory/" rel="alternate"/>
     <published>2026-07-15T17:30:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://householderkarl.com/nothing-to-anyone/</id>
-    <title>Nothing to Anyone</title>
-    <updated>2026-07-11T15:50:00+00:00</updated>
-    <author>
-      <name>householderkarl</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/householderkarl/jpeg-1.webp#center" alt="why-kafka-v0-ax2zvi6kkech1" /&gt;&lt;/p&gt;
-&lt;p&gt;So much of our existence is paradoxical. The desire for freedom is inherent to human nature, yet we willingly sacrifice it in exchange for meaning. “To love is to suffer,” says poor Boris – a truth known deep in the bones of any married man. With our very first breath, we begin to die.&lt;/p&gt;
-&lt;p&gt;Here I am, on a rainy Saturday morning, wondering if freedom actually exists. Between love and isolation, pleasure and pain, is the semblance of choice merely an illusion? Something to comfort ourselves with on the long road to old age and death?&lt;/p&gt;
-&lt;p&gt;I’m enjoying the thunder and dark skies. Perhaps that’s all there is to it.&lt;/p&gt;
-</content>
-    <link href="https://householderkarl.com/nothing-to-anyone/" rel="alternate"/>
-    <published>2026-07-11T15:50:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://sweaterpockets.bearblog.dev/neocities-intimidates-me/</id>
-    <title>Neocities Intimidates Me</title>
-    <updated>2026-07-11T13:43:00+00:00</updated>
-    <author>
-      <name>sweaterpockets</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I’m going to be honest, one of the reasons why I joined Bear is because I’m not quite ready to develop my own site from scratch. I’m not knowledgeable about HTML and CCS. That would be a big task to take on. Who knows, maybe someday I’ll finally sit down and learn to create one. I have seen plenty of sites other people have made, lots of them are very vivid and interactive! I imagine my site would be more simple, minimalistic you know? I tend to gravitate towards cleaner designs. I guess that’s why I like the default Bear theme so much!&lt;/p&gt;
-&lt;p&gt;Making my own website is something to consider—since the internet is becoming more confusing/difficult for artists. Developing a place made for myself doesn’t sound like a bad idea. I’m aware of the age verification laws, the feeding of everything to the generative AI machine, it’s all very exhausting. I couldn’t imagine myself settling for any trendy sites anymore (X, TikTok, etc). Maybe avoiding them is for the best. I’m getting too old for all that online drama anyway. Most of us probably already know how harmful algorithms can be. The art community has expressed disappointment towards Instagram more often within the last couple years. Understandably so, I deleted my account ages ago.&lt;/p&gt;
-&lt;p&gt;Neocities will be my &lt;em&gt;“break glass in case of emergency”&lt;/em&gt; option. It’s always good to make plans in advance. Now to end on a positive note, I’m going to link a few of my favorite sites here!&lt;/p&gt;
-&lt;p&gt;♡ &lt;a href='https://sugarblush.neocities.org/' target='_blank'&gt;sugarblush&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;♡ &lt;a href='https://sealdeer.neocities.org/' target='_blank'&gt;sealdeer&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;♡ &lt;a href='https://wondermap.neocities.org/kirby/main' target='_blank'&gt;wondermap&lt;/a&gt;&lt;/p&gt;
-</content>
-    <link href="https://sweaterpockets.bearblog.dev/neocities-intimidates-me/" rel="alternate"/>
-    <published>2026-07-11T13:43:00+00:00</published>
   </entry>
   <entry>
     <id>https://blog.lauramichet.com/the-tab-ive-had-opened-longest-in-my-browser/</id>
@@ -325,6 +301,40 @@ The result might look something like this:&lt;/p&gt;
     <published>2026-07-12T17:15:00+00:00</published>
   </entry>
   <entry>
+    <id>https://householderkarl.com/nothing-to-anyone/</id>
+    <title>Nothing to Anyone</title>
+    <updated>2026-07-11T15:50:00+00:00</updated>
+    <author>
+      <name>householderkarl</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/householderkarl/jpeg-1.webp#center" alt="why-kafka-v0-ax2zvi6kkech1" /&gt;&lt;/p&gt;
+&lt;p&gt;So much of our existence is paradoxical. The desire for freedom is inherent to human nature, yet we willingly sacrifice it in exchange for meaning. “To love is to suffer,” says poor Boris – a truth known deep in the bones of any married man. With our very first breath, we begin to die.&lt;/p&gt;
+&lt;p&gt;Here I am, on a rainy Saturday morning, wondering if freedom actually exists. Between love and isolation, pleasure and pain, is the semblance of choice merely an illusion? Something to comfort ourselves with on the long road to old age and death?&lt;/p&gt;
+&lt;p&gt;I’m enjoying the thunder and dark skies. Perhaps that’s all there is to it.&lt;/p&gt;
+</content>
+    <link href="https://householderkarl.com/nothing-to-anyone/" rel="alternate"/>
+    <published>2026-07-11T15:50:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://sweaterpockets.bearblog.dev/neocities-intimidates-me/</id>
+    <title>Neocities Intimidates Me</title>
+    <updated>2026-07-11T13:43:00+00:00</updated>
+    <author>
+      <name>sweaterpockets</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I’m going to be honest, one of the reasons why I joined Bear is because I’m not quite ready to develop my own site from scratch. I’m not knowledgeable about HTML and CCS. That would be a big task to take on. Who knows, maybe someday I’ll finally sit down and learn to create one. I have seen plenty of sites other people have made, lots of them are very vivid and interactive! I imagine my site would be more simple, minimalistic you know? I tend to gravitate towards cleaner designs. I guess that’s why I like the default Bear theme so much!&lt;/p&gt;
+&lt;p&gt;Making my own website is something to consider—since the internet is becoming more confusing/difficult for artists. Developing a place made for myself doesn’t sound like a bad idea. I’m aware of the age verification laws, the feeding of everything to the generative AI machine, it’s all very exhausting. I couldn’t imagine myself settling for any trendy sites anymore (X, TikTok, etc). Maybe avoiding them is for the best. I’m getting too old for all that online drama anyway. Most of us probably already know how harmful algorithms can be. The art community has expressed disappointment towards Instagram more often within the last couple years. Understandably so, I deleted my account ages ago.&lt;/p&gt;
+&lt;p&gt;Neocities will be my &lt;em&gt;“break glass in case of emergency”&lt;/em&gt; option. It’s always good to make plans in advance. Now to end on a positive note, I’m going to link a few of my favorite sites here!&lt;/p&gt;
+&lt;p&gt;♡ &lt;a href='https://sugarblush.neocities.org/' target='_blank'&gt;sugarblush&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;♡ &lt;a href='https://sealdeer.neocities.org/' target='_blank'&gt;sealdeer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;♡ &lt;a href='https://wondermap.neocities.org/kirby/main' target='_blank'&gt;wondermap&lt;/a&gt;&lt;/p&gt;
+</content>
+    <link href="https://sweaterpockets.bearblog.dev/neocities-intimidates-me/" rel="alternate"/>
+    <published>2026-07-11T13:43:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://untangled.bearblog.dev/indie-video-rental/</id>
     <title>Re: Revival of Independent Physical Video Rental Shops</title>
     <updated>2026-07-11T13:50:00+00:00</updated>
@@ -372,6 +382,35 @@ The result might look something like this:&lt;/p&gt;
     <published>2026-07-15T00:30:00+00:00</published>
   </entry>
   <entry>
+    <id>https://unturnedhovel.bearblog.dev/why-are-open-table-osr-games-like-that/</id>
+    <title>Why are open table OSR games like that?</title>
+    <updated>2026-07-16T00:01:00+00:00</updated>
+    <author>
+      <name>unturnedhovel</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Caveat Emptor: I do not play games across a wide range of communities. I am mostly active in one space centered around the OSR/DIY and my own home table group I have gamed with for six years in tabletop and over fifteen for other games. The title of this could easily be Why are _________ games like that? If I were a member of any of those other spaces.&lt;/p&gt;
+&lt;p&gt;I"ve been a player in the GB OSR server for a little over a year now and running a Classic Traveller game there for five months or so now. During all that time I have played with probably close to a dozen or so different GMs and have had lots of different folks as players. I run an open table game there and all of the games I've been a player in so far have been open table.&lt;/p&gt;
+&lt;p&gt;My home game group is closed table group and we've all known each other for at minimum seven years and some of us much longer than that.&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://msquixotic.bearblog.dev/i-hate-playing-at-most-osr-tables/'&gt;This post &lt;/a&gt;addresses some issues that this public, online play culture can have. The play cultures are completely different and most of those differences are necessitated by the "open" nature of the game. I will also offer my own way to try and sidestep these problems if I think there is one.&lt;/p&gt;
+&lt;h2 id=the-unfixed-playercount-problem&gt;The unfixed playercount problem&lt;/h2&gt;&lt;p&gt;Player count being in flux is one of the biggest factors in how the vibes shift. At a certain inflection point (around 5-6 for this sandwich eater) the game becomes more about actions of the party rather than the individual PCs. A lot of the OSR games default styles of play slot into this nicely. A dungeon delve or a patron mission are group oriented goals that offer some means of personal expression in how they're completed, but is all in service to the "mission." This shift in play can be a deal breaker for a lot of people because being in a 12 person party where you may only get a few moments in the spotlight outside of combat.&lt;/p&gt;
+&lt;p&gt;This is not something I see in my home games were I am much more able to focus on individual PCs and their emotions/lives.&lt;/p&gt;
+&lt;h3 id=be-intentional-with-playercount&gt;Be intentional with playercount&lt;/h3&gt;&lt;p&gt;Think about the game you want to run and put a player cap on there. It may be hard some weeks to keep context going if you have all new players but that's the beauty of an open table, let them kick the tires in some other area of your game. Let folks who didn't play last week have priority to play next week or w/e. Plenty of good solutions but be intentional with how many players you want at the table because it WILL change the vibe.&lt;/p&gt;
+&lt;h2 id=running-with-the-fastest&gt;Running with the fastest&lt;/h2&gt;&lt;p&gt;There is a teaching term called running with the fastest where you only engage with the students giving you correct answers and ignoring the rest of the class. This is something that's easy to fall into in a public game because the GM doesn't know who is showing up to any given session and new players are complete unknowns. Some referees might feel uncomfortable putting new players on the spot. Some might have bad experiences with new folks grinding the game to a halt and err on the side of going with players they can count on to keep momentum going. Momentum is a powerful thing in a public game because there hasn't been buy in from all the players to have the patience to take things slow most the time. So even if you feel that things are progressing at a decent rate the GM might feel that pressure to keep momentum as to not feel like wasting anyone's time.&lt;/p&gt;
+&lt;h3 id=twofer-referees-call-folks-by-their-name-players-advocate-for-yourself&gt;Twofer: Referees call folks by their name. Players ADVOCATE for yourself&lt;/h3&gt;&lt;p&gt;I am legally blind and struggle with some aspects of online play. I bring up this disability with new referees I game with just in case I have an issue with the game due to that and might need some assistance. It has never happened fortunately but there are times when some refs will message me to check if everything is all good.&lt;/p&gt;
+&lt;p&gt;It can also be scary to interject yourself into established groups and start calling shots. My advice is the same. Speak up and advocate for yourself. Any table that would dismiss you for advocating for yourself isn't one that you should wanna play at.&lt;/p&gt;
+&lt;p&gt;And to my referees out there: scratch pad and pen with player names. Tally off every time you call on someone and try to make it even. After a while you'll build the muscle of keeping things spread around.&lt;/p&gt;
+&lt;h2 id=the-skew-towards-violence&gt;The skew towards violence&lt;/h2&gt;&lt;p&gt;This goes back to the playercount problem. The easiest way to make sure folks are getting equal time in game is to run stuff that skews towards the parts of games that usually have the most codified rules for acting: combat. There is also the logistical issues of trying to do more high context, literary gaming with large groups that may be inconsistent week to week. Smash and grabs become a good way to make sure everyone is playing and contributing to the table.&lt;/p&gt;
+&lt;h3 id=communicate-expectations-or-ride-the-waves&gt;Communicate expectations (or ride the waves)&lt;/h3&gt;&lt;p&gt;Be clear when you start a public campaign or one shot how you expect folks to interact with the world. Is it something more serious or a hack and slash. And if it's something ongoing then continually communicate those expectations to players because it's easy for things like that to slip week to week.&lt;/p&gt;
+&lt;p&gt;Or you can do as &lt;a href='https://bluemountain.bearblog.dev/1000-statues-worked-example/'&gt;Mr. Mann&lt;/a&gt; does with 1000 statues and try to match the vibes of the different groups that show up to your game. This will usually default to whatever the normal culture is, but depending on mood and party composition there will be surprising somber sessions.&lt;/p&gt;
+&lt;p&gt;My final bit of perspective on this is that quite typically the culture of a given hobby space is not homogenous or uniform. Weird Writer's &lt;a href='https://rolltodoubt.wordpress.com/2026/06/27/becoming-girl-session-one-report/'&gt;Lost Girls&lt;/a&gt; or Havoc's &lt;a href='https://lonely-star.bearblog.dev/and-in-the-darkness-hearts-aglow-session-21-the-winter-tournament/'&gt;Hearts Aglow&lt;/a&gt; and &lt;a href='https://lonely-star.bearblog.dev/arden-vul-weasels-session-7/'&gt;Arden Weasels&lt;/a&gt; are games well outside the server's normal style of play. I would offer my Frydheld Sector game as outside the norm as well. There is a certain amount of lurking one must do to try and get the culture of a place. It doesn't have to be terribly long or difficult. "Lurking more" is a good way to get a feel for what the given culture of a place is and seeing how you might want to impact it to give your own style to a place as well.&lt;/p&gt;
+&lt;p&gt;Which is to say, go forth and game at tables that celebrate and respect you. Run games that you are intentional with. Be clear with what you want out of the things you run.&lt;/p&gt;
+&lt;p&gt;Spread beauty and light.&lt;/p&gt;
+</content>
+    <link href="https://unturnedhovel.bearblog.dev/why-are-open-table-osr-games-like-that/" rel="alternate"/>
+    <published>2026-07-16T00:01:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://binarydigit.net/the-paused-web/</id>
     <title>The Paused Web</title>
     <updated>2026-07-11T04:09:00+00:00</updated>
@@ -386,7 +425,7 @@ The result might look something like this:&lt;/p&gt;
 .
 .
 .&lt;/p&gt;
-&lt;p&gt;Update: 4 days, 9 hours ago&lt;/p&gt;
+&lt;p&gt;Update: 4 days, 12 hours ago&lt;/p&gt;
 &lt;p&gt;I did it! Thank you @hollie and @cygnoir for the encouragement and idea!  I need a couple of people to test it with if you're willing - Please let me know if you'd like to be added, so I can iron out any issues if any!&lt;/p&gt;
 &lt;p&gt;&lt;a href='https://pausedweb.binarydigit.net'&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/binarydigit/screenshot-1.webp" alt="pausedweb.binarydigit.net" /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -540,22 +579,5 @@ The result might look something like this:&lt;/p&gt;
 </content>
     <link href="https://elmc.at/rootring-months-later/" rel="alternate"/>
     <published>2026-07-11T13:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://rnotte.art/re-quick-and-easy-coverspostersetc-without-genai/</id>
-    <title>RE: quick and easy covers/posters/etc. without genAI</title>
-    <updated>2026-07-10T19:12:11.822312+00:00</updated>
-    <author>
-      <name>rnotte</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href='https://skaetlett.bearblog.dev/quick-easy-posters-without-ai/'&gt;original post by skaetlett.&lt;/a&gt; i read this and i HAD to reply to it, because i'm sick and tired of AI-generated promotional graphics and cover arts, too! well, i'm sick of gen AI in general, but its use in covers/posters/etc. in particular.&lt;/p&gt;
-&lt;p&gt;every time i see such a poster, i think, "come on you cheapskates, are there REALLY no artists in your town that you can work with? you couldn't even just type it out on microsoft word and attach a relevant clip-art? you couldn't just take a photo or video with your phone? are you THAT lazy? well now i'm no longer interested." these AI-generated graphics don't even look good! they're garish and overstimulating, and they hurt my eyes to read. but most importantly, they don't tell me anything about who &lt;em&gt;you&lt;/em&gt; are.&lt;/p&gt;
-&lt;p&gt;it's easy to create these assets when you're strapped for cash, using the methods outlined in skaet's blog post. we've &lt;em&gt;always&lt;/em&gt; been able to do it ourselves without asking chatGPT to do it for us, for years. like, look at this. i made this in realworld paint (a free raster graphics editor) in like 10 minutes:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/rnotte/stupid-poster.webp" alt="stupid poster" /&gt;&lt;/p&gt;
-&lt;p&gt;sorry for the shameless plug, but you see? &lt;strong&gt;it's easy!&lt;/strong&gt; don't make excuses for using the environmentally-destructive plagiarism machine. there's nothing wrong with putting in at least the &lt;em&gt;bare minimum&lt;/em&gt; of effort. skaet's post will help you out. be a human, be silly, be authentic, and be &lt;em&gt;you.&lt;/em&gt;&lt;/p&gt;
-</content>
-    <link href="https://rnotte.art/re-quick-and-easy-coverspostersetc-without-genai/" rel="alternate"/>
-    <published>2026-07-10T19:12:11.822312+00:00</published>
   </entry>
 </feed>

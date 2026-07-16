@@ -8,6 +8,9 @@ layout: 'base.njk'
 <div class="portal-layout home-index">
   <aside class="portal-left">
     {% include "sidebar-left.njk" %}
+    {% postrollItems %}
+    {% bearblogDiscoveryItems %}
+    {% include "fantastic-web-snippet.njk" %}
   </aside>
 
   <div class="home-status-strip">
@@ -26,7 +29,7 @@ layout: 'base.njk'
     <section class="section writing-layout">
       <div class="writing-row-one">
         {% if recentPosts[0] %}
-        <article class="writing-lead">
+        <article class="writing-lead{% if recentPosts[0].data.highlight %} writing-highlight{% endif %}">
           {% set leadTag = recentPosts[0].data.tags[1] or recentPosts[0].data.tags[0] %}
           <div class="tagline"><a href="/tags/{{ leadTag | slug }}/">{{ leadTag }}</a></div>
           <a href="{{ recentPosts[0].url }}" class="u-url p-name"><strong>{{ recentPosts[0].data.title }}</strong></a>
@@ -36,10 +39,10 @@ layout: 'base.njk'
         {% endif %}
 
         <article class="writing-piclog">
-          <a href="/assets/images/piclog/piclog.jpeg">
+          <a href="{{ piclogImage }}">
             <span class="piclog-overlay">Picture of the Day</span>
             <img
-              src="/assets/images/piclog/piclog.jpeg"
+              src="{{ piclogImage }}"
               alt="Picture of the Day"
               class="piclog-image"
             >
@@ -50,7 +53,7 @@ layout: 'base.njk'
       <div class="writing-row-two">
         {% for post in recentPosts | offset(1) %}
           {% if loop.index <= 3 %}
-          <article class="writing-card">
+          <article class="writing-card{% if post.data.highlight %} writing-highlight{% endif %}">
             {% set postTag = post.data.tags[1] or post.data.tags[0] %}
             <div class="tagline"><a href="/tags/{{ postTag | slug }}/">{{ postTag }}</a></div>
             <a href="{{ post.url }}" class="u-url p-name"><strong>{{ post.data.title }}</strong></a>

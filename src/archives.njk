@@ -11,7 +11,7 @@ title: Archives
   </p>
 
   {% set currentYear = collections.postArchiveYears | first %}
-  <p>
+  <p class="archive-years">
     Years:
     {% for year in collections.postArchiveYears %}
       <a href="/archives/{{ year }}/">{{ year }}</a>{% if not loop.last %} | {% endif %}
