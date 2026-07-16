@@ -1,0 +1,15 @@
+[
+  { "url": "https://letterboxd.com/", "label": "Goodreads of Movies" },
+  { "url": "https://everynoise.com/", "label": "Every Noise At Once" },
+  { "url": "https://neal.fun/", "label": "Neal.fun" },
+  { "url": "https://radio.garden/", "label": "Radio Garden" },
+  { "url": "https://pointerpointer.com/", "label": "Pointer Pointer" },
+  { "url": "https://www.window-swap.com/", "label": "WindowSwap" },
+  { "url": "https://longdogechallenge.com/", "label": "Long Doge Challenge" },
+  { "url": "https://zoomquilt.org/", "label": "Zoomquilt" },
+  { "url": "https://stars.chromeexperiments.com/", "label": "100,000 Stars" },
+  { "url": "https://earth.nullschool.net/", "label": "Earth Nullschool" },
+  { "url": "https://quickdraw.withgoogle.com/", "label": "Quick, Draw!" },
+  { "url": "https://www.mapcrunch.com/", "label": "MapCrunch" },
+  { "url": "https://retro-foundry.github.io/multistuntcar/", "label": "Multi StuntCar Game" }
+]

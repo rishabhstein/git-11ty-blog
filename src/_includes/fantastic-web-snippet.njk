@@ -1,15 +1,10 @@
 <h3><a href="/fantastic-web/">Fantastic Web</a></h3>
 <ul class="portal-list">
-  {% set fantasticWebLinks = [
-    { url: "https://neal.fun/", label: "Neal.fun" },
-    { url: "https://radio.garden/", label: "Radio Garden" },
-    { url: "https://pointerpointer.com/", label: "Pointer Pointer" },
-    { url: "https://www.window-swap.com/", label: "WindowSwap" },
-    { url: "https://longdogechallenge.com/", label: "Long Doge Challenge" }
-  ] %}
-  {% for link in fantasticWebLinks | shuffle %}
+  {% for link in fantasticWeb | shuffle %}
+  {% if loop.index <= 5 %}
   <li>
     <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
   </li>
+  {% endif %}
   {% endfor %}
 </ul>

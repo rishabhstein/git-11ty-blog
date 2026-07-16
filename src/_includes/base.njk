@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{{ title }}</title>
@@ -8,8 +8,6 @@
     <meta name="author" content="sigmarootpi">
     {% set siteRoot = site.pathPrefix or "/" %}
     <script>
-      document.documentElement.classList.remove("no-js");
-      document.documentElement.classList.add("js");
       window.__SITE_PATH_PREFIX__ = "{{ siteRoot }}";
     </script>
 
@@ -34,7 +32,7 @@
     <!-- Le styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="{{ siteRoot }}assets/css/style.css?v=2.1">
+    <link rel="stylesheet" href="{{ siteRoot }}assets/css/style.css?v=2.2">
     <!-- <link rel="stylesheet" href="/assets/css/snow.css?v=1.0">
     <link rel="stylesheet" href="/assets/css/christmas-light.css"> -->
 
@@ -48,14 +46,12 @@
     <script src="{{ siteRoot }}assets/js/mobile-sidebar-sections.js" defer></script>
     <script src="{{ siteRoot }}assets/js/activity-heatmap.js" defer></script>
     <script src="{{ siteRoot }}assets/js/workout-tabs.js" defer></script>
-    <script src="{{ siteRoot }}assets/js/geocities-loader.js" defer></script>
     <script src="{{ siteRoot }}assets/js/status-ticker.js" defer></script>
-    <script src="{{ siteRoot }}assets/js/image-reveal.js?v=2.5" defer></script>
     <script src="{{ siteRoot }}pagefind/pagefind-ui.js" defer></script>
     <script src="{{ siteRoot }}assets/js/pagefind-init.js" defer></script>
     <script src="{{ siteRoot }}assets/js/cat-cursor.js" defer></script>
-    <audio id="sidebar-music" src="/assets/sounds/blog_background.mp3" preload="auto" loop></audio>
-    <audio id="focus-mode-sound" src="/assets/sounds/angel-harp.mp3" preload="auto"></audio>
+    <audio id="sidebar-music" src="/assets/sounds/blog_background.mp3" preload="none" loop></audio>
+    <audio id="focus-mode-sound" src="/assets/sounds/angel-harp.mp3" preload="none"></audio>
 
 </head>
 <body class="{{ pageClass or '' }}">
@@ -144,7 +140,7 @@
         {% include "blogroll-snippet.njk" %}
         <p>
           <a href="/guestbook/">
-            <img src="https://www.gifs.cc/guestbook/sign-guestbook-animation.gif" alt="Sign my guestbook" data-no-image-reveal>
+            <img src="https://www.gifs.cc/guestbook/sign-guestbook-animation.gif" alt="Sign my guestbook">
           </a>
         </p>
 
@@ -213,7 +209,7 @@
 
     <div class="right-column">
       <!-- Right Sidebar Column -->
-      <h3><img src="/assets/icons/fb-announce.png" class="icon-emoji" data-no-image-reveal> Status </h3>
+      <h3><img src="/assets/icons/fb-announce.png" class="icon-emoji"> Status </h3>
       <div class="section">
         <section class="livestatus">
           <div

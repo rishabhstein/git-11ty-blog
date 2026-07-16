@@ -1,22 +1,8 @@
 <ul class="portal-list blogroll-list">
-  <li><a href="https://indieblog.page/" target="_blank" rel="noopener noreferrer">Indie.blog</a></li>
-  <li><a href="https://bearblog.dev/discover/" target="_blank" rel="noopener noreferrer">Bearblog</a></li>
-  <li><a href="https://anniemueller.com/" target="_blank" rel="noopener noreferrer">annie's blog</a></li>
-  <li><a href="https://blog.avas.space/" target="_blank" rel="noopener noreferrer">ava's blog</a></li>
-  <li><a href="https://manuelmoreale.com/" target="_blank" rel="noopener noreferrer">Manuel Moreale</a></li>
-  <li><a href="https://louplummer.lol/" target="_blank" rel="noopener noreferrer">Living Out Loud</a></li>
-  <li><a href="https://appaddict.app/" target="_blank" rel="noopener noreferrer">AppAddict</a></li>
-  <li><a href="https://bacardi55.io/posts/" target="_blank" rel="noopener noreferrer">Bacardi55's Web Cave</a></li>
-  <li><a href="https://blogroll.club/" target="_blank" rel="noopener noreferrer">Blogroll.Club</a></li>
-  <li><a href="https://www.coryd.dev/feeds/posts.xml" target="_blank" rel="noopener noreferrer">Cory Dransfeldt</a></li>
-  <li><a href="https://hacdias.com/" target="_blank" rel="noopener noreferrer">Henrique Dias</a></li>
-  <li><a href="https://ldstephens.net/" target="_blank" rel="noopener noreferrer">ldstephens</a></li>
-  <li><a href="https://meadow.cafe/" target="_blank" rel="noopener noreferrer">Meadow</a></li>
-  <li><a href="http://bactra.org/notebooks" target="_blank" rel="noopener noreferrer">Notebooks</a></li>
-  <li><a href="https://thejollyteapot.com/" target="_blank" rel="noopener noreferrer">The Jolly Teapot</a></li>
-  <li><a href="http://bactra.org/weblog/" target="_blank" rel="noopener noreferrer">Three-Toed Sloth</a></li>
-  <li><a href="https://contino.com/" target="_blank" rel="noopener noreferrer">Andreas Contino</a></li>
-  <li><a href="https://cliophate.wtf/" target="_blank" rel="noopener noreferrer">cliophate.wtf — Notes</a></li>
-  <li><a href="https://olivergilan.com/blog/" target="_blank" rel="noopener noreferrer">Olivier Gilan</a></li>
+  {% for link in blogroll | shuffle %}
+  {% if loop.index <= 19 %}
+  <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a></li>
+  {% endif %}
+  {% endfor %}
   <li><a href="/pages/blogroll/"><strong>More...</strong></a></li>
 </ul>

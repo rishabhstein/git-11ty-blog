@@ -4008,39 +4008,6 @@ hr {
 }
 
 
-/* Geocities-style image loading effect (content images only) */
-img.geo-image-pending {
-  opacity: 0;
-}
-
-img.geo-image-loading {
-  opacity: 1;
-  clip-path: inset(0 0 100% 0);
-  filter: blur(1.8px) contrast(1.2) saturate(1.15);
-  background: repeating-linear-gradient(
-    0deg,
-    rgba(210, 210, 210, 0.75) 0px,
-    rgba(210, 210, 210, 0.75) 3px,
-    rgba(235, 235, 235, 0.75) 3px,
-    rgba(235, 235, 235, 0.75) 6px
-  );
-}
-
-img.geo-image-loaded {
-  opacity: 1;
-  animation: geo-reveal 1200ms steps(24, end) forwards, geo-focus 1200ms ease-out forwards;
-}
-
-@keyframes geo-reveal {
-  from { clip-path: inset(0 0 100% 0); }
-  to { clip-path: inset(0 0 0 0); }
-}
-
-@keyframes geo-focus {
-  from { filter: blur(1.8px) contrast(1.2) saturate(1.15); }
-  to { filter: none; }
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #0b1220;

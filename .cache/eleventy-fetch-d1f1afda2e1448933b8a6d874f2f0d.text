@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-06-20T10:50:38.468244+00:00</updated>
+  <updated>2026-07-16T05:22:12.712586+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -11,656 +11,551 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle>Trending posts on Bear Blog</subtitle>
   <entry>
-    <id>https://stitching.bearblog.dev/i-wear-my-favorite-perfumes-at-home/</id>
-    <title>i wear my favorite perfumes at home</title>
-    <updated>2026-06-18T22:59:00+00:00</updated>
+    <id>https://blog.basementcommunity.com/are-no-ai-disclaimers-really-necessary/</id>
+    <title>are "no AI" disclaimers really necessary?</title>
+    <updated>2026-07-14T20:18:00+00:00</updated>
     <author>
-      <name>stitching</name>
+      <name>basementcommunity</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;I wear my favorite perfumes and body sprays at home. I used to try to save them for when I went out on a nice date or attended an upscale Event, then I realized I was hardly getting any use out of them. What good is it doing me to have bought pretty-smelling sprays if I just put them on a shelf and never wear them?&lt;/p&gt;
-&lt;p&gt;So now, I wear them while I work from home. I spray perfume or body spray on myself after showering, and if I can't smell it on myself anymore around lunchtime, I spray some more. I sit at my desk in a comfy t-shirt and shorts, smelling so nice with my fancy sprays that it brings a smile to my face.&lt;/p&gt;
-&lt;p&gt;My current favorite body spray has me smelling like a refreshing, bright, juicy grapefruit.&lt;/p&gt;
-</content>
-    <link href="https://stitching.bearblog.dev/i-wear-my-favorite-perfumes-at-home/" rel="alternate"/>
-    <published>2026-06-18T22:59:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://reedybear.bearblog.dev/i-feel-like-giving-up-on-coding/</id>
-    <title>I feel like giving up on coding</title>
-    <updated>2026-06-18T18:53:55.393467+00:00</updated>
-    <author>
-      <name>reedybear</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I started coding about 20 years, about 14 years old, learning HTML &amp; CSS on W3Schools to customize my MySpace.&lt;/p&gt;
-&lt;p&gt;Since then, I've done Android and iOS development, frontend web development (including Javascript), and a hell of a lot of backend web development (with PHP). I've also done some BASH scripting and made several developer tools written in PHP.&lt;/p&gt;
-&lt;p&gt;I've loved programming for a long time. It has felt like a thing that I &lt;em&gt;need&lt;/em&gt; to do. Its part passion, part obsession, part &lt;em&gt;I want to make actually useful things&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;It may just be a slump I'm in, but I feel that fire dying within me.&lt;/p&gt;
-&lt;p&gt;I was working on a tool recently that would help me scrape websites. I have two use-cases in mind. one is to scrape Trackmania track records so that I can see when my Author Times are beaten on maps that I've made, and also to watch for when a streamer plays one of my maps (&lt;em&gt;so I can go watch them discover it&lt;/em&gt;). The other use-case is to scrape local news websites to build a search database of &lt;em&gt;just local news&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;I started this Scraper-tool a week or two ago (&lt;em&gt;or a month? idr&lt;/em&gt;), and I was fairly excited by it. Then I got on to work on it yesterday. I made notes about the direction the project should go ... and I made twice as many notes about how its probably just not worth my time.&lt;/p&gt;
-&lt;p&gt;First of all, there are already free &amp; open source tools for scraping websites. But I like building my own things! Especially since I have specific use-cases in mind and am not sure how much shopping I need to do to a find a tool that I can finegle to do exactly what I want.&lt;/p&gt;
-&lt;p&gt;Second of all, I'm mentally disabled. I can work on my projects for 1-2 hours at a time ... every once in awhile. If I could work 8 hour days, or even 4 hour days, this project would be finished and excellent within a week, maybe two. But because of my limitation, this project could take literal months to complete. I have other more important projects that call for my attention, since my ability to work is so limited.&lt;/p&gt;
-&lt;p&gt;Third, mother fucking Generative AI.&lt;/p&gt;
-&lt;p&gt;Much of the software I've built over the last 7 years has been ... stuff to make it easier to developer software in-general (&lt;em&gt;tool to generate documentation, tool to manage databases, etc&lt;/em&gt;) &amp; stuff to make it easier to develop websites.&lt;/p&gt;
-&lt;p&gt;I've made some really great things. I've made some shitty things. And I have some projects that are getting close to being &lt;em&gt;amazing&lt;/em&gt;, though they aren't quite there YET.&lt;/p&gt;
-&lt;p&gt;I've always had the concern of ... well ... there's already competing products that do things almost as well as my software will do them. I could use the off-the-shelf software to build my websites. But frankly, that just doesn't satisfy my passions, an I'm all-in on the sunk-cost fallacy. I'm also just really proud of my work and I want to see where it goes.&lt;/p&gt;
-&lt;p&gt;But now with AI. Just what's the fucking point? I always wanted these tools to be used by others to make it easier for people to develop software they care about. But in the age of AI, especially as it gets better at generating code, the utility of my potentially-better-software just ... isn't there.&lt;/p&gt;
-&lt;p&gt;I've had many bouts before with "What's the point?" But its feeling different this time.&lt;/p&gt;
-&lt;p&gt;I think if not for my disability, I would feel quite differently.&lt;/p&gt;
-&lt;p&gt;And maybe its my mood. I'm a little burnt out right now. Something I'm struggling to address because if I really take a day to rest, I just get bored and antsy and then feel like I need to do stuff. And then doing stuff is exhausting.&lt;/p&gt;
-&lt;p&gt;But maybe I'll feel differently when my mood has leveled back out. Maybe.&lt;/p&gt;
-</content>
-    <link href="https://reedybear.bearblog.dev/i-feel-like-giving-up-on-coding/" rel="alternate"/>
-    <published>2026-06-18T18:53:55.393467+00:00</published>
-  </entry>
-  <entry>
-    <id>https://robertbirming.com/knowledge-without-understanding/</id>
-    <title>Knowledge without understanding</title>
-    <updated>2026-06-18T15:46:34.011426+00:00</updated>
-    <author>
-      <name>robert</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I heard on the news today that monasteries here in Sweden are seeing increased interest from young people. They are curious about the monastery life and seeking answers to whether there's more to their own lives than what they currently experience.&lt;/p&gt;
-&lt;p&gt;Why this trend?&lt;/p&gt;
-&lt;p&gt;Who knows, but it wouldn't be too far-fetched a guess to say it's at least to some extent related to today's connected society. Notifications, likes, comments, sharing, tracking everything, endless entertainment at your fingertips 24/7, always updated...&lt;/p&gt;
-&lt;p&gt;Swipe and you'll have the answer to anything served. But that's not quite true, is it?&lt;/p&gt;
-&lt;p&gt;No search engine or AI model will be able to answer the questions that are most important on a personal level: the existential ones.&lt;/p&gt;
-&lt;p&gt;Who am I? What's my calling in life? How do I fit into all this?&lt;/p&gt;
-&lt;p&gt;It's like the closer we get to obtaining superficial information, the further we drift from the deeper answers.&lt;/p&gt;
-&lt;p&gt;When the Swedish monk Björn Natthiko Lindeblad was giving talks, he often quoted Winnie the Pooh:&lt;/p&gt;
-&lt;p&gt;Piglet: "Owl knows so much!"&lt;br /&gt;
-Pooh: "Yes, and that's probably why he understands so little."&lt;/p&gt;
-&lt;p&gt;We've become owls. Knowing without understanding.&lt;/p&gt;
-&lt;p&gt;Whoo-Whoo-Whooooo am I?&lt;/p&gt;
-</content>
-    <link href="https://robertbirming.com/knowledge-without-understanding/" rel="alternate"/>
-    <published>2026-06-18T15:46:34.011426+00:00</published>
-  </entry>
-  <entry>
-    <id>https://khoaly.xyz/20-steps-to-living-silly-ly/</id>
-    <title>20 steps to living silly-ly</title>
-    <updated>2026-06-18T11:09:17.575594+00:00</updated>
-    <author>
-      <name>khoa</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Here are 20 steps that I reconned somewhere on the internet. Even though I called them "steps," order of execution does not matter.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;﻿﻿﻿Take yourself out for dinner. No phone, just a notebook.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿Go to the cinema alone. Stay in your seat after it ends.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿Pick a nearby town you've never visited. No agenda, just show up.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿Go a full day with no phone.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿Take a long solo walk and record voice notes as you go. Don't edit. Just talk.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿Write a one-page vision for your life. Read it every morning for 7 days.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿Train for something physical that scares you a little. (half-marathon, Hyrox etc.)&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿Cook a three-course meal just for yourself. Set the table properly.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿Declutter 100 items from your space.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿﻿Keep a handwritten journal for 30 davs&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿﻿Start a 30-day challenge: gym, cold showers, meditation. Pick one and don't break the chain.&lt;/li&gt;
-&lt;li&gt;Go on an "Artist Date": 2 hours alone doing something creative you'd never normally do.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿﻿Memorize a poem or a passage that means something to you.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿﻿Write a letter to someone who changed your life. You don't have to send it.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿﻿A full day with no complaining. Track how often you catch yourself.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿﻿Introduce yourself to 3 strangers in one day. Not networking, just genuine curiosity.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿﻿One act of anonymous generosity. Don't post about it (e.g. paying for someone's coffee&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿﻿Rawdog somewhere in nature for an hour with nothing to do. Just be there.&lt;/li&gt;
-&lt;li&gt;﻿﻿﻿﻿Go to a live event alone: concert, comedy, theatre. Any genre you'd normally dismiss.&lt;/li&gt;
-&lt;li&gt;Learn one dance move. Practice it until it feels natural and pull it out when its unexpected.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class="reply-email"&gt;
-  &lt;a href="mailto:hello@khoaly.xyz?subject=Re:%2020 steps to living silly-ly"&gt;Reply to this post&lt;/a&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://khoaly.xyz/20-steps-to-living-silly-ly/" rel="alternate"/>
-    <published>2026-06-18T11:09:17.575594+00:00</published>
-  </entry>
-  <entry>
-    <id>https://mrmarket.lol/non-terrifying-spirituality-for-children/</id>
-    <title>Non-terrifying spirituality for children</title>
-    <updated>2026-06-19T10:12:00+00:00</updated>
-    <author>
-      <name>mrmarket</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I grew up in a Catholic family in Boston. As you can imagine, this was an especially Catholic upbringing.&lt;/p&gt;
-&lt;p&gt;I loved being religious. For my first communion, my grandmother gave me a gold cross on a gold chain. I would kiss the cross before walking up to the plate at my little league baseball games, feeling the grooves of the gum I’d packed in my lip with my tongue to settle my nerves against a familiar texture.&lt;/p&gt;
-&lt;p&gt;At night, in the room I shared with my two brothers, I’d sit crosslegged on the gray carpet next to my bed and say an Our Father. I’d ask for stuff. I’d ask for a good grade on a test or that a certain girl would talk to me the next day at school, and that when I talked back, I’d be funny and I’d say exactly the right thing. I’d pray that there would be no more hunger or pain or other bad things in the world. I felt like someone cared about me, and was looking out for me, and that there was an underlying order and justice to the universe.&lt;/p&gt;
-&lt;p&gt;I liked praying and I liked sitting in the thin wooden pews in church on Sunday mornings. I liked following my mind wherever it wandered, only occasionally interrupted by the priest telling me to stand/sit/kneel. I liked the organ, which sounded scary, and the singer, who had a cartoonishly high-pitched, unsteady, grating voice. I liked how the light came in through the high windows behind the altar, which was covered in a heavy purple sheet. After church, we’d drive through nice neighborhoods with big houses. My parents would ogle and guess at how much each was worth while the four of us kids tried to keep our knees from touching in the backseat.&lt;/p&gt;
-&lt;p&gt;Our church could loosely be classed as ‘fire and brimstone’, though I’m sure there were more doomer-y ones out there. The priests talked about hell a ton. It kinda seemed like you could be sent there for just about anything. I thought about it all the time. I knew I lied, and I knew I wanted the wrong things. I wanted to be a famous skateboarder. I wanted money and I wanted ten girlfriends. I was not meek and I would not inherit the earth. I liked to fight and I liked to eat as much as I could at dinner, even though there were kids who never had anything for dinner.&lt;/p&gt;
-&lt;p&gt;My freshman year of college I joined a poetry club. As you can imagine, I arrived incredibly naive and insulated from disparate perspectives. I met a bunch of people there who were quite different from me. These were not the aloof, rough boys of my youth lol. It occurred to me for the first time in a meaningful way that the doctrine I’d been steeping in my entire life was wrong.&lt;/p&gt;
-&lt;p&gt;I now looked at my religion as punitive, irrationally vindictive, egocentric, naive, deeply prejudicial, and frequently hypocritical about important things. It was suddenly clear to me that many of the tenets of Catholicism were the machinations of mortal men trying to keep women subservient and self-subjugating and the poor delusional with hope, such that neither group would try to change their circumstances in an organized or decisive way.&lt;/p&gt;
-&lt;p&gt;I functionally abandoned Catholicism, though I didn’t tell my family and so still went to church when I was home from school. I didn’t mind going at all and still enjoyed the ritual.&lt;/p&gt;
-&lt;p&gt;Until very recently, I’ve thought very little about organized religion apart from generally disliking it for all the unresolvable conflict it tends to generate.  I’ve never minded one way or the other if friends of mine are religious, but I’ve always known it ran counter to my own value system.&lt;/p&gt;
-&lt;p&gt;But now I’m having a kid. I’ve been thinking about the comforts of religion that did serve me at one time, and whether or not I should make those comforts available to him somehow.&lt;/p&gt;
-&lt;p&gt;I think there are several benefits of being part of some organized spiritual group. You have community, a clear-cut moral code or general design for living, rituals that serve as grounding tentpoles across the long lawn of childhood, and some kind of answer for the hard problem of ‘why’ that is extremely palatable for kids.&lt;/p&gt;
-&lt;p&gt;That said, there is no way we are going to adopt the Catholicism I grew up in. It would be way too confusing for him. We’d be telling him, on the one hand, every person has innate dignity and deserves compassion and respect, and also God loves all his children, but on the other hand, gay people are on a fast train to hell for some reason, where they’ll burn for all eternity, and so is anyone who doesn’t atone in a very specific way for the inherent sin of being born human at all.&lt;/p&gt;
-&lt;p&gt;Life is full of contradictions no matter how you look at it, but IMO that’s a bit too contradictory. So I’ve been thinking about other forms of spirituality/community/rituals that could provide a grounding framework for my little growing family.&lt;/p&gt;
-&lt;p&gt;My wife works in hospice and many of her coworkers/friends are spiritual guides of one kind or another: there are rabbis, chaplains, reiki masters, priests, death doulas, you name it. Whoever you might need at the end of your life, should you need a spiritual guide at all.&lt;/p&gt;
-&lt;p&gt;She grew up vaguely ‘Christian’ but never went to church or anything like that. She doesn’t seem to have any religious baggage, but her parents believed in the Christian God and by extension she did too, albeit very passively. However, now that our son is nearly here, she has said she wishes she had more to hang on to as a kid re: ‘why are we here’, ‘what is the point’, ‘what is death’, etc. Perhaps this is typical of innately curious kids, who knows.&lt;/p&gt;
-&lt;p&gt;On Sunday I went and visited a rabbi at a local synagogue to talk about all this. I met her through my wife’s work and she’s chill/smart. After a far-reaching, invigorating hour of intellectual sparring and answering my questions with questions, she basically said ‘you guys should just do whatever you want.’&lt;/p&gt;
-&lt;p&gt;She told me to read this book about the history of Tarot, which I will do. Apparently it started as a card game, and then it evolved into a way to gamble, and then a kind of cult formed around it, and then it finally morphed into the source material for divination rituals.&lt;/p&gt;
-&lt;p&gt;The ‘moral’ of our discussion was that ‘spirituality’ can be anything. It’s just a vector for faith, which we all have a mysterious compulsion to express. We love being devoted to something alongside others who get it.&lt;/p&gt;
-&lt;p&gt;She advised I go to a gathering of Wiccans that meets in a major city near my suburb, so I’m going to do that and report back. I’m going to check out a bunch of different organized spiritual groups, including a Unitarian church in my town. My friend’s wife is Catholic and says she knows of one of those woke, more upbeat Catholic churches, so I’ll check that out, too.&lt;/p&gt;
-&lt;p&gt;The likely result of all this sampling is that we opt not to explicitly belong to any one group, but that me and my wife figure out what kind of ‘answers’ are palatable and sensible for children who ask about ‘the big picture’.&lt;/p&gt;
-&lt;p&gt;Re: what I’ll tell my son. Well, nothing much for a while. He’ll be a baby. But soon, when he becomes curious about the world - why it’s here, what happens later, if there’s anywhere he can go to deliberate these questions, I’ll tell him about all the organized religions and all the disorganized religions, and all the versions of those answers made available to us through science/math/physics, and let him follow his nose.&lt;/p&gt;
-&lt;p&gt;Of course, the rabbi asked what I believe in when we were talking in her office. I said I believe in people, and the constant, improbable, latent possibility for good in the world.&lt;/p&gt;
-</content>
-    <link href="https://mrmarket.lol/non-terrifying-spirituality-for-children/" rel="alternate"/>
-    <published>2026-06-19T10:12:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://chupacabra.bearblog.dev/why-tf-do-i-need-to-use-a-google-account-to-setup-a-passkey-to-login-to-your-site-to-increase-security-of-my-account/</id>
-    <title>WHY TF DO I NEED TO USE A GOOGLE ACCOUNT TO SETUP A PASSKEY TO LOGIN TO YOUR SITE TO INCREASE SECURITY OF MY ACCOUNT????</title>
-    <updated>2026-06-17T19:29:03.350697+00:00</updated>
-    <author>
-      <name>chupacabra</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Why???&lt;/p&gt;
-&lt;p&gt;I'm trying to login to this site at work, and now they need me to setup my google account so I can use a Passkey for increased security...??? There was no way around putting my phone number. At least I managed to avoid the passkey by scanning the QR with another nor connected phone.&lt;/p&gt;
-&lt;p&gt;WHY DO WE NEED TO USE GOOGLE TO INCREASE OUR SECURITY? This is soooo weird and it doesn't make any sense. Just make me put two passwords, authenticator, or any other shit.&lt;/p&gt;
-&lt;p&gt;THANK YOU FOR YOUR ATTENTION TO THIS MATTER&lt;/p&gt;
-</content>
-    <link href="https://chupacabra.bearblog.dev/why-tf-do-i-need-to-use-a-google-account-to-setup-a-passkey-to-login-to-your-site-to-increase-security-of-my-account/" rel="alternate"/>
-    <published>2026-06-17T19:29:03.350697+00:00</published>
-  </entry>
-  <entry>
-    <id>https://skuth.us/optimism-is-good-actually/</id>
-    <title>Optimism is good, actually</title>
-    <updated>2026-06-17T15:56:21.993502+00:00</updated>
-    <author>
-      <name>skuthus</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I get it - it's hard to see good things happening in the world today. Hard not to be cynical about the world, about people, and about our future as a species. There is a lot to be worried about, and the world is more chaotic and unpredictable than ever.&lt;/p&gt;
-&lt;p&gt;Despite all of this, I choose optimism. I choose to hope that humans can be better, imagine a world where things can be greater than what they are today, and work hard to create a world where new and exciting things are happening for all people, every day. This extends to big ideas, but also to every day things, too.&lt;/p&gt;
-&lt;p&gt;Try it. If you think something should exist in this world, make it exist. If you want something to be better in this world, work to make it better. You will be astounded with how much it changes your outlook.&lt;/p&gt;
-</content>
-    <link href="https://skuth.us/optimism-is-good-actually/" rel="alternate"/>
-    <published>2026-06-17T15:56:21.993502+00:00</published>
-  </entry>
-  <entry>
-    <id>https://nathanpeterson.net/overwhelmed-slow-down/</id>
-    <title>When Overwhelmed, Slow Down</title>
-    <updated>2026-06-18T21:36:00+00:00</updated>
-    <author>
-      <name>nathan</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;When you feel overwhelmed, slow down.&lt;/p&gt;
-&lt;p&gt;I know this might feel like the exact opposite thing your system wants to do when you feel overwhelmed. But it's not...&lt;/p&gt;
-&lt;p&gt;What if the feeling we associate with overwhelm is actually a message, sent by our system, asking us to &lt;em&gt;please slow down&lt;/em&gt;?&lt;/p&gt;
-&lt;p&gt;And what if the negative outcomes we associate with feeling overwhelmed are actually a result of ignoring that message—of working harder and faster and more frantically instead?&lt;/p&gt;
-&lt;p&gt;I have a saying I throw at my children almost daily: &lt;em&gt;haste makes waste&lt;/em&gt;. It's obnoxious, but it's true.&lt;/p&gt;
-&lt;p&gt;Most injuries to our body, to our relationships, to our mental and emotional health, come from rushing. Not from going too fast, but from going faster than we actually want to go.&lt;/p&gt;
-&lt;p&gt;Picture a runner who loves to run. They're running fast and loving it. That is fast, not rushing.&lt;/p&gt;
-&lt;p&gt;Now picture someone who is running faster than they want to run. They're running &lt;em&gt;away&lt;/em&gt;. They're not in pace with their own self. Part of them is behind, and part is ahead.&lt;/p&gt;
-&lt;p&gt;This is how we injure ourselves—we literally fracture ourselves when we rush.&lt;/p&gt;
-&lt;p&gt;When I wake up in the morning and I feel overwhelmed, my habitual response is to react by getting rid of that feeling as fast as possible. This ends up hurting me. So I've learned over time to hate the feeling of overwhelm. But it's not the feeling of overwhelm that causes me pain—it's my reaction to it. I shoot the messenger and end up hurting myself.&lt;/p&gt;
-&lt;p&gt;The solution is not to get rid of the feeling of overwhelm; it's to change our relationship with it, and our response to it.&lt;/p&gt;
-&lt;p&gt;How do we do this? I believe the answer is to &lt;em&gt;slow down, and listen&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;I feel overwhelmed right now. What is this feeling trying to say to me?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;It may be saying something like: "I'm scared." "I can't do this." "It's too much."&lt;/p&gt;
-&lt;p&gt;Is that the voice of someone who needs to be gotten rid of?&lt;/p&gt;
-&lt;p&gt;Do you see the opportunity in this?&lt;/p&gt;
-&lt;p&gt;Normally, we jump to reaction: "It's fine." "You're fine." "Stop complaining." "You just need to work faster and harder."&lt;/p&gt;
-&lt;p&gt;Is that the voice we want to embody?&lt;/p&gt;
-&lt;p&gt;That reaction is like noticing the low-gas light turn on in our car, and immediately slamming on the gas to try to get where we're going before the fuel runs out. It only leads to an empty tank. Burnout.&lt;/p&gt;
-&lt;p&gt;The opportunity is to &lt;em&gt;slow down and listen&lt;/em&gt;. To pull over and to tend to the need. It is crying out from the body: "This is too much for me!"&lt;/p&gt;
-&lt;p&gt;How would it look to really hear this message? To honor the messenger?&lt;/p&gt;
-&lt;p&gt;The feeling of overwhelm is an opportunity—to come back. To reconnect with ourselves &lt;em&gt;as we are&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;Like it or not, our self has limitations. And like it or not, these limitations come in waves that are beyond our control. But the reverse is also true: our &lt;em&gt;strength&lt;/em&gt; also comes in waves. It takes a tremendous amount of trust to move &lt;em&gt;with&lt;/em&gt; the waves—to honor them rather than to fight them.&lt;/p&gt;
-&lt;p&gt;This is hard because it forces us to accept a potentially terrifying truth: that we are not fully in control. Of even our own self. The waves are in control, not us. That's disconcerting. But it's worth the shift.&lt;/p&gt;
-&lt;p&gt;If this is our nature, there's no sense in trying to change it. We're not robots. We're living beings. We are made of movement and vibration. We're composed of billions of living, moving cells. Ignoring that sets us up for a lifetime of pointless struggle, trying to control the waves.&lt;/p&gt;
-&lt;p&gt;But more importantly, this shift puts us on a path that leads us where we actually want to go...&lt;/p&gt;
-&lt;p&gt;I don't believe we actually want to be perfect, robotic performers. I believe what we actually want is the thing we believe perfection will bring us, which is &lt;em&gt;love&lt;/em&gt;.  Love from others. Maybe even more than that, love from ourselves. And underneath this desire for love may be an even deeper longing: for &lt;em&gt;rest&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;When I know I'm loved, when I love myself, I finally give myself permission to rest. To breathe, to see, and to &lt;em&gt;enjoy&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;And that may be our deepest longing of all: we long for joy.&lt;/p&gt;
-&lt;p&gt;We will never find joy by dehumanizing and perfecting ourselves.&lt;/p&gt;
-&lt;p&gt;We won't find joy by shaming ourselves for feeling the way we feel.&lt;/p&gt;
-&lt;p&gt;We won't find joy by pushing and rushing ourselves to always be somewhere we're not...&lt;/p&gt;
-&lt;p&gt;We will only find love, rest, and joy here. And now.&lt;/p&gt;
-&lt;p&gt;We can skip all the requirements and all the should's, and move straight to love, rest, and joy—by just being here, where we are.&lt;/p&gt;
-&lt;p&gt;The irony is that once we begin to allow ourselves to be where we are—to feel and receive the love, rest, and joy that are always available to us—the circumstances we thought would get us there often end up happening on their own. Or they don't. Either way it's fine, because we already have what we wanted all along.&lt;/p&gt;
-&lt;p&gt;At the end of the day, the most important thing of all may be that a voice deep inside us finally got to be heard.&lt;/p&gt;
-</content>
-    <link href="https://nathanpeterson.net/overwhelmed-slow-down/" rel="alternate"/>
-    <published>2026-06-18T21:36:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://rnotte.art/its-a-mothering-website/</id>
-    <title>it's a mother*&amp;#@ing website</title>
-    <updated>2026-06-16T20:54:00+00:00</updated>
-    <author>
-      <name>rnotte</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;pardon my french. &lt;strong&gt;;P&lt;/strong&gt; i am, of course, talking about &lt;a href='http://motherfuckingwebsite.com/'&gt;this mother*&amp;#@ing website.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;my friends on the indie web have talked about it, as well as &lt;a href='http://bettermotherfuckingwebsite.com/'&gt;its derivatives&lt;/a&gt;. they are simple sites with simple markdown and layout that take shots at modern webpage design and how... bloated they've become. and you know what? &lt;strong&gt;they're right.&lt;/strong&gt; they're rather hostile about it, but they're right.&lt;/p&gt;
-&lt;p&gt;website designs don't have to be complicated. i built my site using bear because i wanted it to be simple, no-frills, easy to navigate, and good-looking no matter where you access it from. whether it's a high-spec PC, a potato laptop, or your smartphone. you shouldn't have to worry about your device's specs to access the world wide web. i may be a visual artist, but webpage design is an art, too. and some webpage designers are... &lt;em&gt;bad artists.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;when modern websites are loaded with javascripts and trackers, leading to long loading times just for &lt;em&gt;text&lt;/em&gt;, pop-ups asking you to disable your ad blocker or subscribe to their email list, videos auto-playing in the corner, and ads in the middle of articles... i weep. it's an intrusive design that only serves to frustrate us netizens. and to an artistic eye, it's an eyesore. even &lt;a href='https://straw.page'&gt;straw page&lt;/a&gt;, a simple drag-and-drop website builder that i used to use, is filled to the brim with javascript. &lt;em&gt;why?&lt;/em&gt; such unnecessary details.&lt;/p&gt;
-&lt;p&gt;if you, the reader, are thinking of designing your own website, there are some things you should know: &lt;strong&gt;keep it simple, keep it concise, and for the love of pete, just use HTML and CSS.&lt;/strong&gt; host it on a simple hosting service like &lt;a href='https://neocities.org'&gt;neocities&lt;/a&gt;, &lt;a href='https://nekoweb.org'&gt;nekoweb&lt;/a&gt;, or, of course, bear. &lt;strong&gt;ʕ•ᴥ•ʔ&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;don't overthink it. don't be so flashy and fancy. just build a &lt;strong&gt;mother*&amp;#@ing website.&lt;/strong&gt;&lt;/p&gt;
-</content>
-    <link href="https://rnotte.art/its-a-mothering-website/" rel="alternate"/>
-    <published>2026-06-16T20:54:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://againstthecultofthecommodity.bearblog.dev/orthodox-dd-a-curious-find/</id>
-    <title>Orthodox D&amp;D - a curious find</title>
-    <updated>2026-06-16T20:42:00+00:00</updated>
-    <author>
-      <name>againstthecultofthecommodity</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Recently, I went to visit a new acquaintance. We had met through mutual friends and got along immediately because of our shared interest in German Idealism. During dinner at my friend's place (his partner is an excellent cook!) I casually mentioned that I spend a lot of time playing RPGs.&lt;/p&gt;
-&lt;p&gt;I couldn't have anticipated his reaction. My friend jumped out of his seat and yelled, “You have to talk with Heinrich! He adores Dungeons &amp; Dragons, and he has been playing it for a long time!” My friend dragged me in front of his downstairs neighbor's door and started knocking.&lt;/p&gt;
-&lt;p&gt;I didn't think much of it at the time, but I did feel bad when Heinrich opened, and I saw that my friend's neighbor was an 80-year-old man. Heinrich just smiled at us and invited us in. He told me that he lived in Wisconsin during the 1970s and 80s. This was where he first encountered the game Dungeons &amp; Dragons. He even met Gary Gygax once, but they didn't get along for reasons Heinrich did not want to elaborate. Anyway, it was late already, and I didn't want to keep him from sleeping, and my friend's partner was waiting upstairs, so we chatted a bit about how fun D&amp;D was. Before he let us leave, Heinrich did insist on showing me his most prized possession.&lt;/p&gt;
-&lt;p&gt;Heinrich pulled out a white box from his shelf. It contained the original three little brown booklets, probably printed sometime after 1976. Heinrich wasn't too sure either, and it was late. I didn't want to be annoying and didn't ask to take any pictures. There was, however, a folded piece of paper in the box that even Heinrich was surprised about. It looked like the first page of a manifesto written on a typewriter. Heinrich said he didn't remember where it was from. In his thick Swabian dialect, he asked me if I wanted to have it. I was flustered and didn't know what to say, so I accepted. We did discuss meeting again and perhaps even playing a game together.&lt;/p&gt;
-&lt;p&gt;Then we left and went back to our dinner. The lasagna had gone cold, and there was some tension between my friend and his partner. I was still a bit bewildered by my encounter with Heinrich.&lt;/p&gt;
-&lt;p&gt;I still plan to get in touch with Heinrich and maybe visit him to talk more about playing D&amp;D in the early days. Unfortunately, my friend and I got into a very ugly fight two days later. For the foreseeable future, I won't return to his house. My friend never did give me Heinrich's phone number.&lt;/p&gt;
-&lt;p&gt;The piece of paper I had received from Heinrich still sits on my desk. It's a curious thing.&lt;/p&gt;
-&lt;p&gt;Here is a scan:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/againstthecultofthecommodity/orthodnd.webp" alt="orthodnd" /&gt;&lt;/p&gt;
-</content>
-    <link href="https://againstthecultofthecommodity.bearblog.dev/orthodox-dd-a-curious-find/" rel="alternate"/>
-    <published>2026-06-16T20:42:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blog.avas.space/clean-girl-klein-dogwhistle/</id>
-    <title>the girly wellness aesthetic as a white supremacist dog whistle</title>
-    <updated>2026-06-17T11:00:00+00:00</updated>
-    <author>
-      <name>avas</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Since reading &lt;em&gt;&lt;strong&gt;Naomi Klein’s Doppelganger&lt;/strong&gt;&lt;/em&gt; and its parts about Covid and fitness influencer culture a while ago (especially the chapter "The Far Right Meets the Far Out"), I cannot help but see that “&lt;em&gt;Pinterest clean girl fitness and fruit bowl gua sha yoga mat pilates in the forest&lt;/em&gt;” content as covert white supremacy and eugenicist ideals; dog whistles, shared far and wide by people who probably don’t know better and just think it looks good and want to be like that.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/avas/img_9304.webp" alt="IMG_9304" /&gt;&lt;/p&gt;
-&lt;p&gt;I cannot quote the entire book and how it adds it together and builds this narrative up, but I especially liked these parts:&lt;/p&gt;
+    <content type="html">&lt;p&gt;I wrote a post on the forums about whether people should disclose their use/non-use of LLMs (&lt;a href='https://basementcommunity.com/threads/671' target='_blank'&gt;https://basementcommunity.com/threads/671&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;I'm conflicted: on one hand, it's nice to see a "no AI" disclaimer so I don't have to do my own detective work and can spend my brain power simply appreciating your work. Alternatively, it's pathetic that we've come this far that everyone feels the need to specify that they &lt;em&gt;didn't&lt;/em&gt; use LLMs.&lt;/p&gt;
+&lt;p&gt;I think the onus &lt;em&gt;should&lt;/em&gt; be on the viewer to hone their skills in separating authentic work from something that was generated. And I agree with one of the replies in that thread:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;"&lt;em&gt;There are deep and healthy pleasures to be found in exercise, as there are in other aspects of wellness. For many of the evangelists in these worlds, however, both fitness and diet are intensely value-laden endeavors. Achieving goals means setting rigorous targets and displaying relentless discipline to meet them (a.k.a. "putting in the work"). That's how you reach your idealized body double. Which is all fine if it stays there. But the trouble is, it often doesn't. As Carmen Maria Machado draws out in her doppelganger short story, once the slim, perfect body has been achieved, the less controlled body that once was can persist as an ever-present shadow-self - and this discarded double is deeply loathed.&lt;/em&gt; [...]&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;And that is the trouble with this more private kind of doppelganger; when body mania sets in, the fit self may well not be satisfied with crushing its own unfit self; it may look for other targets, its self-hatred seeping out and projecting itself onto other people's less fit, less conventionally able bodies. These kinds of moralistic physical judgments deepened during the pandemic, especially when it became clear that obesity, diabetes, and some forms of addiction increased the risks posed by Covid-19, along-side other factors, including age. Much of the pressure to wear a mask and get vaccinated, meanwhile, was framed as a duty to care for those with greater vulnerabilities. It was then that wellness culture, and its barely submerged hostility toward less conventionally perfect bodies and less "clean" lifestyles, began to bare its teeth.&lt;/em&gt; [...]&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;The core Covid-era public health message - that we all needed to undergo some individual inconveniences for the sake of our collective health - enjoyed majority support. Yet it simply could not be reconciled with the wellness industry's own overarching message: that individuals must take charge over their own bodies as their primary sites of influence, control, and competitive edge. And that those who don't exercise that control deserve what they get. Neoliberalism of the body, in distilled form.&lt;/em&gt; [...]&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;On the contrary, the lesson they seem to have extracted from the race and class disparities of Covid's early death toll was "This virus is going to kill people who do not look like me.". [...] This willingness to write off huge swaths of humanity that are cast as lesser within supremacist narratives is the strongest glue that binds together the pastel-hued, self-loving world of women's wellness with the fire-breathing, immigrant-bashing world of the Bannon right.&lt;/em&gt; [...]&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;These are the histories currently being conjured up in mainstream wellness culture, which has adopted Silicon Valley's notion of self-optimization, itself a by-product of the personal-branding culture that torments so many young people today. Every step counted. Every sleep measured. Every meal "clean". And it is in this context that has prepared the ground for a redux of the 1930s fascist/New Age alliance. The very idea that a human can and should be "optimized" lends itself to a fascistic worldview - because if your food is extra-clean, it can easily mean other people's food is extra-dirty. If you are safe because your immune system is strong, it can flip to man others are unsafe because they are weak. If you are optimized, others are, by definition, suboptimal. Defective. Next door to disposable.&lt;/em&gt;"&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;"If someone thinks my art/writing is AI-generated then that's either a reflection of their poor evaluation or my poor craftsmanship"&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Together with a lot of quotes of fitness trainers, and the fact that the Lululemon founder donated his money to right-wing causes.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/avas/img_9305.webp" alt="IMG_9305" /&gt;&lt;/p&gt;
-&lt;p&gt;I used to enjoy looking at this stuff.&lt;/p&gt;
-&lt;p&gt;Since reading, I notice how monotonous the entire aesthetic is, all these social media profiles and suggestions; it’s always white or racially ambiguous people, always women with European beauty standards and highly genderconforming bodies and style.&lt;/p&gt;
-&lt;p&gt;Always the minimalist white beige pastel pink outfits and surroundings, always huge living spaces that look basically unused, always so clean and perfectly styled that it insinuates either lots of available time or paid household help. It goes directly against much of the color celebrated in other cultures, something I already read about in Chromophobia by David Batchelor, in which the author makes compelling arguments that certain groups are obsessed with pure white design because color is seen as corrupting, as racialized and as queer.&lt;/p&gt;
-&lt;p&gt;It’s always with messages about working on yourself that are laid over bodies and food, subtle hints about how you can cure almost anything if you just eat extra clean, avoid evil chemicals, filter everything, drink herbal tea, take supplements and do the sort of exercise regimen that gives you a body like the images. The message is clear: this is what the happy, healthy, perfect body looks like, and everything else is gross, impure, sick, and in need of fixing. This is also presented as almost effortless, and you as the one being out of tune, your body derailed, that you have to get back into its natural equilibrium by detoxification and debloating (rapid weightloss).&lt;/p&gt;
-&lt;p&gt;How it got so out of balance? The poison they now put in your food, the water, the packaging, the air, whatever.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/avas/img_9306.webp" alt="IMG_9306" /&gt;&lt;/p&gt;
-&lt;p&gt;There is no space for visibly disabled and chronically ill bodies in this narrative that only permits good health as the default. Acknowledging them would mean admitting that your health is somewhat out of your control beyond the basics, and that it isn’t your juicing and Pilates regimen or your 300$ supplements keeping you together, but luck, genes, not having had an accident, and maybe handwashing. It would be admitting that you could end up sick and hurt despite all the money and time you pour into this, or that your body won’t look like this (for)ever. The other bodies are considered ugly, weak, lazy, a victim of their lifestyle, their greed.&lt;/p&gt;
-&lt;p&gt;It’s simply cooler and seemingly “natural” to throw herbs and greens into a smoothie and pretend that this is your medicine, than the sterile, branded packaging of a syringe or pill, which doesn’t look natural at all. I think especially in America, these content creators love the juxtaposition of the fat Black woman in a food desert with some KFC and burgers, and their white skinny selves in Erewhon.&lt;/p&gt;
-&lt;p&gt;What this content is after is somewhat an image of the Übermensch - the one basically never sick, always strong, beautiful, fertile, white or white-passing, disciplined, hardworking.&lt;/p&gt;
-&lt;p&gt;There’s a reason why so many fitness influencers are conservative or are even MAGA, why so many of them shifted to tradwife content, and how much tradwife content is just like the above but focused on very palatable and stereotypical household chores instead of gym fits, while still featuring almost the same foods and regimens.&lt;/p&gt;
-&lt;p&gt;They post “farmers market haul!” and it shows three impressively tasty looking leafy greens and other vegetables, and you just know that those three items cost what others need for 3 days of food, and can be used for just one meal, or more of you severely undereat. This can’t feed a family, and they couldn’t frolick through the park with their chives and kale in a bag if they really had to transport several cans of food and tetrapaks, too.&lt;/p&gt;
-&lt;p&gt;Wedged in-between are pictures from far-away, expensive travels: impressive beaches, forests, parks, mountains. People, posting in the tone of being just smol little beans !! 🥺, saying: taking a walk through my parents’ backyard! And it’s a whole forest. Generational wealth, but wholesome, ecological, wellness-focused, back-to-the-roots.&lt;/p&gt;
-&lt;p&gt;It’s where cottagecore aesthetic and eco-fascism are able to meet. It’s where criticism about cities, pollution, ecological collapse, loving nature aesthetics can be combined with “retvrn” and “reject modernity, embrace tradition”.&lt;/p&gt;
-&lt;p&gt;All that is why when seeing this type of stuff now, it looks dystopian, it looks like propaganda, highly exclusionary, eugenicist. And I have these feelings despite being the target group and easily passing for one of them as someone who’s white, going to the gym, with a fitting skincare routine, lots of supplements and eating lots of whole foods; the only thing not making me fit in is my chronic illness, and not fully adhering to heterosexual standards of beauty.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/avas/img_9307.webp" alt="IMG_9307" /&gt;&lt;/p&gt;
-&lt;p&gt;I know others will think it's "not that deep", but this stuff doesn't exist in a vacuum and frequently gets co-opted in meme warfare and the normalization of a certain standard. It makes me deeply uncomfortable, and thinking of when this really popped off, it paved the way into our current skinny/Ozempic culture and the rise of fascism in many areas.&lt;/p&gt;
-&lt;p&gt;&lt;a href='mailto:avas.space@tuta.com'&gt;Reply via email&lt;/a&gt;&lt;br /&gt;
-Published &lt;time datetime="2026-06-17T11:00Z"&gt;
-    17 Jun, 2026
-&lt;/time&gt;&lt;/p&gt;
+&lt;p&gt;If someone thinks my work is LLM-generated, then my work is probably shit and doesn't have a distinct voice. It's boring. And it might as well be AI because the difference doesn't really matter at the end of the day.&lt;/p&gt;
+&lt;p&gt;My advice would be this: if you're worried about publishing something online that other people may think is AI-generated, then ask yourself "is my voice/style embedded in this piece of work?" If not, then keep working on it until it is. If so, then publish it.&lt;/p&gt;
+&lt;p&gt;&lt;a href='mailto:orchids@basementcommunity.com'&gt;send me an email!&lt;/a&gt;&lt;/p&gt;
 </content>
-    <link href="https://blog.avas.space/clean-girl-klein-dogwhistle/" rel="alternate"/>
-    <published>2026-06-17T11:00:00+00:00</published>
+    <link href="https://blog.basementcommunity.com/are-no-ai-disclaimers-really-necessary/" rel="alternate"/>
+    <published>2026-07-14T20:18:00+00:00</published>
   </entry>
   <entry>
-    <id>https://robertbirming.com/my-blog-mess/</id>
-    <title>My blog mess</title>
-    <updated>2026-06-16T17:53:59.690594+00:00</updated>
+    <id>https://futureperfect.bearblog.dev/sex-is-better-with-bear/</id>
+    <title>Sex is better with Bear</title>
+    <updated>2026-07-13T23:47:00+00:00</updated>
     <author>
-      <name>robert</name>
+      <name>futureperfect</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;I've said it before and I'll say it again: blogging for me is the ultimate creative outlet. You get to share your thoughts, stumble upon likeminded people, play around with themes, and create little add-ons and other fun stuff.&lt;/p&gt;
-&lt;p&gt;I love it! Maybe a bit too much. I tinker, fiddle, and create so many things that I get lost, hardly remembering what I've made. Creating experimental tweaks here and there.&lt;/p&gt;
-&lt;p&gt;So, I'm once again at this place where I feel I need to stop, take a step back, and sort things out. Not removing things or cutting down on writing, just get a grip of what I have cooking in my blog lab.&lt;/p&gt;
-&lt;p&gt;This time I decided to go &lt;em&gt;bear&lt;/em&gt; minimum when it comes to the design for my blog. Stripping away almost everything to get a good sense of how things look without cosmetic CSSurgery.&lt;/p&gt;
-&lt;p&gt;The next step is trying to make as much as possible look decent simply by relying on standard markup. No fancy tricks, just plain semantic HTML.&lt;/p&gt;
-&lt;p&gt;So far, it's felt both fun and refreshing. A bit challenging at times, in an inspirational way.&lt;/p&gt;
-&lt;p&gt;That said, some parts of my blog will look a bit off for the next couple of days. So please Bear with me while I'm cleaning up my den.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Found this ad at one point and felt it was totally appropriate for a post on here. Powered by Bear 😂&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/futureperfect/img_3313-1.webp" alt="IMG_3313" /&gt;&lt;/p&gt;
 </content>
-    <link href="https://robertbirming.com/my-blog-mess/" rel="alternate"/>
-    <published>2026-06-16T17:53:59.690594+00:00</published>
+    <link href="https://futureperfect.bearblog.dev/sex-is-better-with-bear/" rel="alternate"/>
+    <published>2026-07-13T23:47:00+00:00</published>
   </entry>
   <entry>
-    <id>https://basic.bearblog.dev/the-commodore-flip-phone-is-how-much/</id>
-    <title>The Commodore flip phone is how much?</title>
-    <updated>2026-06-16T13:02:00+00:00</updated>
+    <id>https://pinewind.bearblog.dev/i-started-a-dirt-notebook/</id>
+    <title>I started a "dirt notebook"</title>
+    <updated>2026-07-13T14:55:00+00:00</updated>
+    <author>
+      <name>pinewind</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I love taking notes, but one problem that I have is that that I start cherishing every notebook that I start. I can't seem to keep my notes messy. Eventually, I start structuring the notes, doing cleaner handwriting, adding a cover or some stickers ... and before I know it, the notebook is too well-organised for simply scribbling into. This, of course, raises the hurdle for taking more notes and makes me start a new notebook, where the same process repeats again. It's a vicious circle. It won't surprise you that I'm somewhat enamored with the concept of shitty / messy notebooks, like &lt;a href='https://i.pinimg.com/control1/1200x/72/37/47/7237479001e5ebc472bc5094610151c3.jpg' target='_blank'&gt;this&lt;/a&gt; or &lt;a href='https://i.pinimg.com/736x/f9/12/62/f9126240024c5f4e2190a32e7f29d9c6.jpg' target='_blank'&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In an attempt to change this, I've started a dedicated "dirt notebook" now. I've nicknamed it "The Drainage Channel", because it's just a place for whatever is going through my head right in that moment. I'm using an old, empty notebook that I found lying around the other day. The paper quality is pretty bad; every kind of fountain pen ink bleeds through so I'm forced to use cheap ballpoints and it doesn't open flat, which makes it hard to take clean-looking notes in. I've been writing in it for about a week now, and it's been a lot of fun. I've used it to write down random quotes from podcasts that I've been listening to, ideas for stories, memos on my life and how I want to change it, new things that I learned or want to learn about more in the future ... with no elaborate structure, all just scribbled down next to each other. It's been interesting going back at the end of the week and re-discovering thoughts or things that I had almost forgotten about again.&lt;/p&gt;
+&lt;p&gt;My goal for now is filling this first "dirt notebook" and learning to embrace the messiness. Once I've gotten used to it, I could see myself switching to better paper and fountain pen ink again.&lt;/p&gt;
+</content>
+    <link href="https://pinewind.bearblog.dev/i-started-a-dirt-notebook/" rel="alternate"/>
+    <published>2026-07-13T14:55:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://onlinegoddess.net/2026/07/re-an-infuriating-goodbye-to-photoshop/</id>
+    <title>Re: An Infuriating Goodbye to Photoshop</title>
+    <updated>2026-07-13T09:55:00+00:00</updated>
+    <author>
+      <name>onlinegoddess</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Just saw this over on Bubbles and had to reply because I so understand how this blogger feels!&lt;/p&gt;
+&lt;p&gt;Gavin writes about his Photoshop frustrations in &lt;a href='https://anderegg.ca/2026/07/12/an-infuriating-goodbye-to-photoshop' target='_blank'&gt;An Infuriating Goodbye to Photoshop&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I had also been using Photoshop for years. I admit that way back around the mid-90s, when it was totally unaffordable for skint bloggers like me, I used a pirated version. I didn’t feel bad about this as I would never have paid for it anyway.&lt;/p&gt;
+&lt;p&gt;Let’s just say that while I don’t pirate software anymore, Adobe is one of those companies that I would feel no remorse for doing so.&lt;/p&gt;
+&lt;p&gt;Anyway, Adobe ultimately released Photoshop Elements, a more affordable version for home/personal users. At this point, having enjoyed using it and appreciating its worth, I bought it. I became a happy, licensed user with my shiny physical CD that meant &lt;em&gt;I owned it&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I periodically upgraded to newer versions until along came Creative Cloud. Hmmm… a subscription. However it offered the “full” version of Photoshop at an affordable price point of £9.99 per month and included Lightroom (which I didn’t use) but also access to Adobe’s massive font library. Now this was exciting. I was also now using Photoshop for work, so it made sense to have the latest and greatest version and I could claim it as a business expense too.&lt;/p&gt;
+&lt;p&gt;This is how things rolled for the next decade. The price would occasionally sneak up a bit and the software would feel more bloated. But I stayed because &lt;em&gt;everyone&lt;/em&gt; uses Photoshop and I didn’t relish the thought of having to learn something new.&lt;/p&gt;
+&lt;p&gt;One day, I happened to be looking at data going through my firewall (&lt;a href='https://www.obdev.at/products/littlesnitch/index.html' target='_blank'&gt;Little Snitch&lt;/a&gt;, I love you!) and noticed Adobe was phoning home constantly, even when Creative Cloud wasn’t running. I blocked it, then decided to see what else it was doing.&lt;/p&gt;
+&lt;p&gt;Firstly, I discovered that multiple versions of Photoshop were installed. It doesn’t remove old ones when it updates! So in the bin they went.&lt;/p&gt;
+&lt;p&gt;Looking at the system activity log was eye-opening. Adobe was running all sorts of processes and goodness knows what they were doing. No problem, I’ll kill them and disable everything Adobe-related on startup. Rebooted the machine and…..&lt;/p&gt;
+&lt;p&gt;All the processes were back! I killed them and rebooted again. Same result. How the heck was Adobe doing this when none of its software was even running?&lt;/p&gt;
+&lt;p&gt;I do not like software that does this. It’s pretty much immediate grounds for uninstallation. But what would I do without Photoshop? I needed an alternative.&lt;/p&gt;
+&lt;p&gt;I tried a few options, including GIMP (hated the interface) and Pixelmator Pro (awesome but Apple only, so husband can’t use it on his Windows machine).&lt;/p&gt;
+&lt;p&gt;Then I discovered &lt;a href='https://www.affinity.studio/photo-editing-software' target='_blank'&gt;Affinity Photo&lt;/a&gt;. A single payment of £159 across multiple platforms and actually a pretty impressive bit of software. It wasn’t quite as polished as Photoshop, but the core functionality was there, including being able to use my historical PSDs, and it looked close enough to make the learning curve minimal.&lt;/p&gt;
+&lt;p&gt;I tested it for a while alongside Photoshop, making sure it could do what I needed it to do. The answer was yes, though I have found it a little clunkier and slightly less intuitive. Perhaps I’m just too set in my ways.&lt;/p&gt;
+&lt;p&gt;There was a brief hiccup. Just as my trial was ending and I was about to make the switch permanently, there was news that Canva (Affinity’s new owner) was about to make a major announcement regarding the future of Affinity and had paused all sales. I literally couldn’t purchase it!&lt;/p&gt;
+&lt;p&gt;Around a month later, Canva announced that Affinity would be completely free! Of course, suspicion kicked in because nothing is truly free and I wondered what the caveat would be. As of now, Affinity has remained free, with an optional paid plan for advanced new features. Ultimately, this version may turn out to be stunted and I’ll have to take out a subscription again. But for now at least, I’m enjoying paying absolutely nothing for my photo editing software.&lt;/p&gt;
+&lt;p&gt;Having now left the Adobe club, I uninstalled Creative Cloud and Photoshop. Or so I thought. It took me several hours of researching how to manually uninstall the tendrils it left all over my system. Which really solidified my decision to get away.&lt;/p&gt;
+&lt;p&gt;My husband went through the same uninstallation headaches on his Windows machine, but apparently it was even more tedious.&lt;/p&gt;
+&lt;p&gt;Also, I was nearly victim to the monthly-plan-that’s-not-actually-monthly issue that Gavin had, but luckily I was in the 11th month and so I just cancelled at the end of the year with no penalty. Adobe tried to lure me back a with an offer of £1 a month for 3 months, but with all I’ve learned there’s no chance I’ll be doing that.&lt;/p&gt;
+&lt;p&gt;Bye bye Adobe, you will not be missed.&lt;/p&gt;
+</content>
+    <link href="https://onlinegoddess.net/2026/07/re-an-infuriating-goodbye-to-photoshop/" rel="alternate"/>
+    <published>2026-07-13T09:55:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://loveisverbing.bearblog.dev/bear-quest/</id>
+    <title>Bear Blogging - unanswered questions</title>
+    <updated>2026-07-12T13:49:00+00:00</updated>
+    <author>
+      <name>loveisverbing</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;These may be due to a lack of digging on my part, and it may be that the ‘not knowing’ adds to my joy of exploring.&lt;/p&gt;
+&lt;p&gt;Nevertheless, I’ve been asked the first question below and since I’ve just learned about #bearcats and am a huge cat-lover, I’m allowing my feline curiosity to get the better of me…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How many bear blogs are there?&lt;/li&gt;
+&lt;li&gt;Is there a hidden group of ‘bear villagers’ which ever gets together some place?&lt;/li&gt;
+&lt;li&gt;How do most bear bloggers discover bear?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I arrived via Derek Sivers.&lt;/p&gt;
+&lt;p&gt;I’m going to ask Herman (and Robert Birming since he seems like a wise owl bear). And regardless of any answers, thank you Herman.&lt;/p&gt;
+&lt;p&gt;It’s fabulous being a ‘baby bear’ blogging from here.&lt;/p&gt;
+&lt;p&gt;#bear #questions #blogging #appreciating&lt;/p&gt;
+</content>
+    <link href="https://loveisverbing.bearblog.dev/bear-quest/" rel="alternate"/>
+    <published>2026-07-12T13:49:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://bitsofthis.bearblog.dev/greetings-people-of-bear/</id>
+    <title>At last, satisfaction</title>
+    <updated>2026-07-13T21:41:00+00:00</updated>
+    <author>
+      <name>bitsofthis</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Before landing on bear blog as the place where I want to share my thoughts and write, I jumped between various options. One of them was a static site generator called Hugo, which I hosted on Cloudflare pages. It looked great and was free, but yet, I couldn't shake the feeling that something just wasn't right.&lt;/p&gt;
+&lt;p&gt;Turns out there was this weird feeling of isolation? Like, my poor site, just floating in the middle of the vast online world, with likely no one seeing my posts, it felt very sad to think about. Maybe it's due to growing up online, and having participated in pretty much every major social media, from Blackberry Network (yes, i'm that old), to Instagram, Snapchat, TikTok, Twitter, Reddit, yada yada, you name it. You end up wanting people to see stuff you post online, for better or worse.&lt;/p&gt;
+&lt;p&gt;All of that to say, i'm quite fond of bear blog and the little community here. It strikes a very nice balance of not being too isolated, yet also not being the loud online mess that is modern social media.&lt;/p&gt;
+&lt;p&gt;Herman, you rock brother.&lt;/p&gt;
+</content>
+    <link href="https://bitsofthis.bearblog.dev/greetings-people-of-bear/" rel="alternate"/>
+    <published>2026-07-13T21:41:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://basic.bearblog.dev/retro-computer-advertising-memories/</id>
+    <title>Retro computer advertising memories</title>
+    <updated>2026-07-12T16:18:00+00:00</updated>
     <author>
       <name>basic</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;Commodore is on a journey to bring back their computers and advertising the end of social media. It's a lofty goal and plays on nostalgia but I am not that customer.&lt;/p&gt;
-&lt;p&gt;Today they announce a phone, a flip phone with no social media available in various colors called the Commodore Callback.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/phonerow.webp" alt="PhoneRow" /&gt;&lt;/p&gt;
-&lt;/br&gt;
-My jaw dropped when I saw the price of $ 767 Canadian! Are you joking?! That is more than the $ 418 Canadian for the basic bread bin computer. 
-&lt;p&gt;I don't understand why Commodore is taking this path where other "dumb phone" manufacturers are struggling to sell. I've never seen any Light Phone, Minimal or any other niche brand phone. Even the Clicks Communicator costs less and gives me that Blackberry nostalgia that I would support.&lt;/p&gt;
-&lt;p&gt;When I see the spec sheet, I can't figure out why the cost is so high. External storage is maxed out at 256GB which is perhaps a limitation due to the CPU. That isn't a lot of music especially for Commodore including audiophile DAC and headphones.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/commodorephone.webp" alt="commodorephone" /&gt;&lt;/p&gt;
-&lt;p&gt;I'll look forward to reviews and jokes about this phone's price. I'm sure a snarky comment will be in every review article.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I have fond memories of computer magazines from the late 80's and into the 90's. The large full page and double page ads with words and images that I never skipped. These were informative to me as a young mind absorbing everything I could to share with my friends in our discussions of which computer was better.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/ataristad.webp" alt="ataristad" /&gt;&lt;/p&gt;
+&lt;p&gt;I had a fascination with every brand and never had a favourite. Back then, there was competition and each brand had to present their own platforms. Screenshots were a big deal to prove they also had software that could match IBM compatible versions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/applead.webp" alt="applead" /&gt;&lt;/p&gt;
+&lt;p&gt;Each company had their own idea of advertising. Some were fun and others were very descriptive. They poked fun at each other too with claims of being toys.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/amigaad.webp" alt="amigaad" /&gt;&lt;/p&gt;
+&lt;p&gt;It confused consumers too, especially parents investing in a platform for their children.  At the time, schools were taking chances with Apple and IBM compatible computer classrooms. I recall my own school constructing a new building addition just for &lt;a href='https://en.wikipedia.org/wiki/IBM_PS/1' target='_blank'&gt;IBM PS/1&lt;/a&gt; systems. By 1989, I could see the writing on the wall for other brands because schools were not investing in Atari, Commodore or other computers. Not even my friend's parents took a risk any longer and stuck with IBM compatible computers.&lt;/p&gt;
+&lt;p&gt;I saw less advertising in computer magazines for those other brands and eventually those companies disappeared. It wasn't until 1998, when Steve Jobs coming back to Apple would we see a new world of advertising for fun colorful computers and accessories. The 2000's became all about Apple and no one wanted a beige or black PC.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/basic/appleimacad.webp" alt="appleimacad" /&gt;&lt;/p&gt;
+&lt;p&gt;What were your favourite memories of vintage PC ads?&lt;/p&gt;
+&lt;hr /&gt;
 </content>
-    <link href="https://basic.bearblog.dev/the-commodore-flip-phone-is-how-much/" rel="alternate"/>
-    <published>2026-06-16T13:02:00+00:00</published>
+    <link href="https://basic.bearblog.dev/retro-computer-advertising-memories/" rel="alternate"/>
+    <published>2026-07-12T16:18:00+00:00</published>
   </entry>
   <entry>
-    <id>https://dateemups.com/fan-translation-llm/</id>
-    <title>What's Not Yours Isn't Theirs, Either</title>
-    <updated>2026-06-19T23:00:00+00:00</updated>
+    <id>https://notebookery.bearblog.dev/re-dirt-notebook/</id>
+    <title>Re: I started a "dirt notebook"</title>
+    <updated>2026-07-15T20:06:00+00:00</updated>
     <author>
-      <name>iiotenki</name>
+      <name>notebookery</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;Never has a first-party game been more honest and self-aware about its circumstances than Segagaga. A coda to the Dreamcast's troubled life released a few short months after Sega announced its withdrawal as a platform maker, Segagaga morbidly revels in the dire situation of the eponymous(-ish) company and its workers with the sort of bleak gallows humor you'd expect to find in, say, World War II movies about "the front." Only, instead of soldiers inside grimy trenches quipping about bad rations and dwindling ammo supplies, it's unkempt, heavily overworked developers all but shackled to their cubicles inside of dingy vaults, trapped from seeing the light of day as protagonist Taro wards off roaming bands of influenza.&lt;/p&gt;
-&lt;p&gt;This is no allegory. Segagaga has nary a romanticized bone in its gaunt body to be found. "Everything you've heard about Japanese game development and more is true, and nowhere is it more true than here at Sega at the turn of the millennium," the game morosely reiterates with every mission doled out, every NPC conversation, and every combat encounter. A certain undercurrent of cynicism permeates throughout that can only come from those who have truly lived the life they're depicting and witnessed how the digital sausage is made, exaggerated or not. Even so, cynicism by itself is rarely constructive and Segagaga isn't a game that takes the easy way out by glibly giving into it. What it actually is, in no uncertain terms, is a game about loving somebody at their worst, somebody who hits the bottom again and again, only to break through the floor and fall even deeper with each passing day.&lt;/p&gt;
-&lt;p&gt;A quarter of a century later, it's a game that I myself deeply relate to in some ways, having entered my 12th year in Japanese-to-English game localization this past April. The only game industry I know is the Japanese one and never is it for the faint of heart. I have taken on weighty workloads with inadvisable deadlines made viable only with the energy and single-minded dedication of youth. I have had the long nights on the job, staying up until the break of dawn, workshopping and refining the most minute details in pursuit of a translation that &lt;em&gt;sings&lt;/em&gt;. Things where the raw dollar-and-cents return I was poised to earn for such minuscule amounts of material couldn't possibly justify the investment I put into them. I have had—and sometimes lost—the battles with my superiors, my agencies, and my clients to do right by their games and their audience. I have had projects cancelled on me after months of working onto them, their divulgence forever verboten by NDAs. I have lost contracts and promises of work and money even after winning it all fair and square because I just happened to rub the wrong person in power the wrong way a little too much for a little too long. And I have stuck it out in this industry doing what I do despite it All, despite the politics and the pay and the lack of job security, because I genuinely believed in what I was doing like nothing else I have done in my life. For the love of the game that is Japanese video games.&lt;/p&gt;
-&lt;p&gt;Segagaga languished for decades as one of those stubborn holdouts whose English translation just never seemed like it could come together, even as white whales that eluded fan translators for decades were tamed in the end. I would know better than most: I was once asked early in my career if I would join the ranks of one such project that was always on-again, off-again. From what I gather, even Sega itself explored ways to bring out an official localization, belated as it would've been. Yet it remained the exceptionally rare kind of fan translation target where no amount of desire, reverse engineering insights, and translator prowess ever proved to be enough to coalesce into a final, playable patch. Even Tokimeki Memorial, a similarly troublesome game that many romhackers had written off despite its significance, fell a few years ago at last and you can now play it in a language you probably understand... kind of. (Look, there's still work to be done and it's a matter of public record that I have &lt;a href='https://kotaku.com/tokimeki-memorial-english-translation-konami-snes-plays-1848525789'&gt;some strong opinions&lt;/a&gt; on the version those of you reading this can actually play as of this writing.)&lt;/p&gt;
-&lt;p&gt;This state of affairs ostensibly changed a few months ago when &lt;a href='https://www.segasaturnshiro.com/2026/02/27/segagaga-fan-translation-is-available-now/' target='_blank'&gt;an English patch at last emerged&lt;/a&gt; almost 25 years to the day of its original launch. That is, with a lede that was buried by both the team behind it and especially by many enthusiast sites promoting its release: the translation wasn't produced from scratch by humans from start to finish. Rather, the script was, in the project's own words on its &lt;a href='https://github.com/ExxistanceDC/Segagaga-English-Translation' target='_blank'&gt;GitHub page&lt;/a&gt;, "developed using a combination of DeepL and ChatGPT 4o/4.5. That translation then went through a substantial, months-long human translator review." In professional circles, we call such a process MTPE, or "machine translation post-editing." During it, the first pass of a translation is done by a machine translator like, indeed, DeepL, ChatGPT, or Google. It's then a human translator's job to review that output by comparing the generated translation against the source text, make any corrections where necessary, and deliver a polished final product, or at minimum something more presentable than the machine could've managed by itself.&lt;/p&gt;
-&lt;p&gt;At least, that's the elevator pitch that translation agencies routinely sell to spendthrift clients. I've already litigated the practical realities of MTPE on the ground on &lt;a href='https://dateemups.com/machine-translation-reporting/' target='_blank'&gt;this very blog at length&lt;/a&gt;, so I won't repeat myself here. (Though, at the risk of adding another 2500 words of homework, I encourage you to go back and read it first if you aren't familiar with MTPE and its myriad shortcomings.) As anyone familiar with that post and my work in general can likely surmise, suffice it to say, the abrupt conclusion of Segagaga's protracted localization journey in such a manner was deeply demoralizing. While preliminary translation patches made with more rudimentary machine translators have, for better or worse, existed for a long time, the precipitous increase in LLM usage combined with MTPE as a supposed guardrail tells me that these teams are either insufficiently considering the practical and ethical implications of their methodology, or disregarding them outright. For my money, the fact this is happening more frequently with high profile games such as Segagaga suggests to me that it may well often be a case of the latter.&lt;/p&gt;
-&lt;p&gt;As much as I genuinely urge such teams to rescind their work and take down any patches, even after the fact, I also recognize that the cat is unfortunately out of the bag and many more cats will probably be let out of just as many bags so long as access to LLM models remains affordable, something which itself &lt;a href='https://gizmodo.com/anthropic-is-jacking-up-the-price-for-power-users-amid-complaints-its-model-is-getting-worse-2000746923' target='_blank'&gt;may not remain true for long&lt;/a&gt;. Be that as it may, speaking as a former fan translator myself, LLMs and MTPE present further problems specific to fan translation that merit discussion in addition to the broader issues I've already explored at length in my previous post linked above. At the root of it all is an important question that I want to ask. Namely, what does translation &lt;em&gt;do&lt;/em&gt; to the translated work and for it?&lt;/p&gt;
-&lt;p&gt;I don't mean what a translation, when done properly, accomplishes on a mechanical level. You know what my basic job description is. Nor am I here to debate the supposed merits of translation versus localization writ large. (It's a false dichotomy, even outside creative mediums.) What I'm really asking is, what happens to a work once it's been translated, especially for the first time? In entertainment media and video games in particular, where translations are often the most time and labor-intensive to realize, most works make the jump to another given language only once. Barring exceptional situations, in the vast majority of cases, the first translation into that language is the only one that work ever receives, officially sanctioned or otherwise. In turn, it becomes the de facto way that audience can and will ever engage with that piece, the very grammar and semantics available to that language informing how people observe even objective realities of that content.&lt;/p&gt;
-&lt;p&gt;In other words, when you're translating somebody else's creation and especially when that translation is taking place in your chosen language for the very first time, you're not only speaking on another creator's behalf. As I've said many times, translation is an act that inherently requires that you put words into people's mouths. Not only the fictional mouths of the characters you're borrowing, but also those of the real people behind them. To a large extent, you're defining nothing less than that work's very legacy and that of its creators in abstentia. That new audience's first and quite likely only impression of it will be profoundly dictated by the choices you make throughout that process, the ensuing conversations being ones in which those creators likely cannot participate.&lt;/p&gt;
-&lt;p&gt;That is a heavy, heavy responsibility. I say this not to discourage other translators from making bold, creative choices in their approach. On the contrary, the job often demands it and no amount of attempted deferment to the supposed objectivity of translation dictionaries (or, indeed, LLMs and machine translators) will lighten the weight of that burden. Rather, I say this to stress what is always at stake when you decide to sit down and attempt to represent the work and mindset of somebody else with your own words. It may well be the only shot that media ever gets at reaching people within your sphere, making it imperative to aim both well and true.&lt;/p&gt;
-&lt;p&gt;More than other fields of translation, games and other entertainment exhibit what I've come to term as "self-evident context." That is, as bespoke creations, the words and ideas contained within them aren't strictly confined to our own reality. They can and often do have their own underlying histories and etymology informing their usage within that world. Any respectable translation concerned with accuracy must take those differences into consideration, as well as how audiences in the source and target languages alike each perceive those word choices. Something in mecha fiction might in its native language, for instance, call its take on giant robots "dolls" because of their lack of autonomy. It's then up to the translator to determine if a direct translation of the word "doll" adequately maintains the intended metaphor, or if they need to adopt a superficially different term that can nevertheless evoke similar ideas.&lt;/p&gt;
-&lt;p&gt;This is what makes the use of machine translators of any sort insidiously dangerous to deploy on creative projects. The algorithms underpinning them by their very nature force them to bias potential translations based on likelihood, which they in turn ultimately determine by their average frequency in A:B comparisons, as well as potential proximity to other, related words. While they may sometimes happen to be incidentally fed fictional material as a matter of course, they have no means of discerning it &lt;em&gt;as&lt;/em&gt; uniquely fiction in contrast with the rest of its archived material derived from the real world. All of it is simply lumped together as "language" in a murky stew comprised of infinite ingredients in varying proportions. This makes the systems mathematically incapable of weighing potential translation candidates rooted in fiction more heavily than anything else they can unearth when tasked with translating fiction. Doing so would essentially require them to be fed more fictional sources of material than real ones such that the probabilities and averages arrived at favor the former, which is inconceivable.&lt;/p&gt;
-&lt;p&gt;When considering that diligent translations also must bear in mind the holistic, big picture needs of the source's themes and narrative, not simply moment-to-moment, or even line-by-line semantic parity, machine translators and LLMs quickly turn from a time-saving shortcut to an outright liability. After all, if ChatGPT and other AI models can't be expected to genuinely remember past interactions with them to any reliable, meaningful degree, why should they be trusted to have the reading comprehension skills necessary to consume a script in its entirety and then make judgment calls about terminology, character speaking styles, and many other pressing variables? They simply can't, and if you can't trust them to maintain a working memory of what they're translating as they "translate" it, then it turns out that the better, quicker, and safer option is always, in fact, to turn to a knowledgeable, capable human who can from the outset.&lt;/p&gt;
-&lt;p&gt;But the concerns about LLMs and MTPEs in fan translation extend well past the immediate practicalities and responsibilities of the work itself. Any discussion of them must also grapple with the reality of how those initial translations are generated. When you as a fan translator take that source material and paste it into something like ChatGPT, you're not merely receiving a one-time output before the technology purges itself of your query. You're feeding the work of creators who toiled months, if not years, into a system that will ingest it, permanently retain it, and disperse it to other users globally without those creators' permission for as long as that system exists. That material, which was never yours and will never belong to you, is, by extension, not yours to effectively donate to the (aspiring) profit engines of Sam Altman and his ilk. While permission in general might be relative when it comes to fan translation, what is absolutely indisputable is who owns the work being built upon and it certainly isn't the fan translation teams engaging in this behavior.&lt;/p&gt;
-&lt;p&gt;Having almost certainly seen my work fed into generative AI by at least one renowned client by my count, I can say that I don't spend those long nights playing Japanese builds of games (sometimes at breakneck pace for prolonged periods), writing dialogue, and troubleshooting problems with my colleagues just to have those same clients turn around and ask a computer to produce a limp facsimile of my writing in a brazen investment grab. Is that client legally allowed to do so because they own the copyright to my translations? Yes, but it doesn't change the fact that I put in the time, effort, and quality that I do for the games themselves, for their developers, and for their players, not for a technology whose stated end goal is to make me redundant in the eyes of employers. And while I can't speak for the teams behind the games now receiving MTPE-based patches, I can't imagine they crunched and made sacrifices in their lives during development just to have their work served up on a platter to an objectifying, averaging, muddying algorithm, either, least of all those whose games have waited decades to make their international break. None of those individuals slept under their desks or were hospitalized so that a small group of people on the Internet many thousands of miles away could enjoy a hit of clout at their expense for but a fleeting moment.&lt;/p&gt;
-&lt;p&gt;For many game developers and other creatives in Japan, the extent of their impact on the world such as they see and feel it doesn't extend beyond the archipelago. Even acclaimed, globally celebrated individuals can go their entire careers and enter retirement feeling wholly anonymous, never even imagining an audience spanning oceans and continents. It may not be until a foreign fan reaches them, and especially in their own language, that they understand their work did travel abroad and make a difference well beyond their homeland. In my own experience, "white foreigner with a penchant for retro dating sims that time forgot" can make for a surprisingly quick and potent ice-breaker when introducing yourself in the right circles, it turns out.&lt;/p&gt;
-&lt;p&gt;As a translator who will never be contractually allowed to reveal the bulk of my work with the world, it's this kind of life spent in obscurity, one that has a way of minimizing your self-worth from a lack of recognition, that causes me to feel a deep, knowing sadness when I see yet another fan effort needlessly succumb to the siren calls of MTPE-tinted machine translations. Beyond the practicality of the whole exercise, beyond the ethics and morals of churning through material in that particular way, is a group of people whose efforts made and prices paid we'll never know.&lt;/p&gt;
-&lt;p&gt;Were they taken care of?&lt;br /&gt;
-Were they taken advantage of?&lt;br /&gt;
-Were they bled dry?&lt;br /&gt;
-Did they watch life pass them by?&lt;br /&gt;
-Were they happy to do it all anyway?&lt;br /&gt;
-Or was it all they could do to get their pay?&lt;/p&gt;
-&lt;p&gt;We'll never know. All I do know is, when what remains of that is taken out of human hands, no matter for how long or how little, they and their legacies are condemned to their own vault, their chance of escape vanishingly little. Only a person can make a translation that respects and reveres the humanity imparted upon this earth. Either you do this for the love of the games themselves and the people behind them, or for the love of yourself. There is no line to be drawn down the middle.&lt;/p&gt;
-</content>
-    <link href="https://dateemups.com/fan-translation-llm/" rel="alternate"/>
-    <published>2026-06-19T23:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://pego.dev/i-wanted-bear-blog-but-for-my-photos/</id>
-    <title>I wanted Bear Blog, but for my photos</title>
-    <updated>2026-06-16T10:14:00+00:00</updated>
-    <author>
-      <name>pego</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I love Bear.&lt;/p&gt;
-&lt;p&gt;It is one of the few places on the web that still feels calm, personal, and human. You write something, publish it, and it exists as a simple page on the internet.&lt;/p&gt;
-&lt;p&gt;No algorithm.
-No follower count.
-No pressure to perform.&lt;/p&gt;
-&lt;p&gt;For writing, Bear feels almost perfect to me.&lt;/p&gt;
-&lt;p&gt;But I also take photos.&lt;/p&gt;
-&lt;p&gt;Not professional photos. Not portfolio work. Just ordinary life: walks, family days, weekends, cities, small details, strange light, quiet moments I want to keep.&lt;/p&gt;
-&lt;p&gt;And I never really knew where those photos should live.&lt;/p&gt;
-&lt;p&gt;Instagram feels too loud. Cloud storage feels too buried. A portfolio feels too serious. A normal blog feels close, but still writing-first.&lt;/p&gt;
-&lt;p&gt;Of course, you can add photos to a Bear post. But the photo usually supports the writing.&lt;/p&gt;
-&lt;p&gt;I wanted the opposite.&lt;/p&gt;
-&lt;p&gt;A place where the photo is the post.&lt;/p&gt;
-&lt;p&gt;Where text is optional.
-Where one photo is enough.
-Where images are large, calm, and treated with respect.
-Where browsing feels more like moving through a photo journal than scrolling a feed.&lt;/p&gt;
-&lt;p&gt;So I built &lt;a href='https://moments.im'&gt;Moments&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Moments is a quiet photoblog for people who take photos as part of life.&lt;/p&gt;
-&lt;p&gt;It is not social media. There are no likes, no follower counts, no rankings, and no pressure to post often.&lt;/p&gt;
-&lt;p&gt;Moments are simply organised by time, because time is enough. Newer moments come first. Older ones slowly move down.&lt;/p&gt;
-&lt;p&gt;In that sense, Moments comes from the same place that made me love Bear: simple personal websites, ownership, and publishing without turning everything into performance.&lt;/p&gt;
-&lt;p&gt;But it starts from a different object.&lt;/p&gt;
-&lt;p&gt;Bear starts with words.&lt;/p&gt;
-&lt;p&gt;Moments starts with photos.&lt;/p&gt;
-&lt;p&gt;That is the whole idea.&lt;/p&gt;
-&lt;p&gt;Moments is still very early. There are only a few journals on it right now, including &lt;a href='https://photos.pego.dev'&gt;my own&lt;/a&gt;. But I like that. It already feels like a small group of personal photo journals, not a platform trying to become huge.&lt;/p&gt;
-&lt;p&gt;You can see my own photo journal here:&lt;/p&gt;
-&lt;p&gt;&lt;a href='https://photos.pego.dev'&gt;photos.pego.dev&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href='https://photos.pego.dev'&gt;&lt;img src="https://www.moments.im/og?title=Peter%27s+journal&amp;amp;subtitle=Software+engineer%2C+photographer%2C+and+builder+of+small+things+on+the+internet.+Based+in+Budapest%2C+usually+walking+around+with+a+Fujifilm+camera+and+noticing+quiet+everyday+moments.&amp;amp;eyebrow=Photography+journal&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2F94_5IBO_H0s20Xuz9jjy_%2Foriginal.JPG&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2FGfCTqprlcqO4mVQc6FsXF%2Foriginal.JPG&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2F6fmQr2Oe89Khult2cZvZb%2Foriginal.JPG&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2FTc479St_oFyzjtK1g3HWU%2Foriginal.jpg&amp;amp;image=https%3A%2F%2Fcdn.pego.dev%2FGTB3uhnKn3Hte12uQ5x8Y%2FnNM1xO2Feu2v7xYX36Vxr%2Foriginal.JPG&amp;amp;avatar=https%3A%2F%2Fcdn.pego.dev%2Favatars%2FgS3WS6UzT1eHYBDnjYXvwwNUSWwrPxAL%2FivKiZZH8KS22hKm45c6KF.jpg" alt="Peter's journal" /&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;And you can create yours here:&lt;/p&gt;
-&lt;p&gt;&lt;a href='https://moments.im'&gt;moments.im&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;If you already like Bear and you also have a quiet pile of photos sitting somewhere, I would love for you to try it.&lt;/p&gt;
-&lt;p&gt;Questions, suggestions, rough feedback, bug reports, or just thoughts are all welcome.&lt;/p&gt;
-&lt;p&gt;You can reach me at:&lt;/p&gt;
-&lt;p&gt;&lt;a href='mailto:pepegombos@gmail.com'&gt;pepegombos@gmail.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Your photos do not need to become content.&lt;/p&gt;
-&lt;p&gt;Maybe they just need a home.&lt;/p&gt;
-</content>
-    <link href="https://pego.dev/i-wanted-bear-blog-but-for-my-photos/" rel="alternate"/>
-    <published>2026-06-16T10:14:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://lwgrs.bearblog.dev/re-bloggers-can-we-make-better-titles-for-our-posts/</id>
-    <title>re: Bloggers, can we make better titles for our posts?</title>
-    <updated>2026-06-15T18:35:00+00:00</updated>
-    <author>
-      <name>lwgrs</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Original post: &lt;a href='https://michaelharley.net/posts/2026/06/15/bloggers-can-we-make-better-titles-for-our-posts/'&gt;Bloggers, can we make better titles for our posts? | Michael Harley&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Overall I agree with Michael's premise: blogs need better titles. I agree; I think I browse &lt;a href='https://bubbles.town'&gt;Bubbles&lt;/a&gt; and Bear's &lt;a href='https://bearblog.dev/discovery'&gt;discovery page&lt;/a&gt; in much the same way. You can't read everything, and titles are a good shorthand way to guess if it's something you'd be into&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;Where I disagree:&lt;/p&gt;
+    <content type="html">&lt;p&gt;In &lt;a href='https://pinewind.bearblog.dev/i-started-a-dirt-notebook/' target='_blank'&gt;I started a "dirt notebook"&lt;/a&gt;, BearBlogger kwist describes his reluctance to take messy notes in his regular notebooks:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;I think this one might be a bit unpopular but I do not like the round-up posts. You know the ones. They're titled &lt;em&gt;Week Notes&lt;/em&gt;, &lt;em&gt;Week in Review&lt;/em&gt;, &lt;em&gt;Weekly Links&lt;/em&gt; and the like. When I'm cruising Bubbles, I do not click weekly notes from randos. For bloggers I know and have followed, I do often scan them.&lt;/p&gt;
+&lt;p&gt;"I start cherishing every notebook that I start. I can't seem to keep my notes messy. Eventually, I start structuring the notes, doing cleaner handwriting, adding a cover or some stickers ... and before I know it, the notebook is too well-organised for simply scribbling into."&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;To counter this tendency, he started a dedicated "dirt notebook":&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;This one probably is less &lt;em&gt;write better titles&lt;/em&gt; and is more &lt;em&gt;write better posts&lt;/em&gt;. I think many people use these posts as a writing tool to exercise their writing muscles. I'd suggest a better tool is the age-old favorite of writing blog posts about blogging, like I'm doing here.&lt;/p&gt;
+&lt;p&gt;"I've nicknamed it "The Drainage Channel", because it's just a place for whatever is going through my head right in that moment. I'm using an old, empty notebook that I found lying around the other day. The paper quality is pretty bad; every kind of fountain pen ink bleeds through so I'm forced to use cheap ballpoints and it doesn't open flat, which makes it hard to take clean-looking notes in."&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;People like doing weekly recaps and link round-ups, and that's not a problem. They're usually very identifiable and easy to skip if you don't want to read them. Michael, I think you're right on the nose about that being an unpopular opinion. Your second paragraph is also assigning judgment on what makes a "good" or "bad" blog post. We (collective "we", as in a blogging community) don't need to discourage people from writing if that's what they want to write.&lt;/p&gt;
-&lt;p&gt;In addition, I &lt;em&gt;will&lt;/em&gt; sometimes click through on random week notes from people I don't know; sometimes that's a good way to get a quick summary of who the person is. Secondly, it brings me to their blog, where—if I find their post interesting enough to skim through—I will find other things they've written and decide if I want to add their feed to my RSS reader.&lt;/p&gt;
-&lt;p&gt;Anyway. I'm procrastinating from work; earlier this afternoon I &lt;a href='https://ottawa.place/@srgower/116755226913887132'&gt;lamented that I have a lot of thoughts but couldn't put anything to paper&lt;/a&gt;. I was supposed to tackle my to-do list but I opened Bubbles and started reading. Woops!&lt;/p&gt;
-&lt;h6 id=a-hrefhttpsletterbirdcosrgreply-by-emaila-nbsp-a-hrefhttpswwwaddtoanycomshareurl-post_link-title-post_title-target_blankshare-this-postanbsp-a-hrefhttpsottawaplacesrgowermastodonanbsp-a-hrefhttpsbskyappprofilesrgowercomblueskya&gt;&lt;a href="https://letterbird.co/srg"&gt;Reply by email&lt;/a&gt; &amp;nbsp; &lt;a href="https://www.addtoany.com/share#url=https://lwgrs.bearblog.dev/re-bloggers-can-we-make-better-titles-for-our-posts&amp;title=re: Bloggers, can we make better titles for our posts?" target="_blank"&gt;Share this post&lt;/a&gt;&amp;nbsp; &lt;a href='https://ottawa.place/@srgower/'&gt;Mastodon&lt;/a&gt;&amp;nbsp; &lt;a href='https://bsky.app/profile/srgower.com'&gt;Bluesky&lt;/a&gt;&lt;/h6&gt;&lt;hr /&gt;
-&lt;section class="footnotes"&gt;
+&lt;p&gt;This is a really good way to work against such perfectionist tendencies.&lt;/p&gt;
+&lt;p&gt;When I saw his post, I thought I'd add &lt;strong&gt;two tipps and tricks about how to overcome the fear of "messing up" a notebook&lt;/strong&gt; that many analog note-takers seem to have:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Start with the inside of the cover&lt;/strong&gt;: Purposefully "mess up" the part of the notebook that's not really for taking notes. Put a coffee stain or some stickers on it, give it a silly name or at least a number, doodle something.&lt;/p&gt;
+&lt;p&gt;I use the blank inside of my notebooks for all sorts of things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the start and end dates of me using that notebook,&lt;/li&gt;
+&lt;li&gt;its running number,&lt;/li&gt;
+&lt;li&gt;my contact info and sometimes the promise of a finder's fee,&lt;/li&gt;
+&lt;li&gt;the page numbers of single remaining empty pages,&lt;/li&gt;
+&lt;li&gt;the best quotes or ideas that made it into that notebook etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Embrace scrapbooking&lt;/strong&gt;: Every note you "messed up" is an opportunity to increase the scrapbooky&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; feel of your notebook: Tear a random piece of paper and glue it over the messed-up note, or cover it with a piece of a sticky note. Then, write the note again.&lt;/p&gt;
+&lt;p&gt;This comes down to taste, of course, but curiously, even many notebook users who are afraid of messing up their notes actually enjoy the vibe of a scrapbook.&lt;/p&gt;
+&lt;p&gt;I go even a little further: Whenever I take a note about a larger topic im currently working on in my pocket notebook, I consciously write it on a fresh page. Later, instead of re-writing that note in the notebook that I use for thinking about that particular topic, I rip or cut it out and glue or staple it in. Saves time and makes the whole thing more organic — and more scrapbooky, which is always a good thing.&lt;br /&gt;
+The result might look something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/notebookery/20260605_081826.webp" alt="20260605_081826" /&gt;&lt;/p&gt;
+&lt;p&gt;Hope this helps — 'til next time, fellow notebookers!&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://notebookery.bearblog.dev/contact/'&gt;&lt;strong&gt;Contact me!&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/notebookery/kelly-sikkema-jdpdmainjko-unsplash.webp" alt="kelly-sikkema-JDPDMaINjko-unsplash" /&gt;&lt;/p&gt;
+&lt;h4 id=footnotes&gt;Footnotes&lt;/h4&gt;&lt;section class="footnotes"&gt;
 &lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;The good thing about Bubbles is that if you click through the Bubbles listing, you at least get the first few sentences of the post.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;A scrapbook is a notebook or journal where the actual journaling is combined with scraps of paper, tickets, receits etc. that are glued in as physical artifacts of what the journaling is about.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
 </content>
-    <link href="https://lwgrs.bearblog.dev/re-bloggers-can-we-make-better-titles-for-our-posts/" rel="alternate"/>
-    <published>2026-06-15T18:35:00+00:00</published>
+    <link href="https://notebookery.bearblog.dev/re-dirt-notebook/" rel="alternate"/>
+    <published>2026-07-15T20:06:00+00:00</published>
   </entry>
   <entry>
-    <id>https://blog.avas.space/dagobah-yoda/</id>
-    <title>something my wife said today</title>
-    <updated>2026-06-15T12:42:00+00:00</updated>
+    <id>https://onlinegoddess.net/2026/07/getting-frustrated-with-big-bang-theory/</id>
+    <title>Getting Frustrated with Big Bang Theory</title>
+    <updated>2026-07-15T17:30:00+00:00</updated>
     <author>
-      <name>avas</name>
+      <name>onlinegoddess</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;I'm feeling pretty down in the dumps today. As my wife listened to me and kindly massaged my feet to make me feel better, she said&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;"&lt;em&gt;It's exhausting how life is like training with Yoda at Dagobah. Everything is about overcoming obstacles, waiting, and having patience.&lt;/em&gt;"&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Thought that was funny, and cute.&lt;/p&gt;
-&lt;p&gt;&lt;a href='mailto:avas.space@tuta.com'&gt;Reply via email&lt;/a&gt;&lt;br /&gt;
-Published &lt;time datetime="2026-06-15T12:42Z"&gt;
-    15 Jun, 2026
-&lt;/time&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;A quick one today, but it’s been on my mind and I wanted to get it down on paper, so to speak.&lt;/p&gt;
+&lt;p&gt;We’ve been watching The Big Bang Theory for a while. I do enjoy the story-telling and the humour, but the repeated casual misogyny, sexism, racism etc really gets on my tit. Sometimes the characters are completely insufferable - they don’t seem to have matured in any meaningful way for the entire 7 seasons so far. Quite frankly, I’m not sure I can manage another 5!&lt;/p&gt;
+&lt;p&gt;I watch it with eldest who has just turned 16. He’s a nerdy kid, so “gets” the personalities in this show and relates to some of the experiences they’ve been through (bullying, peer isolation and social awkwardness).&lt;/p&gt;
+&lt;p&gt;While we take opportunities to discuss things that arise in the show, I do worry how much he thinks these characters are having normal adult friendships and relationships.&lt;/p&gt;
+&lt;p&gt;Eldest doesn’t watch a lot of TV, so he hasn’t experienced a varied cultural diet. I’d like us to take a break from BBT and watch something that will provide a more positive attitude towards others while still embracing being different.&lt;/p&gt;
+&lt;p&gt;I’d appreciate any recommendations for other shows that have nerdy, neurodivergent or queer (or all the above!) primary characters who would be better role models for my son. Feel free to &lt;a href='https://onlinegoddess.net/contact/'&gt;pop me an email&lt;/a&gt; if you have any suggestions!&lt;/p&gt;
 </content>
-    <link href="https://blog.avas.space/dagobah-yoda/" rel="alternate"/>
-    <published>2026-06-15T12:42:00+00:00</published>
+    <link href="https://onlinegoddess.net/2026/07/getting-frustrated-with-big-bang-theory/" rel="alternate"/>
+    <published>2026-07-15T17:30:00+00:00</published>
   </entry>
   <entry>
-    <id>https://blog.avas.space/digital-remains/</id>
-    <title>let's talk about your digital remains!</title>
-    <updated>2026-06-15T15:50:00+00:00</updated>
+    <id>https://householderkarl.com/nothing-to-anyone/</id>
+    <title>Nothing to Anyone</title>
+    <updated>2026-07-11T15:50:00+00:00</updated>
     <author>
-      <name>avas</name>
+      <name>householderkarl</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;blockquote&gt;
-&lt;p&gt;"&lt;em&gt;When I die, delete my browser history.&lt;/em&gt;" ­— Unknown&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;When you die, there are lots of processes in place to deal with your body, your burial, your physical possessions, subscriptions and bank accounts. &lt;em&gt;&lt;strong&gt;But what about your digital accounts and possessions?&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;As our lives become more and more digital, taking these into account when tying up the affairs of a dead person is increasingly important. Think about it: This can involve e-mail accounts, social media accounts, messengers, LLM conversations, hard drives, cloud storage, crypto wallets, websites, your digital media licenses, intellectual property you released (like four (F)OSS projects, for example), and more. In a broader sense, you might count browser history and other metadata, too!&lt;/p&gt;
-&lt;p&gt;What's interesting is that so many of these do not fall under the laws you might expect them to, like succession/inheritance law or privacy law.&lt;/p&gt;
-&lt;p&gt;Services that offer you licensed content (like Steam) have made clear in the past that family members are unable to inherit the accounts or licenses, like they would with physical items.&lt;/p&gt;
-&lt;p&gt;In terms of privacy and data protection, the GDPR applies only to &lt;em&gt;living&lt;/em&gt; people, so you lose these rights upon death; the task of legislating the rights of the dead in these regards has been given to the Member States, which results in quite a patchwork of rights&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;. This patchwork makes things difficult, because it means your European country can have different laws than another, and companies will have to see how to comply with them all.&lt;/p&gt;
-&lt;p&gt;France, for example, has one of the most developed post-mortem data protection regimes in Europe. The &lt;em&gt;&lt;strong&gt;French Data Protection Act&lt;/strong&gt;&lt;/em&gt; (the &lt;em&gt;Loi Informatique et Libertés&lt;/em&gt;) actively considers death in data protection and explicitly allows a person to give instructions regarding the retention, deletion, and communication of their personal data after death and appoint a person responsible for implementing those instructions. It mandates that controllers must follow the deceased's valid instructions, and heirs can obtain access to data necessary to settle the estate, to identify assets and liabilities, or to close user accounts and manage digital affairs.&lt;/p&gt;
-&lt;p&gt;Germany, on the other hand, is pretty much the opposite: Protection of deceased persons' data arises from a combination of post-mortem personality rights (postmortales Persönlichkeitsrecht) concluded from civil law and constitutional law, inheritance/succession law, confidentiality obligations and possibly some sector-specific laws. It's a lot more complicated and full of holes for specific types of digital data. I wish we had a law like France has!&lt;/p&gt;
-&lt;p&gt;Regardless of when we might have a European law harmonizing this aspect across Member States, it's still important to ask yourself: &lt;mark&gt;Who is allowed to have access to your accounts and data after you pass?&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;You might still want to give your younger sibling access to your Steam account later, or you need your spouse to be able to log in and keep a personal website up and running, or save pictures from the cloud. For this, you should make sure that the correct people can have access to your accounts in case of death, and know what to do with them.&lt;/p&gt;
-&lt;p&gt;How you do that is up to you: You might set up something that automatically notifies them about how to access your accounts in times of death when you don't check in for a while, or you tell them a physical location where they can find the device passwords and the Master password to your password manager. I personally mention it in my &lt;a href='https://avas.bearblog.dev/when-i-die'&gt;when i die&lt;/a&gt; page. Remember to keep this information updated!&lt;/p&gt;
-&lt;p&gt;Some companies and services, like Apple, Google and Meta, offer settings about what should happen after your death (usually called Digital Legacy tools, Inactive Account preferences, or Memorialization). You're able to set a successor/manager, deletion preferences and more, depending on the service. You have to dig a little in the settings, but if you're reading this right now, I encourage you to go find it. Good to know: Despite setting someone as a legacy contact, these companies might still request additional documents to prove that you really died.&lt;/p&gt;
-&lt;p&gt;On the other hand, it's also okay to want things to be deleted, either by family members, or automatically by the platform itself. At CPDP 2026, I participated in a workshop about digital remains, and my discussion partner said that her Instagram feels so personal that it should be deleted upon her death, but something like a LinkedIn she'd keep up.&lt;/p&gt;
-&lt;p&gt;So decide for yourself: &lt;mark&gt;What accounts do you want deleted, which ones can remain up/dormant?&lt;/mark&gt; You should communicate this clearly in a way the people tasked with your digital legacy can see it, and talk to these people about it beforehand, if possible, or set it up in the settings. If you want to keep data up, &lt;mark&gt;is there a maximum retention period you want to set so that the data would be deleted afterwards?&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;As a next step, you have to think about the future. The world will move on without you, and even right now as you are reading this, we are building tech that promises to bring people "back to life" via AI. Even just a decade ago, you likely couldn't have foreseen where we are at the moment with tech being trained to impersonate you. So where will we be decades down the line? That may require the restraints you set in a will to be more on the tech-agnostic side instead of just banning very specific processes and products.&lt;/p&gt;
-&lt;p&gt;This is not just about the recent &lt;a href='https://futurism.com/future-society/meta-patented-ai-die-keeps-posting'&gt;Meta AI&lt;/a&gt; thing; there are several companies in this space, as it looks to be a profitable new market niche: &lt;em&gt;&lt;strong&gt;Bereavement tech&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;So, &lt;mark&gt;how do you want your data to be processed? Do you want tech to be trained on it?&lt;/mark&gt; Do you allow the platform, or your relatives, to train AI on your accounts and other data and media they have on you? Your account might keep posting for you as if you were still alive, generate selfies or videos with your likeness, or it will respond to messages people send to it so they can keep chatting with "you".&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Side note&lt;/strong&gt;&lt;/em&gt;: &lt;em&gt;Does this truly help the grieving process? I guess we'll have to find out. A physical removal of items, telephone numbers going out of business, and a burial help saying goodbye and accept the finality of it all. Yet social media accounts can exist visually unchanged for years afterward, as the platform may nudge you to message them, reminds you of their birthday, or shows memories from a couple years ago out of nowhere on your feed. If we soon have the option to have people posting as if nothing happened to them, they stay stuck how they were when they died forever. If you never have to deal with the deafening silence from the other party, do you ever really have to grapple with death? And will the person die a second time for you when they stop offering the model? Maybe that's something you wanna blog your thoughts about :)&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It doesn't have to be so personal and focused on social media platforms as well. &lt;mark&gt;How about archives? Museums?&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;You might laugh at the idea, but most stuff in museums is by ordinary people; we might not even know their name. Some people become famous after their death and their possessions and likeness are displayed for people to learn about them (for example: Anne Frank). We get great insights from the things they left behind that they thought no one would read, and if we're honest, likely wouldn't have consented to be out there. This will increasingly happen with digital means. How okay are you with a holo-you or virtual avatar greeting people in a museum?&lt;/p&gt;
-&lt;p&gt;You might not care about any of this at all - if you're dead, then what does privacy and the data matter? It's not like it can still affect you! And that's fair. The views on this can be pretty diverse. Others see the digital remains as a digital version/informational "body" that should also be untouchable and remain undisturbed, and that there should be a general right not to "become a bot".&lt;/p&gt;
-&lt;p&gt;Reading papers and studies about this topic is interesting, because it seems if you belong to the current older generations, you are more in favor of deleting it all, while the younger generations want to keep it up&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;. This makes sense: They might have way more online friends they'd wanna keep this up for. Women seem more in favor to deleting everything than men are&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;, which I can totally see; women tend to make a lot of negative experiences online that center the loss of control over their data and misuse of it. Death, without being able to lock down or delete anything based on developments online seems like the biggest loss of control of all. There are country and cultural differences as well.&lt;/p&gt;
-&lt;p&gt;Unfortunately, unless you control the data (your own Mastodon instance, your self-hosted personal website, etc.), you are reliant on these services to heed your/your loved ones' requests about this. As the big social media companies' business model relies on data harvesting and using existing data for new projects and growth, this might be a hard fight in the future, as they see it as their property. Companies can hold the data hostage because of a lack of laws in your region and no goodwill from their side. There have also been cases already where the companies have refused giving access of a deceased's account to the relatives until &lt;a href='https://www.lto.de/recht/hintergruende/h/bgh-iii-zb-30-20-digitaler-nachlass-erben-bekommen-zugriff-auf-facebook-konto'&gt;a court decided&lt;/a&gt; they had to. How many would just give up?&lt;/p&gt;
-&lt;h2 id=conclusion&gt;conclusion&lt;/h2&gt;&lt;p&gt;For good digital hygiene, we should remember death and make it as easy as possible or sensible for the people we leave behind to get the access they need to manage our stuff how we want them to.&lt;/p&gt;
-&lt;p&gt;Organize your data well (maybe you also want to do some recurring digital version of &lt;a href='https://en.wikipedia.org/wiki/Swedish_death_cleaning'&gt;Swedish Death Cleaning&lt;/a&gt;?), leave instructions, set emergency/legacy access when available, include digital assets in your will, decide how your data is allowed to be used after death, especially around AI replicas. Families should talk about this openly, and relatives and nurses should learn to ask affected parties about these things.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Previous related entry: &lt;a href='https://blog.avas.space/blog-after-death/'&gt;plans for your blog after you die&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href='mailto:avas.space@tuta.com'&gt;Reply via email&lt;/a&gt;&lt;br /&gt;
-Published &lt;time datetime="2026-06-15T15:50Z"&gt;
-    15 Jun, 2026
-&lt;/time&gt;&lt;/p&gt;
-&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;France is very invested in this aspect and its data protection authority (CNIL) has made it one of their main points and even wrote a &lt;a href='https://www.cnil.fr/sites/default/files/2025-11/cnil_10th_ip_report.pdf'&gt;paper&lt;/a&gt; on it.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id="fn-2"&gt;&lt;p&gt;The &lt;a href='https://www.cnil.fr/sites/default/files/2025-11/cnil_10th_ip_report.pdf'&gt;CNIL paper&lt;/a&gt; has some study summaries about this on page 15. Generally speaking, another good study to read is &lt;a href='https://www.tandfonline.com/doi/full/10.1080/13576275.2025.2451093#d1e443'&gt;this one&lt;/a&gt;.&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
+    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/householderkarl/jpeg-1.webp#center" alt="why-kafka-v0-ax2zvi6kkech1" /&gt;&lt;/p&gt;
+&lt;p&gt;So much of our existence is paradoxical. The desire for freedom is inherent to human nature, yet we willingly sacrifice it in exchange for meaning. “To love is to suffer,” says poor Boris – a truth known deep in the bones of any married man. With our very first breath, we begin to die.&lt;/p&gt;
+&lt;p&gt;Here I am, on a rainy Saturday morning, wondering if freedom actually exists. Between love and isolation, pleasure and pain, is the semblance of choice merely an illusion? Something to comfort ourselves with on the long road to old age and death?&lt;/p&gt;
+&lt;p&gt;I’m enjoying the thunder and dark skies. Perhaps that’s all there is to it.&lt;/p&gt;
 </content>
-    <link href="https://blog.avas.space/digital-remains/" rel="alternate"/>
-    <published>2026-06-15T15:50:00+00:00</published>
+    <link href="https://householderkarl.com/nothing-to-anyone/" rel="alternate"/>
+    <published>2026-07-11T15:50:00+00:00</published>
   </entry>
   <entry>
-    <id>https://blog.curiousquail.com/spirit-crossings-ai-problem/</id>
-    <title>Spirit Crossing's AI Problem</title>
-    <updated>2026-06-16T17:26:00+00:00</updated>
+    <id>https://sweaterpockets.bearblog.dev/neocities-intimidates-me/</id>
+    <title>Neocities Intimidates Me</title>
+    <updated>2026-07-11T13:43:00+00:00</updated>
     <author>
-      <name>curiousquail</name>
+      <name>sweaterpockets</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;!-- header above --&gt;
-&lt;div style="text-align: justify;"&gt;
-&lt;p&gt;&lt;b&gt;AI "assisted" Code is still generative AI and it's weird how people try to justify that it's not&lt;/b&gt;
-&lt;br&gt;&lt;/p&gt;
-&lt;a href="https://www.dropbox.com/scl/fi/y3q2uy5k5hws0wtnipyhp/goddamnit.png?rlkey=f7521u8h5nxtyeniryx2vjwh9&amp;raw=1" target="new"&gt;
-&lt;img height="1400" width="2100" alt="Screenshot of the character Tanice from Spirit Crossing; she's saying 'Everything measured, packaged, sold'" title=" " src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/goddamnit_web.jpg"&gt;&lt;/a&gt;
-&lt;p&gt;Last week I wrote &lt;a href="https://blog.curiousquail.com/the-utter-joy-of-the-spirit-crossing-playtest/" target="new"&gt;at length&lt;/a&gt; about how much I was enjoying the &lt;em&gt;Spirit Crossing&lt;/em&gt; playtest, a life sim MMO being built by the team that made &lt;em&gt;Cozy Grove&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;One of the first things I did before loading up the game was check to see if the Steam page had an AI use disclosure because in the back of my head, I worried that given the financial status of the studio (TLDR: was indie, got bought by Netflix, bought itself back from Netflix, is now indie again) there might be so called "cost-cutting" measures like AI in use. Obviously I'd hoped not, but that's an ever-present concern; I do this for every game on Steam at this point.&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;Thankfully &lt;b&gt;there were no AI disclosures on the game's Steam page&lt;/b&gt; so I went into it with open eyes and heart and, well, I've gotten trampled on a bit.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h3&gt;Claude, the Wilderness Storm&lt;/h3&gt;
-&lt;div style="text-align: justify;"&gt;
-&lt;p&gt;Yesterday, &lt;strong&gt;Duck AI Slop&lt;/strong&gt;, a sort of watchdog resource for keeping track of AI use &lt;a href="https://bsky.app/profile/duckaislop.bsky.social/post/3moac63zmks2u" target="new"&gt;posted an update&lt;/a&gt; that a Spry Fox employee made a statement in the &lt;em&gt;Spirit Crossing&lt;/em&gt; discord indicating the engineers and designers use Claude:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;b&gt;Chedd&lt;/b&gt;: Hi folks, sorry, I've been AFK with family in town today and only just noticing this AI conversation now, right before I was planning to go to bed! &lt;b&gt;Our designers and engineers are using Claude&lt;/b&gt; to make their lives easier; for example, &lt;b&gt;designers will use Claude to help them make a change they want to make by editing dozens of config files&lt;/b&gt; quickly instead of painstakingly editing each file by hand. We do not use any form of genAI in any way to create content in Spirit Crossing. All the art, music, etc, is 100% human created. And will continue to be. &lt;br&gt;I personally also frequently use AI to research various topics online.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;(Emphasis mine)&lt;/p&gt;
-&lt;p&gt;The second screenshot:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;b&gt;Chedd&lt;/b&gt;: It is a complex and emotionally charged topic, for many very good reasons. I am grateful that many of you care about this. FWIW, when I spun Spry Fox out of Netflix, I chose to pay myself $20k/year and give the majority of the studio's equity to all the other employees because I care deeply about all the other employees. Our very limited usage of AI is the same: I have allowed it to the extent that it helps my studio's employees hopefully be able to maintain decent work life balance and not grind themselves into paste trying to make this big, complicated MMO with our limited indie studio resources.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;b&gt;For context, Chedd is the &lt;em&gt;Spirit Crossing&lt;/em&gt; discord username of Spry Fox co-founder David Edery&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;This message set off a firestorm in the &lt;em&gt;Spirit Crossing&lt;/em&gt; discord, spinning out an entire thread of what is / isn't justified AI use, how because it wasn't art it's "ok", because we live in a society and complaining about this on Claude-coded BlueSky is hypocritical, how other larger companies use AI and aren't held to this standard etc etc.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h3&gt;No it is, or no it isn't?&lt;/h3&gt;
-&lt;div style="text-align: justify;"&gt;
-&lt;p&gt;Then I saw &lt;b&gt;&lt;a href="https://bsky.app/profile/skylarkblue1.itch.io/post/3moajcykwnc2c" target="new"&gt;this post&lt;/b&gt;&lt;/a&gt; from Sky where she shared screenshots from a support ticket she'd opened with Spry Fox (notably &lt;b&gt;before the AI statement&lt;/b&gt; from David) expressing concern about some things in-game that felt potentially generated by AI, and here's the response from Fern, the Spry Fox Community lead:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;b&gt;Sky&lt;/b&gt;: Hey, I don't want to ask this question as an accusation - but I keep seeing the sparkles emoji a fair bit in the game (playing the playtest atm) and in places that don't make too much sense. &lt;b&gt;Does the game use generative Al at all&lt;/b&gt;? I know the sparkles emoji doesn't just mean that, used to love the emoji myself. But seeing it so much in this is putting me on edge a lil&lt;br&gt;&lt;br&gt;
-&lt;b&gt;SpryFern&lt;/b&gt;: hey, thanks for asking, but &lt;b&gt;want to assure you that's not how we come up with the canned expressions / dialogue&lt;/b&gt;. those are all bespoke and put together by the team members working on design and UI (in fact, there's a couple goofy emoji-based ones in there that I've recommended) we really enjoy emoji usage like this for ease of expression - especially for a game that will have a variety of players on both PC and mobile, some finding it harder to type as quickly as others, or some just not quite as talkative. so it's definitely a shame that's how some emojis are associated now because we're a team that enjoys our sparkle emojis and our em dashes. but rest assured, we're adding those sparkles manually and with intent.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;(Again, emphasis mine) Because that wasn't a definitive &lt;em&gt;no&lt;/em&gt; for its use elsewhere, Sky continued:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;b&gt;Sky&lt;/b&gt;: also wanted to ask, you say genAl wasn't used for canned expressions/dialogue, but &lt;b&gt;was it used for anything else?&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;&lt;b&gt; SpryFern: it is not&lt;/b&gt;, just wanted to make sure answered your question directly (and am also deeply multi-tasking on this busy morning, apologies)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;So we have Fern telling someone that Generative AI was not used in the game's development, directly at odds with what the co-founder would say shortly after. There's kind of only three potential takeaways from the above:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Fern  did not know that AI was used by other teams&lt;/li&gt;
-&lt;li&gt;Fern actively lied about AI use&lt;/li&gt;
-&lt;li&gt;Fern and the Spry Fox team somehow did not consider designers and engineers using Claude as "generative AI"&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The first is excusable, and totally possible. I've worked for companies in a support role and answered things I believed were true that turned out were not.&lt;/p&gt;
-&lt;p&gt;The second two though - intentional mislead OR willful ignorance of the AI's impact, man that's a horrible look.&lt;/p&gt;
-&lt;/div&gt;
-&lt;h3&gt;"AI in a field I don't care about is fine, actually"&lt;/h3&gt;
-&lt;div style="text-align: justify;"&gt;
-&lt;p&gt;Right now there's a sort of prevalence of what can only be described as "AI use in my field is abhorrent....but it's ok for use in these other fields I'm not personally invested in" disconnects. We see this with musicians saying "for music it's bad, but it's ok for generating album art", or how game developers proudly say they don't use it for code but are fine with it being used for language translation, etc etc.&lt;/p&gt;
-&lt;p&gt;This obviously extends to "We did not use it for any art or writing" as (paraphrasing) David and Fern said above - but somehow it's totally fine to use for coding? As if coding is not also art? Or intellectual property? And the theft models used to create Claude (speaking of, Anthropic are currently facing a 1.5 BILLION dollar lawsuit for unauthorized ingestion of book authors IP into their Claude models) are totally fine?&lt;/p&gt;
-&lt;p&gt;One of David's points is that Claude is a way to give work-life balance to the engineers at the studio so the company can be financially stable in a time where their financial future &lt;em&gt;is&lt;/em&gt; in doubt. Ultimately, I get that I can say this because I'm not the one who will lose a house if Spry Fox goes under, but it needs to be repeated that myth of AI productivity increases are just that - a &lt;em&gt;myth&lt;/em&gt; and &lt;a href="https://blog.curiousquail.com/the-obvious-end-result-of-ai/" target="new"&gt;we've talked on this very blog about how it results in forever work instead&lt;/a&gt;. There's also the whole "if you can't afford to make this big, complicated MMO without AI, then you really &lt;b&gt;can't&lt;/b&gt; afford to make this big, complicated MMO period" but again, that's a conversation for another day.&lt;/p&gt;
-&lt;p&gt;I had a really pleasant Email exchange with David last week after I'd read &lt;a href="https://spryfox.com/2026/03/27/developer-blog-lets-talk-about-economy-balancing-pt-2/" target="new"&gt;Fern's blog post about the financial roadmap for the game&lt;/a&gt;. Again, because the whole "worker owned small studio, underdog trying to survive after being freed from a corporate owner" thing I legitimately want this company to survive, so I asked their contact form how a fan of the game could financially support them right now while it's not yet for sale. I got a response from David of all people that was surprising and &lt;em&gt;entirely&lt;/em&gt; focused on the well-being of the workers so I can almost see how he gets here: someone says "hey can I use Claude for this task it'll speed me up I think" and then it spirals.&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; But down the road, the token costs will &lt;em&gt;only&lt;/em&gt; go up and the company will end up dependent on this "cost cutting tool" in order to survive until that inevitable bubble bursts.&lt;/p&gt;
-&lt;p&gt;(Why more people don't view AI code as radioactive to their codebase is beyond me but again, I'm meandering a bit)&lt;/p&gt;
-&lt;/div&gt;
-&lt;h3&gt;Where we're at right now?&lt;/h3&gt;
-&lt;div style="text-align: justify;"&gt;
-&lt;p&gt;At this point, David is being &lt;em&gt;incredibly normal&lt;/em&gt; over being asked to place an AI disclosure on Steam:&lt;/p&gt;
-&lt;a href="https://discord.com/channels/1164061746756071435/1515753645155680326/1516175235123253340" target="new"&gt;
-&lt;img height="1400" width="2100" alt="Our usage of Al isn't actually required by Valve to be disclosed, but that doesn't matter, I could absolutely disclose. The thing you should understand is that many people who see that disclosure will not dig into it. They will just instantly skip the game. They won't ever know how limited our usage is, or how hard we've worked to make a thing that is good for the world. They will just see a genAl warning and they will skip the game" title=" " src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/discord_02.jpg"&gt;&lt;/a&gt;
-&lt;p&gt;Denying anyone at the company said they didn't use AI:&lt;/p&gt;
-&lt;a href="https://discord.com/channels/1164061746756071435/1515753645155680326/1516173722749505547" target="new"&gt;
-&lt;img height="1400" width="2100" alt="I fully acknowledge that some folks feel misled, and I'm so sorry about that. Nobody from Spry Fox ever said something false about Al, but I wish I could go back in time and catch those moments when other people said 'no genAl whatsoever' on our behalf. I wasn't paying enough attention to Discord and that's on me." title=" " src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/discord_03.jpg"&gt;&lt;/a&gt;
-&lt;small&gt;&lt;i&gt;It's possible Fern is not an employee but c'mon&lt;/i&gt;&lt;/small&gt;
-&lt;p&gt;Doubling down on the "we are making something too big without Netflix funds, we had to do this" which, again, is an indication the project should have been shelved until proceeds from the &lt;em&gt;Cozy Grove&lt;/em&gt; sequel came in:&lt;/p&gt;
-&lt;a href="https://discord.com/channels/1164061746756071435/1515753645155680326/1516173555706892529" target="new"&gt;
-&lt;img height="1400" width="2100" alt=" " title=" " src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/discord_01.jpg"&gt;&lt;/a&gt;
-&lt;p&gt;And trying to appeal to people's humanity as if this wasn't entirely a self-own&lt;/p&gt;
-&lt;a href="https://discord.com/channels/1164061746756071435/1515753645155680326/1516176705939701880" target="new"&gt;
-&lt;img height="1400" width="2100" alt="And now, if I'm being honest, I am scared that everything we've sacrificed for has been for nothing. We have been torn to shreds online. People have asked influencers to abandon our game. I don't know how to recover from this. I have been struggling with a deep depression over the whole thing." title=" " src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/discord_04.jpg"&gt;&lt;/a&gt;
-&lt;p&gt;Anyway, I feel for the employees at Spry Fox. I feel for all the artists and writers or anyone else who never touched AI during development and maybe had no idea this was happening. I feel for everyone who worries the company may shut down and don't know how the paychecks are gonna keep coming in. But man.&lt;sup class="footnote-ref" id="fnref-3"&gt;&lt;a href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;This is actively being handled &lt;em&gt;beyond poorly&lt;/em&gt; and I gotta be done with the game unless they can walk this back and do some work to rebuild confidence, which is a shame because I do think they had something special here.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Anyway, thanks for reading. Here's your end of post cat. Her name is Selmers.&lt;/p&gt;
-&lt;a href="https://www.dropbox.com/scl/fi/z86tgjsgbjkuzhv1zptqy/MK3_6680.jpg?rlkey=fze8zg7ijklhoznix33q2z4vq&amp;raw=1" target="new"&gt;
-&lt;img height="1400" width="2100" alt="Photo of a tortie cat staring intently at the camera" title="SELMERS" src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/mk3_6680_web.jpg"&gt;&lt;/a&gt;
-&lt;!-- bubbles below --&gt;
-&lt;div class="bubbles-vote"&gt;&lt;/div&gt;
-&lt;script src="https://bubbles.town/vote.js" defer&gt;&lt;/script&gt;
-&lt;hr&gt;
-&lt;/div&gt; 
-&lt;!-- comment box and footer below --&gt;
-&lt;script defer src="https://comments.friendsofeggbug.org/comentario.js"&gt;&lt;/script&gt;
-&lt;p&gt;&lt;comentario-comments&gt;&lt;/comentario-comments&gt;&lt;/p&gt;
-&lt;p&gt;&lt;octo-thorpe&gt;video-games&lt;/octo-thorpe&gt;&lt;br&gt;
-&lt;octo-thorpe&gt;spirit-crossing&lt;/octo-thorpe&gt;&lt;br&gt;&lt;/p&gt;
-&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;Real quick for anyone reading this who is new here or doesn't know me:  I'm an incredibly staunch, line-in-the-sand person for AI use. Call me an "anti" or fucken whatever, but &lt;b&gt;generative AI as we know it is a cognitive decline-inducing plagiarism machine that cooks the environment solely to deepen the pockets of people who keep saying BONKERS shit like "we made this model that's too dangerous to release" and want to not be treated like threats to humanity&lt;/b&gt;.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id="fn-2"&gt;&lt;p&gt;Though it's not encouraging David saying he uses Claude all the time for research. Red fucking flag.&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id="fn-3"&gt;&lt;p&gt;So called "Wholesome Games" &lt;em&gt;really&lt;/em&gt; not beating the allegations of having ill shit going on either behind the scenes or under the surface of the games&lt;a href="#fnref-3" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
+    <content type="html">&lt;p&gt;I’m going to be honest, one of the reasons why I joined Bear is because I’m not quite ready to develop my own site from scratch. I’m not knowledgeable about HTML and CCS. That would be a big task to take on. Who knows, maybe someday I’ll finally sit down and learn to create one. I have seen plenty of sites other people have made, lots of them are very vivid and interactive! I imagine my site would be more simple, minimalistic you know? I tend to gravitate towards cleaner designs. I guess that’s why I like the default Bear theme so much!&lt;/p&gt;
+&lt;p&gt;Making my own website is something to consider—since the internet is becoming more confusing/difficult for artists. Developing a place made for myself doesn’t sound like a bad idea. I’m aware of the age verification laws, the feeding of everything to the generative AI machine, it’s all very exhausting. I couldn’t imagine myself settling for any trendy sites anymore (X, TikTok, etc). Maybe avoiding them is for the best. I’m getting too old for all that online drama anyway. Most of us probably already know how harmful algorithms can be. The art community has expressed disappointment towards Instagram more often within the last couple years. Understandably so, I deleted my account ages ago.&lt;/p&gt;
+&lt;p&gt;Neocities will be my &lt;em&gt;“break glass in case of emergency”&lt;/em&gt; option. It’s always good to make plans in advance. Now to end on a positive note, I’m going to link a few of my favorite sites here!&lt;/p&gt;
+&lt;p&gt;♡ &lt;a href='https://sugarblush.neocities.org/' target='_blank'&gt;sugarblush&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;♡ &lt;a href='https://sealdeer.neocities.org/' target='_blank'&gt;sealdeer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;♡ &lt;a href='https://wondermap.neocities.org/kirby/main' target='_blank'&gt;wondermap&lt;/a&gt;&lt;/p&gt;
 </content>
-    <link href="https://blog.curiousquail.com/spirit-crossings-ai-problem/" rel="alternate"/>
-    <published>2026-06-16T17:26:00+00:00</published>
+    <link href="https://sweaterpockets.bearblog.dev/neocities-intimidates-me/" rel="alternate"/>
+    <published>2026-07-11T13:43:00+00:00</published>
   </entry>
   <entry>
-    <id>https://blog.lauramichet.com/pictures-i-took-commuting-this-week/</id>
-    <title>Pictures I took commuting this week</title>
-    <updated>2026-06-19T05:56:00+00:00</updated>
+    <id>https://blog.lauramichet.com/the-tab-ive-had-opened-longest-in-my-browser/</id>
+    <title>The tab I've had opened longest in my browser</title>
+    <updated>2026-07-13T05:48:00+00:00</updated>
     <author>
       <name>lauram</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;I like these pictures.&lt;/p&gt;
-&lt;p&gt;Construction at Expo/Budy:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/lauram/june-bundy-streetscape.webp" alt="June Bundy Streetscape" /&gt;&lt;/p&gt;
-&lt;p&gt;A new scooter company with newly anthropomorphized scooter undercarriages:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/lauram/june-help-scooters-color_smaller.webp" alt="June Help Scooters Color_smaller" /&gt;&lt;/p&gt;
-&lt;p&gt;Mexico World Cup fans on the escalator at 7th Street Metro Center:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/lauram/june-mexico-fans-escalator.webp" alt="June Mexico Fans Escalator" /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;I was introduced to &lt;a href='http://fruitsticker.de/4images/'&gt;fruitsticker.de&lt;/a&gt; through &lt;a href='https://theworksofegan.net/posts/2025-02-22-what-else-is-on-february-22nd-2025/'&gt;Mike Egan&lt;/a&gt; a very long time ago - February of 2025, I think - and it's been an open tab in my browser since then for reasons not even I can fully explain.&lt;/p&gt;
+&lt;p&gt;This website catalogs fruit sticker scans from all over the world. All these stickers seem to belong to a guy called Angelo. It has a sticker exchange community and can be browsed in 31 different languages. Any time you want, day or night, you can just go on here and see any one of 65883 unique fruit stickers from 116 different countries, 47 different fruit categories, and 31 different vegetables. There are loads of stickers here for fruits I have never even eaten, like &lt;a href='http://fruitsticker.de/4images/categories.php?cat_id=60&amp;l=english'&gt;horned melons&lt;/a&gt; and &lt;a href='http://fruitsticker.de/4images/categories.php?cat_id=95&amp;l=english'&gt;atemoyas.&lt;/a&gt; There are eight different &lt;a href='http://fruitsticker.de/4images/categories.php?cat_id=107&amp;l=english'&gt;durian stickers&lt;/a&gt; and only one &lt;a href='http://fruitsticker.de/4images/categories.php?cat_id=114&amp;l=english'&gt;rambutan sticker.&lt;/a&gt; I recommend checking out &lt;a href='http://fruitsticker.de/4images/matrix.php?l=english'&gt;the giant grid&lt;/a&gt; of fruit types plotted against countries. It's so weird and cool that this exists!&lt;/p&gt;
+&lt;p&gt;There is also a &lt;a href='http://fruitsticker.de/4images/plu.php?l=english'&gt;PLU explorer&lt;/a&gt; here which allows you to take any fruit sticker with a number on it and figure out what kind of fruit it came from. Since I don't collect fruit stickers, I've never had the experience of finding a lone sticker without the fruit... but I can imagine the use case for a collector!&lt;/p&gt;
+&lt;p&gt;The site &lt;a href='http://fruitsticker.de/4images/statistik.php?l=english'&gt;hasn't been updated since 2016&lt;/a&gt; and hasn't had a news post since 2017. I really wish I knew why! I wonder how many people on &lt;a href='http://fruitsticker.de/4images/partner.php?l=english'&gt;the page of sticker traders&lt;/a&gt; still trade fruit stickers? I love looking at &lt;a href='http://fruitsticker.de/4images/guestbook_2.php?l=english'&gt;the guestbook page,&lt;/a&gt; which does contain some proof that the operator continues to check the site. He's responded to some of 2025 and 2026 posts!&lt;/p&gt;
+&lt;p&gt;I've had this open on my computer for a long time because I wanted to say something about it but couldn't think of what to say, other than "wow," and "it exists." I have had it open for long enough now - checking it out about once a month, sometimes only for a minute or two - that maybe &lt;em&gt;this&lt;/em&gt; is the story. Here is an ancient, lightweight, highly specific website that you can keep open in your browser as some kind of &lt;em&gt;mental altoid,&lt;/em&gt; looking at it only long enough to give yourself time to say, "wow! it exists!" before moving on. Thank you, fruitsticker.de, for your service to the world!!&lt;/p&gt;
 </content>
-    <link href="https://blog.lauramichet.com/pictures-i-took-commuting-this-week/" rel="alternate"/>
-    <published>2026-06-19T05:56:00+00:00</published>
+    <link href="https://blog.lauramichet.com/the-tab-ive-had-opened-longest-in-my-browser/" rel="alternate"/>
+    <published>2026-07-13T05:48:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://onlinegoddess.net/2026/07/how-i-collect-blog-statistics-respectfully/</id>
+    <title>How I Collect Blog Statistics, Respectfully</title>
+    <updated>2026-07-12T17:15:00+00:00</updated>
+    <author>
+      <name>onlinegoddess</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Ever since I’ve had a website, I’ve been curious to know who is visiting it and what they do while they’re there. Am I posting into an empty space, or is somebody actually reading?&lt;/p&gt;
+&lt;p&gt;I don’t need (or desire) to write about the development and ethics of the analytics industry - we all know what Google is doing with our data. Instead I want to write about collecting data with respect for our readers. Because it is possible.&lt;/p&gt;
+&lt;p&gt;The biggest attraction to me is knowing what parts of my website people are viewing. This is easily done by simply logging the number of hits to a given page. Good old-fashioned raw access website logs can tell you this, though they aren’t always user-friendly and certainly not pretty&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Critically, I don’t need to know &lt;em&gt;who&lt;/em&gt; is viewing the page.&lt;/p&gt;
+&lt;p&gt;Other useful stats can still be collected ethically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Referrers - very useful for knowing how people are finding your site.&lt;/li&gt;
+&lt;li&gt;Devices and Screen Resolutions - to help ensure your site design fits your audience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And then there is data that simply satisfies curiosity, but can be a breach of privacy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Location - always fascinating to know where readers come from, but not a necessary statistic and many people are understandably sensitive to this being collected.&lt;/li&gt;
+&lt;li&gt;Personally Identifiable Information (PII) - any data that has potential to reveal the identity of an individual. Could be their IP address, a username or email for example. Definitely not cool to collect this info!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To me, collecting data should have two simple outcomes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To give my audience the best experience viewing my website.&lt;/li&gt;
+&lt;li&gt;To build a picture of &lt;em&gt;how&lt;/em&gt; people arrive at, and view my website, not &lt;em&gt;who&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In addition to keeping things this simple, it’s important to ensure any data collected is kept somewhere safe. At this time, with GDPR being one of the most stringent forms of privacy legislation, most ethical analytics services are based in the EU or at least host their data there.&lt;/p&gt;
+&lt;p&gt;In my early days of running websites, I was blissfully unaware of the reasons companies like Google offered their services for free. In 2010, I switched to a paid service called Clicky, which did much the same thing but was more privacy-focussed. However, it does have some features which called that into question, like the ability to spy on users in real time (&lt;a href='https://clicky.com/stats/spy?site_id=32020&amp;date=last-7-days' target='_blank'&gt;it is literally called Spy!&lt;/a&gt;) and it does collect IP addresses.&lt;/p&gt;
+&lt;p&gt;For the last couple of years, I’ve been using a German-based service called &lt;a href='https://pirsch.io' target='_blank'&gt;Pirsch&lt;/a&gt;. which I chose because it’s more feature-rich than others at the same price-point. I also use it for work and it’s been especially useful there, even helping identify issues that could have prevented my customers from purchasing anything or logging in. But I was also impressed but Pirsch’s attitude to privacy, complying not just with GDPR, but a whole host of other strict laws.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pirsch gives you the website insights you need — page views, referrers, campaigns, and more — without cookies, without consent banners, and without ever touching your visitors’ personal data. Fully compliant with GDPR, CCPA, PECR, and Schrems II, and built and hosted entirely in Germany under strict European privacy law.&lt;/p&gt;
+&lt;p&gt;Full privacy statement can be found &lt;a href='https://pirsch.io/privacy-friendly-analytics' target='_blank'&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It pays to do a bit of research into analytics companies because buzzwords like EU-hosted and privacy-friendly don’t necessarily guarantee they can keep visitor data compliant with strict EU standards.&lt;/p&gt;
+&lt;p&gt;Some services will offer you fancy extras, like having custom domains for your dashboard, the ability to theme it, or API access to track very specific activity. For bloggers, this is definitely overkill, but I will admit I like to theme my dashboard!&lt;/p&gt;
+&lt;p&gt;I do have session-tracking in my setup. This shows the path a visitor took and information such as referrer, location and device info. Each session has a unique ID which expires after 24 hours. If the same person returns after that time, they are treated as a new visitor. Here’s an example:&lt;/p&gt;
+&lt;picture&gt;
+&lt;source srcset="https://bear-images.sfo2.cdn.digitaloceanspaces.com/onlinegoddess/35-1.webp" media="(prefers-color-scheme: dark)"&gt;
+&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/onlinegoddess/00-1.webp"&gt;
+&lt;/picture&gt;
+&lt;p&gt;I haven’t the faintest idea who this person is - is it their first visit or their 20th? I’m very happy to know they read my &lt;a href='https://onlinegoddess.net/facts-about-me/'&gt;facts&lt;/a&gt; page though!&lt;/p&gt;
+&lt;p&gt;Analytics services don’t catch every visitor and there’s nothing you can do about that. If someone has JavaScript disabled, the Do Not Track option enabled, or 3rd party script blocking, they won’t be seen. Same goes with anyone using your RSS feed&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt;. So you have to accept that the data you collect will not be representative of everyone that visits your site, but it’s still plenty enough to tell you what you need to know.&lt;/p&gt;
+&lt;p&gt;This was more of a deep-dive than I intended, but hope it has given some food for thought. With a little care, website owners can collect useful information that doesn’t invade visitor privacy.&lt;/p&gt;
+&lt;p&gt;And if you want to know exactly what I see, &lt;a href='https://onlinegoddess.pirsch.io/?domain=onlinegoddess.net&amp;interval=30d&amp;scale=day' target='_blank'&gt;my Pirsch dashboard is publicly visible&lt;/a&gt;, so feel free to go on over and have a nose around.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;Bear’s built-in analytics reminds of these logs. Very basic logging of specific statistics with no linking to individual users.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-2"&gt;&lt;p&gt;Those aforementioned raw server logs DO catch every visitor because they don’t use any scripts. Some analytics services will let you setup a custom domain, which fools browsers into thinking it’s not a 3rd party script and therefore logs more visitors. But still never 100%.&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://onlinegoddess.net/2026/07/how-i-collect-blog-statistics-respectfully/" rel="alternate"/>
+    <published>2026-07-12T17:15:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://untangled.bearblog.dev/indie-video-rental/</id>
+    <title>Re: Revival of Independent Physical Video Rental Shops</title>
+    <updated>2026-07-11T13:50:00+00:00</updated>
+    <author>
+      <name>untangled</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Thanks to Paul from &lt;a href='https://defiantsloth.com/2026/07/10/i-hope-other-cities-are.html' target='_blank'&gt;Defiant Sloth&lt;/a&gt; for bringing two more video rental shops to my attention—I literally just learned about The Video Shop Mpls yesterday.&lt;/p&gt;
+&lt;p&gt;And thanks to Robert Birming for encouraging the &lt;a href='https://robertbirming.com/julyreply/' target='_blank'&gt;JulyReply&lt;/a&gt; challenge.&lt;/p&gt;
+&lt;p&gt;—&lt;/p&gt;
+&lt;p&gt;My husband was laid off from his job eight months ago.  Money started to get tight. Non-essential items, starting with streaming services, were getting cut from the budget.&lt;/p&gt;
+&lt;p&gt;We don’t watch a lot of TV to begin with, but we enjoy our Friday night ritual of baking a frozen pizza and a watching a movie with the kids. We pick out our shows intentionally and watch a handful at a time. But without streaming services (and without a blu-ray/dvd player) we didn’t have a ton of options.&lt;/p&gt;
+&lt;p&gt;We were lucky: we were gifted a pre-owned blu-ray player around the holidays. We borrowed dvd collections from friends and family. I started attending estate sales, perusing personal collections and picking  out old favorites at $1/piece. We were starting completely from scratch, since we switched to a fully digital library in 2013. But because of our little community, our collection slowly started to grow.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/untangled/img_4244.webp" alt="Estate sales are are underrated." /&gt;
+&lt;em&gt;Above: the first estate sale I visited had a huge collection to choose from. I think I paid $30 and brought home 30 movies and 10 box sets of shows.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Our collection isn’t big, but it’s good for now. We still stream once in a while, but only have one service at a time (right now we’re watching most of the Apple TV+ catalog).&lt;/p&gt;
+&lt;p&gt;I think people are really craving ownership—I know I am. &lt;a href='https://untangled.bearblog.dev/ownership/' target='_blank'&gt;I’ve talked about this before.&lt;/a&gt; People are tired of buying digital movies and games, only to have them &lt;a href='https://www.cbr.com/playstation-deletes-purchased-movies-studio-canal/' target='_blank'&gt;disappear&lt;/a&gt;. Sick of paying the ever-rising cost of streaming services, only to face licensing changes. Endeavors like &lt;a href='https://www.instagram.com/sloppy.discs/?hl=en' target='_blank'&gt;Sloppy Discs&lt;/a&gt;, &lt;a href='https://www.instagram.com/saturnvideo.cafe/' target='_blank'&gt;Saturn Video&lt;/a&gt;, and &lt;a href='https://www.thevideostorempls.org/' target='_blank'&gt;The Video Store MPLS&lt;/a&gt; are only just the start.&lt;/p&gt;
+&lt;p&gt;It’s really encouraging to see a growing interest not only in physical media and ownership, but also in &lt;a href='https://courier.unesco.org/en/articles/third-places-true-citizen-spaces' target='_blank'&gt;third places&lt;/a&gt;, places to go that aren’t home or work. Libraries, parks, cafes, gathering spaces where we connect with our community. It’s never been more important.&lt;/p&gt;
+&lt;p&gt;Are you seeing a trend in video rentals in your area? What’s your favorite movie in your collection?&lt;/p&gt;
+&lt;div class="reply-email"&gt;
+  &lt;a href="mailto:amandauntangled@proton.me?subject=Re:%20Re: Revival of Independent Physical Video Rental Shops"&gt;Reply via email&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="bubbles-vote" data-format="emoji"&gt;&lt;/div&gt;
+&lt;script src="https://bubbles.town/vote.js" defer&gt;&lt;/script&gt;
+</content>
+    <link href="https://untangled.bearblog.dev/indie-video-rental/" rel="alternate"/>
+    <published>2026-07-11T13:50:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.lauramichet.com/im-allowed-a-moment-of-navelgazing-nostalgia/</id>
+    <title>I'm allowed a moment of navelgazing nostalgia</title>
+    <updated>2026-07-15T00:30:00+00:00</updated>
+    <author>
+      <name>lauram</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I looked at bluesky briefly today and immediately saw &lt;a href='https://bsky.app/profile/michaelklamerus.bsky.social/post/3mqnev2zma225'&gt;Michael Klamerus's reminder&lt;/a&gt; about &lt;a href='https://www.newgrounds.com/portal/view/540127'&gt;Don't Shit Your Pants,&lt;/a&gt; a Newgrounds game that was wildly popular for a little while during my senior year in college.&lt;/p&gt;
+&lt;p&gt;If you've never played it, I recommend giving it a try now.&lt;/p&gt;
+&lt;p&gt;It was super weird to spend some time today playing a game I hadn't touched for sixteen years. This led, of course, to me spending even more time just sitting around and remembering the webgame world of yesteryear. There was this super-brief period of time where it seemed like stuff like Don't Shit Your Pants or &lt;a href='https://www.foddy.net/legacy/Athletics.html'&gt;QWOP&lt;/a&gt; or &lt;a href='https://en.wikipedia.org/wiki/Robot_Unicorn_Attack'&gt;Robot Unicorn Attack&lt;/a&gt; were as well-known culturally as your average indie film. I spent something like an hour a day on Kongregate. To me, "indie games" was at least partially synonymous with "web games." Addictinggames.com was how I got into indie games in the first place.&lt;/p&gt;
+&lt;p&gt;I don't think it's necesarrily great for us to all sit around constantly thinking about our various cultural losses or societal ills. However, I do think that &lt;i&gt;I&lt;/i&gt; need to spend more time reminding &lt;i&gt;myself&lt;/i&gt; that this entire vector of youth creativity got fucking scoured off the face of the earth by flash shutting down/smartphones. Because it's kind of the scene I &lt;em&gt;grew up&lt;/em&gt; in. It's weird that I rarely think about it anymore.&lt;/p&gt;
+&lt;p&gt;I do subscribe to &lt;a href='https://museumofscreens.wordpress.com/'&gt;Museum of Screens&lt;/a&gt; in my RSS reader... but because I often read my RSS subscriptions on my dumbass phone, I don't often play the PC web browser-oriented games this blog tends to cover. I am a fool!! It's a great project and I should play more of the games it covers.&lt;/p&gt;
+&lt;p&gt;Anyway, yes, like Michael says, a AAA adaptation of Don't Shit Your Pants would be extremely funny. Can't say I support anyone doing it, but yeah, that would get a chuckle out of me...&lt;/p&gt;
+</content>
+    <link href="https://blog.lauramichet.com/im-allowed-a-moment-of-navelgazing-nostalgia/" rel="alternate"/>
+    <published>2026-07-15T00:30:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://binarydigit.net/the-paused-web/</id>
+    <title>The Paused Web</title>
+    <updated>2026-07-11T04:09:00+00:00</updated>
+    <author>
+      <name>binarydigit</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;For ages now I've been having guilt about not blogging "enough". I know there's no such thing as enough, but I still feel it, and I'm kind of tired of it. I posted about what fun I had making my &lt;a href='https://binarydigit.neocities.org/'&gt;Neocities&lt;/a&gt; page, and it dawned on me that I might just need a home on the internet to have fun and have static content that I update now and again, rather than trying to make it dynamic by updating it twice a month and feeling bad about it.&lt;/p&gt;
+&lt;blockquote class="mastodon-embed" data-embed-url="https://social.lol/@binarydigit/116896604340336103/embed" style="background: #FCF8FF; border-radius: 8px; border: 1px solid #C9C4DA; margin: 0; max-width: 540px; min-width: 270px; overflow: hidden; padding: 0;"&gt; &lt;a href="https://social.lol/@binarydigit/116896604340336103" target="_blank" style="align-items: center; color: #1C1A25; display: flex; flex-direction: column; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif; font-size: 14px; justify-content: center; letter-spacing: 0.25px; line-height: 20px; padding: 24px; text-decoration: none;"&gt; &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 79 75"&gt;&lt;path d="M63 45.3v-20c0-4.1-1-7.3-3.2-9.7-2.1-2.4-5-3.7-8.5-3.7-4.1 0-7.2 1.6-9.3 4.7l-2 3.3-2-3.3c-2-3.1-5.1-4.7-9.2-4.7-3.5 0-6.4 1.3-8.6 3.7-2.1 2.4-3.1 5.6-3.1 9.7v20h8V25.9c0-4.1 1.7-6.2 5.2-6.2 3.8 0 5.8 2.5 5.8 7.4V37.7H44V27.1c0-4.9 1.9-7.4 5.8-7.4 3.5 0 5.2 2.1 5.2 6.2V45.3h8ZM74.7 16.6c.6 6 .1 15.7.1 17.3 0 .5-.1 4.8-.1 5.3-.7 11.5-8 16-15.6 17.5-.1 0-.2 0-.3 0-4.9 1-10 1.2-14.9 1.4-1.2 0-2.4 0-3.6 0-4.8 0-9.7-.6-14.4-1.7-.1 0-.1 0-.1 0s-.1 0-.1 0 0 .1 0 .1 0 0 0 0c.1 1.6.4 3.1 1 4.5.6 1.7 2.9 5.7 11.4 5.7 5 0 9.9-.6 14.8-1.7 0 0 0 0 0 0 .1 0 .1 0 .1 0 0 .1 0 .1 0 .1.1 0 .1 0 .1.1v5.6s0 .1-.1.1c0 0 0 0 0 .1-1.6 1.1-3.7 1.7-5.6 2.3-.8.3-1.6.5-2.4.7-7.5 1.7-15.4 1.3-22.7-1.2-6.8-2.4-13.8-8.2-15.5-15.2-.9-3.8-1.6-7.6-1.9-11.5-.6-5.8-.6-11.7-.8-17.5C3.9 24.5 4 20 4.9 16 6.7 7.9 14.1 2.2 22.3 1c1.4-.2 4.1-1 16.5-1h.1C51.4 0 56.7.8 58.1 1c8.4 1.2 15.5 7.5 16.6 15.6Z" fill="currentColor"/&gt;&lt;/svg&gt; &lt;div style="color: #787588; margin-top: 16px;"&gt;Post by @binarydigit@social.lol&lt;/div&gt; &lt;div style="font-weight: 500;"&gt;View on Mastodon&lt;/div&gt; &lt;/a&gt; &lt;/blockquote&gt; &lt;script data-allowed-prefixes="https://social.lol/" async src="https://social.lol/embed.js"&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href='https://social.lol/@hollie@social.coop'&gt;Hollie&lt;/a&gt; and &lt;a href='https://social.lol/@cygnoir'&gt;cygnoir&lt;/a&gt; (Halsted) responded and felt the same, which comforted me. I asked them to join me in my "static webpage journey". Halsted then mentioned it's like the slow food movement, but instead, the "Paused Web", which I loved the name of. I then thought of the idea of creating a webring for it, which would be tons of fun and make us all feel better about not keeping blogs anymore. 😆  I'll still keep my domain, RSS feed, and small updated pieces, but they will be slow, and keep the spirit of the indie web after all. Maybe I can make a sort of "notebook" without date stamps. We'll see.&lt;/p&gt;
+&lt;p&gt;Time for a weekend project!
+.
+.
+.&lt;/p&gt;
+&lt;p&gt;Update: 4 days, 9 hours ago&lt;/p&gt;
+&lt;p&gt;I did it! Thank you @hollie and @cygnoir for the encouragement and idea!  I need a couple of people to test it with if you're willing - Please let me know if you'd like to be added, so I can iron out any issues if any!&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://pausedweb.binarydigit.net'&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/binarydigit/screenshot-1.webp" alt="pausedweb.binarydigit.net" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    <link href="https://binarydigit.net/the-paused-web/" rel="alternate"/>
+    <published>2026-07-11T04:09:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.saiyanshinobi.com/call-doom-scrolling-what-it-is/</id>
+    <title>Let's call doomscrolling what it is</title>
+    <updated>2026-07-10T23:38:00+00:00</updated>
+    <author>
+      <name>saiyanshinobi</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;h2 id=drowning&gt;Drowning.&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;We used to surf the web. Now we're trying not to drown.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I said that this morning to my brother, then realized that's a whole thought iceberg on it's own.&lt;/p&gt;
+&lt;p&gt;Especially since I grew up with the special interests of entrepreneurship, marketing psychology, and sociology. Couple all that with being a full on Millennial Netizen of DeviantArt, Tumblr, Gaiaonline, Newgrounds, Habbo, Runescape, and even cringey IMVU...then you get someone like me wondering why people are classifying meditation as 'rawdogging boredom'.&lt;/p&gt;
+&lt;img src="https://i.ibb.co/q39qnshf/image.png" alt="image" border="0"&gt;
+&lt;p&gt;&lt;a href='https://www.youtube.com/watch?v=zA7dGS3tSdo'&gt;Image screenshot from Spill's "Millions deleted TikTok..."&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Being bored is fun, if you know how to do it.&lt;/p&gt;
+&lt;p&gt;I forgot how to be bored after March 2020 hit my community into COVID lockdown measures that never fully went away socially.&lt;/p&gt;
+&lt;p&gt;I got to watch in real time people creating the coolest shit I've ever seen because a majority of us were all collectively bored at home at the same time. And as soon as lockdowns lifted, it was back to neocities and spacehey for me.&lt;/p&gt;
+&lt;p&gt;Why? It was very noticeable when people stopped posting the wholesome trends born from becoming acutely socially disconnected. Remember when we'd be lucky enough to post 'got ninja'd today' after seeing a friend scurrying away after dropping off a care package?&lt;/p&gt;
+&lt;p&gt;...Trends. When did we start classifying 'being nice to others' as a &lt;em&gt;trend&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;Man I miss the language of the early netizen days; there was &lt;em&gt;always&lt;/em&gt; a sense of exploration. This new language based off how we feel online is such a drag.&lt;/p&gt;
+&lt;p&gt;Think about it for a sec with me, the difference between surfing and drowning in online content:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;Surfing&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You choose where to go.&lt;/li&gt;
+&lt;li&gt;Pages have ends.&lt;/li&gt;
+&lt;li&gt;Sites have personalities.&lt;/li&gt;
+&lt;li&gt;Leaving is normal.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;Drowning&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The feed never ends.&lt;/li&gt;
+&lt;li&gt;Every swipe is another wave.&lt;/li&gt;
+&lt;li&gt;You don't decide what's next.&lt;/li&gt;
+&lt;li&gt;Looking up feels like you're "missing something."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thinking about it around 2015, I know I was happiest as a kid being online, but now it's when I'm most unhappy. What changed? Language.&lt;/p&gt;
+&lt;p&gt;Looking even further back 20  years ago, 2006...internet usage was commonly described as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;surfing&lt;/code&gt; the net started by boarding through a disc to have your PC scream for a few minutes before you signed into Angelfire, or Geocities, or Piczo to check on your little weird corner of the internet. Then it was off for a good round of&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;visiting&lt;/code&gt; your neighbours! Not followers, not customers. Neighbours. Were they down the road or in Zimbabwe? Who knew? Who cared? Did they sign your guestbook or nah? While waiting for someone else to join the chatbox, you'd be in another browser window,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;browsing&lt;/code&gt; a topic! Which topic? Who knew? Google didn't. That's how we ended up always&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;wandering&lt;/code&gt; into a new place. Not another algorithm. If the place was interesting enough, you'd click around and end up&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;digging&lt;/code&gt; into information that made you wonder 'what the heck?' until  you were&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;falling into rabbit holes&lt;/code&gt; for a few hours until suddenly, you're&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hitting an iceberg&lt;/code&gt; of deep lore that you must immediately sink all thoughts and goals for the day and find out what's at the bottom.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Words that all imply curiosity, tell a story of how you 'went online'. You went, then you left. You still can. Why should we want to leave the internet? Because today's modern terms are telling a much different story...&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;doomscrolling&lt;/code&gt; starts first thing in the morning, usually before the first bathroom break of the day, just to check in on bad news updates, the rage-baiting bots farming for page revenue, the &lt;em&gt;ads&lt;/em&gt; between every two posts on all five websites making you forget which app you're on for a second. To avoid the ads, we buy subscriptions to satisfy the urge for daily&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bingeing&lt;/code&gt; on either the latest Netflix series or whatever Youtuber has the best background noises to watch your phone scrolling. All while wondering if your&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;addiction&lt;/code&gt; to the internet is caused by algorithms, or your own lack of tech discipline. But that doesn't last long because Big Al is designed to reclaim our attention by creating looping&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;engagement&lt;/code&gt; with a simple UI switch to stop reaching the end of a page, so the platforms we're engaging on can increase their&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;retention&lt;/code&gt; of your attention, so you're easier to market to if the transaction feels inevitable. If you're the affiliated content creator, that retention matters as much as your&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;personal branding&lt;/code&gt; ...which used to be just unapologetically yourself, consistently. You are the niche platforms commodify on, while your old corners of the net only asked you to be yourself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See it yet? All those words imply compulsory transaction for either attention or money, and expected optimization. Since &lt;em&gt;we are&lt;/em&gt; the internet, it meant our vocabulary as creators changed too.&lt;/p&gt;
+&lt;p&gt;After seeing these patterns emerge from myself, that changed how I use my internet time.&lt;/p&gt;
+&lt;p&gt;The real first step was calling it "internet time" not doomscrolling lol. Stupid simple, because reframing is what will remind you that you can turn any time block into a place to be, not just get through.&lt;/p&gt;
+&lt;p&gt;Nobody building GeoCities pages in 1999 sat around asking, "How do we improve session duration by 18%?" They were asking, "How do I make this cursor sparkle?" or "Why is guestbook not using the scrollbar hex I just put there?" 😄&lt;/p&gt;
+&lt;p&gt;The &lt;a href='https://en.wikipedia.org/wiki/Default_mode_network'&gt;Default Mode Network&lt;/a&gt; thing is no joke people.  Being bored is one of the only times you can truly connect with it, and if your default isn't known, then something else will decide for you what your default will be next. Forever.&lt;/p&gt;
+&lt;p&gt;I'm rambling now, but if you really can't stop short form content consumption for quick dopamine release, learn how to create little things for yourself. Learn how to create that weird art trick you saw doomscrolling. Try out that weird keyboard shortcut on a real keyboard again.&lt;/p&gt;
+&lt;p&gt;I mean, if we're going to waste and rot hours of our days away, it should be redirected into what &lt;em&gt;we&lt;/em&gt; want to see online.&lt;/p&gt;
+&lt;p&gt;That's how my stupid ass channel started: &lt;em&gt;out of boredom&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The internet is the most immediate way you can 'be the change you want to see in the world' and if we're all living digitally anyways, change your digital world.&lt;/p&gt;
+&lt;p&gt;My only social media is Youtube comments, my new blog i built on bearblog, and status cafe for sharing quick updates to no one. turning off the status defaults on all your socials to "me only" when you hit post scratches the itch too.&lt;/p&gt;
+&lt;p&gt;I say this all as a recovering doomscroller who still often bedrots a night away with my dog after a long day. But it's now with a book that left me on a cliffhanger, a habit I thought I lost after gradution.&lt;/p&gt;
+&lt;p&gt;After ignoring all my socials for nearly 7 months now in favour of just building things for myself again...never been mentally sounder since 2020 lockdowns ramped up my doomscrolling.&lt;/p&gt;
+&lt;p&gt;Not saying I have any answers to the mess the internet has left us all in; but maybe there's something to being a loser with too much time on their hands.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div class="comments-box"&gt;
+  &lt;strong&gt;Comments:&lt;/strong&gt;
+  &lt;p&gt;
+    Have a thought you want to add?
+    Sign the &lt;a href="/resources/#bingo-book"&gt;Bingo Book&lt;/a&gt; 🍃
+  &lt;/p&gt; 
+  &lt;p&gt;
+   Consider getting me a &lt;a href="https://ko-fi.com/saiyanshinobi"&gt;dango 🍡&lt;/a&gt;, or checking out my &lt;a href="https://www.youtube.com/@SaiyanShinobi"&gt;channel&lt;/a&gt; :)
+  &lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.saiyanshinobi.com/call-doom-scrolling-what-it-is/" rel="alternate"/>
+    <published>2026-07-10T23:38:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://musings101.bearblog.dev/enjoying-blogs-with-custom-content-through-rss/</id>
+    <title>Enjoying Blogs with custom content through RSS</title>
+    <updated>2026-07-15T14:14:00+00:00</updated>
+    <author>
+      <name>musings101</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I saw a post today on &lt;a href='http://bubbles.town'&gt;Bubbles&lt;/a&gt; about &lt;a href='https://antoniosantos.io/your-rss-reader-is-robbing-you/'&gt;enjoying sites for the design&lt;/a&gt; and how that can be lost in your RSS Feed Reader. I completely agree and while my site is not one of those I know many blogs that I enjoy for the content as well as the design.&lt;/p&gt;
+&lt;p&gt;I would like to recommend an app for that situation although this is iOS/iPadOS and MacOS only so unfortunately for PC and Android users I don't have an answer, but the app is called &lt;a href='https://www.currentreader.app'&gt;Current&lt;/a&gt; and allows you to control your RSS in so many ways it can be a bit overwhelming at first.&lt;/p&gt;
+&lt;p&gt;The first thing is Current is designed to be viewed as a "river" where you can scroll the posts to the end. Within each feed you can set how long each post will last in your river. Is it a news site and only needs a few hours, an article that might need a day or so, someone you must read every time and it will last until you mark read.&lt;/p&gt;
+&lt;p&gt;Now comes the part I think ties to this post specifically. While troubleshooting a particular RSS feed that wasn't showing posts I found you can have Current show posts in several ways. Fetch whatever the RSS sends even if it's just a preview, Fetch the full content automatically from the blog even if the RSS only sends a preview OR Display every post in Current for this specific feed in the original HTML.&lt;/p&gt;
+&lt;p&gt;So this happened for the blog by &lt;a href='https://grepjason.sh'&gt;Jason&lt;/a&gt; for me and I wasn't getting the content fully delivered, but also his blog is very beautiful to see in the original design. So I updated his blog to "Show Original website" in Current and now the post is viewable immediately in its actual way it was intended.&lt;/p&gt;
+&lt;p&gt;I don't plug for apps very often, but this little addition by &lt;a href='https://www.terrygodier.com'&gt;Terry Godier&lt;/a&gt; the designer of Current gets my full endorsement and makes the app worth the one time payment of $10 for Mac and iOS. Also Terry's blog is very well designed and also gets the "Show Original Website" setting for me as well.&lt;/p&gt;
+</content>
+    <link href="https://musings101.bearblog.dev/enjoying-blogs-with-custom-content-through-rss/" rel="alternate"/>
+    <published>2026-07-15T14:14:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://elmc.at/rootring-months-later/</id>
+    <title>rootring months later</title>
+    <updated>2026-07-11T13:00:00+00:00</updated>
+    <author>
+      <name>elmcat</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;meta name="bsky-post" content="https://bsky.app/profile/elmc.at/post/3mqeqwfrvsc2d"&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/elmcat/rootring-months-later-banner.webp" alt="rootring-months-later-banner" /&gt;&lt;/p&gt;
+&lt;p&gt;Months after its launch, &lt;a href='https://rootr.ing/'&gt;rootring&lt;/a&gt; is still evolving and growing. At the time of writing, 169 blogs have joined the ring. Far more than I ever imagined!&lt;/p&gt;
+&lt;p&gt;A lot has happened since launch, so I'm using this post to go over the biggest changes and additions.&lt;/p&gt;
+&lt;h2 id=search-the-archive&gt;Search the Archive&lt;/h2&gt;&lt;p&gt;This is probably the biggest addition to the original webring idea. When a blog joins the ring, I try to include all of its historical posts, which is something most RSS feeds don't provide by default. That gave me enough data to build a &lt;a href='https://search.rootr.ing/'&gt;search engine&lt;/a&gt; around the archive.&lt;/p&gt;
+&lt;p&gt;It has most of the common features you would expect from a search engine. It's not perfect yet, especially when searching for partial terms, but it gets the job done. It's very easy to lose track of a good post, so hopefully this makes it easier to find one again.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/elmcat/image-1.webp" alt="screenshot of the search feature" /&gt;&lt;/p&gt;
+&lt;div class="img-desc"&gt;&lt;center&gt;Only 719 cat results? We can do better&lt;/center&gt;&lt;/div&gt;
+&lt;h2 id=link-tracking&gt;Link Tracking&lt;/h2&gt;&lt;p&gt;Another major feature is that rootring tracks when posts link to other posts from blogs in the ring. This provides some neat &lt;a href='https://rootr.ing/stats/'&gt;statistics&lt;/a&gt;, but more importantly, it helps with discovery.&lt;/p&gt;
+&lt;p&gt;The &lt;a href='https://rootr.ing/explore'&gt;Explore page&lt;/a&gt; shows posts that have been linked across the ring over different time periods, making it easier to find posts that are being actively discussed or included in link roundups and newsletters. There is also an option to show lightly linked posts that have only received one or two links, which helps keep the page from becoming purely a popularity contest.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/elmcat/image-2.webp" alt="screenshot of explore page" /&gt;&lt;/p&gt;
+&lt;div class="img-desc"&gt;&lt;center&gt;The explore page!&lt;/center&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;a href='https://rootr.ing/latest'&gt;Latest page&lt;/a&gt; also includes a small resurfaced interlude. It highlights an older post that was recently linked by a newer post in the ring. It's a small addition, but it means discovery isn't limited entirely to whatever was published most recently.&lt;/p&gt;
+&lt;h2 id=blog-identities&gt;Blog Identities&lt;/h2&gt;&lt;p&gt;The &lt;a href='https://rootr.ing/brickwall/'&gt;brickwall&lt;/a&gt; has been there since the beginning, but it was previously somewhat hidden inside the directory. It now appears on the homepage and is much easier to discover. I'm very happy that so many blogs are participating. The wall keeps growing with wonderfully designed little 88x31 buttons.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/elmcat/image-3.webp" alt="screenshot of the brick wall" /&gt;&lt;/p&gt;
+&lt;div class="img-desc"&gt;&lt;center&gt;Just look at this beautiful wall!&lt;/center&gt;&lt;/div&gt;
+&lt;p&gt;I also redesigned the individual blog pages. They now show more information, better navigation to other blogs in the ring, and support for a small web banner (468x60px!). This gives each blog a little more visual identity. When no banner is provided, rootring generates a simple SVG banner automatically.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/elmcat/image-4.webp" alt="screenshot of blog details page" /&gt;&lt;/p&gt;
+&lt;div class="img-desc"&gt;&lt;center&gt;Don't be shy! Create a banner!&lt;/center&gt;&lt;/div&gt;
+&lt;p&gt;To add or update a brick or banner, you currently need to contact me through email, Discord, or socials. I can update it for you, or give you access to a self-service page. The self-service option requires an email address though.&lt;/p&gt;
+&lt;h2 id=announcements&gt;Announcements&lt;/h2&gt;&lt;p&gt;I decided to deprecate and remove rootring’s announcement feature. The original idea was to use it for blog events such as bandwagons or challenges but in practice it felt awkward and didn't fit naturally with the rest of the site.&lt;/p&gt;
+&lt;p&gt;I may revisit the idea later as a more dedicated service, similar to the separate search site, but don't hold your breath. This is a maybe, if I feel like it situation.&lt;/p&gt;
+&lt;h2 id=consolidated-feed&gt;Consolidated Feed&lt;/h2&gt;&lt;p&gt;The &lt;a href='https://rootr.ing/latest.atom'&gt;feed provided by rootring&lt;/a&gt; has also changed. It is now a consolidated Atom feed containing recent posts from across the ring, including summaries where available.&lt;/p&gt;
+&lt;p&gt;Several people requested this. I had originally assumed most readers would simply subscribe to the individual blogs they liked, but apparently an all-ring feed is useful too. Who am I to argue? I'm not personally following the feed in a reader every day, so if anything looks broken or unusual, please let me know.&lt;/p&gt;
+&lt;h2 id=still-a-webring&gt;Still a Webring&lt;/h2&gt;&lt;p&gt;Rootring is still, first and foremost, a discovery tool. It indexes enough information to help people find, revisit, and follow interesting posts, but the destination should remain the blogs themselves.&lt;/p&gt;
+&lt;p&gt;The goal isn't to replace independent sites with another platform. It is to make those sites easier to move between.&lt;/p&gt;
+&lt;h2 id=future&gt;Future&lt;/h2&gt;&lt;p&gt;Behind the scenes, I'm continuing to expand the admin dashboard so that I can eventually add trusted users as fellow admins or moderators. The ring is growing, and many people seem to enjoy it, so I want to make sure the project doesn't simply live and die with me. Once I'm happy with the moderation tools, I plan to bring a few helpers on board.&lt;/p&gt;
+&lt;p&gt;In the meantime, I'm making daily database backups. You never know.&lt;/p&gt;
+&lt;p&gt;I also plan to make the code open source. At the moment, development happens in a private git repository, and I intend to create a public mirror at some point, although I have been hesitant about using the usual hosting platforms. rootring isn't really designed to be self-hosted or copied as a standalone product, but having the source publicly available still seems valuable as documentation or as a backup.&lt;/p&gt;
+&lt;p&gt;At some point, I would also like to improve the search engine by using a dedicated search library or service instead of relying entirely on postgres full text search. I've also considered allowing blogs to opt into the search index without joining the ring itself. I don't want to simply scrape arbitrary blogs, so the process would remain opt-in. But the more blogs included, the more useful the search engine becomes.&lt;/p&gt;
+&lt;h2 id=join-the-ring&gt;Join the Ring&lt;/h2&gt;&lt;p&gt;The current approval policy is fairly simple: you need to have a blog that's at least somewhat focused on ttrpgs. It doesn't need a high post count, nor does it need to be especially active. It can't, however, be excessively commercial—or run by a shithead, as judged by me and the community.&lt;/p&gt;
+&lt;p&gt;A note to anyone who applied and never heard back: some early applications were affected by email problems, and some included contact methods I couldn't use, such as social accounts with closed DMs. If you are still interested and never received a response, please contact me directly or apply again with a working contact method.&lt;/p&gt;
+&lt;p&gt;Another note to everyone I approved who is still stuck at the adding webring links to your blog stage: this is your gentle reminder! Take your time, though. It's okay. Just let me know once you've added them. If you are stuck or have questions, reach out as well. I can likely provide tech support :)&lt;/p&gt;
+&lt;p&gt;But yea! &lt;a href='https://rootr.ing/apply'&gt;Join the ring&lt;/a&gt;!&lt;/p&gt;
+</content>
+    <link href="https://elmc.at/rootring-months-later/" rel="alternate"/>
+    <published>2026-07-11T13:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rnotte.art/re-quick-and-easy-coverspostersetc-without-genai/</id>
+    <title>RE: quick and easy covers/posters/etc. without genAI</title>
+    <updated>2026-07-10T19:12:11.822312+00:00</updated>
+    <author>
+      <name>rnotte</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href='https://skaetlett.bearblog.dev/quick-easy-posters-without-ai/'&gt;original post by skaetlett.&lt;/a&gt; i read this and i HAD to reply to it, because i'm sick and tired of AI-generated promotional graphics and cover arts, too! well, i'm sick of gen AI in general, but its use in covers/posters/etc. in particular.&lt;/p&gt;
+&lt;p&gt;every time i see such a poster, i think, "come on you cheapskates, are there REALLY no artists in your town that you can work with? you couldn't even just type it out on microsoft word and attach a relevant clip-art? you couldn't just take a photo or video with your phone? are you THAT lazy? well now i'm no longer interested." these AI-generated graphics don't even look good! they're garish and overstimulating, and they hurt my eyes to read. but most importantly, they don't tell me anything about who &lt;em&gt;you&lt;/em&gt; are.&lt;/p&gt;
+&lt;p&gt;it's easy to create these assets when you're strapped for cash, using the methods outlined in skaet's blog post. we've &lt;em&gt;always&lt;/em&gt; been able to do it ourselves without asking chatGPT to do it for us, for years. like, look at this. i made this in realworld paint (a free raster graphics editor) in like 10 minutes:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/rnotte/stupid-poster.webp" alt="stupid poster" /&gt;&lt;/p&gt;
+&lt;p&gt;sorry for the shameless plug, but you see? &lt;strong&gt;it's easy!&lt;/strong&gt; don't make excuses for using the environmentally-destructive plagiarism machine. there's nothing wrong with putting in at least the &lt;em&gt;bare minimum&lt;/em&gt; of effort. skaet's post will help you out. be a human, be silly, be authentic, and be &lt;em&gt;you.&lt;/em&gt;&lt;/p&gt;
+</content>
+    <link href="https://rnotte.art/re-quick-and-easy-coverspostersetc-without-genai/" rel="alternate"/>
+    <published>2026-07-10T19:12:11.822312+00:00</published>
   </entry>
 </feed>

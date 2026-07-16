@@ -223,7 +223,20 @@
   "/posts/2025-12-25-story-of-krisha-and-green-ghost": [],
   "/posts/2025-04-13-public-parks": [],
   "/posts/2025-06-30-capital-museum-rome": [],
-  "/posts/2026-04-17-old-newspaper-like-blog-design": [],
+  "/posts/2026-04-17-old-newspaper-like-blog-design": [
+    {
+      "authorName": "James",
+      "authorUrl": "https://mastodon.social/@nonzerosumjames",
+      "authorPhoto": "https://avatars.webmention.io/files.mastodon.social/ac7c7f4914382838018fe063f4f7d7baa0524e3b8bed760e522f1394b04fc73e.gif",
+      "url": "https://mastodon.social/@sigmarootpi/116510285956746666#favorited-by-110635833467728192",
+      "type": "like-of",
+      "target": "https://blog.rishabhps.com/posts/2026-04-17-old-newspaper-like-blog-design/",
+      "published": "2026-07-16T03:53:51Z",
+      "contentText": "",
+      "title": "Sigmarootpi (@sigmarootpi@mastodon.social)",
+      "siteName": "Mastodon"
+    }
+  ],
   "/posts/2026-02-24-morning-energy-and-techno-feudalism": [],
   "/posts/2025-04-19-repost-punjiwad": [],
   "/posts/2026-02-15-a-sleepless-night-an-awakening-realization": [],
@@ -297,5 +310,24 @@
   "/movies/1768342729703": [],
   "/snap/2025-04-20-polish-castle": [],
   "/books/2026-04-26-book-review-careless-people": [],
-  "/books/2025-07-06-siddhartha": []
+  "/books/2025-07-06-siddhartha": [],
+  "/movies/1782301668609": [],
+  "/posts/2026-07-11-freshrss-vs-my-own-feed-reader-a-fierce-competetion": [],
+  "/movies/1782301211644": [],
+  "/movies/1783928517578": [],
+  "/books/2026-06-26-ghost-hunter-gaurav-tiwari": [
+    {
+      "authorName": "Sigmarootpi",
+      "authorUrl": "https://mastodon.social/@sigmarootpi",
+      "authorPhoto": "https://avatars.webmention.io/files.mastodon.social/129c1de7d384e7a04ce4a01394d18a0360d9fdde39c9925f3e6ad30f47aa662f.png",
+      "url": "https://mastodon.social/@sigmarootpi/116815785256128141#favorited-by-115311770892730280",
+      "type": "like-of",
+      "target": "https://blog.rishabhps.com/books/2026-06-26-ghost-hunter-gaurav-tiwari/",
+      "published": "2026-07-16T04:04:19Z",
+      "contentText": "",
+      "title": "Sigmarootpi (@sigmarootpi@mastodon.social)",
+      "siteName": "Mastodon"
+    }
+  ],
+  "/posts/2026-06-23-re-no-i-dont-want-you-to-summarise-the-page": []
 }

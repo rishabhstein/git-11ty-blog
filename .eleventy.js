@@ -825,9 +825,20 @@ ${tabsMarkup}
     return mdLib;
   });
 
+  // Defer offscreen images so external/heavy images don't hold up page load.
+  eleventyConfig.addTransform("lazyImages", function(content) {
+    if (!this.page.outputPath || !this.page.outputPath.endsWith(".html")) return content;
+
+    return content.replace(/<img\s[^>]*>/g, (tag) => {
+      let updated = tag;
+      if (!/\sloading=/.test(updated)) updated = updated.replace(/^<img/, '<img loading="lazy"');
+      if (!/\sdecoding=/.test(updated)) updated = updated.replace(/^<img/, '<img decoding="async"');
+      return updated;
+    });
+  });
+
   //Just copy these files to _site
   eleventyConfig.addPassthroughCopy('./assets');
-  eleventyConfig.addPassthroughCopy('./src/style.css');
   eleventyConfig.addPassthroughCopy('./src/robots.txt');
   eleventyConfig.addPassthroughCopy({"./src/workout/*.svg": "workout/"});
 

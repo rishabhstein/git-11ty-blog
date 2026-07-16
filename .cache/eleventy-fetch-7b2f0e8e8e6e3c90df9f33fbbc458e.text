@@ -6,13 +6,298 @@
     <link>https://zacharykai.net/</link>
     <description>Notes from the People and Blogs series on zacharykai.net.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2026 03:27:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 22:13:22 +0000</lastBuildDate>
     <atom:link href="https://zacharykai.net/assets/files/feeds/pb.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://zacharykai.net/assets/icon.png</url>
       <title>People and Blogs — Zachary Kai</title>
       <link>https://zacharykai.net/</link>
     </image>
+    <item>
+      <title>People and Blogs: Zachary Kai</title>
+      <link>https://zacharykai.net/notes/pb/zachary</link>
+      <description>People and Blogs is a series founded by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation — the last one Manu conducted before ...</description>
+      <content:encoded><![CDATA[<section class="e-content">
+
+                <!-- Introduction -->
+                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series founded by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation &mdash; the last one Manu conducted before handing the series over &mdash; is with Zachary Kai, who now runs it. Do go visit <a href="https://zacharykai.net/" rel="noopener">his site</a> and say hello!</em></p>
+
+                <!-- Interview -->
+                <section>
+                    <h2>Interview</h2>
+
+                    <section>
+                        <h3>Can you introduce yourself?</h3>
+                        <p>Hi! I'm Zachary Kai, a twenty-something queer Australian. I have too many interests, not enough time or brain space, but I'm (slowly) clawing everything back.</p>
+                        <p>My greatest loves are the internet, books, and writing, all centered on: words.</p>
+                        <p>Struggling with socialization combined with compulsive reading in youth created an encyclopedic knowledge and interest in (almost) everything. So if you contact me, I'm sure we'll have something we can talk about, whether it be the physics involved in baseball or the history of earthenware.</p>
+                    </section>
+
+                    <section>
+                        <h3>What's the story behind your blog?</h3>
+                        <p>Can I call it a blog when I only post once every ~three months? I can tell you the story behind my site, which I wrote about in '<a href="https://www.goodinternetmagazine.com/falling-in-love-with-the-internet-again/" rel="noopener">Falling In Love With The Internet (Again)</a>' for Good Internet.</p>
+                        <p>It's been up for two years now (already, my goodness!) and I'm proud to say I've redesigned it <em>once</em>. (Not calling anyone out but myself here, considering how easy it is for me to get scattered.)</p>
+                    </section>
+
+                    <section>
+                        <h3>What does your creative process look like when it comes to blogging?</h3>
+                        <p>Process? What process? System? What system? If I actually make the time for it&hellip;just pick a random phrase from my 'blog fodder' list (courtesy of <a href="https://vanderwal.net/" rel="noopener">Thomas Vander Wal</a>) and begin.</p>
+                        <p>I write it in my beloved Obsidian, proofread it, use an online tool for turning Markdown to basic HTML, arrange it in a HTML file in my site's folder, add it to the sitemap.</p>
+                        <p>Then, I 're-build' the site, which is just a chain of esoteric prompts to update a few pages/the feeds.</p>
+                        <p>I risk sounding conceited saying this, but when I actually sit (usually stand) to write, producing words is of no struggle. Writer's block exists, yes, but not for me. Give me any topic you wish, and I'll (hopefully) churn out something semi-coherent. Words are my everything.</p>
+                    </section>
+
+                    <section>
+                        <h3>Do you have an ideal creative environment? Do you believe the physical space influences your creativity?</h3>
+                        <p>I've been to (several) places around the world, and the only way to survive this earth as a neurodivergent soul is to force flexibility on oneself. So I don't have one. Because why tie something so lifegiving up in arbitrary, never guaranteeably available physical circumstances?</p>
+                        <p>Sure, I'd love a writing shed beside some gorgeous lake in the mountains, but that's why I (aspirationally, at least) write fiction. This planet is a wonderful place, but dreaming of impossibilities sometimes leads to misery, especially when I tangle it in things I need/want to do.</p>
+                    </section>
+
+                    <section>
+                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
+                        <p>I wouldn't be surprised if this causes gasps of surprise from the programmers reading this, but it's just Static HTML files with a motley bunch of PHP scripts for building the sitemap and the RSS feeds.</p>
+                        <p>Yes, I edit by hand. Yes, it was a deliberate choice. Yes, I sometimes wish I hadn't made it.</p>
+                        <p>Though: simplicity, longevity, sticking to my decisions, and readability for this non-programmer are the things I'd rather have than the one-off convenience of WordPress (though I adore it.)</p>
+                        <p>I use a rented VPS for hosting my sites. As my <a href="https://zacharykai.net/colophon" rel="noopener">colophon</a> says: 'hand-typed in HTML/CSS in VSCodium, backed up on my server, transferred through SFTP, hosted by an Ubuntu VPS.'</p>
+                    </section>
+
+                    <section>
+                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
+                        <p>I'd start with a cheaper VPS so I don't have to migrate everything (twice.)</p>
+                        <p>Realize just because I can self-host almost anything doesn't mean I need to. (Same goes for almost everything that's possible with internet services.)</p>
+                        <p>I'd also make more time for writing for my site. Because it's when I feel most myself. And given how I (still) have no idea who I am, that's saying something.</p>
+                    </section>
+
+                    <section>
+                        <h3>Financial question since the web is obsessed with money: how much does it cost to run your blog? Is it just a cost or does it generate revenue? And what's your position on people monetizing personal blogs?</h3>
+                        <p>As it stands: ~25 AUD for each domain (zacharykai.net, lunaseeker.com, roadlessread.com, leoflynn.com) a year, ~20 AUD a month for the VPS, and more for the newsletter, and email.</p>
+                        <p>I'll be migrating to a smaller server soon, so that'll help.</p>
+                        <p>It's (mostly) just a cost, one I'm happy to pay given how being on the internet has changed my life. Indirectly, I've worked with various wonderful clients, and been <a href="https://zacharykai.net/press" rel="noopener">paid for writings published</a>.</p>
+                        <p>My position? Do whatever suits, but do it with intention, clarity, consideration, and care.</p>
+                    </section>
+
+                    <section>
+                        <h3>Time for some recommendations: any blog you think is worth checking out?</h3>
+                        <p>Yes! Plenty, always! Here are a few I've found/rediscovered recently:</p>
+                        <ul>
+                            <li><a href="https://www.jackcheng.com/sunday/" rel="noopener">Jack Cheng</a> for thoughts on writing, slow tech, and life.</li>
+                            <li>The (simply wonderful) <a href="https://brennan.day/" rel="noopener">Brennan Kenneth Brown</a> is as prolific as he is considered.</li>
+                            <li>Unsure how (perhaps Bear Blog 'Discover') but I found <a href="https://aetheranne.ca/blog/" rel="noopener">Anne's blog</a>: a delightful design, and thoughtful writing. (If you're reading this, and wouldn't mind being interviewed, <a href="https://zacharykai.net/contact" rel="noopener">contact me</a>.)</li>
+                            <li><a href="https://www.honeybunchofoniontops.com/" rel="noopener">Honeybunch Of Onion Tops</a> for vegan, gluten-free recipes and gentle words. Despite them being Australian, the only reason I found them is on <a href="https://conflor.es/" rel="noopener">the lovely Eri's</a> recommendation.</li>
+                            <li><a href="https://cardcatalogforlife.substack.com/" rel="noopener">Card Catalog</a>: thinking like a librarian in the age of AI.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>You are the last guest of my 150 interviews cycle but you'll also run this series from now on. What plans do you have for the series moving forward?</h3>
+                        <p>'People And Blogs' was one of the first things I discovered when venturing into the wider indie web, after finding <a href="https://jamesg.blog" rel="noopener">James' website</a>, in early 2024. I'd decided I wanted to start a site in 2023, but was still working up the courage to begin. After all, who was I to think I had the right to visibility on the web?</p>
+                        <p>I was looking for reassurance, for commiseration, for community. Finding this interview series gave me all that and more, and thanks to the weekly schedule, Friday became one of my favorite days.</p>
+                        <p>I often emailed Manu with suggestions for folks to be interviewed. My plans? Continue the series in a similar vein with the same questions (for now at least) and hopefully interview folks who might be artists or writers or chefs or creatives first, and bloggers second. I'd be interested in their thoughts.</p>
+                    </section>
+
+                    <section>
+                        <h3>What made you decide to step in and become the new person behind People and Blogs?</h3>
+                        <p>I saw the post where Manu explained his experiences running the project and was touched by his honesty. Running projects like these take effort. While the people who benefit from them appreciate them, how often do we, if we have the capacity, at least even email to express appreciation?</p>
+                        <p>So the motivation split between two underlying feelings: showing my gratitude the only way I (really) know how, offering to help, and wanting a series I loved to continue.</p>
+                    </section>
+
+                    <section>
+                        <h3>Is there a "dream guest" you plan to have on?</h3>
+                        <p>If we're aiming high, the wonderful <a href="https://austinkleon.com/" rel="noopener">Austin Kleon</a>, <a href="https://www.jackcheng.com/sunday/" rel="noopener">Jack Cheng</a>, <a href="https://www.lazaruscorporation.co.uk/blogs/artists-notebook" rel="noopener">Paul Watson</a>, or <a href="https://www.honeybunchofoniontops.com/" rel="noopener">Phoebe Thorburn</a>. I adore their work.</p>
+                    </section>
+
+                    <section>
+                        <h3>Do you see yourself running it for many years to come or, like myself, you plan to run it for a limited stretch and then pass it to someone else?</h3>
+                        <p>I'd like to run it for the foreseeable future! I'll admit I struggle with imagining the future, but I hope I can continue assisting in cultivating the 'indie web commons' as <a href="https://brennan.day" rel="noopener">Brennan Kenneth Brown</a> calls it.</p>
+                        <p>Long live the small and delightful corners of the internet, and the humans who make the place.</p>
+                    </section>
+
+                    <section>
+                        <h3>Final question: is there anything you want to share with us?</h3>
+                        <p>Yes! A few things, if you don't mind, dear reader:</p>
+                        <ul>
+                            <li>I run an interview series called '<a href="https://roadlessread.com/views/#shelf-source" rel="noopener">Shelf Source</a>' on my book blog, <a href="https://roadlessread.com/" rel="noopener">Road Less Read</a>, and if you talk about books on your site, I'd love to interview you!</li>
+                            <li>If you're a creative person, or work with a small-business on the internet, might I offer my <a href="https://lunaseeker.com/offerings/" rel="noopener">freelance services</a>, should you be in-need of something?</li>
+                            <li>If you'd like to go for a web wander, might I suggest <a href="https://theforest.link/" rel="noopener">The Forest</a>, a collaboration between Manu himself and <a href="https://carlbarenbrug.com/" rel="noopener">Carl</a>. I've found so many excellent sites there!</li>
+                        </ul>
+                        <p>And most importantly: have a wonderful <a href="https://indieweb.org/Universal_Greeting_Time" rel="noopener">morning</a>, wherever you are.</p>
+                    </section>
+                </section>
+
+                <!-- Closing -->
+                <p>&bull;--&#9825;--&bull;</p>
+
+            </section>
+]]></content:encoded>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/pb/zachary</guid>
+    </item>
+    <item>
+      <title>People and Blogs: Andy Baio</title>
+      <link>https://zacharykai.net/notes/pb/andy</link>
+      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Andy Baio. Do go visit his blog and say...</description>
+      <content:encoded><![CDATA[<section class="e-content">
+
+                <!-- Introduction -->
+                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Andy Baio. Do go visit <a href="https://waxy.org/" rel="noopener">his blog</a> and say hello!</em></p>
+
+                <!-- Interview -->
+                <section>
+                    <h2>Interview</h2>
+
+                    <section>
+                        <h3>Let's start from the basics: can you introduce yourself?</h3>
+                        <p>Hi, my name's Andy Baio. I'm a writer and coder living in Portland, Oregon. You might know me from my blog, <a href="http://Waxy.org" rel="noopener">Waxy.org</a>, where I've written for 25 years about the internet. If you've never heard of it, I rounded up some of the highlights from <a href="https://waxy.org/2012/04/happy_10th_birthday_waxy/" rel="noopener">my first decade</a> of blogging in 2012, and the <a href="https://waxy.org/2022/04/waxy-org-turns-20/" rel="noopener">second decade</a> in 2022.</p>
+                        <p>You may also know me from some of my other projects? I ran the <a href="https://xoxofest.com/" rel="noopener">XOXO festival</a> in Portland for 12 years from 2012 to 2024, launched (and relaunched) the events community <a href="http://Upcoming.org" rel="noopener">Upcoming.org</a>, and I helped build <a href="https://www.kickstarter.com/" rel="noopener">Kickstarter</a> as a long-time advisor and their first CTO.</p>
+                        <p>Along the way, I coined the term "<a href="https://waxy.org/2008/04/fanboy_supercuts_obsessive_video_montages/" rel="noopener">supercut</a>," produced a <a href="https://kindofbloop.com/" rel="noopener">chiptune tribute</a> to Miles Davis's Kind of Blue, and got threatened with lawsuits a bunch of times. (I did some <a href="https://waxy.org/about/" rel="noopener">other stuff</a>, too.)</p>
+                        <p>These days, I'm mostly helping my wife Ami with her game design studio, <a href="https://pinktigergames.com/" rel="noopener">Pink Tiger Games</a>. We've self-published seven conversational party games since 2017, with three more slated for later this year.</p>
+                    </section>
+
+                    <section>
+                        <h3>What's the story behind your blog?</h3>
+                        <p>Before I started Waxy.org, I mostly sent links via instant messenger to my friends who had blogs. I knew I was good at finding things online, and after the umpteenth friend told me to start my own blog, I finally did. I wanted a place of my own online, somewhere to experiment and write about weird corners of internet culture, online community, and copyright, as well as a sandbox for new experimental projects of my own.</p>
+                        <p>By the time I launched Waxy in April 2002, I felt like I was late to the blogging trend, which in hindsight, seems ridiculous. I was still pretty early, as it turns out. Within a year, I'd been interviewed by the New York Times and other major papers dozens of times for news stories I'd either broken or somehow found myself tangled up in.</p>
+                        <p>The name, Waxy.org, came from a Perl script I'd written the year before to search for available .com, .org, and .net domains using every dictionary word in the English language. (I also picked up Meaty.org, which I never ended up using, and Upcoming.org, which I did.) "Waxy" didn't really mean anything, but I'd been using "waxpancake" as my alias for years so it seemed like a good fit.</p>
+                        <p>I added a linkblog, <a href="https://waxy.org/category/links/" rel="noopener">Waxy Links</a>, to the sidebar about 18 months after launch, which became a good outlet for quick links that didn't warrant full posts. I <a href="https://waxy.org/2008/04/waxyorg_redesigns/" rel="noopener">redesigned</a> the site in 2008 with a cleaner design and better mobile support.</p>
+                        <p>After 14 years of blogging, I switched from Movable Type to WordPress in 2016, with a <a href="https://waxy.org/2016/11/redesigning-waxy-2016-edition/" rel="noopener">new redesign</a> that I slowly improved in the years since. I recently added redesigned <a href="https://waxy.org/archives/" rel="noopener">archives and search</a>, which I'm pretty happy with.</p>
+                        <p>It's always under construction, a work in progress &mdash; like me, you, and the rest of the internet.</p>
+                    </section>
+
+                    <section>
+                        <h3>What does your creative process look like when it comes to blogging?</h3>
+                        <p>I used to do much more investigative journalism, but these days, Waxy is primarily a linkblog where I point to fun or interesting things I find online. Unless I stumble on a story too compelling to ignore, forcing me to pull the string and see where it leads.</p>
+                        <p>Those story ideas and links can come from anywhere. I'm a voracious consumer of information online, and I've always joked that Waxy is the natural byproduct of endlessly procrastinating from doing other things by looking at the internet.</p>
+                        <p>I subscribe to around 450 feeds in Inoreader, my RSS reader, and skim it all nearly every day. I follow another 1,000 or so people each on Bluesky and Mastodon, with custom lists for each so I don't miss particular people. I'm in dozens of Discords, many with people sharing their work or pointing out good stuff they find online, and nearly 100 mostly-niche subreddits covering many of my interests. I use tools like <a href="https://sill.social/" rel="noopener">Sill</a> and <a href="https://scour.ing/@waxpancake" rel="noopener">Scour</a> to find signal in the noise, and even built a <a href="https://belong.io/" rel="noopener">link aggregator</a> of my own that I used for years to find good links on Twitter, until Elon shut down the API.</p>
+                        <p>My frequency of posting has waned over the years, first cannibalized by social media and then by larger life and work stuff. I've recently found myself drawn back to it, posting more regularly, trying to wake those atrophied writing muscles. Even if I've slowed down, it's hard to ever imagine stopping entirely.</p>
+                    </section>
+
+                    <section>
+                        <h3>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h3>
+                        <p>I used to be able to work from anywhere, typically a coffeehouse or library, and tune out the rest of the world on my laptop with a good pair of earbuds.</p>
+                        <p>As my eyesight's worsened, I find that working on a large monitor is more of a necessity than a luxury for any serious length of time, especially if I'm coding.</p>
+                        <p>I also used to love working around others, but these days, I tend to like retreating to the quiet of my basement office. No music, no sound. Just a quiet hum of my computer and the sounds of my keyboard.</p>
+                    </section>
+
+                    <section>
+                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
+                        <p>I use WordPress with my own custom-written theme, using the Advanced Custom Fields plugin to handle all the special fields necessary for my linkblog. I use a custom bot to cross-post my links to Bluesky, and a plugin called Share on Mastodon to post things there. (I stopped automatically cross-posting to X/Twitter years ago, for obvious reasons.) Everything's hosted on a DigitalOcean droplet along with a bunch of other side projects, with Cloudflare managing the domain and DNS.</p>
+                    </section>
+
+                    <section>
+                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
+                        <p>I would have started collecting email addresses from the very beginning. I've never really liked reading newsletters by email, and I read almost every newsletter I subscribe to through my feedreader, which gives me so much control over my attention. But I never considered that people would start to shift their attention away from the web, or that feedreaders would largely go away, so I never tried to build a mailing list for my own projects.</p>
+                        <p>The ability to directly reach the people who care most about your work, outside of the capricious nature of social media algorithms, is essential. It's my one big regret, and I hope to change that soon.</p>
+                    </section>
+
+                    <section>
+                        <h3>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h3>
+                        <p>My blog has never cost much to run, and never made much money. I used to have a dedicated server that cost $150/month, but these days, it's running around $50/month on a shared instance with some other projects of mine.</p>
+                        <p>The visibility and reach from writing on Waxy opened a lot of doors for me, though. I met so many amazing creative people through blogging, and it gave me a platform for launching projects that I wouldn't have had otherwise. I met most of my friends, directly or indirectly, through the writing I did on Waxy.org.</p>
+                        <p>I did run ads on my blog for a few years, experimenting with Google ads from 2004 to 2005 and, in 2006, joining as one of the first members of <a href="https://web.archive.org/web/20160530090829/http://decknetwork.net/" rel="noopener">The Deck</a>, Jim Coudal's pioneering unobtrusive, privacy-centric boutique ad network that helped support sites like Daring Fireball, <a href="http://Kottke.org" rel="noopener">Kottke.org</a>, Ze Frank, The Morning News, A List Apart, and many others. It paid me a reliable $1,000/month for ten years, until shortly before it wound down in 2017. I haven't made any direct income from my blog since then.</p>
+                        <p>I think anything that supports independent writers/bloggers, artists, or other creators on their own terms is a good thing, whether it's through Kickstarter, Patreon, or more commonly, through paid subscription newsletters. I have major issues with Substack's management, but I credit them for normalizing the idea of directly paying bloggers a recurring monthly fee. But please use Ghost or Buttondown instead.</p>
+                    </section>
+
+                    <section>
+                        <h3>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h3>
+                        <p>Oh, god, too many to list. Off the top of my head, Marcin Wichary's <a href="https://unsung.aresluna.org/" rel="noopener">Unsung</a> is probably my favorite new blog, constantly updated with new insights about user interfaces and design. Nobody notices things the way that Marcin notices things.</p>
+                        <p>Matt Muir's <a href="https://webcurios.co.uk/" rel="noopener">Web Curios</a> is like a month's worth of good links crammed into a single post every Friday. I don't know how he's done it so well for so long.</p>
+                        <p>Depths of Wikipedia's Annie Rauwerda isn't a traditional blogger, but spreads her curatorial eye between two <a href="https://bsky.app/profile/annierau.bsky.social" rel="noopener">Bluesky</a> <a href="https://bsky.app/profile/depthsofwikipedia.bsky.social" rel="noopener">accounts</a>, two <a href="https://www.instagram.com/depthsofwikipedia" rel="noopener">Instagram</a> <a href="https://www.instagram.com/annierau/" rel="noopener">accounts</a>, <a href="https://www.tiktok.com/@depthsofwikipedia/" rel="noopener">TikTok</a>, a <a href="https://lotsoflinks.substack.com/" rel="noopener">newsletter</a>, a touring <a href="https://www.depthsofwiki.com/" rel="noopener">live stage show</a>, and a <a href="https://annierau.com/" rel="noopener">very good personal website</a>. She's just so funny and weird and good. I wish she had an RSS feed that combined it all. Maybe I'll make one for her.</p>
+                        <p>I think David Friedman's <a href="https://www.ironicsans.com/" rel="noopener">Ironic Sans</a> is incredibly underrated, moving from a traditional blog to more of a newsletter format, with weird little side projects and games along the way. He's been continuously great for 20 years.</p>
+                        <p>I'd love to see <a href="https://kottke.org/" rel="noopener">Jason Kottke</a> interviewed. More than anyone I can think of, he's carved out a Kottke-shaped hole for himself on the web, growing it into a sustainable living through direct reader support over nearly 30 years. Even now, he continues to refine and adapt and evolve his site in surprising ways.</p>
+                    </section>
+
+                    <section>
+                        <h3>Final question: is there anything you want to share with us?</h3>
+                        <p>The last project I worked on was the <a href="https://waxy.org/2026/04/launching-a-permanent-archive-for-xoxo/" rel="noopener">permanent archive for XOXO</a> that launched in April, collecting everything we did related to the festival. The site was a huge undertaking, bringing together every lineup, schedule, recap video, conference talk, and standalone website that we ever made into a single permanent archive, filled with little photos and ephemera from the festival.</p>
+                        <p><a href="https://xoxofest.com/" rel="noopener">XOXO</a> was a huge part of my life for 12 years, easily the most creatively rewarding and emotionally exhausting work of my career, and I'm really proud of how the archive came out. At the very least, go poke through the video archives. The <a href="https://xoxofest.com/videos/featured/" rel="noopener">featured</a> tag highlights some of our favorites, like Cabel Sasser's <a href="https://xoxofest.com/2024/videos/cabel-sasser/" rel="noopener">wonderful talk</a> from our final year.</p>
+                    </section>
+                </section>
+
+                <!-- Closing -->
+                <p>&bull;--&#9825;--&bull;</p>
+
+            </section>
+]]></content:encoded>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/pb/andy</guid>
+    </item>
+    <item>
+      <title>People and Blogs: Anne Lee Steele</title>
+      <link>https://zacharykai.net/notes/pb/steele</link>
+      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Anne Lee Steele. Do go visit their blog...</description>
+      <content:encoded><![CDATA[<section class="e-content">
+
+                <!-- Introduction -->
+                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Anne Lee Steele. Do go visit <a href="https://www.aleesteele.com" rel="noopener">their blog</a> and say hello!</em></p>
+
+                <!-- Interview -->
+                <section>
+                    <h2>Interview</h2>
+
+                    <section>
+                        <h3>Let's start from the basics: can you introduce yourself?</h3>
+                        <p>I'm Anne. I've spent almost a decade in what I call the 'open ecosystem', the first five years as a lurker and participant, the second five as a researcher and facilitator. I've done ethnographic studies of OpenStreetMap, was the Community Manager of The Turing Way, and have held a variety of fellowships with organisations ranging from the Internet Society to the Software Sustainability Institute. Outside of all these things, I would call myself an artist-of-sorts, maybe to say that I make art more than I embody the spirit of an <em>artist,</em> per say. But I sometimes throw the title around anyway. I guess I'll say it: I'm a researcher, facilitator, and artist.</p>
+                    </section>
+
+                    <section>
+                        <h3>What's the story behind your blog?</h3>
+                        <p>I was a big 'micro' blogger in my teens, using platforms like Xanga, Livejournal, and Flickr to document my teenage life. Then I inevitably moved to Tumblr alongside many angsty and artsy teenager girls right as Facebook started to take off in parallel, before moving to Instagram (and using it as a kind of 'blog' for years). I've gone through the inevitable cycles of use then rejection, of deleting and reactivating all my social media accounts. My original Facebook account is gone now.</p>
+                        <p>When I started grad school in 2019, I started my blog as a method of sharing more about my life and research when I moved to Geneva. I think it came out of the joint desires for self-expression and a desire to get out of social media. We now collectively call this platform decay "enshittification", but I really felt like what I was putting online was performative more than anything else. The blog felt like shouting into a voice, yes, but it was <em>my</em> shout, on <em>my</em> own website, in a void of my own creation. There's no like button for that.</p>
+                    </section>
+
+                    <section>
+                        <h3>What does your creative process look like when it comes to blogging?</h3>
+                        <p>I often just create a new page on Obsidian or VSCode and just start to write. Sometimes it all comes out in one go - sometimes the draft will take years to fruition (and yes - I'll often backdate that post to when it was created, not when it was published). There's actually a secret draft folder on Github that hosts all my drafts in progress.</p>
+                        <p>Out of all the creative processes, I find writing the most difficult, but also the most transformative. I rarely enjoy the process, but always feel better, or have more clarity, or understand something or myself better, afterwards.</p>
+                        <p>In parallel to writing, I'm <a href="https://www.are.na/anne-lee-steele/channels" rel="noopener">very much a power user of are.na</a> which feels like a more instinctual, affectual, and social form of thinking out loud. I think a lot of the nascent themes contained there eventually end up on the blog in some form or another.</p>
+                    </section>
+
+                    <section>
+                        <h3>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h3>
+                        <p>I'm a big listener of <a href="https://www.nts.live/" rel="noopener">NTS radio</a> (specifically the Breakfast Show with Flo) and use <a href="https://earth.fm/web/" rel="noopener">earth.fm</a> a lot. Sounds really create a space for me - and are a way I stay grounded and aware, no matter where I might be working. If I have control over that however, I tend to need a big desk for books and papers of all kinds - maybe I need a messy desk in order to have a cleaner mind. I absolutely believe that physical spaces influence creativity. When I'm writing something long form for example, I'll usually surround myself physically with books and visual artifacts (photos, sketches, and other detritus) related to the topic, almost like it's a living altar to the work, or an externalised process of thinking that starts with the visual, then becomes ingested and cognitive. I've been on the move for the past year or so, and I've really felt its impact on my creativity: in some ways I'm more spontaneous, but less deep and situated with my thinking. I have no doubt that this is because of my perpetual motion.</p>
+                    </section>
+
+                    <section>
+                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
+                        <p>My website (and blog attached to it) is very simple. I used to host my website on Github Pages, but now it's built on Netlify (very open to alternatives - please reach out!). I used to use Heroku before it was shut down. The whole website and codebase is on Github. You can see more about the ethos of the website, and specifically the practices I am aiming to adopt better practices for accessibility and open practices on this easter egg of a page (which you can find by clicking the sticky note in the footer): <a href="https://www.aleesteele.com/design" rel="noopener">https://www.aleesteele.com/design</a></p>
+                    </section>
+
+                    <section>
+                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
+                        <p>Field Notes from my Desktop is the name of both my blog and newsletter these days. I feel all sorts of ways about having a newsletter now &ndash; I've only sent out one so far. It's a very different feeling to have a captive audience, some of which have been subscribed automatically after an event I've facilitated, or joined from the web. I don't know if I like it, but it feels like in the age of information glut, there's something about the inbox that remains sacred for many folks. I want to respect that, and maybe want to think of it as a seeding process...</p>
+                        <p>For my blog, I remain dedicated to maintaining it as is, without any real changes. Looking back, I guess I would have held myself accountable to finishing more blogs in the moment: when that whiff of an idea, or a concept, or an event or reflection has completely captivated me and I feel the need to write about it. Unfortunately I have so many half-finished blogs not because I didn't like the topic, but rather because it was such a struggle and a slog to finish, that I didn't bring it fully over that crest into fruition. Maybe I should have ritualised it.</p>
+                        <p>At the same time, I don't want to be too hard on myself. I did the best I could at the time. Maybe the newsletter is meant to be the rhythm, and the blog is the burst of free jazz.</p>
+                    </section>
+
+                    <section>
+                        <h3>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h3>
+                        <p>I have no monetization plan, and currently don't monetize anything I do for the blog. In fact, I pay to use Buttondown at the moment, and I'm debating whether to do that (currently $9 USD a month since they changed their membership plan). I pay for my domain, which is &pound;12 GBP annually.</p>
+                    </section>
+
+                    <section>
+                        <h3>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h3>
+                        <p>Now I'm mixing blogs and newsletters! I've been such a periodic reader of a bunch of different things that I tend to save on are.na, that it's hard to pick out a few.</p>
+                        <p>I've been a passionate reader of the <a href="https://www.themarginalian.org/" rel="noopener">Marginalian</a> and <a href="https://thecreativeindependent.com/" rel="noopener">the Creative Independent</a> for many years. At this point, both are less blog, and more of a wiki-like resource about life, creativity, ecology, and all sorts of topics that make life meaningful and mysterious. I've also read and used <a href="https://www.openculture.com/" rel="noopener">Open Culture</a> for many years &ndash; which is also a blog-of-sorts. I recently learned about <a href="https://theexaminedlife.org/" rel="noopener">The Examined Mind</a>.</p>
+                        <p>One person whose writing practice I look up to is <a href="https://wordsinspace.net/work/" rel="noopener">Shannon Mattern</a> (an academic anthropologist turned New York Librarian-of-sorts) and my friend <a href="https://jonathangray.org/posts" rel="noopener">Jonathan Gray</a> who has a fantastic (and consistent!) public writing process. Both of them are academics with public practices - and while I'm not an academic, I do have a research-informed process.</p>
+                        <p>I also love Julian Stodd's blog on <a href="https://julianstodd.wordpress.com/" rel="noopener">leadership and organisational practices</a>. He's done a lot of deep and open thinking that I've appreciated about the topic, and has stayed loyal to old school Wordpress.</p>
+                        <p>This question inspires me to bring together a more curated list of blogs I've read and followed over the years, and also to recognise the shortfalls of my own 'blogging' practice. I have saved blog instances (meaning individual blogs), but I haven't 'followed' a single blogger in a really long time actually. Is that because of the newsletter because I don't use RSS feeds?</p>
+                    </section>
+
+                    <section>
+                        <h3>Final question: is there anything you want to share with us?</h3>
+                        <p>I'm developing a series of <a href="https://www.aleesteele.com/projects/mapping-meditations" rel="noopener">mapping meditations</a>, based on Pauline Oliveros' <em>Sonic Meditations</em>. If you have a map or a meditation to share, please reach out.</p>
+                        <p>I also run internet infrastructure walking tours in London, in an effort to make invisible infrastructures more embodied and playful. This year, I've been experimenting with a monthly walk, and <a href="https://luma.com/internet-infra-walks" rel="noopener">you're welcome to join one using Luma</a>.</p>
+                    </section>
+                </section>
+
+                <!-- Closing -->
+                <p>&bull;--&#9825;--&bull;</p>
+
+            </section>
+]]></content:encoded>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/pb/steele</guid>
+    </item>
     <item>
       <title>People and Blogs: Edoardo</title>
       <link>https://zacharykai.net/notes/pb/edoardo</link>
@@ -1894,287 +2179,6 @@
 ]]></content:encoded>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://zacharykai.net/notes/pb/ryan</guid>
-    </item>
-    <item>
-      <title>People and Blogs: Yancey Strickler</title>
-      <link>https://zacharykai.net/notes/pb/yancey</link>
-      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Yancey Strickler. Do go visit their blo...</description>
-      <content:encoded><![CDATA[<section class="e-content">
-
-                <!-- Introduction -->
-                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Yancey Strickler. Do go visit <a href="https://www.ystrickler.com/" rel="noopener">their blog</a> and say hello!</em></p>
-
-                <!-- Interview -->
-                <section>
-                    <h2>Interview</h2>
-
-                    <section>
-                        <h3>Let's start from the basics: can you introduce yourself?</h3>
-                        <p>My name is Yancey Strickler. I'm a writer and entrepreneur who lives in New York City. I write about the internet, creativity, and my creative practice. My projects&mdash; cofounding <a href="https://www.kickstarter.com" rel="noopener">Kickstarter</a>, <a href="https://thecreativeindependent.com" rel="noopener">The Creative Independent</a>, <a href="https://www.metalabel.com" rel="noopener">Metalabel</a>, <a href="https://darkforest.metalabel.com" rel="noopener">Dark Forest Collective</a>, <a href="https://www.artistcorporations.com" rel="noopener">Artist Corporations</a>, and <a href="https://www.dfos.com" rel="noopener">Dark Forest Operating System</a> &mdash; bridge those worlds.</p>
-                    </section>
-
-                    <section>
-                        <h3>What's the story behind your blog?</h3>
-                        <p>I started blogging in 2003. Just before the "MP3 Blogs" era. I was a music journalist and had more opinions to share than places that would print them, so I started an online space as an outlet. The blogging community was very small then. You felt like you knew everyone else who had one.</p>
-                        <p>I kept that going until Kickstarter took over my life in 2009. I no longer had the excess energy to publish &mdash; everything went into the project. When I stepped down as Kickstarter's CEO in 2017, I started blogging again. For the first five months I did it without telling anyone. No one had the URL but me. I wanted the feeling of a public writing practice with no one else looking. Eventually I started to share, and that space evolved into my blog and homepage where I've expressed thoughts ever since.</p>
-                        <p>The blog in 2003 was called Get Up Stand Up. I chose The Ideaspace when it returned. This is a phrase Alan Moore uses to talk about the dimension where ideas come from that I learned about in John Higgs' amazing KLF book.</p>
-                        <p>I've used pretty much every platform: Blogspot, Wordpress, Tumblr, TinyLetter, Mailchimp, Substack, and now Ghost. I'm thankful of the import/export norms that developed around blogging from the very beginning. That's what makes portability between writing homes possible.</p>
-                    </section>
-
-                    <section>
-                        <h3>What does your creative process look like when it comes to blogging?</h3>
-                        <p>Calling what I do a "process" gives it too much credit. All of my writing tends to start with a feeling inside of me. That feeling is often one of agitation combined with curiosity. Something I can't quite figure out or I'm having a hard time putting my finger on. Writing is how I work through that.</p>
-                        <p>The first drafts of what I write come out quickly. A mix of prose, outline, even poetry. I let the wider consciousness flow through the scope of the idea before filling things out too precisely. The more you let yourself detach while doing this, the more appears that you didn't expect.</p>
-                        <p>Many of my most "successful" posts, in that people gravitate towards them, are what I think of as "idea sandwiches." You bring together two ideas that are unrelated and smoosh them together. This can lead you to discover something new that people will immediately understand.</p>
-                        <p>"<a href="https://www.ystrickler.com/the-dark-forest-theory-of-the-internet/" rel="noopener">The Dark Forest Theory of the Internet</a>", my most-read piece to date, is an example. It came from putting two separate thoughts together: my own feelings of alienation and anxiety online, combined with the Dark Forest Theory that I was reading about in Cixin Liu's "The Dark Forest" book (part of "The Three Body Problem" trilogy) on how and why societies might hide from one another. I smushed together that feeling with that idea and something new popped out.</p>
-                        <p>In terms of tools, I use a variety of things. When I'm working on a book I use Scrivener. I love the folder/doc structure of the program, the way you can compile your writing into a cohesive whole. If I need to get an idea down quickly I default to opening a Google Doc. I journal every morning in a notebook or in Obsidian. At Metalabel we created our own blogging tool/culture using Notion. We call it "<a href="https://www.ystrickler.com/metablogging/" rel="noopener">metablogging</a>": internally public blogs where we think through things together. Our collective brain built organically over time.</p>
-                        <p>If I'm writing something that goes deep into a specific subject matter, I'll seek out people I respect and get their perspective. Some of my most impactful work from the past few years came when I wrote something and chose <em>not</em> to publicly publish it. Instead I shared a private Google Doc with specific people who I was thinking of. The results from this form of non-publishing have been remarkable. The ideas behind Metalabel, Artist Corporations, the Dark Forest OS, the Bento, and other projects happened this way. By not rushing to publish an idea in seek of validation, and instead thinking more precisely about who I was most interested in hearing from, those seeds manifested as actual projects and collaborations in the wider world rather than just ideas of them.</p>
-                    </section>
-
-                    <section>
-                        <h3>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h3>
-                        <p>I like blank spaces. Empty rooms. White walls. Metalabel has a studio where I go everyday. Mostly empty. Lots of plants. Always some sort of meditative music. A very womb-like vibe. A de-dopamined zone.</p>
-                        <p>This isn't 100% necessary. I wrote "<a href="https://www.ystrickler.com/whats-the-difference-between-an-artist-and-a-creator/" rel="noopener">What's the difference between an artist and a creator</a>" on two Amtrak trips between NYC and DC. You don't need perfection. But having a place where I feel comfortable to explore and know I won't be interrupted is my favorite luxury as a creative person.</p>
-                        <p>While writing my first book, "<a href="https://www.penguinrandomhouse.com/books/591594/this-could-be-our-future-by-yancey-strickler/?ref=ystrickler.com" rel="noopener">This Could Be Our Future</a>", I wrote in several different spaces that were hugely helpful. At the beginning I got a Craigslist sublet for an empty apartment with no internet. I took it for a few months and covered all the walls with post-its and index cards outlining the book. A year later when I was deep in the writing mode, I borrowed a spare bedroom from an 89-year-old friend in LA and wrote there each day while hanging out with her and watching her fix up her house (true story). During another period I took a few 48 hour trips out to 29 Palms, near Joshua Tree, where I spent days doing nothing but alternating between writing and jumping in the motel pool to cool off. Being able to immerse yourself in a project like that, even if just for an afternoon, is always a gift.</p>
-                        <p>These were not always easy times at all. That's part of the reason for the separation. You really have to put all of yourself into the thing to get to the layers of clarity where real wisdom lives. But to have those challenges and eventual breakthroughs so closely associated with specific places that are not your normal everyday creates a very rich, contextual memory of the process.</p>
-                    </section>
-
-                    <section>
-                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
-                        <p>The blog is hosted on Ghost. Have tried lots of other places, but ultimately like the decentralized nature of Ghost combined with a strong toolkit. I use Umami for analytics, which is free and excellent. I still use Substack as another front page, and often alternate between which service I send emails from. My own personal website and blog are most important to me, but I'll sometimes find myself thirsty for network effects. Ugh. We're getting too close to my anxiety zones. Let's move on :)</p>
-                    </section>
-
-                    <section>
-                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
-                        <p>Funny, but my first instinct is I wouldn't want to have readers. Of course that's not actually true, but when I think about the things that limit my sense of freedom or play from writing and publishing, asking for the audience's time most holds me back.</p>
-                        <p>Because of my own relationship with email and newsletters, I've come to think of posting something (that also sends an email) as an ask or imposition on someone else's time. I'm saying to them, "Hey pay attention to me. Stop what you're doing and look at me." Which in no way is what my writing or output are about.</p>
-                        <p>This is my own internal non-logic, I realize. People did sign-up. People tell me that my writing is meaningful to them. But this is something I've long carried. We even got pencils made at Metalabel that say: "Love to write. Hate to publish." I have one sitting in front of me right now.</p>
-                        <p>Now this is not my advice to others, but it is where my first thought went. Because when I think about the goals of writing and blogging, it's to be free, it's to explore without limits. Audiences can be affirming for that. And it's generous and important to share whatever wisdom you experience in life. Blogging to me is a specific kind of writing &mdash; a personal practice and discipline that makes what's inward outward. Whatever it is that's in you, blogs are what comes out.</p>
-                        <p>My personal feeling is that I don't like doing that if I know people are watching. I get self-conscious. I worry about bothering people. A place and attitude where I know I need to grow. Trying to do a better job of thinking about all the people that do want to hear from me rather than the people who don't.</p>
-                    </section>
-
-                    <section>
-                        <h3>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h3>
-                        <p>It does cost. I have about 10,000 subscribers, which means I'm paying Ghost about $1,000 a year to maintain a site with them.</p>
-                        <p>There are cheaper ways to do this. I could make a site with Wordpress or Squarespace. I could use Substack. I could go the whole Craig Mod/Robin Sloan routes and make my own universes. Probably one day when I have time I'll do this and go all the way. But I like the combo of things Ghost gives (and that they started on Kickstarter).</p>
-                        <p>I don't have paid subscriptions for my writing, but in the past 18 months I did experiment with releasing my work as collectible .zip files that people could pay what they wanted for.</p>
-                        <p>First was a long essay called "<a href="https://darkforest.metalabel.com/postindividual" rel="noopener">The Post Individual</a>" that I'd spent several years working on. I published it on my blog and released a limited edition Director's Cut zip file containing a PDF, video file, audio file, and all my research notes on Metalabel at the same time. There have now been 750 editions of these collected, with 400 people doing it for free, and another 350 contributing more than $1,000 for the work. That has felt like a very successful experiment.</p>
-                        <p>I pay for a few people's Substacks and buy lots of zines, both on Metalabel and off. I enjoy directly supporting people whose work is meaningful to me.</p>
-                    </section>
-
-                    <section>
-                        <h3>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h3>
-                        <p>These days most of my attention goes to my projects, my family, or to books. But I'm always interested in <a href="https://nadia.xyz" rel="noopener">Nadia Asparhouva</a>, <a href="https://kottke.org" rel="noopener">Jason Kottke</a>, <a href="https://benstoppable.substack.com/" rel="noopener">Ben</a> <a href="https://news.artnet.com/about/ben-davis-93" rel="noopener">Davis</a>, <a href="https://tobyshorin.com" rel="noopener">Toby Shorin</a> (<em><a href="https://manuelmoreale.com/interview/toby-shorin" rel="noopener">read Toby's interview</a></em>), <a href="https://hipcityreg.substack.com/" rel="noopener">Reggie James</a>.</p>
-                        <p>People who I think could be good to talk to: <a href="https://laurelschwulst.com" rel="noopener">Laurel Schwulst</a>, <a href="https://somethingisaw.substack.com/" rel="noopener">Kimberly Drew</a>.</p>
-                    </section>
-
-                    <section>
-                        <h3>Final question: is there anything you want to share with us?</h3>
-                        <p>Sure here's my Soundcloud :)</p>
-                        <p>This book that Josh Citarella and I made together on our creative practices is something people might like: <a href="https://squad.metalabel.com/onthecreativelife?variantId=1&amp;ref=ystrickler.com" rel="noopener">On the Creative Life</a>.</p>
-                        <p><a href="https://darkforest.metalabel.com/antimemetics" rel="noopener">Antimemetics</a> by Nadia Asparhouva, a book I edited and published with the Dark Forest Collective, is highly recommended.</p>
-                        <p><a href="https://www.youtube.com/watch?v=LtzvUDD4bRY" rel="noopener">A video I made</a> that shares nine reflections from my creative career.</p>
-                    </section>
-                </section>
-
-                <!-- Closing -->
-                <p>&bull;--&#9825;--&bull;</p>
-
-            </section>
-]]></content:encoded>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://zacharykai.net/notes/pb/yancey</guid>
-    </item>
-    <item>
-      <title>People and Blogs: Bix Frankonis</title>
-      <link>https://zacharykai.net/notes/pb/bix</link>
-      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Bix Frankonis. Do go visit their blog a...</description>
-      <content:encoded><![CDATA[<section class="e-content">
-
-                <!-- Introduction -->
-                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Bix Frankonis. Do go visit <a href="https://bix.blog" rel="noopener">their blog</a> and say hello!</em></p>
-
-                <!-- Interview -->
-                <section>
-                    <h2>Interview</h2>
-
-                    <section>
-                        <h3>Let's start from the basics: can you introduce yourself?</h3>
-                        <p>My name is Bix, and I&rsquo;m a straight, white, middle-aged, cisgender man born in upstate New York who now lives in the St. Johns neighborhood of Portland, Oregon&mdash;my hometown since 1997 and the longest I&rsquo;ve lived anywhere since becoming an adult. I&rsquo;m actually-autistic and multiply otherwise disabled, and remain, as I&rsquo;ve been for most of my life, financially dependent upon my remaining parent.</p>
-                        <p>(If that&rsquo;s for some reason not enough, <a href="https://slow.dog" rel="noopener">my homepage</a> will tell you more than you possibly could want to know, and a <a href="https://bix.blog/posts/2024-10-25-todays-considerable-portion/" rel="noopener">previous birthday post</a> serves as the first part of my, and my blog&rsquo;s, manifesto.)</p>
-                        <p>&ldquo;Bix&rdquo; is a descendent and derivation of an online handle I&rsquo;d once had that became my everyday name and then, in 2018, <a href="https://bix.blog/posts/2023-01-04-five-years-a-legal-bix/" rel="noopener">my legal one</a>. To a large degree the modern era of my blogging is dedicated to posting through the above realities both present and future. I live alone except for a gray and white domestic shorthair cat named Meru after the protagonist of the comic book Mind MGMT. I&rsquo;ve been online since a dialup gopher server run by public libraries in upstate New York allowed me to upload a <a href="https://www.twinpeaks.org/archives/comments/frankonis_beyond_the_fire" rel="noopener">file of Twin Peaks symbolism</a> to an FTP server in Australia and telnet into an internet BBS based in New York City <a href="https://bix.blog/posts/2024-02-01-on-digital-relationships-once-upon-a-time-i-was-a-voxer/" rel="noopener">called MindVox</a>.</p>
-                        <p>In the mid-90s, along with two other people I ran a large and cumbersome <a href="https://www.nifty.org/nifty/information/cda-petition-old" rel="noopener">online petition effort</a> against the Communications Decency Act which inspired a more rigorous one from the Center for Democracy and Technology, and which landed me in the <a href="https://www.kalilily.net/2005/06/12/while-mom-saves-pie-tins-i-save-magazine-articles/" rel="noopener">pages of *Rolling Stone*</a>. In the late-90s, I ran <a href="https://web.archive.org/web/19980215024742/http://millennium-cafe.com:80/" rel="noopener">an Internet cafe</a>, or more accurately ran it into the ground for reasons I now know to be the unaccommodated and unmitigated autism, since I wasn&rsquo;t diagnosed until 2016. In the early-2000s, I blogged <a href="https://web.archive.org/web/20051219231321/http://communique.portland.or.us:80/" rel="noopener">original political reporting</a> (also at the time called &ldquo;stand-alone journalism&rdquo;) here in Portland that was widely-read in local government circles and got me profiled in <em>The Oregonian</em> and cited in two books. If you traveled in <em>Firefly</em> fandom circles, you probably at least once found yourself on one or another fansite I&rsquo;d put together in my own decade or so. Finally, for a time in the mid-2010s, I project managed a nonprofit <a href="https://thebelmontgoats.org" rel="noopener">herd of urban goats</a> here in Portland.</p>
-                        <p>These days, life mostly is just about listening to, reading, and watching things, and, of course, <em>the blogging</em>. As with most autistic people, habit and routine are foundational and self-regulating, and so every day I get in an <a href="https://goodreads.com/review/list/9800143?shelf=read" rel="noopener">hour of reading</a> at a neighborhood coffeeshop; once a week I take myself for breakfast out (also in the neighborhood); and&mdash;<em>fatigue willing</em>&mdash;once a month I try to get across town to Oregon Zoo (where I&rsquo;ll also indulge in my intermittent but long-standing <a href="https://flickr.com/bixfrankonis" rel="noopener">photography hobby</a>) but over the past year this hasn&rsquo;t happened all that often, much to my increasing chagrin.</p>
-                    </section>
-
-                    <section>
-                        <h3>What's the story behind your blog?</h3>
-                        <p>The current iteration of my blog goes back to 2019 when I received the bix.blog domain as part of Automattic&rsquo;s &ldquo;dotblogger&rdquo; program (you can <a href="https://bix.blog/posts/2023-01-11-dot-blog/" rel="noopener">read my pitch</a> for it), although I consider my actual modern blogging era to start the year before, in 2018 when I started blogging about my 2016 autism diagnosis on Medium. This current era includes earlier this year having had <a href="https://bix.blog/posts/2025-03-25-on-self-expression-my-quarter-century-of-blogging/" rel="noopener">my twenty-fifth blogging anniversary</a> (a post which also serves as the second part of my manifesto), since I&rsquo;ve been blogging in some form since early in the year 2000&mdash;usually personal blogging but occasionally something subject-specific, using many different kinds of blogging software, hosting and self-hosted solutions, and domains.</p>
-                        <p>Since I cannot for certain remember what was my very first blogging, it&rsquo;s not clear to me whether I was motivated to represent myself personally online or whether my first blog was project-specific&mdash;even though the latter undoubtedly still was infused by my personality. It&rsquo;s unlikely that I&rsquo;ve ever blogged in any kind of dry, &ldquo;professional&rdquo; tone and so, in that sense, it&rsquo;s <em>all</em> personal blogging. As the late Christopher Locke once said, for better or worse, &ldquo;Voice is what happens when you shitcan the cover-up.&rdquo;</p>
-                        <p>These days, blogging also (at least in theory) includes the longterm project of working toward restoring as much of those two and a half decades as possible, using categories to designate a post&rsquo;s original domain. It&rsquo;s a <a href="https://web.archive.org/web/20230322060256/bix.blog/guide" rel="noopener">positively gargantuan task</a>&mdash;not least because I don&rsquo;t have archives of everything and some things will need to be re-created post-by-post using the Wayback Machine.</p>
-                        <p>As I noted in my IndieWeb Carnival post on self-expression, blogging very much is a coping mechanism, without which I&rsquo;d only be even more lost, despite the continually recurring mixed feelings I have about it because <code>#FrannyWasRight</code> on the matter of ego (yet another reference to my manifesto post). One of the things that interests me about the restoration project is learning how that coping mechanism functioned for <a href="https://bix.blog/posts/2023-09-25-the-identity-of-blogging-and-the-blogging-of-identity/" rel="noopener">previous versions of me</a>.</p>
-                    </section>
-
-                    <section>
-                        <h3>What does your creative process look like when it comes to blogging?</h3>
-                        <p>Simply put: I blog when I cannot not blog.</p>
-                        <p>Depending on the post and how time-sensitive it is or isn&rsquo;t, I might jot things down in Apple Notes (as I did with my initial pass at answers to these questions) before creating and saving a draft in Markdown on my laptop. Typically speaking, though, many if not most posts are written in one sitting, with a post now and then set aside for a second look later that day or the next morning before actually posting it. It&rsquo;s not unusual for me to spot typos or remember something I forgot to add within hours after a post goes live, in which cases I will make edits. In most cases where I need to come back to post to add something days later, I include an Addenda section at the bottom where I include those updates. Any farther out than that, and mostly I just write a new post.</p>
-                        <p>It&rsquo;s very rare for me to have posts &ldquo;banked&rdquo; for posting at a later date, like I know some other bloggers do, since publicly posting something is the final step to getting that thing out of my head where it&rsquo;s been taking up space&mdash;and also because blogging for me is an ongoing process of self-narration (and <a href="https://bix.blog/posts/2023-10-09-on-writing-toward-self-belief/" rel="noopener">self-belief</a>), which for me necessarily means it&rsquo;s got to be happening in real-time.</p>
-                        <p>For that same reason of self-narration, many of my posts necessarily link previous posts somehow relevant to the post at hand. While writing, I&rsquo;ll often have such posts in mind but don&rsquo;t bother to do the work of actually adding the links to them until the post is substantively written. Those linked posts then carry a &ldquo;referring posts&rdquo; section. In this way, my blog partakes of a tiny bit of &ldquo;digital garden&rdquo; magic (the digital garden being the other popular way in which people who make personal websites organize them) by helping to tie together my thinking on specific matters over time. My blog, then, becomes (somewhat <a href="https://bix.blog/posts/2021-09-10-smartphones-and-slime-molds/" rel="noopener">like my phone</a>) an external component of my autistic or otherwise-addled brain.</p>
-                        <p>As for what motivates me and the question of <em>what</em> I actually blog <em>about</em>: in the end anything and everything I write can&rsquo;t help but be about myself&mdash;whether the specifics of what I&rsquo;m writing about happen to be blogging itself, or a movie or television show I recently watched, or autism research, or the politics of solidarity. Over the past year or two, I&rsquo;ve become especially interested in how important it is for us to spend time letting each other know that we are seen and we are heard. (There&rsquo;s nothing quite like <a href="https://bix.blog/posts/2024-09-07-shoplifters-of-the-world-unite/" rel="noopener">blogging a movie</a> no one&rsquo;s seen, one that&rsquo;s emphatically <em>about</em> being seen and heard, and&mdash;this part, too, is in my manifesto post&mdash;having it make the filmmakers&rsquo; day.)</p>
-                        <p>All of this is subject to the whims of fatigue or, as has been the case lately, <a href="https://bix.blog/posts/2018-05-15-today-i-learned-about-autistic-burnout/" rel="noopener">autistic burnout</a>&mdash;which is why I&rsquo;ve not been blogging as much as I usually do, and why, in fact, it took me nearly two months just to answer these questions. Never before have I felt such cognitive paralysis and claustrophobia when attempting to write, which as you can imagine is <em>simply terrific</em> when writing is one of your self-regulating activities.</p>
-                    </section>
-
-                    <section>
-                        <h3>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h3>
-                        <p>Only very rarely can I write outside of the house&mdash;say, at one of my neighborhood coffeeshops.</p>
-                        <p>As I&rsquo;ve returned to again and again, my blogging is a sort of writing myself into existence and claiming the space I take up in the world, and this is a sensitive mindset that&rsquo;s, perhaps ironically, best protected by being alone and home instead of up and about and subject to the stressors of being autistic and anxious out in the world. This in part is because the &ldquo;spotlight effect&rdquo; is real, and if I&rsquo;m writing at a coffeeshop I can only do it with my back against the wall. (I mean that literally, not metaphorically.)</p>
-                        <p>It&rsquo;s extremely rare, although not completely unheard of, for me to have anything else going on around me, like a television show or music, when I am writing. If I do feel the need for music, it&rsquo;s generally going to be something instrumental like LoFi Girl playlists or the soundtracks to <em>Station Eleven</em> or <em>The Fallout</em> (of all things).</p>
-                        <p>It&rsquo;s fairly common, at least when it comes to my longer posts, and almost surely when it comes to my more discursive ones, to <a href="https://bix.blog/posts/2018-07-10-hyperfocus-versus-task-switching/" rel="noopener">fall into hyperfocus</a>. If you&rsquo;re autistic otherwise neurodivergent and know this state, this usually means looking up after an hour or two and realizing you&rsquo;re light-headed from forgetting to eat lunch and with a very pressing need to go to the bathroom&mdash;themselves two things perhaps better realized at home than at a neighborhood coffeeshop.</p>
-                    </section>
-
-                    <section>
-                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
-                        <p>Early this year, I <a href="https://bix.blog/posts/2025-03-01-these-go-to-eleventy/" rel="noopener">migrated to 11ty</a> after several false starts looking at various static site generators and failing to come to terms with them&mdash;despite the fact that once upon a time in the mid-2000s I self-hosted MoveableType on an OpenBSD box over my home DSL, so it&rsquo;s not like I&rsquo;m incapable of understanding things.</p>
-                        <p>Right now, posts are written in Panda, the stand-alone editor from the makers of Bear (the Markdown notes app, not the blogging service), on my MacBook Air where I have my local 11ty install. Recently, I switched from manually uploading the built site directory to Netlify to using continuous deploy via pushing to GitHub, after a timezone snag with the latter process finally was resolved. For the rare post that includes an image or two, I currently host those on some.pics, a service of omg.lol, because my blog previously was on their weblog.lol service and it&rsquo;s just easier to keep doing that for now. I&rsquo;m still a Flickr Pro member, so at some point I might switch over to them, since that&rsquo;s where all my photography is anyway, except that, even more rarely, sometimes I&rsquo;m posting a graphic instead of a photo, and those I do not also have on Flickr.</p>
-                        <p>(This is one way in which I miss the ease of an actual blogging CMS, but there currently aren&rsquo;t any such tools that don&rsquo;t frustrate me past my point of patience. When I win the lottery, I will pay someone to build me one that does everything I need, and only what I need. Ironically, all these ~~years~~ decades later, Blogger and MoveableType still had the right idea: a CMS that publishes a static site.)</p>
-                        <p>There might have been some early iteration of my blogging which was done manually, but if so it&rsquo;s lost to the <a href="https://bix.blog/posts/2020-06-14-on-autobiographical-memory/" rel="noopener">severely deficient autobiographical memory</a> and no archive exists. The earliest blogging software I would have used would have been Blogger, but (as noted) I spent many years self-hosting MoveableType over my home DSL, before moving on the WordPress for at least as long. Along the way I&rsquo;ve tried many different things, from TypePad to Tumblr, micro.blog to weblog.lol, Proseful to (the other) Bear to Pika. I think I even very briefly used really simple a shell script on a VPS.</p>
-                        <p>(Full disclosure: I fully admit to an ethical conflict when it comes to &ldquo;bullshit bots&rdquo;, or generative so-called AI. I dislike their misuse of copyrights, I dislike their climate impact, I dislike removing cognitive friction from creation, and I dislike that ultimately these bots will just keep narrowing the breadth of human knowledge and expression and everything becomes increasingly self-referential. Nonetheless, I&rsquo;ve used ChatGPT and GitHub Copilot when needing to solve specific technical challenges, especially when converting archived posts from previous blogs, or to create features such as my &ldquo;on this day&rdquo; and &ldquo;recently read blogs&rdquo; widgets. I am not a coder, and while I often can understand, for lack of a better way to say it, the <em>story</em> of a piece of code and make tiny, piecemeal adjustments to existing code because of that, I cannot myself code from scratch. My &ldquo;excuse&rdquo; in the end is inevitably a selfish one: the blog, in many ways, is all I have, and all that will be left of me when I am gone that said &ldquo;I was here&rdquo;, and I need it to function in a certain way. I&rsquo;m up front about this, because people have a right to call me a hypocrite. That said, as I <a href="https://bix.blog/posts/2026-01-02-slop-is-not-voice/" rel="noopener">recently announced</a>, it is my intention <em>not</em> to use these tools going forward, although any existing code will remain in use barring a clear route to replacement.)</p>
-                    </section>
-
-                    <section>
-                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
-                        <p>This is a pretty good example of the type of question I don&rsquo;t know how to answer. I started blogging within a particular context and at a particular time, and that context and time, and their circumstances and people, are ancestors to who I am today. I don&rsquo;t know how to blank out that past to imagine how I&rsquo;d do it now absent that history.</p>
-                        <p>More generally, if we take this question as advice to others: there&rsquo;s a saying (of a provenance I&rsquo;m not even going to attempt to trace) that the best time to plant a tree was twenty years ago&mdash;but the second-best time is now. I think we are right now living in the second-best time to start a blog, because there&rsquo;s a clear interest percolating in trying to re-center blogs in a way that hasn&rsquo;t been seen since before the combined rise of content marketing and Twitter, as seen by the advent of sites such as <a href="https://ooh.directory" rel="noopener">ooh.directory</a> and <a href="https://blogroll.org" rel="noopener">blogroll.org</a>. Perhaps all we&rsquo;re really lacking is something along the lines of Technorati and the other services that once existed to help us see not merely who is linking to what URLs but <em>who is linking to whom</em>. This unmet need, I feel, needs to be addressed if blogging truly is to become once again a blogosphere&mdash;or, more likely in this day and age, a whole, diverse, plural <a href="https://bix.blog/posts/2024-10-13-the-music-of-the-spheres/" rel="noopener">*set* of blogospheres</a>.</p>
-                        <p>Two years ago, I ran with an idea Kevin Lawver had of blogging as the <a href="https://bix.blog/posts/2023-12-04-the-great-empathy-engine/" rel="noopener">empathy engine</a> of the web, and in today&rsquo;s increasingly authoritarian environment we need more than ever as much <em>public</em> solidarity between and among <a href="https://bix.blog/posts/2023-06-15-normalize-being-whole-persons/" rel="noopener">whole persons</a> as we feel we safely can put online. We have a real chance to <a href="https://bix.blog/posts/2020-02-24-in-some-sense-its-interesting-that-i-had/" rel="noopener">reclaim an internet</a> where we are <em>people</em>, not users.</p>
-                        <p>For anyone reading these interviews who isn&rsquo;t themselves yet blogging: please start a blog. We need you here.</p>
-                        <p>(If someone is looking for some passionate motivation, I suggest watching <em>Pump Up the Volume</em>, the 1990 film that is the <a href="https://bix.blog/posts/2024-01-01-the-year-for-blogging-to-pump-up-the-volume/" rel="noopener">patron movie of blogging</a> despite pre-dating blogging itself. &ldquo;Talk hard.&rdquo;)</p>
-                    </section>
-
-                    <section>
-                        <h3>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h3>
-                        <p>It currently does not cost me anything to run my blog beyond the domain which isn&rsquo;t due for renewal until 2030, nor does it make any money.</p>
-                        <p>I&rsquo;m technically part of <a href="https://oneamonth.club" rel="noopener">One a Month Club</a>, but I don&rsquo;t really promote that beyond a site badge and in the footer of my RSS feed. However, I cap membership numbers because above a certain threshold it would affect my eligibility for SNAP and Medicaid benefits here in the U.S. without actually providing enough support to make up for those losses. (I&rsquo;d never actually reach those kinds of membership numbers anyway, but I&rsquo;d rather be safe than sorry.)</p>
-                        <p>More generally, people of course can do whatever they want with their personal blogs. That&rsquo;s what makes them personal. I&rsquo;d assume that I&rsquo;m more inclined to expect personal blogs not to be behind outright paywalls, but your mileage may vary. I don&rsquo;t have any inherent objection to blogging as a side-hustle, but blogs that specifically try to hustle readership behind paywalls or otherwise cumbersome hoops will tend to feel much less personal to me.</p>
-                        <p>That said, I&rsquo;ll readily admit to an outright bias against anyone whose primary purpose is &ldquo;content marketing&rdquo; or growth hacking, or who obsesses over things like SEO, because I believe that the focus on these things is part of what helped push blogs to the edges of the internet and mainstream irrelevancy around the same time that Twitter not only consumed the subset idea of microblogging but also made it explicitly&mdash;and frictionlessly&mdash;social.</p>
-                    </section>
-
-                    <section>
-                        <h3>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h3>
-                        <p>Recommendations are always difficult for me because my brain dislikes ranking things or people. It&rsquo;s why I don&rsquo;t rate books on Goodreads and why I don&rsquo;t rate movies on Letterboxd and simply mark the things I enjoyed. It&rsquo;s also why I don&rsquo;t maintain a blogroll, although I certainly did back in the OG blogging days.</p>
-                        <p>So, the first part of my answer here is going to be a bit of a cheat, if nonetheless a responsive one.</p>
-                        <p>At the bottom of the front page of my blog, above the four links to places to find more blogs, is what I&rsquo;ve referred to as a &ldquo;bloglog&rdquo; (what others lately have taken to calling a &ldquo;postroll&rdquo;). In my case it lists the ten blog posts by other people that I&rsquo;ve <em>actually read</em> most recently (or, at least, as of the last time my site was built)&mdash;and it&rsquo;s also available as <a href="https://www.instapaper.com/tags/blogs/rss/7468475/K9mrEvEaBVfz9QamKnSwXntpn5c" rel="noopener">an RSS feed</a>. It all runs off an Instapaper tag, and I&rsquo;m sure there&rsquo;s plenty of blogs there for people to discover.</p>
-                        <p>That said, I will offer a short list that splits the difference between some fellow OG bloggers, a couple of more recent finds, and some of the newer self-tagged &ldquo;word vomit&rdquo; bloggers on sites like Bear. This is less about placing any of these bloggers above any others in my estimation than about making some suggestions that help expand the types of bloggers represented in this series.</p>
-                        <ul>
-                            <li><a href="https://absurdpirate.com" rel="noopener">Absurd Pirate</a></li>
-                            <li><a href="https://doc.searls.com" rel="noopener">Doc Searls</a></li>
-                            <li><a href="https://kalilily.net" rel="noopener">Elaine</a> (my mom, who&rsquo;s been blogging as long as I have)</li>
-                            <li><a href="https://flamedfury.com" rel="noopener">fLaMEd</a></li>
-                            <li><a href="https://www.jessamyn.com" rel="noopener">Jessamyn West</a></li>
-                            <li><a href="https://meadow.cafe" rel="noopener">Meadow</a></li>
-                            <li><a href="https://mirroredworld.bearblog.dev" rel="noopener">Requiem</a></li>
-                            <li><a href="https://burningbird.net" rel="noopener">Shelley Powers</a></li>
-                            <li><a href="https://blog.sulimans.space/" rel="noopener">Suliman</a></li>
-                            <li><a href="https://tiramisu.bearblog.dev" rel="noopener">Tiramisu</a></li>
-                        </ul>
-                    </section>
-
-                    <section>
-                        <h3>Final question: is there anything you want to share with us?</h3>
-                        <p>Here I&rsquo;ll just crib a couple of projects from the &ldquo;sites&rdquo; section of my homepage.</p>
-                        <p>Since late 2001, around the time that so-called &ldquo;warblogging&rdquo; became a thing, I&rsquo;ve been hosting an ad- and cruft-free, minimalist presentation of <a href="https://warprayer.org" rel="noopener">Mark Twain&rsquo;s *The War Prayer*</a> which often finds itself shared with students by teachers. (It&rsquo;s also on my longest-running domain.)</p>
-                        <p>Two years ago I returned to the internet the complete archive of a <a href="https://thefingerpublishing.co" rel="noopener">shipyard workers zine</a> from World War II, updated my research into it, and this year I finally turned over the originals to Oregon Historical Society.</p>
-                        <p>Finally, although Joss Whedon became quite evidently problematic, I remain a fan of <a href="https://whatismiamadeof.com" rel="noopener">one of his unmade scripts</a>, which I wrote about nearly a decade ago because I appreciate its (workable? impractical?) ideal that there are no expendable people.</p>
-                        <p>(If I can tack on a postscript of sorts: given my eternal struggle <em>with my own ego</em>, I thank Manu for inviting me to participate in People and Blogs.)</p>
-                    </section>
-                </section>
-
-                <!-- Closing -->
-                <p>&bull;--&#9825;--&bull;</p>
-
-            </section>
-]]></content:encoded>
-      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://zacharykai.net/notes/pb/bix</guid>
-    </item>
-    <item>
-      <title>People and Blogs: V.H. Belvadi</title>
-      <link>https://zacharykai.net/notes/pb/belvadi</link>
-      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with V.H. Belvadi. Do go visit their blog an...</description>
-      <content:encoded><![CDATA[<section class="e-content">
-
-                <!-- Introduction -->
-                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with V.H. Belvadi. Do go visit <a href="https://vhbelvadi.com" rel="noopener">their blog</a> and say hello!</em></p>
-
-                <!-- Interview -->
-                <section>
-                    <h2>Interview</h2>
-
-                    <section>
-                        <h3>Let's start from the basics: can you introduce yourself?</h3>
-                        <p>I&rsquo;m currently a Trinity&ndash;Cambridge researcher at the University of Cambridge, pursuing my PhD on the development of climate models. I&rsquo;m also a researcher on the Cambridge ThinkLab group examining the credibility of AI models. My background is in condensed matter physics, which previously led to my research in astrophysics studying a type of eruptive variable star, and that in turn helped broaden my interests in the fascinating field of the history of science, about which I remain very passionate today.</p>
-                        <p>I&rsquo;ve enjoyed writing for as long as I can remember and I write on my website about a wide range of topics, but mostly centred around science, technology, history and society. I also run an <a href="https://vhbelvadi.com/newsletter" rel="noopener">infrequently despatched newsletter</a> that discusses similar themes. In my spare time I <a href="https://vhbelvadi.com/photography" rel="noopener">make photographs</a> and engage with my local photography club, read a lot, punt on the Cam, ride my Brompton, take long walks or participate in the Cambridge Union, which happens to be the world&rsquo;s oldest debating society.</p>
-                    </section>
-
-                    <section>
-                        <h3>What's the story behind your blog?</h3>
-                        <p>To be honest, it&rsquo;s quite unremarkable. I first came across the idea of a weblog through an explainer in a physical magazine. My earliest website was a bunch of hard-coded html pages uploaded to my ISP&rsquo;s free subdomain. I eventually moved to LiveJournal and then to Vox, which had just been launched (and about which I still have fond memories). In 2008 I moved to Wordpress, because that&rsquo;s where seemingly everyone was, and I stayed there for about eight years. Between 2016 and 2018, in search of better alternatives because I had started to feel Wordpress was bloated, I tried Kirby and then Hugo and finally Statamic. Over the years my blog has had many names, all of which are best forgotten. Today it&rsquo;s eponymous.</p>
-                        <p>My perennial motivation has been the joy of seeing my thoughts printed on screen. The general structure I have on my website now, besides my &lsquo;notes&rsquo;, has been the structure I&rsquo;ve had since the early 2000s. (My notes were on Tumblr.) Besides all that, I like that in my website I have a safe space in which to engage with a multitude of ideas and sharpen my thinking through my writing.</p>
-                    </section>
-
-                    <section>
-                        <h3>What does your creative process look like when it comes to blogging?</h3>
-                        <p>I&rsquo;m starting to get the feeling all my answers are going to be unremarkable. I don&rsquo;t really have a creative process mostly because I don&rsquo;t force myself to write at specific intervals for my website and because I find I do not work well with &lsquo;knowledge gathering&rsquo; disconnected from a purpose for that knowledge. What this means is that ideas incubate in my head as I read things, and over time one, or a set of ideas, will reach critical density, prompting me to write something. Consequently, by this point I usually know what I want to say, so I just sit down and write it.</p>
-                        <p>I already do a lot of writing as an academic and deal with plenty of deadlines, so the last thing I want is to replicate that environment on my personal website. As a result some things I do tend to be polar opposites: I keep no schedule, I give myself no deadlines, and I publish my first drafts &ndash; warts and all &ndash; with little proofreading, or throw away entire essays at times. This is not to say I never refine my writing, but I generally try not let a sense of perfection get in my way. I also, therefore, permit myself plenty of addenda and errata.</p>
-                        <p>I write in BBEdit and publish from BBEdit using SFTP. I have a bunch of scripts, clippings etc. on that wonderful programme and am yet to find an equal. If I am on my mobile I use the dashboard built into my site, but usually only for fixing typos and not for typing entire essays. I may type entire notes this way, however, because notes on my website are usually quite brief. And if I ever want to make note of something for later or return to a webpage, I either save it to my Safari reading list or make a note on Apple Notes. However, I rarely make separate, atomic notes anymore (I did try to at one point), choosing instead to write a few lines summarising a source and saving the source itself. In case of my RSS subscriptions (I use NetNewsWire) I star posts for later reference but prefer to read on the actual website, as the writer intended.</p>
-                    </section>
-
-                    <section>
-                        <h3>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h3>
-                        <p>I can write anywhere but there certainly are some things that make writing a more pleasant experience. <a href="https://vhbelvadi.com/music-creative-environment" rel="noopener">Good music has no equal</a> and I prefer classical music (which varies widely from Mozart to George Winston) or ambient works like those of Roger Eno and Enya; if push comes to shove, anything without words will do. I prefer quiet places, places from where I can see the natural world around me and a warm cup of coffee, none of which are absolute necessities. The environment on my computer is probably a bit more controlled: I like to write on BBEdit, as I said before, and in full screen with, perhaps, Safari on a neighbouring workspace.</p>
-                    </section>
-
-                    <section>
-                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
-                        <p>My website is hosted on a VPS with Hetzner, which I also use to self-host a few other things like a <a href="https://vhbelvadi.com/actualbudget" rel="noopener">budgeting software</a>, a <a href="https://vhbelvadi.com/zotero-webdav" rel="noopener">reference manager</a>, <a href="https://vhbelvadi.com/why-analytics" rel="noopener">Plausible</a> and Sendy. It runs on Statamic and is version-controlled with Git. My domain is registered with Cloudflare. In the past I used mostly shared hosting. I also maintain an updated list of <a href="https://vhbelvadi.com/hello" rel="noopener">stuff I use daily</a> on my website for some inexplicable reason.</p>
-                    </section>
-
-                    <section>
-                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
-                        <ol>
-                            <li>I would not waste my time on targeting niches and optimising for search engines, given my intentions with my website. I thought they were intended to grow traffic &ndash; as they are &ndash; but I came to realise that was not the sort of traffic I valued.</li>
-                            <li>I would prioritise platform agnosticism so I can move to better platforms in the future, should I choose to, without losing any of my work. I have lost much of my writings when jumping platforms in the past because I had to move my content over manually and chose to move select writings to save time. (Or was it because I was a bit lazy?)</li>
-                            <li>I would probably <em>not</em> delete my old work as I outgrow them, choosing instead to keep them private. I have, peculiarly and thoughtlessly, deleted my work at regular intervals multiple times in the past.</li>
-                        </ol>
-                    </section>
-
-                    <section>
-                        <h3>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h3>
-                        <p>It costs me about &pound;5 a month to run my website, including daily automated backups. I neither generate revenue through it now nor plan to in the future.</p>
-                        <p>I do not have thoughts on people monetising their personal blogs. However, if their attempts at doing so involve ruining their writing, presenting misleading content or plastering ads all over their page, I might not be inclined to return to their site or recommend it to others.</p>
-                        <p>I know how wonderful it felt when people showed support for my website <a href="https://vhbelvadi.com/donate" rel="noopener">through small donations</a> so I like to give similarly when I can afford to do so.</p>
-                    </section>
-
-                    <section>
-                        <h3>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h3>
-                        <p>Amongst those who have not already been interviewed on People &amp; Blogs, here are four people who are far more interesting than I am: <a href="https://hamatti.org" rel="noopener">Juha-Matti Santala</a>, <a href="http://pimoore.ca" rel="noopener">Pete Moore</a>, <a href="https://melanie-richards.com/blog/" rel="noopener">Melanie Richards</a> and <a href="https://z1nz0l1n.com" rel="noopener">Anthony Nelzin-Santos</a>. (This in no way means there isn&rsquo;t a fifth person more interesting than me.)</p>
-                    </section>
-
-                    <section>
-                        <h3>Final question: is there anything you want to share with us?</h3>
-                        <p>I feel a strong urge to apologise for my responses but I&rsquo;ll instead take a moment to nudge people to <a href="https://vhbelvadi.com/newsletter" rel="noopener">subscribe to my newsletter</a> if that&rsquo;s something they&rsquo;d like, or <a href="https://vhbelvadi.com" rel="noopener">visit my website</a> and start a conversation with me about something either they found interesting or with which they disagree.</p>
-                        <p>If you have 30 min to spare, head over to <a href="https://ncase.me/trust/" rel="noopener">ncase.me/trust/</a> for an interactive website designed to illustrate the evolution of trust according to game theory. But if you have less than 30 min, here&rsquo;s a <a href="https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html" rel="noopener">&lsquo;tediously accurate scale model&rsquo;</a> of the solar system that is the internet edition of Carl Sagan&rsquo;s pale blue dot.</p>
-                        <p>Besides all this, I&rsquo;d encourage people to help build a better, more inclusive and kinder world for everyone by engaging meaningfully both online and offline (although not at the cost of your own mental health). Slow down, read more books and please don&rsquo;t lose your attention span.</p>
-                    </section>
-                </section>
-
-                <!-- Closing -->
-                <p>&bull;--&#9825;--&bull;</p>
-
-            </section>
-]]></content:encoded>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://zacharykai.net/notes/pb/belvadi</guid>
     </item>
   </channel>
 </rss>
