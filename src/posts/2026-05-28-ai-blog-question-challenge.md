@@ -69,3 +69,5 @@ I have no idea how many people wrote about this challenge. But those I find are 
 4. [Haewyr](https://haewyr.mataroa.blog/blog/ai-blog-questions-challenge/)
 5. [Kev Quirk](https://kevquirk.com/ai-blog-questions-challenge)
 6. [Thomas Rigbi](https://thomasrigby.com/posts/ai-blog-question-challenge/)
+7. [Bongo Twisty](https://www.bongotwisty.blog/ai_blog_question_challenge/)
+8. [Firesphere.dev](https://firesphere.dev/articles/ai-blog-question-challenge)
