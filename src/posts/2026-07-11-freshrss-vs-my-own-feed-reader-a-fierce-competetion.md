@@ -2,6 +2,7 @@
 title: "FreshRSS vs My Own Feed Reader: A fierce competetion"
 date: 2026-07-11
 tags: ["self-hosting, tech"]
+location: "Brussels, Belgium"
 ---
 We all consume online content by different means.  The majority of the people prefer mainstream social media while a small number of people use newsletters or RSS/Atom feeds. I am in the latter group.
 

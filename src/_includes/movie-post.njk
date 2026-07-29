@@ -1,0 +1,78 @@
+---
+    layout: 'base.njk'
+---
+
+
+<article class="main-article movie-post">
+
+<h1 data-pagefind-meta="title">{{ title }}</h1>
+<h3>{{ page.date | postDate }}</h3>
+
+{% if tags %}
+<p>Tags:
+  {% for tag in tags %}
+    <a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% if not loop.last %} {% endif %}
+  {% endfor %}
+</p>
+{% endif %}
+
+{% if cover %}
+<section class="book-post-hero" aria-label="Movie details">
+  <div class="book-post-cover">
+    <img src="{{ cover | assetUrl }}" alt="Poster of {{ title }}">
+  </div>
+
+  <div class="movie-post-details">
+    <dl class="book-post-meta">
+      <div>
+        <dt>Title</dt>
+        <dd>{{ title }}</dd>
+      </div>
+
+      {% if director %}
+      <div>
+        <dt>Director</dt>
+        <dd>{{ director }}</dd>
+      </div>
+      {% endif %}
+
+      {% if rating %}
+      <div>
+        <dt>My rating</dt>
+        <dd>
+          <span class="book-post-stars" aria-label="{{ rating }} out of 5">
+            {% for i in range(5) %}{% if i < rating %}★{% else %}☆{% endif %}{% endfor %}
+          </span>
+          <span class="book-post-rating-text">{{ rating }}/5</span>
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if location %}
+      <div>
+        <dt>Location</dt>
+        <dd>{{ location }}</dd>
+      </div>
+      {% endif %}
+
+      <div>
+        <dt>Watched on</dt>
+        {% if wdate %}
+        <dd><time datetime="{{ wdate | isoDate }}">{{ wdate | postDate }}</time></dd>
+        {% else %}
+        <dd><time datetime="{{ page.date | isoDate }}">{{ page.date | postDate }}</time></dd>
+        {% endif %}
+      </div>
+    </dl>
+  </div>
+</section>
+{% endif %}
+
+<div class="container-narrow">
+          <main>
+            {{ content | safe }}
+        </main>
+</div>
+
+{% include "post-footer.njk" %}
+</article>

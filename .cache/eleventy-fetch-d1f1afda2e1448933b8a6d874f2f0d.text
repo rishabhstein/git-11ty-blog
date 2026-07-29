@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-07-29T10:36:52.974160+00:00</updated>
+  <updated>2026-07-29T12:42:30.842580+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -188,8 +188,8 @@ Keep posting if you don’t want to have a discussion.&lt;/p&gt;
 &lt;p&gt;Well, &lt;em&gt;we&lt;/em&gt; don't.&lt;/p&gt;
 &lt;p&gt;As Scholarch has discovered, this is not a democracy. We're at the mercy of a benevolent dictator. And Bear's &lt;a href='https://docs.bearblog.dev/code-of-conduct/'&gt;Code of Conduct&lt;/a&gt; is quite clear in showing the extent to which moderation is a subjective exercise. As far as I can tell, it's also a solitary one (correct me if I'm wrong). Which bullet point might Scholarch have violated in this case? Hard to say.&lt;/p&gt;
 &lt;p&gt;What's clear is that our content's continued existence, or at least exposure, on this platform is subject to rules that enjoy a generous degree of wiggle room. That means ambiguity. And how could it be any other way, with such a small team in charge? To build an exhaustive rubric for every possible moderation decision would be a full-time job by itself.&lt;/p&gt;
-&lt;p&gt;This is the price we pay (besides the subscription fee, that is), to use this platform and be promoted on its feed. It's the agreement we made the moment we signed up. And unless we host our own infrastructure down to the metal, there will always be someone else making these types of decisions.&lt;/p&gt;
-&lt;p&gt;A big part of Bear's appeal is the discover feed and access to eyeballs it provides. But it really is just a privilege to be there. I guess you could consider Herman's personal interpretation of the Code of Conduct as part of the algorithm. So far I haven't heard of anyone engage in good faith being totally wiped from the platform. But you never know.&lt;/p&gt;
+&lt;p&gt;This is the price we pay (besides the subscription fee, that is) to use this platform and be promoted on its feed. It's the agreement we made the moment we signed up. And unless we host our own infrastructure down to the metal, there will always be someone else making these types of decisions.&lt;/p&gt;
+&lt;p&gt;A big part of Bear's appeal is the discover feed and the exposure it offers. But it really is just a privilege to be there. I guess you could consider Herman's personal interpretation of the Code of Conduct as part of the algorithm. So far I haven't heard of anyone engage in good faith being totally wiped from the platform. But you never know.&lt;/p&gt;
 &lt;p&gt;So far I've seen much more good than bad here, and I really do want to see Bear host a variety of opinions and tough (but fair) conversations. I hope Scholarch and the other folks involved feel able to say exactly what they want to say, and to be able to "spar" a bit with anyone who's take a critical interest in their work. I hope Herman fosters an environment where this continues to be possible.&lt;/p&gt;
 </content>
     <link href="https://nate.spot/re-reconsidering-bearblog/" rel="alternate"/>
@@ -211,23 +211,6 @@ Personally, I enjoy the quiet and people minding their own business. Finding wel
 </content>
     <link href="https://actualspine.bearblog.dev/bearblog-is-not-social-media/" rel="alternate"/>
     <published>2026-07-27T06:45:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://dostoynikov.com/back-to-bearblog/</id>
-    <title>Back to Bearblog</title>
-    <updated>2026-07-27T10:16:00+00:00</updated>
-    <author>
-      <name>dostoynikov</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Hi.&lt;/p&gt;
-&lt;p&gt;Awhile ago &lt;a href='https://dostoynikov.bearblog.dev/moving-my-blog-from-bearblog-to-hugo-with-sourcehut-hosting/'&gt;I moved my blog setup from Bearblog to self-hosting setup&lt;/a&gt; because I love tinkering stuff and wanted to try challenge some coding, automation etc.&lt;/p&gt;
-&lt;p&gt;Well, life got busy and maintaining self-host stuff started to take some time because I have lots of other things to do as well. Being able to write my posts from any terminal and push them from there was really nice. Still, I decided to let self-hosting hobby go and just focus on writing so I'm back on Bearblog again. I'm glad I didn't delete my account from here. I migrated my posts back to here, hopefully, without any bugs.&lt;/p&gt;
-&lt;p&gt;I will be updating some pages and infos probably for next few days on my blog. If you find any bugs or weird stuff, please let me know.&lt;/p&gt;
-&lt;p&gt;I'm not sure if anyone still remembers me from Bearblog but I'm happy to be back.&lt;/p&gt;
-</content>
-    <link href="https://dostoynikov.com/back-to-bearblog/" rel="alternate"/>
-    <published>2026-07-27T10:16:00+00:00</published>
   </entry>
   <entry>
     <id>https://departure.blog/toast-button-post-tags/</id>
@@ -297,6 +280,23 @@ p.tags:not(
     <published>2026-07-28T22:18:00+00:00</published>
   </entry>
   <entry>
+    <id>https://dostoynikov.com/back-to-bearblog/</id>
+    <title>Back to Bearblog</title>
+    <updated>2026-07-27T10:16:00+00:00</updated>
+    <author>
+      <name>dostoynikov</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Hi.&lt;/p&gt;
+&lt;p&gt;Awhile ago &lt;a href='https://dostoynikov.bearblog.dev/moving-my-blog-from-bearblog-to-hugo-with-sourcehut-hosting/'&gt;I moved my blog setup from Bearblog to self-hosting setup&lt;/a&gt; because I love tinkering stuff and wanted to try challenge some coding, automation etc.&lt;/p&gt;
+&lt;p&gt;Well, life got busy and maintaining self-host stuff started to take some time because I have lots of other things to do as well. Being able to write my posts from any terminal and push them from there was really nice. Still, I decided to let self-hosting hobby go and just focus on writing so I'm back on Bearblog again. I'm glad I didn't delete my account from here. I migrated my posts back to here, hopefully, without any bugs.&lt;/p&gt;
+&lt;p&gt;I will be updating some pages and infos probably for next few days on my blog. If you find any bugs or weird stuff, please let me know.&lt;/p&gt;
+&lt;p&gt;I'm not sure if anyone still remembers me from Bearblog but I'm happy to be back.&lt;/p&gt;
+</content>
+    <link href="https://dostoynikov.com/back-to-bearblog/" rel="alternate"/>
+    <published>2026-07-27T10:16:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://winther.sysctl.dk/reading-books-on-your-phone/</id>
     <title>Reading books on your phone</title>
     <updated>2026-07-26T11:57:41.194126+00:00</updated>
@@ -317,7 +317,7 @@ p.tags:not(
       <name>folkmoss</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p class="post-meta"&gt; Last edited 3 days, 14 hours ago. &lt;/p&gt; 
+    <content type="html">&lt;p class="post-meta"&gt; Last edited 3 days, 16 hours ago. &lt;/p&gt; 
 &lt;p&gt;First off, before anything else, I just wanted to give a big thanks to everyone who emailed me regarding my &lt;a href='/digital-entertainment-with-zero-money/'&gt;last post&lt;/a&gt; — people sharing their own struggles, or with tips for getting free stuff, or simply to say they appreciate the post/my writing. Thank you thank you thank you. It's incredibly heartwarming to read others!&lt;/p&gt;
 &lt;p&gt;Now, having said that, it feels really weird when a post on this blog goes "viral". &lt;mark&gt;If I had a nickel for every time that happened, I'd have two nickels — which isn't a lot but it's weird that it happened twice.&lt;/mark&gt; And I guess that's the dichotomy of having a weblog. It's a log on the web, after all. For everyone to read. At least, this one is. But it's personal stuff. &lt;em&gt;My&lt;/em&gt; personal stuff. That, at the end of the day, I mostly write for myself, not others. &lt;strong&gt;I've never once started a blog thinking about becoming popular through it&lt;/strong&gt; (I'm not counting the time I started a newsletter on Substack as blogging, after all it was purely for professional reasons).&lt;/p&gt;
 &lt;p&gt;When I was a teen, I wrote to let the angst out and to connect with fellow angsty internet teens. We linked to each others' blogs and always left comments. It's funny thinking back, because I don't remember using RSS for blogs specifically, so I guess we'd always just keep commenting back and forth and visiting each others' web pages constantly. We didn't have a lot to do on the internet back then. lol First of all, there were no smartphones. All we had was a desktop computer. For me, I only had blogs, message boards, and ICQ. (For a little while I did use IRC, but it could get pretty scary; I met lots of creeps as a minor there and stopped logging in.)&lt;/p&gt;
@@ -497,6 +497,24 @@ You can reply via &lt;a href="/contact"&gt;email&lt;/a&gt; or leave a message on
     <published>2026-07-26T23:41:00+00:00</published>
   </entry>
   <entry>
+    <id>https://robertbirming.com/guess-im-trash/</id>
+    <title>I guess I’m trash</title>
+    <updated>2026-07-28T14:21:00+00:00</updated>
+    <author>
+      <name>robert</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I just listened to a documentary about Dolly Parton. What an icon!&lt;/p&gt;
+&lt;p&gt;Growing up in a religious home, there were strict rules about what to wear and how to look. One day, while she's in town with her mother, she sees a woman who's broken all those rules. She asks her mother about the woman, who replies that she's trash.&lt;/p&gt;
+&lt;p&gt;Dolly doesn't understand what her mother means. Trash compared to what? She just sees a beautiful woman and thinks that she would also like to look like that.&lt;/p&gt;
+&lt;p&gt;In an interview years later, she says, "If this is trash, then I guess I'm trash."&lt;/p&gt;
+&lt;p&gt;What an awesome approach to life. Being &lt;em&gt;yourself&lt;/em&gt; and doing &lt;em&gt;your&lt;/em&gt; thing, no matter if others consider it to be trash or treasure.&lt;/p&gt;
+&lt;p&gt;The world needs more Dollys.&lt;/p&gt;
+</content>
+    <link href="https://robertbirming.com/guess-im-trash/" rel="alternate"/>
+    <published>2026-07-28T14:21:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://fornoone.bearblog.dev/re-why-do-people-have-multiple-blogs/</id>
     <title>RE: Why do people have multiple blogs</title>
     <updated>2026-07-25T06:06:00+00:00</updated>
@@ -571,26 +589,5 @@ That blog is for my dad.&lt;/p&gt;
 </content>
     <link href="https://jottednotes.bearblog.dev/any-social-media-dyes-you/" rel="alternate"/>
     <published>2026-07-27T04:15:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://piimyon.bearblog.dev/who-would-ever-read-this/</id>
-    <title>Who would ever read this?</title>
-    <updated>2026-07-24T15:51:00+00:00</updated>
-    <author>
-      <name>piimyon</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Who would ever read something no more than a mindless babble?&lt;/p&gt;
-&lt;p&gt;I probably wouldn't. I am my own harshest critic. I think of my writings as mindless babble. They are. What value do they have for the world? Why would someone want to be interested in this?&lt;/p&gt;
-&lt;p&gt;And yet, I'd like to think that maybe someone would. Maybe someone does find this interesting.&lt;/p&gt;
-&lt;p&gt;It is the need to feel connected after all. I do want to feel seen and recognized for what I do. And what do I have? Nothing but my mind and words.&lt;/p&gt;
-&lt;p&gt;If I do not think of my own writing as something worth reading, why would someone else?&lt;/p&gt;
-&lt;p&gt;I write anyway, to try to break out of my own shell. I write, so that some future version of myself can remember me a bit differently. I am so much more. I eat, drink, sleep. I love people and their lives. I wish them live long and prosper.&lt;/p&gt;
-&lt;p&gt;But when it comes to my own life, I despise it. I look around and I feel disgusted. I get trapped in my own thoughts, waiting for someone to save me.&lt;/p&gt;
-&lt;p&gt;Looking back at these sentences, one pattern starts emerging: I. I keep talking about "I", myself. "I feel this way", "I think about that", and "I am doing this". I spend all my days being self-centered, wondering why I am feeling so utterly lonely.&lt;/p&gt;
-&lt;p&gt;Someone will be reading this. At least, future me will be reading this at some point. Sounds comforting to know that at least I still have myself to read my own writing.&lt;/p&gt;
-</content>
-    <link href="https://piimyon.bearblog.dev/who-would-ever-read-this/" rel="alternate"/>
-    <published>2026-07-24T15:51:00+00:00</published>
   </entry>
 </feed>

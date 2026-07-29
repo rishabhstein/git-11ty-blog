@@ -1,4 +1,4 @@
 {
     "tags": "movies",
-    "layout": "snap.njk"
+    "layout": "movie-post.njk"
 }

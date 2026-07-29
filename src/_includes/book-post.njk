@@ -23,6 +23,11 @@
   </div>
 
   <dl class="book-post-meta">
+    <div>
+      <dt>Title</dt>
+      <dd>{{ title | replace("Book review:", "") | trim }}</dd>
+    </div>
+
     {% if author %}
     <div>
       <dt>Author</dt>
