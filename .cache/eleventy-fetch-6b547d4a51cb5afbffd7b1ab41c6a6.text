@@ -12,13 +12,13 @@
 	<atom:link href="https://fyfluiddynamics.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://fyfluiddynamics.com</link>
 	<description>Celebrating the physics of all that flows</description>
-	<lastBuildDate>Mon, 29 Jun 2026 15:59:22 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 13 Jul 2026 20:05:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=7.0.1</generator>
+	<generator>https://wordpress.org/?v=7.0.2</generator>
 
 <image>
 	<url>https://fyfluiddynamics.com/wp-content/uploads/2019/11/FYFD_logo-150x150.png</url>
@@ -28,6 +28,333 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">169405895</site>	<item>
+		<title>Inside an Espresso Bed</title>
+		<link>https://fyfluiddynamics.com/2026/07/inside-an-espresso-bed/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/inside-an-espresso-bed/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Tue, 28 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[coffee]]></category>
+		<category><![CDATA[espresso]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[porous media]]></category>
+		<category><![CDATA[porous medium]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30959</guid>
+
+					<description><![CDATA[When pulling a shot of espresso, there are complicated physics at play. The ground coffee is tamped into a puck-like bed of grains, through which high-temperature, high-pressure water is forced. Here, researchers used X-ray tomography to visualize how and when water moves through the bed, which affects how flavors extract. In a finely ground bed, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">When pulling a shot of <a href="/tagged/coffee/">espresso</a>, there are complicated physics at play. The ground coffee is tamped into a puck-like bed of grains, through which high-temperature, high-pressure water is forced. Here, <a href="https://doi.org/10.1063/5.0245167">researchers used</a> X-ray tomography to <a href="/tagged/flow-visualization/">visualize</a> how and when water moves through the bed, which affects how flavors extract.</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="496" src="https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-1024x496.png" alt="Composite images of water penetrating a bed of finely ground coffee (left) and a bed of coarsely ground coffee (right)." class="wp-image-30960" srcset="https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-1024x496.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-300x145.png 300w, https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-768x372.png 768w, https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Composite images of water penetrating a bed of finely ground coffee (left) and a bed of coarsely ground coffee (right).</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">In a finely ground bed, water is relatively slow to penetrate the bed, but moves in fairly uniformly. Water can get into the coarse grind a little faster but does so less uniformly. With the new experimental technique in place, the team is interested in seeing how water temperature affects infiltration and what solids get extracted. (Image credit: top &#8211; <a href="https://unsplash.com/photos/white-ceramic-mug-with-coffee-CbBY9Q9m4fY">R. Wicks</a>, experiment &#8211; <a href="https://doi.org/10.1063/5.0245167">J. Foster et al.</a>; research credit: <a href="https://doi.org/10.1063/5.0245167">J. Foster et al.</a>; via <a href="https://physicsworld.com/a/coffee-with-a-splash-of-physics-how-to-make-the-most-out-of-your-brew/?nbd_source=3626823&amp;__readwiseLocation=">Physics World</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/inside-an-espresso-bed/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30959</post-id>	</item>
+		<item>
+		<title>Canyon Swirls</title>
+		<link>https://fyfluiddynamics.com/2026/07/canyon-swirls/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/canyon-swirls/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Mon, 27 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[eddies]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[geophysics]]></category>
+		<category><![CDATA[glacier]]></category>
+		<category><![CDATA[granular flow]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[satellite image]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30687</guid>
+
+					<description><![CDATA[For much of the year, Cañon Fiord in the Canadian Arctic lies under ice and snow, but in the summer melt season, colors peek out. Here sea ice and sediment swirl in the fjord in eddies that are kilometers wide. The sediment is largely glacial flour&#8211;rock that&#8217;s been ground into dust by glaciers. It provides [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">For much of the year, Cañon Fiord in the Canadian Arctic lies under ice and snow, but in the summer melt season, colors peek out. Here sea ice and sediment swirl in the fjord in eddies that are kilometers wide. The sediment is largely glacial flour&#8211;rock that&#8217;s been ground into dust by glaciers. It provides critical nutrients  for the marine ecosystem. (Image credit: L. Dauphin; via <a href="https://science.nasa.gov/earth/earth-observatory/canon-fiords-whirling-waters/?__readwiseLocation=">NASA Earth Observatory</a>)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="683" src="https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-1024x683.jpg" alt="Satellite image of sea ice and sediment swirling in Cañon Fiord." class="wp-image-30688" srcset="https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-1024x683.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-300x200.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-768x512.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main.jpg 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/canyon-swirls/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30687</post-id>	</item>
+		<item>
+		<title>Múlajökull</title>
+		<link>https://fyfluiddynamics.com/2026/07/mulajokull/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/mulajokull/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Fri, 24 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Art]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[geophysics]]></category>
+		<category><![CDATA[glacier]]></category>
+		<category><![CDATA[instability]]></category>
+		<category><![CDATA[meander]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[rivers]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31457</guid>
+
+					<description><![CDATA[Iceland&#8217;s Múlajökull glacier is prone to sudden surges, where rapid ice flow is interspersed between periods of quiescence or retreat. The isolated nature of the glacier and its marshy surroundings make approaching on foot almost impossible, but photographer Dani Guindo captured gorgeous aerial images of the glacier&#8217;s many rivulets ribboning about the landscape it&#8217;s carved. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/guindo-5-1024x683.jpeg" title="Image by Dani Guindo." alt="Image by Dani Guindo." /></div></div>
+
+
+
+<p class="wp-block-paragraph">Iceland&#8217;s Múlajökull <a href="/tagged/glacier/">glacier</a> is prone to sudden <a href="https://en.wikipedia.org/wiki/Surge_(glacier)">surges</a>, where rapid ice flow is interspersed between periods of quiescence or retreat. The isolated nature of the glacier and its marshy surroundings make approaching on foot almost impossible, but photographer Dani Guindo captured gorgeous aerial images of the glacier&#8217;s many rivulets ribboning about the landscape it&#8217;s carved. (Image credit: <a href="https://www.behance.net/daniguindo">D. Guindo</a>; via <a href="https://www.thisiscolossal.com/2026/03/dani-guindo-iceland-glaciers-landscape-photography/">Colossal</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/mulajokull/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31457</post-id>	</item>
+		<item>
+		<title>Convection Inside the Mantle</title>
+		<link>https://fyfluiddynamics.com/2026/07/convection-inside-the-mantle/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/convection-inside-the-mantle/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Thu, 23 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[buoyancy]]></category>
+		<category><![CDATA[convection]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[geophysics]]></category>
+		<category><![CDATA[mantle convection]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[seismic waves]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31424</guid>
+
+					<description><![CDATA[Most of what we know about Earth&#8217;s interior comes from observing how seismic waves&#8211;mostly from earthquakes&#8211;bounce around. As our observations have gotten better&#8211;more seisometers, better imaging techniques&#8211;scientists have identified two large anomalies sitting near the bottom of the mantle. Known as large low-velocity provinces, or LLVPs, these zones take up continent-sized areas beneath parts of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Most of what we know about Earth&#8217;s interior comes from observing how <a href="/tagged/seismic-waves/">seismic waves</a>&#8211;mostly from earthquakes&#8211;bounce around. As our observations have gotten better&#8211;more seisometers, better imaging techniques&#8211;scientists have identified two large anomalies sitting near the bottom of the mantle. Known as large low-velocity provinces, or LLVPs, these zones take up continent-sized areas beneath parts of Africa and the Pacific. </p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="318" src="https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-1024x318.png" alt="Seismic waves show lower speeds in large, continent-sized zones that sit beneath Africa and the Pacific. These large low-velocity provinces (LLVPs) are outlined in red." class="wp-image-31426" srcset="https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-1024x318.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-300x93.png 300w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-768x238.png 768w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-1536x477.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-2048x636.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Seismic waves show lower speeds in large, continent-sized zones that sit beneath Africa and the Pacific. These large low-velocity provinces (LLVPs) are outlined in red.</figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">The LLVPs are hot, which would normally make them <a href="/tagged/buoyancy">buoyant</a>, but their stationary nature suggests they are made up of extremely dense material. Narrow plumes of hot material make their way up from the LLVPs to form <a href="/tagged/volcano/">volcanic</a> hotspots like those that made the Hawaiian and <a href="/tagged/Galapagos/">Galapagos Islands</a>. Balancing that upward <a href="/tagged/convection/">convection</a> is the downward convection of former tectonic material carried into the mantle at <a href="https://en.wikipedia.org/wiki/Subduction">subduction zones</a>. </p>
+
+
+
+<p class="wp-block-paragraph">What the LLVPs are made of remains an active research question. <a href="https://www.nature.com/articles/s41586-023-06589-1">One suggestion</a> is that they contain remnants of Theia, the planet thought to have impacted the proto-Earth to form our Moon. (Image credits: <a href="https://doi.org/10.1063/pt.mzrx.ddag">E. Garnero and C. Richardson</a>; see also <a href="https://doi.org/10.1063/pt.mzrx.ddag">Physics Today</a>)</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="974" src="https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-1024x974.png" alt="Illustration showing convection in the Earth's inner mantle. Former tectonic material subducts downward in dark blue zones. The large low-velocity provinces (LLVPs) are shown in orange. Hot-spot volcanic activity is seen at the surface (black triangles) above narrow plumes that lift material from the LLVPs toward the surface." class="wp-image-31425" srcset="https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-1024x974.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-300x285.png 300w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-768x731.png 768w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-1536x1461.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-2048x1948.png 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Illustration showing convection in the Earth&#8217;s inner mantle. Former tectonic material subducts downward in dark blue zones. The large low-velocity provinces (LLVPs) are shown in orange. Hot-spot volcanic activity is seen at the surface (black triangles) above narrow plumes that lift material from the LLVPs toward the surface.</figcaption></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/convection-inside-the-mantle/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31424</post-id>	</item>
+		<item>
+		<title>Even Penguins Love Bubbles</title>
+		<link>https://fyfluiddynamics.com/2026/07/even-penguins-love-bubbles/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/even-penguins-love-bubbles/#comments</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Wed, 22 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[penguins]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[soap bubbles]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31695</guid>
+
+					<description><![CDATA[Walter, a young African penguin at the New York Aquarium, loves soap bubbles. In fairness to Walter, so do most people I&#8217;ve met. There&#8217;s just something that feels a bit magical about these ephemeral rainbow spheres that pop at a (dry) touch. Bubbles owe their colors to thin film interference&#8211;the colors actually indicate how thick [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Walter, a young African penguin at the New York Aquarium, loves <a href="/tagged/soap-bubbles/">soap bubbles</a>. In fairness to Walter, so do most people I&#8217;ve met. There&#8217;s just something that feels a bit magical about these ephemeral rainbow spheres that pop at a (dry) touch. </p>
+
+
+
+<p class="wp-block-paragraph">Bubbles owe their colors to <a href="/tagged/interference/">thin film interference</a>&#8211;the colors actually indicate how thick the bubble film is&#8211;and their stability (and fast disintegration) to <a href="/tagged/surface-tension/">surface tension</a>. With <a href="/2025/05/soap-bubble-bonanza/">schlieren photography</a> or <a href="/2024/01/inside-a-soap-bubble/">flow visualization</a>, watching bubbles gets even cooler. Do you suppose a penguin would <a href="/2022/04/within-the-bubbles-pop/">appreciate bubbles popping at 50,000 fps</a>? (Image credit: <a href="https://www.instagram.com/p/DZxtZp-Ftn1/?hl=en">New York Aquarium</a>; via <a href="https://www.popsci.com/environment/walter-the-penguin-loves-popping-bubbles/?__readwiseLocation=">PopSci</a>)</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="748" height="835" src="https://fyfluiddynamics.com/wp-content/uploads/penguin_bubbles_main.jpg" alt="Walter the African Penguin enjoys popping bubbles." class="wp-image-31697" srcset="https://fyfluiddynamics.com/wp-content/uploads/penguin_bubbles_main.jpg 748w, https://fyfluiddynamics.com/wp-content/uploads/penguin_bubbles_main-269x300.jpg 269w" sizes="auto, (max-width: 748px) 100vw, 748px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/even-penguins-love-bubbles/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31695</post-id>	</item>
+		<item>
+		<title>Where Waves Carry Plastics</title>
+		<link>https://fyfluiddynamics.com/2026/07/where-waves-carry-plastics/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/where-waves-carry-plastics/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Tue, 21 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[ocean waves]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[plastic pollution]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[stokes drift]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31590</guid>
+
+					<description><![CDATA[The classic theory of steady wave motion predicts a phenomenon called Stokes drift, in which particles spread horizontally in the direction of wave travel. That means that something like microplastics will drift in the direction that waves are traveling. But in the real world, ocean waves aren&#8217;t quite so neat and unchanging. A new study [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">The classic theory of steady wave motion predicts a phenomenon called <a href="https://en.wikipedia.org/wiki/Stokes_drift">Stokes drift</a>, in which particles spread horizontally in the direction of wave travel. That means that something like microplastics will drift in the direction that waves are traveling. But in the real world, ocean waves aren&#8217;t quite so neat and unchanging. A <a href="https://iopscience.iop.org/article/10.1209/0295-5075/ae7abb#epl26100131s4">new study</a> looks at what happens when waves are decaying in strength&#8211;in other words, what happens in our world when the wind dies down.</p>
+
+
+
+<p class="wp-block-paragraph">In those circumstances, the researchers found that particles did not just drift horizontally&#8211;they drifted vertically, too. Further, how much a particle drifts vertically depends on its initial depth. Since plastics vary in their buoyancy&#8211;and can be found in varying numbers and sizes throughout the upper layer of the ocean&#8211;this mechanism could significantly affect how waves mix and transport pollution. (Image credit: <a href="https://unsplash.com/photos/white-and-brown-boats-on-blue-sea-water-during-daytime-2St3S36Gu7w">N. Jensen</a>; research credit: <a href="https://iopscience.iop.org/article/10.1209/0295-5075/ae7abb#epl26100131s4">T. Izawa et al.</a>; via <a href="https://physicsworld.com/a/new-model-of-ocean-waves-sheds-fresh-light-on-the-spread-of-microplastic-pollution/?nbd_source=3626823&amp;__readwiseLocation=">Physics World</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/where-waves-carry-plastics/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31590</post-id>	</item>
+		<item>
+		<title>Making Quieter Shock Waves</title>
+		<link>https://fyfluiddynamics.com/2026/07/making-quieter-shock-waves/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/making-quieter-shock-waves/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Mon, 20 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[schlieren photography]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[shockwave]]></category>
+		<category><![CDATA[supersonic]]></category>
+		<category><![CDATA[supersonic flight]]></category>
+		<category><![CDATA[supersonic wind tunnel]]></category>
+		<category><![CDATA[wind tunnel testing]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31735</guid>
+
+					<description><![CDATA[NASA&#8217;s X-59 aircraft is intended to demonstrate supersonic flight without the boom. Although it&#8217;s broken into supersonic speeds, we haven&#8217;t yet heard its &#8220;sonic thump&#8221; because, so far, it&#8217;s been accompanied by conventional supersonic aircraft, which are louder. The idea behind the long, skinny X-59 is to create weaker, widely-spaced shocks along the aircraft body. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">NASA&#8217;s X-59 aircraft is intended to demonstrate <a href="/tagged/supersonic/">supersonic</a> flight without the boom. Although it&#8217;s broken into supersonic speeds, we haven&#8217;t yet heard its &#8220;sonic thump&#8221; because, so far, it&#8217;s been accompanied by conventional supersonic aircraft, which are louder.</p>
+
+
+
+<p class="wp-block-paragraph">The idea behind the long, skinny X-59 is to create weaker, widely-spaced <a href="/tagged/shockwave/">shocks</a> along the aircraft body. Weaker shocks are easier for atmospheric effects to damp out before they reach the ground, and  spacing them out makes it harder for them to &#8220;pile up&#8221; at the nose and tail to create the strong double shocks that merge into a sonic boom.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://fyfluiddynamics.com/wp-content/uploads/x59_shock-1024x576.png" alt="Schlieren image of a model X-59 tested at supersonic conditions in a wind tunnel." class="wp-image-31739" srcset="https://fyfluiddynamics.com/wp-content/uploads/x59_shock-1024x576.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/x59_shock-300x169.png 300w, https://fyfluiddynamics.com/wp-content/uploads/x59_shock-768x432.png 768w, https://fyfluiddynamics.com/wp-content/uploads/x59_shock.png 1280w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Schlieren image of a model X-59 tested at supersonic conditions in a wind tunnel. The model is mounted upside-down. The three dark diagonal lines are shock waves originating from the wind tunnel and can be ignored. The fainter lines coming off parts of the aircraft model are the plane&#8217;s shock waves. </figcaption></figure>
+
+
+
+<p class="wp-block-paragraph">NASA is preparing to test the X-59&#8217;s in-flight shocks soon, including with <a href="https://ntrs.nasa.gov/citations/20210024873">in-air schlieren photography</a> like they&#8217;ve <a href="/2019/03/this-week-nasa-released-the-first-ever-image-of/">done in the past</a> for other aircraft. But we&#8217;ve already have a glimpse of what to expect, thanks to <a href="https://ntrs.nasa.gov/citations/20220010676">wind tunnel testing</a>, shown above. Ignore the three dark diagonal lines in the middle of the image (those are from the wind tunnel, not the model aircraft), and focus instead on the thin bright lines coming off the plane. Those are some impressively subtle shock waves! </p>
+
+
+
+<p class="wp-block-paragraph">Hear more from the aircraft&#8217;s designer and test pilots in this <a href="https://arstechnica.com/gadgets/2026/06/nasas-x-59-frankenjet-tests-supersonic-flight-without-the-sonic-boom/?__readwiseLocation=">Ars Technica article</a>. (Image credit: NASA; see also: <a href="https://arstechnica.com/gadgets/2026/06/nasas-x-59-frankenjet-tests-supersonic-flight-without-the-sonic-boom/?__readwiseLocation=">Ars Technica</a>, <a href="https://ntrs.nasa.gov/citations/20220010676">M. Ahaus et al.</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/making-quieter-shock-waves/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31735</post-id>	</item>
+		<item>
+		<title>Pacific Surf</title>
+		<link>https://fyfluiddynamics.com/2026/07/pacific-surf/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/pacific-surf/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Fri, 17 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Art]]></category>
+		<category><![CDATA[breaking wave]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[fluids as art]]></category>
+		<category><![CDATA[ocean waves]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31447</guid>
+
+					<description><![CDATA[Life in Venice Beach lends itself to wave-watching, or so it seems for photographer Craig Hubbard. His portraits of waves and surfers are ethereal, every swell capped by a cloud-like swath of spray. Somehow, every photographer seems to capture breaking waves a little differently! (Image credit: C. Hubbard; via Colossal)]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/hubbard-6-999x1024.jpg" title="Image by Craig Hubbard." alt="Image by Craig Hubbard." /></div></div>
+
+
+
+<p class="wp-block-paragraph">Life in Venice Beach lends itself to <a href="/tagged/ocean-waves/">wave-watching</a>, or so it seems for photographer Craig Hubbard. His portraits of waves and surfers are ethereal, every swell capped by a cloud-like swath of spray. Somehow, every photographer seems to capture <a href="/tagged/breaking-wave/">breaking waves</a> a little differently! (Image credit: <a href="https://www.shotswithcraig.com">C. Hubbard</a>; via <a href="https://www.thisiscolossal.com/2026/06/craig-hubbard-surf-ocean-waves-photos/">Colossal</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/pacific-surf/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31447</post-id>	</item>
+		<item>
+		<title>A Fluidic Space Telescope</title>
+		<link>https://fyfluiddynamics.com/2026/07/a-fluidic-space-telescope/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/a-fluidic-space-telescope/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Thu, 16 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[numerical simulation]]></category>
+		<category><![CDATA[optics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[surface tension]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31563</guid>
+
+					<description><![CDATA[A telescope&#8217;s resolution is set by the size of its reflective surface. Our largest space telescope, JWST, has a 6.5-meter reflector, the largest we could manage given manufacturing constraints and the need to launch it in a rocket. To reach even larger sizes, researchers are considering a new type of reflector: one made of liquid. [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">A telescope&#8217;s <a href="https://en.wikipedia.org/wiki/Angular_resolution">resolution</a> is set by the size of its reflective surface. Our largest space telescope, <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>, has a 6.5-meter reflector, the largest we could manage given manufacturing constraints and the need to launch it in a rocket. To reach even larger sizes, researchers are considering a new type of reflector: <a href="https://www.nasa.gov/science-research/astrophysics/what-is-the-fluidic-telescope/">one made of liquid</a>.</p>
+
+
+
+<p class="wp-block-paragraph">A fluidic telescope has some obvious advantages: surface tension makes it atomically smooth, and liquids can be packed into any convenient shape for launch. But there are challenges, also. Like, what happens to the reflector when you point it in an new direction?</p>
+
+
+
+<p class="wp-block-paragraph">That&#8217;s what <a href="https://doi.org/10.1103/dpk3-4256">this study</a> looks at, mathematically. Using a mathematical model of a 50-meter-wide, millimeter-thick fluid, the researchers analyzed how different maneuvers over the telescope&#8217;s lifetime would affect the image quality. </p>
+
+
+
+<p class="wp-block-paragraph">Shifting the reflector creates perturbations in the surface, initially at the mirror&#8217;s edges. Over time, those perturbations move toward the center of the mirror and, at the same time, decay. The team found that, while typical space telescope operations distorted parts of the mirror beyond the limits of good optical quality, the inner 80% of the mirror could remain undisturbed for twenty or more years. That would be like having a 40-meter telescope in orbit with more than 6x the resolution of JWST. (Image credit: <a href="https://www.nasa.gov/science-research/astrophysics/what-is-the-fluidic-telescope/">NASA</a>; research credit: <a href="https://doi.org/10.1103/dpk3-4256">I. Gabay et al.</a>)</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="569" src="https://fyfluiddynamics.com/wp-content/uploads/flute_main-1024x569.png" alt="An artist's conception of a fluidic space telescope, made with a liquid reflecting surface tens of meters wide." class="wp-image-31565" srcset="https://fyfluiddynamics.com/wp-content/uploads/flute_main-1024x569.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/flute_main-300x167.png 300w, https://fyfluiddynamics.com/wp-content/uploads/flute_main-768x427.png 768w, https://fyfluiddynamics.com/wp-content/uploads/flute_main-1536x853.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/flute_main.png 2000w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/a-fluidic-space-telescope/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31563</post-id>	</item>
+		<item>
 		<title>Mirabilite Mounds at Great Salt Lake</title>
 		<link>https://fyfluiddynamics.com/2026/07/mirabilite-mounds-at-great-salt-lake/</link>
 					<comments>https://fyfluiddynamics.com/2026/07/mirabilite-mounds-at-great-salt-lake/#respond</comments>
@@ -55,7 +382,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="616" src="https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-1024x616.jpg" alt="Diagram showing salty springs feeding upward through layers of mirabilite to form a mound aboveground." class="wp-image-31420" srcset="https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-1024x616.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-300x180.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-768x462.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-1536x923.jpg 1536w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram.jpg 1652w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Diagram showing how a salt-laden spring pushing upward through the mirabilite layer can then form mounds at the surface when the dissolved mirabilite recrystallizes after the water evaporates.</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="616" src="https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-1024x616.jpg" alt="Diagram showing salty springs feeding upward through layers of mirabilite to form a mound aboveground." class="wp-image-31420" srcset="https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-1024x616.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-300x180.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-768x462.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-1536x923.jpg 1536w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram.jpg 1652w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Diagram showing how a salt-laden spring pushing upward through the mirabilite layer can then form mounds at the surface when the dissolved mirabilite recrystallizes after the water evaporates.</figcaption></figure>
 
 
 
@@ -63,7 +390,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="467" height="360" src="https://fyfluiddynamics.com/wp-content/uploads/mirabilite_main.gif" alt="A timelapse showing mirabilite mounds forming." class="wp-image-31421"/><figcaption class="wp-element-caption">A timelapse showing the formation of mirabilite mounds.</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="467" height="360" src="https://fyfluiddynamics.com/wp-content/uploads/mirabilite_main.gif" alt="A timelapse showing mirabilite mounds forming." class="wp-image-31421"/><figcaption class="wp-element-caption">A timelapse showing the formation of mirabilite mounds.</figcaption></figure>
 
 
 
@@ -75,322 +402,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">31419</post-id>	</item>
-		<item>
-		<title>Droplets Can Climb Sugar Fibers</title>
-		<link>https://fyfluiddynamics.com/2026/07/droplets-can-climb-sugar-fibers/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/droplets-can-climb-sugar-fibers/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Tue, 14 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[dissolution]]></category>
-		<category><![CDATA[droplets]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[surface tension]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31524</guid>
-
-					<description><![CDATA[In nature, droplets and fibers can meet on a spider&#8217;s web, on fur, or on a dew-gathering cactus. Here, researchers explore what happens when the droplet can dissolve the fiber it&#8217;s suspended on. As the authors note, a lumberjack who cuts the branch they sit on makes a fatal choice. The droplet sees a different [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">In nature, droplets and fibers can meet on a spider&#8217;s web, <a href="/tagged/hairy-surfaces/">on fur</a>, or on a <a href="/2015/12/desert-dwelling-plants-like-cactuses-have-to-be/">dew-gathering cactus</a>. Here, <a href="https://doi.org/10.1103/p39v-8wss">researchers explore</a> what happens when the droplet can dissolve the fiber it&#8217;s suspended on. As the authors note, a lumberjack who cuts the branch they sit on makes a fatal choice. The droplet sees a different outcome. </p>
-
-
-
-<p class="wp-block-paragraph">As the droplet hangs on the fiber, it <a href="/tagged/dissolution">dissolves</a> the fiber&#8217;s sugar. Dense, sugar-laden water flows downward along the fiber and a replenishing upward flow goes along the droplet&#8217;s exterior. Because the sugar concentration is lower near the top of the drop, the fiber thins most quickly there.</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="648" height="952" src="https://fyfluiddynamics.com/wp-content/uploads/sugar_fiber_close.gif" alt="A droplet at the end of a sugar fiber dissolves the fiber, then &quot;jumps&quot; up to the next intact section." class="wp-image-31527"/><figcaption class="wp-element-caption">A droplet hanging at the end of a sugar fiber dissolves the fiber and then &#8220;jumps&#8221; upward to the next intact portion.</figcaption></figure>
-
-
-
-<p class="wp-block-paragraph">The droplet has capillary forces along its top and bottom, where it meets the fiber. At the top, the droplet is free to expand, wetting more fiber, but the bottom of the drop is pinned to the fiber. The excess capillary force there goes into compressing the fiber. </p>
-
-
-
-<p class="wp-block-paragraph">As soon as the fiber breaks, the capillary force is no longer balanced, and the droplet jumps upward. If the drop and fiber are sized just right, the drop will jump upward enough to stay attached to the fiber instead of falling off. (Image and research credit: <a href="https://doi.org/10.1103/p39v-8wss">S. Dorbolo et al.</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/droplets-can-climb-sugar-fibers/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31524</post-id>	</item>
-		<item>
-		<title>Inside the LA Aquaduct</title>
-		<link>https://fyfluiddynamics.com/2026/07/inside-the-la-aquaduct/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/inside-the-la-aquaduct/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Mon, 13 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[channel flow]]></category>
-		<category><![CDATA[civil engineering]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[infrastructure]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30835</guid>
-
-					<description><![CDATA[In the early twentieth century, Los Angeles had capital and political willpower, but not water. So it built an engineering marvel, the LA Aquaduct, to guide water from the Sierra Nevadas down to the growing city. Grady gets into the literal (and figurative) ups and downs of the project in this Practical Engineering video. Although [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/LAaquaduct1-1024x576.png" title="The Cascades are a part of LA&#039;s aquaduct, where water from the Sierra Nevadas flows into the city." alt="The Cascades are a part of LA&#039;s aquaduct, where water from the Sierra Nevadas flows into the city." /></div></div>
-
-
-
-<p class="wp-block-paragraph">In the early twentieth century, Los Angeles had capital and political willpower, but not water. So it built an engineering marvel, the LA Aquaduct, to guide water from the Sierra Nevadas down to the growing city. Grady gets into the literal (and figurative) ups and downs of the project in this Practical Engineering video.</p>
-
-
-
-<p class="wp-block-paragraph">Although the engineering prowess of the aquaduct system is impressive, as Grady points out, the LA Aquaduct&#8217;s story is much more complicated than the engineering needed to move water between two points. It&#8217;s a story where greed, corruption, politics, cultural impact, environment effects, and climate change all intersect. (Video and image credit: Practical Engineering)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/inside-the-la-aquaduct/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">30835</post-id>	</item>
-		<item>
-		<title>&#8220;Tadpoles: The Big Little Migration&#8221;</title>
-		<link>https://fyfluiddynamics.com/2026/07/tadpoles-the-big-little-migration/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/tadpoles-the-big-little-migration/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Fri, 10 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Art]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[swimming]]></category>
-		<category><![CDATA[tadpoles]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31435</guid>
-
-					<description><![CDATA[Amphibians like toads are often indicator species for their ecosystem because they are vulnerable to changes on both land and water. In this short film, videographer Maxwel Hohn follows the migration of western toad tadpoles in British Columbia, showing their daily underwater journey from deep waters, where they can hide, to warmer, shallow waters, where [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/tadpoles6-1024x576.png" title="From &quot;Tadpoles: The Big Little Migration&quot; by Maxwel Hohn." alt="From &quot;Tadpoles: The Big Little Migration&quot; by Maxwel Hohn." /></div></div>
-
-
-
-<p class="wp-block-paragraph">Amphibians like toads are often indicator species for their ecosystem because they are vulnerable to changes on both land and water. In this short film, videographer Maxwel Hohn follows the migration of western toad <a href="/2020/02/to-beat-surface-tension-tadpoles-make-bubbles/">tadpoles</a> in British Columbia, showing their daily underwater journey from deep waters, where they can hide, to warmer, shallow waters, where they eat. Over the days and weeks of their early life, millions of tadpoles make the journey, their bodies morphing as they do. Eventually, they will hop away as toadlets. (Video and image credit: <a href="https://www.maxwelhohn.com">M. Hohn et al.</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/tadpoles-the-big-little-migration/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31435</post-id>	</item>
-		<item>
-		<title>Burning Oil Spills With Fire Whirls</title>
-		<link>https://fyfluiddynamics.com/2026/07/burning-oil-spills-with-fire-whirls/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/burning-oil-spills-with-fire-whirls/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Thu, 09 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[combustion]]></category>
-		<category><![CDATA[fire tornado]]></category>
-		<category><![CDATA[fire whirl]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[oil spill]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[pollution]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30819</guid>
-
-					<description><![CDATA[Though they are relatively infrequent, large marine oil spills, like 2010&#8217;s Deepwater Horizon, are devastating and incredibly difficult to clean up. In many locations, the &#8220;best&#8221; option for responding to such disasters is burning off the oil before it can absorb enough water to sink. But these floating fires leave behind unburned oil and produce [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Though they are relatively infrequent, large marine <a href="/tagged/oil-spill/">oil spills</a>, like 2010&#8217;s Deepwater Horizon, are devastating and incredibly difficult to clean up. In many locations, the &#8220;best&#8221; option for responding to such disasters is burning off the oil before it can absorb enough water to sink. But these floating fires leave behind unburned oil and produce soot. To enhance the burn, <a href="https://doi.org/10.1016/j.fuel.2025.136093">researchers are looking</a> at the possibility of triggering large-scale <a href="/tagged/fire-whirl/">fire whirls</a>.</p>
-
-
-
-<p class="wp-block-paragraph">Often seen in wildfires, these fire vortices are intense and localized. Researchers made a more than 5-meter tall version in these experiments by arranging three walls that spun up the in-flowing air. The fire whirl sat above a pool of water topped in a layer of oil that served as the whirl&#8217;s fuel.</p>
-
-
-
-<p class="wp-block-paragraph">Within the whirl, the fire&#8217;s burn rate was 40% higher than a typical pool fire, and soot production was 40% lower&#8211;showing that fire whirls can burn cleaner. But the whirls are more finicky to start and maintain. It&#8217;s not yet clear whether such intense whirls are possible in the chaotic conditions on the ocean. (Research and image credit: <a href="https://doi.org/10.1016/j.fuel.2025.136093">W. Cui et al.</a>; via <a href="https://doi.org/10.1029/2026EO260158">Eos</a>)</p>
-
-
-
-<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="575" src="https://fyfluiddynamics.com/wp-content/uploads/fire_whirl_exp1-1024x575.jpeg" alt="View of a large-scale fire whirl experiment built around an oil spill on a pool." class="wp-image-30822" srcset="https://fyfluiddynamics.com/wp-content/uploads/fire_whirl_exp1-1024x575.jpeg 1024w, https://fyfluiddynamics.com/wp-content/uploads/fire_whirl_exp1-300x169.jpeg 300w, https://fyfluiddynamics.com/wp-content/uploads/fire_whirl_exp1-768x432.jpeg 768w, https://fyfluiddynamics.com/wp-content/uploads/fire_whirl_exp1-1536x863.jpeg 1536w, https://fyfluiddynamics.com/wp-content/uploads/fire_whirl_exp1.jpeg 1600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/burning-oil-spills-with-fire-whirls/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">30819</post-id>	</item>
-		<item>
-		<title>Fixing Mosul Dam</title>
-		<link>https://fyfluiddynamics.com/2026/07/fixing-mosul-dam/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/fixing-mosul-dam/#comments</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Wed, 08 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[civil engineering]]></category>
-		<category><![CDATA[civil infrastructure]]></category>
-		<category><![CDATA[dams]]></category>
-		<category><![CDATA[dissolution]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31068</guid>
-
-					<description><![CDATA[Keeping the water in a reservoir is an obvious challenge for any dam. But for Iraq&#8217;s Mosul Dam, it&#8217;s especially challenging because the dam was built on a foundation of gypsum, a highly water-soluble mineral. Since it was built, Mosul Dam&#8217;s water has been eating away at the underlying bedrock, making sinkholes, forcing gaps, and [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/mosul1-1024x576.png" title="Mosul Dam in Iraq was built with a critical flaw: a foundation of very water-soluble gypsum." alt="Mosul Dam in Iraq was built with a critical flaw: a foundation of very water-soluble gypsum." /></div></div>
-
-
-
-<p class="wp-block-paragraph">Keeping the water in a reservoir is an obvious challenge for any dam. But for Iraq&#8217;s Mosul Dam, it&#8217;s especially challenging because the dam was built on a foundation of gypsum, a highly water-soluble mineral. Since it was built, Mosul Dam&#8217;s water has been eating away at the underlying bedrock, making sinkholes, forcing gaps, and generally working its way out. That, obviously, creates a huge risk for dam failure and massive downstream flooding.</p>
-
-
-
-<p class="wp-block-paragraph">To get the dam stabilized&#8211;at least to a point where Iraqi engineers could keep up with filling the holes as they form&#8211;took a massive international engineering project, carried out in the shadow of armed conflict. (Video and image credit: Practical Engineering)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/fixing-mosul-dam/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31068</post-id>	</item>
-		<item>
-		<title>The Disappearing Great Salt Lake</title>
-		<link>https://fyfluiddynamics.com/2026/07/the-disappearing-great-salt-lake/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/the-disappearing-great-salt-lake/#comments</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Tue, 07 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[geophysics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[porous flow]]></category>
-		<category><![CDATA[saline lakes]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31410</guid>
-
-					<description><![CDATA[Since 1989, Utah&#8217;s Great Salt Lake has lost some 70% of its surface area. The exposed lakebed left behind is a source of toxic dust that gets lifted into the air. Researchers are trying to understand what water sources exist beneath the lake and whether they might save the saline lake and its ecosystem from [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Since 1989, Utah&#8217;s Great Salt Lake has lost some 70% of its surface area. The <a href="/2023/04/explaining-salt-polygons/">exposed lakebed</a> left behind is a source of toxic dust that gets lifted into the air. Researchers are trying to understand what water sources exist beneath the lake and whether they might save the saline lake and its ecosystem from disappearing entirely. </p>
-
-
-
-<p class="wp-block-paragraph">A <a href="https://doi.org/10.3390/geosciences16030114">recent study</a> pinpoints underground water by measuring the electrical resistance between electrodes placed meters apart in the ground (photo above). Because salty water is more electrically conductive than fresh water, the researchers can distinguish between them. So far, they&#8217;ve found quite a lot of fresh water, sometimes only a couple meters below the surface. But those patches are often quite close to saline water, too.</p>
-
-
-
-<p class="wp-block-paragraph">The group also described to Eos that they found mounds of invasive reeds lying atop concentrations of fresh water. The invasive species seems to be sucking up water that would otherwise feed back into the lake or support native plants that provide habitat to native birds. (Image credit: M. Thorne; research credit: <a href="https://doi.org/10.3390/geosciences16030114">M. Jacketta et al.</a>; via <a href="https://eos.org/articles/whats-below-the-great-salt-lake-more-water?__readwiseLocation=">Eos</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/the-disappearing-great-salt-lake/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31410</post-id>	</item>
-		<item>
-		<title>Swirls Above the Southern Ocean</title>
-		<link>https://fyfluiddynamics.com/2026/07/swirls-above-the-southern-ocean/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/swirls-above-the-southern-ocean/#comments</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Mon, 06 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[flow visualization]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[gravity wave]]></category>
-		<category><![CDATA[lee waves]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[satellite image]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[von Karman vortex street]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31341</guid>
-
-					<description><![CDATA[In the Southern Ocean, obstacles are sparse. But the ice-cloaked volcano of Peter I Island is tall enough at over 1600 meters to disrupt the wind. At steady wind speeds between about 18 to 54 kilometers per hour, flowing past the island creates vortices that shed from one side and then the other. The result [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">In the Southern Ocean, obstacles are sparse. But the ice-cloaked volcano of Peter I Island is tall enough at over 1600 meters to disrupt the wind. At steady wind speeds between about 18 to 54 kilometers per hour, flowing past the island creates vortices that shed from one side and then the other. The result is a <a href="/tagged/von-Karman-vortex-street">von Karman vortex street</a> like the one seen here, flowing toward the upper right. </p>
-
-
-
-<p class="wp-block-paragraph">The overlaid ripple structures in the cloud layer are reminiscent of <a href="/tagged/gravity-wave/">gravity waves</a>. Perhaps, the wind&#8217;s passage made some <a href="/tagged/lee-waves/">lee waves</a> that the vortices distorted? (Image credit: M. Garrison; via <a href="https://science.nasa.gov/earth/earth-observatory/a-sea-of-spinning-clouds/">NASA Earth Observatory</a>)</p>
-
-
-
-<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="922" height="1024" src="https://fyfluiddynamics.com/wp-content/uploads/peteriisland_oli_20260211_main-922x1024.png" alt="A von Karman vortex street stretches downstream from Peter I Island." class="wp-image-31342" srcset="https://fyfluiddynamics.com/wp-content/uploads/peteriisland_oli_20260211_main-922x1024.png 922w, https://fyfluiddynamics.com/wp-content/uploads/peteriisland_oli_20260211_main-270x300.png 270w, https://fyfluiddynamics.com/wp-content/uploads/peteriisland_oli_20260211_main-768x853.png 768w, https://fyfluiddynamics.com/wp-content/uploads/peteriisland_oli_20260211_main-1383x1536.png 1383w, https://fyfluiddynamics.com/wp-content/uploads/peteriisland_oli_20260211_main-1843x2048.png 1843w, https://fyfluiddynamics.com/wp-content/uploads/peteriisland_oli_20260211_main.png 2000w" sizes="auto, (max-width: 922px) 100vw, 922px" /></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/swirls-above-the-southern-ocean/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31341</post-id>	</item>
-		<item>
-		<title>&#8220;Self-pollination in a flower of thymeleaf speedwell (Veronica serpyllifolia)&#8221;</title>
-		<link>https://fyfluiddynamics.com/2026/07/self-pollination-in-a-flower-of-thymeleaf-speedwell-veronica-serpyllifolia/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/self-pollination-in-a-flower-of-thymeleaf-speedwell-veronica-serpyllifolia/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Fri, 03 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Art]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[fluids as art]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[plants]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[turgor pressure]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=25185</guid>
-
-					<description><![CDATA[Though we rarely notice their movement in the moment, plants, and especially their flowers, are frequently on the move. Here, retired engineer Jay McClellan captures a thymeleaf speedwell flower as it opens, then pushes a stamen toward its pistil, thereby pollinating itself. Like much of the motion executed by plants, these movements come from pumping [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/selfpol1-1024x576.png" title="From &quot;Self-pollination in a flower of thymeleaf speedwell (Veronica serpyllifolia)&quot; by Jay McClellan." alt="From &quot;Self-pollination in a flower of thymeleaf speedwell (Veronica serpyllifolia)&quot; by Jay McClellan." /></div></div>
-
-
-
-<p class="wp-block-paragraph">Though we rarely notice their movement in the moment, <a href="/tagged/plants/">plants</a>, and especially their flowers, are frequently on the move. Here, retired engineer Jay McClellan captures a thymeleaf speedwell flower as it opens, then pushes a stamen toward its pistil, thereby pollinating itself. Like much of the motion executed by plants, these movements come from <a href="/tagged/turgor-pressure/">pumping water</a> between different cells, swelling and shrinking them as needed to execute the overall motion. (Video and image credit: <a href="https://www.nikonsmallworld.com/galleries/2025-small-world-in-motion-competition/self-pollination-in-a-flower-of-thymeleaf-speedwell-veronica-serpyllifolia">J. McClellan</a>; via <a href="https://www.thisiscolossal.com/2025/09/2025-nikon-small-world-in-motion-video-competition/?__readwiseLocation=">Colossal</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/self-pollination-in-a-flower-of-thymeleaf-speedwell-veronica-serpyllifolia/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">25185</post-id>	</item>
-		<item>
-		<title>Closing a Venus Fly Trap</title>
-		<link>https://fyfluiddynamics.com/2026/07/closing-a-venus-fly-trap/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/closing-a-venus-fly-trap/#comments</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Thu, 02 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[plants]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[turgor pressure]]></category>
-		<category><![CDATA[venus fly trap]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31297</guid>
-
-					<description><![CDATA[The Venus fly trap has long fascinated scientists with its ability to catch fast-moving prey. Just how the plant closes its &#8220;trap&#8221; leaf so quickly is a matter of debate. A new study gives us more detail&#8211;but not complete clarity&#8211;about what&#8217;s going on. One way that plants move rapidly is by moving water into or [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">The <a href="/?s=venus+fly+trap">Venus fly trap</a> has long fascinated scientists with its ability to catch fast-moving prey. Just how the plant closes its &#8220;trap&#8221; leaf so quickly is a matter of debate. A <a href="https://doi.org/10.1126/science.aed5051">new study</a> gives us more detail&#8211;but not complete clarity&#8211;about what&#8217;s going on.</p>
-
-
-
-<p class="wp-block-paragraph">One way that plants move rapidly is by moving water into or out of cells, changing their internal pressure. The new experiments showed that this is <em>not</em> what the fly trap does. Specifically, by watching the speed at which individual Venus fly trap cells take up water, the team concluded that closing the leaf would take 30-150 seconds&#8211;far more than the 1 second observed.</p>
-
-
-
-<p class="wp-block-paragraph">Instead, the team showed that the trap&#8217;s rapid closure happens because the plant&#8217;s cell walls rapidly soften, making the leaf unable to stay open against previously-stored elastic energy. Instead, the trap snaps closed. The physical mechanism behind the softening is still unclear, though, so the charismatic plant still has mysteries for us to discover. (Image credit: <a href="https://unsplash.com/photos/a-close-up-of-a-bunch-of-green-plants-bEKEuv_Fiyg">N. Suzuki</a>; research credit: <a href="https://doi.org/10.1126/science.aed5051">J. Ryu et al.</a>; via <a href="https://doi.org/10.1038/d41586-026-01857-2">Nature</a> and <a href="https://gizmodo.com/scientists-finally-solved-the-mystery-of-how-venus-flytraps-snap-shut-2000771133?__readwiseLocation=">Gizmodo</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/closing-a-venus-fly-trap/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31297</post-id>	</item>
 	</channel>
 </rss>

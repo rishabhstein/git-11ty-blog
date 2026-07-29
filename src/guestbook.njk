@@ -1,6 +1,7 @@
 ---
     title: Guestbook
     layout: 'base.njk'
+    pageClass: guestbook-page
 ---
 
 
@@ -12,28 +13,23 @@
 <div id="guestbooks___guestbook-form-container">
     <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/325/submit" method="post">
         <div class="guestbooks___input-container">
-            <p>Your name:<br>
+            <label for="name">Your name</label>
             <input placeholder="Name" type="text" id="name" name="name" required>
-            </p>
         </div>
         <div class="guestbooks___input-container">
-            <p>Your email:<br>
-            <input placeholder="Website (optional)" type="url" id="website" name="website">
-            </p>
+            <label for="website">Your website <span class="guestbooks___optional">(optional)</span></label>
+            <input placeholder="https://..." type="url" id="website" name="website">
         </div>
         <div id="guestbooks___challenge-answer-container"></div>
-        <br/>
         <div class="guestbooks___input-container">
-            <p> Your comment:
-            <textarea placeholder="Message (plain text only)..." id="text" name="text" style="width: 100%; box-sizing: border-box; resize: vertical;" required></textarea>
-             </p>
+            <label for="text">Your comment</label>
+            <textarea placeholder="Message (plain text only)..." id="text" name="text" required></textarea>
         </div>
-        <!-- <br/> -->
-        <input type="submit" value="Submit">
+        <input type="submit" value="Sign the guestbook">
         <div id="guestbooks___error-message"></div>
     </form>
 </div>
-<div id="guestbooks___guestbook-made-with" style="text-align: right;">
+<div id="guestbooks___guestbook-made-with">
     <small>Lovingly made with <a target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
 </div>
 

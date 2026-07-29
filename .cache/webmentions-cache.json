@@ -45,7 +45,20 @@
   "/posts/2026-04-23-why-i-need-to-take-a-break-in-word-vomit-series": [],
   "/posts/2025-09-20-last-night-dream": [],
   "/posts/2026-02-03-content-consumption-productivity-and-lost-art-of-boredom": [],
-  "/posts/2026-07-11-freshrss-vs-my-own-feed-reader-a-fierce-competetion": [],
+  "/posts/2026-07-11-freshrss-vs-my-own-feed-reader-a-fierce-competetion": [
+    {
+      "authorName": "@gurupanguji",
+      "authorUrl": "https://gurupanguji.com/",
+      "authorPhoto": "https://avatars.webmention.io/gurupanguji.com/21af354b0ec95a61c8807912768d3913463edfa2a582aed648e2e6ddc77e01a5.jpg",
+      "url": "https://gurupanguji.com/blog/2026/07/20/re-freshrss-vs-my-own-feed-reader-a-fierce-competetion/",
+      "type": "mention-of",
+      "target": "https://blog.rishabhps.com/posts/2026-07-11-freshrss-vs-my-own-feed-reader-a-fierce-competetion/",
+      "published": "2026-07-20T12:00:00+00:00",
+      "contentText": "After modifying FreshRSS, I found myself using it more for blog post reading. On the main page, I only see a list of posts from my subscribed feeds with no eye-catching features (graphics). So, they all look the same and I can go through them one by one.\n\n  What I learnt from this experiment is that for skimming through a large number of feeds, Sigmarootpi Times is a better choice. After all, news websites are designed to make you click on something, if not everything. However, for reading every single new post a distraction-free reader is more suitable. I will be using both.\n\n\nSource: FreshRSS vs My Own Feed Reader: A fierce competetion\n\nThe golden age of “personal software.”",
+      "title": "Re: FreshRSS vs My Own Feed Reader A fierce competetion // @gurupanguji",
+      "siteName": ""
+    }
+  ],
   "/posts/2026-04-21-effect-of-alcohol-on-mind-and-creating-vs-consuming": [],
   "/posts/2025-04-09-self-hosting": [],
   "/snap/universit-paris-cit": [],
@@ -329,5 +342,9 @@
   "/posts/2025-09-04-forever-together-a-short-story": [],
   "/posts/2025-06-02-updating-feed-granary": [],
   "/posts/2026-01-09-honesty-and-peace-in-life": [],
-  "/snap/2025-04-20-geilo2022-hut": []
+  "/snap/2025-04-20-geilo2022-hut": [],
+  "/movies/1785249527751": [],
+  "/movies/1785248453871": [],
+  "/movies/1784368738023": [],
+  "/movies/1784559295538": []
 }
