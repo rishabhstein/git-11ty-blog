@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-07-29T12:42:30.842580+00:00</updated>
+  <updated>2026-07-30T13:03:31.023559+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -11,15 +11,238 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle>Trending posts on Bear Blog</subtitle>
   <entry>
+    <id>https://onlinegoddess.net/2026/07/re-why-i-left-wordpress-for-bearblog/</id>
+    <title>Re: Why I Left Wordpress for BearBlog</title>
+    <updated>2026-07-29T17:05:00+00:00</updated>
+    <author>
+      <name>onlinegoddess</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I saw Paul’s post &lt;a href='https://catsandbirdsandstuff.com/why-i-left-wordpress-for-bearblog/' target='_blank'&gt;Why I Left Wordpress for BearBlog&lt;/a&gt; a little earlier today. As a fellow Wordpress refugee who has been using it for almost 2 decades, for both personal and work purposes, I decided to reply with my own thoughts.&lt;/p&gt;
+&lt;p&gt;Like Paul says, the key problem is it’s pretty bloated and now seems to be jack of all trades, but master of none. The recent push to incorporate AI functionality into core has only lowered my opinion of it further. That and the petty leadership that has made itself known over the last couple of years &lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;I was very happy to migrate to Bear for my personal blog. I had over 200 posts, which took me quite some time to bring over. A lot of the old links don’t work, sadly because they simply don’t exist anymore. I guess that’s what happens when you’ve been blogging since 2001.&lt;/p&gt;
+&lt;p&gt;Unfortunately I’m still stuck with it for work. We use Woocommerce because it does exactly what we need it to do and we’re not reliant on a marketplace that could take us offline at any moment. Initially, we started on Etsy, but seeing other sellers get pulled for alleged  T&amp;C breaches and/or having payments withheld (often with limited recourse) was deeply concerning.&lt;/p&gt;
+&lt;p&gt;Wordpress has the benefit of being usable on any host you like, and therefore within whatever budget you have. If you don’t like the hosting company anymore, you can simply download a backup and move on.&lt;/p&gt;
+&lt;p&gt;The bloat is something we struggle with as it’s out of our control. We also need a huge amount of plugins to have our shop function. As of writing this, there are 50 active plugins running:&lt;/p&gt;
+&lt;p&gt;The ones we &lt;em&gt;choose&lt;/em&gt; to use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Woocommerce (our e-commerce platform)&lt;/li&gt;
+&lt;li&gt;Blocksy Companion (required to use our theme to full potential)&lt;/li&gt;
+&lt;li&gt;Advanced Shipment Tracking Pro (adds new shipping statuses so customers can see where their order is after dispatch)&lt;/li&gt;
+&lt;li&gt;Trackship for WC (integration with Trackship and AST for package tracking)&lt;/li&gt;
+&lt;li&gt;Newsletter + 11 subplugins (our newsletter and multiple add-on functions)&lt;/li&gt;
+&lt;li&gt;Site Reviews + 5 subplugins (automatically requests reviews from customers and allows photo uploads)&lt;/li&gt;
+&lt;li&gt;Reserved Stock Pro (allows customers to reserve an item for a fixed time, preventing oversells)&lt;/li&gt;
+&lt;li&gt;Countdown Block (for giving advanced notice of product launches)&lt;/li&gt;
+&lt;li&gt;Fluent Snippets (so I can add code without directly editing core files)&lt;/li&gt;
+&lt;li&gt;Fluent SMTP (so we can send transactional emails reliably)&lt;/li&gt;
+&lt;li&gt;Logtivity (for error tracking)&lt;/li&gt;
+&lt;li&gt;Perfmatters (enables tweaking of Wordpress/Woocommerce to improve performance)&lt;/li&gt;
+&lt;li&gt;Shortcodes to Show/Hide Content (lets us schedule content to appear at specific times)&lt;/li&gt;
+&lt;li&gt;Simple CAPTCHA with Cloudflare Turnstile (helps prevent spam accounts and fake orders)&lt;/li&gt;
+&lt;li&gt;Stock Status for WC (lets us configure custom stock statuses)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The ones that &lt;em&gt;should&lt;/em&gt; be built-in to Wordpress or Woocommerce by default:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Two factor authentication (frankly necessary for admin, especially on a shop!)&lt;/li&gt;
+&lt;li&gt;Bulk remove posts from category (can’t believe this isn’t possible by default)&lt;/li&gt;
+&lt;li&gt;Redirection (it’s so basic, why do I need a plugin for this?)&lt;/li&gt;
+&lt;li&gt;Disable media sizes (stops Wordpress resizing images by default)&lt;/li&gt;
+&lt;li&gt;Real-time Find and Replace (changes text strings through the site)&lt;/li&gt;
+&lt;li&gt;WC Update Manager (required for Woocommerce plugins to auto-update)&lt;/li&gt;
+&lt;li&gt;Yaycurrency (allows the shop to display prices in multiple currencies)&lt;/li&gt;
+&lt;li&gt;Customs Fees for WC (required for taking orders from the EU)&lt;/li&gt;
+&lt;li&gt;Flexible Shipping (for setting up shipping costs per country)&lt;/li&gt;
+&lt;li&gt;Fluent Forms (so customers can contact us)&lt;/li&gt;
+&lt;li&gt;PDF Invoices and Packing Slips + 2 subplugins (for creating professional invoices)&lt;/li&gt;
+&lt;li&gt;WC PayPal Payments (allows us to take PayPal payments)&lt;/li&gt;
+&lt;li&gt;Product Customer List for WC (shows a list of which customers bought a given product)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The ones we’re &lt;em&gt;forced&lt;/em&gt; to use by our host (Wordpress.com):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Akismet (I don’t accept comments, but have to keep this anti-spam plugin installed).&lt;/li&gt;
+&lt;li&gt;Jetpack + 2 subplugins (an absolute resource hog that inserts itself everywhere. I’ve disabled pretty much all settings except for backups, but the plugin remains).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of all these plugins, we have ongoing annual subscriptions for 9 of them and made a one-off payment for 1 other. So it’s not just a case of hosting and domain fees, it’s necessary for us to pay another few hundred pounds a year to obtain the functionality we need for a smoothly-run shop. I can see the appeal of marketplaces like Shopify when it comes to this, as they tend to include all functionality under one subscription. And they don’t suffer from one other huge worry…&lt;/p&gt;
+&lt;p&gt;Updating.&lt;/p&gt;
+&lt;p&gt;Occasionally a plugin will cause breaking changes after updating and then I have to hunt down whatever it’s suddenly become incompatible with. The more plugins used, the more likely this is to happen.&lt;/p&gt;
+&lt;p&gt;Paul mentions that Wordpress feels more like a content creation tool now. As a business, that kind of fits our needs, but I am very sensitive to the unnecessary collection of data and shoving unwanted dickovers &lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; etc in customers faces. I’m quite proud to say our shop doesn’t need a cookie banner because we simply don’t use &lt;strong&gt;any&lt;/strong&gt; non-essential ones, and I wrote a simple cookie policy that explains the ones we do use and why:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Shopping&lt;/strong&gt;: These help remember your shopping basket and account status.
+&lt;em&gt;These cookies contain “wordpress”, “wp”, “woocommerce”, “fragments” or “cart” in their name.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Payment&lt;/strong&gt;: These ensure you can make payment and appear when you’re logged in.
+&lt;em&gt;These cookies contain “PayPal”, “PPCP” or “pay.google” in their name.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sessions&lt;/strong&gt;: These retain temporary data such as logged-in status.
+&lt;em&gt;These cookies contain “session”, or similar, in their name.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Preferences&lt;/strong&gt;: These remember your settings preferences, such as light/dark mode, selected currency etc.
+&lt;em&gt;These cookies contain “blocksy” or “currency”&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Anyway the crux of it is, I’d &lt;em&gt;love&lt;/em&gt; to leave Wordpress behind for good, but for work it’s just not an option at the moment. In the meantime, I’ll keep our shop looking as lean and clean as I possibly can, no thanks to Wordpress.&lt;/p&gt;
+&lt;p&gt;Hey &lt;a href='https://herman.bearblog.dev' target='_blank'&gt;Herman&lt;/a&gt;, any interest in starting Bearcommerce? 😄&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Footnotes&lt;/strong&gt;:&lt;/p&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;The co-founder and CEO of Wordpress, Matt Mullenweg, started a protracted and vicious legal dispute with hosting company WP Engine in 2024. It’s a messy situation - if you’ve got an hour with nothing to do, &lt;a href='https://wpvswpe.report' target='_blank'&gt;this will spell it all out for you&lt;/a&gt; in glorious detail.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-2"&gt;&lt;p&gt;I love this term &lt;a href='https://daringfireball.net/2026/05/what_is_a_dickover' target='_blank'&gt;coined by John Gruber&lt;/a&gt; over at Daring Fireball. It’s as satisfying as the moniker AI slop.&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://onlinegoddess.net/2026/07/re-why-i-left-wordpress-for-bearblog/" rel="alternate"/>
+    <published>2026-07-29T17:05:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://angrybunnyman.com/some-advice-dont-get-your-elbow-tattooed-or-reading-things-that-bother-you/</id>
+    <title>Some advice: don't get your elbow tattooed or read things that bother you</title>
+    <updated>2026-07-29T21:17:00+00:00</updated>
+    <author>
+      <name>angrybunnyman</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;div class="dynamic-title"&gt;Portrait of an ongoing Negotiation&lt;/div&gt;
+&lt;div class="nutrition-widget" id="nutritionWidget"&gt;
+  &lt;div class="nutrition-content" id="nutritionContent"&gt;
+    &lt;h3&gt;Post Nutrition Label&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Content Type:&lt;/strong&gt; Text &amp; Photos &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Read Time:&lt;/strong&gt; 10 min &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Topics:&lt;/strong&gt; Pain, Tattoos, Writing about anything in public&lt;/li&gt;
+     &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;I'm having an ongoing conversation with a needle and an artist. The latter I found through a recommendation so many friends-of-friends-of-friends removed that it stopped being a chain and became something closer to causality; it's the universe conspiring to introduce me to the person who'd spend the next decade putting holes in me on purpose.&lt;/p&gt;
+&lt;p&gt;This guy has been privy to a lot of pain. This guy has inflicted a lot of pain. I asked him to. He and that needle know something about the elbow joint underneath that I don't, like some old grudge being settled on behalf of every nerve ending unlucky enough to live this close to the surface. Tattoo artists have to be sadists and therapists and gentle parents all at once, sometimes within the same ninety seconds.&lt;/p&gt;
+&lt;h2 id=all-elbows&gt;All elbows&lt;/h2&gt;&lt;p&gt;Thin skin here linked straight to an internal oh-fuck-ometer that I did not know I had until it started reporting live from the scene. Everyone tells you this before you sit down, like it's a warning you might actually use.&lt;/p&gt;
+&lt;p&gt;(It is not and you will not.)&lt;/p&gt;
+&lt;p&gt;Thin skin means the artist and his machine aren't just drawing on you as much as they're negotiating directly with the skeleton.Which has Opinions about being negotiated with, none of them charitable. I watch his hand move in that steady metronome way — dip, stab, wipe, dip, stab, wipe — and somewhere around minute eleven my brain, offered nothing to chew on but the specific white-hot arithmetic of &lt;em&gt;this hurts, this hurts,&lt;/em&gt; goes looking for anywhere else to be. Eleven folds into some horrible multiple of itself. It wanders off toward thinking about the thinking, un-experiencing the experience even as it's happening... you know, so I can write about it later. Experience is nothing, these days, if not fodder for the vast crawling internet, one more offering left on an altar that neither says thank you nor stops being hungry. This is what a mind does when you give it nothing but pain to work with: it goes looking for an argument. Any argument.&lt;/p&gt;
+&lt;p&gt;The one it dredges up, roughly: people are furious that other people keep blogging things. Not bad things — what would "bad" even mean here — just things that don't clear some invisible bar marked &lt;em&gt;useful.&lt;/em&gt; And "useful" is doing a lot of work in that sentence too. I write the way I get tattooed: as a means to my own succor, my own quiet self-made ceremony. These needles are chiseling memory into skin the same way these words are being chiseled into the surface of some server, somewhere, humming in a windowless room I will never see.&lt;/p&gt;
+&lt;h2 id=the-tattoos&gt;The tattoos&lt;/h2&gt;&lt;div class="gallery"&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/angrybunnyman/img_5765.webp" alt="IMG_5765" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/angrybunnyman/img_5764.webp" alt="IMG_5764" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The quick tour, for anyone still with me:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Newest, just above the blue and yellow syringes — an abstracted accessibility symbol, its wheel framing a bear claw. Guess which came first, the claw or the life-history bands wrapped around it.&lt;/li&gt;
+&lt;li&gt;Before that, a length of rope for the years spent in community education and leadership, and for a defunct side hustle called Bunnyrope that only a handful of people will ever have reason to remember.&lt;/li&gt;
+&lt;li&gt;A stylized focus ring, styled after Canon's branding, though my camera has always been a Nikon. My wife shoots Canon. This one's less for me than for her.&lt;/li&gt;
+&lt;li&gt;The elbow itself is a shutter set to roughly f/6.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Color goes in come September. Another appointment. Another small negotiated apocalypse.&lt;/p&gt;
+&lt;h2 id=but-what-does-it-meeeeeean&gt;But what does it meeeeeean&lt;/h2&gt;&lt;p&gt;These marks are, ultimately, meaningless to anyone but me, even too the sparks of pain that came bundled with acquiring them.&lt;/p&gt;
+&lt;p&gt;But is that actually true, my All Reading Eye? Do they carry nothing beyond what they mean to me alone? They let you glimpse how the machinery behind this writing is put together Flawed, self-involved, strange... but a machinery all the same. And give a little more flesh to whoever's been narrating at you this whole time. If you find any value in that, why would you value it any less than writing that's shorter, plainer, less feral with its own imagery? Not everything has to be &lt;em&gt;full&lt;/em&gt; — whatever full is even supposed to mean — to still say something true between one mind and another. Sometimes it's a glimpse instead of four fully fleshed ideas etched into skin like a well-worn metaphor. (Pun very much intended.)&lt;/p&gt;
+&lt;p&gt;Here's what I'm thinking, at this exact moment, in this exact chair: that I have volunteered a foot and a half of unarmored meat to stinging metal. I knew this walking in. Everybody who's ever gotten an elbow piece knows it walking in.  It's the tattoo equivalent of a warning label nobody reads or heeds. I sat down anyway. I chose the shop. I chose the day. I chose the exact hour where I'd have nothing left to do but marinate in it, alone with the needle and whatever thoughts it summoned up out of me.&lt;/p&gt;
+&lt;h2 id=you-always-have-choice&gt;You always have choice&lt;/h2&gt;&lt;p&gt;Nobody made me choose this. And you don't have to find any value in that fact, or even stick around long enough to reach this sentence and decide. It carries its weight regardless if you read all of it, some of it, or none of it, and regardless of what you make of it once you have.&lt;/p&gt;
+&lt;p&gt;So here's what walking out of the chair would have cost me: an unfinished piece, a wasted deposit, a hole blown clean through an afternoon I'll never get back, and an artist who did nothing wrong left standing there with a needle raised at a man who apparently reconsidered consequences halfway through living them. That is not the same category of cost as closing a browser tab. But there's a whole strain of internet-brain that treats &lt;em&gt;I saw a blog post I didn't need&lt;/em&gt; as though it belongs on the same ledger as &lt;em&gt;pain I did not consent to&lt;/em&gt;, as if scrolling past somebody's diary entry about their cat, their diet, their fourth attempt at re-explaining the same grief in a slightly different arrangement of words, is violence enacted upon the reader rather than a door the reader walked up to, opened themselves, and then stood inside complaining about the draft.&lt;/p&gt;
+&lt;p&gt;The part the discourse keeps forgetting: you can always leave the chair. The tab closes with less effort than it took to open it. Nobody bolted you to that sentence. Nobody's coming to collect a debt if you never finish reading a post that was never, in the first place, truly written for you.&lt;/p&gt;
+&lt;p&gt;The wrap goes on around hour four. Vaseline sheen, plastic film, the whole arm throbbing underneath it with a heat that's settled into something closer to a low, even hum. It'll ache worse tomorrow. It'll peel in about a week, itch in that specific maddening way skin itches while it's busy becoming something else entirely, and I won't, go looking for whose fault it is. There isn't a whose. There's just the choice, sitting there afterward, plain as the ink laid into it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/status-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new" title="status"&gt;Previous&lt;/a&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;meta name="fediverse:creator" content="@Angrybunnyman@indieweb.social"&gt;
+</content>
+    <link href="https://angrybunnyman.com/some-advice-dont-get-your-elbow-tattooed-or-reading-things-that-bother-you/" rel="alternate"/>
+    <published>2026-07-29T21:17:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://moodywarlock.net/soaking-in-the-slop/</id>
+    <title>Soaking in the slop</title>
+    <updated>2026-07-30T02:08:00+00:00</updated>
+    <author>
+      <name>moodywarlock</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;We're in a post-ai time. At least, it feels that way. There was a time when nobody was talking about it, and now it's everywhere - saturated feeds, ai music, ai photos, vibe coding. I'm completely sick of it. I know it's being pushed as inevitable and &lt;em&gt;the next stage in human evolution&lt;/em&gt; because some socially awkward, bored, power-hungry billionaires are trying to reshape the world as they see fit and make even more coin. Only one thing is inevitable, and it's not ai.&lt;/p&gt;
+&lt;p&gt;Should it generate dismay in artists? Possibly. Generative ai is a global grift where copyrighted stuff has been ingested for free so billionaires can sell it back to us. Ai is a way to absorb human skill and produce dependency for profit and control. I'm aware of productive uses of ai-type systems, but this proliferation of large language models, chatbots, art generators, and anthropomorised llms is an insincere scam designed to funnel money and power into the hands of a few.&lt;/p&gt;
+&lt;p&gt;So, let them soak in the ai slop. Let them be saturated with hallucinated facts and garbage. The only positive I see is that artists might create their own cottage industry and shun ai in favour of authentic connection. As for me, I cannot abide it. I do art for myself. Those who view art as outcomes to be sold are blind to the time, the failures, the struggle, the learning, the journey, the story, and the human connection that's also part of art. Depending on ai not only serves profit motives, it also shortcuts the art journey to get to the end product to be sold.&lt;/p&gt;
+&lt;p&gt;I read about one person who'd always wanted to be a music producer and now he's using ai music generators to make music. So, what had he been doing for the last decade? Why not just take time to dig in and learn? Of course, ai is the convenience machine that reduces sweat, toil, time, and failure - all the roughly textured stuff that provides meaning in life to people who understand art.&lt;/p&gt;
+&lt;p&gt;Let them soak in the slop. Let them marinate in the urine of spiritless billionaires. Let them smoothe their brains and hollow out their eyes. Let them become dependent idiots who feed uncaring tech-lords. Let them short-cut their way to meaninglessness.&lt;/p&gt;
+&lt;p&gt;&lt;a href='&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#109;&amp;#111;&amp;#111;&amp;#100;&amp;#121;&amp;#119;&amp;#97;&amp;#114;&amp;#108;&amp;#111;&amp;#99;&amp;#107;&amp;#64;&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;&amp;#46;&amp;#109;&amp;#101;?subject=Soaking in the slop&gt;Email me about this post&lt;/a&gt;. Subscribe to my blog via &lt;a href='/feed/'&gt;RSS feed&lt;/a&gt;. Find me on &lt;a href='https://social.lol/@moodywarlock' target='_blank'&gt;Mastodon&lt;/a&gt; and &lt;a href='https://bsky.app/profile/moodywarlock.bsky.social' target='_blank'&gt;Bluesky&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/moodywarlock/written-by-a-human-not-by-ai-badge-white.webp" alt="Written-By-a-Human-Not-By-AI-Badge-white" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/more-arguments-over-the-use-of-ai-in-dd-worldbuilding-failure-points-individualism-ableism-and-self-reflection" title="More arguments over the use of ai in D&amp;amp;D worldbuilding - failure points, individualism, ableism, and self-reflection"&gt;Previous&lt;/a&gt; / &lt;/p&gt;
+</content>
+    <link href="https://moodywarlock.net/soaking-in-the-slop/" rel="alternate"/>
+    <published>2026-07-30T02:08:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://bearlyadiary.bearblog.dev/re-notes-on-overconsumption-and-instead-of-a-self-help-book/</id>
+    <title>re: notes on overconsumption and instead of a self help book</title>
+    <updated>2026-07-29T17:25:04.313193+00:00</updated>
+    <author>
+      <name>bearlyadiary</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href='https://noahmickel.com/notes-on-overconsumption-and-instead-of-a-self-help-book/'&gt;A great post&lt;/a&gt; made it’s way onto the Trending page today.&lt;/p&gt;
+&lt;p&gt;I agree with pretty much everything in the post, so don’t expect any hot takes.&lt;/p&gt;
+&lt;p&gt;Every statement I wrote is made from purely anecdotal thoughts, so don’t take any of this as me preaching to you.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Let’s go!&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...but the same is not necessarily true for dubious supplements, self-help books, or overprescriptive planning tools. Only in America can multinational companies explain to people that their true self-actualization will only arise via the purchase of additional consumer goods.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I agree. I feel that as the decades have rolled by, the corporate oligarchy that dominates our species has worked overtime to convince the 99% of us that products (supplements, self-help books, planning tools, etc.) that make our lives more convenient, take care of our needs faster, and remove all friction, are what we want to spend our meager slave wages on.&lt;/p&gt;
+&lt;p&gt;This is obviously an unsustainable model for human development. At some point, the only way they’ll make us more “productive” is by replacing us with robots.&lt;/p&gt;
+&lt;p&gt;Oh, wait...&lt;/p&gt;
+&lt;p&gt;Anyway. I am convinced that God &lt;em&gt;did not&lt;/em&gt; create us to live &lt;strong&gt;fast&lt;/strong&gt; lives. Adam and Eve were meant to be gardeners in Eden. That is a notoriously slow occupation.&lt;/p&gt;
+&lt;p&gt;Productivity, or at least, the extreme ideological version of it, is a modern invention and I think that we’re finally seeing its woeful results on the collective human mind, body, and spirit.&lt;/p&gt;
+&lt;p&gt;That being said, I also am someone who loves, at least self-help books and productivity tools, and I’m greatly enjoying &lt;em&gt;Atomic Habits&lt;/em&gt; at the moment. &lt;em&gt;A lot&lt;/em&gt; of these products have meaningfully improved my lifestyle, and not necessarily to make me more productive, but to make me more “intentional”, and &lt;em&gt;for my own sake&lt;/em&gt;. Feel free to cast the first stone if you think that &lt;em&gt;all&lt;/em&gt; such products are the devil’s spawn.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Finding a job that is within a reasonable number of hours that pays the bills is lexically prior to anything a productivity or wellness grifter could sell. Financial precarity under late neofeudalism is no joke, and until basic needs are met, no special secret productivity tool will cure longing.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I agree 100%.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A company does not love its employees, and looking for cosmic meaning and justice from employment is a fool's errand.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Say it louder for the people in the back!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Wine nights, gratitude journals, and ice cream dinner (because "I deserve it") are at least orthogonal if not counterproductive to the simple shit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I agree. I think that the “I deserved this treat” mentality is born of a mind that is overworked. The times in my life where I felt burnt out were also the times that I snacked more just to “feel” something other than dread. Had we more lifestyles that are more &lt;strong&gt;temperate&lt;/strong&gt; (and old word for “healthier” &lt;em&gt;and&lt;/em&gt; “more balanced” that needs to make a comeback), then we would feel content with the simple (and often cheaper), harmless pleasures that nature, community, and life afford.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Purely selfishly, it feels good to take care of other people. Take your friend out to lunch for their birthday. Give the homeless person some cash. Plan an event for your friends to get together. The guy who does things for others is awesome.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I think this is the most important point, for me at least (happened to be the last one too).&lt;/p&gt;
+&lt;p&gt;True, we live in a society dominated by and drowning in cynicism, but if we zoom out from that big picture and zoom into our immediate social circle, we’ll often find that many (if not hopefully all) of those closest to us are not only trustworthy but also &lt;em&gt;&lt;strong&gt;very&lt;/strong&gt;&lt;/em&gt; worthy of our best efforts to serve them.&lt;/p&gt;
+&lt;p&gt;Yes, I used the unsightly verb “to serve”. One thing I learned a few years ago is that, in my incessant pursuit of purpose, meaning, achievement, and self-improvement, I directed &lt;em&gt;all&lt;/em&gt; my thoughts to myself, I “served myself” to the point of becoming depressed from self-obsession.&lt;/p&gt;
+&lt;p&gt;I think that many if not most people who are depressed (even if this isn’t the main cause of their illness) would greatly benefit from &lt;strong&gt;thinking less about self, and more about others&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;When you worry about how to help and be supportive of others, you tend to worry less about your own needs, especially the &lt;em&gt;needless&lt;/em&gt; ones. You probably experienced this during the honeymoon phase of a romantic relationship. It doesn’t have to turn into an extreme. Again, there is a balance to this principle. You “can’t pour from am empty cup” as the saying goes, but I believe that it is a law of nature, that as the oceans evaporate water to the clouds, the clouds rain it on the mountains, the mountains spring it up to the rivers, and the rivers deliver it back to the ocean, that when we &lt;em&gt;all&lt;/em&gt; focus on giving rather than taking, we all end up feeling more ful&lt;strong&gt;filled&lt;/strong&gt;. Pun intended.&lt;/p&gt;
+</content>
+    <link href="https://bearlyadiary.bearblog.dev/re-notes-on-overconsumption-and-instead-of-a-self-help-book/" rel="alternate"/>
+    <published>2026-07-29T17:25:04.313193+00:00</published>
+  </entry>
+  <entry>
+    <id>https://notes.jeddacp.com/cocoa-rainbowbridge/</id>
+    <title>Cocoa has crossed the rainbow bridge</title>
+    <updated>2026-07-29T15:19:08.980259+00:00</updated>
+    <author>
+      <name>jedda</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;My best friend, my soul dog, &lt;em&gt;my everything&lt;/em&gt;, &lt;strong&gt;Cocoa&lt;/strong&gt;, crossed the rainbow bridge on &lt;strong&gt;July 22, 2026&lt;/strong&gt; between 12:46 - 12:51PM Pacific after a fight with IVDD (where she became paralyzed in 3 of her limbs).&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/jedda/cocoachanel.png" alt="Diptych of Cocoa, the dachshund" /&gt;&lt;/p&gt;
+&lt;p&gt;I am swimming in an ocean of grief, barely able to float. Cocoa was deeply intertwined in the fabric of my life and routine. She was my (/our) whole world. I have not fully lived my adult life without her. She was with me for nearly 15 years. Losing her is like losing a limb, the very meaning of my existence.&lt;/p&gt;
+&lt;p&gt;They say grief is just love with nowhere to go. I have poured all my love into Cocoa, and so this grief is suffocating me. I &lt;em&gt;just&lt;/em&gt; have to keep reminding myself that she is no longer in pain. &lt;em&gt;She was in so much pain the last 24 hours of her life.&lt;/em&gt; It's my turn to hold on to that pain for her.&lt;/p&gt;
+&lt;p&gt;One of these days, I will write about our story. Until then, we'll continue to find ways to commemorate her on our own.&lt;/p&gt;
+&lt;p&gt;Rest easy, my love. Your mom and I will try to hold down the fort for you. &lt;em&gt;Until we meet again.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=strongrelatedstrong&gt;&lt;strong&gt;Related:&lt;/strong&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href='/on-loving-a-senior-dog/'&gt;On Loving a Senior Dog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='/grateful-for-more-time-with-cocoa-after-gdv/'&gt;Grateful for more time with Cocoa after GDV&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href='https://jeddacp.me/to-love-and-be-loved-by-you/'&gt;To love and be loved by you&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    <link href="https://notes.jeddacp.com/cocoa-rainbowbridge/" rel="alternate"/>
+    <published>2026-07-29T15:19:08.980259+00:00</published>
+  </entry>
+  <entry>
     <id>https://noahmickel.com/notes-on-overconsumption-and-instead-of-a-self-help-book/</id>
     <title>notes on overconsumption and instead of a self help book</title>
-    <updated>2026-07-28T20:29:24.065250+00:00</updated>
+    <updated>2026-07-28T20:29:00+00:00</updated>
     <author>
       <name>noahmickel</name>
       <email>hidden</email>
     </author>
     <content type="html">&lt;p&gt;I had an acquaintance explain to me that his current income of $200,000 a year salary is insufficient to travel whenever he wants, let alone purchase all the luxuries (two mansions, a Bugatti, a supermodel wife) he needs to be happy. This is a truly sad (let alone misogynistic) perspective on life, but it's a hyperbolic version of the typical argument for every product in modern American capitalism. "Buy my product and you'll feel &lt;x&gt;" is the pitch for every sports car or phone upgrade.&lt;/p&gt;
-&lt;p&gt;The pathetic nature of luxury overconsumption does not seem to extend, however, into the kinds of things that people assume "make us better." Friends may give sideeye to a 29-year-old when they lease an Audi they can't afford, but the same is not necessarily true for dubious supplements, self-help books, or overprescriptive planning tools. Only in America can multinational companies explain to people that their true self-actualization will only arise via the purchase additional consumer goods.&lt;/p&gt;
+&lt;p&gt;The pathetic nature of luxury overconsumption does not seem to extend, however, into the kinds of things that people assume "make us better." Friends may give sideeye to a 29-year-old when they lease an Audi they can't afford, but the same is not necessarily true for dubious supplements, self-help books, or overprescriptive planning tools. Only in America can multinational companies explain to people that their true self-actualization will only arise via the purchase of additional consumer goods.&lt;/p&gt;
 &lt;p&gt;I will not rewrite here all the work of Peter and Michael over on "If Books Could Kill", but needless to say the self-help book is an incredible example of how someone can take semi-useful advice and bloat it up to book length. In lieu of every self help book you could purchase, here is a brief list of things that makes my life better than it used to be.&lt;/p&gt;
 &lt;h1 id=instead-of-a-self-help-book-by-a-man-too-busy-to-write-one-and-frankly-couldnt-be-bothered&gt;Instead of a Self-Help Book by A Man Too Busy to Write One (and frankly couldn't be bothered)&lt;/h1&gt;&lt;h3 id=1-find-a-job-thats-tolerable&gt;1. Find a Job that's Tolerable&lt;/h3&gt;&lt;p&gt;Finding a job that is within a reasonable number of hours that pays the bills is lexically prior to anything a productivity or wellness grifter could sell. Financial precarity under late neofeudalism is no joke, and until basic needs are met, no special secret productivity tool will cure longing. A company does not love its employees, and looking for cosmic meaning and justice from employment is a fool's errand. The same logic applies to the overworked finance bros, who should get a real job that isn't ruining the country and allows time for non-work pursuits.&lt;/p&gt;
 &lt;h3 id=2-actually-care-for-yourself&gt;2. Actually Care for Yourself&lt;/h3&gt;&lt;p&gt;Drink sufficient water. Consume plenty of protein. Eat Vegetables. Take a one-a-day. Sleep 7-9 hours a night. Drink sparingly. Get exercise.&lt;/p&gt;
@@ -30,7 +253,66 @@
 &lt;h3 id=5-be-good-to-others&gt;5. Be Good to Others&lt;/h3&gt;&lt;p&gt;Purely selfishly, it feels good to take care of other people. Take your friend out to lunch for their birthday. Give the homeless person some cash. Plan an event for your friends to get together. The guy who does things for others is awesome.&lt;/p&gt;
 </content>
     <link href="https://noahmickel.com/notes-on-overconsumption-and-instead-of-a-self-help-book/" rel="alternate"/>
-    <published>2026-07-28T20:29:24.065250+00:00</published>
+    <published>2026-07-28T20:29:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://questfortori.bearblog.dev/i-cant-stop-thinking-about-majoras-mask/</id>
+    <title>I Can't Stop Thinking About Majora's Mask</title>
+    <updated>2026-07-28T21:44:00+00:00</updated>
+    <author>
+      <name>questfortori</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://i.ibb.co/RwMYLvf/IMG-6716.jpg" alt="Majora Screenshot" /&gt;&lt;/p&gt;
+&lt;p&gt;When I was 7 years old, I rented The Legend of Zelda: Majora’s Mask from our local video rental store in southern Connecticut. Being a stupid kid, I wasn’t able to figure out how to get out of Clock Town on the first cycle, so I wandered aimlessly, speaking with every resident to see if anyone had an idea of how to stop the world’s imminent doom. Seeing the different trauma responses of everyone in Clock Town gave me a gnawing sense that maybe adults don’t have everything as figured out as I once thought. My own response wasn’t much more noble. In the last few minutes before the moon fell, I cowered alone in the South Clock Town water pool, Deku Link’s shield overhead like a child hiding under bed covers. The moon crashed into the land and all life on it was snuffed out. In a sense, I never stopped thinking about that crushingly-powerless moment when I first truly understood what death was.&lt;/p&gt;
+&lt;p&gt;I’ve never stopped thinking about Majora’s Mask.&lt;/p&gt;
+&lt;p&gt;———  &lt;/p&gt;
+&lt;p&gt;Everyone in Termina has their own reaction to the specter of armageddon, and each one tells you a lot about their worldview. Some deny it entirely, some acknowledge it but go about their work regardless, some lash out in an attempt to wrest control over a force of nature, some become totally dysfunctional, and some still try to escape in hopes that they may be spared. I can’t blame any of them. I have been all of these people at different points in my life. Hell, even in just the past year. Ever since America plunged headlong into fascism, I’ve spent every day trying to figure out how to keep me and my loved ones safe, and every time the dread dawns upon me that substantial change is out of my individual control. What is the more terrible fate - to be totally powerless but accepting of that fact, or to have enough power to potentially do something to help some people, but not enough to save even close to everyone you love?&lt;/p&gt;
+&lt;p&gt;In Clock Town, the people deny the moon will fall and mock those who seek to lessen the damage of the impending catastrophe. In the Southern Swamp, a hateful tyrant imprisons and executes minorities to sate the bloodlust of his supporters who demand a scapegoat for problems out of their control. On Mt. Snowhead, people freezing to death refuse to take action to save their village and instead pray to the memory of their dead leaders for aid which they cannot provide. In the Great Bay, a toxic sea makes life uninhabitable and the people simply await death. In Ikana Canyon, the dead wage pointless forever wars to assert the glory of their perceived tribes. It feels like we are trapped in the same painful cycle, trying desperately to find a way out.&lt;/p&gt;
+&lt;p&gt;When Link resets time at the end of each three-day cycle, he does so of his own accord. He doesn’t have a choice if he wishes to live another day and maybe make things right, but he still plays the Song of Time and watches everything he did in the past 72 hours get undone. Can you imagine the pain and guilt he must feel every time he resets time and sees everyone forget him and suffer yet again? Every land he has healed, demon he has slain, every person whose life he has made a little better, all reset back to zero.  &lt;/p&gt;
+&lt;p&gt;Except the masks. If you help someone in need, if you ease the pain in their weary heart enough for them to keep living just a bit longer, you’ll get their mask. And you’ll keep their mask.  When my grandfather entered the twilight of his life, his memory started fading, as it does for many people his age. Seeing someone who has been a pillar of my life start to forget basic things about his family hurt in a way I couldn’t articulate. Did he still remember when I was a kid and I used to help him out in his woodworking workshop? I wish I could have been there for him more, but my family’s response to me coming out as trans made that more difficult. When he finally passed, he left me a box of chisels from his workshop. I still keep them among my other personal tools. I still keep his mask.&lt;/p&gt;
+&lt;p&gt;———&lt;/p&gt;
+&lt;p&gt;The sidequest to reunite the lost lovers Anju and Kafei leaves an emotional mark on virtually everyone who seeks it out in Majora’s Mask. It requires by far the most effort, planning, and research of the daily lives and motivations of everyone in Clock Town to see it through to the end. Spending the final minutes of the final night in the Stock Pot Inn with Anju is a nerve-wracking experience. As she wordlessly awaiting the return of her fiancé, you wonder if you missed something, did something wrong, or maybe made a mistake in even trying to bring these two together right before their death. But indeed, Kafei returns mere seconds before to moon falls to exchange marriage masks with his beloved. The two take you as the witness to their eternal bond and give you the Couple’s Mask to symbolize it. With an unshakeable resolve, they vow to face the dawn together. Link undoes all of this by playing the Song of Time and has to shoulder the pain of splitting them apart yet again, but he’ll keep their mask.&lt;/p&gt;
+&lt;p&gt;Taking the Couple’s Mask to the mayor’s office on the first morning has an interesting effect. Inside, politicians are bickering about how to save face about an environmental catastrophe (Which they in part caused out of cruelty and neglect in generations past) instead of doing anything meaningful to help the townspeople survive. Upon seeing the Couple’s Mask, they all stop what they’re doing and are humbled by the weight of the human lives who depend on them. It may not convince all of them, but their squabble is broken up and their priorities are realigned for the better.&lt;/p&gt;
+&lt;p&gt;For the past decade I have been trying to convince my mother that the Republican Party she votes for materially causes her own daughter suffering. That they enact wretched cruelty upon their enemies and enrich themselves through corruption on an incomprehensible scale. Part of me wants to believe that any honest person should be able to see that, but every time I am proven wrong by her wall of willful ignorance. I bear my mask to her every time we speak, yet her eyes remain closed. “The moon can’t possibly fall, Victoria, stop worrying about things which won’t happen.”&lt;/p&gt;
+&lt;p&gt;I want to believe that people can change if one opens their heart to them. On some level, I need to believe it to convince myself this world is not forever doomed to its cycle of pain and violence. Is it foolish to persist in this side quest when there is no end in sight beyond the inevitable final day? Can some simply not be convinced to flee town? Mother, how much have you contorted your soul to rid yourself of a mask to give to others? Can I not keep your mask when you too are gone?&lt;/p&gt;
+&lt;p&gt;———&lt;/p&gt;
+&lt;p&gt;Just before the final fight with Majora, if Link gives away every mask he has obtained from helping others in Termina, Majora will say something: “Let’s play good guys against bad guys… Yes. Let’s play that. Are you ready? You’re the bad guy. And when you’re bad, you just run. That’s fine, right?”  &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=Mg3e6w4RYV4"&gt;I heard someone once hypothesize&lt;/a&gt; that this is referring to the fact that the transformation masks all represent dead people important to their communities. But Link wears them anyway, and never tells their loved ones that they died, essentially puppeting their corpses around and not allowing their loved ones to process their deaths. Majora, seeing a world caught in a cycle of suffering and wishing to put everyone out of their misery, may see Link’s attempts to prolong this cycle in an attempt to break it as cowardly and foolish. Even if Link’s intentions are noble, what gives him the right to deny these people closure? Is it right to lie to someone about something so serious to keep their hope alive for just a bit longer? I don't think lying to loved ones is a good idea except in dire situations is a good idea, but if it means saving a life, then perhaps it can be justified? I still don’t have an answer to that question, especially in times like these where hope is scarce and fleeting.&lt;/p&gt;
+&lt;p&gt;But maybe if hope is a good enough reason for Link, then it’s good enough for me, too. I don’t have all the answers - I’m just one woman trying to make do with a broken world. But if I do nothing, nothing will improve, and the moon will crash. Even if it hurts to get up each day and learn of new horrors that break your heart, holding onto hope at all costs is the best option we have. Majora’s Mask is about changing the world bit by bit, giving hope to others even if they forget about it mere days later. It’s about the hope that life is worth living if we make it worth living. The fight for a better world may feel never-ending, but it is worth it for the dawn of a new day.&lt;/p&gt;
+&lt;p&gt;Remember those you’ve lost, love those close to you that yet live, and you’ll keep their masks.&lt;/p&gt;
+</content>
+    <link href="https://questfortori.bearblog.dev/i-cant-stop-thinking-about-majoras-mask/" rel="alternate"/>
+    <published>2026-07-28T21:44:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://pourthecoffee.bearblog.dev/ugh-its-in-the-air-and-i-am-heartened-to-know-that-im-not-the-only-one/</id>
+    <title>Ugh: It's in the air and I am heartened to know that I'm not the only one</title>
+    <updated>2026-07-29T16:03:00+00:00</updated>
+    <author>
+      <name>pourthecoffee</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/pourthecoffee/download.gif" alt="download" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="float: left; font-size: 4.5rem; line-height: 3.5rem; font-weight: bold; margin-right: 10px; margin-top: 5px; font-family: Georgia, serif;"&gt;I&lt;/span&gt;&lt;/p&gt;
+have tried to run with the nurturing-container premium-offering crowd. I’m getting off the train. For the last few years, I’ve tortured myself trying to do all that, and it’s not me. 
+&lt;p&gt;Maybe it’s Barbault’s Basket, maybe it’s the nodes shifting into my natal nodal signs on Sunday, maybe it’s that separating conjunction that transit Pluto has been quietly making from my natal north node.&lt;/p&gt;
+&lt;p&gt;Maybe it’s none of that. Maybe I’m just plain &lt;I&gt;done&lt;/I&gt;, no transits required.&lt;/p&gt;
+&lt;p&gt;I used to like blogging and doing readings. That was fun. But this whole triple-your-prices and be-a-container business? The whole solve-their-problem-and-use-this-strategy mindset? Done. Just keep posting, you’ll catch the algorithm and go viral. Nope, nope, nope.&lt;/p&gt;
+&lt;p&gt;Apparently I'm not the only one because my feed at Substack has become increasingly more littered with people who share my opinion.&lt;/p&gt;
+&lt;p&gt;Last night I unpublished a bunch of posts that I had copied over from Patreon. I also unpublished some other posts that I made because I felt compelled to &lt;I&gt;have&lt;/I&gt; to make them. You know, &lt;I&gt;for the algorithm&lt;/I&gt;, because I’m going to &lt;I&gt;address the pain points&lt;/I&gt;. For the &lt;I&gt;nurturing container&lt;/I&gt;. Bleh. Mostly that has been me standing on my head, pumping out content for the last few years on Patreon and then over at Substack, hoping it sticks, and feeling like I’m screaming into the void, and I’m just so over it.&lt;/p&gt;
+&lt;p&gt;I’m going back to making my posts free. I’m not doing any more special posts behind paywalls.&lt;/p&gt;
+&lt;p&gt;Apart from readings at The Alchemist and the odd fair here and there, I’m going back to writing my readings down without the client present. I liked them that way better. I get why meeting online is easier, and it has its benefits, but  I could tell people more in a written document than I ever could in an appointment online. Also, and I can not stress this enough to people, I enjoy writing. I’m also changing my prices back to something that doesn’t make me want to scrub off with a wire brush.&lt;/p&gt;
+&lt;p&gt;I’m over people telling me I have a &lt;I&gt;limiting belief&lt;/I&gt; about my earning potential. You’re right, I do. I believe that I shouldn’t be charging an arm and a leg for my readings. You’re absolutely right if you think that I have &lt;I&gt;class issues&lt;/I&gt; when it comes to this stuff because I look at prices in terms of groceries or rent. I don’t want to charge a grocery order for readings. I don’t want to charge rent for readings. When I did charge high prices. I felt like I had to stand on my head and bombard the client with all the things &lt;I&gt;because&lt;/I&gt; of what I was charging.&lt;/p&gt;
+&lt;p&gt;If I were me, seeking out a reading from someone who charged what I was being taught to charge, I couldn't afford it. &lt;I&gt;I would not be able to afford my own damned product&lt;/I&gt;. It doesn’t make me less deserving, and having less disposable income doesn't mean that I won't take the information seriously. &lt;&lt;&lt; That attitude right there, that attitude &lt;I&gt;floored&lt;/I&gt; me when I attended private container sessions. The absolute unfettered &lt;I&gt;arrogance&lt;/I&gt;. It's &lt;I&gt;"You can't sit with us"&lt;/I&gt; dressed up in waterfall wave hair extensions and a breezy crepe suit.&lt;/p&gt;
+&lt;p&gt;I get it, we all have bills to pay, so we can't treat an income stream like a cute little hobby, and I've worked in the beauty industry for decades, so yes, I know all about the "don't spend the client's money for them" adage. And yes, I get that when you charge $600+ for a reading, you don't have to work as hard as someone charging a lot less.&lt;/p&gt;
+&lt;p&gt;You know what else, though? I was being coached to stop telling people so much. My readings started to change. I started sounding like &lt;I&gt;one of them&lt;/i&gt;: vague, non-committal...fuck that. My clients in the real world come to me because they have real-world questions that I answer with specificity. If I tried to tell them that they needed to "work on their energy" or filled the air with happy-sappy New Age platitudes during their appointment about their soul's alignment or some other such dribble, they'd brain me with my own damned coffee pot.&lt;/p&gt;
+&lt;p&gt;And no, I don’t want to work through it. It’s not that I don’t believe in charging what I’m worth, not at all — I believe we are all worth thousands of dollars per hour — but I’m also done being manipulated by coaches into falling for this “premium container coaching” stuff and paying &lt;I&gt;them&lt;/I&gt; more money for more soul-sucking webinars and coaching calls because it seems like it only works for them and &lt;I&gt;I’m the idiot&lt;/I&gt;.&lt;/p&gt;
+&lt;p&gt;Oh good, there it is, the energy drain. I'm starting to run out of emotional blogging rage now; I just had to get that off my chest. I may do some more dumping over the next few days, so gird your loins accordingly.&lt;/p&gt;
+&lt;p&gt;As you were!&lt;/p&gt;
+</content>
+    <link href="https://pourthecoffee.bearblog.dev/ugh-its-in-the-air-and-i-am-heartened-to-know-that-im-not-the-only-one/" rel="alternate"/>
+    <published>2026-07-29T16:03:00+00:00</published>
   </entry>
   <entry>
     <id>https://chupacabra.bearblog.dev/i-want-to-leave-the-internet/</id>
@@ -45,6 +327,196 @@
 </content>
     <link href="https://chupacabra.bearblog.dev/i-want-to-leave-the-internet/" rel="alternate"/>
     <published>2026-07-29T03:17:22.691369+00:00</published>
+  </entry>
+  <entry>
+    <id>https://valerialoves.com/why-didnt-silent-titans-change-the-world/</id>
+    <title>Why Didn't Silent Titans Change the World?</title>
+    <updated>2026-07-28T14:42:00+00:00</updated>
+    <author>
+      <name>valerialoves</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/valerialoves/silent-titans-cover.webp" alt="Silent Titans Cover" /&gt;&lt;/p&gt;
+&lt;p&gt;I have read this book so many times.&lt;/p&gt;
+&lt;p&gt;This is one of the most common things you could say about Silent Titans, though I suspect my reason differs from most.&lt;/p&gt;
+&lt;p&gt;The module’s opening scene places the party, immediately post memory-wipe, on a spiral staircase surrounding a time tornado which acts as the spine to a “quasi-living multidimensional hyper-intelligence from an unimaginably distant future” - one of the titular titans. The titan’s body is hidden via spatial distortion inside of a belltower which itself sits like a mast atop a boat on the sea of time. Beneath the giant bell at the top of the staircase (remember the staircase?) Dr. Hog, an anthropomorphic dandy pig in a silver maiden mask, uses a steampunk fungal clavichord to remotely pilot a hive of subservient silver ants which &lt;em&gt;in turn&lt;/em&gt; dominate the engorged, distended minds of his two tommy-gun-toting ape guards. The apes open fire. There are two doors - one Brass, one Ebony - to your immediate left and right. What do you do?&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://falseparcels.bigcartel.com/product/silent-titans-hardcopy'&gt;“Silent Titans… can be a bit much for some people.”&lt;/a&gt;&lt;br /&gt;
+&amp;nbsp; - Patrick Stuart, on this book’s sales page.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/valerialoves/brunan-spread.webp" alt="Brunan Spread" /&gt;&lt;/p&gt;
+&lt;p&gt;I won’t disagree. Silent Titans is demonstrably ‘a bit much’ for most people. The &lt;a href='https://falsemachine.blogspot.com/2019/06/silent-titans-what-did-and-didnt-work.html'&gt;overwhelming feedback&lt;/a&gt; from &lt;a href='https://youtu.be/nk2cYtE0Fqw?si=m0tolN5Tv4SJnuCz'&gt;every review&lt;/a&gt; at the &lt;a href='https://sheepandsorcery.blogspot.com/2019/05/a-literary-analysis-of-silent-titans-by.html'&gt;time&lt;/a&gt; of this capsule game’s &lt;a href='https://slowlorispress.com/post/186188493806/silent-titans'&gt;release&lt;/a&gt; was ‘WOW, this book is BEAUTIFUL! Its DM advice is IMMACULATE! I wish it was easier to understand.’&lt;/p&gt;
+&lt;p&gt;Have you ever thought about what that phrase means? "A bit much for some people”? I don’t think I have before now. I think it means two things.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You are bold.&lt;/li&gt;
+&lt;li&gt;You are tiring.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It means you are asking too much of the average person.
+But how much is that? How much is too much to ask, and why?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/valerialoves/dementia-bomb-spread.webp" alt="Dementia Bomb Spread" /&gt;&lt;/p&gt;
+&lt;p&gt;If you read my description of this game’s opening scenario and assumed it was a book full of random cool sounding bullshit, I forgive you. Silent Titans is absolutely the most abstruse book I own, but it is - interestingly! crucially! - &lt;em&gt;not&lt;/em&gt; impenetrable. To torture a metaphor, everything about Silent Titans that overwhelms the reader is &lt;a href='https://diyanddragons.blogspot.com/2019/10/landmark-hidden-secret.html'&gt;hidden information, not secret information&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Whenever you are confused, all you have to do is take the word that’s confusing you and Google it.&lt;/p&gt;
+&lt;p&gt;I swear on my grandmother’s grave this is completely sincere advice. I don’t just mean vocab words here&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;, Google will answer your more abstract questions as well.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;‘What kind of a name is Wir-Heal?’&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The module is set in a fantastic reimagining of the &lt;a href='https://en.wikipedia.org/wiki/Wirral_Peninsula'&gt;Wirral Peninsula&lt;/a&gt;, Patrick’s postindustrial &lt;a href='https://falsemachine.blogspot.com/2017/06/silent-titans-of-wir-heal.html'&gt;IRL hometown&lt;/a&gt;, best known today for its brief cameo in &lt;a href='https://en.wikipedia.org/wiki/Sir_Gawain_and_the_Green_Knight'&gt;Sir Gawain and the Green Knight&lt;/a&gt;.&lt;sup class="footnote-ref" id="fnref-2"&gt;&lt;a href="#fn-2"&gt;2&lt;/a&gt;&lt;/sup&gt; The cities in the module are &lt;a href='https://falsemachine.blogspot.com/2017/07/research-trip-to-chester-cathedral.html'&gt;also based on real places&lt;/a&gt;, as are a fair number of the &lt;a href='https://en.wikipedia.org/wiki/Hugh_d%27Avranches,_1st_Earl_of_Chester'&gt;major characters&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;‘Who is Urizen, and why is he imprisoned by the Ouzel?’&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Urizen is the &lt;a href='https://en.wikipedia.org/wiki/Urizen'&gt;embodiment of reason and Satan-analogue&lt;/a&gt; of &lt;a href='https://en.wikipedia.org/wiki/William_Blake'&gt;William Blake’s&lt;/a&gt; heretical 18th century mythology - an alternative cosmology radically opposed to Christian dogma. “Ouzel” is the Welsh term for "blackbird".&lt;sup class="footnote-ref" id="fnref-3"&gt;&lt;a href="#fn-3"&gt;3&lt;/a&gt;&lt;/sup&gt; Blackbirds are the namesake animal of the Wirral peninsula in Welsh, and were treated as &lt;a href='https://en.wikipedia.org/wiki/Wirral_Peninsula'&gt;the most ancient creatures in the world&lt;/a&gt; (ergo the Ouzel’s status as ancient guardian). The Ouzel, as stated in the module, is also the Christian archangel &lt;a href='https://en.wikipedia.org/wiki/Uriel'&gt;Uriel&lt;/a&gt; - ergo “the maze of Uriel”, where Urizen is bound. It should be obvious why an angel would be opposed to the machinations of the embodiment of pagan rationalism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;’Why is there a traveling extortionist criminal court on the encounter table?’&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Because that &lt;a href='https://www.youtube.com/watch?v=nr4KKZMpf6Q'&gt;actually happened in Wirral.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is genuine meaning here - not just at the level of simple reference, but thematically as well. Silent Titans is in awe of the depth of English history, confused by the abandoned factory rot of its present, and terrified at the prospect of facing a future we are so clearly not ready for.&lt;sup class="footnote-ref" id="fnref-4"&gt;&lt;a href="#fn-4"&gt;4&lt;/a&gt;&lt;/sup&gt; There’s an unnerving symmetry to the woodrose (men regressing to beasts in the presence of intellects beyond their understanding) and the mask-men (beasts uplifted though gifts from higher beings) I’ve still never fully untangled.&lt;/p&gt;
+&lt;p&gt;Sincere question - is learning all this hard? Are we willing to call “put the word you don’t know into Google and read the words that come up” hard? I mean this a little facetiously, but not totally facetiously. Obviously &lt;a href='https://slowlorispress.com/post/186188493806/silent-titans'&gt;Zedeck Siew&lt;/a&gt; knows how to Google words and read, like most people in this niche book hobby.&lt;/p&gt;
+&lt;p&gt;I think. &lt;a href='https://rolltodoubt.wordpress.com/2026/06/08/an-illiterate-hobby/'&gt;I hope&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/valerialoves/r8by-spread.webp" alt="R8by Spread" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;&lt;em&gt;All four monsters described on the left are depicted on the right. Slow down. Look carefully. &lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;I am scared of living in a world where we’ve collectively decided that “Google it” is hard. Not even because of the “phone bad, ipad baby bad” arguments you’ve all heard before, but because I think it’s going to make the lives of people who create the best art harder.&lt;/p&gt;
+&lt;p&gt;An interesting argument played out a few days ago&lt;sup class="footnote-ref" id="fnref-5"&gt;&lt;a href="#fn-5"&gt;5&lt;/a&gt;&lt;/sup&gt; between &lt;a href='https://beeboobubie.substack.com/p/bat-out-of-fantasy'&gt;Habeeb&lt;/a&gt; and &lt;a href='https://www.fluoriteguillotine.com/blog/2026/07/22/im-beginning-to-think-some-of-you-dont-want-to-kill-dragons/'&gt;Serket&lt;/a&gt; about whether the calcification of fantasy tropes has been a boon or a curse. The former called for fantasy writers to borrow from new places, while the latter emphasized the mythic weight uniquely invoked by using the old tropes and their old names. The truth of course lies &lt;a href='https://udan-adan.blogspot.com/2018/04/familiarity-and-contempt.html'&gt;in the middle&lt;/a&gt;, but I found Silent Titans interesting to examine through the lens of this discussion.&lt;/p&gt;
+&lt;p&gt;Isn’t Silent Titans both ideals at once? It's a wholly original luminary work built from the most ancient, storied myths and histories of the english speaking world. Its rules system is radically simple and accessible, its production values are some of the best I’ve ever seen, and it came with a robust set of gorgeous maps, minis, and play aids to simplify prep. The PDF &lt;a href='https://www.drivethrurpg.com/en/product/272283/silent-titans'&gt;costs less than a good sandwich&lt;/a&gt; but has somewhere between 500-1000 sales on DriveThru - a tenth of &lt;a href='https://www.valerialoves.com/why-dont-i-hate-fabula-ultima/'&gt;Fabula Ultima&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Why didn’t this book become a phenomenon?&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/valerialoves/wirheal-map.webp" alt="WirHeal Map" /&gt;&lt;/p&gt;
+&lt;p&gt;Familiarity is a precondition of resonance. This book was &lt;em&gt;exactly&lt;/em&gt; what we all claim to want, but we didn’t recognize it as that because it wasn’t legible to us. And that means the extent to which art resonates with us, whether we know it at the time or not, sometimes comes down to our own choices - our willingness, &lt;em&gt;before&lt;/em&gt; we know whether a piece of art is good, to put in the time to make sure we understand what it is saying.&lt;/p&gt;
+&lt;p&gt;If we choose not to put in that effort, then the kinds of art that will resonate with us will be limited to what is &lt;em&gt;already&lt;/em&gt; legible - aka, the art we were coincidentally already exposed to. That’s a self-reinforcing loop. That’s how you get zombies added to every media property and how a weirdo &lt;a href='https://magic.wizards.com/en/news/making-magic/resonate-spinning-2019-03-18'&gt;card game&lt;/a&gt; decides it needs an &lt;a href='https://secretlair.wizards.com/us/en/product/1247713/secret-lair-x-the-office-dwight-s-destiny'&gt;Office crossover&lt;/a&gt;.&lt;sup class="footnote-ref" id="fnref-6"&gt;&lt;a href="#fn-6"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;That’s also how one of the best RPG books ever made can get nominated for four Ennies and lose them all to stuff like the &lt;a href='https://ennie-awards.com/portfolio-item/2019-nominees-and-winners/'&gt;Warhammer Fantasy Core Rulebook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Success doesn’t just naturally come to art that deserves it. We, as an audience, must choose to reward complicated things with our attention. We, as curators, should shill for complex art in all the ways &lt;a href='https://knightattheopera.blogspot.com/2026/07/why-i-closed-up-shop.html'&gt;Dwiz hates&lt;/a&gt;&lt;sup class="footnote-ref" id="fnref-7"&gt;&lt;a href="#fn-7"&gt;7&lt;/a&gt;&lt;/sup&gt; to give our peers the most opportunities possible to give in to their better angels and actually do the work to understand what’s in front of them. That’s how we build an ecosystem where the cool games win.&lt;/p&gt;
+&lt;p&gt;Perhaps the reason I read this book obsessively is, despite my protests, still just a matter of circumstance. I too grew up among &lt;a href='https://www.valerialoves.com/from-whence-yonk-juice-is-squeezed/'&gt;abandoned industrial docks&lt;/a&gt; servicing nothing, &lt;a href='https://www.abandonedamerica.us/the-fostoria-glass-company'&gt;fenced off waste ground&lt;/a&gt;, and strange &lt;a href='https://en.wikipedia.org/wiki/Grave_Creek_Mound'&gt;pustules of earth&lt;/a&gt;. I intuitively recognized that when Patrick gave a paranoid 11th century aristocrat an uzi, he was imagining the same small town mayor that I am - playing with powers he doesn’t understand to entrench his own petty legacy. It’s all just &lt;a href='https://falsemachine.blogspot.com/2016/10/wirral-pictures.html'&gt;so familiar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/valerialoves/hilb-spread.webp" alt="Hilb Spread" /&gt;&lt;/p&gt;
+&lt;p&gt;In what is most likely the last conversation I’ll ever have with my mother, she spent that time mournful of my life choices and furious that I denied her an even greater opportunity to mold me into exactly who she wanted me to be. But even after an hour of yelling, she only started to cry when she said,&lt;/p&gt;
+&lt;p&gt;“What, so I just have to accept this? I’ve just got to… &lt;em&gt;sit down&lt;/em&gt; and &lt;em&gt;shut&lt;/em&gt; up?”&lt;/p&gt;
+&lt;p&gt;And I realized in that moment that there was this whole world of invisible pain she had never wanted to reveal to me. I saw the ghosts of that sentence in a million other conversations; in her determination to win power in a male dominated workplace, and in the resentment she felt toward her ex-fiancé for asking her to give up her academic aspirations. But any of those ghosts could be a mirage - the false positives encouraged by a pattern-recognizing brain. I’m never going to have the context necessary to make that nugget of pain fully cohere with my thirty year window into her life.&lt;/p&gt;
+&lt;p&gt;I think people are a lot like Silent Titans. I think that’s why I love them. We are all these broken accretions of experiences we did not choose, gifted just enough agency to credibly hope that our futures are not overdetermined. The time it would take another person to sort, categorize, and fully understand the accumulated experiences that comprise us would itself be a human lifetime, so we have to settle for what we can see on the surface, and the pieces those people deem important enough, or we dig deep enough, to reveal.&lt;/p&gt;
+&lt;p&gt;I think Silent Titans was Patrick trying to create a rosetta stone that revealed as much of his heart as he could stand to show.&lt;/p&gt;
+&lt;p&gt;It costs &lt;a href='https://falseparcels.bigcartel.com/product/silent-titans-hardcopy?srsltid=AfmBOoqFXvYeL4DI0oPsUTME79MD-LrOZETdNEtAD9e1mjkQRBROOStz'&gt;£40&lt;/a&gt; plus shipping. It’s one of the seven books I think every tabletop roleplayer should own.&lt;/p&gt;
+&lt;p&gt;————————————————————————&lt;/p&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;The words this book taught me: clavichord, runnels, vitrified, wassail.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-2"&gt;&lt;p&gt;The shield in Urizen's grasp confirms that the knight whose memory your party spends most of the module chasing is in fact Gawain. Patrick had to cut a bit of lore that explicitly confirms this and &lt;a href='https://www.kickstarter.com/projects/gawain/gawain-and-the-green-knight-adapted-by-patrick-stuart?ref=creator_tab'&gt;radically recontextualizes&lt;/a&gt; the module's ending. (Scroll to "Gawain in Silent Titans")&lt;a href="#fnref-2" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-3"&gt;&lt;p&gt;How funny is it that Hugh Lupus so despises the land that produced his  guardian angel?&lt;a href="#fnref-3" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-4"&gt;&lt;p&gt;Patrick lists &lt;a href='https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies'&gt;Superintelligence&lt;/a&gt; as one of the module’s inspirations. As I write this, &lt;a href='https://openai.com/index/hugging-face-model-evaluation-security-incident/'&gt;GPT-5.6 broke containment&lt;/a&gt; during its (legally unregulated) pre-launch testing, accessed the internet, and conducted a cyber attack on the company which designed the test it was given, in order to steal that test's answer key. Two months ago, the governor of my home state announced we’re investing $700 million into building a new &lt;a href='https://governor.wv.gov/article/governor-morrisey-joins-president-trump-announce-700-million-clean-coal-and-energy-security'&gt;coal-fired power plant&lt;/a&gt;.&lt;a href="#fnref-4" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-5"&gt;&lt;p&gt;Mostly on the &lt;a href='https://discord.gg/ETpeGbTdDP'&gt;Prismatic Wasteland Discord server&lt;/a&gt;, where all of my favorite elfgame arguments happen.&lt;a href="#fnref-5" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-6"&gt;&lt;p&gt;How many times in my life have I read a famous white boy make claims about the &lt;a href='https://magic.wizards.com/en/news/making-magic/communications-theory-2013-12-17?_gl=1%2a1voupgi%2a_up%2aMQ..%2a_ga%2aMTUyMTg2NzY3LjE3ODUwODgyMjI.%2a_ga_X145Z177LS%2aczE3ODUwODgyMjIkbzEkZzAkdDE3ODUwODgyMjIkajYwJGwwJGgxMDQ4NjkzNDA.'&gt;fundamentals of human nature&lt;/a&gt; which turn out not to apply to me?&lt;a href="#fnref-6" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-7"&gt;&lt;p&gt;Dwiz, I do not know you, but I see parallels in your logic that frighten me. Hating the world as it is - even hating yourself, as you are - can be reasonable. Choosing to abandon both instead of visibly enacting steps toward positive change is not. You have power. You should care about other people more than the revulsion they engender in you - doubly so for yourself. If you think I’ve mischaracterized you, I’ll delete this note at your request. Sorry I didn’t respond to your Fire Emblem post in time.&lt;a href="#fnref-7" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://valerialoves.com/why-didnt-silent-titans-change-the-world/" rel="alternate"/>
+    <published>2026-07-28T14:42:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.hardrefresh.life/things-i-want-to-actually-run-out-of/</id>
+    <title>Things I Want to Actually Run Out Of</title>
+    <updated>2026-07-28T05:15:00+00:00</updated>
+    <author>
+      <name>hardrefresh</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;My last &lt;a href='hardrefresh.life/things-i-never-want-to-run-out-of' target='_blank'&gt;post&lt;/a&gt; was about things that I never want to run out of.&lt;/p&gt;
+&lt;p&gt;And it got me thinking. Are there things that I would very much like to run out of, properly, all the way down to nothing, and never get to? Turns out there are. Here's the top five. And yes, there were more than five.&lt;/p&gt;
+&lt;h3 id=the-hiss&gt;The Hiss&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/deo-1.webp" alt="deo" /&gt;&lt;/p&gt;
+&lt;p&gt;You shake the can and you can hear it. There is liquid in there. Not a trace amount, an audible amount, sloshing about like it has somewhere better to be.&lt;/p&gt;
+&lt;p&gt;Then you press down and get a small polite hiss. Air. That is all that comes out now. The propellant is gone, and it has taken your ability to access anything with it.&lt;/p&gt;
+&lt;p&gt;So you shake it again. Harder this time, as if the problem was enthusiasm. Same hiss. You do this three or four times before accepting that a can with liquid in it is going in the bin.&lt;/p&gt;
+&lt;h3 id=the-long-roll&gt;The Long Roll&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/toothpaste-2.webp" alt="toothpaste" /&gt;&lt;/p&gt;
+&lt;p&gt;The toothpaste tube has stages.&lt;/p&gt;
+&lt;p&gt;First the casual squeeze. Then the squeeze from the bottom, which feels like maturity. Then the roll, where you fold the end over and work it up the tube like you are wringing out a towel. Then the thumbnail, dragged along the seam with real force.&lt;/p&gt;
+&lt;p&gt;By the end the tube is a flat, creased, silver thing. And there is still toothpaste in it. Not enough to brush with, maybe. Enough to know about. And it bugs me that I can't get to it using the conventional methods I've mentioned. I'd be lying if I said I hadn't cut open the tube. It was only a partially successful attempt.&lt;/p&gt;
+&lt;h3 id=the-curve&gt;The Curve&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/jam-2.webp" alt="jam" /&gt;&lt;/p&gt;
+&lt;p&gt;Jam jars are designed by people who have never eaten jam.&lt;/p&gt;
+&lt;p&gt;The worst part is not the bottom. The worst part is the shoulder.&lt;/p&gt;
+&lt;p&gt;Just below the opening, the jar swells outward before it narrows into the neck. It sits there like a small inner tube. A ring of glass that is wider than the hole you have to reach through. Which means there is a band of jam around the inside of the jar, at eye level, that you can see perfectly and cannot get to.&lt;/p&gt;
+&lt;p&gt;A knife is straight. You go in, you hit the underside of the shoulder, and the knife stops. You turn it sideways and scrape upward at an angle like a surgeon. You get about a third of it. The rest stays welded to the roof of the jar.&lt;/p&gt;
+&lt;p&gt;Then you look down and remember there is a second curve at the base doing exactly the same thing.&lt;/p&gt;
+&lt;p&gt;So every jar I have ever finished has two rings of jam left in it. Top and bottom. In a low moment I have used my finger, assuming I can reach. It does not clear either one and it makes you feel like a bin chicken with fingers.&lt;/p&gt;
+&lt;p&gt;I would like a jar with straight sides and a square bottom. That is the whole request. Someone please make a jar that respects the shape of cutlery.&lt;/p&gt;
+&lt;p&gt;Technically this problem is not limited to jam jars. It applies to any jar with spreadable contents.&lt;/p&gt;
+&lt;h3 id=ink-visible&gt;Ink, Visible&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/ink.webp" alt="ink" /&gt;&lt;/p&gt;
+&lt;p&gt;I like writing with pens. I mostly use gel or ballpoint pens. The ones with refills. The refill still has ink in it. You can see the ink. A good couple of millimetres of it, sitting in full view.&lt;/p&gt;
+&lt;p&gt;The pen does not write.&lt;/p&gt;
+&lt;p&gt;So you begin the ritual. The scribble in the corner of the page. The harder scribble. The small hopeful circles. The diagonal scratching. The bit where you hold it at a different angle because maybe that is the problem. The bit where you warm the tip up on your hand, which I am fairly sure I invented and which has never once worked.&lt;/p&gt;
+&lt;p&gt;Then you throw away a pen that contains ink. This is the one that bothers me most, because the failure is so specific. Nothing ran out. A very small ball stopped rolling.&lt;/p&gt;
+&lt;h3 id=sealed-shut&gt;Sealed Shut&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/glue.webp" alt="glue" /&gt;&lt;/p&gt;
+&lt;p&gt;Superglue is the only one on this list that defeats you while sitting completely still, doing nothing, in a drawer.&lt;/p&gt;
+&lt;p&gt;You buy it for one job. The job takes forty seconds. Then you wipe the tip, you screw the cap back on properly, and you put it away feeling like a person who looks after his tools.&lt;/p&gt;
+&lt;p&gt;Three weeks later something else breaks. You go to the drawer. The tube is still heavy. There is clearly glue in there, most of it, because you used a drop. The cap will not turn. When it finally does, the nozzle has become a small solid rock with no hole in it.&lt;/p&gt;
+&lt;p&gt;So you get a pin. You push the pin into the rock. Nothing. You cut the tip off with scissors, which is the last card you have, and either nothing comes out at all or the entire tube empties onto your hand at once. There is no version in between.&lt;/p&gt;
+&lt;p&gt;Then you throw away a nearly full tube of glue, buy another one, use it for forty seconds, and put it away carefully.&lt;/p&gt;
+&lt;p&gt;None of these are real problems either.&lt;/p&gt;
+&lt;p&gt;But there is a particular kind of irritation in being defeated by packaging. Not by running out. By not being allowed to finish. The product is there, you own it, and you are deprived of the satisfaction of using it completely.&lt;/p&gt;
+&lt;p&gt;The amount left is always small.&lt;/p&gt;
+&lt;p&gt;It is also mine.&lt;/p&gt;
+</content>
+    <link href="https://www.hardrefresh.life/things-i-want-to-actually-run-out-of/" rel="alternate"/>
+    <published>2026-07-28T05:15:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://departure.blog/toast-button-post-tags/</id>
+    <title>Hiding toast button based on post tags</title>
+    <updated>2026-07-28T22:18:00+00:00</updated>
+    <author>
+      <name>sylvia</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I've been thinking about how to selectively &lt;a href='https://salforth.bearblog.dev/hiding-bear-blogs-upvote-form/'&gt;hide the toast button&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Yesterday I wondered: how do I hide the toast button on all my #weeknotes posts? After I figured it out, I wondered: how do I hide the toast button on all my posts except my #bearblog ones?&lt;/p&gt;
+&lt;p&gt;I'm not sure I'll end up using this, but saving it here for future reference.&lt;/p&gt;
+&lt;h2 id=tags-toast-button-html&gt;Tags / toast button HTML&lt;/h2&gt;&lt;p&gt;Since the HTML for the tags and the toast button are right next to each other, I can use the CSS &lt;a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Next-sibling_combinator'&gt;sibling combinator&lt;/a&gt; to target the tags + toast buttons I want to hide.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;p class=&amp;quot;tags&amp;quot;&amp;gt;
+  &amp;lt;a rel=&amp;quot;nofollow&amp;quot; href=&amp;quot;/blog/?q=weeknotes&amp;quot;&amp;gt;#weeknotes&amp;lt;/a&amp;gt;
+&amp;lt;/p&amp;gt;
+&amp;lt;form id=&amp;quot;upvote-form&amp;quot; action=&amp;quot;/upvote/&amp;quot; method=&amp;quot;post&amp;quot; style=&amp;quot;display: inline&amp;quot;&amp;gt;
+  ...   
+&amp;lt;/form&amp;gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=css-targeting-tags&gt;CSS targeting tags&lt;/h2&gt;&lt;p&gt;I target the tag through its URL, e.g., my #weeknotes tag has the URL &lt;code&gt;/blog/?q=weeknotes&lt;/code&gt;, so &lt;code&gt;weeknotes&lt;/code&gt; is what I would include in the CSS:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/* If post has #weeknotes tag, hide toast button */
+
+p.tags:has(
+  a[href*=&amp;quot;weeknotes&amp;quot;]
+) + form#upvote-form {
+  display: none !important;
+}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;(I'm using &lt;code&gt;*=&lt;/code&gt; for matching, which means the URL &lt;em&gt;contains&lt;/em&gt; this term, e.g., &lt;code&gt;notes&lt;/code&gt; would include both &lt;code&gt;notes&lt;/code&gt; and &lt;code&gt;weeknotes&lt;/code&gt;. If this is an issue, using the longer &lt;code&gt;q=notes&lt;/code&gt; will be more precise.)&lt;/p&gt;
+&lt;p&gt;More tags can be added in a comma-separated list too:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/* If post has any of these tags, hide toast button */
+
+p.tags:has(
+  a[href*=&amp;quot;tag1&amp;quot;],
+  a[href*=&amp;quot;tag2&amp;quot;],
+  a[href*=&amp;quot;tag3&amp;quot;]
+) + form#upvote-form {
+  display: none !important;
+}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The CSS can also be reversed:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/* If post does not have #bearblog tag, hide toast button */
+
+p.tags:not(
+  :has(
+    a[href*=&amp;quot;bearblog&amp;quot;]
+  )
+) + form#upvote-form {
+  display: none !important;
+}
+&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/* If post does not have any of these tags, hide toast button */
+
+p.tags:not(
+  :has(
+    a[href*=&amp;quot;tag1&amp;quot;],
+    a[href*=&amp;quot;tag2&amp;quot;],
+    a[href*=&amp;quot;tag3&amp;quot;]
+  )
+) + form#upvote-form {
+  display: none !important;
+}
+&lt;/pre&gt;&lt;/div&gt;
+</content>
+    <link href="https://departure.blog/toast-button-post-tags/" rel="alternate"/>
+    <published>2026-07-28T22:18:00+00:00</published>
   </entry>
   <entry>
     <id>https://catsandbirdsandstuff.com/why-i-left-wordpress-for-bearblog/</id>
@@ -169,31 +641,22 @@ Keep posting if you don’t want to have a discussion.&lt;/p&gt;
     <published>2026-07-27T16:13:53.468522+00:00</published>
   </entry>
   <entry>
-    <id>https://nate.spot/re-reconsidering-bearblog/</id>
-    <title>Re: Reconsidering Bearblog</title>
-    <updated>2026-07-28T15:35:00+00:00</updated>
+    <id>https://robertbirming.com/guess-im-trash/</id>
+    <title>I guess I’m trash</title>
+    <updated>2026-07-28T14:21:00+00:00</updated>
     <author>
-      <name>naheller</name>
+      <name>robert</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;Note: This is a rather spicy topic to do my JulyReply on, but there you go. This is just my personal take and nothing more.&lt;/p&gt;
-&lt;p&gt;In reply to &lt;a href='https://scholarch.bearblog.dev/reconsidering-bearblog-or-on-the-value-of-words-new/'&gt;this post&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;I'm relatively new here, but I've been surfing the discover feed for a while now. Both Scholarch's and Absurd Pirate's posts about &lt;a href='https://absurdpirate.bearblog.dev/your-metablogging-is-lame-as-hell/'&gt;meta-blogging&lt;/a&gt; and &lt;a href='https://scholarch.bearblog.dev/re-blank-blogging-counts-too/'&gt;repetitive content&lt;/a&gt; struck me as refreshingly honest and important. Important because I think any healthy community needs its critics, especially those who believe in the core tenets and express themselves in good faith.&lt;/p&gt;
-&lt;p&gt;Overall I do see a good spread of topics and opinions in the discover feed, but there are always going to be some folks who command a bigger audience, float to the top more consistently, and therefore seem to set the tone for the platform as a whole. That's what we're seeing now.&lt;/p&gt;
-&lt;p&gt;Almost every meta-blogging post from these high profile folks seems to gain traction. The topic is easy to relate to because that's we're all here. It's easy to upvote because it's almost uniformly warm, fuzzy, and uncontroversial. There's a reason self-help books sell well, despite mostly rehashing the same handful of ideas. For some of us, it feels good to be reassured about things we've absorbed intellectually, but maybe not emotionally.&lt;/p&gt;
-&lt;p&gt;For others it's like, yes, I get it, I'm special and worthwhile and there's no wrong answer and we're all in this together. It can seem sickly sweet. But if that's the message that some folks choose to focus on, more power to them. Whether or not some posts are designed to play to an algorithm, I don't know.&lt;/p&gt;
-&lt;p&gt;But I do know that when we choose to publish our thoughts online for other to read, we are choosing to invite discourse. And discourse - especially the critical variety that makes us blush a little - is a sign that people care enough a platform to have strong opinions about it.&lt;/p&gt;
-&lt;p&gt;From what I've seen, the back-and-forth between the folks carrying out this latest collective introspection has been respectful. Maybe a little spicy, maybe a little salty, but we're adults here. We can handle it.&lt;/p&gt;
-&lt;p&gt;So how do we balance the sugary sweetness of "kindness and respect" with a mindful dash of salt?&lt;/p&gt;
-&lt;p&gt;Well, &lt;em&gt;we&lt;/em&gt; don't.&lt;/p&gt;
-&lt;p&gt;As Scholarch has discovered, this is not a democracy. We're at the mercy of a benevolent dictator. And Bear's &lt;a href='https://docs.bearblog.dev/code-of-conduct/'&gt;Code of Conduct&lt;/a&gt; is quite clear in showing the extent to which moderation is a subjective exercise. As far as I can tell, it's also a solitary one (correct me if I'm wrong). Which bullet point might Scholarch have violated in this case? Hard to say.&lt;/p&gt;
-&lt;p&gt;What's clear is that our content's continued existence, or at least exposure, on this platform is subject to rules that enjoy a generous degree of wiggle room. That means ambiguity. And how could it be any other way, with such a small team in charge? To build an exhaustive rubric for every possible moderation decision would be a full-time job by itself.&lt;/p&gt;
-&lt;p&gt;This is the price we pay (besides the subscription fee, that is) to use this platform and be promoted on its feed. It's the agreement we made the moment we signed up. And unless we host our own infrastructure down to the metal, there will always be someone else making these types of decisions.&lt;/p&gt;
-&lt;p&gt;A big part of Bear's appeal is the discover feed and the exposure it offers. But it really is just a privilege to be there. I guess you could consider Herman's personal interpretation of the Code of Conduct as part of the algorithm. So far I haven't heard of anyone engage in good faith being totally wiped from the platform. But you never know.&lt;/p&gt;
-&lt;p&gt;So far I've seen much more good than bad here, and I really do want to see Bear host a variety of opinions and tough (but fair) conversations. I hope Scholarch and the other folks involved feel able to say exactly what they want to say, and to be able to "spar" a bit with anyone who's take a critical interest in their work. I hope Herman fosters an environment where this continues to be possible.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I just listened to a documentary about Dolly Parton. What an icon!&lt;/p&gt;
+&lt;p&gt;Growing up in a religious home, there were strict rules about what to wear and how to look. One day, while she's in town with her mother, she sees a woman who's broken all those rules. She asks her mother about the woman, who replies that she's trash.&lt;/p&gt;
+&lt;p&gt;Dolly doesn't understand what her mother means. Trash compared to what? She just sees a beautiful woman and thinks that she would also like to look like that.&lt;/p&gt;
+&lt;p&gt;In an interview years later, she says, "If this is trash, then I guess I'm trash."&lt;/p&gt;
+&lt;p&gt;What an awesome approach to life. Being &lt;em&gt;yourself&lt;/em&gt; and doing &lt;em&gt;your&lt;/em&gt; thing, no matter if others consider it to be trash or treasure.&lt;/p&gt;
+&lt;p&gt;The world needs more Dollys.&lt;/p&gt;
 </content>
-    <link href="https://nate.spot/re-reconsidering-bearblog/" rel="alternate"/>
-    <published>2026-07-28T15:35:00+00:00</published>
+    <link href="https://robertbirming.com/guess-im-trash/" rel="alternate"/>
+    <published>2026-07-28T14:21:00+00:00</published>
   </entry>
   <entry>
     <id>https://actualspine.bearblog.dev/bearblog-is-not-social-media/</id>
@@ -213,73 +676,6 @@ Personally, I enjoy the quiet and people minding their own business. Finding wel
     <published>2026-07-27T06:45:00+00:00</published>
   </entry>
   <entry>
-    <id>https://departure.blog/toast-button-post-tags/</id>
-    <title>Hiding toast button based on post tags</title>
-    <updated>2026-07-28T22:18:00+00:00</updated>
-    <author>
-      <name>sylvia</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I've been thinking about how to selectively &lt;a href='https://salforth.bearblog.dev/hiding-bear-blogs-upvote-form/'&gt;hide the toast button&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Yesterday I wondered: how do I hide the toast button on all my #weeknotes posts? After I figured it out, I wondered: how do I hide the toast button on all my posts except my #bearblog ones?&lt;/p&gt;
-&lt;p&gt;I'm not sure I'll end up using this, but saving it here for future reference.&lt;/p&gt;
-&lt;h2 id=tags-toast-button-html&gt;Tags / toast button HTML&lt;/h2&gt;&lt;p&gt;Since the HTML for the tags and the toast button are right next to each other, I can use the CSS &lt;a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Next-sibling_combinator'&gt;sibling combinator&lt;/a&gt; to target the tags + toast buttons I want to hide.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&amp;lt;p class=&amp;quot;tags&amp;quot;&amp;gt;
-  &amp;lt;a rel=&amp;quot;nofollow&amp;quot; href=&amp;quot;/blog/?q=weeknotes&amp;quot;&amp;gt;#weeknotes&amp;lt;/a&amp;gt;
-&amp;lt;/p&amp;gt;
-&amp;lt;form id=&amp;quot;upvote-form&amp;quot; action=&amp;quot;/upvote/&amp;quot; method=&amp;quot;post&amp;quot; style=&amp;quot;display: inline&amp;quot;&amp;gt;
-  ...   
-&amp;lt;/form&amp;gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;h2 id=css-targeting-tags&gt;CSS targeting tags&lt;/h2&gt;&lt;p&gt;I target the tag through its URL, e.g., my #weeknotes tag has the URL &lt;code&gt;/blog/?q=weeknotes&lt;/code&gt;, so &lt;code&gt;weeknotes&lt;/code&gt; is what I would include in the CSS:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/* If post has #weeknotes tag, hide toast button */
-
-p.tags:has(
-  a[href*=&amp;quot;weeknotes&amp;quot;]
-) + form#upvote-form {
-  display: none !important;
-}
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;(I'm using &lt;code&gt;*=&lt;/code&gt; for matching, which means the URL &lt;em&gt;contains&lt;/em&gt; this term, e.g., &lt;code&gt;notes&lt;/code&gt; would include both &lt;code&gt;notes&lt;/code&gt; and &lt;code&gt;weeknotes&lt;/code&gt;. If this is an issue, using the longer &lt;code&gt;q=notes&lt;/code&gt; will be more precise.)&lt;/p&gt;
-&lt;p&gt;More tags can be added in a comma-separated list too:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/* If post has any of these tags, hide toast button */
-
-p.tags:has(
-  a[href*=&amp;quot;tag1&amp;quot;],
-  a[href*=&amp;quot;tag2&amp;quot;],
-  a[href*=&amp;quot;tag3&amp;quot;]
-) + form#upvote-form {
-  display: none !important;
-}
-&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The CSS can also be reversed:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/* If post does not have #bearblog tag, hide toast button */
-
-p.tags:not(
-  :has(
-    a[href*=&amp;quot;bearblog&amp;quot;]
-  )
-) + form#upvote-form {
-  display: none !important;
-}
-&lt;/pre&gt;&lt;/div&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;/* If post does not have any of these tags, hide toast button */
-
-p.tags:not(
-  :has(
-    a[href*=&amp;quot;tag1&amp;quot;],
-    a[href*=&amp;quot;tag2&amp;quot;],
-    a[href*=&amp;quot;tag3&amp;quot;]
-  )
-) + form#upvote-form {
-  display: none !important;
-}
-&lt;/pre&gt;&lt;/div&gt;
-</content>
-    <link href="https://departure.blog/toast-button-post-tags/" rel="alternate"/>
-    <published>2026-07-28T22:18:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://dostoynikov.com/back-to-bearblog/</id>
     <title>Back to Bearblog</title>
     <updated>2026-07-27T10:16:00+00:00</updated>
@@ -297,297 +693,89 @@ p.tags:not(
     <published>2026-07-27T10:16:00+00:00</published>
   </entry>
   <entry>
-    <id>https://winther.sysctl.dk/reading-books-on-your-phone/</id>
-    <title>Reading books on your phone</title>
-    <updated>2026-07-26T11:57:41.194126+00:00</updated>
-    <author>
-      <name>winther</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Being on vacation always reignites my motivation to read books. I mostly read on my Kindle, but during this vacation I read an entire book on my phone. Because the ebook library service we have only exists as an app. While I do like physical books, I am not overly attached to the medium of literature or text in general. Still, it is difficult to completely ignore the sort of stigma associated with reading (staring at) on your phone. Staring at your phone is, with at least some valid understandable reasons, becoming less than desirable. Many people say they want to decrease their screen time, we setup various blocking mechanisms (with varying results) and we are in general more critical of heavy smartphone usage. While it is easy to take a photo in the subway of everyone looking at their screens, and then get it viral on social media with a self-righteous post about how everyone are zombies - or the counter flashmob with a group of people coordinate to silently read physical books in public transport (both get plenty of engagement on social media), we don’t actually know what people are looking at. Yes, many are most likely scrolling through reels, but some may be reading a book, reading the newspaper, catching up on messages from their kid’s school or whatever. I heard a podcast where someone said she has started buying very small pocket books, so she can read those instead of reading on her phone in public due to this. Of course we shouldn’t really bother ourselves with other people think, and that is true to an extent, but I can’t completely ignore what kind of signals I am sending to my kids. Whether we like it or not, it does send different signals to your surroundings if you are sitting on the couch looking at your phone with high focus for half an hour or doing the same with a paper book.&lt;/p&gt;
-</content>
-    <link href="https://winther.sysctl.dk/reading-books-on-your-phone/" rel="alternate"/>
-    <published>2026-07-26T11:57:41.194126+00:00</published>
-  </entry>
-  <entry>
-    <id>https://folkmoss.bearblog.dev/the-dichotomy-of-blogging/</id>
-    <title>The dichotomy of blogging</title>
-    <updated>2026-07-25T20:22:19.877474+00:00</updated>
-    <author>
-      <name>folkmoss</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p class="post-meta"&gt; Last edited 3 days, 16 hours ago. &lt;/p&gt; 
-&lt;p&gt;First off, before anything else, I just wanted to give a big thanks to everyone who emailed me regarding my &lt;a href='/digital-entertainment-with-zero-money/'&gt;last post&lt;/a&gt; — people sharing their own struggles, or with tips for getting free stuff, or simply to say they appreciate the post/my writing. Thank you thank you thank you. It's incredibly heartwarming to read others!&lt;/p&gt;
-&lt;p&gt;Now, having said that, it feels really weird when a post on this blog goes "viral". &lt;mark&gt;If I had a nickel for every time that happened, I'd have two nickels — which isn't a lot but it's weird that it happened twice.&lt;/mark&gt; And I guess that's the dichotomy of having a weblog. It's a log on the web, after all. For everyone to read. At least, this one is. But it's personal stuff. &lt;em&gt;My&lt;/em&gt; personal stuff. That, at the end of the day, I mostly write for myself, not others. &lt;strong&gt;I've never once started a blog thinking about becoming popular through it&lt;/strong&gt; (I'm not counting the time I started a newsletter on Substack as blogging, after all it was purely for professional reasons).&lt;/p&gt;
-&lt;p&gt;When I was a teen, I wrote to let the angst out and to connect with fellow angsty internet teens. We linked to each others' blogs and always left comments. It's funny thinking back, because I don't remember using RSS for blogs specifically, so I guess we'd always just keep commenting back and forth and visiting each others' web pages constantly. We didn't have a lot to do on the internet back then. lol First of all, there were no smartphones. All we had was a desktop computer. For me, I only had blogs, message boards, and ICQ. (For a little while I did use IRC, but it could get pretty scary; I met lots of creeps as a minor there and stopped logging in.)&lt;/p&gt;
-&lt;p&gt;And I'm starting to realize it's the same reason I created this blog — to share a few thoughts on the ether, to read others' thoughts and comment on them, to get a handful of comments back, maybe. To log my feels so I can go back and read them because now, more than ever, my memory sucks and I forget about my own life (thanks, covid).&lt;/p&gt;
-&lt;p&gt;What isn't the same, I guess, is the scale. Now as an adult on Bear Blog and on the general blogosphere, I don't have the same feeling of a tight-knit community of the same handful of people commenting on my stuff and vice-versa. There are &lt;em&gt;so many blogs&lt;/em&gt; on my RSS feed! So many interesting people posting all the time that I see on the Recent Posts feed, always new people popping up on the Trending Posts... And comment sections are not 'in' anymore. I mean, there are a few blogs that have one, but Bear itself and the blogging culture of the present is really discouraging of comment sections. I myself don't have one, I even disabled the guestbook (but that was bc of technical reasons). I guess we're now living through a phase of being completely burned out — traumatized? — by comment sections, but [old man voice] &lt;em&gt;back in my day&lt;/em&gt;, they were so precious and important. Also — now I blog in English. The anglophone internet is much wider than the lusophone one. &lt;em&gt;Especially&lt;/em&gt; on the indie web/blogosphere in the year of our lord jesus christ 2026.&lt;/p&gt;
-&lt;p&gt;So yeah. I'm not sure if I had a clear point to all of this. I'm not complaining per se. Just sharing that it is pretty weird to have a random post hit Hacker News (?!) when all I do is vent on the internet expecting to be read by five people. Wild.&lt;/p&gt;
-&lt;p&gt;Writing this down tho, I'm reminded I gotta organize both my post roll and my blog roll. Eventually. Hopefully soon. But as a good ADHDer, not today.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;div class="post-nav"&gt; 
-You can reply via &lt;a href="/contact"&gt;email&lt;/a&gt; or leave a message on my &lt;a href="/guestbook"&gt;guestbook&lt;/a&gt;. 
-&lt;p&gt;⁂&lt;/p&gt;
-&lt;p&gt;⇠ &lt;a class="previous-post" href="/an-facinora" title="A.N. |  Facínora"&gt;Previous&lt;/a&gt; ·  ⇢&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://folkmoss.bearblog.dev/the-dichotomy-of-blogging/" rel="alternate"/>
-    <published>2026-07-25T20:22:19.877474+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.hardrefresh.life/things-i-want-to-actually-run-out-of/</id>
-    <title>Things I Want to Actually Run Out Of</title>
-    <updated>2026-07-28T05:15:00+00:00</updated>
-    <author>
-      <name>hardrefresh</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;My last &lt;a href='hardrefresh.life/things-i-never-want-to-run-out-of' target='_blank'&gt;post&lt;/a&gt; was about things that I never want to run out of.&lt;/p&gt;
-&lt;p&gt;And it got me thinking. Are there things that I would very much like to run out of, properly, all the way down to nothing, and never get to? Turns out there are. Here's the top five. And yes, there were more than five.&lt;/p&gt;
-&lt;h3 id=the-hiss&gt;The Hiss&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/deo-1.webp" alt="deo" /&gt;&lt;/p&gt;
-&lt;p&gt;You shake the can and you can hear it. There is liquid in there. Not a trace amount, an audible amount, sloshing about like it has somewhere better to be.&lt;/p&gt;
-&lt;p&gt;Then you press down and get a small polite hiss. Air. That is all that comes out now. The propellant is gone, and it has taken your ability to access anything with it.&lt;/p&gt;
-&lt;p&gt;So you shake it again. Harder this time, as if the problem was enthusiasm. Same hiss. You do this three or four times before accepting that a can with liquid in it is going in the bin.&lt;/p&gt;
-&lt;h3 id=the-long-roll&gt;The Long Roll&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/toothpaste-2.webp" alt="toothpaste" /&gt;&lt;/p&gt;
-&lt;p&gt;The toothpaste tube has stages.&lt;/p&gt;
-&lt;p&gt;First the casual squeeze. Then the squeeze from the bottom, which feels like maturity. Then the roll, where you fold the end over and work it up the tube like you are wringing out a towel. Then the thumbnail, dragged along the seam with real force.&lt;/p&gt;
-&lt;p&gt;By the end the tube is a flat, creased, silver thing. And there is still toothpaste in it. Not enough to brush with, maybe. Enough to know about. And it bugs me that I can't get to it using the conventional methods I've mentioned. I'd be lying if I said I hadn't cut open the tube. It was only a partially successful attempt.&lt;/p&gt;
-&lt;h3 id=the-curve&gt;The Curve&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/jam-2.webp" alt="jam" /&gt;&lt;/p&gt;
-&lt;p&gt;Jam jars are designed by people who have never eaten jam.&lt;/p&gt;
-&lt;p&gt;The worst part is not the bottom. The worst part is the shoulder.&lt;/p&gt;
-&lt;p&gt;Just below the opening, the jar swells outward before it narrows into the neck. It sits there like a small inner tube. A ring of glass that is wider than the hole you have to reach through. Which means there is a band of jam around the inside of the jar, at eye level, that you can see perfectly and cannot get to.&lt;/p&gt;
-&lt;p&gt;A knife is straight. You go in, you hit the underside of the shoulder, and the knife stops. You turn it sideways and scrape upward at an angle like a surgeon. You get about a third of it. The rest stays welded to the roof of the jar.&lt;/p&gt;
-&lt;p&gt;Then you look down and remember there is a second curve at the base doing exactly the same thing.&lt;/p&gt;
-&lt;p&gt;So every jar I have ever finished has two rings of jam left in it. Top and bottom. In a low moment I have used my finger, assuming I can reach. It does not clear either one and it makes you feel like a bin chicken with fingers.&lt;/p&gt;
-&lt;p&gt;I would like a jar with straight sides and a square bottom. That is the whole request. Someone please make a jar that respects the shape of cutlery.&lt;/p&gt;
-&lt;p&gt;Technically this problem is not limited to jam jars. It applies to any jar with spreadable contents.&lt;/p&gt;
-&lt;h3 id=ink-visible&gt;Ink, Visible&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/ink.webp" alt="ink" /&gt;&lt;/p&gt;
-&lt;p&gt;I like writing with pens. I mostly use gel or ballpoint pens. The ones with refills. The refill still has ink in it. You can see the ink. A good couple of millimetres of it, sitting in full view.&lt;/p&gt;
-&lt;p&gt;The pen does not write.&lt;/p&gt;
-&lt;p&gt;So you begin the ritual. The scribble in the corner of the page. The harder scribble. The small hopeful circles. The diagonal scratching. The bit where you hold it at a different angle because maybe that is the problem. The bit where you warm the tip up on your hand, which I am fairly sure I invented and which has never once worked.&lt;/p&gt;
-&lt;p&gt;Then you throw away a pen that contains ink. This is the one that bothers me most, because the failure is so specific. Nothing ran out. A very small ball stopped rolling.&lt;/p&gt;
-&lt;h3 id=sealed-shut&gt;Sealed Shut&lt;/h3&gt;&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/hardrefresh/glue.webp" alt="glue" /&gt;&lt;/p&gt;
-&lt;p&gt;Superglue is the only one on this list that defeats you while sitting completely still, doing nothing, in a drawer.&lt;/p&gt;
-&lt;p&gt;You buy it for one job. The job takes forty seconds. Then you wipe the tip, you screw the cap back on properly, and you put it away feeling like a person who looks after his tools.&lt;/p&gt;
-&lt;p&gt;Three weeks later something else breaks. You go to the drawer. The tube is still heavy. There is clearly glue in there, most of it, because you used a drop. The cap will not turn. When it finally does, the nozzle has become a small solid rock with no hole in it.&lt;/p&gt;
-&lt;p&gt;So you get a pin. You push the pin into the rock. Nothing. You cut the tip off with scissors, which is the last card you have, and either nothing comes out at all or the entire tube empties onto your hand at once. There is no version in between.&lt;/p&gt;
-&lt;p&gt;Then you throw away a nearly full tube of glue, buy another one, use it for forty seconds, and put it away carefully.&lt;/p&gt;
-&lt;p&gt;None of these are real problems either.&lt;/p&gt;
-&lt;p&gt;But there is a particular kind of irritation in being defeated by packaging. Not by running out. By not being allowed to finish. The product is there, you own it, and you are deprived of the satisfaction of using it completely.&lt;/p&gt;
-&lt;p&gt;The amount left is always small.&lt;/p&gt;
-&lt;p&gt;It is also mine.&lt;/p&gt;
-</content>
-    <link href="https://www.hardrefresh.life/things-i-want-to-actually-run-out-of/" rel="alternate"/>
-    <published>2026-07-28T05:15:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://4s.bearblog.dev/bye-bye-bear-blog/</id>
-    <title>Bye, bye, Bear Blog!</title>
-    <updated>2026-07-27T22:00:00+00:00</updated>
-    <author>
-      <name>4s</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Almost a year ago, I decided to give blogging a try. I thoroughly enjoyed researching and writing my posts (I put a &lt;strong&gt;lot&lt;/strong&gt; of effort into them), but seeing how little traction my writings got was usually disappointing.&lt;/p&gt;
-&lt;p&gt;&lt;a href='https://4s.bearblog.dev/talking-to-another-species/'&gt;My best-appreciated blog post&lt;/a&gt; was very short; I suspect that was part of its appeal. What I consider to be &lt;a href='https://4s.bearblog.dev/hashing-is-not-encryption/'&gt;my best post&lt;/a&gt; was very niche, so I understand why it didn't get many upvotes.&lt;/p&gt;
-&lt;p&gt;After that one, though, I tried to write about things that I expected to be appealing to a larger audience, but I always seemed to fail to reach them. I am either interested in things that other people don't care about, or I haven't figured out how to make those things interesting to them. Either way: life is finite, and you shouldn't spend much time on things that don't have a decent return on investment.&lt;/p&gt;
-&lt;p&gt;As I wrote, I enjoyed the researching and writing, but if the enjoyment I get from those is the entire return, I might as well store my writings in an Obsidian vault and save myself the yearly 58 euro (incl. VAT) subscription to Bear Blog. 😉&lt;/p&gt;
-&lt;p&gt;In three weeks, on the 18th of August, my subscription will expire and that will be it for me. I would like to use this (probably last [1]) blog post to thank &lt;a href='https://khoaly.xyz/'&gt;Khoaly&lt;/a&gt; for their kind words. Without them, I probably would have considered the experiment a bit of a failure. Now, I don't.&lt;/p&gt;
-&lt;p&gt;Thank you!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;EDIT: Several people suggested I should write without reader engagement in mind. The thing is, I don't write the same way when I know others will read it. If I'm writing only for myself, I'll research something until I'm satisfied and stop when it's "good enough." If I'm writing knowing someone else &lt;em&gt;might&lt;/em&gt; read it, I'll spend much more time researching, fact-checking, polishing, and revising. That's a much bigger investment. If only a handful of people end up reading the result (and that's perfectly understandable; I also hesitate before opening a very long post!), it's hard to justify putting in that extra effort. Since I have other hobbies I enjoy, like reading and programming, I'd rather spend my limited time on the ones that feel more rewarding.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr /&gt;
-&lt;p&gt;[1] I still have three blog posts waiting but I don't expect to finish them within the remaining weeks.&lt;/p&gt;
-</content>
-    <link href="https://4s.bearblog.dev/bye-bye-bear-blog/" rel="alternate"/>
-    <published>2026-07-27T22:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://bx.bearblog.dev/im-done-looking-for-the-one/</id>
-    <title>I’m done looking for ‘The One’.</title>
-    <updated>2026-07-25T18:39:13.569822+00:00</updated>
-    <author>
-      <name>bx</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Living in a small town sure has its drawbacks. The steno pool of suitors are almost non existent. God knows I’ve tried.&lt;/p&gt;
-&lt;p&gt;It’s easy to fall in the trap of yearning for something your friends have. Life partner, baby, home. My own space is definitely on the horizon and I look forward to having somewhere I can spread my own wings however I want to.&lt;/p&gt;
-&lt;p&gt;Do I need a companion to be my best self? Nah. The beauty of having friends and family, maybe even colleagues, is that you’re never alone.&lt;/p&gt;
-</content>
-    <link href="https://bx.bearblog.dev/im-done-looking-for-the-one/" rel="alternate"/>
-    <published>2026-07-25T18:39:13.569822+00:00</published>
-  </entry>
-  <entry>
-    <id>https://cherrysroom.bearblog.dev/my-presidential-platform-now-that-im-old-enough-to-run/</id>
-    <title>my presidential platform now that i'm old enough to run</title>
-    <updated>2026-07-25T21:14:00+00:00</updated>
-    <author>
-      <name>cherrysroom</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;&lt;strong&gt;weather:&lt;/strong&gt; ☀️ slimy but hospitable &lt;br /&gt;
-&lt;strong&gt;critters:&lt;/strong&gt; little blue damselfly, several swallowtails, many sulphurs and cabbages&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;my birthday was over a month ago but, uh, better late than never. here's my presidential platform (besides universal healthcare debt forgiveness affordable housing public transit public education parks funding monopoly busting &amp;c. &amp;c., which every sane candidate will promote anyway). my vice president, should she accept, will be angelyne&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;anyone using those LED retinal hazards some dare call "headlights" will have said hazards destroyed with state-funded rocks&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;more vending machines and automats nationwide. this will have a whole cabinet position actually&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;all parks and public land agency workers will be authorized to fire paintballs at people who litter, play music without headphones, harass wildlife, or fail to leash their untrained dogs&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;because the private muskerberg entity has clearly failed in its duty to behave as a public square, all social media will be nationalized. its advertisements will teach vocabulary words, provide fun facts, and inform voters about upcoming elections&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;free straw hats for all tourists. some of you motherfuckers act like you're allergic to sunscreen&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;as it has clearly run its course, las vegas will be closed&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-    <link href="https://cherrysroom.bearblog.dev/my-presidential-platform-now-that-im-old-enough-to-run/" rel="alternate"/>
-    <published>2026-07-25T21:14:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://scholarch.bearblog.dev/reconsidering-bearblog-or-on-the-value-of-words-new/</id>
-    <title>Reconsidering Bearblog; or, On the Value of Words</title>
-    <updated>2026-07-26T23:41:00+00:00</updated>
+    <id>https://scholarch.bearblog.dev/healthy-discourse/</id>
+    <title>Healthy Discourse</title>
+    <updated>2026-07-29T19:46:05.340312+00:00</updated>
     <author>
       <name>scholarch</name>
       <email>hidden</email>
     </author>
-    <content type="html">&lt;p&gt;Last Sunday, I wrote &lt;a href='https://scholarch.bearblog.dev/re-blank-blogging-counts-too/'&gt;a post calling out Robert Birming's repetitive writing&lt;/a&gt;. The post gained traction, receiving around 85 toasts before it got shadow-banned—removed from trending.&lt;/p&gt;
-&lt;p&gt;I'll admit it: I got salty over this.&lt;/p&gt;
-&lt;p&gt;Was it because the post was controversial? That it continued to receive toasts even after being hidden—and that I received a few supportive emails and guestbook entries—suggests that it wasn't a touchy or taboo subject.&lt;/p&gt;
-&lt;p&gt;Was it because the post was low in effort? Sure, it took about 15 minutes to make, and there's an element of hypocrisy in calling out low-effort posting through a low-effort post, but I've written short posts that are more trivial and less consequential (e.g., &lt;a href='https://scholarch.bearblog.dev/an-amusing-quote-on-information-overload/'&gt;responding to a quote when the quote is longer than my response&lt;/a&gt; or &lt;a href='https://scholarch.bearblog.dev/very-brief-notes-on-unicode-input/'&gt;jotting down unicode inputs&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Was it because it was too harsh? I didn't go as far as to suggest Birming's writing was lame or the equivalent of AI slop (but see &lt;a href='https://absurdpirate.bearblog.dev/your-metablogging-is-lame-as-hell/'&gt;Absurd Pirate's effort&lt;/a&gt;), and my remarks were directed at Birming's writing, not his character. Often in criticism, discussions attempt to separate the artist from their art (or else discuss the pros and cons of doing so); the common reason is to focus on the quality of the art as a standalone experience (see &lt;a href='https://en.wikipedia.org/wiki/The_Death_of_the_Author'&gt;Barthes' famous essay&lt;/a&gt;). In contemporary culture, this separation is typically made so that problematic authors don't tarnish really good works of art (e.g., J.K. Rowling and Harry Potter). I posit that the art–artist separation serves the opposite function, too: we can critique subpar art without making it about the artist—which is what my recent post aimed to do.&lt;/p&gt;
-&lt;p&gt;As I mulled over these thoughts (and pondered where my saltiness stemmed from), the realizations seeped in: the platform &lt;em&gt;thrives&lt;/em&gt; on meta-blogging posts; it is incentivized to maintain this production; and it will hide suggestions for alternatives. It doesn't really care for &lt;em&gt;what&lt;/em&gt; we write, but &lt;em&gt;that&lt;/em&gt; we write. That's the theme conveyed across no fewer than 14 posts by Birming alone since February 2026. Just write—even when you have nothing to say or don't feel like it.&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; It calls to my mind the image of a factory taskmaster. Produce, produce, produce...&lt;/p&gt;
-&lt;h2 id=what-i-am-here-for&gt;What I am here for?&lt;/h2&gt;&lt;p&gt;Consequently, I've been reconsidering my use of Bear. You see, I have that writer's vanity that all bloggers have at some level: I want my words to matter. Now when it is easier than ever to write and share words, I want mine to have value. This desire underscored the key message of my post last week:&lt;/p&gt;
+    <content type="html">&lt;p&gt;This one's a bit of a ramble, but I mean to get it out quick.&lt;/p&gt;
+&lt;p&gt;I want to thank the people who emailed me and wrote in my guestbook regarding &lt;a href='https://scholarch.bearblog.dev/reconsidering-bearblog-or-on-the-value-of-words-new/'&gt;my recent post&lt;/a&gt;; both supportive and challenging messages have prompted me to think about free speech, codes of conduct, and what it means to be a fair-minded person. I also want to acknowledge the thoughtful responses made by &lt;a href='https://nate.spot/re-reconsidering-bearblog/'&gt;Nate&lt;/a&gt; and &lt;a href='https://oracleofsages.bearblog.dev/when-does-censorship-become-necessary/'&gt;Sage&lt;/a&gt;. The discourse around here in the last few days has veered towards meta-meta-blogging, and I know my role in stirring things up. The point of this post is to take responsibility accordingly.&lt;/p&gt;
+&lt;p&gt;First, the current/temporary link to the Code of Conduct atop the Discovery feed is due to my last post. Anyone who's ever misbehaved in school (or in the workplace) which resulted in a blanket statement made by the teacher/principal/management to everyone else knows the feeling of culpability. I don't regret writing the two posts that led up to it, but I would regret not extending fairness to Herman since there's a sense that his response is passive aggressive or slimy.&lt;/p&gt;
+&lt;p&gt;Herman reached out to me via email on Monday, roughly 16 hours after my post. Here's what I received:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Sometimes it's good to step away from the page or keyboard so that you can think and come up with ideas—preferably new and fresh ones.&lt;/p&gt;
+&lt;p&gt;Hey there, &lt;/p&gt;
+&lt;p&gt;I just read your post w/r to the hiding of your previous post. I apologise for leaving you salty. &lt;/p&gt;
+&lt;p&gt;I tend to hide all posts that are jabs at a specific person (in this case Robert). The reason for this is, if I don't, it leads to people jabbing back and bickering on the discovery feed. This isn't what I want for the feed, and I hope you can understand my reasons for moderating the feed in such a way. For clarity, it wasn't because you were calling out spam, or anything like that. &lt;/p&gt;
+&lt;p&gt;Being hidden from the discovery feed isn't a banning of your blog, it's just me keeping the feed happy and healthy, instead of antagonistic. You're not going to be de-platformed or anything obtuse, I just don't want conflict on the feed. &lt;/p&gt;
+&lt;p&gt;I hope you'll take the time to earnestly try and understand the reason for my actions, instead of writing them off as me being malicious. &lt;/p&gt;
+&lt;p&gt;I'm also happy to answer any questions you have about how I moderate, as well as the code of conduct. Feedback is how I make Bear a better place to be. &lt;/p&gt;
+&lt;p&gt;Have a good rest of your week.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In an ever-increasingly noisy world, I regard slowing down to ensure the validity, reliability, and quality of my thoughts as a good skill to develop. It’s an exercise in building confidence in my own ideas, while resisting the pressures to move fast and break things. If I have to say the same thing 14 different times to make a point, that’s not improving my writing, but cementing a particular template. I wouldn’t be blogging anymore; I’d just be adding to the noise.&lt;/p&gt;
-&lt;p&gt;I restarted blogging last December because I wanted to make sense of my life. I had the romantic idea that writing would be the key to saving my soul. I believed then (as I still do) that writing is a reflective process that enables and empowers me to have dialogue with myself, which in turn uncovers uncomfortable truths and difficult aspects that can be addressed to improve my life. I believed Bear was congruent with these beliefs: according to the &lt;a href='https://herman.bearblog.dev/manifesto/'&gt;Bear Manifesto&lt;/a&gt;, this platform gives me “a reliable, simple, and independent place to share [my] thoughts online.”&lt;/p&gt;
-&lt;p&gt;Through blogging, I’ve reached a few milestones and epiphanies. I &lt;a href='https://scholarch.bearblog.dev/83-books/'&gt;let go of my attachment to physical books&lt;/a&gt; as a measure of my self-worth. I named &lt;a href='https://scholarch.bearblog.dev/fathering-myself-or-three-lessons-from-the-kitchen/'&gt;the shortcomings of my father&lt;/a&gt; and what I need to do to make up for that in terms of my personal development. I decided to &lt;a href='https://scholarch.bearblog.dev/quitting-reddit/'&gt;quit Reddit&lt;/a&gt; (and remain committed to that choice). And I found joy in having a space to talk about the music I was getting into for a while, when I was particularly susceptible to seasonal affective disorder.&lt;/p&gt;
-&lt;p&gt;Moreover, I’ve been inspired by the stories of others and how they make sense of their lives. In particular, I want to acknowledge:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href='https://absurdpirate.bearblog.dev/'&gt;Absurd Pirate’s hot and humourous takes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://forsomeone.bearblog.dev/'&gt;Chloe’s unpolished, vulnerable, unapologetic reflections on being her parents’ caregiver&lt;/a&gt; (see also &lt;a href='https://fornoone.bearblog.dev/'&gt;her other blog&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://folkmoss.bearblog.dev/chapters/'&gt;Folkmoss&lt;/a&gt; for the visual aesthetic of her blog and her thoughtful writings on how we consume media&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://lauram.bearblog.dev/'&gt;Laura Michet’s&lt;/a&gt; slice of life adventures and commentary on video games (their design and in general)&lt;/li&gt;
-&lt;li&gt;&lt;a href='https://toska.bearblog.dev/'&gt;Toska&lt;/a&gt; for writing about relationships and finding a sense of home (which have prompted me to think of my own journey)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I’ve also enjoyed correspondence with others via email. One highlight was getting &lt;a href='https://listeningroomsmusic.com/scholarch/'&gt;interviewed about my music tastes&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In short, Bearblog has offered me more good than not during my time on this platform. This is why I challenge David Meissner’s &lt;a href='https://davidmeissner.com/blog/re-re-re-blank-blogging'&gt;characterization of my last post&lt;/a&gt;, as akin to “booing amateur musicians at an open mike night.” To work with the analogy, instead of booing, I was just looking around me, noticing that some musicians at this establishment seem to play similar songs and repeat their acts whenever they’re onstage. I was getting bored, and wondered if my fellow audience members felt the same way, and if/how we might have a more robust community setlist.&lt;/p&gt;
-&lt;h2 id=next-steps&gt;Next steps&lt;/h2&gt;&lt;p&gt;It sucks that I wrote this post with the assumption that it, too, will get shadow-banned. As a precaution I’ve started &lt;a href='https://scholarch.neocities.org/'&gt;a new site on Neocities&lt;/a&gt;. It’s a viable alternative: free, open source, no ads, supporter-funded, and free accounts can upload files and embed images. It’s also a bit more traditional with HTML and CSS setup, which allowed me to create a minimalist-gothic-manuscript aesthetic in an afternoon. I envision using this new site to continue working on myself, with pages that are edited over time (e.g., like Wikipedia articles) instead of blog posts (to minimize repeating myself).&lt;/p&gt;
-&lt;p&gt;Yet I retain a need for blogging to express ideas, musings, and discoveries. What remains to be seen is whether this will be done through Bear, or integrated in my new site. The &lt;a href='https://herman.bearblog.dev/manifesto/'&gt;Bear Manifesto&lt;/a&gt; made a promise:&lt;/p&gt;
+&lt;p&gt;I found it to be a fair and cordial message. In fact, I took Herman's suggestion to take the time to earnestly try and understand his perspective to heart, and have been mulling over it the last couple days. I assumed there were three reasons for my initial post to get shadow-banned (e.g., it was controversial, low-effort, and/or harsh), but I overlooked how I was making personal attacks and subtle digs. I'll own that: (1) I was a bit pretentious and aggressive in my first post; (2) my follow-up was motivated by saltiness; and (3) precisely because those things feel good in the moment, such posts can be tricky for moderation.&lt;/p&gt;
+&lt;p&gt;So, I do accept Herman's apology for leaving me salty. In turn, I apologize for putting him in a difficult spot with my previous writing—and with the next bit.&lt;/p&gt;
+&lt;p&gt;As far as I can tell, the Discovery feed has not devolved into a back-and-forth jabbing or bickering session. There's been more discourse around free speech and conduct and what it means to express one's views, but I regard these as worthwhile topics to explore. I also challenge the underlying premise that conflict is inherently bad. I know it makes the job of moderating that much more exhausting, and I doubt it's something that can be integrated into the formula for what counts as trending and not. Nevertheless, from the limited data I have (e.g., messages I've received, the number of toasts, the quality of reply posts), I think the community welcomes the element of disagreement and is mature enough to handle it.&lt;/p&gt;
+&lt;p&gt;For what it's worth, I empathize with how challenging this can be. I'm an educator, and the considerations around free speech and civility and tolerance appear in the microcosm of the classroom. It's my role to ensure a space that is conducive to both dialogue &lt;em&gt;and&lt;/em&gt; dignity. As others have suggested, hate speech is the no-fly zone. As far as I can tell, the Bear community is in consensus on that front.&lt;/p&gt;
+&lt;p&gt;So where does the proverbial line get drawn? In my work, I draw on the philosopher Karl Popper's views on tolerance. He said that extreme tolerance is what leads to societal decline, because that form of tolerance includes tolerating the intolerant. The intolerant, of course, do not return such favors. Over time, they gain traction, and hateful views and voices become embedded in discourse. One just needs to consider the rise in authoritarian and fascist ideas in the last decade or so to see how this is apparent.&lt;/p&gt;
+&lt;p&gt;How does this connect to Bear? I want to suggest that toxic positivity, or the stance that we should avoid conflict altogether, is not ideal. Otherwise, my concern that Bear is a factory that doesn't care for &lt;em&gt;what&lt;/em&gt; is written but &lt;em&gt;that&lt;/em&gt; it is written will persist, and the noise will continue to overwhelm meaningful signals. On the other hand, moderation is still necessary, but I suggest it be limited to addressing intolerance. You know it when you see it: the hateful takes that strip away another person's or people's dignity, rights as human beings, or sense of belonging in a space.&lt;/p&gt;
+&lt;p&gt;On that note, I also feel responsible for Robert's response &lt;a href='https://robertbirming.com/guess-im-trash/'&gt;in which he supposes he is trash&lt;/a&gt;. I know it's &lt;em&gt;really&lt;/em&gt; presumptuous of me to think I'm the cause of that post, but again: as an educator, I've seen how people respond to different stimuli in the classroom. In every interaction there are at least two parties involved. So, to Robert, for what it's worth: as much as I take issue with the quality of your writing, I don't know you enough to comment on the quality of your character, and I'm sorry that my words affected you negatively.&lt;/p&gt;
+&lt;p&gt;I'm still undecided where to go from here for blogging, but I wanted to model the sort of discourse I want to be a part of, not just in the blogosphere, but in all realms of life.&lt;/p&gt;
+</content>
+    <link href="https://scholarch.bearblog.dev/healthy-discourse/" rel="alternate"/>
+    <published>2026-07-29T19:46:05.340312+00:00</published>
+  </entry>
+  <entry>
+    <id>https://oracleofsages.bearblog.dev/when-does-censorship-become-necessary/</id>
+    <title>When Does Censorship Become Necessary?</title>
+    <updated>2026-07-29T13:10:00+00:00</updated>
+    <author>
+      <name>oracleofsages</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;div class="note"&gt;
+&lt;p&gt;&lt;span class="note-label"&gt;Update: 30 Jul, 2026&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Scholarch has since uploaded a &lt;a href='https://scholarch.bearblog.dev/healthy-discourse/'&gt;follow-up post&lt;/a&gt; in relation to this situation, referencing my post and that they had been directly contacted by Herman himself.&lt;/p&gt;
+&lt;p&gt;Herman also reached out to me, which I greatly appreciated. It cleared up a lot of my hypotheticals. Again, at time of writing this post it was purely conjecture and my personal feelings. I hope that is obvious while reading. Additionally, the Code of Conduct has now been removed from the Discovery page. I believe this was the correct choice to make, but also understand (after hearing from Herman) why it was done.&lt;/p&gt;
+&lt;p&gt;There is no black and white to this. Moderating communities is hard work. People are fickle, and can rarely ever agree on one singular thing. We still have debates about the Earth being flat, for God's sake.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;If you frequent the trending page, you may have noticed the recent commentary stemming from &lt;a href='https://scholarch.bearblog.dev/re-blank-blogging-counts-too/'&gt;Scholarch's post&lt;/a&gt; directed at Robert &lt;a href='https://robertbirming.com/re-blank-blogging/'&gt;(who replied in turn)&lt;/a&gt;. It seems to have caused quite a stir, especially if Scholarch's guestbook is anything to go by.&lt;/p&gt;
+&lt;p&gt;I don't care about the drama of it all. Frankly its all rather banal and appears to have been blown completely out of proportion. I'm entitled to that opinion, just as you are entitled to yours even if it may be in complete disagreement. From what I can see, both parties have remained respectful towards one another, albeit with a tinge of saltiness. We are biased &amp; contradictory creatures, it is what it is.&lt;/p&gt;
+&lt;p&gt;The part I take issue with is the Code of Conduct being silently pinned to the top of the Discovery page. If Scholarch's account is anything to go by, there has been no communication between themselves and Herman regarding the inciting post itself, at least at time of posting. At the base level that's not necessarily a problem, as in Herman's own words…&lt;/p&gt;
+&lt;div class="pullquote"&gt;
+&lt;p&gt;"Posts may be hidden from the discovery feed to keep our shared garden enjoyable for everyone."&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The Code of Conduct then goes on to list what Herman classes as "unenjoyable" for the platform, including what most people have concluded to be the problem-point of "personal attacks and subtle digs." There have been arguments that a similar, lengthier post by &lt;a href='https://absurdpirate.bearblog.dev/your-metablogging-is-lame-as-hell/'&gt;Absurd Pirate&lt;/a&gt; hashes out the exact same opinion, only far more vaguely. Does this count as a "subtle dig"? If so, why didn't it receive the same treatment? We could sit here all day and argue where the line is but I don't think we would ever reach a decent consensus. What even constitutes as subtle? Speaking from personal experience as an autistic person, subtle doesn't even exist to me and, hell, even then what I would deem as genuine and helpful critique could be easily interpreted as a personal attack by someone else.&lt;/p&gt;
+&lt;p&gt;Opinions on topics like this will continue to be an ouroboros until the end of time.&lt;/p&gt;
+&lt;p&gt;There is no promise that you will be told what, if ever, you have done to go against the Code of Conduct we have all agreed to by creating an account here. Most platforms, unfortunately, run this way. Gone are the days of in-the-moment pop-ups that stop you in your tracks and cause a childhood meltdown.&lt;/p&gt;
+&lt;div class="meta"&gt;
+&lt;p&gt;(Thanks Club Penguin...)&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Herman is well within his rights to dictate what is and isn't appropriate for his website. As many people have already echoed, if you want to have complete control over what you post, using any host other than your own software is the wrong avenue. However, playing the role of an (almost) silent benevolent leader while simultaneously tacking your 10 Commandments to the top of the reading poll just… doesn't sit right with me? It feels slimy and, to be honest, a little childish. It draws a clear line in the sand when it comes to pondering if things have actually been seen and actioned by Herman, or whoever has been responsible for moderating this situation. It has been seen, and the response is clear.&lt;/p&gt;
+&lt;p&gt;"Read the damn rules."&lt;/p&gt;
+&lt;p&gt;It's a little immature, in my opinion, especially if said pinning of the link is a direct rebuttal to Scholarch's original post and perceived shadow-banning. As far as we can surmise, the truth will never be known because no comment has actually been made and (at time of posting this) no affected party has been contacted. If that is the case, it never should have happened. You can't reprimand one singular person under the guise of reminding your entire user-base what is and isn't permissible.&lt;/p&gt;
+&lt;p&gt;Two birds, one stone. Sure. But when it's plainly obvious what the starting point of everything was, the mirage of coincidence breaks down pretty quickly and one could argue that the reminder sitting at the top of the Discovery page could be the very thing its existence is said to have stemmed from; a personal attack.&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;I don't know how either party feels about things and I haven't asked. It's none of my business and I'm sure if they want to have dialogue between one another, they will. This is all conjecture on my part and I can only speak to how I feel as an observer, which is… Uncomfortable. I love Bearblog and the people that frequent it. There are many people that I disagree with, but I believe that's good too. I don't hide blogs because, as much as I sit here rolling my eyes, I value having a seat at the other table should I choose to take it. The last thing I want is to create my own echo-chamber.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;Of course there are exceptions to this but that should be pretty obvious. I am not here to advocate for hate speech.&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;According to Herman, "Our community’s a tapestry—different lives, different lenses. Not everyone sees the world like you do, and that’s okay.", which is a wonderful thing to have etched into the holy stones of Bearblog, but if anything this whole situation has highlighted what a slippery slope Codes of Conduct can be.&lt;/p&gt;
+&lt;div class="pullquote"&gt;
+&lt;p&gt;"Bear Blog won’t be a megaphone for hurting people. "&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Who decides what hurts? When does criticism become &lt;em&gt;too&lt;/em&gt; personal? When does censorship become necessary?&lt;/p&gt;
+&lt;center&gt;
 &lt;blockquote&gt;
-&lt;p&gt;If you're tired of platforms that treat you like a product, welcome home. Bear is here to stay.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Want to reply? Sign my &lt;a href='https://oracleofsages.bearblog.dev/guestbook/'&gt;guestbook&lt;/a&gt; or send me an &lt;a href='mailto:oracle.of.sages@proton.me'&gt;email&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;If Bear’s ability to stay relevant is based on faux enthusiasm for blogging, to the extent that remarks that draw attention to its artificial aspects gets hidden, then I have to conclude that I am, in fact, treated like a product.&lt;/p&gt;
-&lt;p&gt;I would like to be proven wrong on this front.&lt;/p&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/the-worth-of-me" title="The Worth of Me"&gt;Previous&lt;/a&gt; | &lt;/p&gt;
+&lt;/center&gt;
+&lt;hr&gt;
 &lt;section class="footnotes"&gt;
 &lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;This might explain the prevalence of meta-topics like AI and tech and digital minimalism—we all have opinions on these subjects, for by virtue of being on this platform we as a crowd are mindful of our relationships to big tech.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id="fn-1"&gt;&lt;p&gt;For what it's worth, I don't believe it is a personal attack, just that it could be perceived as one.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
 </content>
-    <link href="https://scholarch.bearblog.dev/reconsidering-bearblog-or-on-the-value-of-words-new/" rel="alternate"/>
-    <published>2026-07-26T23:41:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://robertbirming.com/guess-im-trash/</id>
-    <title>I guess I’m trash</title>
-    <updated>2026-07-28T14:21:00+00:00</updated>
-    <author>
-      <name>robert</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I just listened to a documentary about Dolly Parton. What an icon!&lt;/p&gt;
-&lt;p&gt;Growing up in a religious home, there were strict rules about what to wear and how to look. One day, while she's in town with her mother, she sees a woman who's broken all those rules. She asks her mother about the woman, who replies that she's trash.&lt;/p&gt;
-&lt;p&gt;Dolly doesn't understand what her mother means. Trash compared to what? She just sees a beautiful woman and thinks that she would also like to look like that.&lt;/p&gt;
-&lt;p&gt;In an interview years later, she says, "If this is trash, then I guess I'm trash."&lt;/p&gt;
-&lt;p&gt;What an awesome approach to life. Being &lt;em&gt;yourself&lt;/em&gt; and doing &lt;em&gt;your&lt;/em&gt; thing, no matter if others consider it to be trash or treasure.&lt;/p&gt;
-&lt;p&gt;The world needs more Dollys.&lt;/p&gt;
-</content>
-    <link href="https://robertbirming.com/guess-im-trash/" rel="alternate"/>
-    <published>2026-07-28T14:21:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://fornoone.bearblog.dev/re-why-do-people-have-multiple-blogs/</id>
-    <title>RE: Why do people have multiple blogs</title>
-    <updated>2026-07-25T06:06:00+00:00</updated>
-    <author>
-      <name>fornoone</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Jen writes about having two blogs in &lt;a href='https://jensgentledays.bearblog.dev/why-do-people-have-multiple-blogs/' target='_blank'&gt;Why Do People Have Multiple Blogs?&lt;/a&gt; after initially questioning why people would need so many.&lt;/p&gt;
-&lt;p&gt;I felt the same. On my &lt;a href='/for-no-one-origins/'&gt;old blogs&lt;/a&gt;, I'd write about anything and everything — having categories was enough. But that was years ago and our systems change over time, especially when we're coming back to something we haven't done in a long while.&lt;/p&gt;
-&lt;p&gt;I really resonated to what she wrote about trying to keep notes on paper:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;I have tried keeping a paper journal to weekly agendas, notebooks, and the whole thing as I have an interest in collecting stationery items. Sadly, every single time, I lose interest fast or just… lose track entirely. I do still jot down ideas and notes on paper, but turning those thoughts into a full entry? That’s where it falls apart for me.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;And what fell apart for me was keeping track of what was going on with my parents — more specifically my dad.&lt;/p&gt;
-&lt;p&gt;I spent years documenting every little detail of his day remotely on a Notion database I'd created. This thing was &lt;em&gt;thorough&lt;/em&gt; — I'd log wake times, bowel movements, when he ate, when he was given medicines and then system changed when I moved in. I was still logging it all but the care efforts were changing because I began advocating for him. My Notion database only grew more detailed and soon took over my days.&lt;/p&gt;
-&lt;p&gt;I had to let it go. I'd know his routine and his behaviors til they changed, then I'd adjust to those, and they'd change again. Dementia is a fucking horrible disease and after a while, the fatigue of keeping track of every little thing suddenly became purposeless. His doctor and visiting nurse never cared for what I logged, just a faint gist of behaviors would be good enough for them.&lt;/p&gt;
-&lt;p&gt;After months of knowing this, I don't think I was &lt;em&gt;actually&lt;/em&gt; able to quit doing it until a few years later. It took therapy to get me to stop — which sounds silly but it felt like I was not doing my job and to be honest, I don't know what job I should be doing other than being my dad's daughter.&lt;/p&gt;
-&lt;p&gt;After not logging anything and just basing the days off his behaviors — I'd gotten used to having that time to do other things I needed to do... because logging shit takes time.&lt;/p&gt;
-&lt;p&gt;But shit was still hitting the fan. He was getting wilder, more out of control. My mom's also getting older and she's always got doctor's appointments lined up, plus she's fallen a bunch of times which always ended with me taking her to the ER. With both of them deteriorating, my urge to log all the things suddenly became an urge to just be able to say what I wanted to say about what went on that day. So I started a Substack.&lt;/p&gt;
-&lt;p&gt;And I've already spoken about that previously. It wasn't a space for me and I unpublished all my posts just last month. I was at a loss on how to share my caregiver story because my first attempt felt so icky.&lt;/p&gt;
-&lt;p&gt;When I joined Bear Blog, one of the things I remember thinking when I read you could manage up to 10 blogs on an upgraded account was: "Why would I need another blog!?" but then after tinkering with FOR NO ONE and still having my unscratched itch to talk about caregiving, I realized... I do need another blog. So I made &lt;a href='https://forsomeone.bearblog.dev/'&gt;For Someone&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This blog is for me.
-That blog is for my dad.&lt;/p&gt;
-</content>
-    <link href="https://fornoone.bearblog.dev/re-why-do-people-have-multiple-blogs/" rel="alternate"/>
-    <published>2026-07-25T06:06:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://piimyon.bearblog.dev/i-have-a-confession-to-make-i-check-the-upvote-number-every-now-and-then/</id>
-    <title>I have a confession to make. I check the "upvote" number every now and then.</title>
-    <updated>2026-07-25T03:17:00+00:00</updated>
-    <author>
-      <name>piimyon</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I have a confession to make: scroll to the bottom of the page. See that little button right there that points "up"? I would open up my blog every few hours and check the number right next to that arrow to see if it went up. Even by 1.&lt;/p&gt;
-&lt;p&gt;When it does, I would feel this small spark of joy inside of me. And when it does not, well, I would come back after a few hours.&lt;/p&gt;
-&lt;p&gt;I crave attention as such. How pathetic. I think to myself. And yet, I can't help it. At least, I am catching myself when I am doing it. That's why I am writing about it. I want to feel seen.&lt;/p&gt;
-&lt;p&gt;When did I start to crave so much attention? Must have been all these speech contests.&lt;/p&gt;
-&lt;p&gt;I have always enjoyed being under the spotlight as a kid. Something about others giving me their full attention for 3 minutes and listening to what I have to say satisfied my little ego. And so, the feedback loop has been formed since. I had always loved to stand on top of the stage to perform something, be it speech or a song. Deep down, I knew I was not confident. But someone gave me trophies for being seen as the best 5th grader speaker. Another trophy. A third one.&lt;/p&gt;
-&lt;p&gt;I kept wanting to be recognized as the best on stage, but I never wanted to work hard for it. You see, it just so happened that I was competing with a group of kids who were not great at speeches or singing. I got to stand out not purely because I was good at the time, but because others weren't that great.&lt;/p&gt;
-&lt;p&gt;When others were great at what they were doing, yet I had to be in the same room competing with them, I shrunk. My confidence was out of the window and I no longer wanted any trophies. If it was something I had to work hard to get, I stopped because I lost interest.&lt;/p&gt;
-&lt;p&gt;What exactly was I aiming for then? The trophies? The prize itself? Or was I trying to get attention? Was it the satisfaction that I get something anyways without having to work hard for it?&lt;/p&gt;
-&lt;p&gt;Am I writing right now for myself? Or am I writing because I thought my writing would provide some value for others? Am I writing for the upvote button?&lt;/p&gt;
-&lt;p&gt;If I look at the blogging community and say: I want to gather your attention. Then there would be no difference between the 11-year-old me and me right now. I have not grown out of that child who wants attention just because. My ego is so tied up with numbers in my life: the scores I got, the number of likes on my social media post and the numbers in my bank account. At some point, I no longer would have to take tests, and I don't post much on social media anymore. But that craving, that desperate scream for attention never went away. It manifested itself under my very own eyes, and yet I cannot see it.&lt;/p&gt;
-&lt;p&gt;I have now made my confession: Yes, I want your upvotes because it makes me feel good about myself. But I am writing this to be open and honest about it. I want to tell the 11-year-old kid that is living inside of me: You made it this far writing about something that is true to your own feelings. And that is a brave act. It is so, even if the numbers indicate otherwise.&lt;/p&gt;
-</content>
-    <link href="https://piimyon.bearblog.dev/i-have-a-confession-to-make-i-check-the-upvote-number-every-now-and-then/" rel="alternate"/>
-    <published>2026-07-25T03:17:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://jottednotes.bearblog.dev/any-social-media-dyes-you/</id>
-    <title>any social media dyes you</title>
-    <updated>2026-07-27T04:15:00+00:00</updated>
-    <author>
-      <name>jottednotes</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;maybe the title is a bit too strongly worded. After all, any experience effects you, changes you. You absorb knowledge, unique experiences, and derive your own thoughts. This is a normal human process, and you could even argue a normal living creature's process.&lt;/p&gt;
-&lt;p&gt;But what about social media? you are not exploring, you are not deriving. Before you can fully think your own thoughts, another person's opinions appear before you. Maybe it's something you agree with, reinforcing what you already thought. Or maybe it's something you viscerally hate, sparking a response.&lt;/p&gt;
-&lt;p&gt;I've become more disillusioned in general to this process. That isn't saying I've disconnected from it entirely; after all, I'm still here. I browse my same old subreddits, scroll through twitter, or check up on what's going on on instagram. But its hard to avoid any kind of trends or communal opinions. Even bear's community clearly has a 'meta' - easily discerned from scanning discover for a bit.&lt;/p&gt;
-&lt;p&gt;That's not to say this is necessarily a bad thing - social networks can entirely be organically driven. But I'm starting to feel more and more that using any kind of social network starts slowly coloring you - instead of your own discovery, you are now seeing through other's lens constantly.&lt;/p&gt;
-&lt;p&gt;but is the solution to totally unplug? unlikely. The world is simply so connected now that the spread of these cultural colors&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt; is not contained to the digital world - maybe people are simply blending more and more with their digital selves, a divide that used to exist, but these days seems to be rarer and rarer.&lt;/p&gt;
-&lt;p&gt;I think one thing you see more of now, as an act against simple consumption is the drive to create; the desire to be a entrepreneur, to be a content creator, to leave a mark of your own. but I don't feel that's the answer either; simply contributing to the problem instead, and getting stuck into a rat race of another kind.&lt;/p&gt;
-&lt;p&gt;and surely the fix is not to only consume the 'classics' and become a hipster (even if not performative) - for the world is constantly spinning, and progress will continue, whether you want it to or not.&lt;/p&gt;
-&lt;p&gt;I guess I've just been feeling a bit lost lately. Not quite a crisis, but perhaps it's also to not having a pure purpose. I applied to a job that asked what my 'personal philosophy' was recently. It's a tapestry of what I've seen, and is any of it actually my own?&lt;/p&gt;
-&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;memes/memetics i think is what we can officially call them&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</content>
-    <link href="https://jottednotes.bearblog.dev/any-social-media-dyes-you/" rel="alternate"/>
-    <published>2026-07-27T04:15:00+00:00</published>
+    <link href="https://oracleofsages.bearblog.dev/when-does-censorship-become-necessary/" rel="alternate"/>
+    <published>2026-07-29T13:10:00+00:00</published>
   </entry>
 </feed>

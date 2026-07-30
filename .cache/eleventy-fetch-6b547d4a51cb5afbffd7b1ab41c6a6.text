@@ -12,7 +12,7 @@
 	<atom:link href="https://fyfluiddynamics.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://fyfluiddynamics.com</link>
 	<description>Celebrating the physics of all that flows</description>
-	<lastBuildDate>Mon, 13 Jul 2026 20:05:42 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 13 Jul 2026 20:11:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,40 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">169405895</site>	<item>
+		<title>Giant Water Balloon to the Face</title>
+		<link>https://fyfluiddynamics.com/2026/07/giant-water-balloon-to-the-face/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/giant-water-balloon-to-the-face/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Wed, 29 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[inertia]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[surface tension]]></category>
+		<category><![CDATA[water balloons]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31603</guid>
+
+					<description><![CDATA[It&#8217;s the summertime, so Gav and Dan of the Slow Mo Guys are back to experimenting with giant water balloons. In this video, they send several careening down a slope into Dan&#8217;s face. Watching the balloons descend and pop is (unsurprisingly) my favorite part. It&#8217;s neat to see how the elasticity of the balloon acts [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/balloon_face1-1024x576.png" title="The water blob is coming..." alt="The water blob is coming..." /></div></div>
+
+
+
+<p class="wp-block-paragraph">It&#8217;s the summertime, so Gav and Dan of the Slow Mo Guys are back to experimenting with giant water balloons. In this video, they send   several careening down a slope into Dan&#8217;s face. Watching the balloons descend and pop is (unsurprisingly) my favorite part. It&#8217;s neat to see how the <a href="/tagged/elasticity/">elasticity</a> of the balloon acts like a beefed-up <a href="/tagged/surface-tension/">surface tension</a> to make this enormous blob of water act like an oversized droplet. (Video and image credit: The Slow Mo Guys)</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/giant-water-balloon-to-the-face/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31603</post-id>	</item>
+		<item>
 		<title>Inside an Espresso Bed</title>
 		<link>https://fyfluiddynamics.com/2026/07/inside-an-espresso-bed/</link>
 					<comments>https://fyfluiddynamics.com/2026/07/inside-an-espresso-bed/#respond</comments>
@@ -354,53 +388,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">31563</post-id>	</item>
-		<item>
-		<title>Mirabilite Mounds at Great Salt Lake</title>
-		<link>https://fyfluiddynamics.com/2026/07/mirabilite-mounds-at-great-salt-lake/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/mirabilite-mounds-at-great-salt-lake/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Wed, 15 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[crystal growth]]></category>
-		<category><![CDATA[dissolution]]></category>
-		<category><![CDATA[evaporation]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[freezing]]></category>
-		<category><![CDATA[geophysics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31419</guid>
-
-					<description><![CDATA[In cold weather, a new geological feature has shown up at Utah&#8217;s Great Salt Lake in the last decade. These salty mirabilite mounds form terraced crystals that resemble Yellowstone&#8217;s Mammoth Hot Springs. Mirabilite is hydrated sodium sulfate (as opposed to the sodium chloride of table salt). The structures form when upwelling spring water partially dissolves [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/20191213_111805-1-scaled-1030x773-1-1024x768.jpg" title="Mirabilite crystals up close." alt="Mirabilite crystals up close." /></div></div>
-
-
-
-<p class="wp-block-paragraph">In cold weather, a new geological feature has shown up at Utah&#8217;s Great Salt Lake in the last decade. These salty mirabilite mounds form terraced crystals that resemble <a href="https://en.wikipedia.org/wiki/Mammoth_Hot_Springs">Yellowstone&#8217;s Mammoth Hot Springs</a>. </p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="616" src="https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-1024x616.jpg" alt="Diagram showing salty springs feeding upward through layers of mirabilite to form a mound aboveground." class="wp-image-31420" srcset="https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-1024x616.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-300x180.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-768x462.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram-1536x923.jpg 1536w, https://fyfluiddynamics.com/wp-content/uploads/mirabilite_diagram.jpg 1652w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Diagram showing how a salt-laden spring pushing upward through the mirabilite layer can then form mounds at the surface when the dissolved mirabilite recrystallizes after the water evaporates.</figcaption></figure>
-
-
-
-<p class="wp-block-paragraph">Mirabilite is hydrated sodium sulfate (as opposed to the sodium chloride of table salt). The structures form when upwelling spring water partially <a href="/tagged/dissolution/">dissolves</a> the layer of mirabilite found beneath the lake bed. That sulfate-laden water rises to the surface, where it <a href="/tagged/freezing/">freezes</a> into the crystals seen here. </p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="467" height="360" src="https://fyfluiddynamics.com/wp-content/uploads/mirabilite_main.gif" alt="A timelapse showing mirabilite mounds forming." class="wp-image-31421"/><figcaption class="wp-element-caption">A timelapse showing the formation of mirabilite mounds.</figcaption></figure>
-
-
-
-<p class="wp-block-paragraph">When temperatures rise above freezing, the water in the mirabilite <a href="/tagged/evaporation/">evaporates</a>, leaving behind white, powdery thenardite. (Video credit: Great Salt Lake Institute; image credit: <a href="https://geology.utah.gov/popular/great-salt-lake/mirabilite-spring-mounds/">Utah Geological Survey</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/mirabilite-mounds-at-great-salt-lake/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31419</post-id>	</item>
 	</channel>
 </rss>

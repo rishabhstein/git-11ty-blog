@@ -5,7 +5,7 @@
   <link rel="self" type="application/atom+xml" href="https://appaddict.app/feed.atom"/>
   <title>AppAddict</title>
   <subtitle>I emphasize honest, practical reviews from my perspective as a power user and productivity enthusiast — not a marketer I have a particular fondness for the indie Mac scene, privacy-respecting software, open-source tools, and workflow automation. I also cover self-hosting, the de-Googling/de-Apple-ification of digital life, and the art of building efficient Mac workflows with the right combination of small, focused apps. Posts range from single-app deep dives to multi-app roundups, workflow walkthroughs, and developer spotlights. If you're a developer and have an app you'd like me to check out, let me know.</subtitle>
-  <updated>2026-07-28T08:58:15Z</updated>
+  <updated>2026-07-30T11:28:31Z</updated>
   <logo>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWl3QmFRSXNBVG9LYzJGMlpYSjdCem9LYzNSeWFYQlVPZ3h4ZFdGc2FYUjVhV1E9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--d5470907b5b5a357fec32990d4bdb78c827f9472/1024px-App_Store_(iOS).svg.png</logo>
   <icon>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwUldsRk9ncHpZWFpsY25zSE9ncHpkSEpwY0ZRNkRIRjFZV3hwZEhscFpBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--d0a377349dc1eed29878fcae6bec2204e230fc00/1024px-App_Store_(iOS).svg.png</icon>
   <author>
@@ -13,9 +13,131 @@
     <uri>https://appaddict.app</uri>
   </author>
   <entry>
+    <id>tag:appaddict.app,2005:Post/19812</id>
+    <published>2026-07-30T11:28:31Z</published>
+    <updated>2026-07-30T11:28:33Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/blankie-a-free-and-open-source-ambient-sound-mixer-is-a-breath-of-fresh-air-right-in-your-ear"/>
+    <title>Blankie, A Free and Open Source Ambient Sound Mixer is a Breath of Fresh Air, Right in Your Ear</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--webp"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" srcset="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjd1QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--503aeb04703c4c1d12e3dfbbd5918579ea812209/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2h3Ym1jNkZISmxjMmw2WlY5MGIxOXNhVzFwZEZzSGFRTGdBV2tDNEFFNkNuTmhkbVZ5ZXdjNkRIRjFZV3hwZEhscFdUb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--86c6ae85ae2593801ae7564ddb33fca63a4094b9/CleanShot%202026-07-30%20at%2007.18.58.webp 480w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjd1QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--503aeb04703c4c1d12e3dfbbd5918579ea812209/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2h3Ym1jNkZISmxjMmw2WlY5MGIxOXNhVzFwZEZzSGFRSWdBMmtDSUFNNkNuTmhkbVZ5ZXdjNkRIRjFZV3hwZEhscFdUb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--0abe2fefd858c1bf121911147959973e3d64f253/CleanShot%202026-07-30%20at%2007.18.58.webp 800w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjd1QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--503aeb04703c4c1d12e3dfbbd5918579ea812209/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2h3Ym1jNkZISmxjMmw2WlY5MGIxOXNhVzFwZEZzSGFRS01CR2tDakFRNkNuTmhkbVZ5ZXdjNkRIRjFZV3hwZEhscFdUb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--0b364cd25415f1c44c1f0594388e1816aa81f0a9/CleanShot%202026-07-30%20at%2007.18.58.webp 1164w" sizes="(max-width: 672px) 100vw, 672px" loading="lazy" data-lightbox-url="https://scribbles.page/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjd1QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--503aeb04703c4c1d12e3dfbbd5918579ea812209/CleanShot%202026-07-30%20at%2007.18.58.webp" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjd1QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--503aeb04703c4c1d12e3dfbbd5918579ea812209/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBPZ2h3Ym1jNkZISmxjMmw2WlY5MGIxOXNhVzFwZEZzSGFRSWdBMmtDSUFNNkNuTmhkbVZ5ZXdjNkRIRjFZV3hwZEhscFdUb0tjM1J5YVhCVSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--0abe2fefd858c1bf121911147959973e3d64f253/CleanShot%202026-07-30%20at%2007.18.58.webp" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Blankie is a free, open-source ambient sound mixer for Mac, iPhone, iPad and CarPlay; no ads, IAPs, or subscriptions. 24 mixable sounds, saved presets, custom audio import, menu bar control. Stacked against Noizio, Dark Noise, myNoise, and Endel, all of which charge something for depth or convenience Blankie gives away for free.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I'm not usually one to complain about app pricing, but I make an exception when it feels like someone is misrepresenting the complexity of something simple to justify a monetization strategy. Ambient sound apps, at their core, are well-organized loop players, and nothing about them justifies subscriptions, tiered unlocks, and $50 lifetime passes. You get rain, waves, white noise and a coffee shop hum with variations. That's the whole package.&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;a href="https://blankie.rest/"&gt;Blankie&lt;/a&gt;, a free and open-source ambient sound mixer from developer Cody Bromley that gives you everything you need without insulting your intelligence or your wallet. It also respects your privacy by not collecting any data. It's inspired by &lt;a href="https://github.com/rafaelmardojai/blanket"&gt;Blanket&lt;/a&gt;, a Linux app in the same category. Blankie avoids ads, IAPs, subscription tiers and paywalls. It's just free, forever. Better yet, it works on your Mac, your phone, your iPad and your car.&lt;/p&gt;
+
+&lt;h2&gt;How it works&lt;/h2&gt;
+
+&lt;p&gt;With Blankie, it's easy to construct custom loops and recall them at will. You get 24 sound elements to experiment with, including several added in the most recent updates: rain, storms, wind, ocean waves, a running stream, birds, forest, crickets, a train, boat, airplane, city hum, coffee shop, fireplace, fan, laundry room, plus a few music-adjacent layers (piano, lo-fi beats, guitar, ambient synth) and the full noise family (white, pink, green, brown).&lt;/p&gt;&lt;p&gt;&lt;a href="https://apps.apple.com/us/app/blankie/id6740096581"&gt;App Store link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;The features that matter&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li value="1"&gt;Per-sound volume control: every layer has its own slider on top of a master volume, so you're not stuck with someone else's idea of "coffee shop" balance.&lt;/li&gt;
+&lt;li value="2"&gt;Saved presets: build a mix once for deep work, another for sleep, and switch between them instead of re-tuning sliders every time.&lt;/li&gt;
+&lt;li value="3"&gt;Bring your own audio: you can import your own sounds or voice notes, and Blankie loudness-matches them automatically so nothing jumps out of the mix. I experimented with the sound of my own box fan and it worked!&lt;/li&gt;
+&lt;li value="4"&gt;Sleep timer with fade-out: it winds down and stops instead of just cutting off, which matters more than it sounds like it should at 11pm.&lt;/li&gt;
+&lt;li value="5"&gt;Menu bar control: as of version 2.0 there's a menu bar popover for quick mix and timer changes, plus an option to hide the Dock icon entirely, both added directly in response to user feedback on the App Store.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Do you need an app for this?&lt;/h2&gt;
+
+&lt;p&gt;One of the under-publicized features available in macOS Accessibility settings is a control for background sounds. You can get a flat layer of white noise without installing anything. If that does the trick to drown out your office mate's Zoom calls, then you're golden. If you want actual combinations you can control, layering rain with a fireplace, mixing to your own balance, saving distinct presets, and importing your own recordings, Apple's built-in version doesn't do any of that.&lt;/p&gt;
+
+&lt;h2&gt;The apps I complained about&lt;/h2&gt;
+
+&lt;p&gt;I've tried Noizio and Endel. They work, but they cost more than they're worth.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li value="1"&gt;
+&lt;a href="https://apps.apple.com/us/app/noizio-calm-meditate-sleep/id928871589?mt=12"&gt;&lt;strong&gt;Noizio&lt;/strong&gt;&lt;/a&gt; ($9.99 one-time, Mac App Store, also on Setapp) has 40 sounds behind the paid tier versus 5 free, and I covered it here previously; it's the closest direct comparison and the app several Blankie reviewers say they're switching from.&lt;/li&gt;
+&lt;li value="2"&gt;
+&lt;a href="https://www.macrumors.com/2023/04/03/dark-noise-switches-to-subscription-pricing/"&gt;&lt;strong&gt;Dark Noise&lt;/strong&gt;&lt;/a&gt; now runs $2.99/month or $19.99/year for full access after moving off its original one-time-purchase model in 2023, with a free tier limited to eight sounds; there's still a $49.99 lifetime option for people who want to opt out of the subscription entirely.&lt;/li&gt;
+&lt;li value="3"&gt;
+&lt;a href="https://apps.apple.com/us/app/mynoise-focus-relax-sleep/id1523675125"&gt;&lt;strong&gt;myNoise&lt;/strong&gt;&lt;/a&gt; is free to download with a $19.99 in-app purchase ("Full Access") that unlocks its full 300+-soundscape library; it's a much deeper catalog aimed partly at tinnitus masking and therapeutic use, not just background focus noise.&lt;/li&gt;
+&lt;li value="4"&gt;
+&lt;a href="https://www.autonomous.ai/ourblog/endel-app-review"&gt;&lt;strong&gt;Endel&lt;/strong&gt;&lt;/a&gt;  If you want the adaptive end of this category, runs $19.99/month or roughly $89.99/year (with a ~$249 lifetime option), and generates sound algorithmically rather than letting you hand-build a mix; different product, This may be the most over-priced app I've even seen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unless otherwise noted, the alternate apps mentioned above are based on research and not individual testing.&lt;/p&gt;
+
+&lt;h2&gt;Bottom Line&lt;/h2&gt;
+
+&lt;p&gt;Use Blankie if you want a free, privacy-respecting sound mixer that doesn't hold features hostage behind a subscription, and you're fine with a smaller sound library (24) than the subscription apps offer in exchange for owning the whole thing outright. If you own something else already or you just really need hundreds of soundscapes and don't mind paying, go with myNoise.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Blankie,%20A%20Free%20and%20Open%20Source%20Ambient%20Sound%20Mixer%20is%20a%20Breath%20of%20Fresh%20Air,%20Right%20in%20Your%20Ear" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>TL;DR: Blankie is a free, open-source ambient sound mixer for Mac, iPhone, iPad and CarPlay; no ads, IAPs, or subscriptions. 24 mixable sounds, saved presets, custom audio import, menu bar control. Stacked against Noizio, Dark Noise, myNoise, and Endel, all of which charge something for depth or convenience Blankie gives away...</summary>
+    <category term="universal-apps" label="Universal Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/18925</id>
+    <published>2026-07-29T18:24:32Z</published>
+    <updated>2026-07-29T18:24:33Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/retromac-is-a-free-time-machine-for-your-computer"/>
+    <title>RetroMac is a Free Time Machine for Your Computer</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpeg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" srcset="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN25vQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--43cdea8a36b122faa3a8155d316be9bf95c2c4b1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQzRBRnBBdUFCT2dwellYWmxjbnNIT2d4eGRXRnNhWFI1YVZrNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--278b8a01e32dcdca3afe205e3ef51dea30581376/theme-osx-DmknRkkc.jpeg 480w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN25vQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--43cdea8a36b122faa3a8155d316be9bf95c2c4b1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0lBTnBBaUFET2dwellYWmxjbnNIT2d4eGRXRnNhWFI1YVZrNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--6b540d5bfcfeca9a1dc6d345f6876757413a9f8d/theme-osx-DmknRkkc.jpeg 800w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN25vQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--43cdea8a36b122faa3a8155d316be9bf95c2c4b1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ3NBUnBBckFFT2dwellYWmxjbnNIT2d4eGRXRnNhWFI1YVZrNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--e45d50b9b1b73d418e1972626cdf4e2159e96278/theme-osx-DmknRkkc.jpeg 1200w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN25vQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--43cdea8a36b122faa3a8155d316be9bf95c2c4b1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ1FBWnBBa0FHT2dwellYWmxjbnNIT2d4eGRXRnNhWFI1YVZrNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--cc87c0fa68191e6a7cb05b7e5f0306bc71cbddfe/theme-osx-DmknRkkc.jpeg 1600w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN25vQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--43cdea8a36b122faa3a8155d316be9bf95c2c4b1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ2dBZHBBb0FIT2dwellYWmxjbnNIT2d4eGRXRnNhWFI1YVZrNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--066064c378b6efa840ae1b4394750423660ac491/theme-osx-DmknRkkc.jpeg 1920w" sizes="(max-width: 672px) 100vw, 672px" loading="lazy" data-lightbox-url="https://scribbles.page/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN25vQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--43cdea8a36b122faa3a8155d316be9bf95c2c4b1/theme-osx-DmknRkkc.jpeg" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN25vQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--43cdea8a36b122faa3a8155d316be9bf95c2c4b1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hSeVpYTnBlbVZmZEc5ZmJHbHRhWFJiQjJrQ0lBTnBBaUFET2dwellYWmxjbnNIT2d4eGRXRnNhWFI1YVZrNkNuTjBjbWx3VkE9PSIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--6b540d5bfcfeca9a1dc6d345f6876757413a9f8d/theme-osx-DmknRkkc.jpeg" decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Mac users tend to be nostalgic about the hardware and software they used in their earliest exposure to tech. That doesn't mean anyone wants to try to get real work done on a late-90s PowerPC Mac clone, or go back to 14-inch monitors. People just enjoy being reminded how far we've come, and pretend there was once a time when everything "just worked." (It didn't. I was there.)&lt;/p&gt;
+
+&lt;p&gt;German developer Maik Klotz created a free app, &lt;a href="https://myretromac.app/"&gt;RetroMac&lt;/a&gt;, that turns your current Mac into a version of the Wayback Machine. It doesn't touch your system. It paints. A Metal shader sits on top of whatever's already rendering: CRT curvature, scanlines, VHS tracking noise. It can also swap your dock, wallpaper, boot screen, and cursor set for a specific era's look: Windows 98, Windows XP, System 6, Mac OS 9, Mac OS X Aqua, Snow Leopard, BeOS, NeXTSTEP. If all that lickable tech scares you, you go back to boring just by quitting RetroMac.&lt;/p&gt;
+
+&lt;h2&gt;How Much Time Travel Do You Want?&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li value="1"&gt;Get a little or a lot. RetroMac's modular design combines your choice of elements to build a look you're comfortable with. There are toggles for shader, theme, dock, Retro TV, and live wallpaper. Play around with everything but the one window you want your boss to see if he wanders by. That one you can keep sharp.&lt;/li&gt;
+&lt;li value="2"&gt;Pick a window, or a display. The shader works on a single window, but it's more fun to turn your secondary display into a period piece. Fire up an old game on YouTube and let it run while your co-workers gather round.&lt;/li&gt;
+&lt;li value="3"&gt;Themes go deep. You get matching cursors, icon sets, boot splashes, and actual .saver modules (Flying Toasters, Flurry, 3D Pipes) in every shipped theme. RetroMac is more than a wallpaper shuffle with a dock overlay.&lt;/li&gt;
+&lt;li value="4"&gt;Retro TV is its own feature. Play a variety of video streams in a CRT-framed window, or use it in your next Zoom meeting (or Teams, or Meet) if your clients and co-workers have a sense of humor.&lt;/li&gt;
+&lt;li value="5"&gt;It's easy to go back to normal. Health Check plus one-click restore for wallpaper, dock, and menu bar. Free to use, with a one-time €8.88 Pro upgrade for extra shader presets, custom presets, and the webcam shader. No subscription, no account, no telemetry.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Yeah, But Why?&lt;/h2&gt;
+
+&lt;p&gt;Sometimes an app is just fun, and this falls into that category, but there are a few semi-practical uses too:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li value="1"&gt;Screen recording&lt;/li&gt;
+&lt;li value="2"&gt;Retro gaming&lt;/li&gt;
+&lt;li value="3"&gt;Showcase setups&lt;/li&gt;
+&lt;li value="4"&gt;Music videos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Do You Really Need an App for This?&lt;/h2&gt;
+
+&lt;p&gt;Depends what you're actually nostalgic for.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.digitaltrends.com/computing/this-mac-app-can-turn-every-window-into-a-crt-fever-dream-or-a-nostalgic-game-boy/"&gt;&lt;strong&gt;Glaze&lt;/strong&gt;&lt;/a&gt; ($9.99 one-time) is the closest direct competitor: a live GPU-shader overlay for your whole Mac with 50+ looks, including CRT, VHS, Game Boy, comic-book, and oil-painting filters. It skips the classic-OS theme replication entirely and focuses on the shader layer, so if you just want the tube-TV look on a normal desktop without the Windows 98 cosplay, it's narrower and cheaper.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.macworld.com/article/2873012/retrostrip-review.html"&gt;&lt;strong&gt;retroStrip&lt;/strong&gt;&lt;/a&gt; is the odd one out: not a shader app at all, but a modern recreation of the classic Mac OS Control Strip, the little floating bar of one-click controls from System 7.1 onward. The base app is free (retroStrip LE); additional icon theme packs are $2 each or $5 for all three. If what you actually miss is the Control Strip specifically, this is a tighter, single-purpose tool than RetroMac's dock feature.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dirkwhoffmann/RetroVisor"&gt;&lt;strong&gt;RetroVisor&lt;/strong&gt;&lt;/a&gt; is free and open source, a ScreenCaptureKit-and-Metal shader overlay clearly modeled on Windows' ShaderGlass. It runs in a floating window rather than full screen and has none of RetroMac's theme, dock, or Retro TV features. Good pick if all you want is the CRT glass effect and you don't want to pay anything.&lt;/p&gt;
+
+&lt;p&gt;Two flags on that. First, these three comparisons are based on research, not testing; I haven't installed any of them myself. Second, that actually cuts in RetroMac's favor: you'd have to install and configure all three to come close to what one app does by itself.&lt;/p&gt;
+
+&lt;h2&gt;Obligatory War Story&lt;/h2&gt;
+
+&lt;p&gt;Apple released its last CRT-equipped computer in 2003 and discontinued it three years later.. Targeted at the education market, the eMac came in one color: white. It lacked the iMac's convenient carrying handle and weighed in at over 50 pounds, looking for all the world like the front end of the space shuttle viewed from behind. Most of them wouldn't run any version of OS X beyond Tiger. My employer, a rural school district in North Carolina, bought them by the thousands. I was the "Mac guy," so I spent months of my life unboxing eMacs for computer labs and placing them in every K-5 classroom in the district. It gave me PTSD, and to this day I can't look at a 17-inch CRT (or Tiger) without flinching.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=RetroMac%20is%20a%20Free%20Time%20Machine%20for%20Your%20Computer" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>Mac users tend to be nostalgic about the hardware and software they used in their earliest exposure to tech. That doesn't mean anyone wants to try to get real work done on a late-90s PowerPC Mac clone, or go back to 14-inch monitors. People just enjoy being reminded how far...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
+  <entry>
     <id>tag:appaddict.app,2005:Post/18897</id>
     <published>2026-07-28T08:58:15Z</published>
-    <updated>2026-07-28T08:58:17Z</updated>
+    <updated>2026-07-29T23:18:02Z</updated>
     <link rel="alternate" type="text/html" href="https://appaddict.app/post/quick-look-showdown-peek-looq-and-unfold"/>
     <title>Quick Look Showdown: Peek, Looq, and Unfold</title>
     <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
@@ -97,6 +219,21 @@
 &lt;li value="4"&gt;
 &lt;strong&gt;BetterZip&lt;/strong&gt; is $35 (&lt;a href="https://macitbetter.com/buy/"&gt;macitbetter.com&lt;/a&gt;). Not a Quick Look extension first; it's a full archive manager that happens to ship one. If you're already paying for BetterZip to handle RAR/7z/encrypted archives, its Quick Look generator already does the archive-preview job Unfold and Looq are also doing.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h4&gt;Update 2026-07-29&lt;/h4&gt;
+
+&lt;p&gt;A knowledgable user on Reddit, u/&lt;a href="https://www.reddit.com/user/magnetikal/"&gt;magnetikal&lt;/a&gt;, who has experience with both apps had some insight.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I've been trying out both Looq and Unfold for a few weeks to replace Peek and wanted to share a few additional notes from my own usage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li value="1"&gt;Unfold also has live-reloading of Markdown previews (as of v2.7 a few weeks ago), so this isn't exclusive to Looq&lt;/li&gt;
+&lt;li value="2"&gt;Unfold has more granular control over which filetypes it provides previews for. This is useful if you prefer to turn off or use a different QuickLook extension for certain formats. (In my case I don't like folder content previews and a few others, so I appreciate that Unfold doesn't take an all-or-nothing approach.)&lt;/li&gt;
+&lt;li value="3"&gt;Unfold displays markdown table of contents in a resizable sidebar instead of a fixed one&lt;/li&gt;
+&lt;li value="4"&gt;Unfold's markdown/source code preview feels less polished than Looq's (doesn't always adapt to light/dark mode properly, no option to line wrap code, colors used for sidebar &amp;amp; text selection highlighting aren't as clear)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Quick%20Look%20Showdown:%20Peek,%20Looq,%20and%20Unfold" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
     <summary>Quick Look extensions have evolved over time. Once the category seemed to be made up of legacy junk: kernel-adjacent hacks that broke every time Apple shipped a point release, the kind of thing you install once, forget about, and eventually blame for a random Finder freeze. That reputation was earned....</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
@@ -957,104 +1094,6 @@ I've been listening to audiobooks since they were called books on tape. I progre
     <summary>I've resisted the whole category of apps that nag you about breaks, posture, hydration, and eyestrain. Being told what to do by my computer felt like an insult to my judgment.
 
 The reality: my judgment about when to take a break is bad. I lose track of time at the...</summary>
-    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/18560</id>
-    <published>2026-07-10T15:58:23Z</published>
-    <updated>2026-07-10T15:58:24Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/free-and-discounted-copies-of-sxitch-for-reader"/>
-    <title>Free and Discounted Copies of Sxitch for Reader</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" srcset="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNWJCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b42c4f8200a6db911abb3423651589bda679c8d7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMZ0FXa0M0QUU2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--566037cccbef5dec0f18059f150ac6f098af6027/CleanShot%202026-07-10%20at%2011.57.17.jpg 480w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNWJCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b42c4f8200a6db911abb3423651589bda679c8d7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-07-10%20at%2011.57.17.jpg 800w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNWJCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b42c4f8200a6db911abb3423651589bda679c8d7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFLRUEya0NoQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--6d469b79ce04ed1a0bff61afaa6d704987e52a32/CleanShot%202026-07-10%20at%2011.57.17.jpg 900w" sizes="(max-width: 672px) 100vw, 672px" loading="lazy" data-lightbox-url="https://scribbles.page/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNWJCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b42c4f8200a6db911abb3423651589bda679c8d7/CleanShot%202026-07-10%20at%2011.57.17.jpg" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNWJCQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b42c4f8200a6db911abb3423651589bda679c8d7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-07-10%20at%2011.57.17.jpg" decoding="async"&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Umang Syrana, the developer of Sxitch, a keyboard tree based app switcher  gave me 10 free licenses and 10 licenses at a 50% discount to distribute to AppAddict readers.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Get it free:&lt;/strong&gt; Use code AMERPIE&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;50% Discount&lt;/strong&gt;: Use code AppAddict&lt;/p&gt;
-
-&lt;h2&gt;Sxitch&lt;/h2&gt;
-
-&lt;p&gt;Sxitch is a variation on the Right-Cmd launcher pioneered by the Low-Tech Guys. Right-Cmd opens a popup; type letters and the list narrows -- "tree-based navigation" -- until one app is left, which auto-focuses. No cycling.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What I like:&lt;/strong&gt; The tree-based, letter-narrowing mechanic is the clear differentiator versus Cmd+Tab's unpredictable cycling. The free tier includes tree-based switching and themes; Pro adds window switching, a Hide/Quit mode, overrides, blacklists, and priority support via Discord. The developer is responsive to user feedback and has already shipped a list-view feature based on Reddit requests.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt; May not be enough of a difference from Raycast or Alfred to justify a separate tool for some users.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Price:&lt;/strong&gt; $10 for lifetime access on up to 3 Macs, or $2 a month, cancel anytime.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sources:&lt;/strong&gt; &lt;a href="https://sxitch.app/"&gt;Sxitch homepage&lt;/a&gt; · &lt;a href="https://sxitch.app/compare"&gt;Sxitch vs rcmd vs Dory&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Free%20and%20Discounted%20Copies%20of%20Sxitch%20for%20Reader" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>Umang Syrana, the developer of Sxitch, a keyboard tree based app switcher  gave me 10 free licenses and 10 licenses at a 50% discount to distribute to AppAddict readers.
-
-Get it free: Use code AMERPIE
-
-50% Discount: Use code AppAddict
-
-
-
-SxitchSxitch is a variation on the Right-Cmd launcher pioneered by...</summary>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/18554</id>
-    <published>2026-07-09T20:18:46Z</published>
-    <updated>2026-07-11T19:48:40Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/the-world-needs-more-5-apps-like-nanoclip"/>
-    <title>The World Needs More $5 Apps Like NanoClip</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" srcset="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVM5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8874fc7fecd93207827872f5057f9f11ae765da3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMZ0FXa0M0QUU2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--566037cccbef5dec0f18059f150ac6f098af6027/CleanShot%202026-07-09%20at%2016.16.44.jpg 480w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVM5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8874fc7fecd93207827872f5057f9f11ae765da3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-07-09%20at%2016.16.44.jpg 800w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVM5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8874fc7fecd93207827872f5057f9f11ae765da3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMS0Eya0N5Z002Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--7f04f913d711fb2acbe608efb4bea3a73b00c6b6/CleanShot%202026-07-09%20at%2016.16.44.jpg 970w" sizes="(max-width: 672px) 100vw, 672px" loading="lazy" data-lightbox-url="https://scribbles.page/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVM5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8874fc7fecd93207827872f5057f9f11ae765da3/CleanShot%202026-07-09%20at%2016.16.44.jpg" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVM5QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8874fc7fecd93207827872f5057f9f11ae765da3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-07-09%20at%2016.16.44.jpg" decoding="async"&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;NanoClip is a menu-bar app combining clipboard history, text-expansion snippets, and clipboard automation "flows." Free/demo tier; Pro is $9.99 one-time ($5 with code EARLYBIRD through Jul 31). macOS 14+, local-first, optional iCloud sync, no account. By Victor Baro. (&lt;a href="https://www.getnano.dev/clip"&gt;getnano.dev/clip&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;The world needs more $5 apps like &lt;a href="https://www.getnano.dev/clip"&gt;NanoClip&lt;/a&gt;. Before you roll your eyes at yet another clipboard utility, this one is actually three utilities rolled into one, and each can be summoned with its own global hotkey, fully remappable:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li value="1"&gt;
-&lt;strong&gt;Clipboard history (⌃⌘V)&lt;/strong&gt; -- everything you've copied, searchable&lt;/li&gt;
-&lt;li value="2"&gt;
-&lt;strong&gt;Snippets (⌃⌘S)&lt;/strong&gt; -- text expansion with keyword auto-triggers&lt;/li&gt;
-&lt;li value="3"&gt;
-&lt;strong&gt;Flows (⌃⌘F)&lt;/strong&gt; -- automations that transform whatever's on your clipboard&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Upfront, I'll tell you that you can get a portion (but not all) of what NanoClip offers from Raycast or Alfred. The developer isn't hiding from that; right on the product page he features detailed comparisons against both of those big-name launchers, plus Maccy and Paste.&lt;/p&gt;
-
-&lt;p&gt;I'm a heavy Raycast user, and inside it I keep a large set of text expansion snippets I've been using for years, imported from the OG TextExpander app, which is now subscription-based. NanoClip's snippets can go head to head with Raycast's: they support dynamic placeholders for the current date, clipboard contents, or fields you fill in before pasting.&lt;/p&gt;
-
-&lt;p&gt;I also use Raycast's clipboard manager, and unlimited history is one of the main reasons I pay for Pro. Raycast, however, doesn't sync clipboard history between machines, and that's why I'm continually tempted to leave it. NanoClip Pro gives me unlimited clipboard history for $5 once versus $8 every month for Raycast Pro (which adds more than just clipboard history, to be fair). It also syncs history and snippets between Macs via iCloud -- optional, for obvious privacy reasons.&lt;/p&gt;
-
-&lt;p&gt;The tools power users expect are here too: search, pinned items, and a paste queue that lets you copy several items and then paste them out in order -- handy for forms and spreadsheets. History captures text, rich text, code, links (with rich previews), images, GIFs, files, and color values, each rendered with an inline preview so you can see what you're about to paste.&lt;/p&gt;
-
-&lt;p&gt;Although I write a lot, I confess to underusing the text manipulation tools I already own. Flows might fix that. You get 30 built-in blocks across text, image, URL, and AI categories, including regex extraction, JSON formatting, OCR, image resize/convert, URL tracking-parameter stripping, QR generation, and even Bash commands (direct-download build only). The AI blocks are strictly optional and run either locally (Apple Intelligence or Ollama) or through your own API key for OpenAI, Anthropic, or Gemini.&lt;/p&gt;
-
-&lt;h3&gt;Comparable apps&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li value="1"&gt;
-&lt;a href="https://maccy.app/"&gt;Maccy&lt;/a&gt; is free and open source, the default recommendation for pure clipboard history, but has no snippets, flows, sync, or rich previews.&lt;/li&gt;
-&lt;li value="2"&gt;
-&lt;a href="https://pasteapp.io/pricing"&gt;Paste&lt;/a&gt; ($29.99/year or $89.99 lifetime) has the prettiest UI and iPhone/iPad sync, but it's a subscription for what NanoClip charges $9.99 once for.&lt;/li&gt;
-&lt;li value="3"&gt;
-&lt;a href="https://www.raycast.com/pricing"&gt;Raycast&lt;/a&gt; includes clipboard history (30-day retention) and snippets free inside its launcher; unlimited history and sync need Pro at $8/month.&lt;/li&gt;
-&lt;li value="4"&gt;Alfred's Powerpack (one-time, ~£34) similarly bundles clipboard history and snippets into a launcher.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;NanoClip's free tier is a demo more than a daily driver (last 5 clipboard items, 3 snippets), but at $5 through July 31 -- $9.99 after -- Pro is a bargain if you need all its features.&lt;/p&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=The%20World%20Needs%20More%20$5%20Apps%20Like%20NanoClip" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>NanoClip is a menu-bar app combining clipboard history, text-expansion snippets, and clipboard automation "flows." Free/demo tier; Pro is $9.99 one-time ($5 with code EARLYBIRD through Jul 31). macOS 14+, local-first, optional iCloud sync, no account. By Victor Baro. (getnano.dev/clip)
-
-The world needs more $5 apps like NanoClip. Before you roll...</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
     <author>
       <name>Lou Plummer</name>

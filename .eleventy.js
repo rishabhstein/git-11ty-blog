@@ -434,6 +434,8 @@ module.exports = async function(eleventyConfig) {
     if (baseName.includes("heart-rate")) return 0;
     if (baseName.includes("power")) return 1;
     if (baseName.includes("cadence")) return 2;
+    if (baseName.includes("elevation")) return 3;
+    if (baseName.includes("speed")) return 4;
     return 10;
   }
 
@@ -486,7 +488,7 @@ module.exports = async function(eleventyConfig) {
     };
 
     const addPreferredWorkoutPlots = () => {
-      const preferredNames = ["heart-rate.svg", "power.svg", "cadence.svg"];
+      const preferredNames = ["heart-rate.svg", "power.svg", "cadence.svg", "elevation.svg", "speed.svg"];
       for (const assetWorkoutDir of assetWorkoutDirs) {
         for (const fileName of preferredNames) {
           const candidatePath = path.join(assetWorkoutDir, fileName);
