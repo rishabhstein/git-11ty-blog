@@ -1,7 +1,8 @@
 ---
-title: "Limit of critical-thinking"
+title: "WV12-Limit of critical-thinking"
 date: 2026-04-25
 tags: ["word-vomit"]
+location: "Brussels, Belgium"
 ---
 
 I am ruminating over my writing style, especially after I restarted the word-vomit series. What I feel is that my style of writing a post and word-vomit is very similar. I share my experiences in both types of posts. Moreover, despite calling a post word-vomit, I am usually careful about the texts. So it is never really a word-vomit.

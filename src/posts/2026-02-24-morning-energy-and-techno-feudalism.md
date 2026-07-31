@@ -1,8 +1,9 @@
 ---
-title: Morning energy and Techno Feudalism
+title: WV05-Morning energy and Techno Feudalism
 date: 2026-02-24
 tags:
   - word-vomit
+location: "Muzaffarnagar, India"
 ---
 The last two word-vomits were hard to finish because I wrote them before going to bed, when I was exhausted. But today I decided to do it among the first few things in the morning. I feel refreshed and energetic to write this word-vomit, despite having a pressure to start working soon.
 

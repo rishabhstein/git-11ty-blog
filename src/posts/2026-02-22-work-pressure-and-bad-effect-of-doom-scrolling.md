@@ -1,8 +1,9 @@
 ---
-title: Work pressure and bad effect of doom scrolling
+title: WV03-Work pressure and bad effect of doom scrolling
 date: 2026-02-22
 tags:
   - word-vomit
+location: "Muzaffarnagar, India"
 ---
 It's my fourth vomit post. In yesterday's post, I chose a mentally heavy topic, which exhausted all my energy. While writing that post, my internal critic was constantly afraid of not adding enough references. I pushed myself to finish it anyway, but it killed my beginner's enthusiasm.  Now, I am writing this post in the evening, contrary to previous posts, which I wrote in the morning. My today's writing goal is to reach the word target, i.e., five hundred words.
 

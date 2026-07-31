@@ -1,7 +1,8 @@
 ---
-title: "Boring tasks for ADHD mind and how I use AI agents"
+title: "WV10-Boring tasks for ADHD mind and how I use AI agents"
 date: 2026-04-22
 tags: ["word-vomit"]
+location: "Brussels, Belgium"
 ---
 
 I am tired from a constant struggle to write a report about results I have obtained in the past few months of my postdoc. The main issue is that my mind does not want to do it; it's simply boring or not stimulating enough for my ADHD mind.

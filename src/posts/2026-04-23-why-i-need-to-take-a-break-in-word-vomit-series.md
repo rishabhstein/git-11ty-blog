@@ -1,7 +1,8 @@
 ---
-title: "Why I need to take a break in word-vomit series"
+title: "WV11-Why I need to take a break in word-vomit series"
 date: 2026-04-23
 tags: ["word-vomit"]
+location: "Brussels, Belgium"
 ---
 
 ~~It has been almost a month since I wrote the last—the ninth one—word-vomit post.~~ I posted two word-vomit posts consecutively the last two days and restarted the series. Right now I do not want to promise anything, but the plan is to finish it with heart and no pressure.

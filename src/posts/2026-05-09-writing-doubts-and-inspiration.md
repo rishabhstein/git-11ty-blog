@@ -1,7 +1,8 @@
 ---
-title: "Writing doubts and inspiration"
+title: "WV14-Writing doubts and inspiration"
 date: 2026-05-09
 tags: ["word-vomit"]
+location: "Brussels, Belgium"
 ---
 
 From yesterday I have been feeling a doubtful state of mind related to blogging and writing. I feel as if I have no important words to say, my opinions are limited, and most of the bloggers I follow are just complaining about someone or something in their posts. There are a few exceptions, such as [Appadict](https://appaddict.app/) or [Andrew's linkdumps](https://82mhz.net/posts/2026/05/linkdump-no-106/), which have a certain theme, but for others there is nothing new to write. The most common topics of complaint are **AI** and **social media**.

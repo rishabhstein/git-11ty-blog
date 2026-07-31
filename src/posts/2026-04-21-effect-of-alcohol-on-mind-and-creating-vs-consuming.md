@@ -1,7 +1,8 @@
 ---
-title: "Effect of alcohol on mind and creating vs consuming"
+title: "WV09-Effect of alcohol on mind and creating vs consuming"
 date: 2026-04-21
 tags: ["word-vomit"]
+location: "Brussels, Belgium"
 ---
 
 Last two days felt hard, and I have no idea why. From Monday morning (i.e., yesterday) I have felt lethargic. I am still trying to contemplate why this is happening. I feel the culprit is vitamin B12 or alcohol. I am usually B12 deficient due to bad digestion, for which I take supplements. However, I haven't taken any for the past few days, so that might be the cause.

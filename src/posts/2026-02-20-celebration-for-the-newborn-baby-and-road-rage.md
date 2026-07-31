@@ -1,5 +1,5 @@
 ---
-title: "Celebration for the newborn baby and road rage"
+title: "WV01-Celebration for the newborn baby and road rage"
 date: 2026-02-20
 tags: ["word-vomit"]
 ---

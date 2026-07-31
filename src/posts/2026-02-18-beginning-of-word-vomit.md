@@ -1,7 +1,8 @@
 ---
-title: "Beginning of word-vomit"
+title: "WV00-Beginning of word-vomit"
 date: 2026-02-18
 tags: ["word-vomit"]
+location: "Muzaffarnagar, India"
 ---
 
 In my [previous post](https://https://rishabhps.com/posts/2026-02-15-a-sleepless-night-an-awakening-realization/), I talked about *word-vomit series* where I expressed my desire to make a routine of writing a post every single day. Ofcourse these posts will not be as good as regular blog posts, as I will be forcing myself to write in a limited amount of time. But I do believe that this series will help me to let out the daily thinking chaos.

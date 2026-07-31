@@ -1,7 +1,8 @@
 ---
-title: After party fatigue and immigrants influencers
+title: WV02-After party fatigue and immigrants influencers
 date: 2026-02-21
 tags: ["word-vomit"]
+location: "Muzaffarnagar, India"
 ---
 
 It's the third vomit post. I am partly excited about my ability to keep the momentum—it may be beginner's thing—and partly in doubt whether I can sustain this. After all, it is not a small commitment because writing is an art, and to learn it, one needs to push oneself with regular practice.

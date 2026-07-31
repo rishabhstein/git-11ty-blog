@@ -1,7 +1,8 @@
 ---
-title: "Carspreading is real and we should not encourage it"
+title: "WV15-Carspreading is real and we should not encourage it"
 date: 2026-05-11
 tags: ["word-vomit"]
+location: "Brussels, Belgium"
 ---
 
 Hello. Good morning. It's Monday, and I am sitting in my office figuring out what I want to do today—experiments, data analysis, or computer modelling. I am more inclined to analyse the data for now.

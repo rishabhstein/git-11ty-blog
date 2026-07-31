@@ -1,7 +1,8 @@
 ---
-title: "WV14-Distracted mind and browser hunt"
+title: "WV13-Distracted mind and browser hunt"
 date: 2026-04-27
 tags: ["word-vomit"]
+location: "Brussels, Belgium"
 ---
 
 In those days when I have no fixed goal to achieve, my mind wanders a lot. As a result, I end up tinkering with my blog or doing random internet searches. I think it's not bad when there is a weekend, but what bothers me is that I fall into this trap during weekdays.

@@ -1,8 +1,9 @@
 ---
-title: Open source package and kids story
+title: WV07-Open source package and kids story
 date: 2026-02-26
 tags:
   - word-vomit
+location: "Muzaffarnagar, India"
 ---
 Today was a peaceful day. The reason was the finalisation of the scientific package, which I need to use to work on a short research project. The confusion was between two choices: an open-source package, *OpenFoam*, and a commercial one, *COMSOL*. Both are known to be very good at studying fluid physics. However, since I support open-source scientific packages and I have more experience in using OpenFOAM, it was my first choice. But working with this package is not trivial, especially when doing a moderately complex job. So, time constraints forced me to go for COMSOL.
 

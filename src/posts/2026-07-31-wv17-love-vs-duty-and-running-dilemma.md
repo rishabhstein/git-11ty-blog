@@ -1,5 +1,5 @@
 ---
-title: "WV17-Love vs duty and running dilemma"
+title: "WV16-Love vs duty and running dilemma"
 date: 2026-07-31
 tags: ["word-vomit"]
 ---

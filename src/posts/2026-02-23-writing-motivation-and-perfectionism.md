@@ -1,7 +1,8 @@
 ---
-title: "Writing motivation and perfectionism"
+title: "WV04-Writing motivation and perfectionism"
 date: 2026-02-23
 tags: ["word-vomit"]
+location: "Muzaffarnagar, India"
 ---
 
 It's the fifth word-vomit post, and I still feel lost whenever I open the text editor to write the first few words. Thanks to  *Atomic Habits* by James Clear, I know that habit building takes time, around two to three weeks. So I am patient. But the pressure of producing five hundred words after finishing the work day makes it harder to start. Thankfully, [Meadow](https://meados.cafe) and [Visa](https://visakanv.com/1000/) have faced similar problems, so in the moments of confusion, I can count on their experiences.

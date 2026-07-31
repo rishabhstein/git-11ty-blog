@@ -1,8 +1,9 @@
 ---
-title: ADHD researcher and reading problem
+title: WV08-ADHD researcher and reading problem
 date: 2026-02-27
 tags:
   - word-vomit
+location: "Muzaffarnagar, India"
 ---
 
 I work in academia as a researcher. So, I need to read research articles regularly. It is a demanding task that requires my full attention, as well as critical thinking skills. Once I finish reading a paper, I feel very happy and satisfied that I learnt something. However, it also exhausts all of my energy, making it a high effort and high reward process. This means doing it again requires a lot of push.

@@ -1,8 +1,9 @@
 ---
-title: I am worried about AI apocalypse in academia
+title: WV06-I am worried about AI apocalypse in academia
 date: 2026-02-25
 tags:
   - word-vomit
+location: "Muzaffarnagar, India"
 ---
 Due to mismanaging my time and finishing the vomit posts at odd hours, it is getting harder and harder to write new word-vomits. I have found a [solution that I discussed yesterday](/posts/2026-02-24-morning-energy-and-techno-feudalism/); however, the implementation can not be done before the weekend because I am occupied with full-time work. When I finish writing a post, it is often late at night, so I can not write a new post the following morning.
 
