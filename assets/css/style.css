@@ -20,7 +20,7 @@ html {
   --heading-color: #111111;
 
   --link-color: #2f5f9a;
-  --visited-color: #7a4c82;
+  --visited-color: #2f5f9a; /* same as --link-color: visited links don't change */
   --tag-link-color: #555555;
   --link-hover-bg: transparent;
   --highlight-color: #ffd84d;
@@ -4121,7 +4121,7 @@ hr {
     --heading-color: #b9d7ff;
 
     --link-color: #f0b45f;
-    --visited-color: #d7a7ff;
+    --visited-color: #f0b45f; /* same as --link-color: visited links don't change */
     --tag-link-color: #f0b45f;
     --link-hover-bg: transparent;
     --highlight-color: #2b3d5c;
@@ -4637,4 +4637,20 @@ body.focus-mode .portal-layout:not(.home-index) .portal-center {
   margin-top: 28px;
   padding-top: 18px;
   border-top: 1px solid var(--panel-border-dark);
+}
+
+/* Footer and pages-index links: match archive link style (one color, underline on hover) */
+footer a,
+footer a:visited,
+.page-link-list a,
+.page-link-list a:visited {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus,
+.page-link-list a:hover,
+.page-link-list a:focus {
+  text-decoration: underline;
 }

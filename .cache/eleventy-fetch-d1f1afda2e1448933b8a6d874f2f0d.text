@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>bearblog</id>
   <title>Bear Blog Trending Posts</title>
-  <updated>2026-07-30T13:03:31.023559+00:00</updated>
+  <updated>2026-07-31T14:17:22.363916+00:00</updated>
   <author>
     <name>Bear Blog</name>
     <email>feed@bearblog.dev</email>
@@ -80,6 +80,13 @@
 &lt;p&gt;Anyway the crux of it is, I’d &lt;em&gt;love&lt;/em&gt; to leave Wordpress behind for good, but for work it’s just not an option at the moment. In the meantime, I’ll keep our shop looking as lean and clean as I possibly can, no thanks to Wordpress.&lt;/p&gt;
 &lt;p&gt;Hey &lt;a href='https://herman.bearblog.dev' target='_blank'&gt;Herman&lt;/a&gt;, any interest in starting Bearcommerce? 😄&lt;/p&gt;
 &lt;hr /&gt;
+&lt;h3 id=comments-1&gt;Comments (1)&lt;/h3&gt;&lt;p&gt;&lt;a href='https://catsandbirdsandstuff.com/' target='_blank'&gt;Paul &lt;/a&gt;🇮🇹 write via the &lt;a href='https://onlinegoddess.net/guestbook'&gt;Guestbook&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Cheers for the mention on your blog! Flattered to have started the conversation. Having seen your list of 50 plugins, I think you've made my case against WordPress far better than I did.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;You’re very welcome and thank you for the inspiration! ~Becky&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Footnotes&lt;/strong&gt;:&lt;/p&gt;
 &lt;section class="footnotes"&gt;
 &lt;ol&gt;
@@ -138,7 +145,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a class="previous-post" href="/status-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new-new" title="status"&gt;Previous&lt;/a&gt;
-&lt;/p&gt;
+&lt;a class="next-post" href="/status-jul30" title="status jul30"&gt;Next&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;meta name="fediverse:creator" content="@Angrybunnyman@indieweb.social"&gt;
 </content>
@@ -160,10 +167,34 @@
 &lt;p&gt;Let them soak in the slop. Let them marinate in the urine of spiritless billionaires. Let them smoothe their brains and hollow out their eyes. Let them become dependent idiots who feed uncaring tech-lords. Let them short-cut their way to meaninglessness.&lt;/p&gt;
 &lt;p&gt;&lt;a href='&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#109;&amp;#111;&amp;#111;&amp;#100;&amp;#121;&amp;#119;&amp;#97;&amp;#114;&amp;#108;&amp;#111;&amp;#99;&amp;#107;&amp;#64;&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;&amp;#46;&amp;#109;&amp;#101;?subject=Soaking in the slop&gt;Email me about this post&lt;/a&gt;. Subscribe to my blog via &lt;a href='/feed/'&gt;RSS feed&lt;/a&gt;. Find me on &lt;a href='https://social.lol/@moodywarlock' target='_blank'&gt;Mastodon&lt;/a&gt; and &lt;a href='https://bsky.app/profile/moodywarlock.bsky.social' target='_blank'&gt;Bluesky&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/moodywarlock/written-by-a-human-not-by-ai-badge-white.webp" alt="Written-By-a-Human-Not-By-AI-Badge-white" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class="previous-post" href="/more-arguments-over-the-use-of-ai-in-dd-worldbuilding-failure-points-individualism-ableism-and-self-reflection" title="More arguments over the use of ai in D&amp;amp;D worldbuilding - failure points, individualism, ableism, and self-reflection"&gt;Previous&lt;/a&gt; / &lt;/p&gt;
+&lt;p&gt;&lt;a class="previous-post" href="/more-arguments-over-the-use-of-ai-in-dd-worldbuilding-failure-points-individualism-ableism-and-self-reflection" title="More arguments over the use of ai in D&amp;amp;D worldbuilding - failure points, individualism, ableism, and self-reflection"&gt;Previous&lt;/a&gt; / &lt;a class="next-post" href="/community-moderation-and-blogging-about-nothing" title="Community, moderation, and blogging about nothing"&gt;Next&lt;/a&gt;&lt;/p&gt;
 </content>
     <link href="https://moodywarlock.net/soaking-in-the-slop/" rel="alternate"/>
     <published>2026-07-30T02:08:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.aracine.net/goodbye/</id>
+    <title>Goodbye Tech</title>
+    <updated>2026-07-30T14:22:00+00:00</updated>
+    <author>
+      <name>doesnmatter</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/doesnmatter/rat.webp" alt="rat" /&gt;
+&lt;em&gt;Every tech company is different, every tech company is the same. Welcome to the suck.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Yeah no. I'm out.&lt;/p&gt;
+&lt;p&gt;Of course it's generative AI. Not the tech. The social phenomenon and the mass hysteria of the managerial class. They jumped at the slightest whiff of being able to cut staff, cut costs, cut corners. The unavoidable end of the tech industry McKinsification. It's not new tho. The only thing the average tech company managed to do with every subsequent silver bullet is shoot themselves in the foot. Object Oriented Programming will save us! Now it's agile! The future is big data, wait no, it's blockchain! At every turn, not grasping that the problem was cultural and not that they weren't copying the latest Silicon Valley trend.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Younger, the web represented the new frontier, the democratization of knowledge and entrepreneurship. The barrier of entry was having an internet connection and a laptop. Of course, the newly minted mega corps of the early 00s just sucked everything that was good about it. Growth at all cost and all that. Actual bots -- or human acting like bots -- pleasing algorithms for a quick buck killed the Internet in the mid 2010s. LLMs, like a super bacteria, finished the job and picked the bones clean. Going on the commercial internet is now a source of pain, a labyrinth of dark patterns and traps.&lt;/p&gt;
+&lt;p&gt;I am grateful I entered the industry at the tail end of its golden age. Still riding the hyper growth wave of early internet and early mobile. I got to make a lot of money doing what I was already doing in my free time since I was a kid. When I started working, I had no quip calling my job software engineering. Now, I don't remember the last time I got to solve actual problems for a user. The industry is more interested in building companies than building products. The inextricable march toward a fully realized mix of Gervais and Peter principle.&lt;/p&gt;
+&lt;p&gt;I mourn our collective loss of the digital realm to corporate interests. I don't mourn being obligated to use shit products from shit companies because some business idiot decided he needed to do &lt;em&gt;something&lt;/em&gt;. Goodbye Jira, Chrome, and Windows, and every other piece of crap SaaS that adds to the true cost of my employment. I was able to ship in spite of them, not because.&lt;/p&gt;
+&lt;p&gt;Although I'm stopping selling my particular software and product making skills, I am not breaking up with tech entirely. I will continue fostering my digital homestead, using and hosting software that respects me and solve my issues. I still want to write code, slowly, mostly by hand. I already type syntax as fast as my understanding of the things I'm building grows. Doing the thing is doing the thing and no amount of delegating makes you better at it.&lt;/p&gt;
+&lt;p&gt;As for money and not dying of hunger, I'm switching to providing something closer to real human needs. I am not fooling myself than the grass is greener there. Not even close to inflated software salaries and miles harder on the body. More hours too and still working with other humans, some of them ego full idiots. But hey, at least I won't be dealing with self imposed idiosyncrasies and make belief problems anymore. With blameless culture, accountability washing and ritualistic meetings to share information that should easily be surfaced with project management tools.&lt;/p&gt;
+&lt;p&gt;So long tech industry, I am happy that you can now go faster toward the wall your were already speeding toward before generative AI. I won't be there for the crash.&lt;/p&gt;
+&lt;p&gt;o7&lt;/p&gt;
+</content>
+    <link href="https://blog.aracine.net/goodbye/" rel="alternate"/>
+    <published>2026-07-30T14:22:00+00:00</published>
   </entry>
   <entry>
     <id>https://bearlyadiary.bearblog.dev/re-notes-on-overconsumption-and-instead-of-a-self-help-book/</id>
@@ -286,49 +317,6 @@
     <published>2026-07-28T21:44:00+00:00</published>
   </entry>
   <entry>
-    <id>https://pourthecoffee.bearblog.dev/ugh-its-in-the-air-and-i-am-heartened-to-know-that-im-not-the-only-one/</id>
-    <title>Ugh: It's in the air and I am heartened to know that I'm not the only one</title>
-    <updated>2026-07-29T16:03:00+00:00</updated>
-    <author>
-      <name>pourthecoffee</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/pourthecoffee/download.gif" alt="download" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="float: left; font-size: 4.5rem; line-height: 3.5rem; font-weight: bold; margin-right: 10px; margin-top: 5px; font-family: Georgia, serif;"&gt;I&lt;/span&gt;&lt;/p&gt;
-have tried to run with the nurturing-container premium-offering crowd. I’m getting off the train. For the last few years, I’ve tortured myself trying to do all that, and it’s not me. 
-&lt;p&gt;Maybe it’s Barbault’s Basket, maybe it’s the nodes shifting into my natal nodal signs on Sunday, maybe it’s that separating conjunction that transit Pluto has been quietly making from my natal north node.&lt;/p&gt;
-&lt;p&gt;Maybe it’s none of that. Maybe I’m just plain &lt;I&gt;done&lt;/I&gt;, no transits required.&lt;/p&gt;
-&lt;p&gt;I used to like blogging and doing readings. That was fun. But this whole triple-your-prices and be-a-container business? The whole solve-their-problem-and-use-this-strategy mindset? Done. Just keep posting, you’ll catch the algorithm and go viral. Nope, nope, nope.&lt;/p&gt;
-&lt;p&gt;Apparently I'm not the only one because my feed at Substack has become increasingly more littered with people who share my opinion.&lt;/p&gt;
-&lt;p&gt;Last night I unpublished a bunch of posts that I had copied over from Patreon. I also unpublished some other posts that I made because I felt compelled to &lt;I&gt;have&lt;/I&gt; to make them. You know, &lt;I&gt;for the algorithm&lt;/I&gt;, because I’m going to &lt;I&gt;address the pain points&lt;/I&gt;. For the &lt;I&gt;nurturing container&lt;/I&gt;. Bleh. Mostly that has been me standing on my head, pumping out content for the last few years on Patreon and then over at Substack, hoping it sticks, and feeling like I’m screaming into the void, and I’m just so over it.&lt;/p&gt;
-&lt;p&gt;I’m going back to making my posts free. I’m not doing any more special posts behind paywalls.&lt;/p&gt;
-&lt;p&gt;Apart from readings at The Alchemist and the odd fair here and there, I’m going back to writing my readings down without the client present. I liked them that way better. I get why meeting online is easier, and it has its benefits, but  I could tell people more in a written document than I ever could in an appointment online. Also, and I can not stress this enough to people, I enjoy writing. I’m also changing my prices back to something that doesn’t make me want to scrub off with a wire brush.&lt;/p&gt;
-&lt;p&gt;I’m over people telling me I have a &lt;I&gt;limiting belief&lt;/I&gt; about my earning potential. You’re right, I do. I believe that I shouldn’t be charging an arm and a leg for my readings. You’re absolutely right if you think that I have &lt;I&gt;class issues&lt;/I&gt; when it comes to this stuff because I look at prices in terms of groceries or rent. I don’t want to charge a grocery order for readings. I don’t want to charge rent for readings. When I did charge high prices. I felt like I had to stand on my head and bombard the client with all the things &lt;I&gt;because&lt;/I&gt; of what I was charging.&lt;/p&gt;
-&lt;p&gt;If I were me, seeking out a reading from someone who charged what I was being taught to charge, I couldn't afford it. &lt;I&gt;I would not be able to afford my own damned product&lt;/I&gt;. It doesn’t make me less deserving, and having less disposable income doesn't mean that I won't take the information seriously. &lt;&lt;&lt; That attitude right there, that attitude &lt;I&gt;floored&lt;/I&gt; me when I attended private container sessions. The absolute unfettered &lt;I&gt;arrogance&lt;/I&gt;. It's &lt;I&gt;"You can't sit with us"&lt;/I&gt; dressed up in waterfall wave hair extensions and a breezy crepe suit.&lt;/p&gt;
-&lt;p&gt;I get it, we all have bills to pay, so we can't treat an income stream like a cute little hobby, and I've worked in the beauty industry for decades, so yes, I know all about the "don't spend the client's money for them" adage. And yes, I get that when you charge $600+ for a reading, you don't have to work as hard as someone charging a lot less.&lt;/p&gt;
-&lt;p&gt;You know what else, though? I was being coached to stop telling people so much. My readings started to change. I started sounding like &lt;I&gt;one of them&lt;/i&gt;: vague, non-committal...fuck that. My clients in the real world come to me because they have real-world questions that I answer with specificity. If I tried to tell them that they needed to "work on their energy" or filled the air with happy-sappy New Age platitudes during their appointment about their soul's alignment or some other such dribble, they'd brain me with my own damned coffee pot.&lt;/p&gt;
-&lt;p&gt;And no, I don’t want to work through it. It’s not that I don’t believe in charging what I’m worth, not at all — I believe we are all worth thousands of dollars per hour — but I’m also done being manipulated by coaches into falling for this “premium container coaching” stuff and paying &lt;I&gt;them&lt;/I&gt; more money for more soul-sucking webinars and coaching calls because it seems like it only works for them and &lt;I&gt;I’m the idiot&lt;/I&gt;.&lt;/p&gt;
-&lt;p&gt;Oh good, there it is, the energy drain. I'm starting to run out of emotional blogging rage now; I just had to get that off my chest. I may do some more dumping over the next few days, so gird your loins accordingly.&lt;/p&gt;
-&lt;p&gt;As you were!&lt;/p&gt;
-</content>
-    <link href="https://pourthecoffee.bearblog.dev/ugh-its-in-the-air-and-i-am-heartened-to-know-that-im-not-the-only-one/" rel="alternate"/>
-    <published>2026-07-29T16:03:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://chupacabra.bearblog.dev/i-want-to-leave-the-internet/</id>
-    <title>I want to leave the internet</title>
-    <updated>2026-07-29T03:17:22.691369+00:00</updated>
-    <author>
-      <name>chupacabra</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I want to leave the internet. This site, reddit, my banking app, the cloud service, Youtube, my music streaming app, my email, Whatsapp, iNaturalist, pornsites, Google Maps, OSMAnd, the local DOT app. I want to forget about VPN and DNS providers. Microsoft Teams, Outlook for work.&lt;/p&gt;
-&lt;p&gt;I don't want to leave the internet. Wikipedia, the learning side of Youtube, this site, informative websites, OSMAnd, iNaturalist. I want to stop spending my life in this hologram, even more now that it feels so fake and so capitalist. There are parts of it that are enjoyable and useful, and that somehow improve my living. I'm looking for balance. The internet is not a real place, why should I be in it everyday?&lt;/p&gt;
-</content>
-    <link href="https://chupacabra.bearblog.dev/i-want-to-leave-the-internet/" rel="alternate"/>
-    <published>2026-07-29T03:17:22.691369+00:00</published>
-  </entry>
-  <entry>
     <id>https://valerialoves.com/why-didnt-silent-titans-change-the-world/</id>
     <title>Why Didn't Silent Titans Change the World?</title>
     <updated>2026-07-28T14:42:00+00:00</updated>
@@ -404,6 +392,49 @@ But how much is that? How much is too much to ask, and why?&lt;/p&gt;
 </content>
     <link href="https://valerialoves.com/why-didnt-silent-titans-change-the-world/" rel="alternate"/>
     <published>2026-07-28T14:42:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://chupacabra.bearblog.dev/i-want-to-leave-the-internet/</id>
+    <title>I want to leave the internet</title>
+    <updated>2026-07-29T03:17:22.691369+00:00</updated>
+    <author>
+      <name>chupacabra</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;I want to leave the internet. This site, reddit, my banking app, the cloud service, Youtube, my music streaming app, my email, Whatsapp, iNaturalist, pornsites, Google Maps, OSMAnd, the local DOT app. I want to forget about VPN and DNS providers. Microsoft Teams, Outlook for work.&lt;/p&gt;
+&lt;p&gt;I don't want to leave the internet. Wikipedia, the learning side of Youtube, this site, informative websites, OSMAnd, iNaturalist. I want to stop spending my life in this hologram, even more now that it feels so fake and so capitalist. There are parts of it that are enjoyable and useful, and that somehow improve my living. I'm looking for balance. The internet is not a real place, why should I be in it everyday?&lt;/p&gt;
+</content>
+    <link href="https://chupacabra.bearblog.dev/i-want-to-leave-the-internet/" rel="alternate"/>
+    <published>2026-07-29T03:17:22.691369+00:00</published>
+  </entry>
+  <entry>
+    <id>https://pourthecoffee.bearblog.dev/ugh-its-in-the-air-and-i-am-heartened-to-know-that-im-not-the-only-one/</id>
+    <title>Ugh: It's in the air and I am heartened to know that I'm not the only one</title>
+    <updated>2026-07-29T16:03:00+00:00</updated>
+    <author>
+      <name>pourthecoffee</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/pourthecoffee/download.gif" alt="download" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="float: left; font-size: 4.5rem; line-height: 3.5rem; font-weight: bold; margin-right: 10px; margin-top: 5px; font-family: Georgia, serif;"&gt;I&lt;/span&gt;&lt;/p&gt;
+have tried to run with the nurturing-container premium-offering crowd. I’m getting off the train. For the last few years, I’ve tortured myself trying to do all that, and it’s not me. 
+&lt;p&gt;Maybe it’s Barbault’s Basket, maybe it’s the nodes shifting into my natal nodal signs on Sunday, maybe it’s that separating conjunction that transit Pluto has been quietly making from my natal north node.&lt;/p&gt;
+&lt;p&gt;Maybe it’s none of that. Maybe I’m just plain &lt;I&gt;done&lt;/I&gt;, no transits required.&lt;/p&gt;
+&lt;p&gt;I used to like blogging and doing readings. That was fun. But this whole triple-your-prices and be-a-container business? The whole solve-their-problem-and-use-this-strategy mindset? Done. Just keep posting, you’ll catch the algorithm and go viral. Nope, nope, nope.&lt;/p&gt;
+&lt;p&gt;Apparently I'm not the only one because my feed at Substack has become increasingly more littered with people who share my opinion.&lt;/p&gt;
+&lt;p&gt;Last night I unpublished a bunch of posts that I had copied over from Patreon. I also unpublished some other posts that I made because I felt compelled to &lt;I&gt;have&lt;/I&gt; to make them. You know, &lt;I&gt;for the algorithm&lt;/I&gt;, because I’m going to &lt;I&gt;address the pain points&lt;/I&gt;. For the &lt;I&gt;nurturing container&lt;/I&gt;. Bleh. Mostly that has been me standing on my head, pumping out content for the last few years on Patreon and then over at Substack, hoping it sticks, and feeling like I’m screaming into the void, and I’m just so over it.&lt;/p&gt;
+&lt;p&gt;I’m going back to making my posts free. I’m not doing any more special posts behind paywalls.&lt;/p&gt;
+&lt;p&gt;Apart from readings at The Alchemist and the odd fair here and there, I’m going back to writing my readings down without the client present. I liked them that way better. I get why meeting online is easier, and it has its benefits, but  I could tell people more in a written document than I ever could in an appointment online. Also, and I can not stress this enough to people, I enjoy writing. I’m also changing my prices back to something that doesn’t make me want to scrub off with a wire brush.&lt;/p&gt;
+&lt;p&gt;I’m over people telling me I have a &lt;I&gt;limiting belief&lt;/I&gt; about my earning potential. You’re right, I do. I believe that I shouldn’t be charging an arm and a leg for my readings. You’re absolutely right if you think that I have &lt;I&gt;class issues&lt;/I&gt; when it comes to this stuff because I look at prices in terms of groceries or rent. I don’t want to charge a grocery order for readings. I don’t want to charge rent for readings. When I did charge high prices. I felt like I had to stand on my head and bombard the client with all the things &lt;I&gt;because&lt;/I&gt; of what I was charging.&lt;/p&gt;
+&lt;p&gt;If I were me, seeking out a reading from someone who charged what I was being taught to charge, I couldn't afford it. &lt;I&gt;I would not be able to afford my own damned product&lt;/I&gt;. It doesn’t make me less deserving, and having less disposable income doesn't mean that I won't take the information seriously. &lt;&lt;&lt; That attitude right there, that attitude &lt;I&gt;floored&lt;/I&gt; me when I attended private container sessions. The absolute unfettered &lt;I&gt;arrogance&lt;/I&gt;. It's &lt;I&gt;"You can't sit with us"&lt;/I&gt; dressed up in waterfall wave hair extensions and a breezy crepe suit.&lt;/p&gt;
+&lt;p&gt;I get it, we all have bills to pay, so we can't treat an income stream like a cute little hobby, and I've worked in the beauty industry for decades, so yes, I know all about the "don't spend the client's money for them" adage. And yes, I get that when you charge $600+ for a reading, you don't have to work as hard as someone charging a lot less.&lt;/p&gt;
+&lt;p&gt;You know what else, though? I was being coached to stop telling people so much. My readings started to change. I started sounding like &lt;I&gt;one of them&lt;/i&gt;: vague, non-committal...fuck that. My clients in the real world come to me because they have real-world questions that I answer with specificity. If I tried to tell them that they needed to "work on their energy" or filled the air with happy-sappy New Age platitudes during their appointment about their soul's alignment or some other such dribble, they'd brain me with my own damned coffee pot.&lt;/p&gt;
+&lt;p&gt;And no, I don’t want to work through it. It’s not that I don’t believe in charging what I’m worth, not at all — I believe we are all worth thousands of dollars per hour — but I’m also done being manipulated by coaches into falling for this “premium container coaching” stuff and paying &lt;I&gt;them&lt;/I&gt; more money for more soul-sucking webinars and coaching calls because it seems like it only works for them and &lt;I&gt;I’m the idiot&lt;/I&gt;.&lt;/p&gt;
+&lt;p&gt;Oh good, there it is, the energy drain. I'm starting to run out of emotional blogging rage now; I just had to get that off my chest. I may do some more dumping over the next few days, so gird your loins accordingly.&lt;/p&gt;
+&lt;p&gt;As you were!&lt;/p&gt;
+</content>
+    <link href="https://pourthecoffee.bearblog.dev/ugh-its-in-the-air-and-i-am-heartened-to-know-that-im-not-the-only-one/" rel="alternate"/>
+    <published>2026-07-29T16:03:00+00:00</published>
   </entry>
   <entry>
     <id>https://www.hardrefresh.life/things-i-want-to-actually-run-out-of/</id>
@@ -598,6 +629,73 @@ p.tags:not(
     <published>2026-07-28T21:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://alysterwho.blog/the-cutest-piece-of-shit-camera-and-i-love-it/</id>
+    <title>The cutest piece of shit camera (and I love it)</title>
+    <updated>2026-07-30T06:20:00+00:00</updated>
+    <author>
+      <name>alysterwho</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href='https://i.ibb.co/Fb1K5GR5/P2122098.jpg'&gt;&lt;img src="https://i.ibb.co/Fb1K5GR5/P2122098.jpg" alt="Photo" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A couple of months ago, I saw this in a "Mr. DIY" in a nearby shopping mall. It's basically the Southeast Asian version of a Dollar Store. It costs about $20 and I immediately grabbed it.&lt;/p&gt;
+&lt;p&gt;My girlfriend is obsessed with everything pink, so I had to get it. We haven't been using it that much because we already have tons of cameras we cycle with, but whenever I do, it's just so much fun.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/1JBTLk1R/P2122099.jpg" alt="Photo" /&gt;&lt;/p&gt;
+&lt;p&gt;Obviously, it's not the best camera. I mean look at the thing, but it's got cool stuff going on.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/DD7FnRFG/P2122102.jpg" alt="Photo" /&gt;&lt;/p&gt;
+&lt;p&gt;The quality of photos is very Lo-Fi. I would even call it shit, the photos sometimes just look like bad oil paintings, but it's fun to play around with.&lt;/p&gt;
+&lt;p&gt;Look at some of the shots below.&lt;/p&gt;
+&lt;div class="gallery"&gt;
+&lt;p&gt;&lt;a href='https://i.ibb.co/20CVvGbC/PHO00006.jpg'&gt;&lt;img src="https://i.ibb.co/20CVvGbC/PHO00006.jpg" alt="Photo" /&gt;&lt;/a&gt;
+&lt;a href='https://i.ibb.co/zTqczHF0/PHO00008.jpg'&gt;&lt;img src="https://i.ibb.co/zTqczHF0/PHO00008.jpg" alt="Photo" /&gt;&lt;/a&gt;
+&lt;a href='https://i.ibb.co/9kFyD7Xd/PHO00024.jpg'&gt;&lt;img src="https://i.ibb.co/9kFyD7Xd/PHO00024.jpg" alt="Photo" /&gt;&lt;/a&gt;
+&lt;a href='https://i.ibb.co/prGWz89S/PHO00025.jpg'&gt;&lt;img src="https://i.ibb.co/prGWz89S/PHO00025.jpg" alt="Photo" /&gt;&lt;/a&gt;
+&lt;a href='https://i.ibb.co/GfjB1WW3/PHO00027.jpg'&gt;&lt;img src="https://i.ibb.co/GfjB1WW3/PHO00027.jpg" alt="Photo" /&gt;&lt;/a&gt;
+&lt;a href='https://i.ibb.co/Ng27kx4X/PHO00028.jpg'&gt;&lt;img src="https://i.ibb.co/Ng27kx4X/PHO00028.jpg" alt="Photo" /&gt;&lt;/a&gt;
+&lt;a href='https://i.ibb.co/SDRXdb3g/PHO00029.jpg'&gt;&lt;img src="https://i.ibb.co/SDRXdb3g/PHO00029.jpg" alt="Photo" /&gt;&lt;/a&gt;
+&lt;a href='https://i.ibb.co/V02Cw5Yg/PHO00004.jpg'&gt;&lt;img src="https://i.ibb.co/V02Cw5Yg/PHO00004.jpg" alt="Photo" /&gt;&lt;/a&gt;
+&lt;a href='https://i.ibb.co/Xk4p6pWf/PHO00030.jpg'&gt;&lt;img src="https://i.ibb.co/Xk4p6pWf/PHO00030.jpg" alt="Photo" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;It can take selfie photos though, which is cool I guess, but man, I can hardly make myself out in these photos. It has fun filters since it's designed for kids (It can even play MP3 files Lol).&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://i.ibb.co/DDmZbTFr/PHO00002.jpg'&gt;&lt;img src="https://i.ibb.co/DDmZbTFr/PHO00002.jpg" alt="Photo" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://i.ibb.co/ksLHG9v6/P2122107.jpg'&gt;&lt;img src="https://i.ibb.co/ksLHG9v6/P2122107.jpg" alt="Photo" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out the videos on this thing too.&lt;/p&gt;
+&lt;div style="padding:75% 0 0 0;position:relative;"&gt;&lt;iframe src="https://player.vimeo.com/video/1214183576?badge=0&amp;amp;autopause=0&amp;amp;player_id=0&amp;amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Unicorn Camera Random Videos"&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;script src="https://player.vimeo.com/api/player.js"&gt;&lt;/script&gt;
+&lt;p&gt;It's a fun camera. I had fun using it. I will continue to have fun using it but I don't think I'll be keeping it for too long, or IDK, maybe I'll collect garbage cameras too because they're kinda charming.&lt;/p&gt;
+&lt;p&gt;I like it, it brings the fun back to taking photos again. Photos remind me of the 2000s when chinese phones and cameras take the same kind of quality of photo.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.ibb.co/395k591p/P2122108.jpg" alt="Photo" /&gt;&lt;/p&gt;
+&lt;p&gt;Side note, I wanted to get the Charmera and just take photos of stuff when walking around.&lt;/p&gt;
+&lt;p&gt;Should I get one?&lt;/p&gt;
+&lt;p&gt;-A&lt;/p&gt;
+</content>
+    <link href="https://alysterwho.blog/the-cutest-piece-of-shit-camera-and-i-love-it/" rel="alternate"/>
+    <published>2026-07-30T06:20:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://toska.bearblog.dev/re-online-friends-are-real-friends/</id>
+    <title>Re: Online Friends Are Real Friends</title>
+    <updated>2026-07-29T23:40:38.666820+00:00</updated>
+    <author>
+      <name>toska</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;A few days ago I booked my flights to not only attend a professional event, but also visit and stay with one of my best friends next month. This will be the sixth time that at least one of us has traveled to hang out with the other.&lt;/p&gt;
+&lt;p&gt;We met each other online six years ago via Reddit (and to some degree, Instagram back when I still had an account) simply through shared interests. Never in my life did I suspect I would befriend someone online to such a degree that they feel like a true brother to me.&lt;/p&gt;
+&lt;p&gt;I liked &lt;a href='https://blog.absurdpirate.com/online-friends-are-real-friends/'&gt;Absurd Pirate's post&lt;/a&gt; because it made me reflect on my own online friendships, which are so important to me.&lt;/p&gt;
+&lt;p&gt;First of all, I don't consider just anyone who talks to me as my friend. There's a solid difference between acquaintances and friends, and there are other platonic dynamics that exist somewhere in between those two labels. I certainly have both online and in-person contacts with whom I look forward to interacting on occasion either via phone call or at a café to catch up. And while I don't doubt that these folks care about me and vice-versa, I don't feel any sense of urgency to communicate with them (and again, probably vice-versa). It's okay if we don't really chat outside of those one or two times per year, and I tend to not seek help or guidance from them. They're something more than acquaintances, but at the same time not quite friends.&lt;/p&gt;
+&lt;p&gt;As Absurd Pirate notes, online friends have quickly become the norm. Still, I've noticed that it's still kind of strange to some that many of the people to whom I'd reach out first if I found myself in an emergency or a sticky situation are just that—online friends. And not online friends in the sense that one of us moved away from each other, but rather that we met somehow via the Internet, and the potential of us interacting in person would otherwise be more or less zero if not for the digital world introducing us and growing that desire to hang out in real life.&lt;/p&gt;
+&lt;p&gt;I without a doubt agree that online friends can be just as "real" as those who are physically near you. I've shared some and listened to pretty personal shit with online friends. And maybe that's why my online friendships can often be "realer" than my IRL ones. Like many, I find it easier to be vulnerable when I'm behind a screen. I think that relatively greater openness as well as the number of niche communities on the Internet help open more opportunities to kindle such genuine friendships.&lt;/p&gt;
+&lt;p&gt;In addition, there's generally a lower chance that the friendship develops out of convenience alone. Don't get me wrong, many in-person friendships are born this way and can turn into the most meaningful lifelong connections. And most people looking for real friendships generally aren't so shallow. But when I'm chatting with someone online who lives far away and they know I have no favors to offer them physically or financially (not to say this is impossible via virtual relationships, but you get what I mean), then I feel more secure in that they want to get to know me purely for who I am or at least spend time together via a hobby that can be practiced virtually.&lt;/p&gt;
+&lt;p&gt;My online friends and I know who each other's in-person friends are. We help each other navigate tricky professional or social situations. We check in on each other when we're going through tough times. We make sure to call or at least message each other regularly, and we begin to worry when we don't hear from the other person for a couple weeks. We share art with each other. We exchange foreign languages to better connect and help each other improve at a hobby important to us. We send each other notes and small gifts in the mail. We discuss our goals and aspirations in life.&lt;/p&gt;
+&lt;p&gt;I don't even do all those things with some of my IRL friends.&lt;/p&gt;
+&lt;p&gt;My online friends are spread across countries: the United States, Germany, the Netherlands, Austria, Azerbaijan, and Russia. I've actually been lucky enough to meet most of my online friends in person, even if only once. These are some of my favorite memories, and I'm always waiting for the day we can finally hang out in person again.&lt;/p&gt;
+&lt;p&gt;I think each of my friends knows me in a different way, whether they are online or IRL. But some friends definitely know me better than others, and those tend to be my online ones.&lt;/p&gt;
+&lt;p&gt;It's not that I struggle so much to befriend others in person. However, as someone who often feels a disconnect between herself and the immediate world around her, I value very much what my online friends bring into my life, be it an interest I cannot reasonably pursue in my current city or an entirely different but refreshing outlook on the world.&lt;/p&gt;
+&lt;p&gt;That being said, I'd love to host all my online and IRL friends together at a dinner party someday. Because they're all my "real" friends no matter what.&lt;/p&gt;
+</content>
+    <link href="https://toska.bearblog.dev/re-online-friends-are-real-friends/" rel="alternate"/>
+    <published>2026-07-29T23:40:38.666820+00:00</published>
+  </entry>
+  <entry>
     <id>https://bx.bearblog.dev/keep-posting/</id>
     <title>Keep posting.</title>
     <updated>2026-07-27T21:45:00+00:00</updated>
@@ -617,6 +715,43 @@ Keep posting if you don’t want to have a discussion.&lt;/p&gt;
 </content>
     <link href="https://bx.bearblog.dev/keep-posting/" rel="alternate"/>
     <published>2026-07-27T21:45:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://graybeard.ing/i-fucking-love-this-you-dont/</id>
+    <title>I fucking love this; you don't</title>
+    <updated>2026-07-30T22:43:00+00:00</updated>
+    <author>
+      <name>graybearding</name>
+      <email>hidden</email>
+    </author>
+    <content type="html">&lt;p&gt;Someone called one of my Reddit comments “AI slop” the other day.&lt;/p&gt;
+&lt;p&gt;Another developer defended me, checked out a few of my videos, and sent me this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Me and you do this cause we love this shit.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It knocked me loose. I've been pretty depressed in response to all of the AI stuff lately.&lt;/p&gt;
+&lt;p&gt;It's no secret that I've adapted my workflow to rely on it, but I'm also not interested in the "if it's not an ATM, why the fuck would I care" attitude toward building that's in the air right now.&lt;/p&gt;
+&lt;p&gt;I’ve spent too much time mentally wedging myself into the same category as people who discovered software development six months ago, generated a clone, and started calling themselves builders.&lt;/p&gt;
+&lt;p&gt;Despite building and shipping more than I ever have before, it's easy—at least, lately, for me it has been—to see all of that noise and project it on to my own work and marketing efforts.&lt;/p&gt;
+&lt;p&gt;I use AI. I make small products. I work alone. From far enough away, I suppose it all looks similar.&lt;/p&gt;
+&lt;p&gt;It isn’t. I fucking &lt;em&gt;love&lt;/em&gt; building software.&lt;/p&gt;
+&lt;p&gt;I love building something because I think it should exist and doesn’t. I love finding some old project on my computer, realizing it has merit in the present, and hacking on the missing pieces. I love following a real need until it turns into a tool, a product, or some weird little thing only I care about.&lt;/p&gt;
+&lt;p&gt;I took a "break" after shipping &lt;a href='https://fortivibe.com'&gt;Fortivibe&lt;/a&gt; to build Banmi. There was no economic incentive. I just wanted the fucking thing to exist:&lt;/p&gt;
+&lt;video controls style="max-width: 100%;"&gt;
+  &lt;source src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/graybearding/bonmi_demo.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+&lt;p&gt;Most of my work starts the same way: necessity -&gt; curiosity -&gt; take a swing, kid.&lt;/p&gt;
+&lt;p&gt;The people I’m talking about don’t love this. They love what they think it can get them. Another fudged revenue screenshot. Attention from the masses who will forget about them the next day. The ability to apply the "founder" label to themselves.&lt;/p&gt;
+&lt;p&gt;All of it is just a shortcut around learning how to do the work properly. If you can just say "I'm not worried about quality, I'm focused on driving revenue" you lose the most important part (in my opinion): &lt;em&gt;the soul of the thing&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;That’s fine. Have at it. But no matter what labels you slap onto your avatar-self: &lt;em&gt;we are not the same&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I was doing this before anybody watched. First with table layouts and guitar-playing crocodile GIFs in GeoCities and today, deep in the code.&lt;/p&gt;
+&lt;p&gt;And I’ll still be doing it after the current gold rush. And the one after that.&lt;/p&gt;
+&lt;p&gt;If you fall into the same camp and find yourself frustrated by all of this insanity: don't. Just keep building. Keep making the things you want to exist in the world, however you most enjoy making them. If you don't want to use AI, don't. If you want to, great.&lt;/p&gt;
+&lt;p&gt;But no matter how you get a result, for the sake of a better outcome for all of us (technical and non-technical): don't stop loving what you do and keep fucking building.&lt;/p&gt;
+&lt;p&gt;If there aren't any good examples, there won't be any good outcomes.&lt;/p&gt;
+</content>
+    <link href="https://graybeard.ing/i-fucking-love-this-you-dont/" rel="alternate"/>
+    <published>2026-07-30T22:43:00+00:00</published>
   </entry>
   <entry>
     <id>https://livingkindfully.bearblog.dev/your-hell-is-someones-heaven/</id>
@@ -641,24 +776,6 @@ Keep posting if you don’t want to have a discussion.&lt;/p&gt;
     <published>2026-07-27T16:13:53.468522+00:00</published>
   </entry>
   <entry>
-    <id>https://robertbirming.com/guess-im-trash/</id>
-    <title>I guess I’m trash</title>
-    <updated>2026-07-28T14:21:00+00:00</updated>
-    <author>
-      <name>robert</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;I just listened to a documentary about Dolly Parton. What an icon!&lt;/p&gt;
-&lt;p&gt;Growing up in a religious home, there were strict rules about what to wear and how to look. One day, while she's in town with her mother, she sees a woman who's broken all those rules. She asks her mother about the woman, who replies that she's trash.&lt;/p&gt;
-&lt;p&gt;Dolly doesn't understand what her mother means. Trash compared to what? She just sees a beautiful woman and thinks that she would also like to look like that.&lt;/p&gt;
-&lt;p&gt;In an interview years later, she says, "If this is trash, then I guess I'm trash."&lt;/p&gt;
-&lt;p&gt;What an awesome approach to life. Being &lt;em&gt;yourself&lt;/em&gt; and doing &lt;em&gt;your&lt;/em&gt; thing, no matter if others consider it to be trash or treasure.&lt;/p&gt;
-&lt;p&gt;The world needs more Dollys.&lt;/p&gt;
-</content>
-    <link href="https://robertbirming.com/guess-im-trash/" rel="alternate"/>
-    <published>2026-07-28T14:21:00+00:00</published>
-  </entry>
-  <entry>
     <id>https://actualspine.bearblog.dev/bearblog-is-not-social-media/</id>
     <title>bearblog is not a social media</title>
     <updated>2026-07-27T06:45:00+00:00</updated>
@@ -674,108 +791,5 @@ Personally, I enjoy the quiet and people minding their own business. Finding wel
 </content>
     <link href="https://actualspine.bearblog.dev/bearblog-is-not-social-media/" rel="alternate"/>
     <published>2026-07-27T06:45:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://dostoynikov.com/back-to-bearblog/</id>
-    <title>Back to Bearblog</title>
-    <updated>2026-07-27T10:16:00+00:00</updated>
-    <author>
-      <name>dostoynikov</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;Hi.&lt;/p&gt;
-&lt;p&gt;Awhile ago &lt;a href='https://dostoynikov.bearblog.dev/moving-my-blog-from-bearblog-to-hugo-with-sourcehut-hosting/'&gt;I moved my blog setup from Bearblog to self-hosting setup&lt;/a&gt; because I love tinkering stuff and wanted to try challenge some coding, automation etc.&lt;/p&gt;
-&lt;p&gt;Well, life got busy and maintaining self-host stuff started to take some time because I have lots of other things to do as well. Being able to write my posts from any terminal and push them from there was really nice. Still, I decided to let self-hosting hobby go and just focus on writing so I'm back on Bearblog again. I'm glad I didn't delete my account from here. I migrated my posts back to here, hopefully, without any bugs.&lt;/p&gt;
-&lt;p&gt;I will be updating some pages and infos probably for next few days on my blog. If you find any bugs or weird stuff, please let me know.&lt;/p&gt;
-&lt;p&gt;I'm not sure if anyone still remembers me from Bearblog but I'm happy to be back.&lt;/p&gt;
-</content>
-    <link href="https://dostoynikov.com/back-to-bearblog/" rel="alternate"/>
-    <published>2026-07-27T10:16:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://scholarch.bearblog.dev/healthy-discourse/</id>
-    <title>Healthy Discourse</title>
-    <updated>2026-07-29T19:46:05.340312+00:00</updated>
-    <author>
-      <name>scholarch</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;p&gt;This one's a bit of a ramble, but I mean to get it out quick.&lt;/p&gt;
-&lt;p&gt;I want to thank the people who emailed me and wrote in my guestbook regarding &lt;a href='https://scholarch.bearblog.dev/reconsidering-bearblog-or-on-the-value-of-words-new/'&gt;my recent post&lt;/a&gt;; both supportive and challenging messages have prompted me to think about free speech, codes of conduct, and what it means to be a fair-minded person. I also want to acknowledge the thoughtful responses made by &lt;a href='https://nate.spot/re-reconsidering-bearblog/'&gt;Nate&lt;/a&gt; and &lt;a href='https://oracleofsages.bearblog.dev/when-does-censorship-become-necessary/'&gt;Sage&lt;/a&gt;. The discourse around here in the last few days has veered towards meta-meta-blogging, and I know my role in stirring things up. The point of this post is to take responsibility accordingly.&lt;/p&gt;
-&lt;p&gt;First, the current/temporary link to the Code of Conduct atop the Discovery feed is due to my last post. Anyone who's ever misbehaved in school (or in the workplace) which resulted in a blanket statement made by the teacher/principal/management to everyone else knows the feeling of culpability. I don't regret writing the two posts that led up to it, but I would regret not extending fairness to Herman since there's a sense that his response is passive aggressive or slimy.&lt;/p&gt;
-&lt;p&gt;Herman reached out to me via email on Monday, roughly 16 hours after my post. Here's what I received:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Hey there, &lt;/p&gt;
-&lt;p&gt;I just read your post w/r to the hiding of your previous post. I apologise for leaving you salty. &lt;/p&gt;
-&lt;p&gt;I tend to hide all posts that are jabs at a specific person (in this case Robert). The reason for this is, if I don't, it leads to people jabbing back and bickering on the discovery feed. This isn't what I want for the feed, and I hope you can understand my reasons for moderating the feed in such a way. For clarity, it wasn't because you were calling out spam, or anything like that. &lt;/p&gt;
-&lt;p&gt;Being hidden from the discovery feed isn't a banning of your blog, it's just me keeping the feed happy and healthy, instead of antagonistic. You're not going to be de-platformed or anything obtuse, I just don't want conflict on the feed. &lt;/p&gt;
-&lt;p&gt;I hope you'll take the time to earnestly try and understand the reason for my actions, instead of writing them off as me being malicious. &lt;/p&gt;
-&lt;p&gt;I'm also happy to answer any questions you have about how I moderate, as well as the code of conduct. Feedback is how I make Bear a better place to be. &lt;/p&gt;
-&lt;p&gt;Have a good rest of your week.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I found it to be a fair and cordial message. In fact, I took Herman's suggestion to take the time to earnestly try and understand his perspective to heart, and have been mulling over it the last couple days. I assumed there were three reasons for my initial post to get shadow-banned (e.g., it was controversial, low-effort, and/or harsh), but I overlooked how I was making personal attacks and subtle digs. I'll own that: (1) I was a bit pretentious and aggressive in my first post; (2) my follow-up was motivated by saltiness; and (3) precisely because those things feel good in the moment, such posts can be tricky for moderation.&lt;/p&gt;
-&lt;p&gt;So, I do accept Herman's apology for leaving me salty. In turn, I apologize for putting him in a difficult spot with my previous writing—and with the next bit.&lt;/p&gt;
-&lt;p&gt;As far as I can tell, the Discovery feed has not devolved into a back-and-forth jabbing or bickering session. There's been more discourse around free speech and conduct and what it means to express one's views, but I regard these as worthwhile topics to explore. I also challenge the underlying premise that conflict is inherently bad. I know it makes the job of moderating that much more exhausting, and I doubt it's something that can be integrated into the formula for what counts as trending and not. Nevertheless, from the limited data I have (e.g., messages I've received, the number of toasts, the quality of reply posts), I think the community welcomes the element of disagreement and is mature enough to handle it.&lt;/p&gt;
-&lt;p&gt;For what it's worth, I empathize with how challenging this can be. I'm an educator, and the considerations around free speech and civility and tolerance appear in the microcosm of the classroom. It's my role to ensure a space that is conducive to both dialogue &lt;em&gt;and&lt;/em&gt; dignity. As others have suggested, hate speech is the no-fly zone. As far as I can tell, the Bear community is in consensus on that front.&lt;/p&gt;
-&lt;p&gt;So where does the proverbial line get drawn? In my work, I draw on the philosopher Karl Popper's views on tolerance. He said that extreme tolerance is what leads to societal decline, because that form of tolerance includes tolerating the intolerant. The intolerant, of course, do not return such favors. Over time, they gain traction, and hateful views and voices become embedded in discourse. One just needs to consider the rise in authoritarian and fascist ideas in the last decade or so to see how this is apparent.&lt;/p&gt;
-&lt;p&gt;How does this connect to Bear? I want to suggest that toxic positivity, or the stance that we should avoid conflict altogether, is not ideal. Otherwise, my concern that Bear is a factory that doesn't care for &lt;em&gt;what&lt;/em&gt; is written but &lt;em&gt;that&lt;/em&gt; it is written will persist, and the noise will continue to overwhelm meaningful signals. On the other hand, moderation is still necessary, but I suggest it be limited to addressing intolerance. You know it when you see it: the hateful takes that strip away another person's or people's dignity, rights as human beings, or sense of belonging in a space.&lt;/p&gt;
-&lt;p&gt;On that note, I also feel responsible for Robert's response &lt;a href='https://robertbirming.com/guess-im-trash/'&gt;in which he supposes he is trash&lt;/a&gt;. I know it's &lt;em&gt;really&lt;/em&gt; presumptuous of me to think I'm the cause of that post, but again: as an educator, I've seen how people respond to different stimuli in the classroom. In every interaction there are at least two parties involved. So, to Robert, for what it's worth: as much as I take issue with the quality of your writing, I don't know you enough to comment on the quality of your character, and I'm sorry that my words affected you negatively.&lt;/p&gt;
-&lt;p&gt;I'm still undecided where to go from here for blogging, but I wanted to model the sort of discourse I want to be a part of, not just in the blogosphere, but in all realms of life.&lt;/p&gt;
-</content>
-    <link href="https://scholarch.bearblog.dev/healthy-discourse/" rel="alternate"/>
-    <published>2026-07-29T19:46:05.340312+00:00</published>
-  </entry>
-  <entry>
-    <id>https://oracleofsages.bearblog.dev/when-does-censorship-become-necessary/</id>
-    <title>When Does Censorship Become Necessary?</title>
-    <updated>2026-07-29T13:10:00+00:00</updated>
-    <author>
-      <name>oracleofsages</name>
-      <email>hidden</email>
-    </author>
-    <content type="html">&lt;div class="note"&gt;
-&lt;p&gt;&lt;span class="note-label"&gt;Update: 30 Jul, 2026&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Scholarch has since uploaded a &lt;a href='https://scholarch.bearblog.dev/healthy-discourse/'&gt;follow-up post&lt;/a&gt; in relation to this situation, referencing my post and that they had been directly contacted by Herman himself.&lt;/p&gt;
-&lt;p&gt;Herman also reached out to me, which I greatly appreciated. It cleared up a lot of my hypotheticals. Again, at time of writing this post it was purely conjecture and my personal feelings. I hope that is obvious while reading. Additionally, the Code of Conduct has now been removed from the Discovery page. I believe this was the correct choice to make, but also understand (after hearing from Herman) why it was done.&lt;/p&gt;
-&lt;p&gt;There is no black and white to this. Moderating communities is hard work. People are fickle, and can rarely ever agree on one singular thing. We still have debates about the Earth being flat, for God's sake.&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;If you frequent the trending page, you may have noticed the recent commentary stemming from &lt;a href='https://scholarch.bearblog.dev/re-blank-blogging-counts-too/'&gt;Scholarch's post&lt;/a&gt; directed at Robert &lt;a href='https://robertbirming.com/re-blank-blogging/'&gt;(who replied in turn)&lt;/a&gt;. It seems to have caused quite a stir, especially if Scholarch's guestbook is anything to go by.&lt;/p&gt;
-&lt;p&gt;I don't care about the drama of it all. Frankly its all rather banal and appears to have been blown completely out of proportion. I'm entitled to that opinion, just as you are entitled to yours even if it may be in complete disagreement. From what I can see, both parties have remained respectful towards one another, albeit with a tinge of saltiness. We are biased &amp; contradictory creatures, it is what it is.&lt;/p&gt;
-&lt;p&gt;The part I take issue with is the Code of Conduct being silently pinned to the top of the Discovery page. If Scholarch's account is anything to go by, there has been no communication between themselves and Herman regarding the inciting post itself, at least at time of posting. At the base level that's not necessarily a problem, as in Herman's own words…&lt;/p&gt;
-&lt;div class="pullquote"&gt;
-&lt;p&gt;"Posts may be hidden from the discovery feed to keep our shared garden enjoyable for everyone."&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;The Code of Conduct then goes on to list what Herman classes as "unenjoyable" for the platform, including what most people have concluded to be the problem-point of "personal attacks and subtle digs." There have been arguments that a similar, lengthier post by &lt;a href='https://absurdpirate.bearblog.dev/your-metablogging-is-lame-as-hell/'&gt;Absurd Pirate&lt;/a&gt; hashes out the exact same opinion, only far more vaguely. Does this count as a "subtle dig"? If so, why didn't it receive the same treatment? We could sit here all day and argue where the line is but I don't think we would ever reach a decent consensus. What even constitutes as subtle? Speaking from personal experience as an autistic person, subtle doesn't even exist to me and, hell, even then what I would deem as genuine and helpful critique could be easily interpreted as a personal attack by someone else.&lt;/p&gt;
-&lt;p&gt;Opinions on topics like this will continue to be an ouroboros until the end of time.&lt;/p&gt;
-&lt;p&gt;There is no promise that you will be told what, if ever, you have done to go against the Code of Conduct we have all agreed to by creating an account here. Most platforms, unfortunately, run this way. Gone are the days of in-the-moment pop-ups that stop you in your tracks and cause a childhood meltdown.&lt;/p&gt;
-&lt;div class="meta"&gt;
-&lt;p&gt;(Thanks Club Penguin...)&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Herman is well within his rights to dictate what is and isn't appropriate for his website. As many people have already echoed, if you want to have complete control over what you post, using any host other than your own software is the wrong avenue. However, playing the role of an (almost) silent benevolent leader while simultaneously tacking your 10 Commandments to the top of the reading poll just… doesn't sit right with me? It feels slimy and, to be honest, a little childish. It draws a clear line in the sand when it comes to pondering if things have actually been seen and actioned by Herman, or whoever has been responsible for moderating this situation. It has been seen, and the response is clear.&lt;/p&gt;
-&lt;p&gt;"Read the damn rules."&lt;/p&gt;
-&lt;p&gt;It's a little immature, in my opinion, especially if said pinning of the link is a direct rebuttal to Scholarch's original post and perceived shadow-banning. As far as we can surmise, the truth will never be known because no comment has actually been made and (at time of posting this) no affected party has been contacted. If that is the case, it never should have happened. You can't reprimand one singular person under the guise of reminding your entire user-base what is and isn't permissible.&lt;/p&gt;
-&lt;p&gt;Two birds, one stone. Sure. But when it's plainly obvious what the starting point of everything was, the mirage of coincidence breaks down pretty quickly and one could argue that the reminder sitting at the top of the Discovery page could be the very thing its existence is said to have stemmed from; a personal attack.&lt;sup class="footnote-ref" id="fnref-1"&gt;&lt;a href="#fn-1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;I don't know how either party feels about things and I haven't asked. It's none of my business and I'm sure if they want to have dialogue between one another, they will. This is all conjecture on my part and I can only speak to how I feel as an observer, which is… Uncomfortable. I love Bearblog and the people that frequent it. There are many people that I disagree with, but I believe that's good too. I don't hide blogs because, as much as I sit here rolling my eyes, I value having a seat at the other table should I choose to take it. The last thing I want is to create my own echo-chamber.&lt;/p&gt;
-&lt;p&gt;&lt;mark&gt;Of course there are exceptions to this but that should be pretty obvious. I am not here to advocate for hate speech.&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;According to Herman, "Our community’s a tapestry—different lives, different lenses. Not everyone sees the world like you do, and that’s okay.", which is a wonderful thing to have etched into the holy stones of Bearblog, but if anything this whole situation has highlighted what a slippery slope Codes of Conduct can be.&lt;/p&gt;
-&lt;div class="pullquote"&gt;
-&lt;p&gt;"Bear Blog won’t be a megaphone for hurting people. "&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Who decides what hurts? When does criticism become &lt;em&gt;too&lt;/em&gt; personal? When does censorship become necessary?&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Want to reply? Sign my &lt;a href='https://oracleofsages.bearblog.dev/guestbook/'&gt;guestbook&lt;/a&gt; or send me an &lt;a href='mailto:oracle.of.sages@proton.me'&gt;email&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a class="previous-post" href="/the-worth-of-me" title="The Worth of Me"&gt;Previous&lt;/a&gt; | &lt;/p&gt;
-&lt;/center&gt;
-&lt;hr&gt;
-&lt;section class="footnotes"&gt;
-&lt;ol&gt;
-&lt;li id="fn-1"&gt;&lt;p&gt;For what it's worth, I don't believe it is a personal attack, just that it could be perceived as one.&lt;a href="#fnref-1" class="footnote"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-</content>
-    <link href="https://oracleofsages.bearblog.dev/when-does-censorship-become-necessary/" rel="alternate"/>
-    <published>2026-07-29T13:10:00+00:00</published>
   </entry>
 </feed>

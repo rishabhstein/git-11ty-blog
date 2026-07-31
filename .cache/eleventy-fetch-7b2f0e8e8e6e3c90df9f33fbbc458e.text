@@ -6,13 +6,94 @@
     <link>https://zacharykai.net/</link>
     <description>Notes from the People and Blogs series on zacharykai.net.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jul 2026 00:09:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 23:31:25 +0000</lastBuildDate>
     <atom:link href="https://zacharykai.net/assets/files/feeds/pb.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://zacharykai.net/assets/icon.png</url>
       <title>People and Blogs — Zachary Kai</title>
       <link>https://zacharykai.net/</link>
     </image>
+    <item>
+      <title>People and Blogs: Eetu</title>
+      <link>https://zacharykai.net/notes/pb/eetu</link>
+      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Eetu. Do go visit his blog and say hell...</description>
+      <content:encoded><![CDATA[<!--?xml encoding="UTF-8"--><section class="e-content">
+
+                <!-- Introduction -->
+                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Eetu. Do go visit <a href="https://moonwriting.blog/" rel="noopener">his blog</a> and say hello!</em></p>
+
+                <!-- Interview -->
+                <section>
+                    <h2>Interview</h2>
+
+                    <section>
+                        <h3>Let's start from the basics: can you introduce yourself?</h3>
+                        <p>Hello! My name is Eetu. I have a blog called <a href="https://moonwriting.blog/" rel="noopener">moonwriting</a>, where I write personal essays about technology, privacy, and blogging. My background is in the humanities, so I aim to provide a perspective that goes beyond technical discussions. For me, writing is a way to explore my thoughts and get them out into the world, hoping that they resonate with someone.</p>
+                    </section>
+
+                    <section>
+                        <h3>What's the story behind your blog?</h3>
+                        <p>Unlike most decisions in my life, starting my blog was quite spontaneous. After reading a blog post a person had shared on a forum, I began wondering if I should have my own space for writing.</p>
+                        <p>At the time, it felt like the university assignments were the only writing I had done for years, and the thought of exploring topics outside that realm excited me. As a person passionate about privacy and technology, it felt natural to make this the blog's focus. These days, I also write pieces discussing my relationship with blogging, as I enjoy shedding light on my creative process and the struggles that come with writing a blog.</p>
+                        <p>I was only familiar with the more corporate blogging sites, so you can imagine my excitement when I discovered the world beyond them. I chose Mataroa, but switched to Pagecord this year.</p>
+                        <p>moonwriting became my blog's name as it sounded cool and reminded me of all the sleepless nights during my university years when I was writing essays. I see it as a nod to this time in my life that I hold dear.</p>
+                    </section>
+
+                    <section>
+                        <h3>What does your creative process look like when it comes to blogging?</h3>
+                        <p>I maintain a list of topics I may want to write about, while keeping my eyes open for anything interesting. I often get ideas for future articles or sentence structures when I'm not writing; these moments can be the spark I need to begin another writing session.</p>
+                        <p>At the beginning of the writing process, I conduct research and write my thoughts down. Investigating the topic helps me to understand it better, and it ensures I can back up any claims I make. At this stage, I don't worry about the formatting or if something looks rough. I have a separate editing process for this purpose.</p>
+                        <p>Bit by bit, I structure the writing until it's ready for review: I read the finished piece several times out-loud to catch errors and writing that doesn't flow well. This last part is rigorous because I demand a lot from my writing, and I don't stop editing until I'm satisfied. Rewriting or removing paragraphs isn't rare, but it's also gratifying to bring a sentence into its final form. I avoid publishing on a day when I have done a lot of editing. With fresh eyes, I always spot a few things to improve.</p>
+                    </section>
+
+                    <section>
+                        <h3>Do you have an ideal creative environment? Do you believe the physical space influences your creativity?</h3>
+                        <p>This varies. I prefer to write in silence, with the only sound coming out of my MacBook's keyboard. An app called <a href="https://tryklack.com/" rel="noopener">Klack</a> enhances this experience by creating satisfying keyboard sounds. Other times I put music on. The environment itself doesn't matter much, but I do need a space that allows me to focus.</p>
+                    </section>
+
+                    <section>
+                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
+                        <p>I have a MacBook I use for writing, but my iPhone or iPad can come in handy if I need to write when not having access to my MacBook. All writing happens with iA Writer, which is a Markdown writing tool I <a href="https://moonwriting.blog/ia-writer-review-focus-on-writing" rel="noopener">discovered recently</a>. The experience is so great that I often feel I can't get my hands off the keyboard! For the final style and grammar check, I'm using ProWritingAid's free version with the AI features disabled. Pagecord is my blogging platform. It has the perfect balance of simplicity, customizability, and pricing that is cheaper than its competitors.</p>
+                    </section>
+
+                    <section>
+                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
+                        <p>Looking back, things have progressed at their own pace. While I changed my blogging platform, choosing Mataroa at the beginning wasn't misguided. It let me focus on writing, so I didn't have to worry too much about analytics or customization.</p>
+                        <p>For the longest time, I avoided discussing topics that could annoy certain people. But I realized that since it is my blog, I should make it sound like me. I shouldn't think too much about my audience and what they may think. The readership will develop, but that seems like a good thing.</p>
+                        <p>I have recently started reaching out to fellow bloggers whose writing I have enjoyed. This is a practice I could have started sooner, and I encourage everyone to do the same. I love getting messages from readers, and it feels nice to spread positivity with other writers.</p>
+                    </section>
+
+                    <section>
+                        <h3>Financial question since the web is obsessed with money: how much does it cost to run your blog? Is it just a cost or does it generate revenue? And what's your position on people monetizing personal blogs?</h3>
+                        <p>I have a Pagecord premium subscription that costs $29 per year. While the platform's pricing has increased, I was able to lock in the cheaper price. I'm also paying around $20 to Cloudflare for the domain, but wish to move to a European provider in the future. The problem is that the blog TLD is expensive elsewhere.</p>
+                        <p>My blog doesn't generate revenue. Adding a tipping function through Ko-fi or a similar platform is something I have considered, but I don't expect to gain much from that. As cool as it would be to earn a living by writing a blog, I doubt there are enough readers willing to pay.</p>
+                        <p>In the end, I write my blog because of the joy it gives me. That's enough for me. I don't think we should monetize everything we do in life, and I see value in giving my writing free to anyone who wants to read it. It's a pleasant idea to imagine a person reading my blog instead of encountering a paywall.</p>
+                        <p>I don't have issues with people monetizing their blogs — as long as they are sensible about it.</p>
+                    </section>
+
+                    <section>
+                        <h3>Time for some recommendations: any blog you think is worth checking out?</h3>
+                        <p>There are so many I could mention, but here are two bloggers who haven't yet been interviewed for this series.</p>
+                        <p>Teun is a doctoral researcher in philosophy who writes a blog called <a href="https://teunvanson.eu/" rel="noopener">Care-full musings</a>. I like how he combines his extensive knowledge and research to form strong opinions.</p>
+                        <p><a href="https://theprivacydad.com/" rel="noopener">The Privacy Dad</a> is another name I want to mention, as his work has been an inspiration for my blog. I admire his consistency and the unique perspective he brings to the privacy and blogging communities.</p>
+                    </section>
+
+                    <section>
+                        <h3>Final question: is there anything you want to share with us?</h3>
+                        <p>This year, I have become more familiar with the IndieWeb, and I love discovering writing that inspires. People's blogs and their designs portray the diversity of the blogging space: the mix of personalities and writing that makes IndieWeb such a lovely place. It's refreshing to get to experience this side of the web that for so long was hidden from me.</p>
+                        <p>To celebrate the IndieWeb, I <a href="https://moonwriting.blog/indieweb" rel="noopener">created a page on my blog</a> to collect blog posts I have enjoyed reading. I'm planning to update it throughout the year, so that it always has something interesting to offer.</p>
+                        <p>A few months ago, I began writing <a href="https://rehellisestisanoen.eu/" rel="noopener">another blog</a> in Finnish, where I write political essays. I invite you to explore it if the theme interests you.</p>
+                    </section>
+                </section>
+
+                <!-- Closing -->
+                <p>•--♡--•</p>
+
+            </section>
+]]></content:encoded>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/pb/eetu</guid>
+    </item>
     <item>
       <title>People and Blogs: Andy</title>
       <link>https://zacharykai.net/notes/pb/workshopshed</link>
@@ -2116,75 +2197,6 @@
 ]]></content:encoded>
       <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://zacharykai.net/notes/pb/cain</guid>
-    </item>
-    <item>
-      <title>People and Blogs: Frances</title>
-      <link>https://zacharykai.net/notes/pb/frances</link>
-      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Frances. Do go visit their blog and say...</description>
-      <content:encoded><![CDATA[<!--?xml encoding="UTF-8"--><section class="e-content">
-
-                <!-- Introduction -->
-                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Frances. Do go visit <a href="https://francescrossley.com" rel="noopener">their blog</a> and say hello!</em></p>
-
-                <!-- Interview -->
-                <section>
-                    <h2>Interview</h2>
-
-                    <section>
-                        <h3>Let's start from the basics: can you introduce yourself?</h3>
-                        <p>Hello! I’m Frances, I live in the East Midlands in the UK with my wife, back in my hometown to be near my family. I like stories, spending lots of time outside, history, and being an aunt. Right now I’m into zines, playing more ttrpgs, reading lots of biographies, and am going to take some letterpress printing classes. This year I am looking forward to camping, more reading projects, outdoor swimming, and feeding all the neighbourhood slugs with my garden veg. Just generally I’m interested in creativity, learning, fun projects, and trying new things, then blogging about it. I work in the voluntary sector and adult education, and am training to be a mental health counsellor.</p>
-                    </section>
-
-                    <section>
-                        <h3>What's the story behind your blog?</h3>
-                        <p>In February 2025 I got into an enthusiasm about the indie web. I’ve been messing around on the internet since 2000 when I started making geocities sites. There have been many different blogs and sites since then but nothing for the past few years. I really wanted to get among it and I went from looking at some Neocities sites to having my blog up and running within hours.</p>
-                        <p>Since then I've had fun adding more stuff to my site, and tweaking things, but no major changes. It took a while to settle into a rhythm - which is upbeat, chatty, 250-ish words, three to five times a week. Now I'm really happy with how it's going and it feels like I’ve only just gotten started. I love emailing with people, taking part in blog carnivals, and so on.</p>
-                    </section>
-
-                    <section>
-                        <h3>What does your creative process look like when it comes to blogging?</h3>
-                        <p>Mostly ideas come from or are about books I'm reading, little projects I'm doing, tv and films, other people's posts, conversations with my niblings, rabbit holes I'm going down, and stuff I enjoy. Writing helps me think, possibly writing is <em>how</em> I think. I try to stay positive and to write posts that are hopefully fun for other people to read.</p>
-                        <p>It’s very off-the-cuff when ideas come up and I put them in a draft, even just a sentence of an idea. There's always a few posts on the go at any one time and they usually get posted within a week. I like a choice of things to be working on - which is true of most stuff, not just blog posts. Some posts like my link roundups or lists of things I've been enjoying are added to over time, then posted when they get to a good length. I've been experimenting with ‘theme’ weeks or series, which has been great fun so far.</p>
-                    </section>
-
-                    <section>
-                        <h3>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h3>
-                        <p>I do think the physical space influences creativity. To keep my battery charged I need to be exposed to new ideas: reading, going to a museum, looking at art, doing things. I’ve spent years training myself out of the idea I have to be in the ideal creative environment or state in order to write. I'll write queueing at the shops or on the bus, perfectly happily. It’s more about being able to write whenever I have time or ideas. Ideally, I’d be in a field. I am almost always listening to music though.</p>
-                    </section>
-
-                    <section>
-                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
-                        <p>There is deliberately very little in the way of a tech stack. I use Bear Blog, which I love very much. My domains are with Namecheap. That’s it. I didn’t want anything to complicate getting started when I was in that enthusiasm. I’m mostly on my phone or tablet so it was essential I could write, post, and fiddle, really do everything, without needing my laptop. I don’t even draft elsewhere - I write directly into the Bear Blog editor because I believe in living dangerously. No backups, we die like men.</p>
-                    </section>
-
-                    <section>
-                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
-                        <p>Honestly, no. I made decisions - the platform, to use my name - and I could have made them differently but I stand by them. Those are just details - writing, thinking, sharing, contributing, and connecting with people are the real focus.</p>
-                    </section>
-
-                    <section>
-                        <h3>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h3>
-                        <p>I’ve got an annual paid plan for Bear Blog which is about £40 a year plus my domain name is about £12 a year. It does not generate revenue and I don’t want or need it to. People can do whatever they like with their personal blogs and I will contribute to a tip jar, buy people’s books or zines, and so on, whenever I can.</p>
-                    </section>
-
-                    <section>
-                        <h3>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h3>
-                        <p>This is the toughest question! So many great blogs. Just a few, and I’d love to see any of them interviewed: <a href="https://mrmr.bearblog.dev/" rel="noopener">mɛ̈rmɛ̈r</a>, Sylvia at <a href="https://departure.blog/" rel="noopener">A parenthetical departure</a>, Ruth at <a href="https://anarchaeopteryx.bearblog.dev/" rel="noopener">An Archaeopteryx</a>, <a href="https://www.mmmx.cloud/" rel="noopener">Ním's memex</a>, Paul Graham Raven at <a href="https://www.velcro-city.co.uk/" rel="noopener">Velcro City Tourist Board</a>, Gabrielle de la Puente and Zarina Muhammad at <a href="https://thewhitepube.co.uk/" rel="noopener">The White Pube</a>, and Paul Watson at <a href="https://www.lazaruscorporation.co.uk/" rel="noopener">The Lazarus Corporation</a>.</p>
-                    </section>
-
-                    <section>
-                        <h3>Final question: is there anything you want to share with us?</h3>
-                        <p>I’m just a big fan of everyone out here rewilding the web with fun blogs, sites, and projects. Including everything you do, Manu, with your blog, People and Blogs, and Dealgorithmed. Thank you for them, and for having me here. Another cool project: Elmcat made <a href="https://elmc.at/mapping-the-blogosphere/" rel="noopener">an interactive map of the TTRPG blogosphere</a>. Not only is this an amazing technically but it's so inspiring to see the community and all the connections.</p>
-                    </section>
-                </section>
-
-                <!-- Closing -->
-                <p>•--♡--•</p>
-
-            </section>
-]]></content:encoded>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://zacharykai.net/notes/pb/frances</guid>
     </item>
   </channel>
 </rss>

@@ -12,7 +12,7 @@
 	<atom:link href="https://fyfluiddynamics.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://fyfluiddynamics.com</link>
 	<description>Celebrating the physics of all that flows</description>
-	<lastBuildDate>Mon, 13 Jul 2026 20:11:10 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 13 Jul 2026 20:15:45 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,43 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">169405895</site>	<item>
+		<title>Ice Giant or Magma Ocean World?</title>
+		<link>https://fyfluiddynamics.com/2026/07/ice-giant-or-magma-ocean-world/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/ice-giant-or-magma-ocean-world/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Thu, 30 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[geophysics]]></category>
+		<category><![CDATA[magma]]></category>
+		<category><![CDATA[miscibility]]></category>
+		<category><![CDATA[numerical simulation]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[planetary science]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[supercritical fluids]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31585</guid>
+
+					<description><![CDATA[Uranus and Neptune&#8211;known as our system&#8217;s ice giants&#8211;are our least explored planets. Both have received exactly one flyby, from the Voyager 2 spacecraft. The data from those flybys remain our primary source of knowledge about each planet. The traditional model for each planet&#8217;s interior (dating back to before the flybys) consists of three layers: a [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph"><a href="/tagged/uranus/">Uranus</a> and <a href="/tagged/neptune/">Neptune</a>&#8211;known as our system&#8217;s ice giants&#8211;are our least explored planets. Both have received exactly one flyby, from the Voyager 2 spacecraft. The data from those flybys remain our primary source of knowledge about each planet. The traditional model for each planet&#8217;s interior (dating back to before the flybys) consists of three layers: a rocky core; an icy mantle made up of water, ammonia, and methane; and a hydrogen/helium-rich atmosphere. That structure is one way to match the limited measurements we have from these planets, but, as today&#8217;s <a href="https://arxiv.org/abs/2606.18219">preprint study</a> points out, it&#8217;s not the only way. </p>
+
+
+
+<p class="wp-block-paragraph">The authors suggest an alternative structure, in which a hydrogen-rich atmosphere overlays a <a href="/tagged/supercritical-fluids/">supercritical</a> magma ocean capable of dissolving hydrogen into heavier, metallic elements. Their suggestion is motivated by several factors. First, objects in the outer solar system&#8211;including Kuiper Belt objects&#8211;have less icy material than originally assumed, which suggests that Uranus and Neptune&#8217;s progenitors wouldn&#8217;t have been so ice-rich, either. Second, our understanding of how &#8220;rocky&#8221; materials respond at the temperatures and pressures found in these planet interiors has evolved. In particular, silicate, hydrogen, and iron are actually <a href="/tagged/miscibility/">miscible</a> at these conditions. That means that discrete sub-layers separated by material type are <em>not</em> as likely.</p>
+
+
+
+<p class="wp-block-paragraph">Using the magma ocean model, the team found compositions for both Uranus and Neptune that conformed well to our limited data about their gravitational and magnetic field properties. Time&#8211;and more data&#8211;will tell as to which interior model best describes these enigmatic giants. (Image credit: <a href="https://unsplash.com/photos/uranus-planet-Li41RApUAQA">NASA</a>; research credit: <a href="https://arxiv.org/abs/2606.18219">E. Young et al.</a> (preprint); via <a href="https://gizmodo.com/scientists-think-uranus-and-neptune-may-not-be-the-ice-giants-we-imagined-2000778382?__readwiseLocation=">Gizmodo</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/ice-giant-or-magma-ocean-world/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31585</post-id>	</item>
+		<item>
 		<title>Giant Water Balloon to the Face</title>
 		<link>https://fyfluiddynamics.com/2026/07/giant-water-balloon-to-the-face/</link>
 					<comments>https://fyfluiddynamics.com/2026/07/giant-water-balloon-to-the-face/#respond</comments>
@@ -345,48 +382,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">31447</post-id>	</item>
-		<item>
-		<title>A Fluidic Space Telescope</title>
-		<link>https://fyfluiddynamics.com/2026/07/a-fluidic-space-telescope/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/a-fluidic-space-telescope/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Thu, 16 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[astronomy]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[numerical simulation]]></category>
-		<category><![CDATA[optics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[surface tension]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31563</guid>
-
-					<description><![CDATA[A telescope&#8217;s resolution is set by the size of its reflective surface. Our largest space telescope, JWST, has a 6.5-meter reflector, the largest we could manage given manufacturing constraints and the need to launch it in a rocket. To reach even larger sizes, researchers are considering a new type of reflector: one made of liquid. [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">A telescope&#8217;s <a href="https://en.wikipedia.org/wiki/Angular_resolution">resolution</a> is set by the size of its reflective surface. Our largest space telescope, <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">JWST</a>, has a 6.5-meter reflector, the largest we could manage given manufacturing constraints and the need to launch it in a rocket. To reach even larger sizes, researchers are considering a new type of reflector: <a href="https://www.nasa.gov/science-research/astrophysics/what-is-the-fluidic-telescope/">one made of liquid</a>.</p>
-
-
-
-<p class="wp-block-paragraph">A fluidic telescope has some obvious advantages: surface tension makes it atomically smooth, and liquids can be packed into any convenient shape for launch. But there are challenges, also. Like, what happens to the reflector when you point it in an new direction?</p>
-
-
-
-<p class="wp-block-paragraph">That&#8217;s what <a href="https://doi.org/10.1103/dpk3-4256">this study</a> looks at, mathematically. Using a mathematical model of a 50-meter-wide, millimeter-thick fluid, the researchers analyzed how different maneuvers over the telescope&#8217;s lifetime would affect the image quality. </p>
-
-
-
-<p class="wp-block-paragraph">Shifting the reflector creates perturbations in the surface, initially at the mirror&#8217;s edges. Over time, those perturbations move toward the center of the mirror and, at the same time, decay. The team found that, while typical space telescope operations distorted parts of the mirror beyond the limits of good optical quality, the inner 80% of the mirror could remain undisturbed for twenty or more years. That would be like having a 40-meter telescope in orbit with more than 6x the resolution of JWST. (Image credit: <a href="https://www.nasa.gov/science-research/astrophysics/what-is-the-fluidic-telescope/">NASA</a>; research credit: <a href="https://doi.org/10.1103/dpk3-4256">I. Gabay et al.</a>)</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="569" src="https://fyfluiddynamics.com/wp-content/uploads/flute_main-1024x569.png" alt="An artist's conception of a fluidic space telescope, made with a liquid reflecting surface tens of meters wide." class="wp-image-31565" srcset="https://fyfluiddynamics.com/wp-content/uploads/flute_main-1024x569.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/flute_main-300x167.png 300w, https://fyfluiddynamics.com/wp-content/uploads/flute_main-768x427.png 768w, https://fyfluiddynamics.com/wp-content/uploads/flute_main-1536x853.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/flute_main.png 2000w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/a-fluidic-space-telescope/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31563</post-id>	</item>
 	</channel>
 </rss>

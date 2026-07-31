@@ -5,13 +5,96 @@
   <link rel="self" type="application/atom+xml" href="https://appaddict.app/feed.atom"/>
   <title>AppAddict</title>
   <subtitle>I emphasize honest, practical reviews from my perspective as a power user and productivity enthusiast — not a marketer I have a particular fondness for the indie Mac scene, privacy-respecting software, open-source tools, and workflow automation. I also cover self-hosting, the de-Googling/de-Apple-ification of digital life, and the art of building efficient Mac workflows with the right combination of small, focused apps. Posts range from single-app deep dives to multi-app roundups, workflow walkthroughs, and developer spotlights. If you're a developer and have an app you'd like me to check out, let me know.</subtitle>
-  <updated>2026-07-30T11:28:31Z</updated>
+  <updated>2026-07-31T13:11:43Z</updated>
   <logo>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWl3QmFRSXNBVG9LYzJGMlpYSjdCem9LYzNSeWFYQlVPZ3h4ZFdGc2FYUjVhV1E9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--d5470907b5b5a357fec32990d4bdb78c827f9472/1024px-App_Store_(iOS).svg.png</logo>
   <icon>https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1FOQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6c23d9e9f32f6faae8b27da0f1ca188a320b1f8a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwUldsRk9ncHpZWFpsY25zSE9ncHpkSEpwY0ZRNkRIRjFZV3hwZEhscFpBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--d0a377349dc1eed29878fcae6bec2204e230fc00/1024px-App_Store_(iOS).svg.png</icon>
   <author>
     <name>AppAddict</name>
     <uri>https://appaddict.app</uri>
   </author>
+  <entry>
+    <id>tag:appaddict.app,2005:Post/19826</id>
+    <published>2026-07-31T13:11:43Z</published>
+    <updated>2026-07-31T13:11:45Z</updated>
+    <link rel="alternate" type="text/html" href="https://appaddict.app/post/using-orbit-to-manage-the-google-accounts-i-didn-t-want"/>
+    <title>Using Orbit to manage the Google accounts I didn't want</title>
+    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
+    &lt;img class="lightbox__image strip-metadata lightbox__image" srcset="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHZ2QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35fbc9cd9c3b399790d01d667298c86d4ef3cf23/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMZ0FXa0M0QUU2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--566037cccbef5dec0f18059f150ac6f098af6027/orbit.jpg 480w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHZ2QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35fbc9cd9c3b399790d01d667298c86d4ef3cf23/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/orbit.jpg 800w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHZ2QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35fbc9cd9c3b399790d01d667298c86d4ef3cf23/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFLd0JHa0NzQVE2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--3f253adfae0121b8566ea623b9b74a078737c5d9/orbit.jpg 1200w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHZ2QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35fbc9cd9c3b399790d01d667298c86d4ef3cf23/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFKQUJta0NRQVk2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--9632f1ea6e4e0a3e5199810d4639e5789e3b076c/orbit.jpg 1600w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHZ2QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35fbc9cd9c3b399790d01d667298c86d4ef3cf23/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMY0Iya0MzQWM2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--dcd5be72cbe69946efed78415d52a1300630ee2e/orbit.jpg 2012w" sizes="(max-width: 672px) 100vw, 672px" loading="lazy" data-lightbox-url="https://scribbles.page/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHZ2QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35fbc9cd9c3b399790d01d667298c86d4ef3cf23/orbit.jpg" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNHZ2QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--35fbc9cd9c3b399790d01d667298c86d4ef3cf23/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/orbit.jpg" alt="The interface for Orbit, a native Mac Gmail app." decoding="async"&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Orbit runs each of your Google accounts in its own isolated WebKit session inside one native Mac window, for $89 one time instead of the $50 to $200 a year the alternatives want. It exists because you can de-Google yourself but you can't de-Google your father. The catch is that it only works as long as Google keeps letting Mac apps sign in, and passkey-only and Advanced Protection accounts already can't.&lt;/p&gt;
+
+&lt;h1&gt;The Google Accounts I Didn't Ask For&lt;/h1&gt;
+
+&lt;p&gt;My opinion of big tech companies has hardened over the years. Their business models turned into anti-privacy juggernauts, so I started pulling away from them. In January 2025, after using Gmail for twenty years, I downloaded my entire archive, deleted every message off their servers and moved to Fastmail. Drive went to Koofr. Search went to Kagi. Gemini got replaced by ChatGPT. I left the empty account open since it linked me to a lot of legacy logins and contacts.&lt;/p&gt;
+
+&lt;p&gt;Then, nine months later, I became responsible for managing the affairs of my elderly father, something that commonly happens to people in my age group. Dad's life ran through multiple Gmail accounts, personal and professional: his doctors, his investments and the guy who cuts his grass all reached him through Google, the company I had worked so hard to get away from. I couldn't ask an 80-year-old man to move house on the internet. I had to log back in.&lt;/p&gt;
+
+&lt;p&gt;That's the part nobody warns you about. You can de-Google yourself in a weekend if you're stubborn. You can't de-Google somebody else, and the account that drags you back in was never yours to begin with.&lt;/p&gt;
+
+&lt;p&gt;Browsers do this badly on purpose. Google's account switcher runs every account you sign into through a single browser session, so a security re-check on one can sign you out of all of them at once, and the account you're currently "in" is a state you have to remember rather than see. Everybody who lives this way eventually has the moment where they send, or nearly send, a message from the wrong account. Sometimes that's an embarrassment. Sometimes it's worse.&lt;/p&gt;
+
+&lt;p&gt;The fix is an app, and the one I recommend is &lt;a href="https://orbitformac.com/"&gt;Orbit&lt;/a&gt; from Andrew Kwak at Dearnode. It's a one-time purchase of $89. That's a steep number to look at once, and cheaper than every competitor that charges $50 a year and up.&lt;/p&gt;
+
+&lt;p&gt;Each account gets its own sealed WebKit session, with its own cookies and its own sign-in, so signing into one never signs you out of another. ⌘1 through ⌘9 switch between them, all preloaded, with unread badges per account. Inside each one is the real Gmail, not a rebuild through the API, so your labels, filters and keyboard shortcuts are the ones you already have. Calendar, Drive and Meet open in the right account too. I have three accounts in mine.&lt;/p&gt;
+
+&lt;h2&gt;Why I picked Orbit&lt;/h2&gt;
+
+&lt;p&gt;Orbit is designed around privacy. It doesn't route your mail through a server it owns. There is no Orbit account to maintain. Analytics are turned off by default. It doesn't phone home, and if Dearnode vanished tomorrow, Orbit would keep working until Google changes something on their end.&lt;/p&gt;
+
+&lt;p&gt;Because Dearnode has no servers to maintain, the one-time price is sustainable. &lt;a href="https://www.kiwiforgmail.com/"&gt;Kiwi&lt;/a&gt;, the app I used for years with Gmail, committed what I consider an unpardonable sin earlier this year when it stopped honoring lifetime licenses it had already sold and moved every customer to $60 a year. It's not the only casualty in this category: &lt;a href="https://efficient.app/apps/sidekick"&gt;Sidekick&lt;/a&gt; was absorbed by Perplexity and shut down in 2025, and &lt;a href="https://tidbits.com/2021/06/08/mailplane-stops-selling-licenses/"&gt;Mailplane&lt;/a&gt; stopped selling licenses in 2021.&lt;/p&gt;
+
+&lt;p&gt;Orbit is written in Swift and runs on WebKit. It weighs 9.9 MB on my system, a far cry from the Electron build behind Shift.&lt;/p&gt;
+
+&lt;h2&gt;Why it might not work for you&lt;/h2&gt;
+
+&lt;p&gt;To his credit, Orbit's developer publishes the warnings himself rather than waiting for a reviewer to find them:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li value="1"&gt;Sign-in is per-Mac. Three machines means three sign-ins, and there's no cross-device sync.&lt;/li&gt;
+&lt;li value="2"&gt;Accounts using passkey-only sign-in or Google's Advanced Protection Program can't sign in at all, due to a WebKit limitation.&lt;/li&gt;
+&lt;li value="3"&gt;It's Apple silicon and macOS 14 or later. No Intel.&lt;/li&gt;
+&lt;li value="4"&gt;It's not on the Mac App Store, because the sandbox would break the per-account isolation the whole app exists for.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And one risk that isn't Kwak's fault and isn't in his power to fix. Orbit works because Google lets a Mac app sign in and render Gmail. Google can withdraw that. It has before: Mailplane stopped selling licenses in 2021 when Google started blocking embedded browsers at the sign-in page, and Mailplane was the same idea as Orbit, Gmail's web interface in a Mac shell. The accounts Orbit can't sign in today, the passkey-only and Advanced Protection ones, are that same door already partly closed.&lt;/p&gt;
+
+&lt;p&gt;Kwak has built the parts he controls to fail quietly. If Google reshuffles Gmail's page, an unread badge goes stale instead of your mail breaking, because the mail was never his code. That's the right way to build this. It just doesn't help with the failure that matters, which is Google deciding one morning that apps like this don't get in anymore.&lt;/p&gt;
+
+&lt;h2&gt;The Others&lt;/h2&gt;
+
+&lt;p&gt;Every alternative here costs you something. Some want a subscription, some run on a browser engine you didn't ask for, and the free ones make you give up the switching and the badges.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li value="1"&gt;
+&lt;a href="https://mimestream.com/pricing/"&gt;Mimestream&lt;/a&gt; is well liked, and it's also $50 a year.&lt;/li&gt;
+&lt;li value="2"&gt;
+&lt;a href="https://shift.com/pricing/"&gt;Shift&lt;/a&gt; is $200 a year and it's Electron. There's a free tier some people will find suitable.&lt;/li&gt;
+&lt;li value="3"&gt;
+&lt;a href="https://www.kiwiforgmail.com/"&gt;Kiwi for Gmail&lt;/a&gt; was my daily driver for years and it worked. Their decision to stop honoring lifetime licenses blunts any regard I once had for them.&lt;/li&gt;
+&lt;li value="4"&gt;
+&lt;a href="https://ferdium.org/"&gt;Ferdium&lt;/a&gt; is free and open source. Community-built, Electron, and it will hold multiple instances of the same service. I've run it myself. Free is free.&lt;/li&gt;
+&lt;li value="5"&gt;
+&lt;a href="https://support.apple.com/guide/safari/create-profiles-ibrwf3a9e7d6/mac"&gt;Safari profiles&lt;/a&gt; are already on your Mac, and I've used them for this. Separate cookies and separate sign-ins per profile, no purchase, no keyboard switching, no unread badges. If you have two accounts, try this before you spend anything.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I haven't personally tested Mimestream or Shift and this information comes from their websites.&lt;/p&gt;
+
+&lt;h2&gt;Who should buy this&lt;/h2&gt;
+
+&lt;p&gt;Writing about a Google adjacent app doesn't mean I've reconsidered anything. Fastmail, Koofr and Kagi are still where I manage my own life. But I couldn't de-Google on my father's behalf. Pretending otherwise would have cost him his pharmacy, his insurance and his bank. His accounts aren't a preference, they're an obligation, and the software worth paying for is the software that makes an obligation easiest to manage.&lt;/p&gt;
+
+&lt;p&gt;If you're carrying three or more Google accounts you didn't choose, you switch between them all day, and you've had the wrong-sender scare, $89 once is a fair price for never having that thought again. There's a 14-day trial that doesn't ask for a card and a 30-day refund window, so trying it costs you an afternoon.&lt;/p&gt;
+
+&lt;p&gt;If you have two accounts, Safari profiles are free. If you want a real native mail client and a merged inbox, Mimestream is the app and the subscription is the tax. And if you run Advanced Protection, Orbit can't sign you in at all, which puts it out of reach for exactly the people its architecture was built to appeal to.&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Using%20Orbit%20to%20manage%20the%20Google%20accounts%20I%20didn" t want style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
+    <summary>TL;DR: Orbit runs each of your Google accounts in its own isolated WebKit session inside one native Mac window, for $89 one time instead of the $50 to $200 a year the alternatives want. It exists because you can de-Google yourself but you can't de-Google your father. The catch is...</summary>
+    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
+    <author>
+      <name>Lou Plummer</name>
+      <uri>https://appaddict.app</uri>
+    </author>
+  </entry>
   <entry>
     <id>tag:appaddict.app,2005:Post/19812</id>
     <published>2026-07-30T11:28:31Z</published>
@@ -1021,79 +1104,6 @@ I've been listening to audiobooks since they were called books on tape. I progre
 &lt;p&gt;If you'd rather pay for a mature tool with a support address and years of releases behind it, or handing admin rights to a young, pseudonymous project makes you itch, stick with the battle-tested standalones for now and check back in six months. Promising and early -- both are true at once.&lt;/p&gt;
 &lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Mac%20Tools%20Consolidates%20Your%20Utility%20Bloat%20%E2%80%94%20With%20One%20Catch" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
     <summary>Apple, in its infinite wisdom, buries a great many popular system controls three layers deep in Settings, or worse, leaves them accessible only via the command line. Luckily, we have a community of indie developers who are pretty good at surfacing that stuff, building an app around it, and selling...</summary>
-    <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
-    <author>
-      <name>Lou Plummer</name>
-      <uri>https://appaddict.app</uri>
-    </author>
-  </entry>
-  <entry>
-    <id>tag:appaddict.app,2005:Post/18567</id>
-    <published>2026-07-11T13:14:09Z</published>
-    <updated>2026-07-11T17:59:16Z</updated>
-    <link rel="alternate" type="text/html" href="https://appaddict.app/post/viraam-made-me-admit-i-was-wrong-about-break-reminders"/>
-    <title>Viraam Made Me Admit I Was Wrong About Break Reminders</title>
-    <content type="html">&lt;figure class="attachment attachment--preview flex-col justify-center attachment--jpg"&gt;
-    &lt;img class="lightbox__image strip-metadata lightbox__image" srcset="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMC9FQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bec8e7eecce636e597bfba24d270e74c122bca0f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMZ0FXa0M0QUU2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--566037cccbef5dec0f18059f150ac6f098af6027/CleanShot%202026-07-11%20at%2009.16.02.jpg 480w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMC9FQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bec8e7eecce636e597bfba24d270e74c122bca0f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-07-11%20at%2009.16.02.jpg 800w, https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMC9FQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bec8e7eecce636e597bfba24d270e74c122bca0f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFKb0JHa0NhQVE2Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--9f4a840d36d2a4f0284e1b1ec9fe45e4bdf4fd0f/CleanShot%202026-07-11%20at%2009.16.02.jpg 1128w" sizes="(max-width: 672px) 100vw, 672px" loading="lazy" data-lightbox-url="https://scribbles.page/rails/active_storage/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMC9FQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bec8e7eecce636e597bfba24d270e74c122bca0f/CleanShot%202026-07-11%20at%2009.16.02.jpg" src="https://scribbles.page/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMC9FQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bec8e7eecce636e597bfba24d270e74c122bca0f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJZ0Eya0NJQU02Q25OaGRtVnlld2M2REhGMVlXeHBkSGxwV1RvS2MzUnlhWEJVIiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--8cebb1c2983a7e4106444e274de6ebedc86813b1/CleanShot%202026-07-11%20at%2009.16.02.jpg" decoding="async"&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I've resisted the whole category of apps that nag you about breaks, posture, hydration, and eyestrain. Being told what to do by my computer felt like an insult to my judgment.&lt;/p&gt;
-
-&lt;p&gt;The reality: my judgment about when to take a break is bad. I lose track of time at the keyboard, I resist interruptions on principle, and by the end of most days I'm running well under 100%. None of that is a software problem until you decide it's worth fixing with software.&lt;/p&gt;
-
-&lt;p&gt;I evaluated a handful of the popular Mac App Store options for this. I landed on &lt;a href="https://apps.apple.com/us/app/viraam-smart-wellness-breaks/id6756242904?mt=12"&gt;Viraam&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;The features that actually matter&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Context detection.&lt;/strong&gt; Viraam auto-pauses during meetings, calls, screen sharing, fullscreen video (Netflix, YouTube, VLC), and when you've stepped away from the Mac. This is the feature that makes the rest of the app tolerable — a break reminder that fires mid-screen-share is a break reminder you'll disable within a week.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Six routines, not one timer.&lt;/strong&gt; Eye rest (20-20-20), stand and stretch, hydration, general breaks, walking, meditation. Most competitors in this category do the eye-strain timer and stop there.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Guided audio eye exercises.&lt;/strong&gt; Palming and blinking sessions with calming sound. This is the one feature I hadn't considered before trying the app, and it's the one none of the comparable apps below offer.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Quiet Mode, Pomodoro, and automation.&lt;/strong&gt; A toggle for cafés and shared offices, a configurable Pomodoro timer (5–120 min), Shortcuts and Siri support, and Focus Filter awareness so behavior changes per Focus mode.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Local-only data.&lt;/strong&gt; No account, no analytics, no telemetry. The App Store privacy label says "Data Not Collected," which for once matches the actual product.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sleep wind down reminder&lt;/strong&gt; - Rather than simply marking the end of the workday, you configure how much screen-free time you want before sleep, and it reminds you to wrap up with that runway in mind.&lt;/p&gt;
-
-&lt;h3&gt;Who this is for&lt;/h3&gt;
-
-&lt;p&gt;Anyone who spends long uninterrupted hours at a screen and has already proven, to themselves, that willpower alone doesn't produce breaks. Developers, writers, designers — the people whose flow state is exactly the thing that erases the sense of time passing.&lt;/p&gt;
-
-&lt;h3&gt;Who this isn't for&lt;/h3&gt;
-
-&lt;p&gt;If you just want a plain 20-20-20 timer with no wellness scope creep, Viraam is more app than you need. Stretchly or BreakTimer will do the one job without asking you to also think about hydration and meditation.&lt;/p&gt;
-
-&lt;h3&gt;The competition&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Time Out&lt;/strong&gt; (&lt;a href="https://apps.apple.com/us/app/time-out-break-reminders/id402592703"&gt;App Store&lt;/a&gt;) — free, with one-time supporter tips ($3.99–$14.99, no subscription). Mature and deeply configurable via AppleScript/Automator, but it has no automatic meeting or video detection and no guided exercises. This is a scriptable utility, not an adaptive system.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Stretchly&lt;/strong&gt; (&lt;a href="https://github.com/hovancik/stretchly"&gt;GitHub&lt;/a&gt;) — free and open source, cross-platform. The honest choice if you want zero cost and don't care about native polish. It's Electron, it ships unsigned on Mac, and it has no eye exercises, hydration, or meditation content. Does the timer job and nothing else.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;LookAway&lt;/strong&gt; (&lt;a href="https://lookaway.com/"&gt;lookaway.com&lt;/a&gt;) — starts at $19 one-time, also on the App Store and Setapp. The closest real competitor: posture/blink reminders and "Smart Pause" context awareness are comparable to Viraam's context detection. Where it stays narrower is scope — it's built around screen breaks and iPhone sync, not hydration, meditation, or sleep wind-down.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;DeskRest&lt;/strong&gt; (&lt;a href="https://apps.apple.com/us/app/deskrest-smart-break-reminder/id6751417411"&gt;App Store&lt;/a&gt;) — free with in-app purchases. Pairs breaks with posture alerts and an end-of-day "quitting time" boundary reminder, which is a genuinely useful idea similar to Viraam's sleep wind-down reminder. It doesn't do guided audio eye exercises or mindfulness routines, though.&lt;/p&gt;
-
-&lt;p&gt;For me, context-aware pausing and breadth of routine mattered than "is it free". Trialing Viraam and LookAway side by side helped me decide to go with Viraam.&lt;/p&gt;
-
-&lt;h3&gt;Details&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li value="1"&gt;
-&lt;strong&gt;Website:&lt;/strong&gt; &lt;a href="https://www.viraam.app/"&gt;viraam.app&lt;/a&gt;
-&lt;/li&gt;
-&lt;li value="2"&gt;
-&lt;strong&gt;Price:&lt;/strong&gt; $2.99/month, $19.99/year, or $49.99 lifetime; 14-day free trial&lt;/li&gt;
-&lt;li value="3"&gt;
-&lt;strong&gt;Availability:&lt;/strong&gt; Mac App Store only&lt;/li&gt;
-&lt;li value="4"&gt;
-&lt;strong&gt;Privacy:&lt;/strong&gt; No data collected&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="mailto:lou@louplummer.lol?subject=Viraam%20Made%20Me%20Admit%20I%20Was%20Wrong%20About%20Break%20Reminders" style="text-decoration: underline"&gt;✉️ Reply by email&lt;/a&gt;&lt;/p&gt;</content>
-    <summary>I've resisted the whole category of apps that nag you about breaks, posture, hydration, and eyestrain. Being told what to do by my computer felt like an insult to my judgment.
-
-The reality: my judgment about when to take a break is bad. I lose track of time at the...</summary>
     <category term="mac-apps" label="Mac Apps" scheme="https://appaddict.app/categories"/>
     <author>
       <name>Lou Plummer</name>
