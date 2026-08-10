@@ -15,16 +15,26 @@ layout: 'base.njk'
   </p>
 
   <h4>{{ currentYear }}</h4>
-  <section class="book-section-grid">
-    {% for movie in collections.movieArchive | itemsForYear(currentYear) %}
-      <div class="book-entry-grid">
-        <a href="{{ movie.url }}" class="book-cover">
-          <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.title }}">
-          <div class="star-rating">
-            {% for i in range(movie.data.rating) %}⭐{% endfor %}
+
+  {% set yearMovies = collections.movieArchive | itemsForYear(currentYear) %}
+  {% for month in yearMovies | groupByMonth %}
+    <section class="archive-month" id="month-{{ month.key }}">
+      <h5 class="archive-month-title">
+        {{ month.monthName }}
+        <span class="archive-month-count">{{ month.items.length }} {% if month.items.length == 1 %}film{% else %}films{% endif %}</span>
+      </h5>
+      <div class="book-section-grid">
+        {% for movie in month.items %}
+          <div class="book-entry-grid">
+            <a href="{{ movie.url }}" class="book-cover">
+              <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.title }}">
+              <div class="star-rating">
+                {% for i in range(movie.data.rating) %}⭐{% endfor %}
+              </div>
+            </a>
           </div>
-        </a>
+        {% endfor %}
       </div>
-    {% endfor %}
-  </section>
+    </section>
+  {% endfor %}
 </div>

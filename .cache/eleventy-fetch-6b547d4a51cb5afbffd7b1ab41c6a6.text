@@ -12,13 +12,13 @@
 	<atom:link href="https://fyfluiddynamics.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://fyfluiddynamics.com</link>
 	<description>Celebrating the physics of all that flows</description>
-	<lastBuildDate>Mon, 13 Jul 2026 20:15:45 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 20 Jul 2026 17:51:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=7.0.2</generator>
+	<generator>https://wordpress.org/?v=7.0.3</generator>
 
 <image>
 	<url>https://fyfluiddynamics.com/wp-content/uploads/2019/11/FYFD_logo-150x150.png</url>
@@ -28,6 +28,202 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">169405895</site>	<item>
+		<title>Salt and Dunes</title>
+		<link>https://fyfluiddynamics.com/2026/08/salt-and-dunes/</link>
+					<comments>https://fyfluiddynamics.com/2026/08/salt-and-dunes/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Fri, 07 Aug 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Art]]></category>
+		<category><![CDATA[dunes]]></category>
+		<category><![CDATA[evaporation]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[fluids as art]]></category>
+		<category><![CDATA[geophysics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[planetary science]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31824</guid>
+
+					<description><![CDATA[Photographer Barbara Brown captured these striking aerial views in Namibia. Coastal dunes and saltworks feature in the photos from Walvis Bay, where wind, waves, evaporation, and humankind have shaped the landscape. The colorful and dendritic dune images come from Sossusvlei, where the ephemeral Tsauchab River ends in the Namib Desert. Recent flooding left its mark [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/clouds_over_dunes_brown_main-1024x1024.png" title="&quot;Clouds Over Dunes&quot; by Barbara Brown." alt="" /></div></div>
+
+
+
+<p class="wp-block-paragraph">Photographer Barbara Brown captured these striking aerial views in Namibia. Coastal <a href="/tagged/dunes/">dunes</a> and saltworks feature in the photos from Walvis Bay, where wind, <a href="/tagged/ocean-waves/">waves</a>, <a href="/tagged/evaporation/">evaporation</a>, and humankind have shaped the landscape. The colorful and dendritic dune images come from <a href="https://en.wikipedia.org/wiki/Sossusvlei">Sossusvlei</a>, where the ephemeral Tsauchab River ends in the Namib Desert. Recent flooding left its mark on the dry landscape. (Image credit: B. Brown/<a href="https://internationalaerialphotographer.com/index.php">IAPOTY</a>; via <a href="https://www.thisiscolossal.com/2026/07/international-aerial-photographer-of-the-year-contest-2026/?__readwiseLocation=">Colossal</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/08/salt-and-dunes/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31824</post-id>	</item>
+		<item>
+		<title>How Corals Stir</title>
+		<link>https://fyfluiddynamics.com/2026/08/how-corals-stir/</link>
+					<comments>https://fyfluiddynamics.com/2026/08/how-corals-stir/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Thu, 06 Aug 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[cilia]]></category>
+		<category><![CDATA[coral]]></category>
+		<category><![CDATA[flow visualization]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=30932</guid>
+
+					<description><![CDATA[Reef-building coral polyps constantly stir the water around them with dense carpets of microscopic hair-like cilia. The beating of the cilia helps polyps feed while also pushing away sediment and debris. Their stirring increases nutrient and gas exchange with seawater, too. A new study combines experimental measurements with a simple mathematical model to recreate the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Reef-building <a href="/tagged/coral/">coral</a> polyps constantly stir the water around them with dense carpets of microscopic hair-like <a href="/tagged/cilia/">cilia</a>. The beating of the cilia  helps polyps feed while also pushing away sediment and debris. Their stirring increases nutrient and gas exchange with seawater, too. <a href="https://doi.org/10.1103/fhfw-f1nv">A new study</a> combines experimental measurements with a simple mathematical model to recreate the three-dimensional flows corals make. The model&#8217;s efficiency means it should be useful for future studies of how corals and other cilia-covered systems interact with bacteria or other active particles. (Image and research credit: <a href="https://doi.org/10.1103/fhfw-f1nv">S. Selvan et al.</a>; via <a href="https://physics.aps.org/articles/v19/76?__readwiseLocation=">APS</a>)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img fetchpriority="high" decoding="async" width="1024" height="643" src="https://fyfluiddynamics.com/wp-content/uploads/coral_stir_main-1024x643.png" alt="Particle tracks showing stirring created by coral cilia." class="wp-image-30933" srcset="https://fyfluiddynamics.com/wp-content/uploads/coral_stir_main-1024x643.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/coral_stir_main-300x188.png 300w, https://fyfluiddynamics.com/wp-content/uploads/coral_stir_main-768x482.png 768w, https://fyfluiddynamics.com/wp-content/uploads/coral_stir_main-1536x965.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/coral_stir_main.png 1936w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/08/how-corals-stir/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">30932</post-id>	</item>
+		<item>
+		<title>The Subtleties of Pipe Flow</title>
+		<link>https://fyfluiddynamics.com/2026/08/the-subtleties-of-pipe-flow/</link>
+					<comments>https://fyfluiddynamics.com/2026/08/the-subtleties-of-pipe-flow/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Wed, 05 Aug 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[chemical engineering]]></category>
+		<category><![CDATA[civil engineering]]></category>
+		<category><![CDATA[continuity equation]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[friction]]></category>
+		<category><![CDATA[mechanical engineering]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[pipe flow]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31337</guid>
+
+					<description><![CDATA[If you put a thumb over your hose&#8217;s outlet, you get a faster jet, but how does that affect the flow rate? That&#8217;s the question Grady starts from in this Practical Engineering video exploring pipe flow physics. From continuity and control volumes to practical losses, he touches on both the theory and practice behind this [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/thumb1-1024x576.png" title="Putting a thumb over a hose nozzle makes the jet faster, but does it increase the flow rate?" alt="Putting a thumb over a hose nozzle makes the jet faster, but does it increase the flow rate?" /></div></div>
+
+
+
+<p class="wp-block-paragraph">If you put a thumb over your hose&#8217;s outlet, you get a faster jet, but how does that affect the flow rate? That&#8217;s the question Grady starts from in this Practical Engineering video exploring <a href="/tagged/pipe-flow/">pipe flow</a> physics. From continuity and control volumes to practical losses, he touches on both the theory and practice behind this all-important aspect of engineering. Pipe flow is often where engineering students begin their studies of fluids, but that doesn&#8217;t mean it&#8217;s easy! (Video and image credit: Practical Engineering)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/08/the-subtleties-of-pipe-flow/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31337</post-id>	</item>
+		<item>
+		<title>Screening for Sleep Apnea</title>
+		<link>https://fyfluiddynamics.com/2026/08/screening-for-sleep-apnea/</link>
+					<comments>https://fyfluiddynamics.com/2026/08/screening-for-sleep-apnea/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Tue, 04 Aug 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Research]]></category>
+		<category><![CDATA[acoustics]]></category>
+		<category><![CDATA[aeroelastic flutter]]></category>
+		<category><![CDATA[biology]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[medicine]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[snoring]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31290</guid>
+
+					<description><![CDATA[Snoring and sleep apnea&#8211;a condition where aeroelastic flutter obstructs the airway and stops breathing during sleep&#8211;often go hand-in-hand. But diagnosing sleep apnea involves an expensive and time-consuming screening in which the patient has to sleep while monitored by various sensors. To make the process easier, researchers are developing a screening method based only on audio [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Snoring and sleep apnea&#8211;a condition where <a href="/tagged/aeroelastic-flutter">aeroelastic flutter</a> obstructs the airway and stops breathing during sleep&#8211;often go hand-in-hand. But diagnosing sleep apnea involves an expensive and time-consuming screening in which the patient has to sleep while monitored by various sensors. To make the process easier, researchers are <a href="https://iopscience.iop.org/article/10.1088/1361-6579/ae6f6a">developing a screening method</a> based only on audio recording. </p>
+
+
+
+<p class="wp-block-paragraph">They started with a pre-trained audio model designed for speech recognition and stripped back computationally-expensive layers that weren&#8217;t relevant to snoring. Then they trained the new model using labeled audio data taken from standard clinical testing for sleep apnea. That means the model was told which audio recordings corresponded to &#8220;normal&#8221; snoring and which showed signs of sleep apnea. From there, the model was able to correctly identify apnea-related audio from fresh recordings just under 74% of the time. While that accuracy isn&#8217;t high enough to use the tool for diagnosis, it could help patients pre-screen for sleep apnea at home to decide whether the more invasive testing is warranted. (Image credit: <a href="https://unsplash.com/photos/2-children-lying-on-bed-ClqFQz8RNKA">L. Cline</a>; research credit: <a href="https://iopscience.iop.org/article/10.1088/1361-6579/ae6f6a">H. Li et al.</a>; via <a href="https://physicsworld.com/a/abnormal-snoring-sounds-help-diagnose-common-sleep-disorder/">Physics World</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/08/screening-for-sleep-apnea/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31290</post-id>	</item>
+		<item>
+		<title>Microplastics in the Water Column</title>
+		<link>https://fyfluiddynamics.com/2026/08/microplastics-in-the-water-column/</link>
+					<comments>https://fyfluiddynamics.com/2026/08/microplastics-in-the-water-column/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Mon, 03 Aug 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Phenomena]]></category>
+		<category><![CDATA[buoyancy]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[microplastics]]></category>
+		<category><![CDATA[oceanography]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[pollution]]></category>
+		<category><![CDATA[science]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31688</guid>
+
+					<description><![CDATA[Of the more than 9 billion metric tons of plastic that&#8217;s been produced, a mere 9% has been recycled. About 12% has been incinerated, and the remainder is just out there&#8211;in our homes, our landfills, and, unfortunately, in our oceans. Exactly where all the plastic is continues to be an active question of research. Plastic&#8217;s [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">Of the more than 9 billion metric tons of plastic that&#8217;s been produced, a mere 9% has been recycled. About 12% has been incinerated, and the remainder is just out there&#8211;in our homes, our landfills, and, unfortunately, in our oceans. Exactly <em>where</em> all the plastic is continues to be an <a href="https://eos.org/features/measuring-microplastics-in-every-ocean-layer?__readwiseLocation=">active question of research</a>. </p>
+
+
+
+<p class="wp-block-paragraph">Plastic&#8217;s density is similar to that of water; some versions are a little denser than water, and some are a little lighter. So whether a piece of plastic floats at the ocean surface or sinks to the bottom depends on several factors, including its density, size, and shape. A large, dense plastic&#8211;think laundry detergent bottles&#8211;can float if it displaces enough water; after all, metal ships float! </p>
+
+
+
+<p class="wp-block-paragraph">But as sunlight and abrasion breaks that big container into smaller fragments, their <a href="/tagged/buoyancy">buoyancy</a> shrinks. Eventually, these small, millimetric pieces sink, carrying our pollution to ecosystems we once thought remote. Some of the highest rates of microplastic ingestion are found in <a href="https://aslopubs.onlinelibrary.wiley.com/doi/epdf/10.1002/lno.12370">nonmigratory species living between 1200 and 1500 meters</a> below the surface. We may never visit those depths, but our garbage does. (Image credit: <a href="https://www.istockphoto.com/photo/plastic-pollution-micro-nurdles-and-plastic-particle-in-ocean-water-gm1184974030-333767639?searchscope=image%2Cfilm">iStock/dottedhippo</a>; via <a href="https://eos.org/features/measuring-microplastics-in-every-ocean-layer?__readwiseLocation=">Eos</a>)</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/08/microplastics-in-the-water-column/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">31688</post-id>	</item>
+		<item>
+		<title>&#8220;Supercell&#8221;</title>
+		<link>https://fyfluiddynamics.com/2026/07/supercell/</link>
+					<comments>https://fyfluiddynamics.com/2026/07/supercell/#respond</comments>
+		
+		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
+		<pubDate>Fri, 31 Jul 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Art]]></category>
+		<category><![CDATA[fluid dynamics]]></category>
+		<category><![CDATA[fluids as art]]></category>
+		<category><![CDATA[lightning]]></category>
+		<category><![CDATA[physics]]></category>
+		<category><![CDATA[science]]></category>
+		<category><![CDATA[supercell]]></category>
+		<category><![CDATA[thunderstorm]]></category>
+		<category><![CDATA[turbulence]]></category>
+		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=26683</guid>
+
+					<description><![CDATA[A supercell thunderstorm in New Mexico appears almost otherworldly in this photo from Dennis Hualong Zhang. Glowing from within and stacked like a layer cake, the storm menaces the nearby road and fields. Lightning in the distances completes the composition. Images like this are a reminder that our atmosphere&#8211;despite frequently seeming calm and ordinary&#8211;harbors incredible [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p class="wp-block-paragraph">A <a href="/tagged/supercell/">supercell thunderstorm</a> in New Mexico appears almost otherworldly in this photo from Dennis Hualong Zhang. Glowing from within and stacked like a layer cake, the storm menaces the nearby road and fields. Lightning in the distances completes the composition. Images like this are a reminder that our atmosphere&#8211;despite frequently seeming calm and ordinary&#8211;harbors incredible turbulent energy. (Image credit: D. Zhang; via <a href="https://www.internationallandscapephotographer.com/index.php/previous-years/2025-top-202-entries?1404">ILPOTY</a>)</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="679" src="https://fyfluiddynamics.com/wp-content/uploads/supercell_main-1024x679.png" alt="&quot;Supercell&quot; by Dennis Hualong Zhang." class="wp-image-26686" srcset="https://fyfluiddynamics.com/wp-content/uploads/supercell_main-1024x679.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/supercell_main-300x199.png 300w, https://fyfluiddynamics.com/wp-content/uploads/supercell_main-768x509.png 768w, https://fyfluiddynamics.com/wp-content/uploads/supercell_main-1536x1018.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/supercell_main-2048x1358.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/supercell/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">26683</post-id>	</item>
+		<item>
 		<title>Ice Giant or Magma Ocean World?</title>
 		<link>https://fyfluiddynamics.com/2026/07/ice-giant-or-magma-ocean-world/</link>
 					<comments>https://fyfluiddynamics.com/2026/07/ice-giant-or-magma-ocean-world/#respond</comments>
@@ -122,7 +318,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="496" src="https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-1024x496.png" alt="Composite images of water penetrating a bed of finely ground coffee (left) and a bed of coarsely ground coffee (right)." class="wp-image-30960" srcset="https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-1024x496.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-300x145.png 300w, https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-768x372.png 768w, https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Composite images of water penetrating a bed of finely ground coffee (left) and a bed of coarsely ground coffee (right).</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="496" src="https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-1024x496.png" alt="Composite images of water penetrating a bed of finely ground coffee (left) and a bed of coarsely ground coffee (right)." class="wp-image-30960" srcset="https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-1024x496.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-300x145.png 300w, https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1-768x372.png 768w, https://fyfluiddynamics.com/wp-content/uploads/2026-04-allen-coffee-fig2-1.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Composite images of water penetrating a bed of finely ground coffee (left) and a bed of coarsely ground coffee (right).</figcaption></figure>
 
 
 
@@ -159,7 +355,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-large"><img decoding="async" width="1024" height="683" src="https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-1024x683.jpg" alt="Satellite image of sea ice and sediment swirling in Cañon Fiord." class="wp-image-30688" srcset="https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-1024x683.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-300x200.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-768x512.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main.jpg 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="683" src="https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-1024x683.jpg" alt="Satellite image of sea ice and sediment swirling in Cañon Fiord." class="wp-image-30688" srcset="https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-1024x683.jpg 1024w, https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-300x200.jpg 300w, https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main-768x512.jpg 768w, https://fyfluiddynamics.com/wp-content/uploads/ellesmereislandwide_main.jpg 1440w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/canyon-swirls/feed/</wfw:commentRss>
@@ -167,220 +363,5 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">30687</post-id>	</item>
-		<item>
-		<title>Múlajökull</title>
-		<link>https://fyfluiddynamics.com/2026/07/mulajokull/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/mulajokull/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Fri, 24 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Art]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[geophysics]]></category>
-		<category><![CDATA[glacier]]></category>
-		<category><![CDATA[instability]]></category>
-		<category><![CDATA[meander]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[rivers]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31457</guid>
-
-					<description><![CDATA[Iceland&#8217;s Múlajökull glacier is prone to sudden surges, where rapid ice flow is interspersed between periods of quiescence or retreat. The isolated nature of the glacier and its marshy surroundings make approaching on foot almost impossible, but photographer Dani Guindo captured gorgeous aerial images of the glacier&#8217;s many rivulets ribboning about the landscape it&#8217;s carved. [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/guindo-5-1024x683.jpeg" title="Image by Dani Guindo." alt="Image by Dani Guindo." /></div></div>
-
-
-
-<p class="wp-block-paragraph">Iceland&#8217;s Múlajökull <a href="/tagged/glacier/">glacier</a> is prone to sudden <a href="https://en.wikipedia.org/wiki/Surge_(glacier)">surges</a>, where rapid ice flow is interspersed between periods of quiescence or retreat. The isolated nature of the glacier and its marshy surroundings make approaching on foot almost impossible, but photographer Dani Guindo captured gorgeous aerial images of the glacier&#8217;s many rivulets ribboning about the landscape it&#8217;s carved. (Image credit: <a href="https://www.behance.net/daniguindo">D. Guindo</a>; via <a href="https://www.thisiscolossal.com/2026/03/dani-guindo-iceland-glaciers-landscape-photography/">Colossal</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/mulajokull/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31457</post-id>	</item>
-		<item>
-		<title>Convection Inside the Mantle</title>
-		<link>https://fyfluiddynamics.com/2026/07/convection-inside-the-mantle/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/convection-inside-the-mantle/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Thu, 23 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[buoyancy]]></category>
-		<category><![CDATA[convection]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[geophysics]]></category>
-		<category><![CDATA[mantle convection]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[seismic waves]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31424</guid>
-
-					<description><![CDATA[Most of what we know about Earth&#8217;s interior comes from observing how seismic waves&#8211;mostly from earthquakes&#8211;bounce around. As our observations have gotten better&#8211;more seisometers, better imaging techniques&#8211;scientists have identified two large anomalies sitting near the bottom of the mantle. Known as large low-velocity provinces, or LLVPs, these zones take up continent-sized areas beneath parts of [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Most of what we know about Earth&#8217;s interior comes from observing how <a href="/tagged/seismic-waves/">seismic waves</a>&#8211;mostly from earthquakes&#8211;bounce around. As our observations have gotten better&#8211;more seisometers, better imaging techniques&#8211;scientists have identified two large anomalies sitting near the bottom of the mantle. Known as large low-velocity provinces, or LLVPs, these zones take up continent-sized areas beneath parts of Africa and the Pacific. </p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="318" src="https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-1024x318.png" alt="Seismic waves show lower speeds in large, continent-sized zones that sit beneath Africa and the Pacific. These large low-velocity provinces (LLVPs) are outlined in red." class="wp-image-31426" srcset="https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-1024x318.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-300x93.png 300w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-768x238.png 768w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-1536x477.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f1-2048x636.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Seismic waves show lower speeds in large, continent-sized zones that sit beneath Africa and the Pacific. These large low-velocity provinces (LLVPs) are outlined in red.</figcaption></figure>
-
-
-
-<p class="wp-block-paragraph">The LLVPs are hot, which would normally make them <a href="/tagged/buoyancy">buoyant</a>, but their stationary nature suggests they are made up of extremely dense material. Narrow plumes of hot material make their way up from the LLVPs to form <a href="/tagged/volcano/">volcanic</a> hotspots like those that made the Hawaiian and <a href="/tagged/Galapagos/">Galapagos Islands</a>. Balancing that upward <a href="/tagged/convection/">convection</a> is the downward convection of former tectonic material carried into the mantle at <a href="https://en.wikipedia.org/wiki/Subduction">subduction zones</a>. </p>
-
-
-
-<p class="wp-block-paragraph">What the LLVPs are made of remains an active research question. <a href="https://www.nature.com/articles/s41586-023-06589-1">One suggestion</a> is that they contain remnants of Theia, the planet thought to have impacted the proto-Earth to form our Moon. (Image credits: <a href="https://doi.org/10.1063/pt.mzrx.ddag">E. Garnero and C. Richardson</a>; see also <a href="https://doi.org/10.1063/pt.mzrx.ddag">Physics Today</a>)</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="974" src="https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-1024x974.png" alt="Illustration showing convection in the Earth's inner mantle. Former tectonic material subducts downward in dark blue zones. The large low-velocity provinces (LLVPs) are shown in orange. Hot-spot volcanic activity is seen at the surface (black triangles) above narrow plumes that lift material from the LLVPs toward the surface." class="wp-image-31425" srcset="https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-1024x974.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-300x285.png 300w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-768x731.png 768w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-1536x1461.png 1536w, https://fyfluiddynamics.com/wp-content/uploads/PTO.v77.i12.36_1.f2-2048x1948.png 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Illustration showing convection in the Earth&#8217;s inner mantle. Former tectonic material subducts downward in dark blue zones. The large low-velocity provinces (LLVPs) are shown in orange. Hot-spot volcanic activity is seen at the surface (black triangles) above narrow plumes that lift material from the LLVPs toward the surface.</figcaption></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/convection-inside-the-mantle/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31424</post-id>	</item>
-		<item>
-		<title>Even Penguins Love Bubbles</title>
-		<link>https://fyfluiddynamics.com/2026/07/even-penguins-love-bubbles/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/even-penguins-love-bubbles/#comments</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Wed, 22 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[biology]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[penguins]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[soap bubbles]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31695</guid>
-
-					<description><![CDATA[Walter, a young African penguin at the New York Aquarium, loves soap bubbles. In fairness to Walter, so do most people I&#8217;ve met. There&#8217;s just something that feels a bit magical about these ephemeral rainbow spheres that pop at a (dry) touch. Bubbles owe their colors to thin film interference&#8211;the colors actually indicate how thick [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">Walter, a young African penguin at the New York Aquarium, loves <a href="/tagged/soap-bubbles/">soap bubbles</a>. In fairness to Walter, so do most people I&#8217;ve met. There&#8217;s just something that feels a bit magical about these ephemeral rainbow spheres that pop at a (dry) touch. </p>
-
-
-
-<p class="wp-block-paragraph">Bubbles owe their colors to <a href="/tagged/interference/">thin film interference</a>&#8211;the colors actually indicate how thick the bubble film is&#8211;and their stability (and fast disintegration) to <a href="/tagged/surface-tension/">surface tension</a>. With <a href="/2025/05/soap-bubble-bonanza/">schlieren photography</a> or <a href="/2024/01/inside-a-soap-bubble/">flow visualization</a>, watching bubbles gets even cooler. Do you suppose a penguin would <a href="/2022/04/within-the-bubbles-pop/">appreciate bubbles popping at 50,000 fps</a>? (Image credit: <a href="https://www.instagram.com/p/DZxtZp-Ftn1/?hl=en">New York Aquarium</a>; via <a href="https://www.popsci.com/environment/walter-the-penguin-loves-popping-bubbles/?__readwiseLocation=">PopSci</a>)</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="748" height="835" src="https://fyfluiddynamics.com/wp-content/uploads/penguin_bubbles_main.jpg" alt="Walter the African Penguin enjoys popping bubbles." class="wp-image-31697" srcset="https://fyfluiddynamics.com/wp-content/uploads/penguin_bubbles_main.jpg 748w, https://fyfluiddynamics.com/wp-content/uploads/penguin_bubbles_main-269x300.jpg 269w" sizes="auto, (max-width: 748px) 100vw, 748px" /></figure>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/even-penguins-love-bubbles/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31695</post-id>	</item>
-		<item>
-		<title>Where Waves Carry Plastics</title>
-		<link>https://fyfluiddynamics.com/2026/07/where-waves-carry-plastics/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/where-waves-carry-plastics/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Tue, 21 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Research]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[ocean waves]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[plastic pollution]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[stokes drift]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31590</guid>
-
-					<description><![CDATA[The classic theory of steady wave motion predicts a phenomenon called Stokes drift, in which particles spread horizontally in the direction of wave travel. That means that something like microplastics will drift in the direction that waves are traveling. But in the real world, ocean waves aren&#8217;t quite so neat and unchanging. A new study [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">The classic theory of steady wave motion predicts a phenomenon called <a href="https://en.wikipedia.org/wiki/Stokes_drift">Stokes drift</a>, in which particles spread horizontally in the direction of wave travel. That means that something like microplastics will drift in the direction that waves are traveling. But in the real world, ocean waves aren&#8217;t quite so neat and unchanging. A <a href="https://iopscience.iop.org/article/10.1209/0295-5075/ae7abb#epl26100131s4">new study</a> looks at what happens when waves are decaying in strength&#8211;in other words, what happens in our world when the wind dies down.</p>
-
-
-
-<p class="wp-block-paragraph">In those circumstances, the researchers found that particles did not just drift horizontally&#8211;they drifted vertically, too. Further, how much a particle drifts vertically depends on its initial depth. Since plastics vary in their buoyancy&#8211;and can be found in varying numbers and sizes throughout the upper layer of the ocean&#8211;this mechanism could significantly affect how waves mix and transport pollution. (Image credit: <a href="https://unsplash.com/photos/white-and-brown-boats-on-blue-sea-water-during-daytime-2St3S36Gu7w">N. Jensen</a>; research credit: <a href="https://iopscience.iop.org/article/10.1209/0295-5075/ae7abb#epl26100131s4">T. Izawa et al.</a>; via <a href="https://physicsworld.com/a/new-model-of-ocean-waves-sheds-fresh-light-on-the-spread-of-microplastic-pollution/?nbd_source=3626823&amp;__readwiseLocation=">Physics World</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/where-waves-carry-plastics/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31590</post-id>	</item>
-		<item>
-		<title>Making Quieter Shock Waves</title>
-		<link>https://fyfluiddynamics.com/2026/07/making-quieter-shock-waves/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/making-quieter-shock-waves/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Mon, 20 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Phenomena]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[schlieren photography]]></category>
-		<category><![CDATA[science]]></category>
-		<category><![CDATA[shockwave]]></category>
-		<category><![CDATA[supersonic]]></category>
-		<category><![CDATA[supersonic flight]]></category>
-		<category><![CDATA[supersonic wind tunnel]]></category>
-		<category><![CDATA[wind tunnel testing]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31735</guid>
-
-					<description><![CDATA[NASA&#8217;s X-59 aircraft is intended to demonstrate supersonic flight without the boom. Although it&#8217;s broken into supersonic speeds, we haven&#8217;t yet heard its &#8220;sonic thump&#8221; because, so far, it&#8217;s been accompanied by conventional supersonic aircraft, which are louder. The idea behind the long, skinny X-59 is to create weaker, widely-spaced shocks along the aircraft body. [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p class="wp-block-paragraph">NASA&#8217;s X-59 aircraft is intended to demonstrate <a href="/tagged/supersonic/">supersonic</a> flight without the boom. Although it&#8217;s broken into supersonic speeds, we haven&#8217;t yet heard its &#8220;sonic thump&#8221; because, so far, it&#8217;s been accompanied by conventional supersonic aircraft, which are louder.</p>
-
-
-
-<p class="wp-block-paragraph">The idea behind the long, skinny X-59 is to create weaker, widely-spaced <a href="/tagged/shockwave/">shocks</a> along the aircraft body. Weaker shocks are easier for atmospheric effects to damp out before they reach the ground, and  spacing them out makes it harder for them to &#8220;pile up&#8221; at the nose and tail to create the strong double shocks that merge into a sonic boom.</p>
-
-
-
-<figure class="wp-block-image aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://fyfluiddynamics.com/wp-content/uploads/x59_shock-1024x576.png" alt="Schlieren image of a model X-59 tested at supersonic conditions in a wind tunnel." class="wp-image-31739" srcset="https://fyfluiddynamics.com/wp-content/uploads/x59_shock-1024x576.png 1024w, https://fyfluiddynamics.com/wp-content/uploads/x59_shock-300x169.png 300w, https://fyfluiddynamics.com/wp-content/uploads/x59_shock-768x432.png 768w, https://fyfluiddynamics.com/wp-content/uploads/x59_shock.png 1280w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Schlieren image of a model X-59 tested at supersonic conditions in a wind tunnel. The model is mounted upside-down. The three dark diagonal lines are shock waves originating from the wind tunnel and can be ignored. The fainter lines coming off parts of the aircraft model are the plane&#8217;s shock waves. </figcaption></figure>
-
-
-
-<p class="wp-block-paragraph">NASA is preparing to test the X-59&#8217;s in-flight shocks soon, including with <a href="https://ntrs.nasa.gov/citations/20210024873">in-air schlieren photography</a> like they&#8217;ve <a href="/2019/03/this-week-nasa-released-the-first-ever-image-of/">done in the past</a> for other aircraft. But we&#8217;ve already have a glimpse of what to expect, thanks to <a href="https://ntrs.nasa.gov/citations/20220010676">wind tunnel testing</a>, shown above. Ignore the three dark diagonal lines in the middle of the image (those are from the wind tunnel, not the model aircraft), and focus instead on the thin bright lines coming off the plane. Those are some impressively subtle shock waves! </p>
-
-
-
-<p class="wp-block-paragraph">Hear more from the aircraft&#8217;s designer and test pilots in this <a href="https://arstechnica.com/gadgets/2026/06/nasas-x-59-frankenjet-tests-supersonic-flight-without-the-sonic-boom/?__readwiseLocation=">Ars Technica article</a>. (Image credit: NASA; see also: <a href="https://arstechnica.com/gadgets/2026/06/nasas-x-59-frankenjet-tests-supersonic-flight-without-the-sonic-boom/?__readwiseLocation=">Ars Technica</a>, <a href="https://ntrs.nasa.gov/citations/20220010676">M. Ahaus et al.</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/making-quieter-shock-waves/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31735</post-id>	</item>
-		<item>
-		<title>Pacific Surf</title>
-		<link>https://fyfluiddynamics.com/2026/07/pacific-surf/</link>
-					<comments>https://fyfluiddynamics.com/2026/07/pacific-surf/#respond</comments>
-		
-		<dc:creator><![CDATA[Nicole Sharp]]></dc:creator>
-		<pubDate>Fri, 17 Jul 2026 15:00:00 +0000</pubDate>
-				<category><![CDATA[Art]]></category>
-		<category><![CDATA[breaking wave]]></category>
-		<category><![CDATA[fluid dynamics]]></category>
-		<category><![CDATA[fluids as art]]></category>
-		<category><![CDATA[ocean waves]]></category>
-		<category><![CDATA[physics]]></category>
-		<category><![CDATA[science]]></category>
-		<guid isPermaLink="false">https://fyfluiddynamics.com/?p=31447</guid>
-
-					<description><![CDATA[Life in Venice Beach lends itself to wave-watching, or so it seems for photographer Craig Hubbard. His portraits of waves and surfers are ethereal, every swell capped by a cloud-like swath of spray. Somehow, every photographer seems to capture breaking waves a little differently! (Image credit: C. Hubbard; via Colossal)]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-envira-envira-gallery"><div class="envira-gallery-feed-output"><img decoding="async" class="envira-gallery-feed-image" tabindex="0" src="https://fyfluiddynamics.com/wp-content/uploads/hubbard-6-999x1024.jpg" title="Image by Craig Hubbard." alt="Image by Craig Hubbard." /></div></div>
-
-
-
-<p class="wp-block-paragraph">Life in Venice Beach lends itself to <a href="/tagged/ocean-waves/">wave-watching</a>, or so it seems for photographer Craig Hubbard. His portraits of waves and surfers are ethereal, every swell capped by a cloud-like swath of spray. Somehow, every photographer seems to capture <a href="/tagged/breaking-wave/">breaking waves</a> a little differently! (Image credit: <a href="https://www.shotswithcraig.com">C. Hubbard</a>; via <a href="https://www.thisiscolossal.com/2026/06/craig-hubbard-surf-ocean-waves-photos/">Colossal</a>)</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>https://fyfluiddynamics.com/2026/07/pacific-surf/feed/</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">31447</post-id>	</item>
 	</channel>
 </rss>

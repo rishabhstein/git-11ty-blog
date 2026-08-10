@@ -51,9 +51,9 @@ html {
 }
 
 body {
-  width: min(1300px, 96vw);
-  margin: 0 auto;
-  max-width: 1300px;
+  width: 100%;
+  margin: 0;
+  max-width: none;
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   font-size: clamp(17px, 0.45vw + 15px, 21px);
   line-height: 1.66;
@@ -321,8 +321,8 @@ body.focus-mode-transition .page-header {
 }
 
 .telegraph-search-panel {
-  flex: 0 1 320px;
-  min-width: 180px;
+  flex: 0 1 220px;
+  min-width: 150px;
   margin-left: auto;
   position: relative;
   z-index: 20;
@@ -4653,4 +4653,520 @@ footer a:focus,
 .page-link-list a:hover,
 .page-link-list a:focus {
   text-decoration: underline;
+}
+
+/* ============================================================
+   Single-column redesign: sidebars removed, page/tag/blogroll
+   links live in the footer. Content stays at 882px, centered,
+   in normal and zen mode alike.
+   ============================================================ */
+.portal-layout,
+.portal-layout.home-index {
+  display: block;
+}
+
+.portal-center {
+  width: 100%;
+  max-width: 882px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+body.focus-mode .portal-center,
+body.focus-mode .main-content.home-shell {
+  width: 100%;
+  max-width: 882px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-index .home-status-strip,
+body.focus-mode .home-index .home-status-strip {
+  max-width: 882px;
+  margin: 0 auto 12px;
+}
+
+/* Footer link columns */
+.footer-nav {
+  line-height: 1.25;
+  display: grid;
+  grid-template-columns: repeat(3, auto) minmax(200px, 250px);
+  justify-content: center;
+  column-gap: 26px;
+  row-gap: 12px;
+  width: 100%;
+  max-width: 882px;
+  margin: 0 auto 18px;
+  padding: 0 12px 14px;
+  box-sizing: border-box;
+  text-align: left;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.footer-nav-title {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.footer-nav-title a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.footer-nav-title a:hover,
+.footer-nav-title a:focus {
+  text-decoration: underline;
+}
+
+.footer-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav-list li {
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  .footer-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-heatmap {
+    grid-column: 1 / -1;
+    max-width: 300px;
+    justify-self: center;
+    width: 100%;
+  }
+}
+
+/* Big pink footer: holds former sidebar content */
+:root {
+  --footer-bg: #ffe7f0;
+  --footer-border: rgba(214, 105, 149, 0.45);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --footer-bg: #2b1420;
+    --footer-border: rgba(214, 105, 149, 0.35);
+  }
+}
+
+.layout-wrapper-footer {
+  background: var(--footer-bg);
+  border-top: 2px solid var(--footer-border);
+  padding: 24px 0 12px;
+}
+
+/* Feed columns injected with their own <h3> + .portal-list markup */
+.footer-nav-col h3 {
+  margin: 0 0 6px;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: inherit;
+  color: var(--heading-color);
+}
+
+.footer-nav-col h3 a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.footer-nav-col h3 a:hover,
+.footer-nav-col h3 a:focus {
+  text-decoration: underline;
+}
+
+.footer-nav-col .portal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav-col .portal-list li {
+  margin: 0 0 4px;
+  font-size: 15px;
+}
+
+/* Activity calendar: rightmost footer column */
+.footer-heatmap {
+  min-width: 0;
+}
+
+.footer-heatmap h3 {
+  margin: 0 0 6px;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+/* Full-bleed header and footer: bars span the viewport, inner content stays
+   aligned with the 1300px page column */
+.page-header .telegraph-topline,
+.page-header .telegraph-masthead {
+  padding-left: max(14px, calc(50% - 650px));
+  padding-right: max(14px, calc(50% - 650px));
+}
+
+.layout-wrapper-footer {
+  max-width: none;
+  width: 100%;
+}
+
+/* Centered masthead: title, subline, search, and nav links */
+.telegraph-masthead {
+  text-align: center;
+}
+
+.telegraph-title-row {
+  justify-content: center;
+}
+
+.telegraph-title-block {
+  align-items: center;
+}
+
+.telegraph-search-panel {
+  margin-left: 0;
+}
+
+.telegraph-primary-nav {
+  text-align: center;
+}
+
+
+/* Primary nav bar (links): aligned with the center panel instead of full-bleed */
+.telegraph-primary-nav {
+  max-width: 882px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+}
+
+/* Home page: latest post shown in full above the article listings */
+.home-latest-post {
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 3px double var(--panel-border-dark);
+}
+
+.home-latest-post h1 {
+  margin-bottom: 4px;
+}
+
+.home-latest-post h1 a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.home-latest-post h1 a:hover,
+.home-latest-post h1 a:focus {
+  text-decoration: underline;
+}
+
+.home-latest-kicker {
+  display: block;
+  margin-bottom: 2px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tag-link-color);
+}
+
+/* Featured entry on the home page reads at the same size as a real post page.
+   Scoped through .portal-center to outrank the index typography boost. */
+.portal-layout .portal-center .home-latest-post p,
+.portal-layout .portal-center .home-latest-post li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.portal-layout .portal-center .home-latest-post h4 {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+/* Home page: latest articles as a compact list (title, then #tags | date) */
+.entry-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entry-item {
+  margin: 0 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.entry-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.portal-layout .portal-center .entry-title {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.entry-title:hover,
+.entry-title:focus {
+  text-decoration: underline;
+}
+
+.portal-layout .portal-center .entry-meta {
+  display: block;
+  margin-top: 2px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--tag-link-color);
+}
+
+.entry-meta a {
+  color: var(--tag-link-color);
+  text-decoration: none;
+  margin-right: 6px;
+}
+
+.entry-meta a:hover,
+.entry-meta a:focus {
+  text-decoration: underline;
+}
+
+.entry-sep {
+  margin-right: 6px;
+  opacity: 0.6;
+}
+
+/* Home page: movies and books side by side, three covers each */
+.home-media-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 14px;
+  padding-bottom: 20px;
+  border-bottom: 3px double var(--panel-border-dark);
+}
+
+.home-media-col {
+  min-width: 0;
+}
+
+.home-cover-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  width: 100%;
+  align-items: start;
+}
+
+.home-cover {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  line-height: 0;
+}
+
+.home-cover img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border: 1px solid var(--panel-border);
+  border-radius: 6px;
+  transition: transform 0.15s ease;
+}
+
+.home-cover:hover img,
+.home-cover:focus img {
+  transform: translateY(-2px);
+}
+
+.home-cover-rating {
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  padding: 1px 3px;
+  background: rgba(0, 0, 0, 0.62);
+  border-radius: 0 0 5px 5px;
+  font-size: 9px;
+  line-height: 1.35;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #ffd84d;
+}
+
+@media (max-width: 640px) {
+  .home-media-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Home page: latest snaps as four square thumbnails, 30% smaller than full width */
+.home-snap-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 10px;
+}
+
+.home-snap {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--panel-border);
+  text-decoration: none;
+  line-height: 0;
+}
+
+.home-snap img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+}
+
+.home-snap:hover img,
+.home-snap:focus img {
+  transform: scale(1.04);
+}
+
+.home-snap-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5px 7px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.72) 55%);
+  font-size: 11px;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .home-snap-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
+
+/* Section headings link to their archive without looking like body links */
+.section-title-link,
+.section-title-link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-title-link:hover .telegraph-section-title,
+.section-title-link:focus .telegraph-section-title {
+  text-decoration: underline;
+}
+
+/* Guestbook gif below the workout calendar in the footer */
+.footer-guestbook {
+  margin-top: 12px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.footer-guestbook .sidebar-guestbook-text {
+  color: var(--link-color);
+}
+
+.footer-guestbook:hover .sidebar-guestbook-text,
+.footer-guestbook:focus .sidebar-guestbook-text {
+  text-decoration: underline;
+}
+
+/* Year archives grouped by month */
+.archive-month {
+  margin-bottom: 22px;
+}
+
+.archive-month-title {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--panel-border);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.archive-month-count {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--tag-link-color);
+}
+
+.archive-month .book-section-grid {
+  justify-content: flex-start;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+/* Archive pagination */
+.archive-page-count {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--tag-link-color);
+}
+
+.archive-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid var(--panel-border);
+  font-size: 14px;
+}
+
+.archive-pagination a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.archive-pagination a:hover,
+.archive-pagination a:focus {
+  text-decoration: underline;
+}
+
+.archive-pagination-pages {
+  display: flex;
+  gap: 8px;
+}
+
+.archive-pagination-current {
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.archive-pagination-disabled {
+  color: var(--tag-link-color);
+  opacity: 0.5;
 }

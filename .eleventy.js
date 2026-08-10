@@ -735,9 +735,10 @@ ${tabsMarkup}
       const date = new Date(item.date);
       const key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}`;
       const label = DateTime.fromJSDate(date).toFormat("LLLL yyyy");
+      const monthName = DateTime.fromJSDate(date).toFormat("LLLL");
       const currentGroup = groups[groups.length - 1];
       if (!currentGroup || currentGroup.key !== key) {
-        groups.push({ key, label, items: [item] });
+        groups.push({ key, label, monthName, items: [item] });
       } else {
         currentGroup.items.push(item);
       }
@@ -818,9 +819,6 @@ ${tabsMarkup}
   const { DateTime } = await import("luxon");
   const markdownItModule = await import("markdown-it");
   const markdownIt = markdownItModule.default;
-  const externalFeeds = require("./src/_lib/externalFeeds");
-  const getExternalFeeds = externalFeeds.getExternalFeeds || externalFeeds;
-  const { readFeedPosts } = externalFeeds;
 
   eleventyConfig.amendLibrary("md", (mdLib) => {
     mdLib.use(markSyntaxPlugin);
@@ -853,7 +851,7 @@ ${tabsMarkup}
   });
 
   eleventyConfig.addGlobalData("site", {
-    name: "Sigmarootpi.com",
+    name: "Sigmarootpi",
     url: siteUrl,
     pathPrefix: sitePathPrefix,
     webmentionEndpoint,
@@ -898,6 +896,13 @@ ${tabsMarkup}
   eleventyConfig.addFilter("offset", function(items, count = 0) {
     if (!Array.isArray(items)) return [];
     return items.slice(count);
+  });
+
+  // The home page features one entry in full, then drops it from the listings.
+  eleventyConfig.addFilter("excludeUrl", function(items, url) {
+    if (!Array.isArray(items)) return [];
+    if (!url) return items;
+    return items.filter((item) => item.url !== url);
   });
 
   eleventyConfig.addFilter("shuffle", function(items) {
@@ -1093,6 +1098,11 @@ ${tabsMarkup}
     return groupWorkoutsByMonth(items);
   });
 
+  // Same month grouping, for archives of any content type.
+  eleventyConfig.addFilter("groupByMonth", function(items) {
+    return groupWorkoutsByMonth(items);
+  });
+
   eleventyConfig.addFilter("workoutMonthSeries", function(items, year) {
     return buildWorkoutMonthSeriesForYear(items, year);
   });
@@ -1101,97 +1111,8 @@ ${tabsMarkup}
     return buildWorkoutMonthSeries(items, count);
   });
 
-  eleventyConfig.addNunjucksAsyncShortcode("externalFeedCards", async function() {
-    const feeds = await getExternalFeeds();
-    const formatFeedDate = (value) => {
-      const date = new Date(value);
-      if (Number.isNaN(date.getTime())) return "";
-      return new Intl.DateTimeFormat("en", {
-        month: "short",
-        day: "numeric",
-        year: "numeric",
-      }).format(date);
-    };
 
-    return feeds.map((feed) => `
-<article class="external-feed-card">
-  <div class="tagline"><strong>${feed.tag || ""}</strong></div>
-  ${feed.imageUrl ? `
-  <a href="${feed.postUrl}" target="_blank" rel="noopener noreferrer" class="external-feed-thumb-link">
-    <img src="${feed.imageUrl}" alt="${feed.postTitle}" class="external-feed-thumb">
-  </a>` : ""}
-  <div class="external-feed-source">
-    <a href="${feed.sourceUrl}" target="_blank" rel="noopener noreferrer">${feed.label}</a>
-  </div>
-  <a href="${feed.postUrl}" target="_blank" rel="noopener noreferrer"><strong>${feed.postTitle}</strong></a>
-  ${feed.postedDate ? `<time class="home-entry-date" datetime="${feed.postedDate.slice(0, 10)}">${formatFeedDate(feed.postedDate)}</time>` : ""}
-  <p>${feed.excerpt}</p>
-</article>`.trim()).join("\n");
-  });
 
-  eleventyConfig.addNunjucksAsyncShortcode("postrollItems", async function() {
-    const formatInterviewName = (title = "") =>
-      String(title)
-        .replace(/^people\s*(and|&)\s*blogs\s*[:\-]\s*/i, "")
-        .replace(/^pb\s*[:\-]\s*/i, "")
-        .trim() || title;
-
-    try {
-      const posts = await readFeedPosts({
-        label: "People & Blogs",
-        tag: "Interview",
-        feedUrl: "https://manuelmoreale.com/feed/peopleandblogs",
-        siteUrl: "https://manuelmoreale.com/",
-        limit: 5,
-      });
-
-      return `
-<h3><a href="https://manuelmoreale.com/people-and-blogs" target="_blank" rel="noopener noreferrer">People and Blogs</a></h3>
-<ul class="portal-list">
-  ${posts.map((post) => `
-  <li>
-    <a href="${post.postUrl}" target="_blank" rel="noopener noreferrer">${formatInterviewName(post.postTitle)}</a>
-  </li>`).join("\n  ")}
-</ul>`.trim();
-    } catch {
-      return `
-<h3><a href="https://manuelmoreale.com/people-and-blogs" target="_blank" rel="noopener noreferrer">People and Blogs</a></h3>
-<ul class="portal-list">
-  <li>
-    <a href="https://manuelmoreale.com/feed/peopleandblogs" target="_blank" rel="noopener noreferrer">Latest interview</a>
-  </li>
-</ul>`.trim();
-    }
-  });
-
-  eleventyConfig.addNunjucksAsyncShortcode("bearblogDiscoveryItems", async function() {
-    try {
-      const posts = await readFeedPosts({
-        label: "Bearblog Discovery",
-        tag: "Discovery",
-        feedUrl: "https://bearblog.dev/discover/feed/",
-        siteUrl: "https://bearblog.dev/discover/",
-        limit: 5,
-      });
-
-      return `
-<h3><a href="https://bearblog.dev/discover/" target="_blank" rel="noopener noreferrer">Bearblog Discovery</a></h3>
-<ul class="portal-list">
-  ${posts.map((post) => `
-  <li>
-    <a href="${post.postUrl}" target="_blank" rel="noopener noreferrer">${post.postTitle}</a>
-  </li>`).join("\n  ")}
-</ul>`.trim();
-    } catch {
-      return `
-<h3><a href="https://bearblog.dev/discover/" target="_blank" rel="noopener noreferrer">Bearblog Discovery</a></h3>
-<ul class="portal-list">
-  <li>
-    <a href="https://bearblog.dev/discover/" target="_blank" rel="noopener noreferrer">Latest discovery posts</a>
-  </li>
-</ul>`.trim();
-    }
-  });
 
   // Collection for all unique tags, normalized to lowercase so tag
   // archives stay case-insensitive.
@@ -1268,6 +1189,29 @@ ${tabsMarkup}
 
   eleventyConfig.addCollection("postArchiveYears", function(collectionApi) {
     return uniqueYearsDescending(collectionApi.getFilteredByTag("post"));
+  });
+
+  // One entry per (year, page) so long years split across several archive pages.
+  eleventyConfig.addCollection("postArchiveYearPages", function(collectionApi) {
+    const posts = sortNewestFirst(collectionApi.getFilteredByTag("post"));
+    const pageSize = 15;
+    const pages = [];
+
+    for (const year of uniqueYearsDescending(posts)) {
+      const yearPosts = posts.filter((post) => post.date.getFullYear() === year);
+      const totalPages = Math.max(1, Math.ceil(yearPosts.length / pageSize));
+
+      for (let index = 0; index < totalPages; index += 1) {
+        pages.push({
+          year,
+          pageNumber: index + 1,
+          totalPages,
+          posts: yearPosts.slice(index * pageSize, (index + 1) * pageSize),
+        });
+      }
+    }
+
+    return pages;
   });
 
   eleventyConfig.addCollection("bookArchiveYears", function(collectionApi) {

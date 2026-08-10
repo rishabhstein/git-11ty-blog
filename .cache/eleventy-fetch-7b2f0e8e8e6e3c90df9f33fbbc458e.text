@@ -6,13 +6,131 @@
     <link>https://zacharykai.net/</link>
     <description>Notes from the People and Blogs series on zacharykai.net.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2026 23:31:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 09:00:55 +0000</lastBuildDate>
     <atom:link href="https://zacharykai.net/assets/files/feeds/pb.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://zacharykai.net/assets/icon.png</url>
       <title>People and Blogs — Zachary Kai</title>
       <link>https://zacharykai.net/</link>
     </image>
+    <item>
+      <title>People and Blogs: Christian</title>
+      <link>https://zacharykai.net/notes/pb/christian</link>
+      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Christian. Do go visit his blog and say...</description>
+      <content:encoded><![CDATA[<!--?xml encoding="UTF-8"--><section class="e-content">
+
+                <!-- Introduction -->
+                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with Christian. Do go visit <a href="https://cleberg.net/" rel="noopener">his blog</a> and say hello!</em></p>
+
+                <!-- Interview -->
+                <section>
+                    <h2>Interview</h2>
+
+                    <section>
+                        <h3>Let's start from the basics: can you introduce yourself?</h3>
+                        <p>Hey there, my name is Christian. If you know me from any of my websites, I'm a blogger, privacy and security enthusiast, avid self-hoster, and… maybe an Org mode evangelist? Hard to describe myself as just one thing – I tend to be a jack of all trades.</p>
+                        <p>Most of what I do online comes back to the same few interests: making useful things, learning in public, and trying to keep some version of the old, weird, personal web alive.</p>
+                        <p>Professionally, I'm an IT Audit Manager at one of the <a href="https://en.wikipedia.org/wiki/Big_Four_accounting_firms" rel="noopener">Big Four</a> accounting firms (KPMG, formerly EY), where I am responsible for leading IT SOX audits, SOC 1–3 reports, and other attestation projects. I also serve as the firm's subject matter expert for AWS, DevOps, GitHub, GitLab, and Linux.</p>
+                        <p>I'm from the US and have lived in places around the Midwest my whole life, including various cities within South Dakota, Minnesota, and Nebraska. For the last decade, I've lived in Lincoln &amp; Omaha, Nebraska.</p>
+                    </section>
+
+                    <section>
+                        <h3>What's the story behind your blog?</h3>
+                        <p>I started my blog in 2016, as I began my second semester of college. I was originally a Chemistry major, but switched to Accounting with a Software Development minor after my first semester ended. I loved chemistry; I just couldn't see myself spending the rest of my life in a corporate lab.</p>
+                        <p>Anyway, as I began my computer science education, I used my blog as a platform to write things out as a post-study technique. I would try to rewrite what I had learned and act as a teacher to theoretical blog readers, which helped cement my understanding and find flaws in what I had retained.</p>
+                        <p>Unfortunately, any blog posts between 2016 and 2018 were lost to time (i.e., I deleted them because they seemed silly at the time). You can still see my two posts from 2018 (<em>The C++ Compiler</em> and <em>AES Encryption</em>) as examples. Looking back, I wish I had kept them around, even if they were awkward. There's something valuable about being able to see the rough edges of your own learning.</p>
+                        <p>Overall, this blog serves as my home on the web. It's a place for me to put my thoughts out into the world and has evolved from learning and tutorials into a blog where I can rant about the world, share my opinions, and create useful tutorials for others.</p>
+                    </section>
+
+                    <section>
+                        <h3>What does your creative process look like when it comes to blogging?</h3>
+                        <p>I have a straightforward and simple process, depending on where the inspiration for a post comes:</p>
+                        <p><strong>Emotional Writing</strong></p>
+                        <p>If I'm inspired by another person's post online, current events, or other influences we can call “emotional” for the purpose of this post, then I simply sit down with a blank slate and start writing out all of my possible thoughts. These are usually the posts where I am reacting to something about privacy, the personal web, self-hosting, or the way people talk about technology online. Once I have worked through the initial emotional response, I go back through my draft to fix errors, correct grammar, and restructure as needed. In most cases, I only go through a single revision before posting.</p>
+                        <p><strong>Planned Writing</strong></p>
+                        <p>In other cases, I'm not providing opinions or commenting on a situation. Instead, I'm sharing knowledge, creating tutorials, or providing examples of something I've created. In these cases, I will start by coming up with a thesis first, followed by a set of headings. For example, if I were writing about my macOS setup, I might split it into the following sections: window management, utility tools, top apps, privacy and security configurations, and regular tasks. From there, I will write quick notes on what I want to include in each section and then start from the beginning to fill them out until I'm satisfied. Lastly, I'll go through a revision before posting.</p>
+                    </section>
+
+                    <section>
+                        <h3>Do you have an ideal creative environment? Do you believe the physical space influences your creativity?</h3>
+                        <p>Yes and yes. Physical space absolutely influences my creativity. In my case, I strive for minimalism and when writing, I prefer a blank slate in an environment where distractions are reduced.</p>
+                        <p>I am almost always sitting at my desk, writing blog posts on my MacBook. In certain cases, I will write blog posts while traveling for work as the inspiration sometimes comes at unusual times and in unusual locations.</p>
+                        <p>When writing at home, I will keep a show or music playing in my headphones with noise reduction running to reduce any other sounds from leaking in. When concentration and accuracy are critical, I will opt for music like Chet Baker, as it's something I've listened to often and will become background noise – rather than a show or upbeat music that can potentially steal snippets of my concentration.</p>
+                        <p>When possible, this leads to me writing on a single machine with noise reduction and no other objects on the desk. It makes the writing feel less like another thing happening in a busy day and more like the only thing I am supposed to be doing.</p>
+                    </section>
+
+                    <section>
+                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
+                        <p>My favorite part! This blog has been through many iterations in the last ten years.</p>
+                        <p>Currently, my blog uses:</p>
+                        <ul>
+                            <li><a href="https://emacs.love/weblorg/" rel="noopener">Weblorg</a>, a static site generator for Org mode</li>
+                            <li><a href="https://orgmode.org/" rel="noopener">Org mode</a>, a markup language (like Markdown)</li>
+                            <li><a href="https://github.com/doomemacs/" rel="noopener">Doom Emacs</a>, an Emacs editor that works natively with Org mode and Weblorg</li>
+                            <li><a href="https://ubuntu.com/" rel="noopener">Ubuntu</a> &amp; <a href="https://nginx.org/" rel="noopener">Nginx</a>, the operating system and web server serving the blog</li>
+                            <li><a href="https://github.com/ccleberg/cleberg.net/blob/main/build.py" rel="noopener">build.py</a>, my custom script to build and deploy the blog to the web server</li>
+                            <li><a href="https://developers.cloudflare.com/tunnel/" rel="noopener">Cloudflare Tunnels</a>, a method that securely connects any visitor to my server while protecting it from malicious attacks and without exposing my server's information</li>
+                            <li><a href="https://sr.ht/~ccleberg/cleberg.net/" rel="noopener">SourceHut</a> (Mirror: <a href="https://github.com/ccleberg/cleberg.net" rel="noopener">GitHub</a>), where I host the source code and content for the site in a repository</li>
+                        </ul>
+                        <p>With this, I simply make any edits to the site via the repository and then run <code>ENV=prod BUILD=true DEPLOY=true uv run build.py</code> to build and deploy the site to the production server.</p>
+                        <p>The stack fits me because it keeps the blog close to plain text and source control. I like that I can understand the whole thing, rebuild it, move it, or fix it myself without depending too heavily on someone else's platform.</p>
+                    </section>
+
+                    <section>
+                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
+                        <p>I would write more often. I was very nervous about sharing online, given my history with privacy advocacy, and therefore wrote rarely and without opinion. I stuck to technically accurate and non-opinion pieces. There is a strange tension there: I care a lot about privacy, but the personal web only really works if people are willing to show a little bit of themselves.</p>
+                        <p>If I were to start a blog today, I would start sharing any thoughts whenever they popped into my head. I would choose the simplest possible platform – probably Bear Blog – and just start posting without worrying about the site itself.</p>
+                        <p>Don't worry too much about the details. Just start getting things out there that you care about and the rest will come in time. As you post more, you will realize what you care about sharing the most, who likes your content, and where you fit in the web. I wish I had understood earlier that a blog does not need to launch fully formed. It can become itself while you are writing it.</p>
+                    </section>
+
+                    <section>
+                        <h3>Financial question since the web is obsessed with money: how much does it cost to run your blog? Is it just a cost or does it generate revenue? And what's your position on people monetizing personal blogs?</h3>
+                        <p>First, I make exactly <strong>zero</strong> dollars running my websites. That doesn't just include my blog, it includes every public service I host on <a href="https://krz.sh/services/" rel="noopener">Zero Labs</a> and any other website I publish.</p>
+                        <p>All of my work is open source and publicly available to reproduce. I've had a tips page on my site for a while, but I have never received anything there, and I do not mind that. Anything I would receive would go back into the costs of running the site.</p>
+                        <p>If we're talking about the blog by itself, excluding the cost of originally building my server and the electricity required to run it, my website technically requires $11.86 per year just for the domain renewal.</p>
+                        <p>The broader set of public services I host has some other monthly costs, which are optional and I pay them for additional benefits, but the site would run fine without them:</p>
+                        <ul>
+                            <li>$99.00 – Annual Apple developer license (for my open source iOS apps)</li>
+                            <li>$25.00 – Monthly Cloudflare Pro Plan (for additional security protections)</li>
+                            <li>$5.00 – Monthly Cache Reserve (variable, depending on traffic)</li>
+                        </ul>
+                        <p>In general, I don't really need any tips or donations and certainly don't want to monetize my content. Rather, I prefer to donate my own money to others or contribute to indie devs, bloggers, and others online that I want to support. I like the idea of the web as a place where people make things because they care about them, and where support is voluntary instead of being forced through ads, tracking, or paywalls.</p>
+                    </section>
+
+                    <section>
+                        <h3>Time for some recommendations: any blog you think is worth checking out?</h3>
+                        <p>This was tough to decide. I follow a ton of blogs and decided to limit this to just a select few of my absolute favorites:</p>
+                        <ul>
+                            <li><a href="https://blog.absurdpirate.com/" rel="noopener">Absurd Pirate</a> – personal web writing with a voice that feels very human</li>
+                            <li><a href="https://blog.avas.space/" rel="noopener">Ava</a> – thoughtful posts that feel intimate and carefully made</li>
+                            <li><a href="https://btxx.org/" rel="noopener">Bradley Taunt</a> – simple, practical writing about the web and technology</li>
+                            <li><a href="https://forkingmad.blog/" rel="noopener">Forking Mad</a> – great personal blogging energy and links worth following</li>
+                            <li><a href="https://www.jeffgeerling.com/" rel="noopener">Jeff Geerling</a> – excellent homelab, Linux, and hardware writing</li>
+                            <li><a href="https://jvns.ca/" rel="noopener">Julia Evans</a> – some of the clearest technical explanations on the internet</li>
+                            <li><a href="https://robertbirming.com/" rel="noopener">Robert Birming</a> – thoughtful personal writing and web experiments</li>
+                            <li><a href="https://www.seangoedecke.com/" rel="noopener">Sean Goedecke</a> – sharp software engineering posts with real experience behind them</li>
+                            <li><a href="https://technically-good.ca/" rel="noopener">Technically Good</a> – consistently interesting writing about technology and the web</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h3>Final question: is there anything you want to share with us?</h3>
+                        <p>If you use private alternatives or front-ends, feel free to use my publicly available services on Zero Labs: <a href="https://krz.sh/services/" rel="noopener">krz.sh/services</a>. If you want me to host another service, just ask!</p>
+                        <p>I maintain those services because I want people to have more options than the default web, even if it's only a small contribution.</p>
+                        <p>If you are looking for any guides around self-hosting that don't exist yet – reach out and ask! I love testing new software and writing guides for them.</p>
+                        <p>If you're a SourceHut user, check out <a href="https://krz.sh/apps/hutch/" rel="noopener">Hutch</a> – an iOS app for SourceHut I've created and maintain.</p>
+                        <p>And if nothing else, email me if you enjoy my blog! I love hearing from people and always enjoy keeping up regular correspondence. Some of my favorite moments online have come from a quiet email from someone who read something I wrote and wanted to keep the conversation going. Thanks to everyone who has visited my site or emailed me in the past!</p>
+                    </section>
+                </section>
+
+                <!-- Closing -->
+                <p>•--♡--•</p>
+
+            </section>
+]]></content:encoded>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="true">https://zacharykai.net/notes/pb/christian</guid>
+    </item>
     <item>
       <title>People and Blogs: Eetu</title>
       <link>https://zacharykai.net/notes/pb/eetu</link>
@@ -2114,89 +2232,6 @@
 ]]></content:encoded>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="true">https://zacharykai.net/notes/pb/stefano</guid>
-    </item>
-    <item>
-      <title>People and Blogs: David Cain</title>
-      <link>https://zacharykai.net/notes/pb/cain</link>
-      <description>People and Blogs is a series by Manuel Moreale featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with David Cain. Do go visit their blog and ...</description>
-      <content:encoded><![CDATA[<!--?xml encoding="UTF-8"--><section class="e-content">
-
-                <!-- Introduction -->
-                <p id="top" class="p-summary"><em><a href="https://manuelmoreale.com/pb" rel="noopener">People and Blogs</a> is a series by <a href="https://manuelmoreale.com/" rel="noopener">Manuel Moreale</a> featuring the people behind personal blogs and the stories of their corners of the web. This conversation is with David Cain. Do go visit <a href="https://www.raptitude.com" rel="noopener">their blog</a> and say hello!</em></p>
-
-                <!-- Interview -->
-                <section>
-                    <h2>Interview</h2>
-
-                    <section>
-                        <h3>Let's start from the basics: can you introduce yourself?</h3>
-                        <p>I’m a Canadian blogger and entrepreneur. I started doing this back when I was in a totally different line of work. I was a surveyor for an engineering company, and where I live the industry slows down in the winter because of the harsh cold, so I began poking around on the internet a little more than usual. That led to discovering blogs, and the possibility of doing that for a living.</p>
-                        <p>I had always been into writing, so having a way to publish my thoughts and for interested parties to read them and care was a revelation. That was 2008 or so, when the internet was a very different place. Social media was a niche and nerdy thing, big companies had no idea how to use the internet, and we were not all algorithmized. I miss that time.</p>
-                        <p>Aside from what I write about (see below), I’m into indoor climbing, reading, religion, history, and lifting weights. I’m also into the idea of the “Oldschool Internet.” As you know if you’re over 30, the internet used to feel different than it does now. It was freer, more creative and weird, and less dominated by big platforms and algorithms. I have a deep, deep nostalgia for it and I wish I could recreate that feeling.</p>
-                    </section>
-
-                    <section>
-                        <h3>What's the story behind your blog?</h3>
-                        <p>When I was goofing around on the internet at work I found a blog about blogging for a living, and one day decided I would do that. I had always been interested in the inner world of the human being. I was always thinking about this conundrum of having mind and a body. You have no instruction manual, and you have to go and live a life and try to be happy. I sat down and listed like a hundred obscure ideas I’d been wanting to tell the world.</p>
-                        <p>What I didn’t realize is that my obsession with the inner human world and managing the human condition was due to having undiagnosed ADHD, which made ordinary life stuff very complicated and difficult. My challenges led me to reading piles of self-help and spiritual-flavored stuff. A lot of it was crap but I did learn quite a bit about making the most of the mess that is human life, and shared what I found.</p>
-                        <p>The blog I started was called <a href="https://www.raptitude.com/" rel="noopener">Raptitude</a>. It was just a made-up word, combining “rapt” and “aptitude.” The idea is that you can get better at appreciating life, at being rapt by the day-to-day experience of being alive. Many of my posts were little tricks I’d figured out for getting yourself to do things, not realizing it was coming from a rather crippling psychiatric condition. I finally got diagnosed at age 40, after twelve years of blogging.</p>
-                        <p>I always tried to stay away from writing in the kind of mushy, therapeutic tone that dominates the self-help and spiritual space. I wrote about weird and hypothetical things instead, and I found an audience pretty quickly.</p>
-                        <p>This year I launched a second site to help other “productivity-challenged” people. It’s called <a href="https://howtodothings.co/blog/" rel="noopener">How to Do Things</a>, and it’s more practical and less philosophical than Raptitude, and is aimed at adults with ADHD.</p>
-                        <p>Today my writing is more focused, less wild. But Raptitude is the same blog it was 17 years ago when I first launched it.</p>
-                    </section>
-
-                    <section>
-                        <h3>What does your creative process look like when it comes to blogging?</h3>
-                        <p>I have ideas all the time and take voice notes when I’m out and about. If I’m home I just mind-dump into a text document.</p>
-                        <p>Later I go through my ideas and find one I think I could actually write about. I play around with it, find an angle, and start typing. I do a lot of moving things around, cutting and pasting. Sometimes I’ll write 3 or 4 thousand words and end up with a 1200-word post. Sometimes I even delete the original idea and just riff on a tangential idea.</p>
-                        <p>It is not an efficient or structured process, it’s just habit. I take forever to write posts, even now. I don’t do drafts exactly, I just barf out the idea, try to find a bottom-line point, then revise what I’ve written to point to that bottom-line idea. I do a couple of passes to try to shorten it, which just as often ends up lengthening it. Then I add pictures with funny captions so people don’t get bored and publish it.</p>
-                        <p>I don’t involve anyone else in the writing and there are typos sometimes.</p>
-                    </section>
-
-                    <section>
-                        <h3>Do you have an ideal creative environment? Also do you believe the physical space influences your creativity?</h3>
-                        <p>I have a home office and that’s pretty much exclusively where I work. Everything I need is there, my desk has a lot of space, I have multiple monitors. I play instrumental music. Classical or ambient electronic.</p>
-                        <p>I’ve worked in coffee shops, and I do get inspired by being out in the world. But I always feel guilty about taking up their seats for too long, and the travel time seems like a waste so I don’t do that much.</p>
-                    </section>
-
-                    <section>
-                        <h3>A question for the techie readers: can you run us through your tech stack?</h3>
-                        <p>I have always used WordPress, and self-host on BigScoots. I love the host and am so glad I switched from a large, well-known terrible company I will not name. WordPress is good and a lot less clunky than it used to be.</p>
-                    </section>
-
-                    <section>
-                        <h3>Given your experience, if you were to start a blog today, would you do anything differently?</h3>
-                        <p>Today I would just do a Substack. I still might switch to Substack one day. It seems like a well-contained environment that takes eliminates a lot of technical and design considerations that can suck up writing time. You’re also built into a network of other writers and readers.</p>
-                        <p>What I would do differently is learn to make a kind of content that doesn’t take long to make. I take forever to do one piece and it is still hard.</p>
-                        <p>Another thing I’d do differently is define my topic more narrowly. I write about anything pertaining to human life, which makes it difficult to know what to write about, and difficult to do any marketing or intentional growth, because there is no identifiable crowd or demographic that I know would be into my “topic.”</p>
-                    </section>
-
-                    <section>
-                        <h3>Financial question since the Web is obsessed with money: how much does it cost to run your blog? Is it just a cost, or does it generate some revenue? And what's your position on people monetising personal blogs?</h3>
-                        <p>It costs a fortune, all told, because it’s a business and not just a blog. Hosting isn’t bad – a few hundred dollars a year. I pay someone on a monthly basis to update and maintain the site and deal with downtime and crashes and other stuff that used to blow up my life once a year or so. I’m not a super savvy technical person so this is necessary.</p>
-                        <p>The highest cost is the email management system, which is essential for the layers and layers of emails I send. With 40,000 people in the system it costs over $400 a month. There may be cheaper options but switching would be too big a pain. I also have tons of little subscription costs that have become necessary for product delivery (Dropbox for example). Altogether my monthly business expenses are more than my rent.</p>
-                        <p>I make a full-time living from my blog by offering products to my readers. I also have a Patreon.</p>
-                        <p>The whole operation would be way cheaper to run if I didn’t sell anything. I am all for monetizing personal blogs. Good content is hard to make and takes time, and if you want to offer something bigger than blog posts, you have to charge for it or it doesn’t get made.</p>
-                    </section>
-
-                    <section>
-                        <h3>Time for some recommendations: any blog you think is worth checking out? And also, who do you think I should be interviewing next?</h3>
-                        <p>I am a fan of David Pinsof’s <a href="https://www.everythingisbullshit.blog/" rel="noopener">Everything is Bullshit</a> and Scott Alexander’s <a href="https://www.astralcodexten.com/" rel="noopener">Astral Codex Ten</a>, both of which are Substacks now. Mostly I read books these days.</p>
-                    </section>
-
-                    <section>
-                        <h3>Final question: is there anything you want to share with us?</h3>
-                        <p>I just want to say this was a lot of fun. Not to be the old man in the room but the internet has changed immensely since I started in 2008. Part of what has dropped away (at least for me) has been being in the “world” of blogs. Answering these questions and reading other people’s answers on your site has reminded me that some semblance of that community spirit still exists. Thanks for keeping it alive.</p>
-                    </section>
-                </section>
-
-                <!-- Closing -->
-                <p>•--♡--•</p>
-
-            </section>
-]]></content:encoded>
-      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="true">https://zacharykai.net/notes/pb/cain</guid>
     </item>
   </channel>
 </rss>

@@ -6,13 +6,6 @@ layout: 'base.njk'
 
 
 <div class="portal-layout home-index">
-  <aside class="portal-left">
-    {% include "sidebar-left.njk" %}
-    {% postrollItems %}
-    {% bearblogDiscoveryItems %}
-    {% include "fantastic-web-snippet.njk" %}
-  </aside>
-
   <div class="home-status-strip">
     <div class="geocities-strip" aria-label="Retro animated badges">
       <span class="geo-badge blink">STATUS:</span>
@@ -23,20 +16,147 @@ layout: 'base.njk'
   </div>
 
   <div class="portal-center">
-    <a href="/archives/"><h4 class="telegraph-section-title">Latest Articles:</h4></a>
-
     {% set recentPosts = collections.post | reverse %}
+
+    {% set latestItem = collections.siteActivity[0] %}
+    {# Whatever is featured in full above is filtered out of the listings below. #}
+    {% set featuredUrl = latestItem.url if latestItem else "" %}
+    {% if latestItem %}
+    {% set latestTags = latestItem.data.tags %}
+    {% set isBook = "books" in latestTags %}
+    {% set isMovie = "movies" in latestTags %}
+    {% set isSnap = "snap" in latestTags %}
+    {% set latestCoverUrl = latestItem.data.cover | assetUrl %}
+
+    <article class="home-latest-post">
+      <span class="home-latest-kicker">
+        {% if isBook %}Latest book{% elif isMovie %}Latest movie{% elif isSnap %}Latest photo{% else %}Latest post{% endif %}
+      </span>
+
+      <h1><a href="{{ latestItem.url }}" class="u-url p-name">{{ latestItem.data.title }}</a></h1>
+      <h3>{{ latestItem.date | postDate }}</h3>
+
+      {% if latestTags %}
+      <p>Tags:
+        {% for tag in latestTags %}
+          <a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% if not loop.last %} {% endif %}
+        {% endfor %}
+      </p>
+      {% endif %}
+
+      {% if "word-vomit" in latestTags %}
+      <blockquote>
+        <p>This post is a part of my word-vomit series. Feel free to skip it.</p>
+      </blockquote>
+      {% endif %}
+
+      {% if (isBook or isMovie) and latestCoverUrl %}
+      <section class="book-post-hero" aria-label="{% if isBook %}Book{% else %}Movie{% endif %} details">
+        <div class="book-post-cover">
+          <img src="{{ latestCoverUrl }}" alt="Cover of {{ latestItem.data.title }}">
+        </div>
+
+        <div class="movie-post-details">
+          <dl class="book-post-meta">
+            <div>
+              <dt>Title</dt>
+              <dd>{{ latestItem.data.title | replace("Book review:", "") | trim }}</dd>
+            </div>
+
+            {% if latestItem.data.author %}
+            <div>
+              <dt>Author</dt>
+              <dd>{{ latestItem.data.author }}</dd>
+            </div>
+            {% endif %}
+
+            {% if latestItem.data.director %}
+            <div>
+              <dt>Director</dt>
+              <dd>{{ latestItem.data.director }}</dd>
+            </div>
+            {% endif %}
+
+            {% if latestItem.data.rating %}
+            <div>
+              <dt>My rating</dt>
+              <dd>
+                <span class="book-post-stars" aria-label="{{ latestItem.data.rating }} out of 5">
+                  {% for i in range(5) %}{% if i < latestItem.data.rating %}★{% else %}☆{% endif %}{% endfor %}
+                </span>
+                <span class="book-post-rating-text">{{ latestItem.data.rating }}/5</span>
+              </dd>
+            </div>
+            {% endif %}
+
+            {% if latestItem.data.location %}
+            <div>
+              <dt>Location</dt>
+              <dd>{{ latestItem.data.location }}</dd>
+            </div>
+            {% endif %}
+
+            {% if latestItem.data.sdate %}
+            <div>
+              <dt>Start date</dt>
+              <dd><time datetime="{{ latestItem.data.sdate | isoDate }}">{{ latestItem.data.sdate | postDate }}</time></dd>
+            </div>
+            {% endif %}
+
+            {% if latestItem.data.fdate %}
+            <div>
+              <dt>Finish date</dt>
+              <dd><time datetime="{{ latestItem.data.fdate | isoDate }}">{{ latestItem.data.fdate | postDate }}</time></dd>
+            </div>
+            {% endif %}
+
+            {% if isMovie %}
+            <div>
+              <dt>Watched on</dt>
+              {% if latestItem.data.wdate %}
+              <dd><time datetime="{{ latestItem.data.wdate | isoDate }}">{{ latestItem.data.wdate | postDate }}</time></dd>
+              {% else %}
+              <dd><time datetime="{{ latestItem.date | isoDate }}">{{ latestItem.date | postDate }}</time></dd>
+              {% endif %}
+            </div>
+            {% endif %}
+          </dl>
+        </div>
+      </section>
+      {% endif %}
+
+      {% if isSnap and latestItem.data.comment %}
+      <p>{{ latestItem.data.comment | safe }}</p>
+      {% endif %}
+
+      {% if not (isBook or isMovie) and latestCoverUrl and not (latestCoverUrl in latestItem.content) and not (latestItem.data.cover in latestItem.content) %}
+      <figure class="writing-post-cover">
+        <img src="{{ latestCoverUrl }}" alt="Cover for {{ latestItem.data.title }}">
+      </figure>
+      {% endif %}
+
+      {{ latestItem.content | safe }}
+    </article>
+    {% endif %}
+
+    <a href="/archives/" class="section-title-link"><h4 class="telegraph-section-title">Latest Articles:</h4></a>
+
     <section class="section writing-layout">
       <div class="writing-row-one">
-        {% if recentPosts[0] %}
-        <article class="writing-lead{% if recentPosts[0].data.highlight %} writing-highlight{% endif %}">
-          {% set leadTag = recentPosts[0].data.tags[1] or recentPosts[0].data.tags[0] %}
-          <div class="tagline"><a href="/tags/{{ leadTag | slug }}/">{{ leadTag }}</a></div>
-          <a href="{{ recentPosts[0].url }}" class="u-url p-name"><strong>{{ recentPosts[0].data.title }}</strong></a>
-          <time class="home-entry-date" datetime="{{ recentPosts[0].date | isoDate }}">{{ recentPosts[0].date | postDate }}</time>
-          <p>{{ recentPosts[0].content | plainExcerpt(32) }}</p>
-        </article>
-        {% endif %}
+        <ul class="entry-list">
+          {% for post in recentPosts | excludeUrl(featuredUrl) %}
+            {% if loop.index <= 6 %}
+            <li class="entry-item{% if post.data.highlight %} writing-highlight{% endif %}">
+              <a href="{{ post.url }}" class="u-url p-name entry-title">{{ post.data.title }}</a>
+              <span class="entry-meta">
+                {% for tag in post.data.tags %}{% if tag != "post" %}<a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% endif %}{% endfor %}
+                <span class="entry-sep">|</span>
+                <time datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time>
+              </span>
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
 
         <article class="writing-piclog">
           <a href="{{ piclogImage }}">
@@ -49,114 +169,62 @@ layout: 'base.njk'
           </a>
         </article>
       </div>
-
-      <div class="writing-row-two">
-        {% for post in recentPosts | offset(1) %}
-          {% if loop.index <= 3 %}
-          <article class="writing-card{% if post.data.highlight %} writing-highlight{% endif %}">
-            {% set postTag = post.data.tags[1] or post.data.tags[0] %}
-            <div class="tagline"><a href="/tags/{{ postTag | slug }}/">{{ postTag }}</a></div>
-            <a href="{{ post.url }}" class="u-url p-name"><strong>{{ post.data.title }}</strong></a>
-            <time class="home-entry-date" datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time>
-            <p>{{ post.content | plainExcerpt(18) }}</p>
-          </article>
-          {% endif %}
-        {% endfor %}
-      </div>
     </section>
 
-    <a href="/books/"><h4 class="telegraph-section-title">Readers Section</h4></a>
-
-    <section class="section telegraph-feature-list">
-      <div class="media-list">
-        {% for book in collections.books | sort(attribute='date') | reverse %}
-          {% if loop.index <= 4 %}
-            <article class="media-item">
-              <a href="{{ book.url }}" class="media-thumb">
-                <img src="{{ book.data.cover | assetUrl }}" alt="{{ book.title }}">
-              </a>
-              <div class="media-text">
-                <a href="{{ book.url }}">
-                  <strong>{{ book.data.title }}</strong>
-                  {% if book.data.rating %}
-                  <span class="inline-rating">
-                    {% for i in range(5) %}{% if i < book.data.rating %}★{% else %}☆{% endif %}{% endfor %}
-                  </span>
-                  {% endif %}
-                </a>
-                <time class="home-entry-date" datetime="{{ book.date | isoDate }}">{{ book.date | postDate }}</time>
-                <p>{{ book.content | plainExcerpt(18) }}</p>
-              </div>
-            </article>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </section>
-
-    <a href="/movies/"><h4 class="telegraph-section-title">Cinema Lovers</h4></a>
-
-    <section class="section telegraph-feature-list">
-      {% set recentMovies = collections.movies | sort(attribute='date') | reverse %}
-      <div class="movie-showcase">
-        <div class="movie-feature-list">
-          {% for movie in recentMovies %}
-            {% if loop.index <= 1 %}
-              <article class="movie-feature-item">
-                <a href="{{ movie.url }}" class="movie-feature-thumb">
-                  <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.title }}">
-                </a>
-                <div class="movie-feature-text">
-                  <a href="{{ movie.url }}">
-                    <strong>{{ movie.data.title }}</strong>
-                  </a>
-                  {% if movie.data.rating %}
-                  <div class="inline-rating">
-                    {% for i in range(5) %}{% if i < movie.data.rating %}★{% else %}☆{% endif %}{% endfor %}
-                  </div>
-                  {% endif %}
-                  <time class="home-entry-date" datetime="{{ movie.date | isoDate }}">{{ movie.date | postDate }}</time>
-                  <p>{{ movie.content | plainExcerpt(16) }}</p>
-                </div>
-              </article>
-            {% endif %}
-          {% endfor %}
-        </div>
-
-        <div class="movie-side-list">
-          {% for movie in recentMovies | offset(1) %}
+    <div class="home-media-columns">
+      <section class="home-media-col">
+        <a href="/movies/" class="section-title-link"><h4 class="telegraph-section-title">Movies</h4></a>
+        <div class="home-cover-row">
+          {% set recentMovies = collections.movies | sort(attribute='date') | reverse %}
+          {% for movie in recentMovies | excludeUrl(featuredUrl) %}
             {% if loop.index <= 3 %}
-              <article class="movie-side-item">
-                <a href="{{ movie.url }}" class="movie-side-thumb">
-                  <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.title }}">
-                </a>
-                <div class="movie-side-text">
-                  <a href="{{ movie.url }}">
-                    <strong>{{ movie.data.title }}</strong>
-                  </a>
-                  {% if movie.data.rating %}
-                  <div class="inline-rating">
-                    {% for i in range(5) %}{% if i < movie.data.rating %}★{% else %}☆{% endif %}{% endfor %}
-                  </div>
-                  {% endif %}
-                  <time class="home-entry-date" datetime="{{ movie.date | isoDate }}">{{ movie.date | postDate }}</time>
-                  <p>{{ movie.content | plainExcerpt(6) }}</p>
-                </div>
-              </article>
+              <a href="{{ movie.url }}" class="home-cover" title="{{ movie.data.title }}">
+                <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.data.title }}">
+                {% if movie.data.rating %}
+                <span class="home-cover-rating">
+                  {% for i in range(5) %}{% if i < movie.data.rating %}★{% endif %}{% endfor %}
+                </span>
+                {% endif %}
+              </a>
             {% endif %}
           {% endfor %}
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section you-might-like">
-      <h4 class="telegraph-section-title">You might also like:</h4>
-      <div class="external-feed-grid">
-        {% externalFeedCards %}
-      </div>
-    </section>
+      <section class="home-media-col">
+        <a href="/books/" class="section-title-link"><h4 class="telegraph-section-title">Books</h4></a>
+        <div class="home-cover-row">
+          {% set recentBooks = collections.books | sort(attribute='date') | reverse %}
+          {% for book in recentBooks | excludeUrl(featuredUrl) %}
+            {% if loop.index <= 3 %}
+              <a href="{{ book.url }}" class="home-cover" title="{{ book.data.title }}">
+                <img src="{{ book.data.cover | assetUrl }}" alt="{{ book.data.title }}">
+                {% if book.data.rating %}
+                <span class="home-cover-rating">
+                  {% for i in range(5) %}{% if i < book.data.rating %}★{% endif %}{% endfor %}
+                </span>
+                {% endif %}
+              </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+
+  <br>
+    <a href="/snap/" class="section-title-link"><h4 class="telegraph-section-title">Photos</h4></a>
+
+    <div class="home-snap-row">
+      {% set recentSnaps = collections.snap | reverse %}
+      {% for snap in recentSnaps | excludeUrl(featuredUrl) %}
+        {% if loop.index <= 4 %}
+          <a href="{{ snap.url }}" class="home-snap" title="{{ snap.data.title }}">
+            <img src="{{ snap.data.cover | assetUrl }}" alt="{{ snap.data.title }}">
+            <span class="home-snap-caption">{{ snap.data.title }}</span>
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  <br>
   </div>
-
-  <aside class="portal-right">
-    {% include "sidebar-right.njk" %}
-  </aside>
 </div>

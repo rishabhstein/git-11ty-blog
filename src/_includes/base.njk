@@ -32,7 +32,7 @@
     <!-- Le styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="{{ siteRoot }}assets/css/style.css?v=5.7">
+    <link rel="stylesheet" href="{{ siteRoot }}assets/css/style.css?v=8.8">
     <!-- <link rel="stylesheet" href="/assets/css/snow.css?v=1.0">
     <link rel="stylesheet" href="/assets/css/christmas-light.css"> -->
 
@@ -42,28 +42,15 @@
 
     <link rel="alternate" type="application/rss+xml" title="Rishabh's Blog Feed" href="/feed.xml" />
 
-    <script src="{{ siteRoot }}assets/js/sidebar.js" defer></script>
-    <script src="{{ siteRoot }}assets/js/mobile-sidebar-sections.js" defer></script>
     <script src="{{ siteRoot }}assets/js/activity-heatmap.js" defer></script>
     <script src="{{ siteRoot }}assets/js/workout-tabs.js" defer></script>
     <script src="{{ siteRoot }}assets/js/status-ticker.js" defer></script>
     <script src="{{ siteRoot }}pagefind/pagefind-ui.js" defer></script>
     <script src="{{ siteRoot }}assets/js/pagefind-init.js" defer></script>
     <script src="{{ siteRoot }}assets/js/cat-cursor.js" defer></script>
-    <audio id="sidebar-music" src="/assets/sounds/blog_background.mp3" preload="none" loop></audio>
-    <audio id="focus-mode-sound" src="/assets/sounds/angel-harp.mp3" preload="none"></audio>
 
 </head>
 <body class="{{ pageClass or '' }}">
-<script>
-  try {
-    if (sessionStorage.getItem("focus-mode-enabled") === "1") {
-      document.body.classList.add("focus-mode");
-    }
-  } catch (error) {
-    // Ignore storage failures and let the deferred script restore state later.
-  }
-</script>
 <!--
 <ul class="strand">
 	<li></li>
@@ -127,7 +114,6 @@
 
     {% include 'header.njk' %}
     <main>
-    <button class="toggle-sidebar">🎶 Music</button>
     <div class="layout-wrapper">
     {% if page.url == "/" %}
     <div class="main-content home-shell" data-pagefind-body>
@@ -135,89 +121,11 @@
     </div> <!--main content end-->
     {% else %}
     <div class="portal-layout">
-      <aside class="portal-left">
-        {% include "sidebar-left.njk" %}
-        {% postrollItems %}
-        {% bearblogDiscoveryItems %}
-        {% include "fantastic-web-snippet.njk" %}
-      </aside>
       <div class="main-content portal-center" data-pagefind-body>
         {{ content | safe }}
       </div> <!--main content end-->
-      <aside class="portal-right">
-        <a href="/feed.xml" class="rss-panel-gif" title="Subscribe to RSS feed">
-          <span class="rss-panel-left">RSS</span>
-          <span class="rss-panel-mid">
-            <span class="rss-panel-mid-line rss-line-1">There is more to the story</span>
-            <span class="rss-panel-mid-line rss-line-2">Subscribe</span>
-            <span class="rss-panel-mid-line rss-line-3">CLICK HERE</span>
-          </span>
-          <span class="rss-panel-right">CLICK HERE</span>
-        </a>
-
-        {% set activityHeatmapItems = collections.workoutArchive %}
-        {% set activityHeatmapTitle = "Sport Activity" %}
-        {% set activityHeatmapLabelSingular = "workout" %}
-        {% set activityHeatmapLabelPlural = "workouts" %}
-        {% set activityHeatmapTitleUrl = "/workout/" %}
-        {% if collections.workoutArchive.length %}
-          {% set activityHeatmapInitialMonth = collections.workoutArchive[0].date | isoDate %}
-        {% endif %}
-        {% set activityHeatmapMonthLinkPrefix = (site.pathPrefix or "/") ~ "workout/" %}
-        {% include "activity-heatmap.njk" %}
-
-        <h3><a href="/workout/">Recent Activity</a></h3>
-        <ul class="portal-list sidebar-activity-list">
-          {% for workout in collections.workoutArchive %}
-            {% if loop.index <= 4 %}
-              <li>
-                <a href="/workout/{{ workout.date.getFullYear() }}/#month-{{ workout.date | monthKey }}">{{ workout.data.title }}</a>
-                <span class="sidebar-activity-meta">{{ workout.date | postDate }}{% if workout.data.distance %} · {{ workout.data.distance }} km{% endif %}</span>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-
-        <h3><a href="/tags/">Tags</a></h3>
-        <ul class="portal-list">
-          {% for tag in collections.tagList %}
-            {% if loop.index <= 14 %}
-              <li><a href="/tags/{{ tag | slug }}/">{{ tag }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-
-        <h3>Word-vomit series</h3>
-        <ul class="portal-list">
-          {% for post in collections["word-vomit"] | reverse %}
-            {% if loop.index <= 5 %}
-              <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-          <li><a href="/tags/word-vomit/"><strong>More..</strong></a></li>
-        </ul>
-      </aside>
     </div>
     {% endif %}
-
-    <div class="right-column">
-      <!-- Right Sidebar Column -->
-      <h3><img src="/assets/icons/fb-announce.png" class="icon-emoji"> Status </h3>
-      <div class="section">
-        <section class="livestatus">
-          <div
-            id="statuscafe"
-            style="background: var(--panel-bg); color: var(--text-color); border: 1px solid var(--panel-border); border-radius: 12px; padding: 10px; box-shadow: var(--panel-shadow);"
-          >
-            <div id="statuscafe-username"></div>
-            <div id="statuscafe-content"></div>
-          </div>
-          <script src="https://status.cafe/current-status.js?name=sigmarootpi" defer></script>
-        </section>
-      </div>
-    </div>
-
-    <div class="overlay"></div>
 
     </div> <!-- layout-wrapper end -->
     </main>

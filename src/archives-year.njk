@@ -1,10 +1,10 @@
 ---
 layout: 'base.njk'
 pagination:
-  data: collections.postArchiveYears
+  data: collections.postArchiveYearPages
   size: 1
-  alias: archiveYear
-permalink: "/archives/{{ archiveYear }}/"
+  alias: archivePage
+permalink: "/archives/{{ archivePage.year }}/{% if archivePage.pageNumber > 1 %}page/{{ archivePage.pageNumber }}/{% endif %}"
 eleventyExcludeFromCollections: true
 ---
 
@@ -21,13 +21,49 @@ eleventyExcludeFromCollections: true
   {% endfor %}
 </p>
 
-<h4>{{ archiveYear }}</h4>
-<ul class="blog-posts">
-  {% for post in collections.postArchive | itemsForYear(archiveYear) %}
-    <li>
-      <span>{{ post.date | postDate }}</span>
-       —
-      <a href="{{ post.url }}">{{ post.data.title }}</a>
+<h4>
+  {{ archivePage.year }}
+  {% if archivePage.totalPages > 1 %}
+  <span class="archive-page-count">page {{ archivePage.pageNumber }} of {{ archivePage.totalPages }}</span>
+  {% endif %}
+</h4>
+
+<ul class="entry-list">
+  {% for post in archivePage.posts %}
+    <li class="entry-item{% if post.data.highlight %} writing-highlight{% endif %}">
+      <a href="{{ post.url }}" class="entry-title">{{ post.data.title }}</a>
+      <span class="entry-meta">
+        {% for tag in post.data.tags %}{% if tag != "post" %}<a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% endif %}{% endfor %}
+        <span class="entry-sep">|</span>
+        <time datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time>
+      </span>
     </li>
   {% endfor %}
 </ul>
+
+{% if archivePage.totalPages > 1 %}
+<nav class="archive-pagination" aria-label="Archive pages">
+  {% if archivePage.pageNumber > 1 %}
+    {% set previousPage = archivePage.pageNumber - 1 %}
+    <a href="/archives/{{ archivePage.year }}/{% if previousPage > 1 %}page/{{ previousPage }}/{% endif %}">&larr; Newer</a>
+  {% else %}
+    <span class="archive-pagination-disabled">&larr; Newer</span>
+  {% endif %}
+
+  <span class="archive-pagination-pages">
+    {% for pageIndex in range(1, archivePage.totalPages + 1) %}
+      {% if pageIndex == archivePage.pageNumber %}
+        <span class="archive-pagination-current">{{ pageIndex }}</span>
+      {% else %}
+        <a href="/archives/{{ archivePage.year }}/{% if pageIndex > 1 %}page/{{ pageIndex }}/{% endif %}">{{ pageIndex }}</a>
+      {% endif %}
+    {% endfor %}
+  </span>
+
+  {% if archivePage.pageNumber < archivePage.totalPages %}
+    <a href="/archives/{{ archivePage.year }}/page/{{ archivePage.pageNumber + 1 }}/">Older &rarr;</a>
+  {% else %}
+    <span class="archive-pagination-disabled">Older &rarr;</span>
+  {% endif %}
+</nav>
+{% endif %}
