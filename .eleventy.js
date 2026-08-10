@@ -191,49 +191,6 @@ module.exports = async function(eleventyConfig) {
     md.renderer.rules.mark_close = () => "</mark>";
   }
 
-  function normalizeWebmentions(html) {
-    const mentionBlocks = String(html || "")
-      .split(/<(?:article|div|li)[^>]*class="[^"]*\bh-entry\b[^"]*"[^>]*>/i)
-      .slice(1)
-      .map((block) => block.split(/<(?:article|div|li)[^>]*class="[^"]*\bh-entry\b[^"]*"[^>]*>/i)[0]);
-
-    return mentionBlocks
-      .map((block) => {
-        const target = firstMatch(block, [
-          /<a[^>]*class="[^"]*\bu-mention-of\b[^"]*"[^>]*href="([^"]+)"/i,
-          /<a[^>]*href="([^"]+)"[^>]*class="[^"]*\bu-mention-of\b[^"]*"/i,
-        ]).trim();
-        const url = firstMatch(block, [
-          /<time class="dt-published" datetime="[^"]+">[\s\S]*?<a href="([^"]+)" class="u-url">/i,
-        ]);
-        const published = firstMatch(block, [
-          /<time class="dt-published" datetime="([^"]+)">/i,
-        ]);
-        const authorUrl = firstMatch(block, [
-          /<a href="([^"]+)" class="name u-url p-name">/i,
-        ]);
-        const authorName = firstMatch(block, [
-          /<a href="[^"]+" class="name u-url p-name">([\s\S]*?)<\/a>/i,
-        ]).replace(/\s+/g, " ").trim();
-        const hostFromUrl = getHostname(url);
-
-        return {
-          authorName: authorName || hostFromUrl || "Webmention",
-          authorUrl: authorUrl || url,
-          authorPhoto: "",
-          url,
-          target,
-          published,
-          typeLabel: target ? "Reply" : "Webmention",
-        };
-      })
-      .sort((left, right) => {
-        const leftTime = new Date(left.published || 0).getTime();
-        const rightTime = new Date(right.published || 0).getTime();
-        return rightTime - leftTime;
-      });
-  }
-
   function getHostname(url) {
     try {
       return url ? new URL(url).hostname.replace(/^www\./, "") : "";
@@ -318,13 +275,6 @@ module.exports = async function(eleventyConfig) {
     }
 
     return entries;
-  }
-
-  function formatWebmentionDate(value) {
-    if (!value) return "";
-    const dateTime = DateTime.fromISO(value);
-    if (!dateTime.isValid) return "";
-    return dateTime.toLocaleString(DateTime.DATE_MED);
   }
 
   function buildWebmentionItemHtml(mention) {
@@ -817,9 +767,6 @@ ${tabsMarkup}
   const { EleventyRenderPlugin } = await import("@11ty/eleventy");
   const { feedPlugin } = await import("@11ty/eleventy-plugin-rss");
   const { DateTime } = await import("luxon");
-  const markdownItModule = await import("markdown-it");
-  const markdownIt = markdownItModule.default;
-
   eleventyConfig.amendLibrary("md", (mdLib) => {
     mdLib.use(markSyntaxPlugin);
     return mdLib;
@@ -866,33 +813,6 @@ ${tabsMarkup}
   // Using RenderPlugin
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 
-  // Creating a Markdown filter
-  const md = new markdownIt();
-  md.use(markSyntaxPlugin);
-  eleventyConfig.addFilter("markdownify", (value) => {
-    return md.render(value || "");
-  });
-
-
-  // Filtering only few words
-  eleventyConfig.addFilter("wordLimit", function(content, limit = 50) {
-    if (!content) return "";
-    const words = content.split(/\s+/).slice(0, limit);
-    return words.join(" ") + "...";
-  });
-
-  // Create plain-text excerpts so embedded images/HTML are not rendered.
-  eleventyConfig.addFilter("plainExcerpt", function(content, limit = 40) {
-    if (!content) return "";
-    const withoutTags = content
-      .replace(/<img[^>]*>/gi, " ")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " ")
-      .trim();
-    const words = withoutTags.split(" ").slice(0, limit);
-    return words.join(" ") + (withoutTags.split(" ").length > limit ? "..." : "");
-  });
-
   eleventyConfig.addFilter("offset", function(items, count = 0) {
     if (!Array.isArray(items)) return [];
     return items.slice(count);
@@ -913,23 +833,6 @@ ${tabsMarkup}
       [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
     return shuffled;
-  });
-
-  eleventyConfig.addFilter("groupByYear", function(items) {
-    if (!Array.isArray(items)) return [];
-
-    // Keep years grouped in the same order the items were passed in.
-    const groups = [];
-    for (const item of items) {
-      const year = new Date(item.date).getFullYear();
-      const currentGroup = groups[groups.length - 1];
-      if (!currentGroup || currentGroup.year !== year) {
-        groups.push({ year, items: [item] });
-      } else {
-        currentGroup.items.push(item);
-      }
-    }
-    return groups;
   });
 
   eleventyConfig.addFilter("itemsForYear", function(items, year) {
@@ -972,10 +875,6 @@ ${tabsMarkup}
 
   eleventyConfig.addFilter("isoDate", function(dateObj) {
     return DateTime.fromJSDate(new Date(dateObj)).toISODate();
-  });
-
-  eleventyConfig.addFilter("monthKey", function(dateObj) {
-    return DateTime.fromJSDate(new Date(dateObj)).toFormat("yyyy-MM");
   });
 
   eleventyConfig.addFilter("formatWorkoutDuration", function(value) {
@@ -1133,20 +1032,6 @@ ${tabsMarkup}
   });
 
   // Group posts by year
-  eleventyConfig.addCollection("postsByYear", function(collectionApi) {
-    const posts = collectionApi.getFilteredByGlob("./posts/*.md");
-
-    let postsByYear = {};
-
-    posts.forEach(post => {
-      const year = post.date.getFullYear();
-      if (!postsByYear[year]) postsByYear[year] = [];
-      postsByYear[year].push(post);
-    });
-
-    return postsByYear;
-  });
-
   eleventyConfig.addCollection("postArchive", function(collectionApi) {
     return sortNewestFirst(collectionApi.getFilteredByTag("post"));
   });

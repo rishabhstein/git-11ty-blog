@@ -30,7 +30,7 @@ layout: 'base.njk'
 
     <article class="home-latest-post">
       <span class="home-latest-kicker">
-        {% if isBook %}Latest book{% elif isMovie %}Latest movie{% elif isSnap %}Latest photo{% else %}Latest post{% endif %}
+        Latest Post
       </span>
 
       <h1><a href="{{ latestItem.url }}" class="u-url p-name">{{ latestItem.data.title }}</a></h1>
@@ -139,7 +139,7 @@ layout: 'base.njk'
     </article>
     {% endif %}
 
-    <a href="/archives/" class="section-title-link"><h4 class="telegraph-section-title">Latest Articles:</h4></a>
+    <a href="/archives/" class="section-title-link"><h4 class="telegraph-section-title">Writings</h4></a>
 
     <section class="section writing-layout">
       <div class="writing-row-one">

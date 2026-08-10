@@ -23,7 +23,7 @@ title: Archives
   {% set currentYearPosts = collections.postArchive | itemsForYear(currentYear) %}
   <ul class="entry-list">
     {% for post in currentYearPosts %}
-      {% if loop.index <= 25 %}
+      {% if loop.index <= 15 %}
       <li class="entry-item{% if post.data.highlight %} writing-highlight{% endif %}">
         <a href="{{ post.url }}" class="entry-title">{{ post.data.title }}</a>
         <span class="entry-meta">

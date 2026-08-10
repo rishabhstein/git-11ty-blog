@@ -11,6 +11,7 @@
     <span class="footer-nav-title"><a href="/pages/">Pages</a></span>
     <ul class="footer-nav-list page-link-list">
       <li><a href="/about/">About</a></li>
+      <li><a href="/feed.xml">RSS Feed</a></li>
       <li><a href="/pages/colophon/">Colophon</a></li>
       <li><a href="/lifecalendar/">Life Calendar</a></li>
       <li><a href="/pages/imdbtop250/">IMDB Top 250</a></li>
@@ -22,7 +23,7 @@
     <span class="footer-nav-title"><a href="/tags/">Tags</a></span>
     <ul class="footer-nav-list page-link-list">
       {% for tag in collections.tagList %}
-        {% if loop.index <= 5 %}
+        {% if loop.index <= 6 %}
           <li><a href="/tags/{{ tag | slug }}/">{{ tag }}</a></li>
         {% endif %}
       {% endfor %}
@@ -33,13 +34,12 @@
     <span class="footer-nav-title">Discover</span>
     <ul class="footer-nav-list page-link-list">
       <li><a href="/pages/blogroll/">Blogroll</a></li>
-      <li><a href="/guestbook/">Guestbook</a></li>
       <li><a href="https://bearblog.dev/discover/" target="_blank" rel="noopener noreferrer">Bearblog Discovery</a></li>
       <li><a href="https://manuelmoreale.com/people-and-blogs" target="_blank" rel="noopener noreferrer">People and Blogs</a></li>
       <li><a href="/fantastic-web/">Fantastic Web</a></li>
       <li><a href="https://fyfluiddynamics.com">FYFD</a></li>
-      <li><a href="https://appaddict.app">Fantastic Web</a></li>
-      <li><a href="https://www.thisiscolossal.com">Fantastic Web</a></li>
+      <li><a href="https://appaddict.app">AppAdict</a></li>
+      <li><a href="https://www.thisiscolossal.com">Collosal</a></li>
     </ul>
   </div>
   <div class="footer-nav-col footer-heatmap">
