@@ -1,15 +1,14 @@
 ---
 title: "Things Become Other Things: A Walking Memoir (2025)"
 date: 2026-08-11
-status: "Reading"
+status: "Finished"
 author: "Craig Mod"
 published: true
 rating: 4
 location: "Brussels, Belgium"
 cover: "./assets/images/book_covers/2026-08-11-1786460427388-things-become-other-things-a-walking-memoir-2025.jpg"
+tags: "book-review"
 ---
-
-Book comments: 
 
 Memoir is one of my favorite genre for reading books. A cherry on top is when its about traveling. So basically a traveling log is the most exciting thing for me. After all I don't need to spend too much money being an [armchair traveler]().
 
