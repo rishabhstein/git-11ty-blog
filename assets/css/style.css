@@ -579,7 +579,7 @@ body {
 }
 
 .container-narrow {
-  max-width: 860px;
+  max-width: 882px; /* match the index .portal-center width */
 }
 
 .main-article {
@@ -674,7 +674,7 @@ footer {
 
 .main-article{
   margin: 0 auto;
-  max-width: min(800px, 90vw);
+  max-width: 882px; /* match the index .portal-center width */
 }
 
 .container-narrow {
@@ -2315,9 +2315,11 @@ hr {
 }
 
 .guestbook-message {
-  background-color: var(--panel-bg);
+  /* --card-hue is set to a random 0-360 value per card by the inline
+     script in guestbook.njk; the fallback keeps the card sane if JS is off. */
+  background-color: hsl(var(--card-hue, 0), 62%, 94%);
   color: var(--panel-text);
-  border: 1px solid var(--panel-border);
+  border: 1px solid hsl(var(--card-hue, 0), 45%, 82%);
   border-radius: 14px;
   padding: 14px 16px;
   margin: 0;
@@ -2337,7 +2339,7 @@ hr {
 .guestbook-message p {
   margin: 0 0 8px;
   padding-bottom: 6px;
-  border-bottom: 1px solid var(--panel-border);
+  border-bottom: 1px solid hsl(var(--card-hue, 0), 40%, 78%);
   font-size: 16px;
 }
 
@@ -2478,9 +2480,18 @@ hr {
 
 /* Guestbook: night-mode refinements (base colors already come from the dark variables) */
 @media (prefers-color-scheme: dark) {
-  .guestbook-message,
   #guestbooks___guestbook-form {
     background: linear-gradient(180deg, rgba(17, 29, 51, 0.98) 0%, rgba(12, 20, 35, 0.98) 100%);
+  }
+
+  /* Same random hue, but deep and mixed toward black for night mode. */
+  .guestbook-message {
+    background-color: hsl(var(--card-hue, 0), 34%, 15%);
+    border-color: hsl(var(--card-hue, 0), 28%, 27%);
+  }
+
+  .guestbook-message p {
+    border-bottom-color: hsl(var(--card-hue, 0), 26%, 30%);
   }
 
   #guestbooks___guestbook-form input[type="text"],
@@ -2818,12 +2829,13 @@ footer a:focus,
   color: var(--tag-link-color);
 }
 
-/* Featured entry on the home page reads at the same size as a real post page.
+/* Featured entry on the home page reads at the same size as a real post page
+   (matches .main-article .container-narrow body text below).
    Scoped through .portal-center to outrank the index typography boost. */
 .portal-layout .portal-center .home-latest-post p,
 .portal-layout .portal-center .home-latest-post li {
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: clamp(18px, 0.35vw + 16px, 20px);
+  line-height: 1.7;
 }
 
 .portal-layout .portal-center .home-latest-post h4 {

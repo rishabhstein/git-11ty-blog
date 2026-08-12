@@ -39,3 +39,29 @@
 <div id="guestbooks___guestbook-messages-container"></div>
 </div>
 
+<script>
+// The guestbook embed script injects each message card asynchronously
+// (initial load, infinite scroll, and after a new submission). Give every
+// card a random hue; the stylesheet turns that hue into a light tint in day
+// mode and a deep, near-black shade in dark mode.
+(function () {
+  var container = document.getElementById("guestbooks___guestbook-messages-container");
+  if (!container) return;
+
+  function colorize(el) {
+    if (el.nodeType !== 1 || !el.classList.contains("guestbook-message")) return;
+    if (el.dataset.hued) return;
+    el.dataset.hued = "1";
+    el.style.setProperty("--card-hue", Math.floor(Math.random() * 360));
+  }
+
+  // Any cards already present, plus every one added from now on.
+  container.querySelectorAll(".guestbook-message").forEach(colorize);
+  new MutationObserver(function (mutations) {
+    mutations.forEach(function (m) {
+      m.addedNodes.forEach(colorize);
+    });
+  }).observe(container, { childList: true });
+})();
+</script>
+
