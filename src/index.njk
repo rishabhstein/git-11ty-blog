@@ -37,7 +37,7 @@ layout: 'base.njk'
       <h3>{{ latestItem.date | postDate }}</h3>
 
       {% if latestTags %}
-      <p>Tags:
+      <p class="entry-tags">Tags:
         {% for tag in latestTags %}
           <a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% if not loop.last %} {% endif %}
         {% endfor %}
