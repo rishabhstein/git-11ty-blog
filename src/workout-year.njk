@@ -104,10 +104,15 @@ eleventyExcludeFromCollections: true
                     </ul>
                   {% endif %}
 
-                  {% if workout.templateContent | trim %}
+                  {# Same path as the single-workout page: templateContent is
+                     markdown-rendered, but the importer's <p> wrapper stops
+                     markdown inside it from being processed. workoutBody
+                     unwraps first, then renders. #}
+                  {% set yearWorkoutBody = workout.inputPath | workoutBody %}
+                  {% if yearWorkoutBody | trim %}
                     <div class="workout-summary-block">
                       <h5>Summary</h5>
-                      {{ workout.templateContent | safe }}
+                      {{ yearWorkoutBody | safe }}
                       {% if workout.data.cover %}
                         <figure class="workout-post-cover">
                           <img src="{{ workout.data.cover | assetUrl }}" alt="Cover for {{ workout.data.title }}">

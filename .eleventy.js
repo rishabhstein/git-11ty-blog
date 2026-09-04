@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const MarkdownIt = require("markdown-it");
 
 module.exports = async function(eleventyConfig) {
   const sortNewestFirst = (items) => [...items].sort((a, b) => b.date - a.date);
@@ -379,13 +380,23 @@ module.exports = async function(eleventyConfig) {
       .replace(/\b\w/g, (letter) => letter.toUpperCase());
   }
 
+  // Plot metrics that are generated but not shown.
+  const hiddenWorkoutPlots = [/cadence/i];
+
+  function isHiddenWorkoutPlot(fileName) {
+    const baseName = path.basename(String(fileName || ""), ".svg");
+    return hiddenWorkoutPlots.some((pattern) => pattern.test(baseName));
+  }
+
+  // This order is the grid order. The plots render row-major into two columns,
+  // so adjacent weights end up side by side: heart rate with elevation, power
+  // with speed. Reordering here reorders the pairs.
   function workoutPlotSortWeight(fileName) {
     const baseName = path.basename(String(fileName || ""), ".svg").toLowerCase();
     if (baseName.includes("heart-rate")) return 0;
-    if (baseName.includes("power")) return 1;
-    if (baseName.includes("cadence")) return 2;
-    if (baseName.includes("elevation")) return 3;
-    if (baseName.includes("speed")) return 4;
+    if (baseName.includes("elevation")) return 1;
+    if (baseName.includes("power")) return 2;
+    if (baseName.includes("speed")) return 3;
     return 10;
   }
 
@@ -479,16 +490,37 @@ module.exports = async function(eleventyConfig) {
     return `/${relativePath}`;
   }
 
+  // A private markdown-it for workout summaries. It carries the same ==mark==
+  // plugin that gets amended onto Eleventy's own library further down, so a
+  // summary and a post body render identically.
+  const workoutMarkdown = new MarkdownIt({ html: true, breaks: false, linkify: false })
+    .use(markSyntaxPlugin);
+
+  // Workout bodies arrive in two shapes: plain markdown, and — from the
+  // importer — the whole body wrapped in a single <p>…</p>. CommonMark passes
+  // the contents of a block-level HTML element through verbatim, so that
+  // wrapper has to come off before the body can be rendered, or its markdown
+  // stays literal. Only an unambiguous single wrapper is stripped; anything
+  // carrying real markup is left for markdown-it to handle as raw HTML.
   function readWorkoutMarkdownBody(inputPath) {
     if (!inputPath || !fs.existsSync(inputPath)) return "";
 
     const raw = fs.readFileSync(inputPath, "utf8");
     const match = raw.match(/^---\n[\s\S]*?\n---\n?([\s\S]*)$/);
-    return (match ? match[1] : raw).replace(/^\s+/, "");
+    const body = (match ? match[1] : raw).trim();
+    if (!body) return "";
+
+    const openTags = (body.match(/<p[\s>]/g) || []).length;
+    const source = openTags === 1 && /^<p>[\s\S]*<\/p>$/.test(body)
+      ? body.slice(3, -4).trim()
+      : body;
+
+    return workoutMarkdown.render(source);
   }
 
   function renderWorkoutPlotFigures(inputPath, explicitPaths = []) {
-    const svgFiles = normalizeWorkoutSvgPaths(inputPath, explicitPaths);
+    const svgFiles = normalizeWorkoutSvgPaths(inputPath, explicitPaths)
+      .filter((svgFile) => !isHiddenWorkoutPlot(svgFile));
     if (!svgFiles.length) return "";
 
     const workoutBaseName = inputPath ? path.basename(inputPath, path.extname(inputPath)) : "";
@@ -498,14 +530,18 @@ module.exports = async function(eleventyConfig) {
       return path.basename(left).localeCompare(path.basename(right));
     });
 
-    const plots = sortedSvgFiles.map((svgFile, index) => {
+    // Every plot renders at once into a two-column grid, so there are no tabs
+    // and nothing is hidden behind a click.
+    const plots = sortedSvgFiles.map((svgFile) => {
       const fileName = path.basename(svgFile);
       const title = humanizeWorkoutPlotName(fileName);
       const altLabel = `${title} plot`;
       const publicUrl = toWorkoutPublicUrl(svgFile);
-      const tabId = `${workoutBaseName || "workout"}-${index}`;
 
       let plotHtml;
+      // The generator stamps the metric's range on the <svg> so it can be shown
+      // in the caption instead of floating inside the chart over the data.
+      let rangeText = "";
       if (fs.existsSync(svgFile)) {
         // Inline SVG: strip background rect, tighten viewBox to remove chart padding
         const inlineSvg = fs.readFileSync(svgFile, "utf8")
@@ -515,62 +551,28 @@ module.exports = async function(eleventyConfig) {
           .replace(/viewBox="0 0 640 180"/, 'viewBox="0 8 640 166"')
           .replace(/(<svg\b)/, '$1 class="workout-plot-svg"')
           .trim();
+        rangeText = (inlineSvg.match(/data-range="([^"]*)"/) || [])[1] || "";
         plotHtml = inlineSvg;
       } else {
         plotHtml = `<img class="workout-plot-image" src="${escapeHtml(publicUrl)}" alt="${escapeHtml(altLabel)}${workoutBaseName ? ` for ${escapeHtml(workoutBaseName)}` : ""}" loading="lazy">`;
       }
 
       return `
-      <div
-        class="workout-plot-panel${index === 0 ? " is-active" : ""}"
-        role="tabpanel"
-        id="${escapeHtml(`${tabId}-panel`)}"
-        aria-labelledby="${escapeHtml(`${tabId}-tab`)}"
-        ${index === 0 ? "" : "hidden"}
-        data-workout-tab-panel
-        data-workout-tab-target="${escapeHtml(tabId)}"
-      >
-        <figure class="workout-plot-card">
-          <figcaption class="workout-plot-caption">
-            <strong class="workout-plot-title">${escapeHtml(title)}</strong>
-            <a class="workout-plot-link" href="${escapeHtml(publicUrl)}">SVG</a>
-          </figcaption>
-          ${plotHtml}
-        </figure>
-      </div>`.trim();
+      <figure class="workout-plot-card">
+        <figcaption class="workout-plot-caption">
+          <strong class="workout-plot-title">${escapeHtml(title)}</strong>
+          ${rangeText ? `<span class="workout-plot-range">${rangeText}</span>` : ""}
+          <a class="workout-plot-link" href="${escapeHtml(publicUrl)}">SVG</a>
+        </figcaption>
+        ${plotHtml}
+      </figure>`.trim();
     }).join("\n");
-
-    const tabCount = sortedSvgFiles.length;
-    const tabsMarkup = tabCount > 1
-      ? `
-<div class="workout-plot-tabs" role="tablist" aria-label="Workout plots">
-${sortedSvgFiles.map((svgFile, index) => {
-        const title = humanizeWorkoutPlotName(path.basename(svgFile));
-        const tabId = `${workoutBaseName || "workout"}-${index}`;
-        return `
-  <button
-    class="workout-plot-tab${index === 0 ? " is-active" : ""}"
-    type="button"
-    role="tab"
-    id="${escapeHtml(`${tabId}-tab`)}"
-    aria-selected="${index === 0 ? "true" : "false"}"
-    aria-controls="${escapeHtml(`${tabId}-panel`)}"
-    tabindex="${index === 0 ? "0" : "-1"}"
-    data-workout-tab
-    data-workout-tab-target="${escapeHtml(tabId)}"
-  >${escapeHtml(title)}</button>`.trim();
-      }).join("\n")}
-</div>
-<div class="workout-plot-panels">
-${plots}
-</div>`
-      : plots;
 
     return `
 <section class="workout-metric-plots workout-svg-plots">
   <h2 class="telegraph-section-title">Workout Plots</h2>
-  <div class="workout-plot-grid"${tabCount > 1 ? ' data-workout-tabs' : ''}>
-${tabsMarkup}
+  <div class="workout-plot-grid">
+${plots}
   </div>
 </section>`.trim();
   }
