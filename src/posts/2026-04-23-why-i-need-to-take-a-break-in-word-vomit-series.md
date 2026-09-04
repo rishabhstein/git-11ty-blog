@@ -1,5 +1,5 @@
 ---
-title: "WV11-Why I need to take a break in word-vomit series"
+title: "WV11-Why I need to take a break from word-vomit series"
 date: 2026-04-23
 tags: ["word-vomit"]
 location: "Brussels, Belgium"
