@@ -801,6 +801,7 @@ ${plots}
 
   eleventyConfig.addGlobalData("site", {
     name: "Sigmarootpi",
+    description: "Rishabh's online home: writing, books, movies, workouts and whatever else I keep a record of.",
     url: siteUrl,
     pathPrefix: sitePathPrefix,
     webmentionEndpoint,
@@ -873,6 +874,39 @@ ${plots}
     } catch {
       return normalizedUrl;
     }
+  });
+
+  // Absolute URL for social meta tags. Deliberately not named `absoluteUrl` or
+  // `htmlBaseUrl` — the RSS plugin registers Nunjucks filters of both names.
+  eleventyConfig.addFilter("toAbsoluteUrl", function(value, baseUrl = siteUrl) {
+    const rawUrl = String(value ?? "").trim();
+    if (!rawUrl) return "";
+    if (/^(?:[a-z][a-z0-9+.-]*:|\/\/)/i.test(rawUrl)) return rawUrl;
+    const normalizedUrl = rawUrl
+      .replace(/^(?:\.{1,2}\/)+assets\//, "/assets/")
+      .replace(/^assets\//, "/assets/");
+    try {
+      return new URL(normalizedUrl, baseUrl).toString();
+    } catch {
+      return normalizedUrl;
+    }
+  });
+
+  // Short plain-text summary for social previews, built from the raw source so
+  // it never touches the layout's `content` (that re-triggers rendering).
+  eleventyConfig.addFilter("socialExcerpt", function(value, limit = 200) {
+    const text = String(value ?? "")
+      .replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, "")   // front matter
+      .replace(/```[\s\S]*?```/g, " ")                     // fenced code
+      .replace(/<[^>]+>/g, " ")                            // html tags
+      .replace(/\{[%{][\s\S]*?[%}]\}/g, " ")               // template tags
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")               // images
+      .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")             // links
+      .replace(/[*_`>#]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (text.length <= limit) return text;
+    return text.slice(0, text.lastIndexOf(" ", limit) || limit).trim() + "…";
   });
 
   eleventyConfig.addFilter("isoDate", function(dateObj) {
