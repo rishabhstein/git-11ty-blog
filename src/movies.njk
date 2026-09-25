@@ -5,6 +5,15 @@ layout: 'base.njk'
 
 <h4>{{ title }}</h4>
 
+{% if continueWatching and continueWatching.items.length %}
+<section class="shelf-section">
+  <h5 class="archive-month-title">Currently Watching</h5>
+  {% set shelfItems = continueWatching.items %}
+  {% set shelfRowClass = "home-shelf-row--page" %}
+  {% include "media-shelf.njk" %}
+</section>
+{% endif %}
+
 <div data-pagefind-ignore>
   {% set currentYear = collections.movieArchiveYears | first %}
   <p>

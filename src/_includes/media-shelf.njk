@@ -1,0 +1,31 @@
+{#- Horizontal shelf of covers with a progress bar under each, used for
+    Currently Reading (src/_data/currentlyReading.json) and Currently Watching
+    (src/_data/continueWatching.json), both written by scripts/publish-shelves.sh.
+
+    shelfItems      list of {title, cover, percent, authors?, episode?}
+    shelfLink       optional; makes every entry a link to this URL
+    shelfRowClass   optional modifier class for the row
+    shelfEmpty      optional text shown (linking to shelfLink) when empty -#}
+{% if shelfItems and shelfItems.length %}
+<div class="home-cover-row home-shelf-row {{ shelfRowClass }}" data-pagefind-ignore>
+  {% for item in shelfItems %}
+    {% set itemLabel = item.title ~ (" by " ~ item.authors if item.authors else "") ~ (" " ~ item.episode if item.episode else "") ~ " (" ~ item.percent ~ "%)" %}
+    {% if shelfLink %}<a href="{{ shelfLink }}" class="home-cover" title="{{ itemLabel }}">{% else %}<div class="home-cover" title="{{ itemLabel }}">{% endif %}
+      <span class="home-shelf-art">
+        {% if item.cover %}
+        <img src="{{ item.cover | assetUrl }}" alt="{{ item.title }}" loading="lazy">
+        {% else %}
+        <span class="home-shelf-nocover">{{ item.title }}</span>
+        {% endif %}
+        {% if item.episode %}<span class="home-cover-rating home-shelf-episode">{{ item.episode }}</span>{% endif %}
+      </span>
+      <span class="home-shelf-progress" role="progressbar" aria-label="Progress" aria-valuenow="{{ item.percent }}" aria-valuemin="0" aria-valuemax="100">
+        <span class="home-shelf-line" style="--p: {{ item.percent }}%"></span>
+        <span class="home-shelf-pct">{{ item.percent }}%</span>
+      </span>
+    {% if shelfLink %}</a>{% else %}</div>{% endif %}
+  {% endfor %}
+</div>
+{% elif shelfEmpty and shelfLink %}
+<p><a href="{{ shelfLink }}">{{ shelfEmpty }}</a></p>
+{% endif %}

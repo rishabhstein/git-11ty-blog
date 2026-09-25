@@ -8,9 +8,18 @@ layout: 'base.njk'
 <div class="portal-layout home-index">
   <div class="home-status-strip">
     <div class="geocities-strip" aria-label="Retro animated badges">
-      <span class="geo-badge blink">STATUS:</span>
+      <a href="/last-played/" class="geo-now" title="Last played{% if lastPlayed and lastPlayed.title %}: {{ lastPlayed.title }}{% if lastPlayed.album %} from {{ lastPlayed.album.title }}{% endif %}{% endif %}">
+        <span class="geo-badge{% if not (lastPlayed and lastPlayed.cover) %} blink{% endif %}">Listening 🎶:</span>
+        {% if lastPlayed and lastPlayed.cover %}
+        <img class="geo-cover blink" src="{{ lastPlayed.cover | assetUrl }}" alt="Album cover of {{ lastPlayed.album.title if lastPlayed.album else lastPlayed.title }}" width="32" height="32">
+        {% endif %}
+      </a>
       <marquee class="geo-marquee" behavior="scroll" direction="left" scrollamount="5">
-        <span id="geo-status-marquee-text" data-statuscafe-user="sigmarootpi">Loading latest Status Cafe update...</span>
+        {% if lastPlayed and lastPlayed.title %}
+        ♪ {{ lastPlayed.title }}{% if lastPlayed.artist %} by {{ lastPlayed.artist }}{% endif %} · <time class="js-time-ago" datetime="{{ lastPlayed.playedAt }}">{{ lastPlayed.playedDate }}</time>
+        {% else %}
+        ♪ Nothing playing lately
+        {% endif %}
       </marquee>
     </div>
   </div>
@@ -160,10 +169,10 @@ layout: 'base.njk'
 
         <article class="writing-piclog">
           <a href="{{ piclogImage }}">
-            <span class="piclog-overlay">Picture of the Day</span>
+            <span class="piclog-overlay">Status Update</span>
             <img
               src="{{ piclogImage }}"
-              alt="Picture of the Day"
+              alt="Status update"
               class="piclog-image"
             >
           </a>
@@ -173,41 +182,19 @@ layout: 'base.njk'
 
     <div class="home-media-columns">
       <section class="home-media-col">
-        <a href="/movies/" class="section-title-link"><h4 class="telegraph-section-title">Movies</h4></a>
-        <div class="home-cover-row">
-          {% set recentMovies = collections.movies | sort(attribute='date') | reverse %}
-          {% for movie in recentMovies | excludeUrl(featuredUrl) %}
-            {% if loop.index <= 3 %}
-              <a href="{{ movie.url }}" class="home-cover" title="{{ movie.data.title }}">
-                <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.data.title }}">
-                {% if movie.data.rating %}
-                <span class="home-cover-rating">
-                  {% for i in range(5) %}{% if i < movie.data.rating %}★{% endif %}{% endfor %}
-                </span>
-                {% endif %}
-              </a>
-            {% endif %}
-          {% endfor %}
-        </div>
+        <a href="/movies/" class="section-title-link"><h4 class="telegraph-section-title">Watching</h4></a>
+        {% set shelfItems = continueWatching.items %}
+        {% set shelfLink = "/movies/" %}
+        {% set shelfEmpty = "Nothing on screen right now. See past reviews →" %}
+        {% include "media-shelf.njk" %}
       </section>
 
       <section class="home-media-col">
-        <a href="/books/" class="section-title-link"><h4 class="telegraph-section-title">Books</h4></a>
-        <div class="home-cover-row">
-          {% set recentBooks = collections.books | sort(attribute='date') | reverse %}
-          {% for book in recentBooks | excludeUrl(featuredUrl) %}
-            {% if loop.index <= 3 %}
-              <a href="{{ book.url }}" class="home-cover" title="{{ book.data.title }}">
-                <img src="{{ book.data.cover | assetUrl }}" alt="{{ book.data.title }}">
-                {% if book.data.rating %}
-                <span class="home-cover-rating">
-                  {% for i in range(5) %}{% if i < book.data.rating %}★{% endif %}{% endfor %}
-                </span>
-                {% endif %}
-              </a>
-            {% endif %}
-          {% endfor %}
-        </div>
+        <a href="/books/" class="section-title-link"><h4 class="telegraph-section-title">Reading</h4></a>
+        {% set shelfItems = currentlyReading.books %}
+        {% set shelfLink = "/books/" %}
+        {% set shelfEmpty = "Nothing on the nightstand right now. See past reads →" %}
+        {% include "media-shelf.njk" %}
       </section>
     </div>
 

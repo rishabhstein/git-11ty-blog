@@ -1,0 +1,89 @@
+---
+title: Last Played
+layout: 'base.njk'
+permalink: /last-played/
+eleventyExcludeFromCollections: true
+---
+{#- Filled from src/_data/lastPlayed.json, which scripts/publish-shelves.sh
+    refreshes from Plex twice a day. -#}
+<h4>{{ title }}</h4>
+
+<div data-pagefind-ignore>
+{% if lastPlayed and lastPlayed.title %}
+  {% set album = lastPlayed.album %}
+  <p>
+    ♪ <strong>{{ lastPlayed.title }}</strong>{% if lastPlayed.artist %} by {{ lastPlayed.artist }}{% endif %},
+    played <time class="js-time-ago" datetime="{{ lastPlayed.playedAt }}">on {{ lastPlayed.playedDate }}</time>.
+  </p>
+
+  {% if album %}
+  <section class="book-post-hero last-played-hero" aria-label="Album details">
+    <div class="book-post-cover">
+      {% if album.cover %}<img src="{{ album.cover | assetUrl }}" alt="Cover of {{ album.title }}">{% endif %}
+    </div>
+
+    <dl class="book-post-meta">
+      <div>
+        <dt>Album</dt>
+        <dd>{{ album.title }}</dd>
+      </div>
+      {% if album.artist %}
+      <div>
+        <dt>Artist</dt>
+        <dd>{{ album.artist }}</dd>
+      </div>
+      {% endif %}
+      {% if album.released or album.year %}
+      <div>
+        <dt>Released</dt>
+        <dd>{% if album.released %}<time datetime="{{ album.released }}">{{ album.released | postDate }}</time>{% else %}{{ album.year }}{% endif %}</dd>
+      </div>
+      {% endif %}
+      {% if album.label %}
+      <div>
+        <dt>Label</dt>
+        <dd>{{ album.label }}</dd>
+      </div>
+      {% endif %}
+      {% if album.genres.length %}
+      <div>
+        <dt>Genre</dt>
+        <dd>{{ album.genres | join(", ") }}</dd>
+      </div>
+      {% endif %}
+      <div>
+        <dt>Tracks</dt>
+        <dd>{{ album.tracks.length }}</dd>
+      </div>
+      {% if album.plays %}
+      <div>
+        <dt>My plays</dt>
+        <dd>{{ album.plays }}</dd>
+      </div>
+      {% endif %}
+    </dl>
+  </section>
+
+  {% if album.summary %}
+  <p>{{ album.summary }}</p>
+  {% endif %}
+
+  {% if album.tracks.length %}
+  <ol class="last-played-tracks">
+    {% for track in album.tracks %}
+    <li{% if track.current %} class="is-current" aria-current="true"{% endif %}>
+      <span class="track-no">{% if track.current %}♪{% else %}{{ track.number }}{% endif %}</span>
+      <span>
+        {{ track.title }}
+        {% if track.artist and track.artist != album.artist %}<span class="track-artist">· {{ track.artist }}</span>{% endif %}
+      </span>
+      <span class="track-time">{{ track.duration }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endif %}
+  {% endif %}
+{% else %}
+  <p>Nothing played lately.</p>
+{% endif %}
+</div>

@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "title": "One Hundred Years of Solitude",
+      "year": 2024,
+      "episode": "S01E08",
+      "percent": 43,
+      "cover": "/assets/images/watching/5353.jpg"
+    },
+    {
+      "title": "The Tree of Life",
+      "year": 2011,
+      "percent": 1,
+      "cover": "/assets/images/watching/5212.jpg"
+    },
+    {
+      "title": "Friends",
+      "year": 1998,
+      "episode": "S04E22",
+      "percent": 22,
+      "cover": "/assets/images/watching/385.jpg"
+    },
+    {
+      "title": "Sisu: Road to Revenge",
+      "year": 2025,
+      "percent": 2,
+      "cover": "/assets/images/watching/3309.jpg"
+    },
+    {
+      "title": "The Thirteenth Floor",
+      "year": 1999,
+      "percent": 7,
+      "cover": "/assets/images/watching/5201.jpg"
+    },
+    {
+      "title": "Loki",
+      "year": 2021,
+      "episode": "S01E01",
+      "percent": 9,
+      "cover": "/assets/images/watching/2512.jpg"
+    },
+    {
+      "title": "Backrooms",
+      "year": 2026,
+      "percent": 4,
+      "cover": "/assets/images/watching/4964.jpg"
+    }
+  ]
+}

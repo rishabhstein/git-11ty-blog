@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "title": "The Green Mile: The Complete Serial Novel",
+      "authors": "Stephen King",
+      "percent": 12,
+      "cover": "/assets/images/reading/87.jpg"
+    },
+    {
+      "title": "White Mughals: Love and Betrayal in Eighteenth-Century India",
+      "authors": "William Dalrymple",
+      "percent": 0,
+      "cover": "/assets/images/reading/73.jpg"
+    },
+    {
+      "title": "Pride and Prejudice",
+      "authors": "Jane Austen",
+      "percent": 3,
+      "cover": "/assets/images/reading/81.jpg"
+    },
+    {
+      "title": "To hell and back",
+      "authors": "Murphy, Audie",
+      "percent": 0,
+      "cover": "/assets/images/reading/50.jpg"
+    },
+    {
+      "title": "The Obstacle Is the Way",
+      "authors": "Ryan Holiday",
+      "percent": 32,
+      "cover": "/assets/images/reading/66.jpg"
+    }
+  ]
+}
