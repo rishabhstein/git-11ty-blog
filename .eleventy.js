@@ -828,6 +828,12 @@ ${plots}
     return items.filter((item) => item.url !== url);
   });
 
+  // Shelf items (reading/watching) at or above a progress percentage.
+  eleventyConfig.addFilter("minProgress", function(items, percent) {
+    if (!Array.isArray(items)) return [];
+    return items.filter((item) => Number(item.percent) >= percent);
+  });
+
   eleventyConfig.addFilter("shuffle", function(items) {
     if (!Array.isArray(items)) return [];
     const shuffled = [...items];

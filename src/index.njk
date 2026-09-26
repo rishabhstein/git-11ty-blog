@@ -178,7 +178,7 @@ layout: 'base.njk'
     <div class="home-media-columns">
       <section class="home-media-col">
         <a href="/movies/" class="section-title-link"><h4 class="telegraph-section-title">Watching</h4></a>
-        {% set shelfItems = continueWatching.items %}
+        {% set shelfItems = continueWatching.items | minProgress(5) %}
         {% set shelfLink = "/movies/" %}
         {% set shelfEmpty = "Nothing on screen right now. See past reviews →" %}
         {% include "media-shelf.njk" %}
@@ -186,7 +186,7 @@ layout: 'base.njk'
 
       <section class="home-media-col">
         <a href="/books/" class="section-title-link"><h4 class="telegraph-section-title">Reading</h4></a>
-        {% set shelfItems = currentlyReading.books %}
+        {% set shelfItems = currentlyReading.books | minProgress(5) %}
         {% set shelfLink = "/books/" %}
         {% set shelfEmpty = "Nothing on the nightstand right now. See past reads →" %}
         {% include "media-shelf.njk" %}

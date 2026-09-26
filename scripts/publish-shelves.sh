@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Refreshes the "Currently Reading" and "Currently Watching" shelves and the
-# last played song, and pushes them in one commit (one Netlify build), only
-# when something changed. Run from cron at 00:00 and 10:00; pushing uses the
-# SSH key in ~/.ssh, nothing secret is in here.
+# last played song, and pushes them in one commit (one GitHub Pages deploy),
+# only when something changed. Run from cron hourly 07:00-23:00; pushing uses
+# the SSH key in ~/.ssh, nothing secret is in here.
 #
 # Works in this checkout (the one the script lives in); set SHELF_REPO to use
 # another. Uncommitted edits are autostashed around the pull and left out of
