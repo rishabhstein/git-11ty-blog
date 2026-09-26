@@ -4,14 +4,15 @@
 # when something changed. Run from cron at 00:00 and 10:00; pushing uses the
 # SSH key in ~/.ssh, nothing secret is in here.
 #
-# Works in a separate checkout (SHELF_REPO, default ~/.local/share/blog-shelves)
-# so its pull/commit never touches the working copy you edit in.
+# Works in this checkout (the one the script lives in); set SHELF_REPO to use
+# another. Uncommitted edits are autostashed around the pull and left out of
+# its commit.
 #
 # Usage: publish-shelves.sh [--no-push]
 set -uo pipefail
 
 SCRIPTS=$(cd "$(dirname "$0")" && pwd)
-export SHELF_REPO=${SHELF_REPO:-$HOME/.local/share/blog-shelves}
+export SHELF_REPO=${SHELF_REPO:-$(dirname "$SCRIPTS")}
 REPO=$SHELF_REPO
 PATHS=(src/_data/currentlyReading.json assets/images/reading
        src/_data/continueWatching.json assets/images/watching
@@ -21,6 +22,14 @@ PUSH=1
 
 cd "$REPO" || exit 1
 echo "== $(date -Is)"
+
+# Don't touch the checkout while it's on another branch or mid-operation.
+GIT_DIR=$(git rev-parse --git-dir)
+if [[ $(git branch --show-current) != master ]] || [[ -e $GIT_DIR/MERGE_HEAD ||
+    -d $GIT_DIR/rebase-merge || -d $GIT_DIR/rebase-apply ]]; then
+  echo "checkout not on master or mid merge/rebase; skipping"
+  exit 0
+fi
 
 if (( PUSH )); then
   # Other tools push to this repo too; start from the latest remote state.
