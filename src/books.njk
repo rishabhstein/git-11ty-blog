@@ -5,10 +5,10 @@ layout: 'base.njk'
 
 <h4>{{ title }}</h4>
 
-{% if currentlyReading and currentlyReading.books.length %}
+{% set shelfItems = currentlyReading.books | minProgress(5) if currentlyReading else [] %}
+{% if shelfItems.length %}
 <section class="shelf-section">
   <h5 class="archive-month-title">Currently Reading</h5>
-  {% set shelfItems = currentlyReading.books %}
   {% set shelfRowClass = "home-shelf-row--page" %}
   {% include "media-shelf.njk" %}
 </section>
