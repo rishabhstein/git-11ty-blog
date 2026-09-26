@@ -16,7 +16,7 @@ export SHELF_REPO=${SHELF_REPO:-$(dirname "$SCRIPTS")}
 REPO=$SHELF_REPO
 PATHS=(src/_data/currentlyReading.json assets/images/reading
        src/_data/continueWatching.json assets/images/watching
-       src/_data/lastPlayed.json assets/images/last-played)
+       src/_data/lastPlayed.json)
 PUSH=1
 [[ ${1:-} == --no-push ]] && PUSH=0
 

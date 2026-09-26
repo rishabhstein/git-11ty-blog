@@ -8,12 +8,7 @@ layout: 'base.njk'
 <div class="portal-layout home-index">
   <div class="home-status-strip">
     <div class="geocities-strip" aria-label="Retro animated badges">
-      <a href="/last-played/" class="geo-now" title="Last played{% if lastPlayed and lastPlayed.title %}: {{ lastPlayed.title }}{% if lastPlayed.album %} from {{ lastPlayed.album.title }}{% endif %}{% endif %}">
-        <span class="geo-badge{% if not (lastPlayed and lastPlayed.cover) %} blink{% endif %}">Listening 🎶:</span>
-        {% if lastPlayed and lastPlayed.cover %}
-        <img class="geo-cover blink" src="{{ lastPlayed.cover | assetUrl }}" alt="Album cover of {{ lastPlayed.album.title if lastPlayed.album else lastPlayed.title }}" width="32" height="32">
-        {% endif %}
-      </a>
+      <span class="geo-badge blink">Listening 🎶:</span>
       <marquee class="geo-marquee" behavior="scroll" direction="left" scrollamount="5">
         {% if lastPlayed and lastPlayed.title %}
         ♪ {{ lastPlayed.title }}{% if lastPlayed.artist %} by {{ lastPlayed.artist }}{% endif %} · <time class="js-time-ago" datetime="{{ lastPlayed.playedAt }}">{{ lastPlayed.playedDate }}</time>

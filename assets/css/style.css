@@ -1463,46 +1463,6 @@ h4 a:focus {
   overflow-wrap: anywhere;
 }
 
-/* /last-played/: album covers are square. */
-.last-played-hero .book-post-cover img {
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.last-played-tracks {
-  width: min(100%, 560px);
-  margin: 0 auto 24px;
-  padding: 0;
-  list-style: none;
-  font-family: var(--font-ui);
-  font-size: 15px;
-}
-
-.last-played-tracks li {
-  display: grid;
-  grid-template-columns: 2.2em 1fr auto;
-  gap: 8px;
-  padding: 6px 4px;
-  border-bottom: 1px solid var(--panel-border);
-}
-
-.last-played-tracks .track-no,
-.last-played-tracks .track-time {
-  color: var(--tag-link-color);
-  font-variant-numeric: tabular-nums;
-}
-
-.last-played-tracks .track-artist {
-  color: var(--tag-link-color);
-  font-size: 13px;
-}
-
-.last-played-tracks li.is-current {
-  background: var(--selection-bg);
-  color: var(--selection-text);
-  font-weight: 700;
-}
-
 .book-post-stars {
   color: #8b5a00;
   letter-spacing: 0.04em;
@@ -2171,38 +2131,6 @@ hr {
   background: #f4d9b6;
   padding: 2px 6px;
   white-space: nowrap;
-}
-
-/* Last played: blinking album cover plus the badge, linking to /last-played/.
-   The cover is taller than the badge, so the strip trims its vertical padding
-   by the same amount and keeps its height (25px text line + 2 x 6px). */
-.geocities-strip:has(.geo-cover) {
-  padding-block: 2.5px;
-}
-
-.geo-now {
-  display: flex;
-  flex: 0 0 auto;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
-}
-
-.geo-now:hover,
-.geo-now:focus {
-  text-decoration: none;
-}
-
-.geo-cover {
-  display: block;
-  width: 32px;
-  height: 32px;
-  object-fit: cover;
-  border: 1px solid var(--panel-border-dark);
-}
-
-.geo-cover.blink {
-  animation: geo-blink 0.9s steps(2, end) infinite;
 }
 
 .geo-badge.blink {

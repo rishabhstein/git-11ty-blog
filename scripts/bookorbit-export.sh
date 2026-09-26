@@ -4,7 +4,7 @@
 # which commits and pushes.
 #
 #   src/_data/currentlyReading.json   -> global `currentlyReading` in templates
-#   assets/images/reading/<id>.jpg    -> resized covers
+#   assets/images/reading/<id>.webp   -> resized covers (300px WebP, max 20 KB)
 #
 # Reads BookOrbit's Postgres through `docker exec` over the container's local
 # socket, so no password or token is needed here. Only rewrites files whose
@@ -55,6 +55,22 @@ covers_dir = os.environ["COVERS_DIR"]
 data_file = os.environ["DATA_FILE"]
 os.makedirs(covers_dir, exist_ok=True)
 
+MAX_COVER_BYTES = 20 * 1024
+
+def encode_cover(img):
+    # WebP within 20 KB: simple covers keep quality 75, busy ones step the
+    # quality down to 50, and if that is still too big the cover is scaled
+    # down in 10% steps (quality 60) rather than turned blotchy.
+    attempts = [(1.0, q) for q in (75, 68, 60, 50)] + [(s, 60) for s in (0.9, 0.8, 0.7, 0.6)]
+    for scale, quality in attempts:
+        im = img if scale == 1.0 else img.resize(
+            (round(img.width * scale), round(img.height * scale)), Image.LANCZOS)
+        buf = io.BytesIO()
+        im.save(buf, "WEBP", quality=quality, method=6)
+        if buf.tell() <= MAX_COVER_BYTES:
+            break
+    return buf.getvalue()
+
 def write_if_changed(path, data):
     try:
         with open(path, "rb") as fh:
@@ -85,11 +101,9 @@ for line in sys.stdin:
         if not os.path.exists(src):
             continue
         img = Image.open(src).convert("RGB")
-        img.thumbnail((400, 600))
-        buf = io.BytesIO()
-        img.save(buf, "JPEG", quality=82, optimize=True)
-        fname = bid + ".jpg"
-        write_if_changed(os.path.join(covers_dir, fname), buf.getvalue())
+        img.thumbnail((300, 450), Image.LANCZOS)
+        fname = bid + ".webp"
+        write_if_changed(os.path.join(covers_dir, fname), encode_cover(img))
         entry["cover"] = "/" + covers_dir + "/" + fname
         keep.add(fname)
         break
