@@ -4,8 +4,14 @@
       "title": "One Hundred Years of Solitude",
       "year": null,
       "episode": "S01E10",
-      "percent": 56,
+      "percent": 60,
       "cover": "/assets/images/watching/5353.webp"
+    },
+    {
+      "title": "Seven",
+      "year": 1995,
+      "percent": 2,
+      "cover": "/assets/images/watching/4443.webp"
     },
     {
       "title": "The Tree of Life",
