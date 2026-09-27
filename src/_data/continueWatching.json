@@ -1,36 +1,18 @@
 {
   "items": [
     {
+      "title": "Friends",
+      "year": 1998,
+      "episode": "S04E23",
+      "percent": 23,
+      "cover": "/assets/images/watching/385.webp"
+    },
+    {
       "title": "One Hundred Years of Solitude",
       "year": null,
       "episode": "S01E11",
       "percent": 62,
       "cover": "/assets/images/watching/5353.webp"
-    },
-    {
-      "title": "Seven",
-      "year": 1995,
-      "percent": 2,
-      "cover": "/assets/images/watching/4443.webp"
-    },
-    {
-      "title": "The Tree of Life",
-      "year": 2011,
-      "percent": 1,
-      "cover": "/assets/images/watching/5212.webp"
-    },
-    {
-      "title": "Friends",
-      "year": 1998,
-      "episode": "S04E22",
-      "percent": 22,
-      "cover": "/assets/images/watching/385.webp"
-    },
-    {
-      "title": "Sisu: Road to Revenge",
-      "year": 2025,
-      "percent": 2,
-      "cover": "/assets/images/watching/3309.webp"
     },
     {
       "title": "The Thirteenth Floor",
@@ -44,12 +26,6 @@
       "episode": "S01E01",
       "percent": 9,
       "cover": "/assets/images/watching/2512.webp"
-    },
-    {
-      "title": "Backrooms",
-      "year": 2026,
-      "percent": 4,
-      "cover": "/assets/images/watching/4964.webp"
     }
   ]
 }
