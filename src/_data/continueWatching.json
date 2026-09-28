@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Spartacus",
+      "year": 2010,
+      "episode": "S01E02",
+      "percent": 1,
+      "cover": "/assets/images/watching/3474.webp"
+    },
+    {
       "title": "Friends",
       "year": 1998,
       "episode": "S04E23",
