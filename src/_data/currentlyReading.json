@@ -1,9 +1,15 @@
 {
   "books": [
     {
+      "title": "After The Quake",
+      "authors": "Haruki Murakami",
+      "percent": 7,
+      "cover": "/assets/images/reading/90.webp"
+    },
+    {
       "title": "The Green Mile: The Complete Serial Novel",
       "authors": "Stephen King",
-      "percent": 11,
+      "percent": 12,
       "cover": "/assets/images/reading/87.webp"
     },
     {
