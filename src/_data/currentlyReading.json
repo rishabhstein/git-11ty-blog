@@ -3,20 +3,20 @@
     {
       "title": "After The Quake",
       "authors": "Haruki Murakami",
-      "percent": 60,
+      "percent": 66,
       "cover": "/assets/images/reading/90.webp"
+    },
+    {
+      "title": "The Green Mile: The Complete Serial Novel",
+      "authors": "Stephen King",
+      "percent": 24,
+      "cover": "/assets/images/reading/87.webp"
     },
     {
       "title": "The Obstacle Is the Way",
       "authors": "Ryan Holiday",
       "percent": 35,
       "cover": "/assets/images/reading/66.webp"
-    },
-    {
-      "title": "The Green Mile: The Complete Serial Novel",
-      "authors": "Stephen King",
-      "percent": 12,
-      "cover": "/assets/images/reading/87.webp"
     },
     {
       "title": "White Mughals: Love and Betrayal in Eighteenth-Century India",
