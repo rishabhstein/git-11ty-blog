@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "title": "After The Quake",
+      "authors": "Haruki Murakami",
+      "percent": 37,
+      "cover": "/assets/images/reading/90.webp"
+    },
+    {
       "title": "The Obstacle Is the Way",
       "authors": "Ryan Holiday",
       "percent": 35,
@@ -11,12 +17,6 @@
       "authors": "Stephen King",
       "percent": 12,
       "cover": "/assets/images/reading/87.webp"
-    },
-    {
-      "title": "After The Quake",
-      "authors": "Haruki Murakami",
-      "percent": 33,
-      "cover": "/assets/images/reading/90.webp"
     },
     {
       "title": "White Mughals: Love and Betrayal in Eighteenth-Century India",
