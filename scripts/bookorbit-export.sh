@@ -96,8 +96,12 @@ for line in sys.stdin:
     entry = {"title": title, "authors": authors, "percent": percent, "cover": ""}
 
     # A manually uploaded cover wins; downscale it so the repo stays small.
-    for name in ("cover_custom.jpg", "cover_extracted.jpg", "thumbnail.jpg"):
-        src = os.path.join(src_root, bid, name)
+    # Newer BookOrbit nests covers per format (covers/<id>/ebook/...); the
+    # bare covers/<id>/ layout is kept as a fallback for older versions.
+    candidates = [os.path.join(src_root, bid, sub, name)
+                  for sub in ("ebook", "audiobook", "")
+                  for name in ("cover_custom.jpg", "cover_extracted.jpg", "thumbnail.jpg")]
+    for src in candidates:
         if not os.path.exists(src):
             continue
         img = Image.open(src).convert("RGB")
