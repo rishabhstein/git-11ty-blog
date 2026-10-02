@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "title": "The Obstacle Is the Way",
+      "authors": "Ryan Holiday",
+      "percent": 32,
+      "cover": "/assets/images/reading/66.webp"
+    },
+    {
       "title": "The Green Mile: The Complete Serial Novel",
       "authors": "Stephen King",
       "percent": 12,
@@ -23,12 +29,6 @@
       "authors": "Jane Austen",
       "percent": 3,
       "cover": "/assets/images/reading/81.webp"
-    },
-    {
-      "title": "The Obstacle Is the Way",
-      "authors": "Ryan Holiday",
-      "percent": 32,
-      "cover": "/assets/images/reading/66.webp"
     }
   ]
 }
