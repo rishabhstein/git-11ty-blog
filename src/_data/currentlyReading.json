@@ -1,15 +1,15 @@
 {
   "books": [
     {
-      "title": "After The Quake",
-      "authors": "Haruki Murakami",
-      "percent": 88,
-      "cover": "/assets/images/reading/90.webp"
+      "title": "World of Wonders",
+      "authors": "Aimee Nezhukumatathil",
+      "percent": 6,
+      "cover": "/assets/images/reading/92.webp"
     },
     {
       "title": "The Green Mile: The Complete Serial Novel",
       "authors": "Stephen King",
-      "percent": 24,
+      "percent": 15,
       "cover": "/assets/images/reading/87.webp"
     }
   ]
