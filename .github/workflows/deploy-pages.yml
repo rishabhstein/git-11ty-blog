@@ -1,4 +1,4 @@
-name: Deploy blog to GitHub Pages
+name: Build and deploy blog
 
 on:
   push:
@@ -7,35 +7,26 @@ on:
       - master
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 concurrency:
-  group: "pages"
+  group: deploy
   cancel-in-progress: true
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: docker
+    container:
+      image: node:24-bookworm
     env:
-      SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+      # Repository Settings > Actions > Variables
+      SITE_URL: ${{ vars.SITE_URL }}
       SITE_PATH_PREFIX: ${{ vars.SITE_PATH_PREFIX || format('/{0}/', github.event.repository.name) }}
       SITE_CNAME: ${{ vars.SITE_CNAME || '' }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      # Repository Settings > Actions > Secrets
+      FORGEJO_TOKEN: ${{ secrets.FORGEJO_TOKEN }}
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v7
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version: 24
-          cache: npm
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: npm ci
@@ -43,16 +34,15 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+      # The push mirror copies gh-pages to GitHub afterwards
+      - name: Deploy _site to gh-pages on Forgejo
+        run: |
+          cd _site
+          touch .nojekyll
+          if [ -n "$SITE_CNAME" ]; then echo "$SITE_CNAME" > CNAME; fi
+          git init -q -b gh-pages
+          git config user.name "forgejo-runner"
+          git config user.email "forgejo-runner@git.rishabhps.com"
+          git add -A
+          git commit -q -m "Deploy ${{ github.sha }}"
+          git push --force "http://sigmarootpi:${FORGEJO_TOKEN}@forgejo:3000/${{ github.repository }}.git" HEAD:gh-pages
