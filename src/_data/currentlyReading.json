@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "title": "World of Wonders",
+      "authors": "Aimee Nezhukumatathil",
+      "percent": 12,
+      "cover": "/assets/images/reading/92.webp"
+    },
+    {
       "title": "The God Delusion",
       "authors": "Richard Dawkins",
       "percent": 10,
@@ -11,12 +17,6 @@
       "authors": "Stephen King",
       "percent": 16,
       "cover": "/assets/images/reading/87.webp"
-    },
-    {
-      "title": "World of Wonders",
-      "authors": "Aimee Nezhukumatathil",
-      "percent": 6,
-      "cover": "/assets/images/reading/92.webp"
     }
   ]
 }
