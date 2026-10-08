@@ -1,16 +1,16 @@
 {
   "books": [
     {
+      "title": "The God Delusion",
+      "authors": "Richard Dawkins",
+      "percent": 13,
+      "cover": "/assets/images/reading/83.webp"
+    },
+    {
       "title": "World of Wonders",
       "authors": "Aimee Nezhukumatathil",
       "percent": 24,
       "cover": "/assets/images/reading/92.webp"
-    },
-    {
-      "title": "The God Delusion",
-      "authors": "Richard Dawkins",
-      "percent": 10,
-      "cover": "/assets/images/reading/83.webp"
     },
     {
       "title": "The Green Mile: The Complete Serial Novel",
