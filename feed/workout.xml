@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sigmarootpi Workout Feed</title>
+    <link>https://blog.rishabhps.com</link>
+    <atom:link href="https://blog.rishabhps.com/feed/workout.xml" rel="self" type="application/rss+xml" />
+    <description>Workout logs with the same details shown on the workout page.</description>
+    <language>en</language>
+    <item>
+      <title>Saturday Morning Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-10-10-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Oct 10, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.14 km</li>
+    
+    <li><strong>Duration:</strong> 22m 3s</li>
+    
+    <li><strong>Pace:</strong> 7:01 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 140 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>SUMMARY
+This is the first workout from Garmin 165 watch after my struggle with Apple watch as its sensor had some issues from almost two month now. Repairing would have costed more than half of the new Garmin watch price. Now I am very happy about my decision. The weather is a bit chilly after yesterday’s whole day rain, but quit suitable for workout after warming up.</p>
+<p>Feeling peaceful after the run.</p>
+
+    
+    <figure class="workout-feed-cover">
+      <img src="https://blog.rishabhps.com/assets/images/workout/2026-10-10-running/2026-10-10-1791622786902-img3831.jpeg" alt="Cover for Saturday Morning Run" width="320" style="max-width:320px;height:auto;">
+    </figure>
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Oct 10, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.14 km</li>
+    
+    <li><strong>Duration:</strong> 22m 3s</li>
+    
+    <li><strong>Pace:</strong> 7:01 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 140 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>SUMMARY
+This is the first workout from Garmin 165 watch after my struggle with Apple watch as its sensor had some issues from almost two month now. Repairing would have costed more than half of the new Garmin watch price. Now I am very happy about my decision. The weather is a bit chilly after yesterday’s whole day rain, but quit suitable for workout after warming up.</p>
+<p>Feeling peaceful after the run.</p>
+
+    
+    <figure class="workout-feed-cover">
+      <img src="https://blog.rishabhps.com/assets/images/workout/2026-10-10-running/2026-10-10-1791622786902-img3831.jpeg" alt="Cover for Saturday Morning Run" width="320" style="max-width:320px;height:auto;">
+    </figure>
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-10-10-running/</guid>
+    </item>
+    <item>
+      <title>Afterwork Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-10-06-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Oct 6, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.13 km</li>
+    
+    <li><strong>Duration:</strong> 15m 35s</li>
+    
+    <li><strong>Pace:</strong> 7:19 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 146 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>Whole day I was just sitting at work, so I was motivated to go for run after I finish. The weather is also encouraging so I am happy about it.</p>
+
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Oct 6, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.13 km</li>
+    
+    <li><strong>Duration:</strong> 15m 35s</li>
+    
+    <li><strong>Pace:</strong> 7:19 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 146 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>Whole day I was just sitting at work, so I was motivated to go for run after I finish. The weather is also encouraging so I am happy about it.</p>
+
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-10-06-running/</guid>
+    </item>
+    <item>
+      <title>Sunday Morning Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-10-04-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Oct 4, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.02 km</li>
+    
+    <li><strong>Duration:</strong> 21m 6s</li>
+    
+    <li><strong>Pace:</strong> 6:59 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 132 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>Its getting easier with regular practice to run a bit longer. My breathing feels perfectly regular without any stretch. However today legs were a bit stiff.</p>
+<p>Apple watch is again messing up, showing straight heart lines like a dead man. But here I am alive. :p</p>
+
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Oct 4, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.02 km</li>
+    
+    <li><strong>Duration:</strong> 21m 6s</li>
+    
+    <li><strong>Pace:</strong> 6:59 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 132 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>Its getting easier with regular practice to run a bit longer. My breathing feels perfectly regular without any stretch. However today legs were a bit stiff.</p>
+<p>Apple watch is again messing up, showing straight heart lines like a dead man. But here I am alive. :p</p>
+
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-10-04-running/</guid>
+    </item>
+    <item>
+      <title>Evening Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-10-02-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Oct 2, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.02 km</li>
+    
+    <li><strong>Duration:</strong> 22m 7s</li>
+    
+    <li><strong>Pace:</strong> 7:19 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 145 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>Finished work a bit early today so decided to go for a run. I went for three kilometres which is nice as I am not tired. My leg muscles are also not tired so they are getting stronger.</p>
+<p>Now I will sleep happily.</p>
+
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Oct 2, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.02 km</li>
+    
+    <li><strong>Duration:</strong> 22m 7s</li>
+    
+    <li><strong>Pace:</strong> 7:19 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 145 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>Finished work a bit early today so decided to go for a run. I went for three kilometres which is nice as I am not tired. My leg muscles are also not tired so they are getting stronger.</p>
+<p>Now I will sleep happily.</p>
+
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-10-02-running/</guid>
+    </item>
+    <item>
+      <title>Morning Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-09-29-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 29, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.04 km</li>
+    
+    <li><strong>Duration:</strong> 13m 52s</li>
+    
+    <li><strong>Pace:</strong> 6:48 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 156 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>A short session which was easy as my stamina is improving. I missed two days so I was looking forward to this session. Now happy, happy, happy.</p>
+<p>Also, I think I resolved my Apple Watch issue which I mentioned previously—thanks to Reddit. I just needed to clean the sensor. It seems working fine now.</p>
+
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 29, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.04 km</li>
+    
+    <li><strong>Duration:</strong> 13m 52s</li>
+    
+    <li><strong>Pace:</strong> 6:48 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 156 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>A short session which was easy as my stamina is improving. I missed two days so I was looking forward to this session. Now happy, happy, happy.</p>
+<p>Also, I think I resolved my Apple Watch issue which I mentioned previously—thanks to Reddit. I just needed to clean the sensor. It seems working fine now.</p>
+
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-09-29-running/</guid>
+    </item>
+    <item>
+      <title>Afternoon Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-09-26-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 26, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.03 km</li>
+    
+    <li><strong>Duration:</strong> 20m 8s</li>
+    
+    <li><strong>Pace:</strong> 6:39 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 162 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>After finishing this run my lungs were happy despite of pushing through another kilometer than I usually go. However, for my legs it was a different story. My muscles were a bit overdoing, indicating that the strength is not there. So I need to figure out how to improve it. Nevertheless, I am feeling good about the run. It was easy and fun.</p>
+
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 26, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.03 km</li>
+    
+    <li><strong>Duration:</strong> 20m 8s</li>
+    
+    <li><strong>Pace:</strong> 6:39 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 162 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>After finishing this run my lungs were happy despite of pushing through another kilometer than I usually go. However, for my legs it was a different story. My muscles were a bit overdoing, indicating that the strength is not there. So I need to figure out how to improve it. Nevertheless, I am feeling good about the run. It was easy and fun.</p>
+
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-09-26-running/</guid>
+    </item>
+    <item>
+      <title>Morning Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-09-25-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 25, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.06 km</li>
+    
+    <li><strong>Duration:</strong> 13m 27s</li>
+    
+    <li><strong>Pace:</strong> 6:32 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 150 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>After resolving a big conflict in my schedule its good to go for a run. Now I am allowed to write during working hours so no more early morning writing. That means I can focus on running. :)</p>
+
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 25, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.06 km</li>
+    
+    <li><strong>Duration:</strong> 13m 27s</li>
+    
+    <li><strong>Pace:</strong> 6:32 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 150 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>After resolving a big conflict in my schedule its good to go for a run. Now I am allowed to write during working hours so no more early morning writing. That means I can focus on running. :)</p>
+
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-09-25-running/</guid>
+    </item>
+    <item>
+      <title>Morning Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-09-17-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 17, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.11 km</li>
+    
+    <li><strong>Duration:</strong> 14m 19s</li>
+    
+    <li><strong>Pace:</strong> 6:47 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 159 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>A nice and short run after finishing writing. I will be a bit late for work, and will be eating on run but that is okay.</p>
+<p>Feeling better stamina and I am not exhausted at all.</p>
+
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 17, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.11 km</li>
+    
+    <li><strong>Duration:</strong> 14m 19s</li>
+    
+    <li><strong>Pace:</strong> 6:47 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 159 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>A nice and short run after finishing writing. I will be a bit late for work, and will be eating on run but that is okay.</p>
+<p>Feeling better stamina and I am not exhausted at all.</p>
+
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-09-17-running/</guid>
+    </item>
+    <item>
+      <title>Monday Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-09-14-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 14, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.10 km</li>
+    
+    <li><strong>Duration:</strong> 14m 7s</li>
+    
+    <li><strong>Pace:</strong> 6:43 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 150 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>It’s not usual for me to go for Monday run instead I try to go on Sundays and take a break on Monday. But now I have energy to do it so I went after work.</p>
+<p>Everything was smooth, a bit warmer temperature and I was doing fine. However, I am recently observing that Apple Watch has some issue with heart rate sensor.</p>
+<p>This is not nice but I am not gonna put more money in their bullshit business. I also don't want to spend money.</p>
+
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 14, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 2.10 km</li>
+    
+    <li><strong>Duration:</strong> 14m 7s</li>
+    
+    <li><strong>Pace:</strong> 6:43 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 150 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>It’s not usual for me to go for Monday run instead I try to go on Sundays and take a break on Monday. But now I have energy to do it so I went after work.</p>
+<p>Everything was smooth, a bit warmer temperature and I was doing fine. However, I am recently observing that Apple Watch has some issue with heart rate sensor.</p>
+<p>This is not nice but I am not gonna put more money in their bullshit business. I also don't want to spend money.</p>
+
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-09-14-running/</guid>
+    </item>
+    <item>
+      <title>Saturday Run</title>
+      <link>https://blog.rishabhps.com/workout/2026-09-12-running/</link>
+      <description><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 12, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.03 km</li>
+    
+    <li><strong>Duration:</strong> 19m 47s</li>
+    
+    <li><strong>Pace:</strong> 6:32 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 158 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>Oh Man, it was an amazing run. Practicing relaxing runs seemed to build some strength in my body. So first two kilometers went usually. But as it's weekend, I thought to try the third one but with higher speed. I nailed it and I was not exhausted in the end.  Instead, I was enjoying the music and run all along.</p>
+
+    
+  </div>
+  
+</article>]]></description>
+      <content:encoded><![CDATA[
+<article class="workout-feed-entry">
+  <p class="workout-feed-date">Sep 12, 2026</p>
+  
+  <ul class="workout-detail-list">
+    
+    <li><strong>Type:</strong> Running</li>
+    
+    <li><strong>Distance:</strong> 3.03 km</li>
+    
+    <li><strong>Duration:</strong> 19m 47s</li>
+    
+    <li><strong>Pace:</strong> 6:32 min/km</li>
+    
+    <li><strong>Average heart rate:</strong> 158 bpm</li>
+    
+    <li><strong>Source:</strong> CSV</li>
+    
+  </ul>
+  
+  
+  <div class="workout-summary-block">
+    <h4>Summary</h4>
+    <p>Oh Man, it was an amazing run. Practicing relaxing runs seemed to build some strength in my body. So first two kilometers went usually. But as it's weekend, I thought to try the third one but with higher speed. I nailed it and I was not exhausted in the end.  Instead, I was enjoying the music and run all along.</p>
+
+    
+  </div>
+  
+</article>]]></content:encoded>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Rishabh</dc:creator>
+      <guid>https://blog.rishabhps.com/workout/2026-09-12-running/</guid>
+    </item>
+  </channel>
+</rss>
