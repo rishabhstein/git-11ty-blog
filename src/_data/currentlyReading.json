@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "title": "Be Love Now",
+      "authors": "Ram Dass",
+      "percent": 15,
+      "cover": "/assets/images/reading/55.webp"
+    },
+    {
       "title": "The God Delusion",
       "authors": "Richard Dawkins",
       "percent": 22,
