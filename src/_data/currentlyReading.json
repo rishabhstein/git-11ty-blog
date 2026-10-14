@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "title": "Letters from a Stoic",
+      "authors": "Seneca",
+      "percent": 67,
+      "cover": "/assets/images/reading/95.webp"
+    },
+    {
       "title": "Be Love Now",
       "authors": "Ram Dass",
       "percent": 20,
