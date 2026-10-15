@@ -1,16 +1,16 @@
 {
   "books": [
     {
+      "title": "Letters from a Stoic",
+      "authors": "Seneca",
+      "percent": 68,
+      "cover": "/assets/images/reading/95.webp"
+    },
+    {
       "title": "Be Love Now",
       "authors": "Ram Dass",
       "percent": 28,
       "cover": "/assets/images/reading/55.webp"
-    },
-    {
-      "title": "Letters from a Stoic",
-      "authors": "Seneca",
-      "percent": 67,
-      "cover": "/assets/images/reading/95.webp"
     },
     {
       "title": "The God Delusion",
