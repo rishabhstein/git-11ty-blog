@@ -1,9 +1,15 @@
 {
   "books": [
     {
+      "title": "Discourses and Selected Writings",
+      "authors": "Epictetus, Robert Dobbin",
+      "percent": 0,
+      "cover": "/assets/images/reading/93.webp"
+    },
+    {
       "title": "Letters from a Stoic",
       "authors": "Seneca",
-      "percent": 68,
+      "percent": 69,
       "cover": "/assets/images/reading/95.webp"
     },
     {
