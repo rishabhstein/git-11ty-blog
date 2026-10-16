@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "title": "Be Love Now",
+      "authors": "Ram Dass",
+      "percent": 31,
+      "cover": "/assets/images/reading/55.webp"
+    },
+    {
       "title": "Discourses and Selected Writings",
       "authors": "Epictetus, Robert Dobbin",
       "percent": 0,
@@ -11,12 +17,6 @@
       "authors": "Seneca",
       "percent": 69,
       "cover": "/assets/images/reading/95.webp"
-    },
-    {
-      "title": "Be Love Now",
-      "authors": "Ram Dass",
-      "percent": 28,
-      "cover": "/assets/images/reading/55.webp"
     },
     {
       "title": "The God Delusion",
