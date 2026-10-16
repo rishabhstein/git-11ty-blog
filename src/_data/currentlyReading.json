@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "title": "Discourses and Selected Writings",
+      "authors": "Epictetus, Robert Dobbin",
+      "percent": 12,
+      "cover": "/assets/images/reading/93.webp"
+    },
+    {
       "title": "Be Love Now",
       "authors": "Ram Dass",
       "percent": 31,
