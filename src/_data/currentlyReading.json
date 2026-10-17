@@ -1,16 +1,28 @@
 {
   "books": [
     {
+      "title": "Be Love Now",
+      "authors": "Ram Dass",
+      "percent": 32,
+      "cover": "/assets/images/reading/55.webp"
+    },
+    {
+      "title": "Spartacus",
+      "authors": "Ben Kane",
+      "percent": 2,
+      "cover": "/assets/images/reading/97.webp"
+    },
+    {
+      "title": "By His Grace",
+      "authors": "Dada Mukerjee",
+      "percent": 24,
+      "cover": "/assets/images/reading/98.webp"
+    },
+    {
       "title": "Discourses and Selected Writings",
       "authors": "Epictetus, Robert Dobbin",
       "percent": 12,
       "cover": "/assets/images/reading/93.webp"
-    },
-    {
-      "title": "Be Love Now",
-      "authors": "Ram Dass",
-      "percent": 31,
-      "cover": "/assets/images/reading/55.webp"
     },
     {
       "title": "Letters from a Stoic",
