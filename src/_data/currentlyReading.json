@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "title": "By His Grace",
+      "authors": "Dada Mukerjee",
+      "percent": 24,
+      "cover": "/assets/images/reading/98.webp"
+    },
+    {
       "title": "Be Love Now",
       "authors": "Ram Dass",
       "percent": 32,
@@ -11,12 +17,6 @@
       "authors": "Ben Kane",
       "percent": 2,
       "cover": "/assets/images/reading/97.webp"
-    },
-    {
-      "title": "By His Grace",
-      "authors": "Dada Mukerjee",
-      "percent": 24,
-      "cover": "/assets/images/reading/98.webp"
     },
     {
       "title": "Discourses and Selected Writings",
