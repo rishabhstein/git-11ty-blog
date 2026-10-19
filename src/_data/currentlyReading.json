@@ -1,16 +1,16 @@
 {
   "books": [
     {
+      "title": "Be Love Now",
+      "authors": "Ram Dass",
+      "percent": 33,
+      "cover": "/assets/images/reading/55.webp"
+    },
+    {
       "title": "By His Grace",
       "authors": "Dada Mukerjee",
       "percent": 27,
       "cover": "/assets/images/reading/98.webp"
-    },
-    {
-      "title": "Be Love Now",
-      "authors": "Ram Dass",
-      "percent": 32,
-      "cover": "/assets/images/reading/55.webp"
     },
     {
       "title": "Spartacus",
