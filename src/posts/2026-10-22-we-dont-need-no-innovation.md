@@ -3,7 +3,8 @@ title: "We Dont Need No Innovation"
 date: 2026-10-22
 tags: ["tech", "minimalism"]
 location: "Brussels, Belgium"
-description: Expressing my frustation on the new tech gadgets which are pushing the limit limites
+description: Expressing my frustration on the new tech gadgets which are pushing the limits
+cover: "./assets/images/blog_posts/2026-10-23-1792753017377-no-innovation.jpeg"
 ---
 
 Nowadays, new tech gadgets are being released at an increasingly faster pace than ever before.  Every week there is either a new cutting-edge foldable-pro-max-biggest-screen-ever smartphone or a jumping, flying box-like car with revolutionary rocket tech. And do not forget that new AI model which will make your charlatan boss look smarter, and help him cut the budget by firing half of the team. I know I have made many assumptions here, but bear with me. 
