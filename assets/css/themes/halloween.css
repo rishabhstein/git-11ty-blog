@@ -1,0 +1,188 @@
+/* Halloween theme: a witch crossing the sky on her broom, flocks of bats
+   flitting both ways and two flickering jack-o'-lanterns in the bottom-right corner (the
+   bottom-left is where the oneko cat naps). Markup: src/_includes/themes/halloween.njk */
+
+:root {
+  --hw-glow: rgba(255, 140, 30, 0);
+  /* The witch glows in both themes. A glow barely registers on white, so the
+     day version runs stronger than the night one. */
+  --hw-witch-glow-core: rgba(255, 150, 40, 0.95);
+  --hw-witch-glow-halo: rgba(255, 110, 20, 0.7);
+  --hw-flame: #ffd45c;
+  --hw-pumpkin: #e2701b;
+  --hw-pumpkin-core: #f28a26;
+  --hw-pumpkin-line: #b4520f;
+  --hw-stem: #4d6b2a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* The stickers' dark hats and wings sink into the night background, so
+       give them an orange rim, like they're lit by a bonfire. */
+    --hw-glow: rgba(255, 140, 30, 0.45);
+    --hw-witch-glow-core: rgba(255, 170, 60, 0.85);
+    --hw-witch-glow-halo: rgba(255, 120, 30, 0.5);
+  }
+}
+
+.halloween-sky {
+  position: fixed;
+  inset: 0;
+  z-index: 45;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* ---- witch ---------------------------------------------------------- */
+
+.witch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Sized and placed to stay in the band along the header, clear of the
+     text. The sticker carries a lot of transparent padding, so the box runs
+     larger than she looks. */
+  width: clamp(120px, 14vw, 180px);
+  /* The sticker faces left, so she flies right to left. She crosses in the
+     first 60% of the cycle, then stays off-screen for a beat so she reads as
+     an occasional visitor rather than a conveyor belt. */
+  animation: hw-witch-fly 42s linear 2s infinite both;
+}
+
+.witch-bob {
+  animation: hw-witch-bob 3.2s ease-in-out infinite alternate;
+}
+
+.witch-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter:
+    drop-shadow(0 0 4px var(--hw-witch-glow-core))
+    drop-shadow(0 0 14px var(--hw-witch-glow-halo));
+}
+
+@keyframes hw-witch-fly {
+  0%   { transform: translateX(100vw) rotate(4deg); }
+  30%  { transform: translateX(45vw) translateY(1vh) rotate(1deg); }
+  60%  { transform: translateX(-100%) translateY(-1vh) rotate(6deg); }
+  100% { transform: translateX(-100%) translateY(-1vh) rotate(6deg); }
+}
+
+@keyframes hw-witch-bob {
+  from { transform: translateY(0) rotate(2deg); }
+  to   { transform: translateY(-8px) rotate(-3deg); }
+}
+
+/* ---- bats ----------------------------------------------------------- */
+
+.bat-flock {
+  position: absolute;
+  top: var(--top);
+  left: 0;
+  width: var(--w);
+  aspect-ratio: 5 / 3;
+  animation: hw-flock-ltr var(--dur) linear var(--delay) infinite both;
+}
+.bat-flock--rtl { animation-name: hw-flock-rtl; }
+/* The leader should be at the front, whichever way the flock is heading. */
+.bat-flock--rtl .bat { left: auto; right: var(--x); }
+
+.bat {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--s);
+  animation: hw-bat-bob 1.6s ease-in-out var(--bob) infinite alternate;
+}
+
+.bat img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 5px var(--hw-glow));
+}
+
+@keyframes hw-bat-bob {
+  from { transform: translate(0, 0); }
+  to   { transform: translate(6%, -18%); }
+}
+
+/* Gentle swoops that stay inside the header band. The flock starts and ends
+   one full width past the edge (translate % is the flock's own width), so it
+   never pops in on a narrow screen; the long tail at the end is time spent
+   off-screen, so the sky is empty more often than not. */
+@keyframes hw-flock-ltr {
+  0%   { transform: translate(-100%, 0); }
+  12%  { transform: translate(18vw, -1vh); }
+  24%  { transform: translate(40vw, 1.5vh); }
+  36%  { transform: translate(62vw, -1vh); }
+  48%  { transform: translate(84vw, 1vh); }
+  60%  { transform: translate(100vw, 0); }
+  100% { transform: translate(100vw, 0); }
+}
+
+@keyframes hw-flock-rtl {
+  0%   { transform: translate(100vw, 0); }
+  12%  { transform: translate(78vw, 1vh); }
+  24%  { transform: translate(56vw, -1.5vh); }
+  36%  { transform: translate(34vw, 1vh); }
+  48%  { transform: translate(12vw, -1vh); }
+  60%  { transform: translate(-100%, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+/* ---- pumpkins ------------------------------------------------------- */
+
+.pumpkin {
+  position: absolute;
+  bottom: 4px;
+  height: auto;
+  overflow: visible;
+}
+.pumpkin--big   { right: 18px; width: 74px; }
+.pumpkin--small { right: 84px; width: 50px; }
+
+.pumpkin-stem { fill: var(--hw-stem); }
+.pumpkin-rib,
+.pumpkin-core {
+  fill: var(--hw-pumpkin);
+  stroke: var(--hw-pumpkin-line);
+  stroke-width: 1.5;
+}
+.pumpkin-core { fill: var(--hw-pumpkin-core); }
+
+.pumpkin-face {
+  fill: var(--hw-flame);
+  filter: drop-shadow(0 0 3px rgba(255, 170, 40, 0.9));
+  animation: hw-flicker 2.6s steps(1) infinite;
+}
+.pumpkin--small .pumpkin-face { animation-delay: -1.1s; }
+
+@keyframes hw-flicker {
+  0%, 100% { opacity: 1; }
+  12% { opacity: 0.72; }
+  16% { opacity: 1; }
+  48% { opacity: 0.85; }
+  52% { opacity: 0.6; }
+  56% { opacity: 1; }
+  80% { opacity: 0.8; }
+}
+
+/* ---- small screens, motion, print ----------------------------------- */
+
+@media (max-width: 640px) {
+  .bat-flock--trail { display: none; }
+  .pumpkin--big   { right: 8px; width: 54px; }
+  .pumpkin--small { right: 56px; width: 38px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .witch,
+  .bat-flock { display: none; }
+  .pumpkin-face { animation: none; }
+}
+
+@media print {
+  .halloween-sky { display: none; }
+}
