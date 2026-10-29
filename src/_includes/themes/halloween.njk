@@ -1,0 +1,55 @@
+{# Halloween: a witch on her broom, bats and two jack-o'-lanterns.
+   Dates live in src/_data/seasons.json; styles in assets/css/themes/halloween.css.
+   Stickers via GIPHY:
+     witch  https://giphy.com/stickers/WUIvuTiu6ITlmPdUBY
+     bat    https://giphy.com/stickers/halloween-bat-vleermuis-S7F6wZ0Jcv1n6hNc8R #}
+<div class="halloween-sky" aria-hidden="true">
+
+  <div class="witch">
+    <div class="witch-bob">
+      <img class="witch-img" src="{{ siteRoot }}assets/images/themes/halloween/witch.webp" alt="" width="480" height="480" decoding="async">
+    </div>
+  </div>
+
+  {# Bats travel in flocks: the flock follows the flight path while each bat
+     holds a slot in a loose cluster and bobs on its own beat. Slots are in % of
+     the flock's width, so a flock scales by changing its width alone. #}
+  {% set slots = [
+    { x: 0,  y: 38, size: 36 },
+    { x: 30, y: 0,  size: 30 },
+    { x: 50, y: 46, size: 32 },
+    { x: 70, y: 12, size: 26 },
+    { x: 82, y: 52, size: 20 }
+  ] %}
+  {# Kept small and in the band along the header, clear of the text, so
+     they read as background rather than a distraction. #}
+  {% set flocks = [
+    { name: "lead",   dir: "ltr", top: "3vh", width: "clamp(100px, 11vw, 150px)", count: 3, dur: "30s", delay: "4s" },
+    { name: "trail",  dir: "rtl", top: "6vh", width: "clamp(80px, 9vw, 120px)",   count: 3, dur: "36s", delay: "22s" }
+  ] %}
+  {% for flock in flocks %}
+  <div class="bat-flock bat-flock--{{ flock.dir }} bat-flock--{{ flock.name }}" style="--top:{{ flock.top }}; --w:{{ flock.width }}; --dur:{{ flock.dur }}; --delay:{{ flock.delay }};">
+    {% for slot in slots.slice(0, flock.count) %}
+    <div class="bat" style="--x:{{ slot.x }}%; --y:{{ slot.y }}%; --s:{{ slot.size }}%; --bob:{{ loop.index0 * -0.7 }}s;">
+      <img src="{{ siteRoot }}assets/images/themes/halloween/bat.webp" alt="" width="480" height="480" decoding="async">
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+
+  {% for p in ["big", "small"] %}
+  <svg class="pumpkin pumpkin--{{ p }}" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+    <path class="pumpkin-stem" d="M46 26 Q45 14 52 8 L56 11 Q51 17 53 26 Z"/>
+    <ellipse class="pumpkin-rib" cx="30" cy="56" rx="26" ry="30"/>
+    <ellipse class="pumpkin-rib" cx="70" cy="56" rx="26" ry="30"/>
+    <ellipse class="pumpkin-core" cx="50" cy="56" rx="24" ry="32"/>
+    <g class="pumpkin-face">
+      <polygon points="31,47 43,47 37,36"/>
+      <polygon points="57,47 69,47 63,36"/>
+      <polygon points="47,55 53,55 50,50"/>
+      <path d="M28 62 L35 67 L40 62 L45 68 L50 62 L55 68 L60 62 L65 67 L72 62 Q50 84 28 62 Z"/>
+    </g>
+  </svg>
+  {% endfor %}
+
+</div>
