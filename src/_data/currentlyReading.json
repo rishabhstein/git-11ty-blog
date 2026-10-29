@@ -1,12 +1,6 @@
 {
   "books": [
     {
-      "title": "Be Love Now",
-      "authors": "Ram Dass",
-      "percent": 73,
-      "cover": "/assets/images/reading/55.webp"
-    },
-    {
       "title": "By His Grace",
       "authors": "Dada Mukerjee",
       "percent": 26,
