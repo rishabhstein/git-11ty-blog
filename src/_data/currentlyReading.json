@@ -1,16 +1,16 @@
 {
   "books": [
     {
+      "title": "World of Wonders",
+      "authors": "Aimee Nezhukumatathil",
+      "percent": 25,
+      "cover": "/assets/images/reading/92.webp"
+    },
+    {
       "title": "By His Grace",
       "authors": "Dada Mukerjee",
       "percent": 26,
       "cover": "/assets/images/reading/98.webp"
-    },
-    {
-      "title": "World of Wonders",
-      "authors": "Aimee Nezhukumatathil",
-      "percent": 24,
-      "cover": "/assets/images/reading/92.webp"
     },
     {
       "title": "Spartacus",
