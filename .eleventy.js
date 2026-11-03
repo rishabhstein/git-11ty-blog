@@ -799,6 +799,21 @@ ${plots}
     return `/assets/images/piclog/${found || "piclog.jpeg"}`;
   });
 
+  // Status Update stories: older piclogs live in piclog/archive/ named
+  // YYYY-MM-DD.ext (same-day extras YYYY-MM-DD-2.ext, higher = later).
+  // Newest first; the current piclog itself is prepended in the template.
+  eleventyConfig.addGlobalData("piclogArchive", () => {
+    const archiveDir = path.join(process.cwd(), "assets", "images", "piclog", "archive");
+    if (!fs.existsSync(archiveDir)) return [];
+    return fs.readdirSync(archiveDir)
+      .filter((name) => /^\d{4}-\d{2}-\d{2}(-\d+)?\.(gif|jpe?g|png|webp)$/i.test(name))
+      .sort((a, b) => b.localeCompare(a, "en", { numeric: true }))
+      .map((name) => ({
+        src: `/assets/images/piclog/archive/${name}`,
+        date: name.slice(0, 10),
+      }));
+  });
+
   eleventyConfig.addGlobalData("site", {
     name: "Sigmarootpi",
     description: "Rishabh's online home: writing, books, movies, workouts and whatever else I keep a record of.",

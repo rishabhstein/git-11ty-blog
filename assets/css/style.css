@@ -2182,8 +2182,10 @@ hr {
   width: auto;
   aspect-ratio: 3 / 4;
   transform: translateX(-50%);
-  overflow: hidden;
   border-radius: 10px;
+  /* Not clipped, so the peeking card can show past the edge; isolate keeps
+     it stacked behind the cover rather than behind the page. */
+  isolation: isolate;
 }
 
 .writing-piclog img {
@@ -2191,6 +2193,41 @@ hr {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: inherit;
+}
+
+/* The previous status update, tucked behind the cover and sliding out a
+   little now and then so it's clear there are more to tap through. */
+.piclog-peek {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background-position: center;
+  background-size: cover;
+  box-shadow: var(--panel-shadow-hover);
+  filter: brightness(0.85);
+  transform-origin: bottom left;
+  transform: translateX(6%) rotate(3deg) scale(0.95);
+  animation: piclog-peek 4s ease-in-out infinite;
+  transition: transform 0.25s ease;
+}
+
+@keyframes piclog-peek {
+  0%, 55%, 100% { transform: translateX(6%) rotate(3deg) scale(0.95); }
+  70%, 85% { transform: translateX(16%) rotate(7deg) scale(0.95); }
+}
+
+.writing-piclog a:hover .piclog-peek,
+.writing-piclog a:focus-visible .piclog-peek {
+  animation: none;
+  transform: translateX(18%) rotate(8deg) scale(0.95);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .piclog-peek {
+    animation: none;
+  }
 }
 
 .piclog-overlay {
@@ -2210,6 +2247,198 @@ hr {
   text-transform: uppercase;
   backdrop-filter: blur(6px);
   pointer-events: none;
+}
+
+/* Status Update story viewer (assets/js/piclog-stories.js). Always dark,
+   like a photo lightbox, so it needs no light/dark variants. */
+html.story-open {
+  overflow: hidden;
+}
+
+.story-viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(8, 10, 16, 0.92);
+  /* Swipes are ours: no page scroll behind it, no pull-to-refresh. */
+  touch-action: none;
+  overscroll-behavior: contain;
+}
+
+.story-viewer[hidden] {
+  display: none;
+}
+
+.story-frame {
+  position: relative;
+  width: min(100%, 420px);
+  aspect-ratio: 9 / 16;
+  max-height: 100%;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #000;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  -webkit-user-select: none;
+  /* Hold-to-pause is a long press; keep iOS's save-image sheet away. */
+  -webkit-touch-callout: none;
+  touch-action: none;
+  cursor: pointer;
+}
+
+.story-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  -webkit-user-drag: none;
+}
+
+.story-progress {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  gap: 3px;
+}
+
+.story-progress span {
+  flex: 1;
+  height: 3px;
+  overflow: hidden;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.story-progress i {
+  display: block;
+  height: 100%;
+  background: #fff;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.story-header {
+  position: absolute;
+  top: 20px;
+  left: 12px;
+  right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.story-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  color: #f8fbff;
+  font-family: var(--font-ui);
+}
+
+.story-month {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.story-date {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.story-hint {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.6);
+  color: #f8fbff;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.story-hint:empty {
+  display: none;
+}
+
+.story-hint-newer {
+  top: 62px;
+}
+
+/* Way to older months: a large see-through chevron over the label. */
+.story-more {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  pointer-events: none;
+  animation: story-more-nudge 1.6s ease-in-out infinite;
+}
+
+.story-more[hidden] {
+  display: none;
+}
+
+.story-more .story-hint {
+  position: static;
+  transform: none;
+}
+
+.story-more-arrow {
+  width: 44px;
+  height: 44px;
+  color: rgba(255, 255, 255, 0.7);
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.55));
+}
+
+/* On touch the gesture is a swipe up, so the arrow points up. */
+.story-more.is-swipe .story-more-arrow {
+  transform: rotate(180deg);
+}
+
+@keyframes story-more-nudge {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+
+.story-more.is-swipe {
+  animation-name: story-more-nudge-up;
+}
+
+@keyframes story-more-nudge-up {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story-more {
+    animation: none;
+  }
+}
+
+.story-close {
+  padding: 0 8px;
+  border: 0;
+  background: none;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
 }
 
 .sidebar-guestbook {

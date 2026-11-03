@@ -163,7 +163,12 @@ layout: 'base.njk'
         </ul>
 
         <article class="writing-piclog">
-          <a href="{{ piclogImage }}">
+          {# The viewer plays this link's image first, then the archive (newest first). #}
+          <a href="{{ piclogImage }}" class="js-piclog-stories" aria-label="Play status updates">
+            {% if piclogArchive.length %}
+            {# The previous update peeks out from behind, hinting there's more to see. #}
+            <span class="piclog-peek" style="background-image: url('{{ piclogArchive[0].src }}')" aria-hidden="true"></span>
+            {% endif %}
             <span class="piclog-overlay">Status Update</span>
             <img
               src="{{ piclogImage }}"
@@ -171,6 +176,7 @@ layout: 'base.njk'
               class="piclog-image"
             >
           </a>
+          <script type="application/json" id="piclog-archive">{{ piclogArchive | dump | safe }}</script>
         </article>
       </div>
     </section>
