@@ -1,0 +1,207 @@
+/* Diwali theme: a garland of lights along the top, a row of lit diyas in
+   each bottom corner and fireworks in the empty side margins.
+   Markup: src/_includes/themes/diwali.njk */
+
+:root {
+  /* Width of the reading column (.portal-center tops out around 860-882px);
+     the side margins are whatever's left either side of it. */
+  --dw-column: 880px;
+  --dw-gutter: calc((100vw - var(--dw-column)) / 2);
+  --dw-glow: rgba(255, 170, 50, 0.55);
+
+  /* The diya rows, and the point above their middle that rockets launch from. */
+  --dw-lamps-inset: 16px;
+  --dw-lamps-width: 180px;
+  --dw-lamps-height: 26px;
+  --dw-launch-x: calc(var(--dw-lamps-inset) + var(--dw-lamps-width) / 2);
+
+  /* One volley of fireworks lasts a few seconds, then ~30s of quiet. Every
+     firework shares this cycle, offset by its own --at, so they stay in step. */
+  --dw-cycle: 36s;
+  --dw-start: 2s;
+
+  /* By day, white bulbs and white sparks vanish into the page, so the
+     garland gets a deeper amber rim and the bursts are deepened and
+     outlined. At night the stickers' own colours carry them. */
+  --dw-garland-filter: drop-shadow(0 0 2px rgba(214, 120, 10, 0.95)) drop-shadow(0 0 5px rgba(255, 160, 40, 0.6));
+  --dw-burst-filter: saturate(2.5) brightness(0.7) drop-shadow(0 0 1px rgba(150, 70, 0, 0.8));
+  --dw-rocket: #e08a12;
+  --dw-greeting: linear-gradient(90deg, #c2410c, #d97706, #a16207, #d97706, #c2410c);
+  --dw-greeting-glow: rgba(245, 158, 11, 0.55);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dw-garland-filter: drop-shadow(0 0 4px var(--dw-glow));
+    --dw-burst-filter: none;
+    --dw-rocket: #ffd27a;
+    --dw-greeting: linear-gradient(90deg, #ffb347, #ffe08a, #ffc04d, #ffe08a, #ffb347);
+    --dw-greeting-glow: rgba(255, 180, 60, 0.7);
+  }
+}
+
+.diwali-sky {
+  position: fixed;
+  inset: 0;
+  z-index: 45;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+/* ---- garland -------------------------------------------------------- */
+
+/* The light-string sticker tiles edge to edge along the top of the page. */
+.diwali-garland {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 26px;
+  background: url("../../images/themes/diwali/lights.webp") repeat-x left top / auto 100%;
+  filter: var(--dw-garland-filter);
+}
+
+/* ---- greeting ------------------------------------------------------- */
+
+/* "Happy Diwali" bursts open with each rocket's firework and hangs just
+   above it in the side margin. Half the burst's height is how far above the
+   rocket's stopping point (--to) the greeting has to sit to clear it. */
+.diwali-greeting {
+  --dw-tx: -50%;
+  --dw-clear: calc(min(140px, var(--dw-gutter) - 40px) / 2 + 4px);
+  position: absolute;
+  top: calc(var(--to) - var(--dw-clear));
+  margin: 0;
+  font-family: "Literata", Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.05;
+  text-align: center;
+  white-space: nowrap;
+  background: var(--dw-greeting);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0;
+  animation:
+    dw-greeting var(--dw-cycle) ease-out calc(var(--dw-start) + var(--at)) infinite both,
+    dw-shimmer 3s linear infinite;
+}
+.diwali-greeting span { display: block; }
+.diwali-greeting--left  { left: var(--dw-launch-x); }
+.diwali-greeting--right { right: var(--dw-launch-x); --dw-tx: 50%; }
+
+/* Pops like the burst beside it: a blurred flash that overshoots, settles,
+   glows for the length of the volley, then drifts down and fades like
+   falling sparks. */
+@keyframes dw-greeting {
+  0%    { opacity: 0; transform: translate(var(--dw-tx), -100%) scale(0.2); filter: blur(4px) drop-shadow(0 0 14px var(--dw-greeting-glow)); }
+  0.6%  { opacity: 1; transform: translate(var(--dw-tx), -100%) scale(1.18); filter: blur(0) drop-shadow(0 0 14px var(--dw-greeting-glow)); }
+  1.3%  { opacity: 1; transform: translate(var(--dw-tx), -100%) scale(1); filter: blur(0) drop-shadow(0 0 6px var(--dw-greeting-glow)); }
+  8%    { opacity: 1; transform: translate(var(--dw-tx), -100%) scale(1); filter: blur(0) drop-shadow(0 0 6px var(--dw-greeting-glow)); }
+  10%   { opacity: 0; transform: translate(var(--dw-tx), calc(-100% + 10px)) scale(1.04); filter: blur(1.5px) drop-shadow(0 0 6px var(--dw-greeting-glow)); }
+  100%  { opacity: 0; transform: translate(var(--dw-tx), calc(-100% + 10px)) scale(1.04); filter: blur(1.5px) drop-shadow(0 0 6px var(--dw-greeting-glow)); }
+}
+
+@keyframes dw-shimmer {
+  from { background-position: 0% 0; }
+  to   { background-position: 200% 0; }
+}
+
+/* ---- diya rows ------------------------------------------------------ */
+
+.diwali-diyas {
+  position: absolute;
+  bottom: 6px;
+  width: var(--dw-lamps-width);
+  height: auto;
+  filter: drop-shadow(0 0 8px var(--dw-glow));
+}
+.diwali-diyas--left  { left: var(--dw-lamps-inset); }
+.diwali-diyas--right { right: var(--dw-lamps-inset); }
+
+/* ---- fireworks ------------------------------------------------------ */
+
+/* Bursts are placed by their centre: --top is how high it blooms. */
+.diwali-burst {
+  position: absolute;
+  top: var(--top);
+  width: min(140px, calc(var(--dw-gutter) - 40px));
+  height: auto;
+  opacity: 0;
+  filter: var(--dw-burst-filter);
+  animation: dw-burst var(--dw-cycle) ease-in-out calc(var(--dw-start) + var(--at)) infinite both;
+}
+/* Free-standing bursts sit in the middle of their margin... */
+.diwali-burst--left  { left: calc(var(--dw-gutter) / 2); transform: translate(-50%, -50%); }
+.diwali-burst--right { right: calc(var(--dw-gutter) / 2); transform: translate(50%, -50%); }
+/* ...while a rocket's burst blooms right where the rocket stopped. */
+.diwali-burst--rocket.diwali-burst--left  { left: var(--dw-launch-x); }
+.diwali-burst--rocket.diwali-burst--right { right: var(--dw-launch-x); }
+
+/* Visible for ~3.5s of the 36s cycle. */
+@keyframes dw-burst {
+  0%   { opacity: 0; }
+  1%   { opacity: 1; }
+  8%   { opacity: 1; }
+  10%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+/* A rocket is a bright head with a fading tail. It sits where it will burst
+   (--to) and is pushed down to just above the diyas, then climbs back up. */
+.diwali-rocket {
+  --dw-launch-drop: calc(100vh - var(--to) - var(--dw-lamps-height) - 16px);
+  position: absolute;
+  top: var(--to);
+  width: 3px;
+  height: 46px;
+  margin-left: -1.5px;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, var(--dw-rocket), transparent);
+  box-shadow: 0 -2px 8px 2px var(--dw-glow);
+  opacity: 0;
+  animation: dw-rocket var(--dw-cycle) ease-out calc(var(--dw-start) + var(--at)) infinite both;
+}
+.diwali-rocket--left  { left: var(--dw-launch-x); }
+.diwali-rocket--right { right: var(--dw-launch-x); }
+
+/* 1.2s climb (3.33% of 36s), then it's gone as the burst takes over. It
+   starts invisible so it doesn't sit on the launch point while it waits. */
+@keyframes dw-rocket {
+  0%    { opacity: 0; transform: translateY(var(--dw-launch-drop)); }
+  0.3%  { opacity: 1; }
+  3.33% { opacity: 1; transform: translateY(0); }
+  3.6%  { opacity: 0; transform: translateY(0); }
+  100%  { opacity: 0; transform: translateY(0); }
+}
+
+/* ---- small screens, motion, print ----------------------------------- */
+
+/* Below this there are no side margins to speak of, so fireworks would land
+   on the text. */
+@media (max-width: 1100px) {
+  .diwali-burst,
+  .diwali-rocket,
+  .diwali-greeting { display: none; }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --dw-lamps-inset: 8px;
+    --dw-lamps-width: 120px;
+  }
+  .diwali-garland { height: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .diwali-burst,
+  .diwali-rocket,
+  .diwali-greeting { display: none; }
+}
+
+@media print {
+  .diwali-sky { display: none; }
+}
