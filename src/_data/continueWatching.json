@@ -1,6 +1,12 @@
 {
   "items": [
     {
+      "title": "Heart of the Beast",
+      "year": 2026,
+      "percent": 1,
+      "cover": "/assets/images/watching/5524.webp"
+    },
+    {
       "title": "Barbarians",
       "year": 2020,
       "episode": "S01E06",
