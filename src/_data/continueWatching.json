@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "title": "One Hundred Years of Solitude",
-      "year": null,
-      "episode": "S01E13",
-      "percent": 75,
-      "cover": "/assets/images/watching/5353.webp"
+      "title": "Barbarians",
+      "year": 2020,
+      "episode": "S01E06",
+      "percent": 85,
+      "cover": "/assets/images/watching/2760.webp"
     },
     {
-      "title": "Spartacus",
-      "year": 2010,
-      "episode": "S01E02",
-      "percent": 1,
-      "cover": "/assets/images/watching/3474.webp"
+      "title": "Those About to Die",
+      "year": 2024,
+      "episode": "S01E01",
+      "percent": 6,
+      "cover": "/assets/images/watching/5487.webp"
     },
     {
       "title": "Friends",
@@ -20,12 +20,6 @@
       "episode": "S04E23",
       "percent": 23,
       "cover": "/assets/images/watching/385.webp"
-    },
-    {
-      "title": "The Thirteenth Floor",
-      "year": 1999,
-      "percent": 7,
-      "cover": "/assets/images/watching/5201.webp"
     },
     {
       "title": "Loki",

@@ -1,0 +1,48 @@
+name: Build and deploy blog
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: docker
+    container:
+      image: node:24-bookworm
+    env:
+      # Variables: Repository Settings > Actions > Variables
+      SITE_URL: ${{ vars.SITE_URL }}
+      SITE_PATH_PREFIX: ${{ vars.SITE_PATH_PREFIX || '/' }}
+      SITE_CNAME: ${{ vars.SITE_CNAME || '' }}
+      # Secret: Repository Settings > Actions > Secrets
+      FORGEJO_TOKEN: ${{ secrets.FORGEJO_TOKEN }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      # The push mirror copies gh-pages to GitHub afterwards
+      - name: Deploy _site to gh-pages on Forgejo
+        run: |
+          cd _site
+          touch .nojekyll
+          if [ -n "$SITE_CNAME" ]; then echo "$SITE_CNAME" > CNAME; fi
+          git init -q -b gh-pages
+          git config user.name "forgejo-runner"
+          git config user.email "forgejo-runner@git.rishabhps.com"
+          git add -A
+          git commit -q -m "Deploy ${{ github.sha }}"
+          git push --force "https://sigmarootpi:${FORGEJO_TOKEN}@git.rishabhps.com/sigmarootpi/git-11ty-notes.git" HEAD:gh-pages

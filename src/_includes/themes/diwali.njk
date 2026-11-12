@@ -1,0 +1,44 @@
+{# Diwali: a garland of lights along the top, a row of lit diyas in each
+   bottom corner, and fireworks in the empty side margins, clear of the text.
+   The fireworks come in volleys: a few seconds of bursts together, including
+   a rocket launched from above each row of diyas and a "Happy Diwali"
+   greeting that bursts open just above each rocket's firework, then about
+   30s of quiet.
+   Dates live in src/_data/seasons.json; styles in assets/css/themes/diwali.css.
+   Stickers via GIPHY (trimmed of their transparent padding):
+     lights           https://giphy.com/stickers/transparent-sparkle-lights-y7vyj9xj1bSxYzzWX5
+     diya row         https://giphy.com/stickers/diwali-happy-diya-vVOPyGcgCBXST1b9XS
+     gold firework    https://giphy.com/stickers/glueckist-silvester-feuerwerk-glckistsilvester-UzfevDz26pHF9fyupQ
+     rocket firework  https://giphy.com/stickers/profile-pimp-tagged-yz76Da5VvYK4w #}
+{% set art = siteRoot + "assets/images/themes/diwali/" %}
+<div class="diwali-sky" aria-hidden="true">
+
+  <div class="diwali-garland"></div>
+
+  {# `at` is when, in seconds into each volley, something goes off. A rocket
+     takes 1.2s to climb and then bursts where it stops (`to`). #}
+  {% set rockets = [
+    { side: "left",  to: "30vh", at: 0 },
+    { side: "right", to: "24vh", at: 0.8 }
+  ] %}
+  {% for rocket in rockets %}
+  <span class="diwali-rocket diwali-rocket--{{ rocket.side }}" style="--to:{{ rocket.to }}; --at:{{ rocket.at }}s;"></span>
+  <img class="diwali-burst diwali-burst--{{ rocket.side }} diwali-burst--rocket" style="--top:{{ rocket.to }}; --at:{{ (rocket.at + 1.2) | round(1) }}s;" src="{{ art }}firework-gold.webp" alt="" decoding="async">
+  <p class="diwali-greeting diwali-greeting--{{ rocket.side }}" style="--to:{{ rocket.to }}; --at:{{ (rocket.at + 1.2) | round(1) }}s;"><span>Happy</span><span>Diwali</span></p>
+  {% endfor %}
+
+  {% set bursts = [
+    { side: "left",  top: "54vh", img: "firework-rockets", at: 0.4 },
+    { side: "right", top: "48vh", img: "firework-rockets", at: 1.0 },
+    { side: "left",  top: "68vh", img: "firework-gold",    at: 1.8 },
+    { side: "right", top: "62vh", img: "firework-gold",    at: 2.4 },
+    { side: "left",  top: "42vh", img: "firework-rockets", at: 3.0 }
+  ] %}
+  {% for burst in bursts %}
+  <img class="diwali-burst diwali-burst--{{ burst.side }}" style="--top:{{ burst.top }}; --at:{{ burst.at }}s;" src="{{ art }}{{ burst.img }}.webp" alt="" decoding="async">
+  {% endfor %}
+
+  <img class="diwali-diyas diwali-diyas--left" src="{{ art }}diya-row.webp" alt="" width="434" height="63" decoding="async">
+  <img class="diwali-diyas diwali-diyas--right" src="{{ art }}diya-row.webp" alt="" width="434" height="63" decoding="async">
+
+</div>

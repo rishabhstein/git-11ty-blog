@@ -1,16 +1,46 @@
 {
   "books": [
     {
-      "title": "The Green Mile: The Complete Serial Novel",
-      "authors": "Stephen King",
-      "percent": 16,
-      "cover": "/assets/images/reading/87.webp"
-    },
-    {
       "title": "World of Wonders",
       "authors": "Aimee Nezhukumatathil",
-      "percent": 6,
+      "percent": 37,
       "cover": "/assets/images/reading/92.webp"
+    },
+    {
+      "title": "By His Grace",
+      "authors": "Dada Mukerjee",
+      "percent": 26,
+      "cover": "/assets/images/reading/98.webp"
+    },
+    {
+      "title": "Spartacus",
+      "authors": "Ben Kane",
+      "percent": 2,
+      "cover": "/assets/images/reading/97.webp"
+    },
+    {
+      "title": "Discourses and Selected Writings",
+      "authors": "Epictetus, Robert Dobbin",
+      "percent": 12,
+      "cover": "/assets/images/reading/93.webp"
+    },
+    {
+      "title": "Letters from a Stoic",
+      "authors": "Seneca",
+      "percent": 69,
+      "cover": "/assets/images/reading/95.webp"
+    },
+    {
+      "title": "The God Delusion",
+      "authors": "Richard Dawkins",
+      "percent": 22,
+      "cover": "/assets/images/reading/83.webp"
+    },
+    {
+      "title": "The Green Mile: The Complete Serial Novel",
+      "authors": "Stephen King",
+      "percent": 25,
+      "cover": "/assets/images/reading/87.webp"
     }
   ]
 }

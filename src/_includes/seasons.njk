@@ -1,0 +1,57 @@
+{#
+  Seasonal themes. This file never needs editing. To add a festival:
+    1. src/_includes/themes/<name>.njk  - the decoration markup
+    2. assets/css/themes/<name>.css     - its styles
+    3. an entry in src/_data/seasons.json: { "name", "start": "MM-DD", "end": "MM-DD" }
+  A range may wrap the new year (12-15 to 01-05). First match in the list wins.
+
+  The date check runs in the browser, not at build time, so the theme turns on
+  and off on its own without a rebuild. Each theme's markup ships inside an
+  inert <template>; only the active one is stamped into the page, and only
+  after its stylesheet has loaded, so unstyled SVGs never flash.
+
+  Preview any theme with ?season=<name>, or turn it off with ?season=none.
+#}
+{% for theme in seasons %}
+<template data-season="{{ theme.name }}">{% include "themes/" + theme.name + ".njk" %}</template>
+{% endfor %}
+<script>
+  (function () {
+    var seasons = {{ seasons | dump | safe }};
+    var override = new URLSearchParams(location.search).get("season");
+
+    function toKey(mmdd) {
+      var parts = mmdd.split("-");
+      return Number(parts[0]) * 100 + Number(parts[1]);
+    }
+
+    function activeSeason() {
+      if (override) {
+        return seasons.find(function (s) { return s.name === override; });
+      }
+      var now = new Date();
+      var today = (now.getMonth() + 1) * 100 + now.getDate();
+      return seasons.find(function (s) {
+        var start = toKey(s.start);
+        var end = toKey(s.end);
+        return start <= end
+          ? today >= start && today <= end
+          : today >= start || today <= end;
+      });
+    }
+
+    var season = activeSeason();
+    if (!season) return;
+    var template = document.querySelector('template[data-season="' + season.name + '"]');
+    if (!template) return;
+
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "{{ siteRoot }}assets/css/themes/" + season.name + ".css";
+    link.onload = function () {
+      document.documentElement.dataset.season = season.name;
+      document.body.appendChild(template.content.cloneNode(true));
+    };
+    document.head.appendChild(link);
+  })();
+</script>

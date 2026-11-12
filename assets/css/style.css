@@ -657,6 +657,34 @@ body {
 .activity-level-3 { background: #6ebf8a; color: #ffffff; }
 .activity-level-4 { background: #2f8f63; color: #ffffff; }
 
+/* Night mode: dark cells with light numbers; busier days get brighter green. */
+@media (prefers-color-scheme: dark) {
+  .activity-month-label,
+  .activity-weekdays span {
+    color: #b8bcc4;
+  }
+
+  .activity-nav {
+    background: transparent;
+    color: #d8e1ec;
+  }
+
+  .activity-cell {
+    background: rgba(255, 255, 255, 0.06);
+    color: #d8e1ec;
+  }
+
+  .activity-empty {
+    background: transparent;
+  }
+
+  .activity-level-0 { background: rgba(255, 255, 255, 0.06); }
+  .activity-level-1 { background: #1f4a33; }
+  .activity-level-2 { background: #2f7550; }
+  .activity-level-3 { background: #4fa873; color: #0a0a0a; }
+  .activity-level-4 { background: #86d6a3; color: #0a0a0a; }
+}
+
 .main-content {
   max-width: 1300px;
 }
@@ -1540,6 +1568,11 @@ h4 a:focus {
   .gallery > div {
     min-width: 0;
   }
+
+  /* A lone image takes the full row instead of one of the two columns. */
+  .gallery > :only-child {
+    grid-column: 1 / -1;
+  }
 }
 
 
@@ -2182,8 +2215,10 @@ hr {
   width: auto;
   aspect-ratio: 3 / 4;
   transform: translateX(-50%);
-  overflow: hidden;
   border-radius: 10px;
+  /* Not clipped, so the peeking card can show past the edge; isolate keeps
+     it stacked behind the cover rather than behind the page. */
+  isolation: isolate;
 }
 
 .writing-piclog img {
@@ -2191,6 +2226,41 @@ hr {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: inherit;
+}
+
+/* The previous status update, tucked behind the cover and sliding out a
+   little now and then so it's clear there are more to tap through. */
+.piclog-peek {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background-position: center;
+  background-size: cover;
+  box-shadow: var(--panel-shadow-hover);
+  filter: brightness(0.85);
+  transform-origin: bottom left;
+  transform: translateX(6%) rotate(3deg) scale(0.95);
+  animation: piclog-peek 4s ease-in-out infinite;
+  transition: transform 0.25s ease;
+}
+
+@keyframes piclog-peek {
+  0%, 55%, 100% { transform: translateX(6%) rotate(3deg) scale(0.95); }
+  70%, 85% { transform: translateX(16%) rotate(7deg) scale(0.95); }
+}
+
+.writing-piclog a:hover .piclog-peek,
+.writing-piclog a:focus-visible .piclog-peek {
+  animation: none;
+  transform: translateX(18%) rotate(8deg) scale(0.95);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .piclog-peek {
+    animation: none;
+  }
 }
 
 .piclog-overlay {
@@ -2210,6 +2280,198 @@ hr {
   text-transform: uppercase;
   backdrop-filter: blur(6px);
   pointer-events: none;
+}
+
+/* Status Update story viewer (assets/js/piclog-stories.js). Always dark,
+   like a photo lightbox, so it needs no light/dark variants. */
+html.story-open {
+  overflow: hidden;
+}
+
+.story-viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(8, 10, 16, 0.92);
+  /* Swipes are ours: no page scroll behind it, no pull-to-refresh. */
+  touch-action: none;
+  overscroll-behavior: contain;
+}
+
+.story-viewer[hidden] {
+  display: none;
+}
+
+.story-frame {
+  position: relative;
+  width: min(100%, 420px);
+  aspect-ratio: 9 / 16;
+  max-height: 100%;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #000;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.5);
+  user-select: none;
+  -webkit-user-select: none;
+  /* Hold-to-pause is a long press; keep iOS's save-image sheet away. */
+  -webkit-touch-callout: none;
+  touch-action: none;
+  cursor: pointer;
+}
+
+.story-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  -webkit-user-drag: none;
+}
+
+.story-progress {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  gap: 3px;
+}
+
+.story-progress span {
+  flex: 1;
+  height: 3px;
+  overflow: hidden;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.story-progress i {
+  display: block;
+  height: 100%;
+  background: #fff;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.story-header {
+  position: absolute;
+  top: 20px;
+  left: 12px;
+  right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.story-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  color: #f8fbff;
+  font-family: var(--font-ui);
+}
+
+.story-month {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.story-date {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.story-hint {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.6);
+  color: #f8fbff;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.story-hint:empty {
+  display: none;
+}
+
+.story-hint-newer {
+  top: 62px;
+}
+
+/* Way to older months: a large see-through chevron over the label. */
+.story-more {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  pointer-events: none;
+  animation: story-more-nudge 1.6s ease-in-out infinite;
+}
+
+.story-more[hidden] {
+  display: none;
+}
+
+.story-more .story-hint {
+  position: static;
+  transform: none;
+}
+
+.story-more-arrow {
+  width: 44px;
+  height: 44px;
+  color: rgba(255, 255, 255, 0.7);
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.55));
+}
+
+/* On touch the gesture is a swipe up, so the arrow points up. */
+.story-more.is-swipe .story-more-arrow {
+  transform: rotate(180deg);
+}
+
+@keyframes story-more-nudge {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+
+.story-more.is-swipe {
+  animation-name: story-more-nudge-up;
+}
+
+@keyframes story-more-nudge-up {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story-more {
+    animation: none;
+  }
+}
+
+.story-close {
+  padding: 0 8px;
+  border: 0;
+  background: none;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
 }
 
 .sidebar-guestbook {
@@ -2336,7 +2598,7 @@ hr {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #0b1220;
+    --bg-color: #0a0a0a;
     --text-color: #d8e1ec;
     --heading-color: #b9d7ff;
     --shelf-ink: #8fb0d6;
@@ -2348,50 +2610,50 @@ hr {
     --entry-title-color: var(--heading-color);
     --tag-link-color: #f0b45f;
     --link-hover-bg: transparent;
-    --highlight-color: #2b3d5c;
+    --highlight-color: #3a3a3a;
     --popular-glow: #ff8ac6;
 
-    --panel-bg: rgba(14, 24, 41, 0.98);
+    --panel-bg: #0a0a0a;
     --panel-text: #d8e1ec;
-    --panel-border: rgba(148, 178, 214, 0.18);
-    --panel-border-dark: rgba(185, 215, 255, 0.28);
+    --panel-border: rgba(255, 255, 255, 0.12);
+    --panel-border-dark: rgba(255, 255, 255, 0.22);
     --section-rule: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='12'%3E%3Cpath d='M2 6.4 C16 5.3 30 7.2 46 6.2 C62 5.4 76 7.0 92 6.0 C106 5.2 120 6.9 136 6.3 C152 5.5 166 7.1 182 6.1 C198 5.3 212 6.8 228 6.2 C244 5.6 258 7.2 274 6.0 C290 5.2 304 6.7 320 6.3 C334 5.4 346 6.9 358 5.9' fill='none' stroke='%238fb0d6' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
     --panel-border-light: rgba(255, 255, 255, 0.08);
     --panel-shadow: 0 14px 40px rgba(0, 0, 0, 0.26);
     --panel-shadow-hover: 0 18px 48px rgba(0, 0, 0, 0.34);
-    --header-strip-bg: linear-gradient(180deg, #1a2740 0%, #10192a 100%);
+    --header-strip-bg: #0a0a0a;
     --header-strip-text: #d8e1ec;
-    --header-strip-border: rgba(148, 178, 214, 0.2);
-    --nav-bg: linear-gradient(180deg, #172338 0%, #10192a 100%);
+    --header-strip-border: rgba(255, 255, 255, 0.12);
+    --nav-bg: #0a0a0a;
     --nav-text: #d8e1ec;
-    --nav-border: rgba(148, 178, 214, 0.18);
+    --nav-border: rgba(255, 255, 255, 0.12);
 
-    --blockquote-border: #5f83b7;
-    --blockquote-bg: #111d33;
-    --table-header-bg: #172338;
+    --blockquote-border: #555555;
+    --blockquote-bg: #141414;
+    --table-header-bg: #1c1c1c;
     --table-header-text: #d8e1ec;
-    --table-row-alt: #10192a;
+    --table-row-alt: #111111;
     --notebook-accent: #b9d7ff;
-    --status-bg: #111d33;
+    --status-bg: #141414;
     --status-border: solid;
 
-    /* Dark steps are chosen against #0b1220, not flipped from the light ramp:
+    /* Dark steps are chosen against #0a0a0a, not flipped from the light ramp:
        the scale runs subtle-to-bright here, the reverse of light mode. */
     --chart-bar: #7fa9dd;
     --chart-bar-current: #b9d7ff;
-    --chart-bar-empty: rgba(148, 178, 214, 0.14);
+    --chart-bar-empty: rgba(255, 255, 255, 0.10);
     --chart-shadow: rgba(0, 0, 0, 0.38);
     --heat-1: #2f5480;
     --heat-2: #4a76a8;
     --heat-3: #6f9bcc;
     --heat-4: #a3c5e8;
     --heat-ink-low: #d8e1ec;
-    --heat-ink-high: #0b1220;
+    --heat-ink-high: #0a0a0a;
     --chart-ink: #aab9cc;
   }
 
   html {
-    background-color: #0b1220;
+    background-color: #0a0a0a;
   }
 
   body {
@@ -2404,13 +2666,13 @@ hr {
 .workout-log-page .workout-bar-chart,
 .workout-log-page .workout-plot-card,
 .workout-log-page .workout-plot-tab {
-    background: linear-gradient(180deg, rgba(17, 29, 51, 0.98) 0%, rgba(12, 20, 35, 0.98) 100%);
+    background: #141414;
     border-color: var(--panel-border);
     box-shadow: var(--panel-shadow);
   }
 
   .workout-log-page .workout-plot-tab.is-active {
-    background: linear-gradient(180deg, #22314b 0%, #18263d 100%);
+    background: #262626;
     border-color: var(--panel-border-dark);
     color: var(--heading-color);
   }
@@ -2437,7 +2699,7 @@ hr {
   }
 
   .home-index .geocities-strip {
-    background: linear-gradient(180deg, #172338 0%, #10192a 100%);
+    background: #0a0a0a;
     border-bottom-color: var(--panel-border);
     box-shadow: var(--panel-shadow);
   }
@@ -2450,7 +2712,7 @@ hr {
 
   .home-index .geo-badge.blink {
     background: #ffd96a;
-    color: #0b1220;
+    color: #0a0a0a;
     border-color: #c9a12e;
     box-shadow: 0 0 0 1px rgba(255, 238, 170, 0.18);
   }
@@ -2645,7 +2907,7 @@ hr {
 /* Guestbook: night-mode refinements (base colors already come from the dark variables) */
 @media (prefers-color-scheme: dark) {
   #guestbooks___guestbook-form {
-    background: linear-gradient(180deg, rgba(17, 29, 51, 0.98) 0%, rgba(12, 20, 35, 0.98) 100%);
+    background: #141414;
   }
 
   /* Same random hue, but deep and mixed toward black for night mode. */
@@ -2720,7 +2982,7 @@ hr {
 
 @media (prefers-color-scheme: dark) {
   .post-footer-card {
-    background: linear-gradient(180deg, rgba(17, 29, 51, 0.98) 0%, rgba(12, 20, 35, 0.98) 100%);
+    background: #141414;
   }
 }
 
