@@ -1,12 +1,6 @@
 {
   "books": [
     {
-      "title": "The Fate of Empires and Search for Survival",
-      "authors": "John Bagot Glubb",
-      "percent": 81,
-      "cover": "/assets/images/reading/100.webp"
-    },
-    {
       "title": "World of Wonders",
       "authors": "Aimee Nezhukumatathil",
       "percent": 37,
