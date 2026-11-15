@@ -1,18 +1,18 @@
 {
   "items": [
     {
+      "title": "Those About to Die",
+      "year": 2024,
+      "episode": "S01E02",
+      "percent": 14,
+      "cover": "/assets/images/watching/5487.webp"
+    },
+    {
       "title": "Barbarians",
       "year": 2020,
       "episode": "S01E06",
       "percent": 85,
       "cover": "/assets/images/watching/2760.webp"
-    },
-    {
-      "title": "Those About to Die",
-      "year": 2024,
-      "episode": "S01E01",
-      "percent": 6,
-      "cover": "/assets/images/watching/5487.webp"
     },
     {
       "title": "Friends",
