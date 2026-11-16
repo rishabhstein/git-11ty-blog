@@ -828,6 +828,13 @@ ${plots}
     return DateTime.fromJSDate(new Date(dateObj)).toLocaleString(DateTime.DATE_MED);
   });
 
+  // First paragraph of rendered post HTML that has actual text (a paragraph
+  // holding only an image is skipped). Used for the home page teaser.
+  eleventyConfig.addFilter("firstParagraph", (html) => {
+    const paragraphs = String(html ?? "").match(/<p[\s>][\s\S]*?<\/p>/gi) || [];
+    return paragraphs.find((p) => p.replace(/<[^>]+>/g, "").trim()) || "";
+  });
+
   // Using RenderPlugin
   eleventyConfig.addPlugin(EleventyRenderPlugin);
 

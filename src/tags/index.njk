@@ -8,8 +8,11 @@ permalink: /tags/{{ tag }}/
 ---
 
 <h4>Filter: /tags/{{ tag }}</h4>
-<ul>
+<ul class="entry-list">
   {% for post in collections.all | postsByTagInsensitive(tag) %}
-    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    <li class="entry-item">
+      <a href="{{ post.url }}" class="entry-title">{{ post.data.title }}</a>
+      <time class="entry-date" datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time>
+    </li>
   {% endfor %}
 </ul>

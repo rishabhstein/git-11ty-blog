@@ -1,31 +1,26 @@
-<header class="page-header">
-  <a href="{{ site.url }}/" class="h-card" rel="me" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">{{ site.name }} (&#963;&#8730;&#960)</a>
-   <!-- Mastodon -->
-    <a rel="me" href="https://mastodon.social/@sigmarootpi" style="display:none;">Mastodon</a>
+<a href="{{ site.url }}/" class="h-card" rel="me" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">{{ site.name }} (&#963;&#8730;&#960)</a>
+<!-- Mastodon -->
+<a rel="me" href="https://mastodon.social/@sigmarootpi" style="display:none;">Mastodon</a>
 
+{# Hidden sidebar: a checkbox holds the open state, the tab on the left edge toggles it. #}
+<input type="checkbox" id="site-sidebar-check" class="site-sidebar-check" aria-label="Show the menu">
+<label for="site-sidebar-check" class="site-sidebar-backdrop" aria-hidden="true"></label>
+<label for="site-sidebar-check" class="site-sidebar-toggle" title="Show or hide the menu"><span class="site-sidebar-icon" aria-hidden="true"></span></label>
+<aside class="site-sidebar" aria-label="Site menu">
+  <a href="/" class="site-sidebar-title">{{ site.name }}</a>
 
-  <div class="telegraph-masthead">
-    <div class="telegraph-title-row">
-      <div class="telegraph-title-block">
-        <div class="telegraph-title-inline">
-          <h1><a href="/">{{ site.name }}</a></h1>
-        </div>
-        <p class="telegraph-subline">Online home of Rishabh P. Sharma</p>
-      </div>
-      <div class="telegraph-search-panel">
-        <div id="header-search" class="telegraph-search" data-pagefind-ui></div>
-      </div>
-    </div>
+  {# A short "about me" in place of a link to it; the full page is still at /about/. #}
+  <div class="site-sidebar-bio">
+    <p>Welcome web dweller. I am Rishabh, and you have entered my online home.</p>
+    <p>Here I keep a record of my thoughts and online activities: the <a href="/pages/blogroll/">blogs</a> I visit, the <a href="/movies/">movies</a> I watch, the <a href="/books/">books</a> I read. Almost everything is here, and you are welcome to explore.</p>
+    <p>There are a few easter eggs hidden around. Don't forget to <a href="/guestbook/">sign my guestbook</a>.</p>
   </div>
 
-  <div class="telegraph-primary-nav">
-    <a href="/">Home</a>
+  {# Sections as buttons, pinned to the bottom of the bar. #}
+  <nav class="site-sidebar-nav" aria-label="Sections">
     <a href="/archives/">Writing</a>
     <a href="/books/">Books</a>
     <a href="/movies/">Movies</a>
     <a href="/snap/">Photos</a>
-    <a href="https://notes.rishabhps.com">Notebook</a>
-    <a href="/pages/">Explore</a>
-    <a href="/subscribe/">Subscribe</a>
-  </div>
-</header>
+  </nav>
+</aside>

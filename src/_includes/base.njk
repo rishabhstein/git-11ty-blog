@@ -94,9 +94,13 @@
     </div> <!-- layout-wrapper end -->
     </main>
 
-    <div class="layout-wrapper layout-wrapper-footer">
+    {# Footer as a right-hand bar: hidden off the right edge, the tab opens it. #}
+    <input type="checkbox" id="site-rightbar-check" class="site-rightbar-check" aria-label="Show the side panel">
+    <label for="site-rightbar-check" class="site-rightbar-backdrop" aria-hidden="true"></label>
+    <label for="site-rightbar-check" class="site-rightbar-toggle" title="Show or hide the side panel"><span class="site-rightbar-icon" aria-hidden="true"></span></label>
+    <aside class="site-rightbar layout-wrapper-footer" aria-label="More links">
       {% include 'footer.njk' %}
-    </div>
+    </aside>
 
     {% include 'seasons.njk' %}
 </body>

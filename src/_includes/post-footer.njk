@@ -1,5 +1,47 @@
 <hr class="post-footer-divider">
 <div class="post-footer-card">
+  <div class="post-footer-row">
+    <span class="post-footer-label">Date:</span> <time datetime="{{ page.date | isoDate }}">{{ page.date | postDate }}</time>
+  </div>
+  {% if tags %}
+  <div class="post-footer-row">
+    <span class="post-footer-label">Tags:</span>
+    {% for tag in tags %}<a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% if not loop.last %} {% endif %}{% endfor %}
+  </div>
+  {% endif %}
+  {# Book and movie details (from the old cover box). #}
+  {% if author %}
+  <div class="post-footer-row">
+    <span class="post-footer-label">Author:</span> {{ author }}
+  </div>
+  {% endif %}
+  {% if director %}
+  <div class="post-footer-row">
+    <span class="post-footer-label">Director:</span> {{ director }}
+  </div>
+  {% endif %}
+  {% if rating %}
+  <div class="post-footer-row">
+    <span class="post-footer-label">My rating:</span>
+    <span class="book-post-stars" aria-label="{{ rating }} out of 5">{% for i in range(5) %}{% if i < rating %}★{% else %}☆{% endif %}{% endfor %}</span>
+    <span class="book-post-rating-text">{{ rating }}/5</span>
+  </div>
+  {% endif %}
+  {% if sdate %}
+  <div class="post-footer-row">
+    <span class="post-footer-label">Started:</span> <time datetime="{{ sdate | isoDate }}">{{ sdate | postDate }}</time>
+  </div>
+  {% endif %}
+  {% if fdate %}
+  <div class="post-footer-row">
+    <span class="post-footer-label">Finished:</span> <time datetime="{{ fdate | isoDate }}">{{ fdate | postDate }}</time>
+  </div>
+  {% endif %}
+  {% if tags and "movies" in tags %}
+  <div class="post-footer-row">
+    <span class="post-footer-label">Watched on:</span> <time datetime="{{ (wdate or page.date) | isoDate }}">{{ (wdate or page.date) | postDate }}</time>
+  </div>
+  {% endif %}
   {% if location %}
   <div class="post-footer-row">
     <span class="post-footer-label">Location:</span> {{ location }}

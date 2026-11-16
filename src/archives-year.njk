@@ -32,11 +32,7 @@ eleventyExcludeFromCollections: true
   {% for post in archivePage.posts %}
     <li class="entry-item{% if post.data.highlight %} writing-highlight{% endif %}">
       <a href="{{ post.url }}" class="entry-title">{{ post.data.title }}</a>
-      <span class="entry-meta">
-        {% for tag in post.data.tags %}{% if tag != "post" %}<a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% endif %}{% endfor %}
-        <span class="entry-sep">|</span>
-        <time datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time>
-      </span>
+      <time class="entry-date" datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time>
     </li>
   {% endfor %}
 </ul>

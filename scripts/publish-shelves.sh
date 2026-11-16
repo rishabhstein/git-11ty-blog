@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Refreshes the "Currently Reading" and "Currently Watching" shelves and the
-# last played song, and pushes them in one commit (one GitHub Pages deploy),
+# Refreshes the "Currently Reading" and "Currently Watching" shelves, and
+# pushes them in one commit (one GitHub Pages deploy),
 # only when something changed. Run from cron hourly 07:00-23:00; pushing uses
 # the SSH key in ~/.ssh, nothing secret is in here.
 #
@@ -15,8 +15,7 @@ SCRIPTS=$(cd "$(dirname "$0")" && pwd)
 export SHELF_REPO=${SHELF_REPO:-$(dirname "$SCRIPTS")}
 REPO=$SHELF_REPO
 PATHS=(src/_data/currentlyReading.json assets/images/reading
-       src/_data/continueWatching.json assets/images/watching
-       src/_data/lastPlayed.json)
+       src/_data/continueWatching.json assets/images/watching)
 PUSH=1
 [[ ${1:-} == --no-push ]] && PUSH=0
 

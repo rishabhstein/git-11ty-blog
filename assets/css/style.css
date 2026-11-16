@@ -142,9 +142,9 @@ html {
   --ui-scale: 0.9;
   --panel-border: rgba(0, 0, 0, 0.09);
   --panel-border-dark: rgba(0, 0, 0, 0.16);
-  /* Section rule: a short centred hand-drawn line, not a full-width border.
+  /* Section rule: a short centred straight line, not a full-width border.
      Colour is baked into the SVG, so light/dark each carry their own copy. */
-  --section-rule: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='12'%3E%3Cpath d='M2 6.4 C16 5.3 30 7.2 46 6.2 C62 5.4 76 7.0 92 6.0 C106 5.2 120 6.9 136 6.3 C152 5.5 166 7.1 182 6.1 C198 5.3 212 6.8 228 6.2 C244 5.6 258 7.2 274 6.0 C290 5.2 304 6.7 320 6.3 C334 5.4 346 6.9 358 5.9' fill='none' stroke='%233d4854' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  --section-rule: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='12'%3E%3Cpath d='M2 6 H358' fill='none' stroke='%233d4854' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
   --panel-border-light: rgba(255, 255, 255, 0.98);
   --panel-shadow: 0 14px 40px rgba(0, 0, 0, 0.05);
   --panel-shadow-hover: 0 18px 48px rgba(0, 0, 0, 0.08);
@@ -304,18 +304,18 @@ body {
   margin: 0;
 }
 
-#header-search .pagefind-ui__form:before {
+#explore-search .pagefind-ui__form:before {
   display: none;
 }
 
-#header-search .pagefind-ui__search-input {
+#explore-search .pagefind-ui__search-input {
   height: 30px;
   padding-left: 0.8rem;
   padding-right: 3.25rem;
   font-size: 0.95rem;
 }
 
-#header-search .pagefind-ui__search-clear {
+#explore-search .pagefind-ui__search-clear {
   display: block;
   height: 24px;
   top: 3px;
@@ -2603,12 +2603,12 @@ html.story-open {
     --heading-color: #b9d7ff;
     --shelf-ink: #8fb0d6;
 
-    --link-color: #f0b45f;
-    --visited-color: #f0b45f; /* same as --link-color: visited links don't change */
+    --link-color: #b9d7ff;
+    --visited-color: #b9d7ff; /* same as --link-color: visited links don't change */
     /* Post titles read as headings, not inline links, so they follow the blue
        heading tone rather than the orange link tone. */
     --entry-title-color: var(--heading-color);
-    --tag-link-color: #f0b45f;
+    --tag-link-color: #b9d7ff;
     --link-hover-bg: transparent;
     --highlight-color: #3a3a3a;
     --popular-glow: #ff8ac6;
@@ -2617,7 +2617,7 @@ html.story-open {
     --panel-text: #d8e1ec;
     --panel-border: rgba(255, 255, 255, 0.12);
     --panel-border-dark: rgba(255, 255, 255, 0.22);
-    --section-rule: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='12'%3E%3Cpath d='M2 6.4 C16 5.3 30 7.2 46 6.2 C62 5.4 76 7.0 92 6.0 C106 5.2 120 6.9 136 6.3 C152 5.5 166 7.1 182 6.1 C198 5.3 212 6.8 228 6.2 C244 5.6 258 7.2 274 6.0 C290 5.2 304 6.7 320 6.3 C334 5.4 346 6.9 358 5.9' fill='none' stroke='%238fb0d6' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+    --section-rule: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='12'%3E%3Cpath d='M2 6 H358' fill='none' stroke='%238fb0d6' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
     --panel-border-light: rgba(255, 255, 255, 0.08);
     --panel-shadow: 0 14px 40px rgba(0, 0, 0, 0.26);
     --panel-shadow-hover: 0 18px 48px rgba(0, 0, 0, 0.34);
@@ -3654,4 +3654,739 @@ footer a:focus,
 .archive-pagination-disabled {
   color: var(--tag-link-color);
   opacity: 0.5;
+}
+
+
+/* Writings list on the home page takes the full row now the status picture is gone. */
+.writing-row-one.writing-row-full {
+  grid-template-columns: 1fr;
+}
+
+/* Listening line, under the guestbook link in the footer's last column. */
+.footer-listening {
+  margin-top: 12px;
+  padding: 0;
+  border-bottom: none;
+  background: transparent;
+  text-align: left;
+}
+
+.footer-listening .geo-marquee {
+  font-size: 13px;
+}
+
+
+/* Search lives on the Explore page: results flow below the box instead of
+   dropping down over the page. */
+.explore-search {
+  max-width: 420px;
+  margin: 6px 0 18px;
+}
+
+.explore-search .pagefind-ui__results-area {
+  position: static;
+  margin-top: 8px;
+  min-height: 0;
+  max-height: none;
+  box-shadow: none;
+}
+
+
+/* End-of-post table in two columns. A row left alone on the last line spans
+   the full width; narrow screens go back to one column. */
+@media (min-width: 560px) {
+  .post-footer-card {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .post-footer-row + .post-footer-row {
+    border-top: none;
+  }
+
+  .post-footer-row:nth-child(n + 3) {
+    border-top: 1px solid var(--panel-border);
+  }
+
+  .post-footer-row:nth-child(even) {
+    border-left: 1px solid var(--panel-border);
+  }
+
+  .post-footer-row:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+}
+
+
+/* ============================================================
+   No header: the site title and menu live in a sidebar tucked
+   off the left edge. A hidden checkbox holds the open state and
+   the small tab on the edge toggles it. No script.
+   ============================================================ */
+:root {
+  --site-sidebar-width: 230px;
+}
+
+.site-sidebar-check {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.site-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 90;
+  box-sizing: border-box;
+  width: var(--site-sidebar-width);
+  max-width: 80vw;
+  padding: 26px 22px;
+  overflow-y: auto;
+  background: var(--bg-color);
+  border-right: 1px solid var(--panel-border-dark);
+  transform: translateX(-100%);
+  visibility: hidden;
+  transition: transform 0.3s ease, visibility 0s linear 0.3s;
+}
+
+.site-sidebar-check:checked ~ .site-sidebar {
+  transform: none;
+  visibility: visible;
+  transition: transform 0.3s ease;
+}
+
+.site-sidebar-title,
+.site-sidebar-title:visited {
+  display: block;
+  margin-bottom: 22px;
+  font-family: var(--font-body);
+  font-size: 28px;
+  line-height: 1.15;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.site-sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.site-sidebar-nav a,
+.site-sidebar-nav a:visited {
+  font-family: var(--font-ui);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--nav-text);
+}
+
+.site-sidebar-nav a:hover,
+.site-sidebar-nav a:focus {
+  text-decoration: underline;
+}
+
+/* The tab: sits on the left edge, rides out with the sidebar when open. */
+.site-sidebar-toggle {
+  position: fixed;
+  top: 14px;
+  left: 0;
+  z-index: 91;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 44px;
+  cursor: pointer;
+  color: var(--heading-color);
+  background: var(--bg-color);
+  border: 1px solid var(--panel-border-dark);
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  transition: transform 0.3s ease;
+}
+
+.site-sidebar-check:checked ~ .site-sidebar-toggle {
+  transform: translateX(min(var(--site-sidebar-width), 80vw));
+}
+
+.site-sidebar-check:focus-visible ~ .site-sidebar-toggle {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Chevron: ">" when closed, "<" when open. */
+.site-sidebar-icon {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: translateX(-2px) rotate(45deg);
+  opacity: 0.8;
+}
+
+.site-sidebar-check:checked ~ .site-sidebar-toggle .site-sidebar-icon {
+  transform: translateX(2px) rotate(-135deg);
+}
+
+/* Click anywhere outside the open sidebar to close it. */
+.site-sidebar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 89;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.site-sidebar-check:checked ~ .site-sidebar-backdrop {
+  display: block;
+}
+
+/* Where the text column reaches the left edge, leave room above it for the tab. */
+@media (max-width: 980px) {
+  main > .layout-wrapper {
+    padding-top: 76px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-sidebar,
+  .site-sidebar-check:checked ~ .site-sidebar,
+  .site-sidebar-toggle {
+    transition: none;
+  }
+}
+
+
+/* Post title: larger than the 24px default, on every post type (writing,
+   book, movie, photo, workout) and on the home page's latest post. */
+.main-article > h1,
+.home-latest-post h1 {
+  font-size: clamp(26px, 1vw + 22px, 30px);
+  line-height: 1.2;
+}
+
+
+/* Pictures inside a post sit at 85% of the text column, centred, instead of
+   running edge to edge. Applied to the outer wrapper only, so images inside a
+   gallery or figure aren't shrunk twice. Book and movie covers keep their own
+   sizing. */
+.main-article .container-narrow :is(.writing-post-cover, .gallery, .blog-posts),
+.main-article .container-narrow main > p > img,
+.main-article .container-narrow main > img,
+.home-latest-post :is(.writing-post-cover, .gallery, .blog-posts),
+.home-latest-post > p > img {
+  width: 85%;
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  /* Breathing room above and below each picture. */
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 600px) {
+  .main-article .container-narrow :is(.writing-post-cover, .gallery, .blog-posts),
+  .main-article .container-narrow main > p > img,
+  .main-article .container-narrow main > img,
+  .home-latest-post :is(.writing-post-cover, .gallery, .blog-posts),
+  .home-latest-post > p > img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* Post lists (home page and archives): title on the left, date on the right,
+   no tags. */
+.entry-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.portal-layout .portal-center .entry-item .entry-title {
+  display: inline;
+  min-width: 0;
+}
+
+.entry-date {
+  flex: none;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--tag-link-color);
+  white-space: nowrap;
+}
+
+/* More air between rows in the post lists. */
+.entry-item {
+  margin-bottom: 18px;
+  padding-bottom: 16px;
+}
+
+.portal-layout .portal-center ul.entry-list {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+/* Page titles: a clear gap between the title and what follows, on every page
+   (post titles, section pages like Books or Explore, archives, tags, and the
+   home page's "Writings" heading). */
+.portal-center > h4:first-child,
+.portal-center > div:first-child > h4:first-child,
+.portal-center > .main-article > h1:first-child,
+.home-index .portal-center > .section-title-link:first-of-type > h4 {
+  margin-top: 24vh; /* 24vh lands the title ~20% down: the page is drawn at 90% scale */
+  margin-bottom: 61px;
+}
+
+/* Section page titles (Gallery, Archived Posts, Book Reviews, Explore, tag
+   pages...) at 24px, up from the ~20px h4 default. */
+.portal-layout .portal-center > h4:first-child,
+.portal-layout .portal-center > div:first-child > h4:first-child,
+.portal-layout .portal-center > .container-narrow > main > h4:first-child,
+.portal-layout.home-index .portal-center > .section-title-link:first-of-type > h4 {
+  font-size: clamp(26px, 1vw + 22px, 30px);
+  line-height: 1.25;
+}
+
+.portal-center > .container-narrow > main > h4:first-child {
+  margin-top: 24vh;
+  margin-bottom: 61px;
+}
+
+/* Same row height in every post list (home, archives, years, tags); the home
+   page's taller line-height was what made its rows look more spaced. */
+.portal-layout .portal-center .entry-list > .entry-item {
+  line-height: 36px;
+}
+
+/* Gap between the end of a post and the table below it: about 20% of the
+   screen height (22vh, since the page is drawn at 90% scale). */
+.post-footer-divider {
+  margin-top: 22vh;
+}
+
+
+/* ============================================================
+   Footer as a right-hand bar, mirroring the left sidebar: tucked
+   off the right edge, a tab on that edge slides it in.
+   ============================================================ */
+:root {
+  --site-rightbar-width: 380px;
+}
+
+.site-rightbar-check {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.site-rightbar.layout-wrapper-footer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 90;
+  box-sizing: border-box;
+  width: var(--site-rightbar-width);
+  max-width: 90vw;
+  margin: 0;
+  padding: 26px 18px;
+  overflow-y: auto;
+  border-top: none;
+  border-left: 2px solid var(--footer-border);
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform 0.3s ease, visibility 0s linear 0.3s;
+}
+
+.site-rightbar-check:checked ~ .site-rightbar {
+  transform: none;
+  visibility: visible;
+  transition: transform 0.3s ease;
+}
+
+/* Footer content restacked for a narrow column: the Pages links, then the
+   calendar, guestbook and listening line below. */
+.site-rightbar .footer-nav {
+  grid-template-columns: minmax(0, 1fr);
+  justify-content: stretch;
+  column-gap: 18px;
+  padding: 0 0 14px;
+}
+
+.site-rightbar .footer-heatmap {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+.site-rightbar footer img {
+  max-width: 100%;
+}
+
+/* The tab on the right edge. */
+.site-rightbar-toggle {
+  position: fixed;
+  top: 14px;
+  right: 0;
+  z-index: 91;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 44px;
+  cursor: pointer;
+  color: var(--heading-color);
+  background: var(--bg-color);
+  border: 1px solid var(--panel-border-dark);
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  transition: transform 0.3s ease;
+}
+
+.site-rightbar-check:checked ~ .site-rightbar-toggle {
+  transform: translateX(calc(-1 * min(var(--site-rightbar-width), 90vw)));
+}
+
+.site-rightbar-check:focus-visible ~ .site-rightbar-toggle {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+/* Chevron: "<" when closed, ">" when open. */
+.site-rightbar-icon {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  transform: translateX(2px) rotate(-45deg);
+  opacity: 0.8;
+}
+
+.site-rightbar-check:checked ~ .site-rightbar-toggle .site-rightbar-icon {
+  transform: translateX(-2px) rotate(135deg);
+}
+
+.site-rightbar-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 89;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.site-rightbar-check:checked ~ .site-rightbar-backdrop {
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-rightbar,
+  .site-rightbar-check:checked ~ .site-rightbar,
+  .site-rightbar-toggle {
+    transition: none;
+  }
+}
+
+
+/* ---- Right bar: grouped menu (label left, links right, hairlines) ---- */
+.site-rightbar footer {
+  text-align: left;
+}
+
+.site-rightbar .rb-menu {
+  margin-bottom: 22px;
+  border-bottom: 1px solid var(--panel-border-dark);
+}
+
+.rb-group {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  align-items: start;
+  border-top: 1px solid var(--panel-border-dark);
+}
+
+.rb-label {
+  padding-top: 14px;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--chart-ink);
+}
+
+.rb-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rb-list li {
+  margin: 0;
+  border-top: 1px solid var(--panel-border);
+}
+
+.rb-list li:first-child {
+  border-top: none;
+}
+
+.site-rightbar .rb-list a,
+.site-rightbar .rb-list a:visited {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 2px;
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.3;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.site-rightbar .rb-list a::after {
+  content: "→";
+  font-family: var(--font-ui);
+  font-size: 14px;
+  color: var(--chart-ink);
+  transition: transform 0.15s ease;
+}
+
+.site-rightbar .rb-list a:hover,
+.site-rightbar .rb-list a:focus-visible {
+  color: var(--heading-color);
+}
+
+.site-rightbar .rb-list a:hover::after,
+.site-rightbar .rb-list a:focus-visible::after {
+  transform: translateX(3px);
+  color: var(--heading-color);
+}
+
+/* The rest of the bar (calendar, guestbook gif, listening line, badges)
+   sits below the menu, unchanged but left-aligned and full width. */
+.site-rightbar .footer-nav {
+  border-bottom: none;
+  padding-bottom: 6px;
+}
+
+
+/* Left bar after vhbelvadi.com's: name, a short bio, and the section
+   buttons pinned to the bottom. */
+:root {
+  --site-sidebar-width: 330px;
+}
+
+.site-sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 26px 26px;
+}
+
+.site-sidebar-bio p {
+  margin: 0 0 14px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.site-sidebar-bio a,
+.site-sidebar-bio a:visited {
+  color: var(--link-color);
+}
+
+.site-sidebar .site-sidebar-nav {
+  margin-top: auto;
+  padding-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.site-sidebar .site-sidebar-nav a,
+.site-sidebar .site-sidebar-nav a:visited {
+  display: block;
+  padding: 9px 10px;
+  text-align: center;
+  border: 1px solid var(--panel-border-dark);
+  border-radius: 6px;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  color: var(--nav-text);
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.site-sidebar .site-sidebar-nav a:hover,
+.site-sidebar .site-sidebar-nav a:focus-visible {
+  text-decoration: none;
+  border-color: var(--heading-color);
+  background: color-mix(in srgb, var(--heading-color) 10%, transparent);
+}
+
+/* Home page test list: a quiet label for non-writing entries. */
+.entry-kind {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 11px;
+}
+
+
+/* Book and movie posts: the cover box floats to the right of the review, so
+   the text runs down its left side. Phones keep it centred above the text. */
+@media (min-width: 760px) {
+  .main-article:not(.no-review-text) > .book-post-hero {
+    float: right;
+    grid-template-columns: 1fr;
+    width: 280px;
+    margin: 4px 0 20px 32px;
+  }
+
+  .main-article:not(.no-review-text) > .book-post-hero .book-post-cover img {
+    max-width: 180px;
+    margin: 0 auto;
+  }
+
+  .main-article:not(.no-review-text) > .book-post-hero .book-post-meta div {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+
+  /* Clear the float inside the text block, so the gap above the end-of-post
+     table isn't swallowed when the review is shorter than the box. */
+  .main-article > .container-narrow::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+/* Wide screens: the cover box moves out of the text column into the empty
+   space on its right, level with the start of the review. Between 760px and
+   this width it floats inside the column (above); on phones it sits above the
+   text. */
+@media (min-width: 1300px) {
+  .main-article:has(> .book-post-hero) {
+    position: relative;
+  }
+
+  .main-article:not(.no-review-text) > .book-post-hero {
+    position: absolute;
+    left: calc(100% + 36px);
+    float: none;
+    width: 240px;
+    margin: 0;
+  }
+
+  .main-article:not(.no-review-text) > .book-post-hero .book-post-cover img {
+    max-width: 100%;
+  }
+}
+
+
+/* Test: book and movie reviews show only the cover beside the text; the
+   review wraps around it. Details live in the end-of-post table. */
+.review-cover {
+  float: right;
+  width: 200px;
+  margin: 6px 0 16px 28px;
+}
+
+.review-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.main-article .container-narrow main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* No review text: nothing to wrap, so the cover sits centred. */
+.no-review-text .review-cover {
+  float: none;
+  width: 240px;
+  margin: 0 auto 8px;
+}
+
+@media (max-width: 600px) {
+  .review-cover {
+    float: none;
+    width: 60%;
+    margin: 0 auto 20px;
+  }
+}
+
+/* Star rating laid over the bottom of the cover. */
+.review-cover {
+  position: relative;
+}
+
+.review-cover-stars {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 22px 8px 7px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  line-height: 1;
+  color: #f5c451;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 70%);
+  border-radius: 0 0 4px 4px;
+}
+
+
+/* ============================================================
+   One hover behaviour for every link: no underline appears, the
+   text lifts by a pixel instead. Links that already show an
+   underline at rest keep it until hovered.
+   `top` on a relatively positioned link works on wrapped inline
+   text too (transforms don't). Links positioned by their own
+   rules (story viewer) are left alone.
+   ============================================================ */
+a:not(.js-piclog-stories):not(.story-more):not([style*="position"]) {
+  transition: top 0.15s ease;
+}
+
+a:not(.js-piclog-stories):not(.story-more):not([style*="position"]):hover,
+a:not(.js-piclog-stories):not(.story-more):not([style*="position"]):focus-visible {
+  position: relative;
+  top: -2px;
+}
+
+a:hover,
+a:focus-visible,
+a:hover *,
+a:focus-visible * {
+  text-decoration: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a:not(.js-piclog-stories):not(.story-more):not([style*="position"]):hover,
+  a:not(.js-piclog-stories):not(.story-more):not([style*="position"]):focus-visible {
+    top: 0;
+  }
 }
