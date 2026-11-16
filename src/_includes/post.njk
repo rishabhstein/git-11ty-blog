@@ -6,15 +6,6 @@
 <article class="main-article">
 
 <h1 data-pagefind-meta="title">{{ title }}</h1>
-<h3>{{ page.date | postDate }}</h3>
-
-{% if tags %}
-<p class="entry-tags">Tags:
-  {% for tag in tags %}
-    <a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% if not loop.last %} {% endif %}
-  {% endfor %}
-</p>
-{% endif %}
 
 {% if tags and "word-vomit" in tags %}
 <blockquote>

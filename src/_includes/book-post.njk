@@ -3,69 +3,22 @@
 ---
 
 
-<article class="main-article book-post">
+<article class="main-article book-post{% if not (content | striptags | trim) %} no-review-text{% endif %}">
 
 <h1 data-pagefind-meta="title">{{ title }}</h1>
-<h3>{{ page.date | postDate }}</h3>
-
-{% if tags %}
-<p class="entry-tags">Tags:
-  {% for tag in tags %}
-    <a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% if not loop.last %} {% endif %}
-  {% endfor %}
-</p>
-{% endif %}
-
-{% if cover %}
-<section class="book-post-hero" aria-label="Book details">
-  <div class="book-post-cover">
-    <img src="{{ cover | assetUrl }}" alt="Cover of {{ title }}">
-  </div>
-
-  <dl class="book-post-meta">
-    <div>
-      <dt>Title</dt>
-      <dd>{{ title | replace("Book review:", "") | trim }}</dd>
-    </div>
-
-    {% if author %}
-    <div>
-      <dt>Author</dt>
-      <dd>{{ author }}</dd>
-    </div>
-    {% endif %}
-
-    {% if rating %}
-    <div>
-      <dt>My rating</dt>
-      <dd>
-        <span class="book-post-stars" aria-label="{{ rating }} out of 5">
-          {% for i in range(5) %}{% if i < rating %}★{% else %}☆{% endif %}{% endfor %}
-        </span>
-        <span class="book-post-rating-text">{{ rating }}/5</span>
-      </dd>
-    </div>
-    {% endif %}
-
-    {% if sdate %}
-    <div>
-      <dt>Start date</dt>
-      <dd><time datetime="{{ sdate | isoDate }}">{{ sdate | postDate }}</time></dd>
-    </div>
-    {% endif %}
-
-    {% if fdate %}
-    <div>
-      <dt>Finish date</dt>
-      <dd><time datetime="{{ fdate | isoDate }}">{{ fdate | postDate }}</time></dd>
-    </div>
-    {% endif %}
-  </dl>
-</section>
-{% endif %}
 
 <div class="container-narrow">
           <main>
+            {# Test: only the cover sits with the text (the review wraps around
+               it); the details moved to the table at the end of the post. #}
+            {% if cover %}
+            <figure class="review-cover">
+              <img src="{{ cover | assetUrl }}" alt="Cover of {{ title }}">
+              {% if rating %}
+              <span class="review-cover-stars" aria-label="My rating: {{ rating }} out of 5">{% for i in range(5) %}{% if i < rating %}★{% else %}☆{% endif %}{% endfor %}</span>
+              {% endif %}
+            </figure>
+            {% endif %}
             {{ content | safe }}
         </main>
 </div>

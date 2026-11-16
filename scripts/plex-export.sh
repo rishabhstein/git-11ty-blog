@@ -5,8 +5,6 @@
 #
 #   src/_data/continueWatching.json   -> global `continueWatching` in templates
 #   assets/images/watching/<id>.webp  -> posters (300px WebP, max 20 KB)
-#   src/_data/lastPlayed.json         -> last song played, as text in the
-#                                        home page status strip
 #
 # The Plex token comes from ~/.config/plex/plex.env (PLEX_URL, PLEX_TOKEN),
 # outside this repo. Posters are downloaded here and committed as plain files,
@@ -24,7 +22,6 @@ export PLEX_URL PLEX_TOKEN
 export PLEX_LIBRARIES=${PLEX_LIBRARIES:-Movies,TV Shows}
 export DATA_FILE=src/_data/continueWatching.json
 export COVERS_DIR=assets/images/watching
-export LAST_PLAYED_FILE=src/_data/lastPlayed.json
 export PLEX_ACCOUNT_ID=${PLEX_ACCOUNT_ID:-1}
 
 cd "$REPO"
@@ -38,7 +35,6 @@ token = os.environ["PLEX_TOKEN"]
 libraries = {s.strip() for s in os.environ["PLEX_LIBRARIES"].split(",") if s.strip()}
 covers_dir = os.environ["COVERS_DIR"]
 data_file = os.environ["DATA_FILE"]
-last_played_file = os.environ["LAST_PLAYED_FILE"]
 os.makedirs(covers_dir, exist_ok=True)
 
 MAX_COVER_BYTES = 20 * 1024
@@ -125,35 +121,6 @@ for f in os.listdir(covers_dir):
 data = json.dumps({"items": out}, indent=2, ensure_ascii=False) + "\n"
 write_if_changed(data_file, data.encode("utf-8"))
 
-# Last played song, shown as a text update in the home page status strip.
-# Only the server owner's plays (account 1 unless PLEX_ACCOUNT_ID says otherwise).
-try:
-    sections = json.loads(get("/library/sections"))["MediaContainer"]["Directory"]
-    music = [d["key"] for d in sections if d.get("type") == "artist"]
-    track = None
-    if music:
-        qs = urllib.parse.urlencode({
-            "librarySectionID": music[0], "accountID": os.environ["PLEX_ACCOUNT_ID"],
-            "sort": "viewedAt:desc", "X-Plex-Container-Start": 0, "X-Plex-Container-Size": 1})
-        history = json.loads(get("/status/sessions/history/all?" + qs))["MediaContainer"].get("Metadata") or []
-        track = history[0] if history else None
-except (OSError, KeyError, ValueError):
-    track = None
-
-if track:
-    played = datetime.datetime.fromtimestamp(track["viewedAt"], datetime.timezone.utc)
-    # History rows are thin; the track itself knows its own artist.
-    try:
-        full = json.loads(get("/library/metadata/" + track["ratingKey"]))["MediaContainer"]["Metadata"][0]
-    except (OSError, KeyError, IndexError, ValueError):
-        full = track
-    song = {
-        "title": full.get("title", ""),
-        # originalTitle holds the track artist when it differs from the album's.
-        "artist": full.get("originalTitle") or full.get("grandparentTitle", ""),
-        "playedAt": played.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "playedDate": played.astimezone().strftime("%b %-d, %Y"),
-    }
-    data = json.dumps(song, indent=2, ensure_ascii=False) + "\n"
-    write_if_changed(last_played_file, data.encode("utf-8"))
+# The last-played song export was removed: the Listening line is gone from the
+# site, so src/_data/lastPlayed.json is no longer refreshed.
 EOF
