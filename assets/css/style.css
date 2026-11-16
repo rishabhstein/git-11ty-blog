@@ -4390,3 +4390,50 @@ a:focus-visible * {
     top: 0;
   }
 }
+
+
+/* ============================================================
+   Phones (700px and narrower)
+   ============================================================ */
+@media (max-width: 700px) {
+  /* Title near the top instead of a fifth of the way down; the room above
+     it only needs to clear the two side-bar tabs. */
+  main > .layout-wrapper {
+    padding-top: 64px;
+  }
+
+  .portal-center > h4:first-child,
+  .portal-center > div:first-child > h4:first-child,
+  .portal-center > .main-article > h1:first-child,
+  .home-index .portal-center > .section-title-link:first-of-type > h4,
+  .portal-center > .container-narrow > main > h4:first-child {
+    margin-top: 4vh;
+    margin-bottom: 32px;
+  }
+
+  /* Gap above the end-of-post table: smaller on a small screen. */
+  .post-footer-divider {
+    margin-top: 10vh;
+  }
+
+  /* Comfortable side margins instead of text running edge to edge. */
+  .layout-wrapper .portal-center,
+  .layout-wrapper .home-shell {
+    padding-left: 6px;
+    padding-right: 6px;
+    box-sizing: border-box;
+  }
+
+  /* The side-bar tabs sit at the top of the page and scroll away with it,
+     so they don't hover over the text while reading. */
+  .site-sidebar-toggle,
+  .site-rightbar-toggle {
+    position: absolute;
+  }
+
+  /* Opened bars keep their tab visible beside them, so keep it fixed then. */
+  .site-sidebar-check:checked ~ .site-sidebar-toggle,
+  .site-rightbar-check:checked ~ .site-rightbar-toggle {
+    position: fixed;
+  }
+}
