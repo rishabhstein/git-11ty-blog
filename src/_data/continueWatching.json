@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Friends",
+      "year": 1998,
+      "episode": "S04E23",
+      "percent": 23,
+      "cover": "/assets/images/watching/385.webp"
+    },
+    {
       "title": "Those About to Die",
       "year": 2024,
       "episode": "S01E03",
@@ -13,13 +20,6 @@
       "episode": "S01E06",
       "percent": 85,
       "cover": "/assets/images/watching/2760.webp"
-    },
-    {
-      "title": "Friends",
-      "year": 1998,
-      "episode": "S04E23",
-      "percent": 23,
-      "cover": "/assets/images/watching/385.webp"
     }
   ]
 }
