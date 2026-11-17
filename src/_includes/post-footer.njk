@@ -1,50 +1,50 @@
 <hr class="post-footer-divider">
 <div class="post-footer-card">
   <div class="post-footer-row">
-    <span class="post-footer-label">Date:</span> <time datetime="{{ page.date | isoDate }}">{{ page.date | postDate }}</time>
+    <span class="post-footer-label">Date</span> <time datetime="{{ page.date | isoDate }}">{{ page.date | postDate }}</time>
   </div>
   {% if tags %}
   <div class="post-footer-row">
-    <span class="post-footer-label">Tags:</span>
-    {% for tag in tags %}<a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% if not loop.last %} {% endif %}{% endfor %}
+    <span class="post-footer-label">Tags</span>
+    <span class="post-footer-value">{% for tag in tags %}<a href="/tags/{{ tag | slug }}/">#{{ tag }}</a>{% if not loop.last %} {% endif %}{% endfor %}</span>
   </div>
   {% endif %}
   {# Book and movie details (from the old cover box). #}
   {% if author %}
   <div class="post-footer-row">
-    <span class="post-footer-label">Author:</span> {{ author }}
+    <span class="post-footer-label">Author</span> {{ author }}
   </div>
   {% endif %}
   {% if director %}
   <div class="post-footer-row">
-    <span class="post-footer-label">Director:</span> {{ director }}
+    <span class="post-footer-label">Director</span> {{ director }}
   </div>
   {% endif %}
   {% if rating %}
   <div class="post-footer-row">
-    <span class="post-footer-label">My rating:</span>
+    <span class="post-footer-label">My rating</span>
     <span class="book-post-stars" aria-label="{{ rating }} out of 5">{% for i in range(5) %}{% if i < rating %}★{% else %}☆{% endif %}{% endfor %}</span>
     <span class="book-post-rating-text">{{ rating }}/5</span>
   </div>
   {% endif %}
   {% if sdate %}
   <div class="post-footer-row">
-    <span class="post-footer-label">Started:</span> <time datetime="{{ sdate | isoDate }}">{{ sdate | postDate }}</time>
+    <span class="post-footer-label">Started</span> <time datetime="{{ sdate | isoDate }}">{{ sdate | postDate }}</time>
   </div>
   {% endif %}
   {% if fdate %}
   <div class="post-footer-row">
-    <span class="post-footer-label">Finished:</span> <time datetime="{{ fdate | isoDate }}">{{ fdate | postDate }}</time>
+    <span class="post-footer-label">Finished</span> <time datetime="{{ fdate | isoDate }}">{{ fdate | postDate }}</time>
   </div>
   {% endif %}
   {% if tags and "movies" in tags %}
   <div class="post-footer-row">
-    <span class="post-footer-label">Watched on:</span> <time datetime="{{ (wdate or page.date) | isoDate }}">{{ (wdate or page.date) | postDate }}</time>
+    <span class="post-footer-label">Watched on</span> <time datetime="{{ (wdate or page.date) | isoDate }}">{{ (wdate or page.date) | postDate }}</time>
   </div>
   {% endif %}
   {% if location %}
   <div class="post-footer-row">
-    <span class="post-footer-label">Location:</span> {{ location }}
+    <span class="post-footer-label">Location</span> {{ location }}
   </div>
   {% endif %}
   <div class="post-footer-row">
@@ -66,3 +66,27 @@
 </div>
 
 {% include "webmentions.njk" %}
+
+{# Older / newer entry of the same kind (writing, book, movie or photo). #}
+{% set navCollection = collections.post %}
+{% if tags and "books" in tags %}{% set navCollection = collections.publishedBooks %}
+{% elif tags and "movies" in tags %}{% set navCollection = collections.movies %}
+{% elif tags and "snap" in tags %}{% set navCollection = collections.snap %}{% endif %}
+{% set olderItem = navCollection | getPreviousCollectionItem(page) %}
+{% set newerItem = navCollection | getNextCollectionItem(page) %}
+{% if olderItem or newerItem %}
+<nav class="post-nav" aria-label="More entries">
+  {% if olderItem %}
+  <a class="post-nav-link post-nav-older" href="{{ olderItem.url }}" rel="prev">
+    <span class="post-nav-arrow" aria-hidden="true">←</span>
+    <span class="post-nav-text"><span class="post-nav-label">Older</span>{{ olderItem.data.title }}</span>
+  </a>
+  {% endif %}
+  {% if newerItem %}
+  <a class="post-nav-link post-nav-newer" href="{{ newerItem.url }}" rel="next">
+    <span class="post-nav-text"><span class="post-nav-label">Newer</span>{{ newerItem.data.title }}</span>
+    <span class="post-nav-arrow" aria-hidden="true">→</span>
+  </a>
+  {% endif %}
+</nav>
+{% endif %}

@@ -1179,6 +1179,12 @@ ${plots}
     return uniqueYearsDescending(collectionApi.getFilteredByTag("workout"));
   });
 
+  // Books with `published: true`, oldest first: used for the older/newer links
+  // at the end of a book review, so drafts aren't linked.
+  eleventyConfig.addCollection("publishedBooks", function(collectionApi) {
+    return collectionApi.getFilteredByTag("books").filter((item) => item.data.published);
+  });
+
   eleventyConfig.addCollection("siteActivity", function(collectionApi) {
     // The sidebar heatmap combines activity from all the main content types.
     return sortNewestFirst([

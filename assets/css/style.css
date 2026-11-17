@@ -3947,7 +3947,7 @@ footer a:focus,
 .portal-center > div:first-child > h4:first-child,
 .portal-center > .main-article > h1:first-child,
 .home-index .portal-center > .section-title-link:first-of-type > h4 {
-  margin-top: 24vh; /* 24vh lands the title ~20% down: the page is drawn at 90% scale */
+  margin-top: 19vh; /* 19vh lands the title ~17% down: the page is drawn at 90% scale */
   margin-bottom: 61px;
 }
 
@@ -3962,7 +3962,7 @@ footer a:focus,
 }
 
 .portal-center > .container-narrow > main > h4:first-child {
-  margin-top: 24vh;
+  margin-top: 19vh;
   margin-bottom: 61px;
 }
 
@@ -3972,10 +3972,10 @@ footer a:focus,
   line-height: 36px;
 }
 
-/* Gap between the end of a post and the table below it: about 20% of the
-   screen height (22vh, since the page is drawn at 90% scale). */
+/* Gap between the end of a post and the table below it: kept short so the
+   table and the older/newer links are close to where reading ends. */
 .post-footer-divider {
-  margin-top: 22vh;
+  margin-top: 56px;
 }
 
 
@@ -4367,12 +4367,12 @@ footer a:focus,
    text too (transforms don't). Links positioned by their own
    rules (story viewer) are left alone.
    ============================================================ */
-a:not(.js-piclog-stories):not(.story-more):not([style*="position"]) {
+a:not(.js-piclog-stories):not(.story-more):not(.site-home):not([style*="position"]) {
   transition: top 0.15s ease;
 }
 
-a:not(.js-piclog-stories):not(.story-more):not([style*="position"]):hover,
-a:not(.js-piclog-stories):not(.story-more):not([style*="position"]):focus-visible {
+a:not(.js-piclog-stories):not(.story-more):not(.site-home):not([style*="position"]):hover,
+a:not(.js-piclog-stories):not(.story-more):not(.site-home):not([style*="position"]):focus-visible {
   position: relative;
   top: -2px;
 }
@@ -4385,8 +4385,8 @@ a:focus-visible * {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  a:not(.js-piclog-stories):not(.story-more):not([style*="position"]):hover,
-  a:not(.js-piclog-stories):not(.story-more):not([style*="position"]):focus-visible {
+  a:not(.js-piclog-stories):not(.story-more):not(.site-home):not([style*="position"]):hover,
+  a:not(.js-piclog-stories):not(.story-more):not(.site-home):not([style*="position"]):focus-visible {
     top: 0;
   }
 }
@@ -4413,7 +4413,7 @@ a:focus-visible * {
 
   /* Gap above the end-of-post table: smaller on a small screen. */
   .post-footer-divider {
-    margin-top: 10vh;
+    margin-top: 36px;
   }
 
   /* Comfortable side margins instead of text running edge to edge. */
@@ -4436,4 +4436,383 @@ a:focus-visible * {
   .site-rightbar-check:checked ~ .site-rightbar-toggle {
     position: fixed;
   }
+}
+
+/* Post lists (home, archives, years, tags): titles at the same size as post
+   body text, instead of 17px. */
+.portal-layout .portal-center .entry-list .entry-title {
+  font-size: clamp(18px, 0.35vw + 16px, 20px);
+}
+
+/* Room at the end of every page, now that there's no footer below the
+   content (it lives in the right bar). */
+main > .layout-wrapper {
+  padding-bottom: 15vh;
+}
+
+@media (max-width: 700px) {
+  main > .layout-wrapper {
+    padding-bottom: 10vh;
+  }
+}
+
+/* Plain pages (About, Explore, Uses, Guestbook...): their paragraphs and
+   lists were held at 16px by the general page rule; give them the same size
+   as post text. */
+.portal-layout:not(.home-index) .portal-center p,
+.portal-layout:not(.home-index) .portal-center li {
+  font-size: clamp(18px, 0.35vw + 16px, 20px);
+  line-height: 1.7;
+}
+
+/* Guestbook message cards are fixed-height; keep their text at its own size. */
+.portal-layout:not(.home-index) .portal-center .guestbook-message p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+/* EB Garamond, self-hosted (from Google Fonts, OFL licence): used for page and
+   post titles only; body text stays in Literata. One variable file per style
+   covers weights 400-600; latin-ext only loads when a title needs it. */
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/eb-garamond-italic-latin-ext.woff2") format("woff2");
+  font-weight: 400 600;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/eb-garamond-italic-latin.woff2") format("woff2");
+  font-weight: 400 600;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/eb-garamond-latin-ext.woff2") format("woff2");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/eb-garamond-latin.woff2") format("woff2");
+  font-weight: 400 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Titles in EB Garamond: post and page titles, the home page heading and the
+   site name in the left bar. Body text stays in Literata. */
+:root {
+  --font-title: "EB Garamond", "Literata", Georgia, serif;
+}
+
+.portal-center > h4:first-child,
+.portal-center > div:first-child > h4:first-child,
+.portal-center > .main-article > h1:first-child,
+.home-index .portal-center > .section-title-link:first-of-type > h4,
+.portal-center > .container-narrow > main > h4:first-child,
+.site-sidebar-title {
+  font-family: var(--font-title);
+  font-weight: 500;
+}
+
+
+/* Older / newer links under the end-of-post table. */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  /* Well clear of the table: the links sit at the very end of the page. */
+  margin-top: 18vh;
+  padding-top: 18px;
+  border-top: 1px solid var(--panel-border);
+}
+
+/* On pages that end with these links, less empty space after them. */
+main > .layout-wrapper:has(.post-nav) {
+  padding-bottom: 6vh;
+}
+
+@media (max-width: 700px) {
+  .post-nav {
+    margin-top: 10vh;
+  }
+}
+
+.post-nav-link,
+.post-nav-link:visited {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 48%;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.post-nav-newer {
+  margin-left: auto;
+  text-align: right;
+}
+
+.post-nav-arrow {
+  flex: none;
+  font-family: var(--font-ui);
+  font-size: 18px;
+  color: var(--heading-color);
+}
+
+.post-nav-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.post-nav-label {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--chart-ink);
+}
+
+.post-nav-link:hover .post-nav-text,
+.post-nav-link:focus-visible .post-nav-text {
+  color: var(--heading-color);
+}
+
+/* Short posts: stretch the article to the screen's height so the older/newer
+   links still land at the bottom of the screen. Long posts are taller than
+   the screen anyway, so the links simply follow the table. (111vh = 100vh at
+   the page's 90% scale, minus the space around the article.) */
+.main-article:has(> .post-nav) {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(105vh - 24px);
+}
+
+.main-article > .post-nav {
+  margin-top: auto;
+}
+
+/* Keeps a minimum gap between the table (or webmentions) and the links. */
+.main-article:has(> .post-nav) > :nth-last-child(2) {
+  margin-bottom: 18vh;
+}
+
+
+/* ============================================================
+   End-of-post details, restyled: no box. Hairline rows like the
+   right-bar menu, a small uppercase label on the left of each
+   value, two columns on wide screens.
+   ============================================================ */
+.post-footer-divider {
+  border-top: none;
+}
+
+.post-footer-card {
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+  column-gap: 40px;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-footer-card {
+    background: none;
+  }
+}
+
+.post-footer-card .post-footer-row,
+.post-footer-card .post-footer-row + .post-footer-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 11px 0;
+  border-top: 1px solid var(--panel-border);
+  border-left: none;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.post-footer-card .post-footer-label {
+  flex: 0 0 92px;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--chart-ink);
+}
+
+.post-footer-card .post-footer-row a,
+.post-footer-card .post-footer-row a:visited {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.post-footer-card .post-footer-row a:hover,
+.post-footer-card .post-footer-row a:focus-visible {
+  color: var(--heading-color);
+}
+
+/* Reply / webmention rows read as actions: small caps with an arrow. */
+.post-footer-card .post-footer-action-link,
+.post-footer-card .post-footer-action-link:visited {
+  font-family: var(--font-ui);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--heading-color);
+}
+
+.post-footer-card .post-footer-action-link::after {
+  content: " →";
+}
+
+.post-footer-card .post-footer-webmention-item {
+  flex-wrap: wrap;
+}
+
+/* The stars keep their gold; the "3/5" next to them is quiet. */
+.post-footer-card .book-post-rating-text {
+  font-family: var(--font-ui);
+  font-size: 12px;
+  color: var(--chart-ink);
+}
+
+
+/* A multi-tag value wraps within its own column instead of spilling out. */
+.post-footer-value {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Tags in one row, wrapping only if they run out of room. */
+.post-footer-value {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 2px;
+}
+
+
+/* Post lists (home, archives, years, tags): titles in EB Garamond at 24px
+   (21px on phones). */
+.portal-layout .portal-center .entry-list .entry-title {
+  font-family: var(--font-title);
+  font-size: clamp(21px, 0.4vw + 19px, 24px);
+}
+
+
+/* No blue for links or titles. Links take the text colour (in-text links keep
+   a quiet underline so they still read as links); titles are near-white in
+   night mode and near-black by day. */
+:root {
+  --link-color: var(--text-color);
+  --visited-color: var(--text-color);
+  --entry-title-color: var(--text-color);
+  --tag-link-color: var(--text-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --heading-color: #eef2f6;
+    --link-color: var(--text-color);
+    --visited-color: var(--text-color);
+    --entry-title-color: var(--text-color);
+    --tag-link-color: var(--text-color);
+  }
+}
+
+.container-narrow a,
+.site-sidebar-bio a,
+.portal-layout:not(.home-index) .portal-center p a {
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+  text-underline-offset: 3px;
+}
+
+/* Left bar tab: a menu icon (three short lines) instead of the ">" chevron,
+   in the open state too. */
+.site-sidebar-icon,
+.site-sidebar-check:checked ~ .site-sidebar-toggle .site-sidebar-icon {
+  width: 14px;
+  height: 11px;
+  border: none;
+  transform: none;
+  background:
+    linear-gradient(currentColor, currentColor) top / 100% 1.5px no-repeat,
+    linear-gradient(currentColor, currentColor) center / 100% 1.5px no-repeat,
+    linear-gradient(currentColor, currentColor) bottom / 100% 1.5px no-repeat;
+}
+
+/* Home button beside the left bar's tab. */
+.site-home,
+.site-home:visited {
+  position: fixed;
+  top: 14px;
+  left: 34px;
+  z-index: 88;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 44px;
+  box-sizing: border-box;
+  color: var(--heading-color);
+  background: var(--bg-color);
+  border: 1px solid var(--panel-border-dark);
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.site-home svg {
+  display: block;
+  opacity: 0.85;
+}
+
+.site-home:hover svg,
+.site-home:focus-visible svg {
+  opacity: 1;
+}
+
+/* Hidden while the left bar is open (the bar has its own link home). */
+.site-sidebar-check:checked ~ .site-home {
+  visibility: hidden;
+}
+
+@media (max-width: 700px) {
+  .site-home,
+  .site-home:visited {
+    position: absolute;
+  }
+}
+
+/* The home button is pinned to the screen, so the hover lift (which works by
+   making a link position: relative) would drop it into the page. It gets its
+   own nudge instead. */
+.site-home svg {
+  transition: transform 0.15s ease;
+}
+
+.site-home:hover svg,
+.site-home:focus-visible svg {
+  transform: translateY(-2px);
 }
