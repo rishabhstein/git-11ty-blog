@@ -1,6 +1,12 @@
 {
   "books": [
     {
+      "title": "Spartacus",
+      "authors": "Ben Kane",
+      "percent": 2,
+      "cover": "/assets/images/reading/97.webp"
+    },
+    {
       "title": "World of Wonders",
       "authors": "Aimee Nezhukumatathil",
       "percent": 37,
@@ -11,12 +17,6 @@
       "authors": "Dada Mukerjee",
       "percent": 26,
       "cover": "/assets/images/reading/98.webp"
-    },
-    {
-      "title": "Spartacus",
-      "authors": "Ben Kane",
-      "percent": 2,
-      "cover": "/assets/images/reading/97.webp"
     },
     {
       "title": "Discourses and Selected Writings",
