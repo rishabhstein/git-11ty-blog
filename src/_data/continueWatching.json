@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Loki",
+      "year": 2023,
+      "episode": "S02E01",
+      "percent": 53,
+      "cover": "/assets/images/watching/2512.webp"
+    },
+    {
       "title": "Friends",
       "year": 1998,
       "episode": "S05E03",
