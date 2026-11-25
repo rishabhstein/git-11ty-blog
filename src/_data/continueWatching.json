@@ -1,18 +1,18 @@
 {
   "items": [
     {
+      "title": "Friends",
+      "year": 1998,
+      "episode": "S05E04",
+      "percent": 27,
+      "cover": "/assets/images/watching/385.webp"
+    },
+    {
       "title": "Loki",
       "year": 2023,
       "episode": "S02E03",
       "percent": 66,
       "cover": "/assets/images/watching/2512.webp"
-    },
-    {
-      "title": "Friends",
-      "year": 1998,
-      "episode": "S05E03",
-      "percent": 26,
-      "cover": "/assets/images/watching/385.webp"
     },
     {
       "title": "Those About to Die",
