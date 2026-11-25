@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "title": "Outlander",
+      "year": 2018,
+      "episode": "S04E01",
+      "percent": 63,
+      "cover": "/assets/images/watching/2719.webp"
+    },
+    {
       "title": "Friends",
       "year": 1998,
       "episode": "S05E04",
