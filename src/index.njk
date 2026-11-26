@@ -6,30 +6,102 @@ layout: 'base.njk'
 
 
 <div class="portal-layout home-index">
-  <div class="portal-center">
-    {% set recentPosts = collections.post | reverse %}
-
-    {# No featured post on the home page, so the list below starts with the newest. #}
+  <div class="portal-center home-panels">
+    {# No featured post on the home page, so the lists below start with the newest. #}
     {% set featuredUrl = "" %}
 
-    <a href="/archives/" class="section-title-link"><h4 class="telegraph-section-title">Writings</h4></a>
+    {# Each .home-panel fills the screen; scrolling snaps from one to the next. #}
+    <div class="home-panel" id="recent">
+      <h4 class="telegraph-section-title">Recent</h4>
 
-    <section class="section writing-layout">
-      <div class="writing-row-one writing-row-full">
-        <ul class="entry-list">
-          {# Test: every kind of entry (writing, books, movies, photos), newest first. #}
-          {% for post in collections.siteActivity | excludeUrl(featuredUrl) %}
-            {% if loop.index <= 6 %}
-            {% set kind = "Book" if "books" in post.data.tags else ("Movie" if "movies" in post.data.tags else ("Photo" if "snap" in post.data.tags else "Post")) %}
-            <li class="entry-item{% if post.data.highlight %} writing-highlight{% endif %}">
-              <a href="{{ post.url }}" class="u-url p-name entry-title">{{ post.data.title }}</a>
-              <span class="entry-date">{% if kind %}<span class="entry-kind">{{ kind }}</span> · {% endif %}<time datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time></span>
-            </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+      <section class="section writing-layout">
+        <div class="writing-row-one writing-row-full">
+          <ul class="entry-list">
+            {# Every kind of entry (writing, books, movies, photos), newest first. #}
+            {% for post in collections.siteActivity | excludeUrl(featuredUrl) %}
+              {% if loop.index <= 6 %}
+              {% set kind = "Book" if "books" in post.data.tags else ("Movie" if "movies" in post.data.tags else ("Photo" if "snap" in post.data.tags else "Post")) %}
+              <li class="entry-item{% if post.data.highlight %} writing-highlight{% endif %}">
+                <a href="{{ post.url }}" class="u-url p-name entry-title">{{ post.data.title }}</a>
+                <span class="entry-date">{% if kind %}<span class="entry-kind">{{ kind }}</span> · {% endif %}<time datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time></span>
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="home-panel" id="writings">
+      <a href="/archives/" class="section-title-link"><h4 class="telegraph-section-title">Writings</h4></a>
+
+      <section class="section writing-layout">
+        <div class="writing-row-one writing-row-full">
+          <ul class="entry-list">
+            {% for post in collections.postArchive | excludeUrl(featuredUrl) %}
+              {% if loop.index <= 6 %}
+              <li class="entry-item{% if post.data.highlight %} writing-highlight{% endif %}">
+                <a href="{{ post.url }}" class="u-url p-name entry-title">{{ post.data.title }}</a>
+                <span class="entry-date"><time datetime="{{ post.date | isoDate }}">{{ post.date | postDate }}</time></span>
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="home-panel" id="movies">
+      <a href="/movies/" class="section-title-link"><h4 class="telegraph-section-title">Movies</h4></a>
+
+      <div class="book-section-grid">
+        {% for movie in collections.movieArchive %}
+          {% if loop.index <= 10 %}
+          <div class="book-entry-grid">
+            <a href="{{ movie.url }}" class="book-cover" title="{{ movie.data.title }}">
+              <img src="{{ movie.data.cover | assetUrl }}" alt="{{ movie.data.title }}" loading="lazy">
+              <div class="star-rating">
+                {% for i in range(movie.data.rating) %}⭐{% endfor %}
+              </div>
+            </a>
+          </div>
+          {% endif %}
+        {% endfor %}
       </div>
-    </section>
-  <br>
+    </div>
+
+    <div class="home-panel" id="books">
+      <a href="/books/" class="section-title-link"><h4 class="telegraph-section-title">Books</h4></a>
+
+      <div class="book-section-grid">
+        {% for book in collections.bookArchive %}
+          {% if loop.index <= 10 %}
+          <div class="book-entry-grid">
+            <a href="{{ book.url }}" class="book-cover" title="{{ book.data.title }}">
+              <img src="{{ book.data.cover | assetUrl }}" alt="{{ book.data.title }}" loading="lazy">
+              <div class="star-rating">
+                {% for i in range(book.data.rating) %}⭐{% endfor %}
+              </div>
+            </a>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="home-panel" id="photos">
+      <a href="/snap/" class="section-title-link"><h4 class="telegraph-section-title">Photos</h4></a>
+
+      <div class="home-snap-row">
+        {% for snap in collections.snap | reverse %}
+          {% if loop.index <= 8 %}
+            <a href="{{ snap.url }}" class="home-snap" title="{{ snap.data.title }}">
+              <img src="{{ snap.data.cover | assetUrl }}" alt="{{ snap.data.title }}" loading="lazy">
+              <span class="home-snap-caption">{{ snap.data.title }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>

@@ -4522,6 +4522,7 @@ main > .layout-wrapper {
 .portal-center > .main-article > h1:first-child,
 .home-index .portal-center > .section-title-link:first-of-type > h4,
 .portal-center > .container-narrow > main > h4:first-child,
+.home-panel > .section-title-link > h4,
 .site-sidebar-title {
   font-family: var(--font-title);
   font-weight: 500;
@@ -4815,4 +4816,50 @@ main > .layout-wrapper:has(.post-nav) {
 .site-home:hover svg,
 .site-home:focus-visible svg {
   transform: translateY(-2px);
+}
+
+/* ============================================================
+   Home page as full-screen panels (Recent, Writings, Movies,
+   Books, Photos). Each panel is one screen tall and scrolling
+   snaps to the next one, like turning a page.
+   ============================================================ */
+html:has(.home-panels) {
+  scroll-snap-type: y mandatory;
+}
+
+.home-panel {
+  /* flow-root keeps the title's top margin inside the panel, so every
+     panel snaps with its title at the same height */
+  display: flow-root;
+  box-sizing: border-box;
+  /* body is zoomed by --ui-scale, so undo it to fill the real screen */
+  min-height: calc(100svh / var(--ui-scale));
+  padding-bottom: 4vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Every panel title gets the same page-title look the home heading had. */
+.portal-layout .portal-center .home-panel > h4:first-child,
+.portal-layout .portal-center .home-panel > .section-title-link > h4 {
+  margin-top: 19vh;
+  margin-bottom: 61px;
+  font-size: clamp(26px, 1vw + 22px, 30px);
+  line-height: 1.25;
+}
+
+.home-panel .book-section-grid {
+  max-width: 100%;
+  justify-content: flex-start;
+  gap: 0.75rem;
+}
+
+.home-panel .home-snap-row {
+  margin-top: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html:has(.home-panels) {
+    scroll-behavior: smooth;
+  }
 }
