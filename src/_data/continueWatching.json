@@ -1,18 +1,18 @@
 {
   "items": [
     {
-      "title": "Outlander",
-      "year": 2018,
-      "episode": "S04E03",
-      "percent": 57,
-      "cover": "/assets/images/watching/2719.webp"
-    },
-    {
       "title": "Friends",
       "year": 1998,
       "episode": "S05E04",
       "percent": 27,
       "cover": "/assets/images/watching/385.webp"
+    },
+    {
+      "title": "Outlander",
+      "year": 2018,
+      "episode": "S04E03",
+      "percent": 57,
+      "cover": "/assets/images/watching/2719.webp"
     },
     {
       "title": "Loki",
