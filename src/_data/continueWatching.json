@@ -1,9 +1,15 @@
 {
   "items": [
     {
+      "title": "Avengers: Infinity War",
+      "year": 2018,
+      "percent": 20,
+      "cover": "/assets/images/watching/5570.webp"
+    },
+    {
       "title": "Friends",
       "year": 1998,
-      "episode": "S05E06",
+      "episode": "S05E07",
       "percent": 15,
       "cover": "/assets/images/watching/385.webp"
     },
