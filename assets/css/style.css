@@ -4863,3 +4863,23 @@ html:has(.home-panels) {
     scroll-behavior: smooth;
   }
 }
+
+/* Home panels on a phone: no top padding above the first panel (snapping
+   would scroll it away, taking the tabs under Safari's bar), the tabs stay
+   pinned on every panel, and titles use the mobile page-title gap, with
+   room above for the tabs. */
+@media (max-width: 700px) {
+  body:has(.home-panels) main > .layout-wrapper {
+    padding-top: 0;
+  }
+
+  body:has(.home-panels) :is(.site-sidebar-toggle, .site-rightbar-toggle, .site-home) {
+    position: fixed;
+  }
+
+  .portal-layout .portal-center .home-panel > h4:first-child,
+  .portal-layout .portal-center .home-panel > .section-title-link > h4 {
+    margin-top: calc(64px + 4vh);
+    margin-bottom: 32px;
+  }
+}

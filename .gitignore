@@ -5,3 +5,6 @@ _site/
 
 # Temp files the export scripts write before renaming into place
 *.tmp
+
+# Webmention fallback cache: rewritten on every build
+.cache/webmentions-cache.json
