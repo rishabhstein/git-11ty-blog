@@ -1,10 +1,17 @@
 {
   "items": [
     {
-      "title": "The AI Doc: Or How I Became an Apocaloptimist",
-      "year": 2026,
-      "percent": 72,
-      "cover": "/assets/images/watching/5615.webp"
+      "title": "Avengers: Endgame",
+      "year": 2019,
+      "percent": 8,
+      "cover": "/assets/images/watching/5569.webp"
+    },
+    {
+      "title": "Friends",
+      "year": 1998,
+      "episode": "S05E07",
+      "percent": 15,
+      "cover": "/assets/images/watching/385.webp"
     },
     {
       "title": "Outlander",
@@ -12,13 +19,6 @@
       "episode": "S04E03",
       "percent": 57,
       "cover": "/assets/images/watching/2719.webp"
-    },
-    {
-      "title": "Friends",
-      "year": 1998,
-      "episode": "S05E04",
-      "percent": 27,
-      "cover": "/assets/images/watching/385.webp"
     },
     {
       "title": "Loki",
