@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" role="img" aria-label="Speed chart, max 12 · min 4 km/h" data-range="max 12 · min 4 km/h">
+  <defs>
+    <linearGradient id="speed-fill" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f59f00" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#f59f00" stop-opacity="0.02" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="640" height="180" rx="6" fill="#fbfbfb" fill-opacity="1" />
+
+  <line x1="46" y1="16.0" x2="624" y2="16.0" stroke="#e5e9ef" stroke-width="1" />
+  <text x="38" y="21.0" text-anchor="end" fill="#5a6472" font-size="15" font-family="inherit">13</text>
+  <line x1="46" y1="59.3" x2="624" y2="59.3" stroke="#e5e9ef" stroke-width="1" />
+  <text x="38" y="64.3" text-anchor="end" fill="#5a6472" font-size="15" font-family="inherit">10</text>
+  <line x1="46" y1="102.7" x2="624" y2="102.7" stroke="#e5e9ef" stroke-width="1" />
+  <text x="38" y="107.7" text-anchor="end" fill="#5a6472" font-size="15" font-family="inherit">6</text>
+  <line x1="46" y1="146.0" x2="624" y2="146.0" stroke="#e5e9ef" stroke-width="1" />
+  <text x="38" y="151.0" text-anchor="end" fill="#5a6472" font-size="15" font-family="inherit">3</text>
+  <polygon points="46,146 46.0,133.8 49.4,79.8 52.8,87.2 56.2,79.4 59.6,79.8 63.0,78.1 66.4,68.3 69.8,74.0 73.2,76.1 76.6,76.5 80.0,75.3 83.4,76.9 86.8,79.0 90.3,79.8 93.7,80.2 97.1,79.8 100.5,79.0 103.9,79.0 107.3,79.4 110.7,79.0 114.1,78.1 117.5,78.1 120.9,79.0 124.3,78.6 127.7,79.0 131.1,74.9 134.5,68.3 137.9,56.0 141.3,55.2 144.7,53.6 148.1,49.9 151.5,53.2 154.9,48.7 158.3,47.8 161.7,47.5 165.1,46.6 168.5,45.4 171.9,45.4 175.4,43.8 178.8,42.5 182.2,42.9 185.6,43.8 189.0,44.2 192.4,43.8 195.8,43.3 199.2,43.3 202.6,44.2 206.0,45.0 209.4,45.4 212.8,45.4 216.2,49.1 219.6,46.6 223.0,44.6 226.4,44.6 229.8,45.8 233.2,46.2 236.6,47.5 240.0,46.6 243.4,47.5 246.8,48.7 250.2,49.5 253.6,50.3 257.0,49.9 260.5,52.8 263.9,43.8 267.3,42.1 270.7,45.0 274.1,40.9 277.5,37.2 280.9,36.8 284.3,36.8 287.7,34.7 291.1,33.5 294.5,31.5 297.9,30.3 301.3,30.6 304.7,29.4 308.1,28.2 311.5,29.4 314.9,31.0 318.3,30.6 321.7,29.4 325.1,31.0 328.5,31.0 331.9,36.8 335.3,51.5 338.7,54.8 342.1,54.4 345.6,53.6 349.0,59.7 352.4,58.9 355.8,56.8 359.2,56.8 362.6,58.1 366.0,59.7 369.4,60.1 372.8,60.1 376.2,60.5 379.6,61.8 383.0,62.6 386.4,62.2 389.8,61.8 393.2,61.4 396.6,61.4 400.0,59.7 403.4,59.7 406.8,60.9 410.2,62.2 413.6,62.2 417.0,63.0 423.8,64.2 427.2,47.5 430.7,53.6 434.1,54.4 437.5,52.8 440.9,54.4 444.3,58.5 447.7,60.1 451.1,60.5 454.5,60.9 457.9,60.1 461.3,59.7 464.7,59.3 468.1,57.7 471.5,57.2 474.9,57.2 478.3,58.1 481.7,59.3 485.1,65.0 488.5,65.4 491.9,56.4 495.3,60.5 498.7,61.4 502.1,63.0 505.5,64.2 508.9,64.2 512.3,64.2 515.8,65.4 519.2,66.7 522.6,67.1 526.0,66.7 529.4,65.0 532.8,64.2 536.2,66.3 539.6,76.5 543.0,74.9 546.4,74.4 549.8,72.4 553.2,56.8 556.6,74.0 560.0,74.0 563.4,72.4 566.8,74.4 570.2,73.2 573.6,67.9 577.0,67.9 580.4,68.7 583.8,68.7 587.2,69.5 590.6,69.1 594.0,67.5 597.4,66.7 600.9,67.5 604.3,67.1 607.7,67.1 611.1,66.7 614.5,66.7 617.9,67.5 621.3,68.3 624.0,69.1 624,146" fill="url(#speed-fill)" />
+  <line x1="46" y1="16" x2="46" y2="146" stroke="#94a0ad" stroke-width="1.5" />
+  <line x1="46" y1="146" x2="624" y2="146" stroke="#94a0ad" stroke-width="1.5" />
+  <circle cx="46.0" cy="133.8" r="2" fill="#f59f00" />
+  <circle cx="49.4" cy="79.8" r="2" fill="#f59f00" />
+  <circle cx="52.8" cy="87.2" r="2" fill="#f59f00" />
+  <circle cx="56.2" cy="79.4" r="2" fill="#f59f00" />
+  <circle cx="59.6" cy="79.8" r="2" fill="#f59f00" />
+  <circle cx="63.0" cy="78.1" r="2" fill="#f59f00" />
+  <circle cx="66.4" cy="68.3" r="2" fill="#f59f00" />
+  <circle cx="69.8" cy="74.0" r="2" fill="#f59f00" />
+  <circle cx="73.2" cy="76.1" r="2" fill="#f59f00" />
+  <circle cx="76.6" cy="76.5" r="2" fill="#f59f00" />
+  <circle cx="80.0" cy="75.3" r="2" fill="#f59f00" />
+  <circle cx="83.4" cy="76.9" r="2" fill="#f59f00" />
+  <circle cx="86.8" cy="79.0" r="2" fill="#f59f00" />
+  <circle cx="90.3" cy="79.8" r="2" fill="#f59f00" />
+  <circle cx="93.7" cy="80.2" r="2" fill="#f59f00" />
+  <circle cx="97.1" cy="79.8" r="2" fill="#f59f00" />
+  <circle cx="100.5" cy="79.0" r="2" fill="#f59f00" />
+  <circle cx="103.9" cy="79.0" r="2" fill="#f59f00" />
+  <circle cx="107.3" cy="79.4" r="2" fill="#f59f00" />
+  <circle cx="110.7" cy="79.0" r="2" fill="#f59f00" />
+  <circle cx="114.1" cy="78.1" r="2" fill="#f59f00" />
+  <circle cx="117.5" cy="78.1" r="2" fill="#f59f00" />
+  <circle cx="120.9" cy="79.0" r="2" fill="#f59f00" />
+  <circle cx="124.3" cy="78.6" r="2" fill="#f59f00" />
+  <circle cx="127.7" cy="79.0" r="2" fill="#f59f00" />
+  <circle cx="131.1" cy="74.9" r="2" fill="#f59f00" />
+  <circle cx="134.5" cy="68.3" r="2" fill="#f59f00" />
+  <circle cx="137.9" cy="56.0" r="2" fill="#f59f00" />
+  <circle cx="141.3" cy="55.2" r="2" fill="#f59f00" />
+  <circle cx="144.7" cy="53.6" r="2" fill="#f59f00" />
+  <circle cx="148.1" cy="49.9" r="2" fill="#f59f00" />
+  <circle cx="151.5" cy="53.2" r="2" fill="#f59f00" />
+  <circle cx="154.9" cy="48.7" r="2" fill="#f59f00" />
+  <circle cx="158.3" cy="47.8" r="2" fill="#f59f00" />
+  <circle cx="161.7" cy="47.5" r="2" fill="#f59f00" />
+  <circle cx="165.1" cy="46.6" r="2" fill="#f59f00" />
+  <circle cx="168.5" cy="45.4" r="2" fill="#f59f00" />
+  <circle cx="171.9" cy="45.4" r="2" fill="#f59f00" />
+  <circle cx="175.4" cy="43.8" r="2" fill="#f59f00" />
+  <circle cx="178.8" cy="42.5" r="2" fill="#f59f00" />
+  <circle cx="182.2" cy="42.9" r="2" fill="#f59f00" />
+  <circle cx="185.6" cy="43.8" r="2" fill="#f59f00" />
+  <circle cx="189.0" cy="44.2" r="2" fill="#f59f00" />
+  <circle cx="192.4" cy="43.8" r="2" fill="#f59f00" />
+  <circle cx="195.8" cy="43.3" r="2" fill="#f59f00" />
+  <circle cx="199.2" cy="43.3" r="2" fill="#f59f00" />
+  <circle cx="202.6" cy="44.2" r="2" fill="#f59f00" />
+  <circle cx="206.0" cy="45.0" r="2" fill="#f59f00" />
+  <circle cx="209.4" cy="45.4" r="2" fill="#f59f00" />
+  <circle cx="212.8" cy="45.4" r="2" fill="#f59f00" />
+  <circle cx="216.2" cy="49.1" r="2" fill="#f59f00" />
+  <circle cx="219.6" cy="46.6" r="2" fill="#f59f00" />
+  <circle cx="223.0" cy="44.6" r="2" fill="#f59f00" />
+  <circle cx="226.4" cy="44.6" r="2" fill="#f59f00" />
+  <circle cx="229.8" cy="45.8" r="2" fill="#f59f00" />
+  <circle cx="233.2" cy="46.2" r="2" fill="#f59f00" />
+  <circle cx="236.6" cy="47.5" r="2" fill="#f59f00" />
+  <circle cx="240.0" cy="46.6" r="2" fill="#f59f00" />
+  <circle cx="243.4" cy="47.5" r="2" fill="#f59f00" />
+  <circle cx="246.8" cy="48.7" r="2" fill="#f59f00" />
+  <circle cx="250.2" cy="49.5" r="2" fill="#f59f00" />
+  <circle cx="253.6" cy="50.3" r="2" fill="#f59f00" />
+  <circle cx="257.0" cy="49.9" r="2" fill="#f59f00" />
+  <circle cx="260.5" cy="52.8" r="2" fill="#f59f00" />
+  <circle cx="263.9" cy="43.8" r="2" fill="#f59f00" />
+  <circle cx="267.3" cy="42.1" r="2" fill="#f59f00" />
+  <circle cx="270.7" cy="45.0" r="2" fill="#f59f00" />
+  <circle cx="274.1" cy="40.9" r="2" fill="#f59f00" />
+  <circle cx="277.5" cy="37.2" r="2" fill="#f59f00" />
+  <circle cx="280.9" cy="36.8" r="2" fill="#f59f00" />
+  <circle cx="284.3" cy="36.8" r="2" fill="#f59f00" />
+  <circle cx="287.7" cy="34.7" r="2" fill="#f59f00" />
+  <circle cx="291.1" cy="33.5" r="2" fill="#f59f00" />
+  <circle cx="294.5" cy="31.5" r="2" fill="#f59f00" />
+  <circle cx="297.9" cy="30.3" r="2" fill="#f59f00" />
+  <circle cx="301.3" cy="30.6" r="2" fill="#f59f00" />
+  <circle cx="304.7" cy="29.4" r="2" fill="#f59f00" />
+  <circle cx="308.1" cy="28.2" r="2" fill="#f59f00" />
+  <circle cx="311.5" cy="29.4" r="2" fill="#f59f00" />
+  <circle cx="314.9" cy="31.0" r="2" fill="#f59f00" />
+  <circle cx="318.3" cy="30.6" r="2" fill="#f59f00" />
+  <circle cx="321.7" cy="29.4" r="2" fill="#f59f00" />
+  <circle cx="325.1" cy="31.0" r="2" fill="#f59f00" />
+  <circle cx="328.5" cy="31.0" r="2" fill="#f59f00" />
+  <circle cx="331.9" cy="36.8" r="2" fill="#f59f00" />
+  <circle cx="335.3" cy="51.5" r="2" fill="#f59f00" />
+  <circle cx="338.7" cy="54.8" r="2" fill="#f59f00" />
+  <circle cx="342.1" cy="54.4" r="2" fill="#f59f00" />
+  <circle cx="345.6" cy="53.6" r="2" fill="#f59f00" />
+  <circle cx="349.0" cy="59.7" r="2" fill="#f59f00" />
+  <circle cx="352.4" cy="58.9" r="2" fill="#f59f00" />
+  <circle cx="355.8" cy="56.8" r="2" fill="#f59f00" />
+  <circle cx="359.2" cy="56.8" r="2" fill="#f59f00" />
+  <circle cx="362.6" cy="58.1" r="2" fill="#f59f00" />
+  <circle cx="366.0" cy="59.7" r="2" fill="#f59f00" />
+  <circle cx="369.4" cy="60.1" r="2" fill="#f59f00" />
+  <circle cx="372.8" cy="60.1" r="2" fill="#f59f00" />
+  <circle cx="376.2" cy="60.5" r="2" fill="#f59f00" />
+  <circle cx="379.6" cy="61.8" r="2" fill="#f59f00" />
+  <circle cx="383.0" cy="62.6" r="2" fill="#f59f00" />
+  <circle cx="386.4" cy="62.2" r="2" fill="#f59f00" />
+  <circle cx="389.8" cy="61.8" r="2" fill="#f59f00" />
+  <circle cx="393.2" cy="61.4" r="2" fill="#f59f00" />
+  <circle cx="396.6" cy="61.4" r="2" fill="#f59f00" />
+  <circle cx="400.0" cy="59.7" r="2" fill="#f59f00" />
+  <circle cx="403.4" cy="59.7" r="2" fill="#f59f00" />
+  <circle cx="406.8" cy="60.9" r="2" fill="#f59f00" />
+  <circle cx="410.2" cy="62.2" r="2" fill="#f59f00" />
+  <circle cx="413.6" cy="62.2" r="2" fill="#f59f00" />
+  <circle cx="417.0" cy="63.0" r="2" fill="#f59f00" />
+  <circle cx="423.8" cy="64.2" r="2" fill="#f59f00" />
+  <circle cx="427.2" cy="47.5" r="2" fill="#f59f00" />
+  <circle cx="430.7" cy="53.6" r="2" fill="#f59f00" />
+  <circle cx="434.1" cy="54.4" r="2" fill="#f59f00" />
+  <circle cx="437.5" cy="52.8" r="2" fill="#f59f00" />
+  <circle cx="440.9" cy="54.4" r="2" fill="#f59f00" />
+  <circle cx="444.3" cy="58.5" r="2" fill="#f59f00" />
+  <circle cx="447.7" cy="60.1" r="2" fill="#f59f00" />
+  <circle cx="451.1" cy="60.5" r="2" fill="#f59f00" />
+  <circle cx="454.5" cy="60.9" r="2" fill="#f59f00" />
+  <circle cx="457.9" cy="60.1" r="2" fill="#f59f00" />
+  <circle cx="461.3" cy="59.7" r="2" fill="#f59f00" />
+  <circle cx="464.7" cy="59.3" r="2" fill="#f59f00" />
+  <circle cx="468.1" cy="57.7" r="2" fill="#f59f00" />
+  <circle cx="471.5" cy="57.2" r="2" fill="#f59f00" />
+  <circle cx="474.9" cy="57.2" r="2" fill="#f59f00" />
+  <circle cx="478.3" cy="58.1" r="2" fill="#f59f00" />
+  <circle cx="481.7" cy="59.3" r="2" fill="#f59f00" />
+  <circle cx="485.1" cy="65.0" r="2" fill="#f59f00" />
+  <circle cx="488.5" cy="65.4" r="2" fill="#f59f00" />
+  <circle cx="491.9" cy="56.4" r="2" fill="#f59f00" />
+  <circle cx="495.3" cy="60.5" r="2" fill="#f59f00" />
+  <circle cx="498.7" cy="61.4" r="2" fill="#f59f00" />
+  <circle cx="502.1" cy="63.0" r="2" fill="#f59f00" />
+  <circle cx="505.5" cy="64.2" r="2" fill="#f59f00" />
+  <circle cx="508.9" cy="64.2" r="2" fill="#f59f00" />
+  <circle cx="512.3" cy="64.2" r="2" fill="#f59f00" />
+  <circle cx="515.8" cy="65.4" r="2" fill="#f59f00" />
+  <circle cx="519.2" cy="66.7" r="2" fill="#f59f00" />
+  <circle cx="522.6" cy="67.1" r="2" fill="#f59f00" />
+  <circle cx="526.0" cy="66.7" r="2" fill="#f59f00" />
+  <circle cx="529.4" cy="65.0" r="2" fill="#f59f00" />
+  <circle cx="532.8" cy="64.2" r="2" fill="#f59f00" />
+  <circle cx="536.2" cy="66.3" r="2" fill="#f59f00" />
+  <circle cx="539.6" cy="76.5" r="2" fill="#f59f00" />
+  <circle cx="543.0" cy="74.9" r="2" fill="#f59f00" />
+  <circle cx="546.4" cy="74.4" r="2" fill="#f59f00" />
+  <circle cx="549.8" cy="72.4" r="2" fill="#f59f00" />
+  <circle cx="553.2" cy="56.8" r="2" fill="#f59f00" />
+  <circle cx="556.6" cy="74.0" r="2" fill="#f59f00" />
+  <circle cx="560.0" cy="74.0" r="2" fill="#f59f00" />
+  <circle cx="563.4" cy="72.4" r="2" fill="#f59f00" />
+  <circle cx="566.8" cy="74.4" r="2" fill="#f59f00" />
+  <circle cx="570.2" cy="73.2" r="2" fill="#f59f00" />
+  <circle cx="573.6" cy="67.9" r="2" fill="#f59f00" />
+  <circle cx="577.0" cy="67.9" r="2" fill="#f59f00" />
+  <circle cx="580.4" cy="68.7" r="2" fill="#f59f00" />
+  <circle cx="583.8" cy="68.7" r="2" fill="#f59f00" />
+  <circle cx="587.2" cy="69.5" r="2" fill="#f59f00" />
+  <circle cx="590.6" cy="69.1" r="2" fill="#f59f00" />
+  <circle cx="594.0" cy="67.5" r="2" fill="#f59f00" />
+  <circle cx="597.4" cy="66.7" r="2" fill="#f59f00" />
+  <circle cx="600.9" cy="67.5" r="2" fill="#f59f00" />
+  <circle cx="604.3" cy="67.1" r="2" fill="#f59f00" />
+  <circle cx="607.7" cy="67.1" r="2" fill="#f59f00" />
+  <circle cx="611.1" cy="66.7" r="2" fill="#f59f00" />
+  <circle cx="614.5" cy="66.7" r="2" fill="#f59f00" />
+  <circle cx="617.9" cy="67.5" r="2" fill="#f59f00" />
+  <circle cx="621.3" cy="68.3" r="2" fill="#f59f00" />
+  <circle cx="624.0" cy="69.1" r="2" fill="#f59f00" />
+  <text x="46" y="170" fill="#5a6472" font-size="15" font-family="inherit">07:37 AM</text>
+  <text x="624" y="170" text-anchor="end" fill="#5a6472" font-size="15" font-family="inherit">07:51 AM</text>
+</svg>
